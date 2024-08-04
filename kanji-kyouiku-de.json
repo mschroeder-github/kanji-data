@@ -39309,31 +39309,5 @@
         "meanings_de": [
             "Seide"
         ]
-    },
-    "蚕": {
-        "strokes": 10,
-        "grade": 6,
-        "freq": 2272,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Silkworm"
-        ],
-        "readings_on": [
-            "さん",
-            "てん"
-        ],
-        "readings_kun": [
-            "かいこ",
-            "こ"
-        ],
-        "wk_level": null,
-        "wk_meanings": null,
-        "wk_readings_on": null,
-        "wk_readings_kun": null,
-        "wk_radicals": null,
-        "meanings_de": [
-            "Seidenraupe"
-        ]
     }
 }

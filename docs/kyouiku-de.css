@@ -1,0 +1,61 @@
+
+
+.meaning {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    /* background-color: #ffffa3; */
+}
+
+.missing {
+    background-color: #ffe4e4 !important;
+}
+
+.kanji_is_radical {
+    background-color: #ececec !important;
+}
+
+
+/* radical -> meaning */
+.radical {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #a3ffb3;
+}
+.radical_kanji {
+
+}
+.meaning_kanji_meaning {
+
+}
+
+/* meaning -> reading */
+.meaning_kanji_reading {
+
+}
+.reading {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.onyomi {
+    background-color: #ffa3a3;
+}
+.kunyomi {
+    background-color: #a3d9ff;
+}
+.hiragana {
+
+}
+
+
+/* other */
+.meanings_en {
+    color: gray;
+}

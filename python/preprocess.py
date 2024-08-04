@@ -8,65 +8,7 @@ from tqdm import tqdm
 import requests
 from bs4 import BeautifulSoup
 
-
-def hiragana_check_dict():
-    with gzip.open('../dict-pos_comma.csv.gz', mode='rt', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        rows = [row for row in reader]
-
-    print(len(rows), 'rows')
-
-    ctxs = []
-
-    for hiragana, ascii in hiragana_to_ascii.items():
-        # print(hiragana, ascii)
-
-        ctx = {}
-        ctx['hiragana'] = hiragana
-        ctx['ascii'] = ascii
-        ctx['match_rows'] = []
-        ctx['match_rows_contains'] = []
-        ctx['langs'] = defaultdict(int)
-        ctx['pos'] = defaultdict(int)
-
-        for row in rows:
-            test_asciis = [ascii]
-            if 'y' in ascii:
-                test_asciis.append(ascii.replace('y', 'i'))
-                test_asciis.append(ascii.replace('y', 'ie'))
-                test_asciis.append(ascii.replace('y', 'ih'))
-
-            for test_ascii in test_asciis:
-                if row[0].lower().startswith(test_ascii):
-                    ctx['match_rows'].append(row)
-                    ctx['langs'][row[1]] += 1
-                    ctx['pos'][row[2]] += 1
-
-            for test_ascii in test_asciis:
-                if test_ascii in row[0].lower():
-                    ctx['match_rows_contains'].append(row)
-
-        ctxs.append(ctx)
-
-        #print()
-        #print()
-        #print(ctx['hiragana'], ctx['ascii'], len(ctx['match_rows']), ctx['langs'], ctx['pos'])
-
-    ctxs = sorted(ctxs, key=lambda x: len(x['match_rows']), reverse=True)
-
-    for ctx in ctxs:
-        print(ctx['hiragana'], ctx['ascii'], len(ctx['match_rows']), ctx['langs'], ctx['pos'])
-
-        if len(ctx['match_rows']) < 150:
-            for row in ctx['match_rows']:
-                print('\t', row)
-            for row in ctx['match_rows_contains']:
-                print('\t', row, 'contains')
-
-
-def kanji_check():
-    os.makedirs("export", exist_ok=True)
-
+def best_reading_german_word_match():
 
     # all 1000 school kanjis
     with open('../kanji-kyouiku.json', 'rt') as file:
@@ -90,10 +32,6 @@ def kanji_check():
                 if yomi.startswith('!') or yomi.startswith('^'):
                     continue
 
-                # romaji = hiragana_to_romaji(yomi)
-                #if romaji is None:
-                #    print('test')
-
                 yomi_dict[yomi] += 1
 
                 for meaning in data['wk_meanings']:
@@ -102,8 +40,6 @@ def kanji_check():
 
                     yomi2meaning[yomi].append(meaning)
                 # print('\t', yomi, romaji)
-
-    #print(yomi_dict)
 
     with gzip.open('../dict-pos_comma.csv.gz', mode='rt', encoding='utf-8') as file:
         reader = csv.reader(file)
@@ -115,7 +51,7 @@ def kanji_check():
     print(len(yomi_dict.keys()), ' yomi words')
 
     langs = ['de', 'en']
-    ctxs = []
+    data = {}
 
     # ok now we have all the word how they are read most commonly
     for k,v in tqdm(dict(sorted(yomi_dict.items(), key=lambda item: item[1], reverse=True)).items()):
@@ -126,7 +62,7 @@ def kanji_check():
         ctx['romaji'] = romaji
         ctx['frequency'] = v
 
-        ctxs.append(ctx)
+        data[romaji] = ctx
 
         for lang in langs:
             for mode in ['start', 'end', 'contains']:
@@ -148,7 +84,12 @@ def kanji_check():
             ("y", "ieh"),
             ("tsu", "zu"),
             ("tsu", "tze"),
-            ("tsu", "TTsu")
+            ("tsu", "TTsu"),
+            ("a", "AH"),
+            ("e", "EH"),
+            ("i", "IH"),
+            ("o", "OH"),
+            ("u", "UH")
         }
         while True:
             replaced = False
@@ -177,28 +118,22 @@ def kanji_check():
                         #ctx[f'langs_{mode}_{row[2]}'][row[1]] += 1
                         #ctx[f'pos_{mode}_{row[2]}'][row[2]] += 1
 
-                        # shortest first
-                        ctx[f'match_rows_{mode}_{row[2]}'].sort(key=lambda x: len(x[0]))
-
         ctx['meanings'] = yomi2meaning[ctx['hiragana']]
+
+        for lang in langs:
+            for mode in ['start', 'end', 'contains']:
+                # shortest first
+                ctx[f'match_rows_{mode}_{lang}'].sort(key=lambda x: len(x[0]))
 
         count = len(ctx['match_rows_start_de'])
         if count == 0:
             count = len(ctx['match_rows_end_de'])
 
-        # _{len(ctx['match_rows_end_de'])}_{len(ctx['match_rows_contains_de'])}
-        with open(f'export/{ctx['romaji']}_{count}__{ctx['frequency']}.json', 'wt') as file:
-            json.dump(ctx, file, indent=2)
 
-        #print()
-        #print(ctx['hiragana'], yomi2meaning[ctx['hiragana']], len(yomi2meaning[ctx['hiragana']]), ctx['romaji'], ctx['frequency'], len(ctx['match_rows_start_de']), len(ctx['match_rows_start_de']), len(ctx['match_rows_contains_de']))
-
-        #for match in ctx['match_rows_start_de'][:10]:
-        #    print(match, 'start')
-        #for match in ctx['match_rows_end_de'][:10]:
-        #    print(match, 'end')
-        #for match in ctx['match_rows_contains_de'][:10]:
-        #    print(match, 'contains')
+    with open(f'../docs/best_reading_german_word_match.js', 'wt') as file:
+        file.write("const best_reading_german_word_match = \n")
+        json.dump(data, file, indent=2)
+        file.write(";\n")
 
 
 def add_german():
@@ -302,9 +237,48 @@ def radicals_check():
         v['wk_radicals_de'] = wk_radicals_de
         v['wk_radicals_kanji'] = wk_radicals_kanji
 
+        no_kanji_radicals_de = set([
+            "Pistole",
+            "Stock",
+            "Blatt",
+            "Hut",
+            "Triceratops",
+            "Bettler",
+            "Hörner",
+            "Stacheln",
+            "Kick",
+            "Wikinger",
+            "Umhang",
+            "Stollen",
+            "Gladiator",
+            "Papst",
+            "Frühling",
+            "Tintenfisch",
+            "Rundzelt",
+            "Chinesisch"
+        ])
+
+
+        if len(v['wk_radicals_de']) != len(v['wk_radicals_kanji']):
+            array = []
+            j = 0
+            for i, abc in enumerate(v['wk_radicals_de']):
+                if abc in no_kanji_radicals_de:
+                    array.append(" ")
+                else:
+                    if j < len(v['wk_radicals_kanji']):
+                        array.append(v['wk_radicals_kanji'][j])
+                        j += 1
+
+            # print(k, v['wk_radicals_de'], v['wk_radicals_kanji'], array)
+
+            v['wk_radicals_kanji'] = array
+
+            #if len(v['wk_radicals_de']) != len(array):
+            #    print('missing')
+
     with open('../kanji-kyouiku-de-radicals.json', 'wt', encoding='utf-8') as file:
         json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
-
 
 
 def wanikani_radicals():
@@ -408,7 +382,63 @@ def prepare_mnemonics():
         json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
 
+def check_radical_kanji_mapping():
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    name2kanji = defaultdict(set)
+
+    for entry in kanji_kyouiku:
+        if len(entry['wk_radicals_de']) != len(entry['wk_radicals_kanji']):
+            print(entry['wk_radicals_de'], entry['wk_radicals_kanji'])
+
+    for entry in kanji_kyouiku:
+        for (name,kanji) in zip(entry['wk_radicals_de'], entry['wk_radicals_kanji']):
+            name2kanji[name].add(kanji)
+
+    for name, kanjis in name2kanji.items():
+        if len(kanjis) > 1:
+            print(name, kanjis)
+
+def reading_decision():
+    data = {}
+
+    with open('../kanji-kyouiku-de-radicals-array.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    for entry in kanji_kyouiku:
+        for reading in ['wk_readings_on', 'wk_readings_kun']:
+            r = entry[reading]
+            if r is None:
+                continue
+
+            for yomi in entry[reading]:
+                # we use wanikani feedback for the best reading (80% coverage I hope)
+                if yomi.startswith('!') or yomi.startswith('^'):
+                    continue
+
+                romaji = hiragana_to_romaji(yomi)
+
+                if romaji not in data:
+                    data[romaji] = {
+                        'romaji': romaji,
+                        'hiragana': yomi,
+                        'reading_de': [],
+                        'reading_comment_de': [],
+                        'wk_reading': ''
+                    }
+
+
+    l = list(sorted(data.values(), key=lambda x: x['romaji']))
+
+    with open('../kanji-kyouiku-de-reading-decision.json', 'wt', encoding='utf-8') as file:
+        json.dump(l, file, indent=4, ensure_ascii=False)
+
+
 # add_german()
 # radicals_check()
 # dict_to_array()
-prepare_mnemonics()
+# prepare_mnemonics()
+# check_radical_kanji_mapping()
+#reading_decision()
+best_reading_german_word_match()
