@@ -109,8 +109,5 @@ A German sentence that combines the radicals to form the meaning.
 **Meaning -> Reading Mnmemonic**
 
 A German sentence that uses markup to emphasize how to read the kanji.
-<style>
-.reading { font-weight: bold; }
-</style>
 
-> Haare hängen nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_reading'>(下)</span>, also mit <span class='reading onyomi' data-hiragana='か'>Ka</span>mm <span class='hiragana'>(か)</span> und <span class='reading onyomi' data-hiragana='げ'>Ge</span>l <span class='hiragana'>(げ)</span> stylen.
+> Haare hängen nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_reading'>(下)</span>, also mit <span class='reading onyomi' data-hiragana='か'>"Ka"</span>mm <span class='hiragana'>(か)</span> und <span class='reading onyomi' data-hiragana='げ'>"Ge"</span>l <span class='hiragana'>(げ)</span> stylen.

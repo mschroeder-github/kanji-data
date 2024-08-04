@@ -1,4 +1,5 @@
 best_reading_german_word_match.*
+dict_de-pos_comma.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
