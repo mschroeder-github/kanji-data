@@ -59,3 +59,31 @@
 .meanings_en {
     color: gray;
 }
+
+
+/* radical img */
+.img_container img {
+    position: absolute;
+    opacity: 0;
+    /*transition: opacity 2s ease-in-out;*/
+    height: 50px;
+    width: 50px;
+}
+
+.img_container img:nth-child(1) {
+    animation: fade 6s infinite;
+}
+
+.img_container img:nth-child(2) {
+    animation: fade2 6s infinite;
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes fade2 {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
