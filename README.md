@@ -12,11 +12,55 @@ The preprocessing code is written in Python. The following changes are made.
 * Mnemonic sentences are prepared and manually filled. The keys are `mnemonic_meaning_de` and `mnemonic_reading_de`. It is written to `kanji-kyouiku-de-radicals-array-mnemonics.json`. See `prepare_mnemonics` function.
 * The `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` is the Work-In-Progress (WIP) file that is filled manually. The `watch_copy_to_docs.sh` is used to copy it to `docs`.
 * In `docs` folder is `kyouiku-de.html` which shows a table of the kanjis and mnemonics.
-* In `img` folder are image (`*-img.jpg`) and kanji (`*-kanji.jpg`) pairs to give a visual clue for those kanji which are radicals. Almost all images are generated (thanks to [pollinations](https://image.pollinations.ai/prompt/), [deepai](https://deepai.org/machine-learning-model/text2img) and [craiyon](https://www.craiyon.com/)), some are manually post-processed. There is now an option `"has_radical_img": true` to enable the visual clue in `kyouiku-de.html`. Using CSS, image and kanji are overlapped and blended in an animation.
-* **Milestone**: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` all mnmemonics and in `img` all visual clues for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) are completed.
+* In `img` folder are image (`*-img.jpg`) and kanji (`*-kanji.jpg`, transparent `*-kanji.png`) pairs to give a visual clue for those kanji which are radicals. Almost all images are generated (thanks to [pollinations](https://image.pollinations.ai/prompt/), [deepai](https://deepai.org/machine-learning-model/text2img) and [craiyon](https://www.craiyon.com/)), some are manually post-processed. There is now an option `"has_radical_img": true` to enable the visual clue in `kyouiku-de.html`. Using CSS, image and kanji are overlapped and blended in an animation.
+* The order given by the table in [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji) is used to sort entries in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json`. Every entry has an `order_wiki` key.
+* Completed entries are provieded as Anki cards (see section below).
+* **Milestone**: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) all mnmemonics and in `img` all visual clues are completed.
 
 
-### Example
+### Lesung Merksatz Leitfaden
+
+Um gute Merksätze für Lesungen zu schreiben, ist hier ein Leitfaden mit Empfehlungen zusammengefasst.
+
+1. Die Lesung sollte ein Prefix eines deutschen Wortes sein. Beispiel: **Ka**mm (か).
+2. Ist ein Perfix nicht möglich, präferiere ein Postfix. Beispiel: At**tacke** (たけ).
+3. Wenn Prefix und Postfix nicht möglich sind, präferiere ein Infix. Beispiel: Me**dai**llons (だい).
+4. Wenn Prefix, Postfix und Infix nicht möglich sind, erzeuge ein (erfundenes) Komposita. Beispiel: Emb**ryoku**gel (りょく), Wasser**hahnna**hrung (はな).
+5. Wenn Prefix, Postfix, Infix und Komposita nicht möglich sind, erzeuge ein Satz mit mehreren Wörtern. Beispiel: **Hai ja schi**kaniert (はやし).
+6. Gleiche Laute können bei der Verbindung von Wörtern genutzt werden. Beispiel: **ich Chips** (いち), **muss Schi**cksal (むし).
+7. Das Merkwort sollte so kurz wie möglich sein. Beispiel: **San**d (さん).
+8. Vermeide englische, japanische oder ungebräuchliche Wörter. Beispiel:  *engl.* **hatch** (はち), *jap.* **Shou**gun (しょう) oder **io**nisiert (よ) [Chemie Domäne].
+9. Bei lang gezogenen Vokalen in der Lesung möglichst auch ein Wort, das auch ein lang gezogenen Vokal hat. Beispiel: **Kuh** (くう).
+10. Bevorzuge Aussprache vor Aussehen. Beispiel: Fleiß**igju**gend (きゅう), anstatt Fleißi**kyuu**gend (きゅう).
+11. Vermeide Wörter, die weiter gelesen eine andere Lesung ergeben könnten. Beispiel: Für も nimm nicht **Mo**kka, da es auch die Lesung もか sein könnte.
+12. Vermeide Namen von Personen, Organisationen, Orten und anderen Entitäten. Beispiel: **Jo**hn (じょ).
+13. Der Merksatz sollte so kurz wie möglich sein.
+14. Die Merkwörter, die die Lesung enthalten, sollten am Satzende stehen.
+
+### Anki
+
+> [Anki](https://apps.ankiweb.net/) is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.
+
+Using data from `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` Anki decks are generated (see `make_anki` function). They are stored in the [anki](/anki) folder as `*.apkg` files.
+
+Three card types are available:
+* Bedeutung Merksatz Karte - learn the meaning of kanjis by mnemonic sentences.
+* Bedeutung Merkbild Karte - learn the meaning of kanjis by visual clues.
+* Lesung Merksatz Karte - learn the reading of kanjis by mnemonic sentences.
+
+For reading input there are two versions: hiragana or romaji. The latter proves to be useful when the learners do not have a Japanese input method. For multiple reading possibilities, a separator is used (by default space `" "`).
+
+#### Screenshots
+
+![](docs/anki-01.jpg)
+
+![](docs/anki-02.jpg)
+
+![](docs/anki-03.jpg)
+
+![](docs/anki-04.jpg)
+
+### JSON Example
 
 An entry in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` has the following structure:
 
@@ -99,7 +143,8 @@ An entry in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` has the followi
     "mnemonic_meaning_de": "Im <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span> steckt meine <span class='radical' data-kanji='ト'>Zehe</span> <span class='radical_kanji'>(ト)</span> und zeigt nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_meaning'>(下)</span>.",
     "mnemonic_meaning_de_done": true,
     "mnemonic_reading_de": "Haare hängen nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_reading'>(下)</span>, also mit <span class='reading onyomi' data-hiragana='か'>Ka</span>mm <span class='hiragana'>(か)</span> und <span class='reading onyomi' data-hiragana='げ'>Ge</span>l <span class='hiragana'>(げ)</span> stylen.",
-    "mnemonic_reading_de_done": true
+    "mnemonic_reading_de_done": true,
+    "order_wiki": 14
 }
 ```
 

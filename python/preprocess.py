@@ -1,3 +1,5 @@
+import numpy as np
+
 from hiragana import hiragana_to_romaji, hiragana_to_ascii
 import csv
 import gzip
@@ -11,6 +13,10 @@ import networkx as nx
 from networkx import DiGraph
 import matplotlib.pyplot as plt
 from networkx.drawing.nx_agraph import graphviz_layout
+from scipy.spatial.distance import cosine
+from functools import cmp_to_key
+import genanki
+import glob
 
 def best_reading_german_word_match():
 
@@ -516,6 +522,453 @@ def special_radicals():
     for v, k in per_grade.items():
         print(v, k)
 
+def germanet_categories():
+
+    germanet_list = defaultdict(list)
+    germanet_set = defaultdict(set)
+
+    all_categories = []
+
+    filenames = os.listdir('../germanet')
+    filenames.sort()
+    # print(filenames)
+
+    for filename in tqdm(filenames):
+
+        category, _ = os.path.splitext(filename)
+
+        # adj, nomen, verben might not matter
+        category = category.split('.')[1]
+
+        all_categories.append(category)
+
+        with open(os.path.join('../germanet', filename), 'r') as file:
+            soup = BeautifulSoup(file, 'xml')
+
+        orth_forms = soup.find_all('orthForm')
+
+        for orth in orth_forms:
+            #germanet_list[orth.text.lower()].append(category)
+            germanet_set[orth.text.lower()].add(category)
+
+
+    print(len(all_categories), ' categories')
+    print(len(germanet_list), ' germanet list entries')
+    print(len(germanet_set), ' germanet set entries')
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    germanet = germanet_set
+
+    for entry in kanji_kyouiku:
+        embedding = [0.0] * len(all_categories)
+
+        # ['Buch', 'Ursprung', 'Zählwort f. lange Dinge', 'wahr']
+        # "wahr" will get 1/4
+        for i, meaning in enumerate(entry['meanings_de']):
+            rank = i + 1
+            meaning = meaning.lower()
+            for cat in germanet[meaning]:
+                embedding[all_categories.index(cat)] += 1 # 1 / rank
+
+            # only the first meaning
+            break
+
+        total = sum([e for e in embedding])
+        categories = [all_categories[i] for i, e in enumerate(embedding) if e > 0]
+
+        if total > 0:
+            # normalize
+            embedding = [(e / total) for e in embedding]
+
+            germanet_dict = {
+                "categories": categories,
+                "embedding": embedding
+            }
+            entry['germanet'] = germanet_dict
+
+
+
+
+    kanji_kyouiku_done = [entry for entry in kanji_kyouiku if entry['mnemonic_reading_de_done'] and 'germanet' in entry]
+
+    print(len(kanji_kyouiku_done), 'done')
+
+    next_index = 0
+
+    kanji_kyouiku_sorted = []
+
+    while kanji_kyouiku_done:
+        a = kanji_kyouiku_done.pop(next_index)
+        kanji_kyouiku_sorted.append(a)
+
+        if len(kanji_kyouiku_done) == 0:
+            break
+
+        b = min(kanji_kyouiku_done, key=lambda x: cosine(a['germanet']['embedding'], x['germanet']['embedding']))
+
+        next_index = kanji_kyouiku_done.index(b)
+
+
+    for entry in kanji_kyouiku_sorted:
+        print(entry['meanings_de']) #, entry['germanet']['categories'], entry['germanet']['embedding'])
+
+def order():
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    # we use the order from this wiki page
+    url = "https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji"
+    html = requests.get(url)
+    soup = BeautifulSoup(html.content, 'html.parser')
+
+    kanji2no = {}
+    for tr in soup.find_all('tr'):
+        tds = tr.find_all('td')
+        if len(tds) == 0:
+            continue
+
+        no = int(tds[0].get_text())
+        kanji = tds[1].get_text()
+
+        kanji2no[kanji] = no
+
+        # print(no, kanji)
+
+    # print(kanji2no)
+
+    kanji_set = set([entry['kanji'] for entry in kanji_kyouiku])
+
+    for entry in kanji_kyouiku:
+
+        no = kanji2no[entry['kanji']]
+        entry['order_wiki'] = no
+
+        #if not is_done(entry):
+        #    continue
+
+        # if not is radical
+        #if not entry['is_radical']:
+        #    print(entry['kanji'], entry['wk_radicals_kanji'])
+        #    for rad in entry['wk_radicals_kanji']:
+        #        if rad not in kanji_set:
+        #            print('\t', rad, 'not in set')
+
+
+    kanji_kyouiku.sort(key=lambda x: x['order_wiki'])
+
+    #for entry in kanji_kyouiku:
+    #    print(entry['kanji'])
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
+        json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
+
+
+def is_done(entry):
+    return entry['mnemonic_reading_de_done'] and (entry['mnemonic_meaning_de_done'] or entry.get('has_radical_img'))
+
+
+def make_anki(romaji_reading=False, separator=" ", meaning_kanji_bg="#fffee6", reading_kanji_bg="#e6fffd"):
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+
+    qfmt_meaning = '''
+<b>Bedeutung</b> von
+<br/>
+<br/>
+<span class="kanji">{{Kanji}}</span>
+<br/>
+<br/>
+{{type:Bedeutung}}
+    '''
+
+    reading_mode = "Romaji" if romaji_reading else "Hiragana"
+
+    qfmt_reading = '''
+<b>Lesung</b> von
+<br/>
+<br/>
+<span class="kanji">{{Kanji}}</span>
+<br/>
+<br/>
+''' + '{{type:Lesung'+ reading_mode +'}}'
+
+
+    afmt_prefix = '''
+    {{FrontSide}}
+    '''
+
+    afmt_postfix = '''
+    <br/>
+    <span class="additional additional_de">{{Bedeutung_Weitere_Deutsch}}</span><br/>
+    <span class="additional additional_en">{{Bedeutung_Weitere_Englisch}}</span>
+    '''
+
+    # three models
+    # * meaning -> mnemonic
+    # * meaning -> image
+    # * reading -> mnemonic
+
+    mnemonic_meaning = genanki.Model(
+        1869128057,
+        'Kyōiku-Kanji Deutsch Bedeutung Merksatz',
+        fields=[
+            {'name': 'Kanji'},
+            {'name': 'Bedeutung'},
+            {'name': 'Bedeutung_Weitere_Deutsch'},
+            {'name': 'Bedeutung_Weitere_Englisch'},
+            {'name': 'Merksatz'}
+        ],
+        templates=[
+            {
+                'name': 'Bedeutung Merksatz Karte',
+                'qfmt': qfmt_meaning,
+                'afmt': afmt_prefix + '<br/><br/>{{Merksatz}}<br/>' + afmt_postfix,
+            }
+        ],
+        css="""
+        .card {
+            text-align: center;
+        }
+        .meaning {
+            font-weight: bold;
+            border: 0px solid black;
+            border-radius: 5px;
+            padding: 3px;
+        }
+        .radical {
+            font-weight: bold;
+            border: 0px solid black;
+            border-radius: 5px;
+            padding: 3px;
+            background-color: #a3ffb3;
+        }
+        .kanji {
+            font-size: 50px;
+            padding: 10px;""" +
+            f"background-color: {meaning_kanji_bg};" +
+        """
+        }
+        .additional {
+            font-size: small;
+        }
+        .additional_en {
+            color: gray;
+        }
+        """
+    )
+
+    image_meaning = genanki.Model(
+        1801052884,
+        'Kyōiku-Kanji Deutsch Bedeutung Merkbild',
+        fields=[
+            {'name': 'Kanji'},
+            {'name': 'Bedeutung'},
+            {'name': 'Bedeutung_Weitere_Deutsch'},
+            {'name': 'Bedeutung_Weitere_Englisch'},
+            {'name': 'Merkbild_Bedeutung'},
+            {'name': 'Merkbild_Kanji'}
+        ],
+        templates=[
+            {
+                'name': 'Bedeutung Merkbild Karte',
+                'qfmt': qfmt_meaning,
+                'afmt': afmt_prefix + '<br/><br/><div class="img_container">{{Merkbild_Bedeutung}}{{Merkbild_Kanji}}</div>' + afmt_postfix
+            }
+        ],
+        css="""
+            .card {
+                text-align: center;
+                justify-content: center;
+                display: flex;
+            }
+            .meaning {
+                font-weight: bold;
+                border: 0px solid black;
+                border-radius: 5px;
+                padding: 3px;
+            }
+            .radical {
+                font-weight: bold;
+                border: 0px solid black;
+                border-radius: 5px;
+                padding: 3px;
+                background-color: #a3ffb3;
+            }
+            .kanji {
+                font-size: 50px;
+                padding: 10px;""" +
+                f"background-color: {meaning_kanji_bg};" +
+            """
+            }
+            .additional {
+                font-size: smaller;
+            }
+            .additional_en {
+                color: gray;
+            }
+            
+            .img_container {
+                border: 1px solid gray;
+                position: relative;
+                width: 300px;
+                height: 300px;
+            }
+            .image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+                height: 300px;
+            }
+            .img_container img:nth-child(1) {
+                animation: fade 6s infinite;
+            }
+            .img_container img:nth-child(2) {
+                animation: fade2 6s infinite;
+            }
+            @keyframes fade {
+                0%, 25%, 75%, 100% { opacity: 1; }
+                50% { opacity: 0; }
+            }
+            @keyframes fade2 {
+                0%, 100% { opacity: 0; }
+                25%, 50%, 75% { opacity: 1; }
+            }
+            """
+    )
+
+    mnemonic_reading = genanki.Model(
+        2114858346,
+        'Kyōiku-Kanji Deutsch Lesung Merksatz',
+        fields=[
+            {'name': 'Kanji'},
+            {'name': 'LesungHiragana'},
+            {'name': 'LesungRomaji'},
+            {'name': 'Merksatz'}
+        ],
+        templates=[
+            {
+                'name': 'Lesung Merksatz Karte',
+                'qfmt': qfmt_reading,
+                'afmt': '{{FrontSide}}<br/><br/>{{Merksatz}}'
+            }
+        ],
+        css="""
+            .card {
+                text-align: center;
+            }
+            .meaning {
+                font-weight: bold;
+                border: 0px solid black;
+                border-radius: 5px;
+                padding: 3px;
+            }
+            .reading {
+                font-weight: bold;
+                border: 0px solid black;
+                border-radius: 5px;
+                padding: 3px;
+                padding-right: 1px;
+                padding-left: 1px;
+            }
+            .onyomi {
+                background-color: #ffa3a3;
+            }
+            .kunyomi {
+                background-color: #a3d9ff;
+            }
+            .kanji {
+                font-size: 50px;
+                padding: 10px;""" +
+                f"background-color: {reading_kanji_bg};" +
+            """
+            }
+            """
+    )
+
+    decks = []
+
+    # main deck
+    kanji_kyouiku_deck = genanki.Deck(
+        2114858346,
+        'Kyōiku-Kanji Deutsch')
+    decks.append(kanji_kyouiku_deck)
+
+    # Create a subdeck
+    kanji_kyouiku_first_grade_deck = genanki.Deck(
+        1783656266,
+        'Kyōiku-Kanji Deutsch::Erstes Schuljahr')
+    decks.append(kanji_kyouiku_first_grade_deck)
+
+
+    for entry in kanji_kyouiku:
+        if not is_done(entry):
+            continue
+
+        if entry['grade'] == 1:
+            if not entry['is_radical']:
+                note = genanki.Note(
+                    model=mnemonic_meaning,
+                    fields=[
+                        entry['kanji'],
+                        entry['meanings_de'][0].lower(),
+                        ", ".join(entry['meanings_de']),
+                        ", ".join(entry['meanings']),
+                        entry['mnemonic_meaning_de']
+                    ]
+                )
+                kanji_kyouiku_first_grade_deck.add_note(note)
+            else:
+                radical_name = entry['wk_radicals_de'][0]
+                note = genanki.Note(
+                    model=image_meaning,
+                    fields=[
+                        entry['kanji'],
+                        entry['meanings_de'][0].lower(),
+                        ", ".join(entry['meanings_de']),
+                        ", ".join(entry['meanings']),
+                        f'<img class="image" src="{radical_name}-img.jpg">',
+                        f'<img class="image" src="{radical_name}-kanji.png">'
+                    ]
+                )
+                kanji_kyouiku_first_grade_deck.add_note(note)
+
+            # turn reading mnemonic to reading check
+            soup = BeautifulSoup(entry['mnemonic_reading_de'], 'html.parser')
+            readings = soup.find_all("span", class_="reading")
+            reading_strs = []
+            for r in readings:
+                hiragana = r['data-hiragana']
+                romaji = hiragana_to_romaji(hiragana)
+                reading_strs.append((hiragana, romaji))
+
+            reading_hiragana = separator.join([r[0] for r in reading_strs])
+            reading_romaji = separator.join([r[1] for r in reading_strs])
+
+            note = genanki.Note(
+                model=mnemonic_reading,
+                fields=[
+                    entry['kanji'],
+                    reading_hiragana,
+                    reading_romaji,
+                    entry['mnemonic_reading_de']
+                ]
+            )
+            kanji_kyouiku_first_grade_deck.add_note(note)
+
+
+    # export package
+    package = genanki.Package(decks)
+    package.media_files = []
+    package.media_files.extend(glob.glob('../img/*.jpg'))
+    package.media_files.extend(glob.glob('../img/*.png'))
+
+    output_file = f'../anki/Kyouiku-Kanji-Deutsch_{reading_mode}.apkg'
+    package.write_to_file(output_file)
+
 
 # add_german()
 # radicals_check()
@@ -525,4 +978,9 @@ def special_radicals():
 #reading_decision()
 #best_reading_german_word_match()
 #radical_graph()
-special_radicals()
+#special_radicals()
+# germanet_categories()
+# order()
+
+make_anki(romaji_reading=True)
+make_anki(romaji_reading=False)
