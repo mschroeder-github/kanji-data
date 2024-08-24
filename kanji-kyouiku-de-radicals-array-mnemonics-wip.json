@@ -731,7 +731,7 @@
         "is_radical": false,
         "mnemonic_meaning_de": "Die <span class='radical' data-kanji='ト'>Zehe</span> <span class='radical_kanji'>(ト)</span> aus dem <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span> zeigt nach <span class='meaning' data-kanji='上'>oben</span> <span class='meaning_kanji_meaning'>(上)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='上'>oben</span> <span class='meaning_kanji_reading'>(上)</span> auf dem Berg, um zu <span class='reading onyomi' data-hiragana='じょう'>jo</span>deln <span class='hiragana'>(じょう)</span>.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='上'>oben</span> <span class='meaning_kanji_reading'>(上)</span> auf dem Dach habe ich in der ganzen Straße ein Vorbil<span class='reading onyomi' data-hiragana='じょう'>dscho</span>rnstein <span class='hiragana'>(じょう)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 13
     },
@@ -1336,7 +1336,7 @@
         "is_radical": false,
         "mnemonic_meaning_de": "Solang die <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span> nah über dem <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span> steht, ist es noch <span class='meaning' data-kanji='早'>früh</span> <span class='meaning_kanji_meaning'>(早)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='早'>Früh</span> <span class='meaning_kanji_reading'>(早)</span> auf den Beinen, stark auf den <span class='reading onyomi' data-hiragana='そう'>Soh</span> <span class='hiragana'>(そう)</span>len.",
+        "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='早'>früh</span> <span class='meaning_kanji_reading'>(早)</span> zur Schule meinen <span class='reading onyomi' data-hiragana='そう'>Soh</span>n <span class='hiragana'>(そう)</span> fahren.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 23
     },
@@ -1796,7 +1796,7 @@
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='天'>Himmel</span> <span class='radical_kanji'>(天)</span>  , <span class='meaning' data-kanji='天'>Himmel</span> <span class='meaning_kanji_meaning'>(天)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Unter dem <span class='meaning' data-kanji='天'>Himmel</span> <span class='meaning_kanji_reading'>(天)</span> spielen wir <span class='reading onyomi' data-hiragana='てん'>Ten</span>nis <span class='hiragana'>(てん)</span>.",
+        "mnemonic_reading_de": "Im göttlichen <span class='meaning' data-kanji='天'>Himmel</span> <span class='meaning_kanji_reading'>(天)</span> singen die Engel im <span class='reading onyomi' data-hiragana='てん'>Ten</span>or <span class='hiragana'>(てん)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 31
     },
@@ -12423,8 +12423,8 @@
         "is_radical": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='走'>Laufen</span> <span class='radical_kanji'>(走)</span>  , <span class='meaning' data-kanji='走'>laufen</span> <span class='meaning_kanji_meaning'>(走)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='走'>laufen</span> <span class='meaning_kanji_reading'>(走)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='走'>Laufen</span> <span class='meaning_kanji_reading'>(走)</span> auf richtiger Schuh <span class='reading onyomi' data-hiragana='そう'>Soh</span>le <span class='hiragana'>(そう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 211
     },
     {

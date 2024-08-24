@@ -1,5 +1,5 @@
+import random
 import numpy as np
-
 from hiragana import hiragana_to_romaji, hiragana_to_ascii
 import csv
 import gzip
@@ -937,13 +937,7 @@ def make_anki(romaji_reading=False, separator=" ", meaning_kanji_bg="#fffee6", r
                 kanji_kyouiku_first_grade_deck.add_note(note)
 
             # turn reading mnemonic to reading check
-            soup = BeautifulSoup(entry['mnemonic_reading_de'], 'html.parser')
-            readings = soup.find_all("span", class_="reading")
-            reading_strs = []
-            for r in readings:
-                hiragana = r['data-hiragana']
-                romaji = hiragana_to_romaji(hiragana)
-                reading_strs.append((hiragana, romaji))
+            reading_strs = get_reading_strs(entry)
 
             reading_hiragana = separator.join([r[0] for r in reading_strs])
             reading_romaji = separator.join([r[1] for r in reading_strs])
@@ -968,6 +962,16 @@ def make_anki(romaji_reading=False, separator=" ", meaning_kanji_bg="#fffee6", r
 
     output_file = f'../anki/Kyouiku-Kanji-Deutsch_{reading_mode}.apkg'
     package.write_to_file(output_file)
+
+def get_reading_strs(entry):
+    soup = BeautifulSoup(entry['mnemonic_reading_de'], 'html.parser')
+    readings = soup.find_all("span", class_="reading")
+    reading_strs = []
+    for r in readings:
+        hiragana = r['data-hiragana']
+        romaji = hiragana_to_romaji(hiragana)
+        reading_strs.append((hiragana, romaji))
+    return reading_strs
 
 
 # add_german()
