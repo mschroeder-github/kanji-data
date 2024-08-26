@@ -1,0 +1,70 @@
+.card {
+    text-align: center;
+}
+.meaning {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+.radical {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #a3ffb3;
+}
+.kanji {
+    font-size: 75px;
+    padding: 10px;
+}
+.additional {
+    font-size: small;
+}
+.additional_en {
+    color: gray;
+}
+
+.img_container {
+    border: 1px solid gray;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.img_container img:nth-child(1) {
+    animation: fade 6s infinite;
+}
+.img_container img:nth-child(2) {
+    animation: fade2 6s infinite;
+}
+@keyframes fade {
+    0%, 25%, 75%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+@keyframes fade2 {
+    0%, 100% { opacity: 0; }
+    25%, 50%, 75% { opacity: 1; }
+}
+
+.reading {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.onyomi {
+    background-color: #ffa3a3;
+}
+.kunyomi {
+    background-color: #a3d9ff;
+}
