@@ -5264,10 +5264,11 @@
         "kanji": "長",
         "kanji_ord": 38263,
         "is_radical": true,
+        "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='長'>Lang</span> <span class='radical_kanji'>(長)</span>  , <span class='meaning' data-kanji='長'>lang</span> <span class='meaning_kanji_meaning'>(長)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='長'>lang</span> <span class='meaning_kanji_reading'>(長)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='長'>Lange</span> <span class='meaning_kanji_reading'>(長)</span> Haare hat unser Ma<span class='reading onyomi' data-hiragana='ちょう'>cho</span> <span class='hiragana'>(ちょう)</span> <span class='meaning' data-kanji='長'>Anführer</span> <span class='meaning_kanji_reading'>(長)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 90
     },
     {
@@ -5399,10 +5400,10 @@
         "kanji": "丸",
         "kanji_ord": 20024,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='九'>Neun</span> <span class='radical_kanji'>(九)</span>  <span class='radical' data-kanji='丶'>Tropfen</span> <span class='radical_kanji'>(丶)</span>  , <span class='meaning' data-kanji='丸'>rund</span> <span class='meaning_kanji_meaning'>(丸)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='丸'>rund</span> <span class='meaning_kanji_reading'>(丸)</span> , <span class='reading kunyomi' data-hiragana='まる'>Maru</span> <span class='hiragana'>(まる)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='九'>Neun</span> <span class='radical_kanji'>(九)</span> Augen<span class='radical' data-kanji='丶'>tropfen</span> <span class='radical_kanji'>(丶)</span> brauche ich für meine <span class='meaning' data-kanji='丸'>rund</span>en <span class='meaning_kanji_meaning'>(丸)</span> Augen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wir gehen <span class='meaning' data-kanji='丸'>rund</span> <span class='meaning_kanji_reading'>(丸)</span> im Kreis um das Hotel für den Panora<span class='reading kunyomi' data-hiragana='まる'>maru</span>ndgang <span class='hiragana'>(まる)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 92
     },
     {
@@ -5450,10 +5451,10 @@
             "Father"
         ],
         "meanings_de": [
+            "Mischung",
             "Kreuzung",
             "Austausch",
-            "Verkehr",
-            "mischen"
+            "Verkehr"
         ],
         "wk_radicals_new": [
             "Lid",
@@ -5471,10 +5472,10 @@
         "kanji": "交",
         "kanji_ord": 20132,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='父'>Vater</span> <span class='radical_kanji'>(父)</span>  , <span class='meaning' data-kanji='交'>Kreuzung</span> <span class='meaning_kanji_meaning'>(交)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='交'>Kreuzung</span> <span class='meaning_kanji_reading'>(交)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der Farbeimer<span class='radical' data-kanji='亠'>deckel</span> <span class='radical_kanji'>(亠)</span> hebt mein <span class='radical' data-kanji='父'>Vater</span> <span class='radical_kanji'>(父)</span> an, um die Farb<span class='meaning' data-kanji='交'>mischung</span> <span class='meaning_kanji_meaning'>(交)</span> anzuschauen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Für die <span class='meaning' data-kanji='交'>Mischung</span> <span class='meaning_kanji_reading'>(交)</span> von Sauerkraut benötigt man <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 93
     },
     {
@@ -5531,10 +5532,10 @@
         "kanji": "光",
         "kanji_ord": 20809,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Triceratops</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='兀'>Pi</span> <span class='radical_kanji'>(兀)</span>  , <span class='meaning' data-kanji='光'>Licht</span> <span class='meaning_kanji_meaning'>(光)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='光'>Licht</span> <span class='meaning_kanji_reading'>(光)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Als ein <span class='radical' data-kanji=' '>Triceratops</span> <span class='radical_kanji'>( )</span> <span class='radical' data-kanji='兀'>Pi</span> <span class='radical_kanji'>(兀)</span> errechnete, ging ihm ein <span class='meaning' data-kanji='光'>Licht</span> <span class='meaning_kanji_meaning'>(光)</span> auf.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Durch das Sonnen<span class='meaning' data-kanji='光'>licht</span> <span class='meaning_kanji_reading'>(光)</span> wächst der <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 94
     },
     {
@@ -5593,10 +5594,10 @@
         "kanji": "角",
         "kanji_ord": 35282,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='勹'>Gefängnis</span> <span class='radical_kanji'>(勹)</span>  <span class='radical' data-kanji='用'>Aufgabe</span> <span class='radical_kanji'>(用)</span>  , <span class='meaning' data-kanji='角'>Ecke</span> <span class='meaning_kanji_meaning'>(角)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='角'>Ecke</span> <span class='meaning_kanji_reading'>(角)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='勹'>Gefängnis</span> <span class='radical_kanji'>(勹)</span> ist die <span class='radical' data-kanji='用'>Aufgabe</span> <span class='radical_kanji'>(用)</span> für die Flucht eine <span class='meaning' data-kanji='角'>Ecke</span> <span class='meaning_kanji_meaning'>(角)</span> zu suchen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Könnte ich eine <span class='meaning' data-kanji='角'>Ecke</span> <span class='meaning_kanji_reading'>(角)</span> vom Mok<span class='reading onyomi' data-hiragana='かく'>kaku</span>chen <span class='hiragana'>(かく)</span> haben?",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 95
     },
     {
@@ -5634,7 +5635,8 @@
             "Cross"
         ],
         "meanings_de": [
-            "messen"
+            "Plan",
+            "Messung"
         ],
         "wk_radicals_new": [
             "Say",
@@ -5652,10 +5654,10 @@
         "kanji": "計",
         "kanji_ord": 35336,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span>  , <span class='meaning' data-kanji='計'>messen</span> <span class='meaning_kanji_meaning'>(計)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='計'>messen</span> <span class='meaning_kanji_reading'>(計)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wir <span class='radical' data-kanji='言'>reden</span> <span class='radical_kanji'>(言)</span> an der <span class='radical' data-kanji='十'>Kreuz</span>ung <span class='radical_kanji'>(十)</span>  , um ein <span class='meaning' data-kanji='計'>Plan</span> <span class='meaning_kanji_meaning'>(計)</span> zu schmieden über die <span class='meaning' data-kanji='計'>Messung</span> <span class='meaning_kanji_meaning'>(計)</span> der Straße.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Durch die <span class='meaning' data-kanji='計'>Messung</span> <span class='meaning_kanji_reading'>(計)</span> haben wir den <span class='meaning' data-kanji='計'>Plan</span> <span class='meaning_kanji_reading'>(計)</span> wie wir die Bir<span class='reading onyomi' data-hiragana='けい'>ke i</span>m <span class='hiragana'>(けい)</span> Garten fällen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 96
     },
     {
@@ -5702,10 +5704,10 @@
             "Eye"
         ],
         "meanings_de": [
-            "sofort",
             "reparieren",
+            "direkt sein",
             "unmittelbar",
-            "direkt"
+            "sofort"
         ],
         "wk_radicals_new": [
             "Lion",
@@ -5726,10 +5728,10 @@
         "kanji": "直",
         "kanji_ord": 30452,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='L'>Löwe</span> <span class='radical_kanji'>(L)</span>  <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span>  <span class='radical' data-kanji='目'>Auge</span> <span class='radical_kanji'>(目)</span>  , <span class='meaning' data-kanji='直'>sofort</span> <span class='meaning_kanji_meaning'>(直)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='直'>sofort</span> <span class='meaning_kanji_reading'>(直)</span> , <span class='reading onyomi' data-hiragana='ちょく'>Choku</span> <span class='hiragana'>(ちょく)</span>  <span class='reading onyomi' data-hiragana='じき'>Jiki</span> <span class='hiragana'>(じき)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='L'>Löwe</span> <span class='radical_kanji'>(L)</span> attackiert das <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span>, weil es nach <span class='radical' data-kanji='目'>Auge</span>n <span class='radical_kanji'>(目)</span> aussah, muss nun <span class='meaning' data-kanji='直'>repariert</span> <span class='meaning_kanji_meaning'>(直)</span> werden, muss ich dir <span class='meaning' data-kanji='直'>direkt</span> <span class='meaning_kanji_meaning'>(直)</span> sagen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wir müssen <span class='meaning' data-kanji='直'>ehrlich gesagt</span> <span class='meaning_kanji_reading'>(直)</span> folgendes <span class='meaning' data-kanji='直'>reparieren</span> <span class='meaning_kanji_reading'>(直)</span>: Zu arg als Ma<span class='reading onyomi' data-hiragana='ちょく'>cho Ku</span>pplung <span class='hiragana'>(ちょく)</span> getreten, weil verbaut in der to<span class='reading onyomi' data-hiragana='じき'>dschickki</span>ste <span class='hiragana'>(じき)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 97
     },
     {
@@ -5786,10 +5788,10 @@
         "kanji": "線",
         "kanji_ord": 32218,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>  <span class='radical' data-kanji='水'>Wasser</span> <span class='radical_kanji'>(水)</span>  , <span class='meaning' data-kanji='線'>Linie</span> <span class='meaning_kanji_meaning'>(線)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='線'>Linie</span> <span class='meaning_kanji_reading'>(線)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie ein <span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span> Seiden<span class='radical' data-kanji='白'>weiß</span> <span class='radical_kanji'>(白)</span> und gerade wie fließendes <span class='radical' data-kanji='水'>Wasser</span> <span class='radical_kanji'>(水)</span>: Sieht aus wie eine <span class='meaning' data-kanji='線'>Linie</span> <span class='meaning_kanji_meaning'>(線)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Laser <span class='meaning' data-kanji='線'>Linie</span> <span class='meaning_kanji_reading'>(線)</span> wird am <span class='reading onyomi' data-hiragana='せん'>Sen</span>sor <span class='hiragana'>(せん)</span> unterbrochen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 98
     },
     {
@@ -5836,11 +5838,11 @@
         ],
         "kanji": "矢",
         "kanji_ord": 30690,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='矢'>Pfeil</span> <span class='radical_kanji'>(矢)</span>  , <span class='meaning' data-kanji='矢'>Pfeil</span> <span class='meaning_kanji_meaning'>(矢)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='矢'>Pfeil</span> <span class='meaning_kanji_reading'>(矢)</span> , <span class='reading kunyomi' data-hiragana='や'>Ya</span> <span class='hiragana'>(や)</span>",
-        "mnemonic_reading_de_done": false,
+        "is_radical": false,
+        "mnemonic_meaning_de": "Eine <span class='radical' data-kanji='⌙'>Pistole</span> <span class='radical_kanji'>(⌙)</span>, die <span class='radical' data-kanji='大'>groß</span> <span class='radical_kanji'>(大)</span> ist, ist im Grunde ein <span class='meaning' data-kanji='矢'>Pfeil</span> <span class='meaning_kanji_meaning'>(矢)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='矢'>Pfeil</span> <span class='meaning_kanji_reading'>(矢)</span> konnte ich das <span class='reading kunyomi' data-hiragana='や'>Ya</span>k <span class='hiragana'>(や)</span> (Grunzochse) erlegen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 99
     },
     {
@@ -5895,10 +5897,10 @@
         "kanji": "弱",
         "kanji_ord": 24369,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span>  <span class='radical' data-kanji='冫'>Eis</span> <span class='radical_kanji'>(冫)</span>  , <span class='meaning' data-kanji='弱'>schwach</span> <span class='meaning_kanji_meaning'>(弱)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='弱'>schwach</span> <span class='meaning_kanji_reading'>(弱)</span> , <span class='reading onyomi' data-hiragana='じゃく'>Jaku</span> <span class='hiragana'>(じゃく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Meine zwei <span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span> sind schon zwei Mal ver<span class='radical' data-kanji='冫'>eis</span>t <span class='radical_kanji'>(冫)</span>, die Spannkraft ist <span class='meaning' data-kanji='弱'>schwach</span> <span class='meaning_kanji_meaning'>(弱)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Zugtiere sind <span class='meaning' data-kanji='弱'>schwach</span> <span class='meaning_kanji_reading'>(弱)</span> bei einer Wil<span class='reading onyomi' data-hiragana='じゃく'>dscha(f)ku</span>tsche <span class='hiragana'>(じゃく)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 100
     },
     {

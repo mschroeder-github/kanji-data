@@ -44,13 +44,14 @@
                     <td style="font-size: 40px" :class="{ 'kanji_is_radical': entry.is_radical }">{{entry.kanji}}</td>
                     <td style="width: 20%" v-if="show_meaning">
                         {{entry.meanings_de.join(', ')}}<br/>
+                        <span class="meanings_en meanings_wk">{{entry.wk_meanings.join(', ')}}</span><br/>
                         <span class="meanings_en">{{entry.meanings.join(', ')}}</span>
                     </td>
                     <td :class="{ 'missing': !entry.has_radical_img && !entry.mnemonic_meaning_de_done }" v-if="show_mnemonic_meaning">
 
                         <div v-if="entry.has_radical_img" class="img_container">
                             <img :src="'../img/' + entry.wk_radicals_de[0] + '-img.jpg'">
-                            <img :src="'../img/' + entry.wk_radicals_de[0] + '-kanji.jpg'">
+                            <img :src="'../img/' + entry.wk_radicals_de[0] + '-kanji.png'">
                         </div>
                         <div v-else v-html="entry.mnemonic_meaning_de"></div>
 
