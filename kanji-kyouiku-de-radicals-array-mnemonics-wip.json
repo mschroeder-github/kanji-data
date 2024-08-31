@@ -5962,10 +5962,10 @@
         "kanji": "強",
         "kanji_ord": 24375,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span>  <span class='radical' data-kanji='ム'>Privat</span> <span class='radical_kanji'>(ム)</span>  <span class='radical' data-kanji='虫'>Insekt</span> <span class='radical_kanji'>(虫)</span>  , <span class='meaning' data-kanji='強'>stark</span> <span class='meaning_kanji_meaning'>(強)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='強'>stark</span> <span class='meaning_kanji_reading'>(強)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit einem Mini<span class='radical' data-kanji='弓'>bogen</span> <span class='radical_kanji'>(弓)</span> schieße ich auf einer <span class='radical' data-kanji='ム'>Privat</span>party <span class='radical_kanji'>(ム)</span> durch die Luft, doch ein <span class='radical' data-kanji='虫'>Insekt</span> <span class='radical_kanji'>(虫)</span> fängt den Pfeil ab, es muss sehr <span class='meaning' data-kanji='強'>stark</span> <span class='meaning_kanji_meaning'>(強)</span> sein.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Lieferant ist so <span class='meaning' data-kanji='強'>stark</span> <span class='meaning_kanji_reading'>(強)</span>, dass er mehere Zeitungen in das <span class='reading onyomi' data-hiragana='きょう'>Kio</span>sk <span class='hiragana'>(きょう)</span> trägt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 101
     },
     {
@@ -6030,10 +6030,10 @@
         "kanji": "高",
         "kanji_ord": 39640,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='冋'>Schnurrbart</span> <span class='radical_kanji'>(冋)</span>  , <span class='meaning' data-kanji='高'>hoch</span> <span class='meaning_kanji_meaning'>(高)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='高'>hoch</span> <span class='meaning_kanji_reading'>(高)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der Koch hat alle Hände voll, weshalb er den <span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span> nur mit <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> und <span class='radical' data-kanji='冋'>Schnurrbart</span> <span class='radical_kanji'>(冋)</span> <span class='meaning' data-kanji='高'>hoch</span> <span class='meaning_kanji_meaning'>(高)</span> hält.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es ist <span class='meaning' data-kanji='高'>hoch</span> <span class='meaning_kanji_reading'>(高)</span> und auch manchmal <span class='meaning' data-kanji='高'>teuer</span> <span class='meaning_kanji_reading'>(高)</span>; das Risi<span class='reading onyomi' data-hiragana='こう'>ko</span> <span class='hiragana'>(こう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 102
     },
     {
@@ -6086,10 +6086,10 @@
         "kanji": "同",
         "kanji_ord": 21516,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='冋'>Schnurrbart</span> <span class='radical_kanji'>(冋)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  , <span class='meaning' data-kanji='同'>das Gleiche</span> <span class='meaning_kanji_meaning'>(同)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='同'>das Gleiche</span> <span class='meaning_kanji_reading'>(同)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Sein gerader <span class='radical' data-kanji='冋'>Schnurrbart</span> <span class='radical_kanji'>(冋)</span> und der Asphalt<span class='radical' data-kanji='一'>boden</span> <span class='radical_kanji'>(一)</span> sehen fast <span class='meaning' data-kanji='同'>gleich</span> <span class='meaning_kanji_meaning'>(同)</span> aus.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Immer <span class='meaning' data-kanji='同'>das Gleiche</span> <span class='meaning_kanji_reading'>(同)</span> zu machen ist <span class='reading onyomi' data-hiragana='どう'>doo</span>f <span class='hiragana'>(どう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 103
     },
     {
@@ -6154,10 +6154,10 @@
         "kanji": "親",
         "kanji_ord": 35242,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='見'>Sehen</span> <span class='radical_kanji'>(見)</span>  , <span class='meaning' data-kanji='親'>Eltern</span> <span class='meaning_kanji_meaning'>(親)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='親'>Eltern</span> <span class='meaning_kanji_reading'>(親)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span> vom <span class='radical' data-kanji='木'>Baum</span>haus <span class='radical_kanji'>(木)</span> <span class='radical' data-kanji='見'>sehen</span> <span class='radical_kanji'>(見)</span> meine <span class='meaning' data-kanji='親'>Eltern</span> <span class='meaning_kanji_meaning'>(親)</span> mir beim Spielen zu.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='親'>Eltern</span> <span class='meaning_kanji_reading'>(親)</span> essen gerne <span class='reading onyomi' data-hiragana='しん'>Schin</span>kenwurst <span class='hiragana'>(しん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 104
     },
     {
@@ -6211,10 +6211,10 @@
         "kanji": "母",
         "kanji_ord": 27597,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='丶'>Tropfen</span> <span class='radical_kanji'>(丶)</span>  , <span class='meaning' data-kanji='母'>Mutter</span> <span class='meaning_kanji_meaning'>(母)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='母'>Mutter</span> <span class='meaning_kanji_reading'>(母)</span> , <span class='reading kunyomi' data-hiragana='はは'>Haha</span> <span class='hiragana'>(はは)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wegen Fieber glühe ich wie die <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>, zwei <span class='radical' data-kanji='丶'>Tropfen</span> <span class='radical_kanji'>(丶)</span> Arznei gibt mir meine <span class='meaning' data-kanji='母'>Mutter</span> <span class='meaning_kanji_meaning'>(母)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='母'>Mutter</span> <span class='meaning_kanji_reading'>(母)</span> ist die Alp<span class='reading kunyomi' data-hiragana='はは'>haha</span>usfrau <span class='hiragana'>(はは)</span> in der Familie.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 105
     },
     {
@@ -6262,10 +6262,11 @@
         "kanji": "父",
         "kanji_ord": 29238,
         "is_radical": true,
+        "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='父'>Vater</span> <span class='radical_kanji'>(父)</span>  , <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_meaning'>(父)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_reading'>(父)</span> , <span class='reading kunyomi' data-hiragana='ちち'>Chichi</span> <span class='hiragana'>(ちち)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_reading'>(父)</span> hat sich im Krankenhaus hochgearbeitet als Hierar<span class='reading kunyomi' data-hiragana='ちち'>chiechi</span>rurg <span class='hiragana'>(ちち)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 106
     },
     {
@@ -6321,10 +6322,10 @@
         "kanji": "姉",
         "kanji_ord": 22985,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>  <span class='radical' data-kanji='市'>Stadt</span> <span class='radical_kanji'>(市)</span>  , <span class='meaning' data-kanji='姉'>ältere Schwester</span> <span class='meaning_kanji_meaning'>(姉)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='姉'>ältere Schwester</span> <span class='meaning_kanji_reading'>(姉)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "In meiner Familie: Die <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>, die schon in die <span class='radical' data-kanji='市'>Stadt</span> <span class='radical_kanji'>(市)</span> gezogen ist, ist meine <span class='meaning' data-kanji='姉'>ältere Schwester</span> <span class='meaning_kanji_meaning'>(姉)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='姉'>ältere Schwester</span> <span class='meaning_kanji_reading'>(姉)</span> reist gerne mit dem <span class='reading onyomi' data-hiragana='し'>Schi</span>ff <span class='hiragana'>(し)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 107
     },
     {
@@ -6379,10 +6380,10 @@
         "kanji": "兄",
         "kanji_ord": 20804,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span>  , <span class='meaning' data-kanji='兄'>älterer Bruder</span> <span class='meaning_kanji_meaning'>(兄)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='兄'>älterer Bruder</span> <span class='meaning_kanji_reading'>(兄)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "In meiner Familie: Der große <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> und die langen <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span> hat mein <span class='meaning' data-kanji='兄'>älterer Bruder</span> <span class='meaning_kanji_meaning'>(兄)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='兄'>älterer Bruder</span> <span class='meaning_kanji_reading'>(兄)</span> kauf gerne Magazine im <span class='reading onyomi' data-hiragana='きょう'>Kio</span>sk <span class='hiragana'>(きょう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 108
     },
     {
@@ -6447,10 +6448,10 @@
         "kanji": "弟",
         "kanji_ord": 24351,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Hörner</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span>  <span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span>  <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  , <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_meaning'>(弟)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_reading'>(弟)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>  <span class='reading onyomi' data-hiragana='で'>De</span> <span class='hiragana'>(で)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit <span class='radical' data-kanji=' '>Hörner</span> <span class='radical_kanji'>( )</span> auf dem <span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span> spannt er einen <span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span> oben auf der <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>, es ist mein <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_meaning'>(弟)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_reading'>(弟)</span> gewann eine Me<span class='reading onyomi' data-hiragana='だい'>dai</span>lle <span class='hiragana'>(だい)</span> beim Sport, nach dem Training macht er immer <span class='reading onyomi' data-hiragana='で'>De</span>o <span class='hiragana'>(で)</span> drauf.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 109
     },
     {
@@ -6502,10 +6503,10 @@
         "kanji": "妹",
         "kanji_ord": 22969,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>  <span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span>  , <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_meaning'>(妹)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_reading'>(妹)</span> , <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "In meiner Familie: Die <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>, die so schnell in die Luft geht wie ein <span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span> ist, ist meine <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_meaning'>(妹)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_reading'>(妹)</span> feiert ihren Geburtstag im <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 110
     },
     {
@@ -6554,10 +6555,11 @@
         "kanji": "自",
         "kanji_ord": 33258,
         "is_radical": true,
+        "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='自'>Selbst</span> <span class='radical_kanji'>(自)</span>  , <span class='meaning' data-kanji='自'>selbst</span> <span class='meaning_kanji_meaning'>(自)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='自'>selbst</span> <span class='meaning_kanji_reading'>(自)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>  <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Ich sehe mich durch die Webcam <span class='meaning' data-kanji='自'>selbst</span> <span class='meaning_kanji_reading'>(自)</span> im Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rm <span class='hiragana'>(じ)</span> wie <span class='reading onyomi' data-hiragana='し'>Schi</span>ck <span class='hiragana'>(し)</span> ich bin.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 111
     },
     {
@@ -6608,10 +6610,10 @@
         "kanji": "友",
         "kanji_ord": 21451,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ナ'>Narwal</span> <span class='radical_kanji'>(ナ)</span>  <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span>  , <span class='meaning' data-kanji='友'>Freund</span> <span class='meaning_kanji_meaning'>(友)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='友'>Freund</span> <span class='meaning_kanji_reading'>(友)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Weil der <span class='radical' data-kanji='ナ'>Narwal</span> <span class='radical_kanji'>(ナ)</span> mir ein <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span> geschenkt hat, ist er mein bester <span class='meaning' data-kanji='友'>Freund</span> <span class='meaning_kanji_meaning'>(友)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Viele <span class='meaning' data-kanji='友'>Freund</span>e <span class='meaning_kanji_reading'>(友)</span> habe ich in meiner <span class='reading onyomi' data-hiragana='ゆう'>Ju</span>gend <span class='hiragana'>(ゆう)</span> kennengelernt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 112
     },
     {
@@ -6668,10 +6670,10 @@
         "kanji": "体",
         "kanji_ord": 20307,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='本'>Buch</span> <span class='radical_kanji'>(本)</span>  , <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_meaning'>(体)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_reading'>(体)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> trainiert mit dem <span class='radical' data-kanji='本'>Buch</span> <span class='radical_kanji'>(本)</span> über dem Muskeltraining seinen <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_meaning'>(体)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Durchtrainierte <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_reading'>(体)</span> haben eine schlanke <span class='reading onyomi' data-hiragana='たい'>Tai</span>lle <span class='hiragana'>(たい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 113
     },
     {
@@ -6707,7 +6709,7 @@
             "Fur"
         ],
         "meanings_de": [
-            "Haare"
+            "Fell"
         ],
         "wk_radicals_new": [
             "Fur"
@@ -6722,10 +6724,11 @@
         "kanji": "毛",
         "kanji_ord": 27611,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='毛'>Pelz</span> <span class='radical_kanji'>(毛)</span>  , <span class='meaning' data-kanji='毛'>Haare</span> <span class='meaning_kanji_meaning'>(毛)</span>",
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='毛'>Pelz</span> <span class='radical_kanji'>(毛)</span>  , <span class='meaning' data-kanji='毛'>Fell</span> <span class='meaning_kanji_meaning'>(毛)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='毛'>Haare</span> <span class='meaning_kanji_reading'>(毛)</span> , <span class='reading onyomi' data-hiragana='もう'>Mou</span> <span class='hiragana'>(もう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='毛'>Fell</span> <span class='meaning_kanji_reading'>(毛)</span> zu tragen ist nicht mehr in <span class='reading onyomi' data-hiragana='もう'>Mo</span>de <span class='hiragana'>(もう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 114
     },
     {
@@ -6785,10 +6788,10 @@
         "kanji": "頭",
         "kanji_ord": 38957,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span>  <span class='radical' data-kanji='頁'>Elefantenrüsselmuschel</span> <span class='radical_kanji'>(頁)</span>  , <span class='meaning' data-kanji='頭'>Kopf</span> <span class='meaning_kanji_meaning'>(頭)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='頭'>Kopf</span> <span class='meaning_kanji_reading'>(頭)</span> , <span class='reading kunyomi' data-hiragana='あたま'>Atama</span> <span class='hiragana'>(あたま)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span> isst die <span class='radical' data-kanji='頁'>Elefantenrüsselmuschel</span> <span class='radical_kanji'>(頁)</span> durch ihren <span class='meaning' data-kanji='頭'>Kopf</span> <span class='meaning_kanji_meaning'>(頭)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "So viele schlimme Dinge erlebt, mein <span class='meaning' data-kanji='頭'>Kopf</span> <span class='meaning_kanji_reading'>(頭)</span> ist voll mit Traum<span class='reading kunyomi' data-hiragana='あたま'>atama</span>sse <span class='hiragana'>(あたま)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 115
     },
     {
@@ -6893,7 +6896,7 @@
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Hals"
+            "Nacken"
         ],
         "wk_radicals_kanji": [
             "首"
@@ -6901,9 +6904,9 @@
         "kanji": "首",
         "kanji_ord": 39318,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='首'>Hals</span> <span class='radical_kanji'>(首)</span>  , <span class='meaning' data-kanji='首'>Kopf</span> <span class='meaning_kanji_meaning'>(首)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='首'>Hals</span> <span class='radical_kanji'>(首)</span>  , <span class='meaning' data-kanji='首'>Nacken</span> <span class='meaning_kanji_meaning'>(首)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='首'>Kopf</span> <span class='meaning_kanji_reading'>(首)</span> , <span class='reading kunyomi' data-hiragana='くび'>Kubi</span> <span class='hiragana'>(くび)</span>",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='首'>Nacken</span> <span class='meaning_kanji_reading'>(首)</span> , <span class='reading kunyomi' data-hiragana='くび'>Kubi</span> <span class='hiragana'>(くび)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 117
     },

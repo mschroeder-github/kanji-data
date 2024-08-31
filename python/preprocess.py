@@ -1148,17 +1148,19 @@ def make_anki_v2(romaji_reading=False, separator=" "):
 
     actual_sum = 0
     expected_sum = 0
+    text = ""
     for no in sorted(no2total.keys()):
         actual = len(no2deck[no].notes)
         expected = no2total[no]
         actual_sum += actual
         expected_sum += expected
         percent = int((actual / expected) * 100)
-        print(f"{no}. grade: {actual: 5} /{expected: 5} {percent: 4}%")
+        text += f"{no}. grade: {actual: 5} /{expected: 5} {percent: 4}%\n"
 
     percent_total = int((actual_sum / expected_sum) * 100)
-    print("---------------------------")
     print(f"   total: {actual_sum: 5} /{expected_sum: 5} {percent_total: 4}%")
+    # print("---------------------------")
+    print(text)
     print()
 
 
