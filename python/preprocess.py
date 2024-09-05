@@ -715,7 +715,13 @@ def order_based_on_radical():
         order_wiki_radical_corrected += 1
         visited.add(entry['kanji'])
 
-        print('visit', entry['kanji'], 'order', entry['order_wiki_radical_corrected'], 'grade corrected', entry['grade_corrected'])
+        # print('visit', entry['kanji'], 'order', entry['order_wiki_radical_corrected'], 'grade corrected', entry['grade_corrected'])
+
+    # sort by new order
+    kanji_kyouiku.sort(key=lambda x: x['order_wiki_radical_corrected'])
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
+        json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
 def jisho_crawler():
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:

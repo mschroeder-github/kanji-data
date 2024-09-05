@@ -90,7 +90,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -162,7 +164,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 2,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -241,7 +245,77 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 3,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 3,
+        "grade": 1,
+        "freq": 284,
+        "jlpt_old": 4,
+        "jlpt_new": 4,
+        "meanings": [
+            "Mouth"
+        ],
+        "readings_on": [
+            "こう",
+            "く"
+        ],
+        "readings_kun": [
+            "くち"
+        ],
+        "wk_level": 1,
+        "wk_meanings": [
+            "Mouth"
+        ],
+        "wk_readings_on": [
+            "こう",
+            "^く"
+        ],
+        "wk_readings_kun": [
+            "!くち"
+        ],
+        "wk_radicals": [
+            "Mouth"
+        ],
+        "meanings_de": [
+            "Mund",
+            "Öffnung"
+        ],
+        "wk_radicals_new": [
+            "Mouth"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Mund"
+        ],
+        "wk_radicals_kanji": [
+            "口"
+        ],
+        "kanji": "口",
+        "kanji_ord": 21475,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  , <span class='meaning' data-kanji='口'>Mund</span> <span class='meaning_kanji_meaning'>(口)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='口'>Mund</span> <span class='meaning_kanji_reading'>(口)</span> esse ich <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 44,
+        "reading_dist": [
+            {
+                "reading": "くち",
+                "count": 18,
+                "prop": 0.67
+            },
+            {
+                "reading": "こう",
+                "count": 9,
+                "prop": 0.33
+            }
+        ],
+        "order_wiki_radical_corrected": 4,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -321,7 +395,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 5,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -385,7 +461,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 6,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -455,7 +533,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 7,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -526,7 +606,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 8,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -608,7 +690,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 9,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -679,7 +763,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 10,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -745,7 +831,108 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 11,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 5,
+        "grade": 1,
+        "freq": 483,
+        "jlpt_old": 4,
+        "jlpt_new": 5,
+        "meanings": [
+            "White"
+        ],
+        "readings_on": [
+            "はく",
+            "びゃく"
+        ],
+        "readings_kun": [
+            "しろ",
+            "しら-",
+            "しろ.い"
+        ],
+        "wk_level": 2,
+        "wk_meanings": [
+            "White"
+        ],
+        "wk_readings_on": [
+            "はく"
+        ],
+        "wk_readings_kun": [
+            "!しろ",
+            "!しら"
+        ],
+        "wk_radicals": [
+            "White"
+        ],
+        "meanings_de": [
+            "weiß"
+        ],
+        "wk_radicals_new": [
+            "White"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Weiß"
+        ],
+        "wk_radicals_kanji": [
+            "白"
+        ],
+        "kanji": "白",
+        "kanji_ord": 30333,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>  , <span class='meaning' data-kanji='白'>weiß</span> <span class='meaning_kanji_meaning'>(白)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Fett sieht man im <span class='reading onyomi' data-hiragana='はく'>Hack</span>fleisch <span class='hiragana'>(はく)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 80,
+        "reading_dist": [
+            {
+                "reading": "はく",
+                "count": 11,
+                "prop": 0.44
+            },
+            {
+                "reading": "しろ",
+                "count": 6,
+                "prop": 0.24
+            },
+            {
+                "reading": "しら",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "はっこつ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "おしろい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "しろい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "はっけつびょう",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "はっけっきゅう",
+                "count": 1,
+                "prop": 0.04
+            }
+        ],
+        "order_wiki_radical_corrected": 12,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -822,7 +1009,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 13,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -885,7 +1074,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.42
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 14,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -1020,7 +1211,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 15,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -1142,7 +1335,77 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 16,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 3,
+        "grade": 2,
+        "freq": 299,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Craft",
+            "Construction",
+            "Katakana E Radical (no. 48)"
+        ],
+        "readings_on": [
+            "こう",
+            "く",
+            "ぐ"
+        ],
+        "readings_kun": [],
+        "wk_level": 1,
+        "wk_meanings": [
+            "Construction",
+            "^Industry"
+        ],
+        "wk_readings_on": [
+            "こう",
+            "^く"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Construction"
+        ],
+        "meanings_de": [
+            "Handwerker",
+            "bauen",
+            "arbeiten"
+        ],
+        "wk_radicals_new": [
+            "Construction"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Konstruktion"
+        ],
+        "wk_radicals_kanji": [
+            "工"
+        ],
+        "kanji": "工",
+        "kanji_ord": 24037,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='工'>Konstruktion</span> <span class='radical_kanji'>(工)</span>  , <span class='meaning' data-kanji='工'>Handwerker</span> <span class='meaning_kanji_meaning'>(工)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='工'>Handwerker</span> <span class='meaning_kanji_reading'>(工)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 182,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "く",
+                "count": 1,
+                "prop": 0.05
+            }
+        ],
+        "order_wiki_radical_corrected": 17,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -1209,7 +1472,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.47
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 18,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -1277,7 +1542,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 19,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -1350,7 +1617,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 20,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -1444,7 +1713,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 21,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -1539,7 +1810,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 22,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -1617,7 +1890,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 23,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -1891,7 +2166,79 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 24,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 4,
+        "grade": 2,
+        "freq": 1202,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Cow"
+        ],
+        "readings_on": [
+            "ぎゅう"
+        ],
+        "readings_kun": [
+            "うし"
+        ],
+        "wk_level": 3,
+        "wk_meanings": [
+            "Cow"
+        ],
+        "wk_readings_on": [
+            "ぎゅう"
+        ],
+        "wk_readings_kun": [
+            "!うし"
+        ],
+        "wk_radicals": [
+            "Cow"
+        ],
+        "meanings_de": [
+            "Kuh",
+            "Bulle"
+        ],
+        "wk_radicals_new": [
+            "Cow"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Kuh"
+        ],
+        "wk_radicals_kanji": [
+            "牛"
+        ],
+        "kanji": "牛",
+        "kanji_ord": 29275,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='牛'>Kuh</span> <span class='radical_kanji'>(牛)</span>  , <span class='meaning' data-kanji='牛'>Kuh</span> <span class='meaning_kanji_meaning'>(牛)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='牛'>Kuh</span> <span class='meaning_kanji_reading'>(牛)</span> , <span class='reading onyomi' data-hiragana='ぎゅう'>Gyuu</span> <span class='hiragana'>(ぎゅう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 196,
+        "reading_dist": [
+            {
+                "reading": "ぎゅう",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "うし",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "オックスフォード",
+                "count": 1,
+                "prop": 0.17
+            }
+        ],
+        "order_wiki_radical_corrected": 25,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -1958,7 +2305,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 26,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -2045,7 +2394,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 27,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -2130,7 +2481,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 28,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -2194,7 +2547,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 29,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -2263,7 +2618,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 30,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -2328,7 +2685,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 31,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -2410,7 +2769,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 32,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -2512,7 +2873,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 33,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -2583,7 +2946,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 34,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -2656,7 +3021,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 35,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -2788,7 +3155,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 36,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -2861,7 +3230,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 37,
+        "grade_corrected": 1
     },
     {
         "strokes": 9,
@@ -2944,7 +3315,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 38,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -3008,7 +3381,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 39,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -3067,7 +3442,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 40,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -3141,7 +3518,69 @@ let kyouiku =
                 "count": 16,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 41,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 3,
+        "grade": 1,
+        "freq": 924,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Evening"
+        ],
+        "readings_on": [
+            "せき"
+        ],
+        "readings_kun": [
+            "ゆう"
+        ],
+        "wk_level": 2,
+        "wk_meanings": [
+            "Evening"
+        ],
+        "wk_readings_on": [
+            "!せき"
+        ],
+        "wk_readings_kun": [
+            "ゆう"
+        ],
+        "wk_radicals": [
+            "Evening"
+        ],
+        "meanings_de": [
+            "Abend"
+        ],
+        "wk_radicals_new": [
+            "Evening"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Abend"
+        ],
+        "wk_radicals_kanji": [
+            "夕"
+        ],
+        "kanji": "夕",
+        "kanji_ord": 22805,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='夕'>Abend</span> <span class='radical_kanji'>(夕)</span>  , <span class='meaning' data-kanji='夕'>Abend</span> <span class='meaning_kanji_meaning'>(夕)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='夕'>Abend</span> <span class='meaning_kanji_reading'>(夕)</span> ist noch <span class='reading kunyomi' data-hiragana='ゆう'>Ju</span>ng <span class='hiragana'>(ゆう)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 57,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 11,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 42,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -3215,7 +3654,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 0.36
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 43,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -3293,7 +3734,85 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 44,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 2,
+        "grade": 1,
+        "freq": 62,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Power",
+            "Strength",
+            "Strong",
+            "Strain",
+            "Bear Up",
+            "Exert"
+        ],
+        "readings_on": [
+            "りょく",
+            "りき",
+            "りい"
+        ],
+        "readings_kun": [
+            "ちから"
+        ],
+        "wk_level": 1,
+        "wk_meanings": [
+            "Power",
+            "^Strength"
+        ],
+        "wk_readings_on": [
+            "りょく",
+            "りき"
+        ],
+        "wk_readings_kun": [
+            "!ちから"
+        ],
+        "wk_radicals": [
+            "Power"
+        ],
+        "meanings_de": [
+            "Kraft",
+            "Stärke",
+            "Anstrengung"
+        ],
+        "wk_radicals_new": [
+            "Power"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Kraft"
+        ],
+        "wk_radicals_kanji": [
+            "力"
+        ],
+        "kanji": "力",
+        "kanji_ord": 21147,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  , <span class='meaning' data-kanji='力'>Kraft</span> <span class='meaning_kanji_meaning'>(力)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Hatte schon <span class='meaning' data-kanji='力'>Kraft</span> <span class='meaning_kanji_reading'>(力)</span> als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>gel <span class='hiragana'>(りょく)</span>. Ausgewachsen bin ich ein Safa<span class='reading onyomi' data-hiragana='りき'>riki</span>ller <span class='hiragana'>(りき)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 49,
+        "reading_dist": [
+            {
+                "reading": "りき",
+                "count": 8,
+                "prop": 0.62
+            },
+            {
+                "reading": "ちから",
+                "count": 5,
+                "prop": 0.38
+            }
+        ],
+        "order_wiki_radical_corrected": 45,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -3362,7 +3881,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 46,
+        "grade_corrected": 1
     },
     {
         "strokes": 3,
@@ -3440,7 +3961,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 47,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -3512,7 +4035,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.19
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 48,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -3575,73 +4100,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 1,
-        "freq": 284,
-        "jlpt_old": 4,
-        "jlpt_new": 4,
-        "meanings": [
-            "Mouth"
         ],
-        "readings_on": [
-            "こう",
-            "く"
-        ],
-        "readings_kun": [
-            "くち"
-        ],
-        "wk_level": 1,
-        "wk_meanings": [
-            "Mouth"
-        ],
-        "wk_readings_on": [
-            "こう",
-            "^く"
-        ],
-        "wk_readings_kun": [
-            "!くち"
-        ],
-        "wk_radicals": [
-            "Mouth"
-        ],
-        "meanings_de": [
-            "Mund",
-            "Öffnung"
-        ],
-        "wk_radicals_new": [
-            "Mouth"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Mund"
-        ],
-        "wk_radicals_kanji": [
-            "口"
-        ],
-        "kanji": "口",
-        "kanji_ord": 21475,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  , <span class='meaning' data-kanji='口'>Mund</span> <span class='meaning_kanji_meaning'>(口)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='口'>Mund</span> <span class='meaning_kanji_reading'>(口)</span> esse ich <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 44,
-        "reading_dist": [
-            {
-                "reading": "くち",
-                "count": 18,
-                "prop": 0.67
-            },
-            {
-                "reading": "こう",
-                "count": 9,
-                "prop": 0.33
-            }
-        ]
+        "order_wiki_radical_corrected": 49,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -3709,7 +4170,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 50,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -3783,7 +4246,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 51,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -3855,7 +4320,100 @@ let kyouiku =
                 "count": 8,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 52,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 5,
+        "grade": 1,
+        "freq": 58,
+        "jlpt_old": 4,
+        "jlpt_new": 4,
+        "meanings": [
+            "Stand Up",
+            "Rise",
+            "Set Up",
+            "Erect"
+        ],
+        "readings_on": [
+            "りつ",
+            "りゅう",
+            "りっとる"
+        ],
+        "readings_kun": [
+            "た.つ",
+            "-た.つ",
+            "た.ち-",
+            "た.てる",
+            "-た.てる",
+            "た.て-",
+            "たて-",
+            "-た.て",
+            "-だ.て",
+            "-だ.てる"
+        ],
+        "wk_level": 2,
+        "wk_meanings": [
+            "Stand"
+        ],
+        "wk_readings_on": [
+            "りつ",
+            "りゅう"
+        ],
+        "wk_readings_kun": [
+            "!た"
+        ],
+        "wk_radicals": [
+            "Stand"
+        ],
+        "meanings_de": [
+            "stehen",
+            "sich aufrichten"
+        ],
+        "wk_radicals_new": [
+            "Stand"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Stand"
+        ],
+        "wk_radicals_kanji": [
+            "立"
+        ],
+        "kanji": "立",
+        "kanji_ord": 31435,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  , <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_meaning'>(立)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_reading'>(立)</span> in der vollen Ferra<span class='reading onyomi' data-hiragana='りゅう'>ri-U-</span>Bahn <span class='hiragana'>(りゅう)</span>, überall Tiere im Safa<span class='reading onyomi' data-hiragana='りつ'>rizu</span>g <span class='hiragana'>(りつ)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 54,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 25,
+                "prop": 0.62
+            },
+            {
+                "reading": "りっ",
+                "count": 12,
+                "prop": 0.3
+            },
+            {
+                "reading": "たち",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "りつ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ],
+        "order_wiki_radical_corrected": 53,
+        "grade_corrected": 1
     },
     {
         "strokes": 9,
@@ -3934,81 +4492,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
-    },
-    {
-        "strokes": 2,
-        "grade": 1,
-        "freq": 62,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Power",
-            "Strength",
-            "Strong",
-            "Strain",
-            "Bear Up",
-            "Exert"
         ],
-        "readings_on": [
-            "りょく",
-            "りき",
-            "りい"
-        ],
-        "readings_kun": [
-            "ちから"
-        ],
-        "wk_level": 1,
-        "wk_meanings": [
-            "Power",
-            "^Strength"
-        ],
-        "wk_readings_on": [
-            "りょく",
-            "りき"
-        ],
-        "wk_readings_kun": [
-            "!ちから"
-        ],
-        "wk_radicals": [
-            "Power"
-        ],
-        "meanings_de": [
-            "Kraft",
-            "Stärke",
-            "Anstrengung"
-        ],
-        "wk_radicals_new": [
-            "Power"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Kraft"
-        ],
-        "wk_radicals_kanji": [
-            "力"
-        ],
-        "kanji": "力",
-        "kanji_ord": 21147,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  , <span class='meaning' data-kanji='力'>Kraft</span> <span class='meaning_kanji_meaning'>(力)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Hatte schon <span class='meaning' data-kanji='力'>Kraft</span> <span class='meaning_kanji_reading'>(力)</span> als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>gel <span class='hiragana'>(りょく)</span>. Ausgewachsen bin ich ein Safa<span class='reading onyomi' data-hiragana='りき'>riki</span>ller <span class='hiragana'>(りき)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 49,
-        "reading_dist": [
-            {
-                "reading": "りき",
-                "count": 8,
-                "prop": 0.62
-            },
-            {
-                "reading": "ちから",
-                "count": 5,
-                "prop": 0.38
-            }
-        ]
+        "order_wiki_radical_corrected": 54,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -4092,7 +4578,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 55,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -4162,7 +4650,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 56,
+        "grade_corrected": 1
     },
     {
         "strokes": 2,
@@ -4245,7 +4735,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 57,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -4335,96 +4827,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 1,
-        "freq": 58,
-        "jlpt_old": 4,
-        "jlpt_new": 4,
-        "meanings": [
-            "Stand Up",
-            "Rise",
-            "Set Up",
-            "Erect"
         ],
-        "readings_on": [
-            "りつ",
-            "りゅう",
-            "りっとる"
-        ],
-        "readings_kun": [
-            "た.つ",
-            "-た.つ",
-            "た.ち-",
-            "た.てる",
-            "-た.てる",
-            "た.て-",
-            "たて-",
-            "-た.て",
-            "-だ.て",
-            "-だ.てる"
-        ],
-        "wk_level": 2,
-        "wk_meanings": [
-            "Stand"
-        ],
-        "wk_readings_on": [
-            "りつ",
-            "りゅう"
-        ],
-        "wk_readings_kun": [
-            "!た"
-        ],
-        "wk_radicals": [
-            "Stand"
-        ],
-        "meanings_de": [
-            "stehen",
-            "sich aufrichten"
-        ],
-        "wk_radicals_new": [
-            "Stand"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Stand"
-        ],
-        "wk_radicals_kanji": [
-            "立"
-        ],
-        "kanji": "立",
-        "kanji_ord": 31435,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  , <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_meaning'>(立)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_reading'>(立)</span> in der vollen Ferra<span class='reading onyomi' data-hiragana='りゅう'>ri-U-</span>Bahn <span class='hiragana'>(りゅう)</span>, überall Tiere im Safa<span class='reading onyomi' data-hiragana='りつ'>rizu</span>g <span class='hiragana'>(りつ)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 54,
-        "reading_dist": [
-            {
-                "reading": "た",
-                "count": 25,
-                "prop": 0.62
-            },
-            {
-                "reading": "りっ",
-                "count": 12,
-                "prop": 0.3
-            },
-            {
-                "reading": "たち",
-                "count": 2,
-                "prop": 0.05
-            },
-            {
-                "reading": "りつ",
-                "count": 1,
-                "prop": 0.03
-            }
-        ]
+        "order_wiki_radical_corrected": 58,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -4497,7 +4902,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.18
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 59,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -4585,65 +4992,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 1,
-        "freq": 924,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Evening"
         ],
-        "readings_on": [
-            "せき"
-        ],
-        "readings_kun": [
-            "ゆう"
-        ],
-        "wk_level": 2,
-        "wk_meanings": [
-            "Evening"
-        ],
-        "wk_readings_on": [
-            "!せき"
-        ],
-        "wk_readings_kun": [
-            "ゆう"
-        ],
-        "wk_radicals": [
-            "Evening"
-        ],
-        "meanings_de": [
-            "Abend"
-        ],
-        "wk_radicals_new": [
-            "Evening"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Abend"
-        ],
-        "wk_radicals_kanji": [
-            "夕"
-        ],
-        "kanji": "夕",
-        "kanji_ord": 22805,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='夕'>Abend</span> <span class='radical_kanji'>(夕)</span>  , <span class='meaning' data-kanji='夕'>Abend</span> <span class='meaning_kanji_meaning'>(夕)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='夕'>Abend</span> <span class='meaning_kanji_reading'>(夕)</span> ist noch <span class='reading kunyomi' data-hiragana='ゆう'>Ju</span>ng <span class='hiragana'>(ゆう)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 57,
-        "reading_dist": [
-            {
-                "reading": "ゆう",
-                "count": 11,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 60,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -4718,7 +5069,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 61,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -4801,7 +5154,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 62,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -4868,7 +5223,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 63,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -4943,7 +5300,80 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 64,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 4,
+        "grade": 2,
+        "freq": 646,
+        "jlpt_old": 4,
+        "jlpt_new": 5,
+        "meanings": [
+            "Father"
+        ],
+        "readings_on": [
+            "ふ"
+        ],
+        "readings_kun": [
+            "ちち"
+        ],
+        "wk_level": 3,
+        "wk_meanings": [
+            "Father",
+            "^Dad"
+        ],
+        "wk_readings_on": [
+            "!ふ"
+        ],
+        "wk_readings_kun": [
+            "ちち"
+        ],
+        "wk_radicals": [
+            "Father"
+        ],
+        "meanings_de": [
+            "Vater"
+        ],
+        "wk_radicals_new": [
+            "Father"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Vater"
+        ],
+        "wk_radicals_kanji": [
+            "父"
+        ],
+        "kanji": "父",
+        "kanji_ord": 29238,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='父'>Vater</span> <span class='radical_kanji'>(父)</span>  , <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_meaning'>(父)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_reading'>(父)</span> hat sich im Krankenhaus hochgearbeitet als Hierar<span class='reading kunyomi' data-hiragana='ちち'>chiechi</span>rurg <span class='hiragana'>(ちち)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 106,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ちち",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "とう",
+                "count": 1,
+                "prop": 0.17
+            }
+        ],
+        "order_wiki_radical_corrected": 65,
+        "grade_corrected": 1
     },
     {
         "strokes": 10,
@@ -5010,7 +5440,70 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 66,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 3,
+        "grade": 6,
+        "freq": 1669,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Measurement",
+            "Tenth Of A Shaku",
+            "A Little",
+            "Small"
+        ],
+        "readings_on": [
+            "すん"
+        ],
+        "readings_kun": [],
+        "wk_level": 44,
+        "wk_meanings": [
+            "Measurement"
+        ],
+        "wk_readings_on": [
+            "すん"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Measurement"
+        ],
+        "meanings_de": [
+            "messen",
+            "Länge",
+            "SUN = 3",
+            "03 cm"
+        ],
+        "wk_radicals_new": [
+            "Measurement"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Messung"
+        ],
+        "wk_radicals_kanji": [
+            "寸"
+        ],
+        "kanji": "寸",
+        "kanji_ord": 23544,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='寸'>Messung</span> <span class='radical_kanji'>(寸)</span>  , <span class='meaning' data-kanji='寸'>messen</span> <span class='meaning_kanji_meaning'>(寸)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='寸'>messen</span> <span class='meaning_kanji_reading'>(寸)</span> , <span class='reading onyomi' data-hiragana='すん'>Sun</span> <span class='hiragana'>(すん)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 869,
+        "reading_dist": [
+            {
+                "reading": "すん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 67,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -5078,7 +5571,82 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 68,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 2,
+        "grade": 3,
+        "freq": 1312,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Street",
+            "Ward",
+            "Town",
+            "Counter For Guns, Tools, Leaves Or Cakes Of Something",
+            "Even Number",
+            "4th Calendar Sign"
+        ],
+        "readings_on": [
+            "ちょう",
+            "てい",
+            "ちん",
+            "とう",
+            "ち"
+        ],
+        "readings_kun": [
+            "ひのと"
+        ],
+        "wk_level": 2,
+        "wk_meanings": [
+            "Street"
+        ],
+        "wk_readings_on": [
+            "ちょう",
+            "^てい"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Street"
+        ],
+        "meanings_de": [
+            "morceau",
+            "bloc"
+        ],
+        "wk_radicals_new": [
+            "Street"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Straße"
+        ],
+        "wk_radicals_kanji": [
+            "丁"
+        ],
+        "kanji": "丁",
+        "kanji_ord": 19969,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='丁'>Straße</span> <span class='radical_kanji'>(丁)</span>  , <span class='meaning' data-kanji='丁'>morceau</span> <span class='meaning_kanji_meaning'>(丁)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='丁'>morceau</span> <span class='meaning_kanji_reading'>(丁)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 241,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ちょう",
+                "count": 1,
+                "prop": 0.33
+            }
+        ],
+        "order_wiki_radical_corrected": 69,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -5148,7 +5716,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 70,
+        "grade_corrected": 1
     },
     {
         "strokes": 12,
@@ -5212,7 +5782,94 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 71,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 4,
+        "grade": 2,
+        "freq": 310,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Stop",
+            "Halt"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [
+            "と.まる",
+            "-ど.まり",
+            "と.める",
+            "-と.める",
+            "-ど.め",
+            "とど.める",
+            "とど.め",
+            "とど.まる",
+            "や.める",
+            "や.む",
+            "-や.む",
+            "よ.す",
+            "-さ.す",
+            "-さ.し"
+        ],
+        "wk_level": 3,
+        "wk_meanings": [
+            "Stop"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [
+            "!と",
+            "!や"
+        ],
+        "wk_radicals": [
+            "Stop"
+        ],
+        "meanings_de": [
+            "anhalten",
+            "stoppen"
+        ],
+        "wk_radicals_new": [
+            "Stop"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Stop"
+        ],
+        "wk_radicals_kanji": [
+            "止"
+        ],
+        "kanji": "止",
+        "kanji_ord": 27490,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='止'>Stop</span> <span class='radical_kanji'>(止)</span>  , <span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_meaning'>(止)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_reading'>(止)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 212,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "や",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "よ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ],
+        "order_wiki_radical_corrected": 72,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -5304,7 +5961,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 73,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -5373,7 +6032,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 74,
+        "grade_corrected": 1
     },
     {
         "strokes": 4,
@@ -5445,7 +6106,69 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 75,
+        "grade_corrected": 1
+    },
+    {
+        "strokes": 4,
+        "grade": 1,
+        "freq": 684,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "King",
+            "Rule",
+            "Magnate"
+        ],
+        "readings_on": [
+            "おう",
+            "-のう"
+        ],
+        "readings_kun": [],
+        "wk_level": 2,
+        "wk_meanings": [
+            "King"
+        ],
+        "wk_readings_on": [
+            "おう"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "King"
+        ],
+        "meanings_de": [
+            "König",
+            "Anführer"
+        ],
+        "wk_radicals_new": [
+            "King"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "König"
+        ],
+        "wk_radicals_kanji": [
+            "王"
+        ],
+        "kanji": "王",
+        "kanji_ord": 29579,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  , <span class='meaning' data-kanji='王'>König</span> <span class='meaning_kanji_meaning'>(王)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Dem <span class='meaning' data-kanji='王'>König</span> <span class='meaning_kanji_reading'>(王)</span> hängt die Krone über sein <span class='reading onyomi' data-hiragana='おう'>Oh</span>r <span class='hiragana'>(おう)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 70,
+        "reading_dist": [
+            {
+                "reading": "おう",
+                "count": 16,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 76,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -5516,65 +6239,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 1,
-        "freq": 684,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "King",
-            "Rule",
-            "Magnate"
         ],
-        "readings_on": [
-            "おう",
-            "-のう"
-        ],
-        "readings_kun": [],
-        "wk_level": 2,
-        "wk_meanings": [
-            "King"
-        ],
-        "wk_readings_on": [
-            "おう"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "King"
-        ],
-        "meanings_de": [
-            "König",
-            "Anführer"
-        ],
-        "wk_radicals_new": [
-            "King"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "König"
-        ],
-        "wk_radicals_kanji": [
-            "王"
-        ],
-        "kanji": "王",
-        "kanji_ord": 29579,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  , <span class='meaning' data-kanji='王'>König</span> <span class='meaning_kanji_meaning'>(王)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Dem <span class='meaning' data-kanji='王'>König</span> <span class='meaning_kanji_reading'>(王)</span> hängt die Krone über sein <span class='reading onyomi' data-hiragana='おう'>Oh</span>r <span class='hiragana'>(おう)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 70,
-        "reading_dist": [
-            {
-                "reading": "おう",
-                "count": 16,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 77,
+        "grade_corrected": 1
     },
     {
         "strokes": 5,
@@ -5660,7 +6327,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 78,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -5716,7 +6385,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 79,
+        "grade_corrected": 1
     },
     {
         "strokes": 6,
@@ -5774,7 +6445,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 80,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -5831,7 +6504,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 81,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -5894,7 +6569,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.15
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 82,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -5973,7 +6650,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 83,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -6044,7 +6723,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 84,
+        "grade_corrected": 1
     },
     {
         "strokes": 7,
@@ -6117,7 +6798,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 85,
+        "grade_corrected": 1
     },
     {
         "strokes": 8,
@@ -6191,104 +6874,86 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 86,
+        "grade_corrected": 1
     },
     {
-        "strokes": 5,
-        "grade": 1,
-        "freq": 483,
-        "jlpt_old": 4,
-        "jlpt_new": 5,
+        "strokes": 6,
+        "grade": 2,
+        "freq": 61,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
         "meanings": [
-            "White"
+            "Rice",
+            "Usa",
+            "Metre"
         ],
         "readings_on": [
-            "はく",
-            "びゃく"
+            "べい",
+            "まい",
+            "めえとる"
         ],
         "readings_kun": [
-            "しろ",
-            "しら-",
-            "しろ.い"
+            "こめ",
+            "よね"
         ],
-        "wk_level": 2,
+        "wk_level": 5,
         "wk_meanings": [
-            "White"
+            "Rice",
+            "^America"
         ],
         "wk_readings_on": [
-            "はく"
+            "べい",
+            "まい"
         ],
         "wk_readings_kun": [
-            "!しろ",
-            "!しら"
+            "!こめ"
         ],
         "wk_radicals": [
-            "White"
+            "Rice"
         ],
         "meanings_de": [
-            "weiß"
+            "Reis",
+            "Amerika"
         ],
         "wk_radicals_new": [
-            "White"
+            "Rice"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Weiß"
+            "Reis"
         ],
         "wk_radicals_kanji": [
-            "白"
+            "米"
         ],
-        "kanji": "白",
-        "kanji_ord": 30333,
+        "kanji": "米",
+        "kanji_ord": 31859,
         "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>  , <span class='meaning' data-kanji='白'>weiß</span> <span class='meaning_kanji_meaning'>(白)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='米'>Reis</span> <span class='radical_kanji'>(米)</span>  , <span class='meaning' data-kanji='米'>Reis</span> <span class='meaning_kanji_meaning'>(米)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Fett sieht man im <span class='reading onyomi' data-hiragana='はく'>Hack</span>fleisch <span class='hiragana'>(はく)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 80,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='米'>Reis</span> <span class='meaning_kanji_reading'>(米)</span> , <span class='reading onyomi' data-hiragana='べい'>Bei</span> <span class='hiragana'>(べい)</span>  <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 202,
         "reading_dist": [
             {
-                "reading": "はく",
-                "count": 11,
-                "prop": 0.44
-            },
-            {
-                "reading": "しろ",
+                "reading": "べい",
                 "count": 6,
-                "prop": 0.24
+                "prop": 0.75
             },
             {
-                "reading": "しら",
-                "count": 3,
+                "reading": "米",
+                "count": 1,
                 "prop": 0.12
             },
             {
-                "reading": "はっこつ",
+                "reading": "こめ",
                 "count": 1,
-                "prop": 0.04
-            },
-            {
-                "reading": "おしろい",
-                "count": 1,
-                "prop": 0.04
-            },
-            {
-                "reading": "しろい",
-                "count": 1,
-                "prop": 0.04
-            },
-            {
-                "reading": "はっけつびょう",
-                "count": 1,
-                "prop": 0.04
-            },
-            {
-                "reading": "はっけっきゅう",
-                "count": 1,
-                "prop": 0.04
+                "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 87,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -6379,7 +7044,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 88,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -6447,7 +7114,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 89,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -6521,7 +7190,72 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.19
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 90,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 2,
+        "grade": 2,
+        "freq": 1794,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Sword",
+            "Saber",
+            "Knife"
+        ],
+        "readings_on": [
+            "とう"
+        ],
+        "readings_kun": [
+            "かたな",
+            "そり"
+        ],
+        "wk_level": 2,
+        "wk_meanings": [
+            "Sword",
+            "^Katana"
+        ],
+        "wk_readings_on": [
+            "とう"
+        ],
+        "wk_readings_kun": [
+            "!かたな"
+        ],
+        "wk_radicals": [
+            "Sword"
+        ],
+        "meanings_de": [
+            "Schwert"
+        ],
+        "wk_radicals_new": [
+            "Sword"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Schwert"
+        ],
+        "wk_radicals_kanji": [
+            "刀"
+        ],
+        "kanji": "刀",
+        "kanji_ord": 20992,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span>  , <span class='meaning' data-kanji='刀'>Schwert</span> <span class='meaning_kanji_meaning'>(刀)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='刀'>Schwert</span> <span class='meaning_kanji_reading'>(刀)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 237,
+        "reading_dist": [
+            {
+                "reading": "かたな",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 91,
+        "grade_corrected": 2
     },
     {
         "strokes": 3,
@@ -6588,7 +7322,89 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.46
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 92,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 3,
+        "grade": 6,
+        "freq": 1349,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Dry",
+            "Parch",
+            "Ebb",
+            "Recede",
+            "Interfere",
+            "Intercede"
+        ],
+        "readings_on": [
+            "かん"
+        ],
+        "readings_kun": [
+            "ほ.す",
+            "ほ.し-",
+            "-ぼ.し",
+            "ひ.る"
+        ],
+        "wk_level": 17,
+        "wk_meanings": [
+            "Dry"
+        ],
+        "wk_readings_on": [
+            "かん"
+        ],
+        "wk_readings_kun": [
+            "!ほ",
+            "!ひ"
+        ],
+        "wk_radicals": [
+            "Dry"
+        ],
+        "meanings_de": [
+            "trocken werden",
+            "trocknen",
+            "getrocknet"
+        ],
+        "wk_radicals_new": [
+            "Dry"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Trocken"
+        ],
+        "wk_radicals_kanji": [
+            "干"
+        ],
+        "kanji": "干",
+        "kanji_ord": 24178,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='干'>Trocken</span> <span class='radical_kanji'>(干)</span>  , <span class='meaning' data-kanji='干'>trocken werden</span> <span class='meaning_kanji_meaning'>(干)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='干'>trocken werden</span> <span class='meaning_kanji_reading'>(干)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 882,
+        "reading_dist": [
+            {
+                "reading": "ほ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "かん",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "ひ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ],
+        "order_wiki_radical_corrected": 93,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -6659,7 +7475,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 94,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -6742,7 +7560,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 95,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -6814,7 +7634,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.42
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 96,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -6902,7 +7724,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 97,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -6980,7 +7804,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 98,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -7060,7 +7886,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 99,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -7138,7 +7966,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 100,
+        "grade_corrected": 2
     },
     {
         "strokes": 3,
@@ -7214,7 +8044,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 101,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -7308,7 +8140,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 102,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -7385,7 +8219,78 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 103,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 5,
+        "grade": 2,
+        "freq": 107,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Utilize",
+            "Business",
+            "Service",
+            "Use",
+            "Employ"
+        ],
+        "readings_on": [
+            "よう"
+        ],
+        "readings_kun": [
+            "もち.いる"
+        ],
+        "wk_level": 3,
+        "wk_meanings": [
+            "Task",
+            "^Use"
+        ],
+        "wk_readings_on": [
+            "よう"
+        ],
+        "wk_readings_kun": [
+            "!もち"
+        ],
+        "wk_radicals": [
+            "Task"
+        ],
+        "meanings_de": [
+            "(ge-)brauchen"
+        ],
+        "wk_radicals_new": [
+            "Task"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Aufgabe"
+        ],
+        "wk_radicals_kanji": [
+            "用"
+        ],
+        "kanji": "用",
+        "kanji_ord": 29992,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='用'>Aufgabe</span> <span class='radical_kanji'>(用)</span>  , <span class='meaning' data-kanji='用'>(ge-)brauchen</span> <span class='meaning_kanji_meaning'>(用)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='用'>(ge-)brauchen</span> <span class='meaning_kanji_reading'>(用)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 239,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "もち",
+                "count": 1,
+                "prop": 0.06
+            }
+        ],
+        "order_wiki_radical_corrected": 104,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -7454,7 +8359,85 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 105,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 7,
+        "grade": 2,
+        "freq": 83,
+        "jlpt_old": 4,
+        "jlpt_new": 4,
+        "meanings": [
+            "Say",
+            "Word"
+        ],
+        "readings_on": [
+            "げん",
+            "ごん"
+        ],
+        "readings_kun": [
+            "い.う",
+            "こと"
+        ],
+        "wk_level": 5,
+        "wk_meanings": [
+            "Say"
+        ],
+        "wk_readings_on": [
+            "げん",
+            "^ごん"
+        ],
+        "wk_readings_kun": [
+            "!い",
+            "!こと"
+        ],
+        "wk_radicals": [
+            "Say"
+        ],
+        "meanings_de": [
+            "Wort",
+            "sagen",
+            "sprechen"
+        ],
+        "wk_radicals_new": [
+            "Say"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Reden"
+        ],
+        "wk_radicals_kanji": [
+            "言"
+        ],
+        "kanji": "言",
+        "kanji_ord": 35328,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  , <span class='meaning' data-kanji='言'>Wort</span> <span class='meaning_kanji_meaning'>(言)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='言'>Wort</span> <span class='meaning_kanji_reading'>(言)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 170,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 16,
+                "prop": 0.64
+            },
+            {
+                "reading": "げん",
+                "count": 6,
+                "prop": 0.24
+            },
+            {
+                "reading": "こと",
+                "count": 3,
+                "prop": 0.12
+            }
+        ],
+        "order_wiki_radical_corrected": 106,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -7526,7 +8509,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 107,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -7667,7 +8652,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 108,
+        "grade_corrected": 2
     },
     {
         "strokes": 15,
@@ -7734,7 +8721,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 109,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -7792,7 +8781,70 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 111,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 3,
+        "grade": 2,
+        "freq": 1802,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Bow",
+            "Bow (archery, Violin)"
+        ],
+        "readings_on": [
+            "きゅう"
+        ],
+        "readings_kun": [
+            "ゆみ"
+        ],
+        "wk_level": 18,
+        "wk_meanings": [
+            "Bow"
+        ],
+        "wk_readings_on": [
+            "きゅう"
+        ],
+        "wk_readings_kun": [
+            "!ゆみ"
+        ],
+        "wk_radicals": [
+            "Bow"
+        ],
+        "meanings_de": [
+            "Bogen",
+            "Bogenschießen"
+        ],
+        "wk_radicals_new": [
+            "Bow"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Bogen"
+        ],
+        "wk_radicals_kanji": [
+            "弓"
+        ],
+        "kanji": "弓",
+        "kanji_ord": 24339,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span>  , <span class='meaning' data-kanji='弓'>Bogen</span> <span class='meaning_kanji_meaning'>(弓)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Beim Spannen vom <span class='meaning' data-kanji='弓'>Bogen</span> <span class='meaning_kanji_reading'>(弓)</span> muss man ihn druc<span class='reading onyomi' data-hiragana='きゅう'>kju</span>stieren <span class='hiragana'>(きゅう)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 219,
+        "reading_dist": [
+            {
+                "reading": "ゆみ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 112,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -7862,7 +8914,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 113,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -7959,7 +9013,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 114,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -8039,7 +9095,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 115,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -8107,7 +9165,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 116,
+        "grade_corrected": 2
     },
     {
         "strokes": 16,
@@ -8192,7 +9252,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 117,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -8266,76 +9328,80 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 118,
+        "grade_corrected": 2
     },
     {
-        "strokes": 4,
+        "strokes": 5,
         "grade": 2,
-        "freq": 646,
-        "jlpt_old": 4,
-        "jlpt_new": 5,
+        "freq": 42,
+        "jlpt_old": 3,
+        "jlpt_new": 3,
         "meanings": [
-            "Father"
+            "Market",
+            "City",
+            "Town"
         ],
         "readings_on": [
-            "ふ"
+            "し"
         ],
         "readings_kun": [
-            "ちち"
+            "いち"
         ],
         "wk_level": 3,
         "wk_meanings": [
-            "Father",
-            "^Dad"
+            "City"
         ],
         "wk_readings_on": [
-            "!ふ"
+            "し"
         ],
         "wk_readings_kun": [
-            "ちち"
+            "!いち"
         ],
         "wk_radicals": [
-            "Father"
+            "Lid",
+            "Towel"
         ],
         "meanings_de": [
-            "Vater"
+            "Stadt",
+            "Markt"
         ],
         "wk_radicals_new": [
-            "Father"
+            "Lid",
+            "Towel"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Vater"
+            "Deckel",
+            "Handtuch"
         ],
         "wk_radicals_kanji": [
-            "父"
+            "亠",
+            "巾"
         ],
-        "kanji": "父",
-        "kanji_ord": 29238,
-        "is_radical": true,
-        "has_radical_img": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='父'>Vater</span> <span class='radical_kanji'>(父)</span>  , <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_meaning'>(父)</span>",
+        "kanji": "市",
+        "kanji_ord": 24066,
+        "is_radical": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  , <span class='meaning' data-kanji='市'>Stadt</span> <span class='meaning_kanji_meaning'>(市)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_reading'>(父)</span> hat sich im Krankenhaus hochgearbeitet als Hierar<span class='reading kunyomi' data-hiragana='ちち'>chiechi</span>rurg <span class='hiragana'>(ちち)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 106,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='市'>Stadt</span> <span class='meaning_kanji_reading'>(市)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 153,
         "reading_dist": [
             {
-                "reading": "ふ",
-                "count": 3,
-                "prop": 0.5
+                "reading": "し",
+                "count": 23,
+                "prop": 0.96
             },
             {
-                "reading": "ちち",
-                "count": 2,
-                "prop": 0.33
-            },
-            {
-                "reading": "とう",
+                "reading": "いち",
                 "count": 1,
-                "prop": 0.17
+                "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 119,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -8411,7 +9477,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 120,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -8486,7 +9554,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 121,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -8566,7 +9636,88 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 122,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 5,
+        "grade": 4,
+        "freq": 650,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Un-",
+            "Not Yet",
+            "Hitherto",
+            "Still",
+            "Even Now",
+            "Sign Of The Ram",
+            "1-3pm",
+            "Eighth Sign Of Chinese Zodiac"
+        ],
+        "readings_on": [
+            "み",
+            "び"
+        ],
+        "readings_kun": [
+            "いま.だ",
+            "ま.だ",
+            "ひつじ"
+        ],
+        "wk_level": 7,
+        "wk_meanings": [
+            "Not Yet"
+        ],
+        "wk_readings_on": [
+            "み"
+        ],
+        "wk_readings_kun": [
+            "!ま",
+            "!いま",
+            "!ひつじ"
+        ],
+        "wk_radicals": [
+            "Jet"
+        ],
+        "meanings_de": [
+            "noch",
+            "noch nicht",
+            "unfertig",
+            "unreif"
+        ],
+        "wk_radicals_new": [
+            "Jet"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Jet"
+        ],
+        "wk_radicals_kanji": [
+            "未"
+        ],
+        "kanji": "未",
+        "kanji_ord": 26410,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span>  , <span class='meaning' data-kanji='未'>noch</span> <span class='meaning_kanji_meaning'>(未)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='未'>noch</span> <span class='meaning_kanji_reading'>(未)</span> , <span class='reading onyomi' data-hiragana='み'>Mi</span> <span class='hiragana'>(み)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 548,
+        "reading_dist": [
+            {
+                "reading": "み",
+                "count": 21,
+                "prop": 0.84
+            },
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.16
+            }
+        ],
+        "order_wiki_radical_corrected": 123,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -8628,7 +9779,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 124,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -8713,7 +9866,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 125,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -8779,7 +9934,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 126,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -8856,7 +10013,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 127,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -8923,7 +10082,78 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 128,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 7,
+        "grade": 3,
+        "freq": 1422,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Beans",
+            "Pea",
+            "Midget"
+        ],
+        "readings_on": [
+            "とう",
+            "ず"
+        ],
+        "readings_kun": [
+            "まめ",
+            "まめ-"
+        ],
+        "wk_level": 34,
+        "wk_meanings": [
+            "Beans"
+        ],
+        "wk_readings_on": [
+            "とう"
+        ],
+        "wk_readings_kun": [
+            "!まめ"
+        ],
+        "wk_radicals": [
+            "Beans"
+        ],
+        "meanings_de": [
+            "Bohnen",
+            "Erbsen"
+        ],
+        "wk_radicals_new": [
+            "Beans"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Bohnen"
+        ],
+        "wk_radicals_kanji": [
+            "豆"
+        ],
+        "kanji": "豆",
+        "kanji_ord": 35910,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span>  , <span class='meaning' data-kanji='豆'>Bohnen</span> <span class='meaning_kanji_meaning'>(豆)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='豆'>Bohnen</span> <span class='meaning_kanji_reading'>(豆)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 408,
+        "reading_dist": [
+            {
+                "reading": "まめ",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "とう",
+                "count": 2,
+                "prop": 0.5
+            }
+        ],
+        "order_wiki_radical_corrected": 129,
+        "grade_corrected": 2
     },
     {
         "strokes": 16,
@@ -9008,7 +10238,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 130,
+        "grade_corrected": 2
     },
     {
         "strokes": 18,
@@ -9083,7 +10315,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 131,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -9148,7 +10382,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 132,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -9220,7 +10456,73 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 133,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 6,
+        "grade": 2,
+        "freq": 879,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Buddhist Temple"
+        ],
+        "readings_on": [
+            "じ"
+        ],
+        "readings_kun": [
+            "てら"
+        ],
+        "wk_level": 15,
+        "wk_meanings": [
+            "Temple"
+        ],
+        "wk_readings_on": [
+            "!じ"
+        ],
+        "wk_readings_kun": [
+            "てら"
+        ],
+        "wk_radicals": [
+            "Temple"
+        ],
+        "meanings_de": [
+            "Tempel"
+        ],
+        "wk_radicals_new": [
+            "Temple"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Tempel"
+        ],
+        "wk_radicals_kanji": [
+            "寺"
+        ],
+        "kanji": "寺",
+        "kanji_ord": 23546,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span>  , <span class='meaning' data-kanji='寺'>Tempel</span> <span class='meaning_kanji_meaning'>(寺)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='寺'>Tempel</span> <span class='meaning_kanji_reading'>(寺)</span> , <span class='reading kunyomi' data-hiragana='てら'>Tera</span> <span class='hiragana'>(てら)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 165,
+        "reading_dist": [
+            {
+                "reading": "てら",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "じ",
+                "count": 1,
+                "prop": 0.5
+            }
+        ],
+        "order_wiki_radical_corrected": 134,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -9301,7 +10603,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 135,
+        "grade_corrected": 2
     },
     {
         "strokes": 18,
@@ -9363,7 +10667,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 136,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -9439,7 +10745,67 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 137,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 4,
+        "grade": 6,
+        "freq": 1940,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Shaku",
+            "Japanese Foot",
+            "Measure",
+            "Scale",
+            "Rule"
+        ],
+        "readings_on": [
+            "しゃく"
+        ],
+        "readings_kun": [],
+        "wk_level": 47,
+        "wk_meanings": [
+            "Shaku",
+            "^Japanese Foot"
+        ],
+        "wk_readings_on": [
+            "しゃく"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Shrimp"
+        ],
+        "meanings_de": [
+            "messen",
+            "Längenmaß (ungefähr 30",
+            "3cm)"
+        ],
+        "wk_radicals_new": [],
+        "wk_radicals_missing": [
+            "Shrimp"
+        ],
+        "wk_radicals_de": [],
+        "wk_radicals_kanji": [],
+        "kanji": "尺",
+        "kanji_ord": 23610,
+        "is_radical": false,
+        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='尺'>messen</span> <span class='meaning_kanji_meaning'>(尺)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='尺'>messen</span> <span class='meaning_kanji_reading'>(尺)</span> , <span class='reading onyomi' data-hiragana='しゃく'>Shaku</span> <span class='hiragana'>(しゃく)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 875,
+        "reading_dist": [
+            {
+                "reading": "しゃく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 138,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -9509,7 +10875,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 139,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -9592,7 +10960,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 140,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -9688,7 +11058,77 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 141,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 8,
+        "grade": 4,
+        "freq": 562,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Circumference",
+            "Circuit",
+            "Lap"
+        ],
+        "readings_on": [
+            "しゅう"
+        ],
+        "readings_kun": [
+            "まわ.り"
+        ],
+        "wk_level": 14,
+        "wk_meanings": [
+            "Circumference"
+        ],
+        "wk_readings_on": [
+            "しゅう"
+        ],
+        "wk_readings_kun": [
+            "!まわ"
+        ],
+        "wk_radicals": [
+            "Circumference"
+        ],
+        "meanings_de": [
+            "Umgebung",
+            "Runde",
+            "Umfang"
+        ],
+        "wk_radicals_new": [
+            "Circumference"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Umfang"
+        ],
+        "wk_radicals_kanji": [
+            "周"
+        ],
+        "kanji": "周",
+        "kanji_ord": 21608,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='周'>Umfang</span> <span class='radical_kanji'>(周)</span>  , <span class='meaning' data-kanji='周'>Umgebung</span> <span class='meaning_kanji_meaning'>(周)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='周'>Umgebung</span> <span class='meaning_kanji_reading'>(周)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 506,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "まわ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ],
+        "order_wiki_radical_corrected": 142,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -9745,7 +11185,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 143,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -9812,7 +11254,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.44
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 144,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -9891,7 +11335,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 145,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -9957,7 +11403,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 146,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -10023,7 +11471,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 147,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -10106,7 +11556,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 148,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -10191,7 +11643,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 149,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -10265,7 +11719,70 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 150,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 8,
+        "grade": 2,
+        "freq": 452,
+        "jlpt_old": 3,
+        "jlpt_new": 2,
+        "meanings": [
+            "Gate",
+            "Counter For Cannons"
+        ],
+        "readings_on": [
+            "もん"
+        ],
+        "readings_kun": [
+            "かど",
+            "と"
+        ],
+        "wk_level": 16,
+        "wk_meanings": [
+            "Gates",
+            "^Gate"
+        ],
+        "wk_readings_on": [
+            "もん"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Gate"
+        ],
+        "meanings_de": [
+            "Tor",
+            "(Tür)"
+        ],
+        "wk_radicals_new": [
+            "Gate"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Tor"
+        ],
+        "wk_radicals_kanji": [
+            "門"
+        ],
+        "kanji": "門",
+        "kanji_ord": 38272,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span>  , <span class='meaning' data-kanji='門'>Tor</span> <span class='meaning_kanji_meaning'>(門)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='門'>Tor</span> <span class='meaning_kanji_reading'>(門)</span> , <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 167,
+        "reading_dist": [
+            {
+                "reading": "もん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 151,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -10350,7 +11867,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 152,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -10420,7 +11939,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 153,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -10521,7 +12042,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 154,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -10601,7 +12124,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 155,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -10667,7 +12192,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 156,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -10738,7 +12265,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 158,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -10806,7 +12335,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.36
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 159,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -10883,7 +12414,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 160,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -10962,7 +12495,9 @@ let kyouiku =
                 "count": 13,
                 "prop": 0.31
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 161,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -11059,7 +12594,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 162,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -11132,7 +12669,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 163,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -11218,7 +12757,83 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 164,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 8,
+        "grade": 5,
+        "freq": 571,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Easy",
+            "Ready To",
+            "Simple",
+            "Fortune-telling",
+            "Divination"
+        ],
+        "readings_on": [
+            "えき",
+            "い"
+        ],
+        "readings_kun": [
+            "やさ.しい",
+            "やす.い"
+        ],
+        "wk_level": 19,
+        "wk_meanings": [
+            "Easy"
+        ],
+        "wk_readings_on": [
+            "い",
+            "^えき"
+        ],
+        "wk_readings_kun": [
+            "!やさ"
+        ],
+        "wk_radicals": [
+            "Easy"
+        ],
+        "meanings_de": [
+            "einfach",
+            "leicht",
+            "mühelos",
+            "wahrsagen"
+        ],
+        "wk_radicals_new": [
+            "Easy"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Einfach"
+        ],
+        "wk_radicals_kanji": [
+            "易"
+        ],
+        "kanji": "易",
+        "kanji_ord": 26131,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='易'>Einfach</span> <span class='radical_kanji'>(易)</span>  , <span class='meaning' data-kanji='易'>einfach</span> <span class='meaning_kanji_meaning'>(易)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='易'>einfach</span> <span class='meaning_kanji_reading'>(易)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 719,
+        "reading_dist": [
+            {
+                "reading": "やさ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "やす",
+                "count": 1,
+                "prop": 0.5
+            }
+        ],
+        "order_wiki_radical_corrected": 165,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -11287,7 +12902,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 166,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -11355,7 +12972,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 167,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -11481,7 +13100,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 168,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -11544,7 +13165,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 169,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -11610,7 +13233,79 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 170,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 7,
+        "grade": 2,
+        "freq": 1096,
+        "jlpt_old": 1,
+        "jlpt_new": null,
+        "meanings": [
+            "Ri",
+            "Village",
+            "Parent's Home",
+            "League"
+        ],
+        "readings_on": [
+            "り"
+        ],
+        "readings_kun": [
+            "さと"
+        ],
+        "wk_level": 5,
+        "wk_meanings": [
+            "Home Village",
+            "^Home Town"
+        ],
+        "wk_readings_on": [
+            "!り"
+        ],
+        "wk_readings_kun": [
+            "さと"
+        ],
+        "wk_radicals": [
+            "Village"
+        ],
+        "meanings_de": [
+            "Ortschaft",
+            "Längenmaß (3",
+            "9km)"
+        ],
+        "wk_radicals_new": [
+            "Village"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Dorf"
+        ],
+        "wk_radicals_kanji": [
+            "里"
+        ],
+        "kanji": "里",
+        "kanji_ord": 37324,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='里'>Dorf</span> <span class='radical_kanji'>(里)</span>  , <span class='meaning' data-kanji='里'>Ortschaft</span> <span class='meaning_kanji_meaning'>(里)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='里'>Ortschaft</span> <span class='meaning_kanji_reading'>(里)</span> , <span class='reading kunyomi' data-hiragana='さと'>Sato</span> <span class='hiragana'>(さと)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 152,
+        "reading_dist": [
+            {
+                "reading": "さと",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "り",
+                "count": 1,
+                "prop": 0.25
+            }
+        ],
+        "order_wiki_radical_corrected": 171,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -11681,7 +13376,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.32
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 172,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -11752,144 +13449,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.05
             }
-        ]
-    },
-    {
-        "strokes": 7,
-        "grade": 2,
-        "freq": 1096,
-        "jlpt_old": 1,
-        "jlpt_new": null,
-        "meanings": [
-            "Ri",
-            "Village",
-            "Parent's Home",
-            "League"
         ],
-        "readings_on": [
-            "り"
-        ],
-        "readings_kun": [
-            "さと"
-        ],
-        "wk_level": 5,
-        "wk_meanings": [
-            "Home Village",
-            "^Home Town"
-        ],
-        "wk_readings_on": [
-            "!り"
-        ],
-        "wk_readings_kun": [
-            "さと"
-        ],
-        "wk_radicals": [
-            "Village"
-        ],
-        "meanings_de": [
-            "Ortschaft",
-            "Längenmaß (3",
-            "9km)"
-        ],
-        "wk_radicals_new": [
-            "Village"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Dorf"
-        ],
-        "wk_radicals_kanji": [
-            "里"
-        ],
-        "kanji": "里",
-        "kanji_ord": 37324,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='里'>Dorf</span> <span class='radical_kanji'>(里)</span>  , <span class='meaning' data-kanji='里'>Ortschaft</span> <span class='meaning_kanji_meaning'>(里)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='里'>Ortschaft</span> <span class='meaning_kanji_reading'>(里)</span> , <span class='reading kunyomi' data-hiragana='さと'>Sato</span> <span class='hiragana'>(さと)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 152,
-        "reading_dist": [
-            {
-                "reading": "さと",
-                "count": 3,
-                "prop": 0.75
-            },
-            {
-                "reading": "り",
-                "count": 1,
-                "prop": 0.25
-            }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 2,
-        "freq": 42,
-        "jlpt_old": 3,
-        "jlpt_new": 3,
-        "meanings": [
-            "Market",
-            "City",
-            "Town"
-        ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "いち"
-        ],
-        "wk_level": 3,
-        "wk_meanings": [
-            "City"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!いち"
-        ],
-        "wk_radicals": [
-            "Lid",
-            "Towel"
-        ],
-        "meanings_de": [
-            "Stadt",
-            "Markt"
-        ],
-        "wk_radicals_new": [
-            "Lid",
-            "Towel"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Deckel",
-            "Handtuch"
-        ],
-        "wk_radicals_kanji": [
-            "亠",
-            "巾"
-        ],
-        "kanji": "市",
-        "kanji_ord": 24066,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  , <span class='meaning' data-kanji='市'>Stadt</span> <span class='meaning_kanji_meaning'>(市)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='市'>Stadt</span> <span class='meaning_kanji_reading'>(市)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 153,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 23,
-                "prop": 0.96
-            },
-            {
-                "reading": "いち",
-                "count": 1,
-                "prop": 0.04
-            }
-        ]
+        "order_wiki_radical_corrected": 174,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -11962,7 +13524,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 175,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -12057,7 +13621,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 176,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -12128,7 +13694,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 177,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -12195,7 +13763,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 178,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -12260,7 +13830,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 179,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -12348,7 +13920,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 180,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -12416,7 +13990,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 181,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -12487,7 +14063,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 182,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -12564,7 +14142,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 183,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -12628,7 +14208,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 184,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -12717,69 +14299,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 2,
-        "freq": 879,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Buddhist Temple"
         ],
-        "readings_on": [
-            "じ"
-        ],
-        "readings_kun": [
-            "てら"
-        ],
-        "wk_level": 15,
-        "wk_meanings": [
-            "Temple"
-        ],
-        "wk_readings_on": [
-            "!じ"
-        ],
-        "wk_readings_kun": [
-            "てら"
-        ],
-        "wk_radicals": [
-            "Temple"
-        ],
-        "meanings_de": [
-            "Tempel"
-        ],
-        "wk_radicals_new": [
-            "Temple"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Tempel"
-        ],
-        "wk_radicals_kanji": [
-            "寺"
-        ],
-        "kanji": "寺",
-        "kanji_ord": 23546,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span>  , <span class='meaning' data-kanji='寺'>Tempel</span> <span class='meaning_kanji_meaning'>(寺)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='寺'>Tempel</span> <span class='meaning_kanji_reading'>(寺)</span> , <span class='reading kunyomi' data-hiragana='てら'>Tera</span> <span class='hiragana'>(てら)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 165,
-        "reading_dist": [
-            {
-                "reading": "てら",
-                "count": 1,
-                "prop": 0.5
-            },
-            {
-                "reading": "じ",
-                "count": 1,
-                "prop": 0.5
-            }
-        ]
+        "order_wiki_radical_corrected": 185,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -12879,66 +14401,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
-    },
-    {
-        "strokes": 8,
-        "grade": 2,
-        "freq": 452,
-        "jlpt_old": 3,
-        "jlpt_new": 2,
-        "meanings": [
-            "Gate",
-            "Counter For Cannons"
         ],
-        "readings_on": [
-            "もん"
-        ],
-        "readings_kun": [
-            "かど",
-            "と"
-        ],
-        "wk_level": 16,
-        "wk_meanings": [
-            "Gates",
-            "^Gate"
-        ],
-        "wk_readings_on": [
-            "もん"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Gate"
-        ],
-        "meanings_de": [
-            "Tor",
-            "(Tür)"
-        ],
-        "wk_radicals_new": [
-            "Gate"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Tor"
-        ],
-        "wk_radicals_kanji": [
-            "門"
-        ],
-        "kanji": "門",
-        "kanji_ord": 38272,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span>  , <span class='meaning' data-kanji='門'>Tor</span> <span class='meaning_kanji_meaning'>(門)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='門'>Tor</span> <span class='meaning_kanji_reading'>(門)</span> , <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 167,
-        "reading_dist": [
-            {
-                "reading": "もん",
-                "count": 6,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 186,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -13016,7 +14481,70 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.46
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 187,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 6,
+        "grade": 5,
+        "freq": 1830,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Tongue",
+            "Reed",
+            "Clapper"
+        ],
+        "readings_on": [
+            "ぜつ"
+        ],
+        "readings_kun": [
+            "した"
+        ],
+        "wk_level": 19,
+        "wk_meanings": [
+            "Tongue"
+        ],
+        "wk_readings_on": [
+            "!ぜつ"
+        ],
+        "wk_readings_kun": [
+            "した"
+        ],
+        "wk_radicals": [
+            "Tongue"
+        ],
+        "meanings_de": [
+            "Zunge"
+        ],
+        "wk_radicals_new": [
+            "Tongue"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Zunge"
+        ],
+        "wk_radicals_kanji": [
+            "舌"
+        ],
+        "kanji": "舌",
+        "kanji_ord": 33292,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='舌'>Zunge</span> <span class='radical_kanji'>(舌)</span>  , <span class='meaning' data-kanji='舌'>Zunge</span> <span class='meaning_kanji_meaning'>(舌)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='舌'>Zunge</span> <span class='meaning_kanji_reading'>(舌)</span> , <span class='reading kunyomi' data-hiragana='した'>Shita</span> <span class='hiragana'>(した)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 1011,
+        "reading_dist": [
+            {
+                "reading": "した",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 188,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -13092,81 +14620,106 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 189,
+        "grade_corrected": 2
     },
     {
-        "strokes": 7,
+        "strokes": 6,
         "grade": 2,
-        "freq": 83,
-        "jlpt_old": 4,
-        "jlpt_new": 4,
+        "freq": 41,
+        "jlpt_old": 3,
+        "jlpt_new": 3,
         "meanings": [
-            "Say",
-            "Word"
+            "Fit",
+            "Suit",
+            "Join",
+            "0.1"
         ],
         "readings_on": [
-            "げん",
-            "ごん"
+            "ごう",
+            "がっ",
+            "かっ"
         ],
         "readings_kun": [
-            "い.う",
-            "こと"
+            "あ.う",
+            "-あ.う",
+            "あ.い",
+            "あい-",
+            "-あ.い",
+            "-あい",
+            "あ.わす",
+            "あ.わせる",
+            "-あ.わせる"
         ],
-        "wk_level": 5,
+        "wk_level": 12,
         "wk_meanings": [
-            "Say"
+            "Suit",
+            "^Fit",
+            "^Join"
         ],
         "wk_readings_on": [
-            "げん",
-            "^ごん"
+            "ごう",
+            "がっ"
         ],
         "wk_readings_kun": [
-            "!い",
-            "!こと"
+            "!あ",
+            "!あい"
         ],
         "wk_radicals": [
-            "Say"
+            "Suit"
         ],
         "meanings_de": [
-            "Wort",
-            "sagen",
-            "sprechen"
+            "passen",
+            "treffen"
         ],
         "wk_radicals_new": [
-            "Say"
+            "Suit"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Reden"
+            "Anzug"
         ],
         "wk_radicals_kanji": [
-            "言"
+            "合"
         ],
-        "kanji": "言",
-        "kanji_ord": 35328,
+        "kanji": "合",
+        "kanji_ord": 21512,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  , <span class='meaning' data-kanji='言'>Wort</span> <span class='meaning_kanji_meaning'>(言)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='合'>Anzug</span> <span class='radical_kanji'>(合)</span>  , <span class='meaning' data-kanji='合'>passen</span> <span class='meaning_kanji_meaning'>(合)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='言'>Wort</span> <span class='meaning_kanji_reading'>(言)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='合'>passen</span> <span class='meaning_kanji_reading'>(合)</span> , <span class='reading onyomi' data-hiragana='ごう'>Gou</span> <span class='hiragana'>(ごう)</span>  <span class='reading onyomi' data-hiragana='がっ'>Gaっ</span> <span class='hiragana'>(がっ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 170,
+        "order_wiki": 229,
         "reading_dist": [
             {
-                "reading": "い",
-                "count": 16,
-                "prop": 0.64
+                "reading": "ごう",
+                "count": 21,
+                "prop": 0.58
             },
             {
-                "reading": "げん",
-                "count": 6,
-                "prop": 0.24
+                "reading": "がっ",
+                "count": 8,
+                "prop": 0.22
             },
             {
-                "reading": "こと",
+                "reading": "あい",
                 "count": 3,
-                "prop": 0.12
+                "prop": 0.08
+            },
+            {
+                "reading": "あ",
+                "count": 3,
+                "prop": 0.08
+            },
+            {
+                "reading": "かっ",
+                "count": 1,
+                "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 190,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -13236,7 +14789,73 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 191,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 3,
+        "grade": 4,
+        "freq": 526,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Gentleman",
+            "Scholar",
+            "Samurai",
+            "Samurai Radical (no. 33)"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [
+            "さむらい"
+        ],
+        "wk_level": 13,
+        "wk_meanings": [
+            "Samurai"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [
+            "!さむらい"
+        ],
+        "wk_radicals": [
+            "Samurai"
+        ],
+        "meanings_de": [
+            "Samurai",
+            "Krieger",
+            "ein gebildeter Mann"
+        ],
+        "wk_radicals_new": [
+            "Samurai"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Samurai"
+        ],
+        "wk_radicals_kanji": [
+            "士"
+        ],
+        "kanji": "士",
+        "kanji_ord": 22763,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  , <span class='meaning' data-kanji='士'>Samurai</span> <span class='meaning_kanji_meaning'>(士)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='士'>Samurai</span> <span class='meaning_kanji_reading'>(士)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 826,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 192,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -13313,7 +14932,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 193,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -13381,7 +15002,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 194,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -13456,7 +15079,87 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.44
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 195,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 7,
+        "grade": 2,
+        "freq": 202,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Sell"
+        ],
+        "readings_on": [
+            "ばい"
+        ],
+        "readings_kun": [
+            "う.る",
+            "う.れる"
+        ],
+        "wk_level": 9,
+        "wk_meanings": [
+            "Sell"
+        ],
+        "wk_readings_on": [
+            "ばい"
+        ],
+        "wk_readings_kun": [
+            "!う"
+        ],
+        "wk_radicals": [
+            "Samurai",
+            "Forehead",
+            "Legs"
+        ],
+        "meanings_de": [
+            "verkaufen"
+        ],
+        "wk_radicals_new": [
+            "Samurai",
+            "Forehead",
+            "Legs"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Samurai",
+            "Stirn",
+            "Beine"
+        ],
+        "wk_radicals_kanji": [
+            "士",
+            "冖",
+            "儿"
+        ],
+        "kanji": "売",
+        "kanji_ord": 22770,
+        "is_radical": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>  <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span>  , <span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_meaning'>(売)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_reading'>(売)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 216,
+        "reading_dist": [
+            {
+                "reading": "う",
+                "count": 16,
+                "prop": 0.7
+            },
+            {
+                "reading": "ばい",
+                "count": 5,
+                "prop": 0.22
+            },
+            {
+                "reading": "うり",
+                "count": 2,
+                "prop": 0.09
+            }
+        ],
+        "order_wiki_radical_corrected": 196,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -13531,7 +15234,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 197,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -13605,7 +15310,73 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 198,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 3,
+        "grade": 6,
+        "freq": 1098,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Self"
+        ],
+        "readings_on": [
+            "こ",
+            "き"
+        ],
+        "readings_kun": [
+            "おのれ",
+            "つちのと",
+            "な"
+        ],
+        "wk_level": 35,
+        "wk_meanings": [
+            "Oneself"
+        ],
+        "wk_readings_on": [
+            "こ",
+            "^き"
+        ],
+        "wk_readings_kun": [
+            "!おのれ"
+        ],
+        "wk_radicals": [
+            "Oneself"
+        ],
+        "meanings_de": [
+            "ich",
+            "jemand selbst"
+        ],
+        "wk_radicals_new": [
+            "Oneself"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Selber"
+        ],
+        "wk_radicals_kanji": [
+            "己"
+        ],
+        "kanji": "己",
+        "kanji_ord": 24049,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_meaning'>(己)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_reading'>(己)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 879,
+        "reading_dist": [
+            {
+                "reading": "おのれ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 199,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -13676,7 +15447,74 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 200,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 4,
+        "grade": 4,
+        "freq": 84,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Family Name",
+            "Surname",
+            "Clan"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [
+            "うじ",
+            "-うじ"
+        ],
+        "wk_level": 7,
+        "wk_meanings": [
+            "Family Name",
+            "^Last Name",
+            "^Surname"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [
+            "!うじ"
+        ],
+        "wk_radicals": [
+            "Clan"
+        ],
+        "meanings_de": [
+            "Familie",
+            "Clan"
+        ],
+        "wk_radicals_new": [
+            "Clan"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Clan"
+        ],
+        "wk_radicals_kanji": [
+            "氏"
+        ],
+        "kanji": "氏",
+        "kanji_ord": 27663,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_meaning'>(氏)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_reading'>(氏)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 564,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 3,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 201,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -13742,7 +15580,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 202,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -13833,7 +15673,86 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 203,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 6,
+        "grade": 2,
+        "freq": 4,
+        "jlpt_old": 4,
+        "jlpt_new": 4,
+        "meanings": [
+            "Meeting",
+            "Meet",
+            "Party",
+            "Association",
+            "Interview",
+            "Join"
+        ],
+        "readings_on": [
+            "かい",
+            "え"
+        ],
+        "readings_kun": [
+            "あ.う",
+            "あ.わせる",
+            "あつ.まる"
+        ],
+        "wk_level": 5,
+        "wk_meanings": [
+            "Meet"
+        ],
+        "wk_readings_on": [
+            "かい"
+        ],
+        "wk_readings_kun": [
+            "!あ"
+        ],
+        "wk_radicals": [
+            "Meet"
+        ],
+        "meanings_de": [
+            "treffen"
+        ],
+        "wk_radicals_new": [
+            "Meet"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Treffen"
+        ],
+        "wk_radicals_kanji": [
+            "会"
+        ],
+        "kanji": "会",
+        "kanji_ord": 20250,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='会'>Treffen</span> <span class='radical_kanji'>(会)</span>  , <span class='meaning' data-kanji='会'>treffen</span> <span class='meaning_kanji_meaning'>(会)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='会'>treffen</span> <span class='meaning_kanji_reading'>(会)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 221,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 25,
+                "prop": 0.93
+            },
+            {
+                "reading": "あ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "え",
+                "count": 1,
+                "prop": 0.04
+            }
+        ],
+        "order_wiki_radical_corrected": 204,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -13901,7 +15820,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 205,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -13986,73 +15907,66 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 206,
+        "grade_corrected": 2
     },
     {
-        "strokes": 3,
-        "grade": 2,
-        "freq": 299,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
+        "strokes": 7,
+        "grade": 6,
+        "freq": 1030,
+        "jlpt_old": 1,
+        "jlpt_new": null,
         "meanings": [
-            "Craft",
-            "Construction",
-            "Katakana E Radical (no. 48)"
+            "Filial Piety",
+            "Child's Respect"
         ],
         "readings_on": [
             "こう",
-            "く",
-            "ぐ"
+            "きょう"
         ],
         "readings_kun": [],
-        "wk_level": 1,
+        "wk_level": 40,
         "wk_meanings": [
-            "Construction",
-            "^Industry"
+            "Filial Piety"
         ],
         "wk_readings_on": [
-            "こう",
-            "^く"
+            "こう"
         ],
         "wk_readings_kun": [],
         "wk_radicals": [
-            "Construction"
+            "Teacher"
         ],
         "meanings_de": [
-            "Handwerker",
-            "bauen",
-            "arbeiten"
+            "kindliche Pflicht (gegenüber den Eltern)"
         ],
         "wk_radicals_new": [
-            "Construction"
+            "Teacher"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Konstruktion"
+            "Lehrerin"
         ],
         "wk_radicals_kanji": [
-            "工"
+            "孝"
         ],
-        "kanji": "工",
-        "kanji_ord": 24037,
+        "kanji": "孝",
+        "kanji_ord": 23389,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='工'>Konstruktion</span> <span class='radical_kanji'>(工)</span>  , <span class='meaning' data-kanji='工'>Handwerker</span> <span class='meaning_kanji_meaning'>(工)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='孝'>Lehrerin</span> <span class='radical_kanji'>(孝)</span>  , <span class='meaning' data-kanji='孝'>kindliche Pflicht (gegenüber den Eltern)</span> <span class='meaning_kanji_meaning'>(孝)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='工'>Handwerker</span> <span class='meaning_kanji_reading'>(工)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='孝'>kindliche Pflicht (gegenüber den Eltern)</span> <span class='meaning_kanji_reading'>(孝)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 182,
+        "order_wiki": 861,
         "reading_dist": [
             {
                 "reading": "こう",
-                "count": 18,
-                "prop": 0.95
-            },
-            {
-                "reading": "く",
                 "count": 1,
-                "prop": 0.05
+                "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 207,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -14127,7 +16041,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 208,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -14199,7 +16115,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 209,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -14268,7 +16186,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 210,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -14338,7 +16258,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 211,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -14407,7 +16329,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 0.48
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 212,
+        "grade_corrected": 2
     },
     {
         "strokes": 3,
@@ -14468,7 +16392,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 213,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -14534,7 +16460,9 @@ let kyouiku =
                 "count": 18,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 214,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -14610,7 +16538,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 215,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -14694,7 +16624,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 216,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -14766,7 +16698,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.19
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 217,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -14851,7 +16785,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 218,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -14906,7 +16842,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 219,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -14970,75 +16908,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 2,
-        "freq": 1202,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Cow"
         ],
-        "readings_on": [
-            "ぎゅう"
-        ],
-        "readings_kun": [
-            "うし"
-        ],
-        "wk_level": 3,
-        "wk_meanings": [
-            "Cow"
-        ],
-        "wk_readings_on": [
-            "ぎゅう"
-        ],
-        "wk_readings_kun": [
-            "!うし"
-        ],
-        "wk_radicals": [
-            "Cow"
-        ],
-        "meanings_de": [
-            "Kuh",
-            "Bulle"
-        ],
-        "wk_radicals_new": [
-            "Cow"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Kuh"
-        ],
-        "wk_radicals_kanji": [
-            "牛"
-        ],
-        "kanji": "牛",
-        "kanji_ord": 29275,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='牛'>Kuh</span> <span class='radical_kanji'>(牛)</span>  , <span class='meaning' data-kanji='牛'>Kuh</span> <span class='meaning_kanji_meaning'>(牛)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='牛'>Kuh</span> <span class='meaning_kanji_reading'>(牛)</span> , <span class='reading onyomi' data-hiragana='ぎゅう'>Gyuu</span> <span class='hiragana'>(ぎゅう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 196,
-        "reading_dist": [
-            {
-                "reading": "ぎゅう",
-                "count": 4,
-                "prop": 0.67
-            },
-            {
-                "reading": "うし",
-                "count": 1,
-                "prop": 0.17
-            },
-            {
-                "reading": "オックスフォード",
-                "count": 1,
-                "prop": 0.17
-            }
-        ]
+        "order_wiki_radical_corrected": 220,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -15102,7 +16974,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 221,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -15165,7 +17039,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 222,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -15242,7 +17118,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 223,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -15318,7 +17196,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 224,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -15387,82 +17267,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 2,
-        "freq": 61,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Rice",
-            "Usa",
-            "Metre"
         ],
-        "readings_on": [
-            "べい",
-            "まい",
-            "めえとる"
-        ],
-        "readings_kun": [
-            "こめ",
-            "よね"
-        ],
-        "wk_level": 5,
-        "wk_meanings": [
-            "Rice",
-            "^America"
-        ],
-        "wk_readings_on": [
-            "べい",
-            "まい"
-        ],
-        "wk_readings_kun": [
-            "!こめ"
-        ],
-        "wk_radicals": [
-            "Rice"
-        ],
-        "meanings_de": [
-            "Reis",
-            "Amerika"
-        ],
-        "wk_radicals_new": [
-            "Rice"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Reis"
-        ],
-        "wk_radicals_kanji": [
-            "米"
-        ],
-        "kanji": "米",
-        "kanji_ord": 31859,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='米'>Reis</span> <span class='radical_kanji'>(米)</span>  , <span class='meaning' data-kanji='米'>Reis</span> <span class='meaning_kanji_meaning'>(米)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='米'>Reis</span> <span class='meaning_kanji_reading'>(米)</span> , <span class='reading onyomi' data-hiragana='べい'>Bei</span> <span class='hiragana'>(べい)</span>  <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 202,
-        "reading_dist": [
-            {
-                "reading": "べい",
-                "count": 6,
-                "prop": 0.75
-            },
-            {
-                "reading": "米",
-                "count": 1,
-                "prop": 0.12
-            },
-            {
-                "reading": "こめ",
-                "count": 1,
-                "prop": 0.12
-            }
-        ]
+        "order_wiki_radical_corrected": 225,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -15530,7 +17337,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 226,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -15595,7 +17404,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 227,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -15664,7 +17475,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 228,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -15743,7 +17556,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 229,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -15821,7 +17636,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 230,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -15930,7 +17747,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 231,
+        "grade_corrected": 2
     },
     {
         "strokes": 10,
@@ -16011,7 +17830,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.31
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 232,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -16096,7 +17917,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 233,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -16158,90 +17981,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 2,
-        "freq": 310,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Stop",
-            "Halt"
         ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "と.まる",
-            "-ど.まり",
-            "と.める",
-            "-と.める",
-            "-ど.め",
-            "とど.める",
-            "とど.め",
-            "とど.まる",
-            "や.める",
-            "や.む",
-            "-や.む",
-            "よ.す",
-            "-さ.す",
-            "-さ.し"
-        ],
-        "wk_level": 3,
-        "wk_meanings": [
-            "Stop"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!と",
-            "!や"
-        ],
-        "wk_radicals": [
-            "Stop"
-        ],
-        "meanings_de": [
-            "anhalten",
-            "stoppen"
-        ],
-        "wk_radicals_new": [
-            "Stop"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Stop"
-        ],
-        "wk_radicals_kanji": [
-            "止"
-        ],
-        "kanji": "止",
-        "kanji_ord": 27490,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='止'>Stop</span> <span class='radical_kanji'>(止)</span>  , <span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_meaning'>(止)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_reading'>(止)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 212,
-        "reading_dist": [
-            {
-                "reading": "と",
-                "count": 3,
-                "prop": 0.6
-            },
-            {
-                "reading": "や",
-                "count": 1,
-                "prop": 0.2
-            },
-            {
-                "reading": "よ",
-                "count": 1,
-                "prop": 0.2
-            }
-        ]
+        "order_wiki_radical_corrected": 234,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -16313,7 +18055,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.36
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 235,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -16383,7 +18127,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 236,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -16454,83 +18200,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
-    },
-    {
-        "strokes": 7,
-        "grade": 2,
-        "freq": 202,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Sell"
         ],
-        "readings_on": [
-            "ばい"
-        ],
-        "readings_kun": [
-            "う.る",
-            "う.れる"
-        ],
-        "wk_level": 9,
-        "wk_meanings": [
-            "Sell"
-        ],
-        "wk_readings_on": [
-            "ばい"
-        ],
-        "wk_readings_kun": [
-            "!う"
-        ],
-        "wk_radicals": [
-            "Samurai",
-            "Forehead",
-            "Legs"
-        ],
-        "meanings_de": [
-            "verkaufen"
-        ],
-        "wk_radicals_new": [
-            "Samurai",
-            "Forehead",
-            "Legs"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Samurai",
-            "Stirn",
-            "Beine"
-        ],
-        "wk_radicals_kanji": [
-            "士",
-            "冖",
-            "儿"
-        ],
-        "kanji": "売",
-        "kanji_ord": 22770,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>  <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span>  , <span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_meaning'>(売)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_reading'>(売)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 216,
-        "reading_dist": [
-            {
-                "reading": "う",
-                "count": 16,
-                "prop": 0.7
-            },
-            {
-                "reading": "ばい",
-                "count": 5,
-                "prop": 0.22
-            },
-            {
-                "reading": "うり",
-                "count": 2,
-                "prop": 0.09
-            }
-        ]
+        "order_wiki_radical_corrected": 237,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -16597,7 +18269,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 238,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -16655,66 +18329,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 2,
-        "freq": 1802,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Bow",
-            "Bow (archery, Violin)"
         ],
-        "readings_on": [
-            "きゅう"
-        ],
-        "readings_kun": [
-            "ゆみ"
-        ],
-        "wk_level": 18,
-        "wk_meanings": [
-            "Bow"
-        ],
-        "wk_readings_on": [
-            "きゅう"
-        ],
-        "wk_readings_kun": [
-            "!ゆみ"
-        ],
-        "wk_radicals": [
-            "Bow"
-        ],
-        "meanings_de": [
-            "Bogen",
-            "Bogenschießen"
-        ],
-        "wk_radicals_new": [
-            "Bow"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Bogen"
-        ],
-        "wk_radicals_kanji": [
-            "弓"
-        ],
-        "kanji": "弓",
-        "kanji_ord": 24339,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span>  , <span class='meaning' data-kanji='弓'>Bogen</span> <span class='meaning_kanji_meaning'>(弓)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Beim Spannen vom <span class='meaning' data-kanji='弓'>Bogen</span> <span class='meaning_kanji_reading'>(弓)</span> muss man ihn druc<span class='reading onyomi' data-hiragana='きゅう'>kju</span>stieren <span class='hiragana'>(きゅう)</span>.",
-        "mnemonic_reading_de_done": true,
-        "order_wiki": 219,
-        "reading_dist": [
-            {
-                "reading": "ゆみ",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 239,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -16791,82 +18408,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.22
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 2,
-        "freq": 4,
-        "jlpt_old": 4,
-        "jlpt_new": 4,
-        "meanings": [
-            "Meeting",
-            "Meet",
-            "Party",
-            "Association",
-            "Interview",
-            "Join"
         ],
-        "readings_on": [
-            "かい",
-            "え"
-        ],
-        "readings_kun": [
-            "あ.う",
-            "あ.わせる",
-            "あつ.まる"
-        ],
-        "wk_level": 5,
-        "wk_meanings": [
-            "Meet"
-        ],
-        "wk_readings_on": [
-            "かい"
-        ],
-        "wk_readings_kun": [
-            "!あ"
-        ],
-        "wk_radicals": [
-            "Meet"
-        ],
-        "meanings_de": [
-            "treffen"
-        ],
-        "wk_radicals_new": [
-            "Meet"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Treffen"
-        ],
-        "wk_radicals_kanji": [
-            "会"
-        ],
-        "kanji": "会",
-        "kanji_ord": 20250,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='会'>Treffen</span> <span class='radical_kanji'>(会)</span>  , <span class='meaning' data-kanji='会'>treffen</span> <span class='meaning_kanji_meaning'>(会)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='会'>treffen</span> <span class='meaning_kanji_reading'>(会)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 221,
-        "reading_dist": [
-            {
-                "reading": "かい",
-                "count": 25,
-                "prop": 0.93
-            },
-            {
-                "reading": "あ",
-                "count": 1,
-                "prop": 0.04
-            },
-            {
-                "reading": "え",
-                "count": 1,
-                "prop": 0.04
-            }
-        ]
+        "order_wiki_radical_corrected": 240,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -16949,7 +18493,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 241,
+        "grade_corrected": 2
     },
     {
         "strokes": 11,
@@ -17028,7 +18574,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 242,
+        "grade_corrected": 2
     },
     {
         "strokes": 8,
@@ -17130,7 +18678,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 243,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -17196,7 +18746,9 @@ let kyouiku =
                 "count": 35,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 244,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -17279,7 +18831,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 245,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -17340,7 +18894,9 @@ let kyouiku =
                 "count": 35,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 246,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -17408,102 +18964,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 2,
-        "freq": 41,
-        "jlpt_old": 3,
-        "jlpt_new": 3,
-        "meanings": [
-            "Fit",
-            "Suit",
-            "Join",
-            "0.1"
         ],
-        "readings_on": [
-            "ごう",
-            "がっ",
-            "かっ"
-        ],
-        "readings_kun": [
-            "あ.う",
-            "-あ.う",
-            "あ.い",
-            "あい-",
-            "-あ.い",
-            "-あい",
-            "あ.わす",
-            "あ.わせる",
-            "-あ.わせる"
-        ],
-        "wk_level": 12,
-        "wk_meanings": [
-            "Suit",
-            "^Fit",
-            "^Join"
-        ],
-        "wk_readings_on": [
-            "ごう",
-            "がっ"
-        ],
-        "wk_readings_kun": [
-            "!あ",
-            "!あい"
-        ],
-        "wk_radicals": [
-            "Suit"
-        ],
-        "meanings_de": [
-            "passen",
-            "treffen"
-        ],
-        "wk_radicals_new": [
-            "Suit"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Anzug"
-        ],
-        "wk_radicals_kanji": [
-            "合"
-        ],
-        "kanji": "合",
-        "kanji_ord": 21512,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='合'>Anzug</span> <span class='radical_kanji'>(合)</span>  , <span class='meaning' data-kanji='合'>passen</span> <span class='meaning_kanji_meaning'>(合)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='合'>passen</span> <span class='meaning_kanji_reading'>(合)</span> , <span class='reading onyomi' data-hiragana='ごう'>Gou</span> <span class='hiragana'>(ごう)</span>  <span class='reading onyomi' data-hiragana='がっ'>Gaっ</span> <span class='hiragana'>(がっ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 229,
-        "reading_dist": [
-            {
-                "reading": "ごう",
-                "count": 21,
-                "prop": 0.58
-            },
-            {
-                "reading": "がっ",
-                "count": 8,
-                "prop": 0.22
-            },
-            {
-                "reading": "あい",
-                "count": 3,
-                "prop": 0.08
-            },
-            {
-                "reading": "あ",
-                "count": 3,
-                "prop": 0.08
-            },
-            {
-                "reading": "かっ",
-                "count": 1,
-                "prop": 0.03
-            }
-        ]
+        "order_wiki_radical_corrected": 247,
+        "grade_corrected": 2
     },
     {
         "strokes": 6,
@@ -17583,7 +19046,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 0.27
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 248,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -17655,7 +19120,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 249,
+        "grade_corrected": 2
     },
     {
         "strokes": 13,
@@ -17756,7 +19223,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 250,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -17829,7 +19298,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 251,
+        "grade_corrected": 2
     },
     {
         "strokes": 4,
@@ -17905,7 +19376,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 252,
+        "grade_corrected": 2
     },
     {
         "strokes": 9,
@@ -17968,7 +19441,172 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 253,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 5,
+        "grade": 5,
+        "freq": 314,
+        "jlpt_old": 2,
+        "jlpt_new": null,
+        "meanings": [
+            "Can",
+            "Passable",
+            "Mustn't",
+            "Should Not",
+            "Do Not"
+        ],
+        "readings_on": [
+            "か",
+            "こく"
+        ],
+        "readings_kun": [
+            "-べ.き",
+            "-べ.し"
+        ],
+        "wk_level": 18,
+        "wk_meanings": [
+            "Possible",
+            "^Passable"
+        ],
+        "wk_readings_on": [
+            "か"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Lip Ring"
+        ],
+        "meanings_de": [
+            "Möglichkeit",
+            "Zustimmung",
+            "können",
+            "sollte"
+        ],
+        "wk_radicals_new": [
+            "Lip Ring"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Lippenring"
+        ],
+        "wk_radicals_kanji": [
+            "可"
+        ],
+        "kanji": "可",
+        "kanji_ord": 21487,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='可'>Lippenring</span> <span class='radical_kanji'>(可)</span>  , <span class='meaning' data-kanji='可'>Möglichkeit</span> <span class='meaning_kanji_meaning'>(可)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='可'>Möglichkeit</span> <span class='meaning_kanji_reading'>(可)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 666,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 12,
+                "prop": 0.8
+            },
+            {
+                "reading": "おか",
+                "count": 2,
+                "prop": 0.13
+            },
+            {
+                "reading": "べ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ],
+        "order_wiki_radical_corrected": 254,
+        "grade_corrected": 2
+    },
+    {
+        "strokes": 4,
+        "grade": 4,
+        "freq": 860,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Lack",
+            "Gap",
+            "Fail",
+            "Yawning Radical (no. 76)"
+        ],
+        "readings_on": [
+            "けつ",
+            "けん"
+        ],
+        "readings_kun": [
+            "か.ける",
+            "か.く"
+        ],
+        "wk_level": 7,
+        "wk_meanings": [
+            "Lack"
+        ],
+        "wk_readings_on": [
+            "けつ"
+        ],
+        "wk_readings_kun": [
+            "!か"
+        ],
+        "wk_radicals": [
+            "Lack"
+        ],
+        "meanings_de": [
+            "Mangel",
+            "Unvollkommenheit",
+            "fehlen"
+        ],
+        "wk_radicals_new": [
+            "Lack"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Mangel"
+        ],
+        "wk_radicals_kanji": [
+            "欠"
+        ],
+        "kanji": "欠",
+        "kanji_ord": 27424,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='欠'>Mangel</span> <span class='radical_kanji'>(欠)</span>  , <span class='meaning' data-kanji='欠'>Mangel</span> <span class='meaning_kanji_meaning'>(欠)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='欠'>Mangel</span> <span class='meaning_kanji_reading'>(欠)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 562,
+        "reading_dist": [
+            {
+                "reading": "けっ",
+                "count": 4,
+                "prop": 0.31
+            },
+            {
+                "reading": "けつ",
+                "count": 4,
+                "prop": 0.31
+            },
+            {
+                "reading": "か",
+                "count": 3,
+                "prop": 0.23
+            },
+            {
+                "reading": "あくび",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "かけ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ],
+        "order_wiki_radical_corrected": 255,
+        "grade_corrected": 2
     },
     {
         "strokes": 14,
@@ -18039,68 +19677,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.29
             }
-        ]
-    },
-    {
-        "strokes": 2,
-        "grade": 2,
-        "freq": 1794,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Sword",
-            "Saber",
-            "Knife"
         ],
-        "readings_on": [
-            "とう"
-        ],
-        "readings_kun": [
-            "かたな",
-            "そり"
-        ],
-        "wk_level": 2,
-        "wk_meanings": [
-            "Sword",
-            "^Katana"
-        ],
-        "wk_readings_on": [
-            "とう"
-        ],
-        "wk_readings_kun": [
-            "!かたな"
-        ],
-        "wk_radicals": [
-            "Sword"
-        ],
-        "meanings_de": [
-            "Schwert"
-        ],
-        "wk_radicals_new": [
-            "Sword"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Schwert"
-        ],
-        "wk_radicals_kanji": [
-            "刀"
-        ],
-        "kanji": "刀",
-        "kanji_ord": 20992,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span>  , <span class='meaning' data-kanji='刀'>Schwert</span> <span class='meaning_kanji_meaning'>(刀)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='刀'>Schwert</span> <span class='meaning_kanji_reading'>(刀)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 237,
-        "reading_dist": [
-            {
-                "reading": "かたな",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 256,
+        "grade_corrected": 2
     },
     {
         "strokes": 12,
@@ -18165,74 +19744,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 2,
-        "freq": 107,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
-        "meanings": [
-            "Utilize",
-            "Business",
-            "Service",
-            "Use",
-            "Employ"
         ],
-        "readings_on": [
-            "よう"
-        ],
-        "readings_kun": [
-            "もち.いる"
-        ],
-        "wk_level": 3,
-        "wk_meanings": [
-            "Task",
-            "^Use"
-        ],
-        "wk_readings_on": [
-            "よう"
-        ],
-        "wk_readings_kun": [
-            "!もち"
-        ],
-        "wk_radicals": [
-            "Task"
-        ],
-        "meanings_de": [
-            "(ge-)brauchen"
-        ],
-        "wk_radicals_new": [
-            "Task"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Aufgabe"
-        ],
-        "wk_radicals_kanji": [
-            "用"
-        ],
-        "kanji": "用",
-        "kanji_ord": 29992,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='用'>Aufgabe</span> <span class='radical_kanji'>(用)</span>  , <span class='meaning' data-kanji='用'>(ge-)brauchen</span> <span class='meaning_kanji_meaning'>(用)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='用'>(ge-)brauchen</span> <span class='meaning_kanji_reading'>(用)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 239,
-        "reading_dist": [
-            {
-                "reading": "よう",
-                "count": 15,
-                "prop": 0.94
-            },
-            {
-                "reading": "もち",
-                "count": 1,
-                "prop": 0.06
-            }
-        ]
+        "order_wiki_radical_corrected": 257,
+        "grade_corrected": 2
     },
     {
         "strokes": 7,
@@ -18343,78 +19857,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
-    },
-    {
-        "strokes": 2,
-        "grade": 3,
-        "freq": 1312,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Street",
-            "Ward",
-            "Town",
-            "Counter For Guns, Tools, Leaves Or Cakes Of Something",
-            "Even Number",
-            "4th Calendar Sign"
         ],
-        "readings_on": [
-            "ちょう",
-            "てい",
-            "ちん",
-            "とう",
-            "ち"
-        ],
-        "readings_kun": [
-            "ひのと"
-        ],
-        "wk_level": 2,
-        "wk_meanings": [
-            "Street"
-        ],
-        "wk_readings_on": [
-            "ちょう",
-            "^てい"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Street"
-        ],
-        "meanings_de": [
-            "morceau",
-            "bloc"
-        ],
-        "wk_radicals_new": [
-            "Street"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Straße"
-        ],
-        "wk_radicals_kanji": [
-            "丁"
-        ],
-        "kanji": "丁",
-        "kanji_ord": 19969,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='丁'>Straße</span> <span class='radical_kanji'>(丁)</span>  , <span class='meaning' data-kanji='丁'>morceau</span> <span class='meaning_kanji_meaning'>(丁)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='丁'>morceau</span> <span class='meaning_kanji_reading'>(丁)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 241,
-        "reading_dist": [
-            {
-                "reading": "てい",
-                "count": 2,
-                "prop": 0.67
-            },
-            {
-                "reading": "ちょう",
-                "count": 1,
-                "prop": 0.33
-            }
-        ]
+        "order_wiki_radical_corrected": 258,
+        "grade_corrected": 2
     },
     {
         "strokes": 5,
@@ -18490,7 +19935,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 259,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -18559,7 +20006,9 @@ let kyouiku =
                 "count": 21,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 260,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -18638,7 +20087,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 261,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -18721,7 +20172,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 262,
+        "grade_corrected": 3
     },
     {
         "strokes": 4,
@@ -18797,7 +20250,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 263,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -18880,7 +20335,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 0.26
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 264,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -18948,7 +20405,9 @@ let kyouiku =
                 "count": 28,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 265,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -19016,7 +20475,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.27
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 266,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -19120,7 +20581,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 267,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -19201,7 +20664,67 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 268,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 5,
+        "grade": 4,
+        "freq": 511,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "History",
+            "Chronicle"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [],
+        "wk_level": 19,
+        "wk_meanings": [
+            "History"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "History"
+        ],
+        "meanings_de": [
+            "Geschichte",
+            "das Vergangene",
+            "historisch"
+        ],
+        "wk_radicals_new": [
+            "History"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Geschichte"
+        ],
+        "wk_radicals_kanji": [
+            "史"
+        ],
+        "kanji": "史",
+        "kanji_ord": 21490,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='史'>Geschichte</span> <span class='radical_kanji'>(史)</span>  , <span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_meaning'>(史)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_reading'>(史)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 662,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 7,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 269,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -19282,7 +20805,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 270,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -19362,7 +20887,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 271,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -19425,7 +20952,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 272,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -19510,7 +21039,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 273,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -19583,7 +21114,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 274,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -19660,7 +21193,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 275,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -19728,7 +21263,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 276,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -19806,7 +21343,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 277,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -19870,7 +21409,103 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 278,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 9,
+        "grade": 3,
+        "freq": 193,
+        "jlpt_old": 3,
+        "jlpt_new": 4,
+        "meanings": [
+            "Heavy",
+            "Important",
+            "Esteem",
+            "Respect",
+            "Heap Up",
+            "Pile Up",
+            "Nest Of Boxes",
+            "-fold"
+        ],
+        "readings_on": [
+            "じゅう",
+            "ちょう"
+        ],
+        "readings_kun": [
+            "え",
+            "おも.い",
+            "おも.り",
+            "おも.なう",
+            "かさ.ねる",
+            "かさ.なる",
+            "おも"
+        ],
+        "wk_level": 9,
+        "wk_meanings": [
+            "Heavy"
+        ],
+        "wk_readings_on": [
+            "じゅう",
+            "^ちょう"
+        ],
+        "wk_readings_kun": [
+            "!おも",
+            "!かさ",
+            "!え"
+        ],
+        "wk_radicals": [
+            "Heavy"
+        ],
+        "meanings_de": [
+            "schwer",
+            "wichtig",
+            "aufeinanderlegen",
+            "-fach"
+        ],
+        "wk_radicals_new": [
+            "Heavy"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Schwer"
+        ],
+        "wk_radicals_kanji": [
+            "重"
+        ],
+        "kanji": "重",
+        "kanji_ord": 37325,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='重'>Schwer</span> <span class='radical_kanji'>(重)</span>  , <span class='meaning' data-kanji='重'>schwer</span> <span class='meaning_kanji_meaning'>(重)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='重'>schwer</span> <span class='meaning_kanji_reading'>(重)</span> , <span class='reading onyomi' data-hiragana='じゅう'>Juu</span> <span class='hiragana'>(じゅう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 427,
+        "reading_dist": [
+            {
+                "reading": "じゅう",
+                "count": 24,
+                "prop": 0.62
+            },
+            {
+                "reading": "おも",
+                "count": 10,
+                "prop": 0.26
+            },
+            {
+                "reading": "かさ",
+                "count": 3,
+                "prop": 0.08
+            },
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 0.05
+            }
+        ],
+        "order_wiki_radical_corrected": 279,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -19947,7 +21582,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 280,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -20036,7 +21673,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 281,
+        "grade_corrected": 3
     },
     {
         "strokes": 4,
@@ -20119,7 +21758,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 282,
+        "grade_corrected": 3
     },
     {
         "strokes": 4,
@@ -20186,7 +21827,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 283,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -20255,7 +21898,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.13
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 284,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -20331,7 +21976,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 285,
+        "grade_corrected": 3
     },
     {
         "strokes": 4,
@@ -20406,7 +22053,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 286,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -20485,7 +22134,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 287,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -20570,7 +22221,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 288,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -20641,7 +22294,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 289,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -20735,7 +22390,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 290,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -20811,7 +22468,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 291,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -20883,7 +22542,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 292,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -20957,7 +22618,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 293,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -21043,7 +22706,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 294,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -21111,7 +22776,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.27
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 295,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -21172,7 +22839,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 296,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -21246,7 +22915,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 297,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -21322,7 +22993,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 298,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -21386,7 +23059,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 299,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -21439,7 +23114,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='央'>Zentrum</span> <span class='meaning_kanji_reading'>(央)</span> , <span class='reading onyomi' data-hiragana='おう'>Ou</span> <span class='hiragana'>(おう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 281
+        "order_wiki": 281,
+        "order_wiki_radical_corrected": 300,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -21511,7 +23188,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.44
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 301,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -21579,7 +23258,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 302,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -21656,7 +23337,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 303,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -21740,7 +23423,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 304,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -21820,7 +23505,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 305,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -21902,7 +23589,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 306,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -21979,7 +23668,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 307,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -22053,7 +23744,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 308,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -22133,7 +23826,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 309,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -22203,7 +23898,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 310,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -22282,7 +23979,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 311,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -22354,7 +24053,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 312,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -22435,7 +24136,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 313,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -22506,7 +24209,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 314,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -22572,7 +24277,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 315,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -22637,7 +24344,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 316,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -22705,7 +24414,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 317,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -22799,7 +24510,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 318,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -22876,7 +24589,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 319,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -22953,7 +24668,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 320,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -23011,7 +24728,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='庫'>Lagerhaus</span> <span class='meaning_kanji_reading'>(庫)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 302,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 321,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -23083,7 +24802,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 322,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -23152,7 +24873,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 323,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -23220,7 +24943,9 @@ let kyouiku =
                 "count": 14,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 324,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -23293,7 +25018,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 325,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -23375,7 +25102,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 326,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -23451,7 +25180,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 327,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -23554,7 +25285,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 328,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -23623,7 +25356,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 329,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -23692,7 +25427,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 330,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -23757,7 +25494,9 @@ let kyouiku =
                 "count": 26,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 331,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -23821,7 +25560,9 @@ let kyouiku =
                 "count": 22,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 332,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -23904,7 +25645,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 333,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -23989,7 +25732,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 334,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -24064,7 +25809,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 335,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -24135,7 +25882,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 336,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -24205,7 +25954,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.19
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 337,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -24295,7 +26046,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 338,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -24380,7 +26133,84 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 339,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 7,
+        "grade": 4,
+        "freq": 918,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Bundle",
+            "Sheaf",
+            "Ream",
+            "Tie In Bundles",
+            "Govern",
+            "Manage",
+            "Control"
+        ],
+        "readings_on": [
+            "そく"
+        ],
+        "readings_kun": [
+            "たば",
+            "たば.ねる",
+            "つか",
+            "つか.ねる"
+        ],
+        "wk_level": 14,
+        "wk_meanings": [
+            "Bundle"
+        ],
+        "wk_readings_on": [
+            "そく"
+        ],
+        "wk_readings_kun": [
+            "!たば"
+        ],
+        "wk_radicals": [
+            "Bundle"
+        ],
+        "meanings_de": [
+            "Bündel",
+            "Garbe",
+            "zusammenbinden"
+        ],
+        "wk_radicals_new": [
+            "Bundle"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Bündel"
+        ],
+        "wk_radicals_kanji": [
+            "束"
+        ],
+        "kanji": "束",
+        "kanji_ord": 26463,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='束'>Bündel</span> <span class='radical_kanji'>(束)</span>  , <span class='meaning' data-kanji='束'>Bündel</span> <span class='meaning_kanji_meaning'>(束)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='束'>Bündel</span> <span class='meaning_kanji_reading'>(束)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 552,
+        "reading_dist": [
+            {
+                "reading": "たば",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "そく",
+                "count": 1,
+                "prop": 0.33
+            }
+        ],
+        "order_wiki_radical_corrected": 340,
+        "grade_corrected": 3
     },
     {
         "strokes": 16,
@@ -24459,7 +26289,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 341,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -24530,7 +26362,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 342,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -24594,7 +26428,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 343,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -24658,7 +26494,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 344,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -24717,7 +26555,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 345,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -24785,7 +26625,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 346,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -24860,7 +26702,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.18
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 347,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -24940,7 +26784,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 348,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -25025,7 +26871,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 349,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -25091,7 +26939,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 350,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -25153,7 +27003,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 351,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -25224,7 +27076,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 352,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -25289,7 +27143,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 353,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -25357,7 +27213,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.36
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 354,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -25429,7 +27287,73 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 355,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 6,
+        "grade": 3,
+        "freq": 1852,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Sheep"
+        ],
+        "readings_on": [
+            "よう"
+        ],
+        "readings_kun": [
+            "ひつじ"
+        ],
+        "wk_level": 6,
+        "wk_meanings": [
+            "Sheep"
+        ],
+        "wk_readings_on": [
+            "よう"
+        ],
+        "wk_readings_kun": [
+            "!ひつじ"
+        ],
+        "wk_radicals": [
+            "Sheep"
+        ],
+        "meanings_de": [
+            "Schaf"
+        ],
+        "wk_radicals_new": [
+            "Sheep"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Schaf"
+        ],
+        "wk_radicals_kanji": [
+            "羊"
+        ],
+        "kanji": "羊",
+        "kanji_ord": 32650,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='羊'>Schaf</span> <span class='radical_kanji'>(羊)</span>  , <span class='meaning' data-kanji='羊'>Schaf</span> <span class='meaning_kanji_meaning'>(羊)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='羊'>Schaf</span> <span class='meaning_kanji_reading'>(羊)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 393,
+        "reading_dist": [
+            {
+                "reading": "ひつじ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "よう",
+                "count": 1,
+                "prop": 0.5
+            }
+        ],
+        "order_wiki_radical_corrected": 356,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -25498,7 +27422,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 357,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -25578,7 +27504,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 358,
+        "grade_corrected": 3
     },
     {
         "strokes": 15,
@@ -25653,7 +27581,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 0.41
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 359,
+        "grade_corrected": 3
     },
     {
         "strokes": 16,
@@ -25727,7 +27657,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 360,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -25808,7 +27740,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 361,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -25883,7 +27817,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 362,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -25952,7 +27888,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 363,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -26024,7 +27962,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 364,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -26107,7 +28047,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 365,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -26174,7 +28116,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 366,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -26241,7 +28185,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 367,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -26327,7 +28273,70 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 368,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 5,
+        "grade": 5,
+        "freq": 846,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Eternity",
+            "Long",
+            "Lengthy"
+        ],
+        "readings_on": [
+            "えい"
+        ],
+        "readings_kun": [
+            "なが.い"
+        ],
+        "wk_level": 32,
+        "wk_meanings": [
+            "Eternity"
+        ],
+        "wk_readings_on": [
+            "えい"
+        ],
+        "wk_readings_kun": [],
+        "wk_radicals": [
+            "Eternity"
+        ],
+        "meanings_de": [
+            "ewig",
+            "lange Zeit",
+            "dauerhaft"
+        ],
+        "wk_radicals_new": [
+            "Eternity"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Ewigkeit"
+        ],
+        "wk_radicals_kanji": [
+            "永"
+        ],
+        "kanji": "永",
+        "kanji_ord": 27704,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span>  , <span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_meaning'>(永)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_reading'>(永)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 730,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 5,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 369,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -26388,7 +28397,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 370,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -26460,7 +28471,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 371,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -26548,7 +28561,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 372,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -26635,7 +28650,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 373,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -26717,7 +28734,71 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 374,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 5,
+        "grade": 3,
+        "freq": 1812,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Dish",
+            "A Helping",
+            "Plate"
+        ],
+        "readings_on": [
+            "べい"
+        ],
+        "readings_kun": [
+            "さら"
+        ],
+        "wk_level": 4,
+        "wk_meanings": [
+            "Plate",
+            "^Dish"
+        ],
+        "wk_readings_on": [],
+        "wk_readings_kun": [
+            "さら"
+        ],
+        "wk_radicals": [
+            "Plate"
+        ],
+        "meanings_de": [
+            "Teller",
+            "Schale",
+            "Schüssel"
+        ],
+        "wk_radicals_new": [
+            "Plate"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Platte"
+        ],
+        "wk_radicals_kanji": [
+            "皿"
+        ],
+        "kanji": "皿",
+        "kanji_ord": 30399,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='皿'>Platte</span> <span class='radical_kanji'>(皿)</span>  , <span class='meaning' data-kanji='皿'>Teller</span> <span class='meaning_kanji_meaning'>(皿)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='皿'>Teller</span> <span class='meaning_kanji_reading'>(皿)</span> , <span class='reading kunyomi' data-hiragana='さら'>Sara</span> <span class='hiragana'>(さら)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 369,
+        "reading_dist": [
+            {
+                "reading": "さら",
+                "count": 1,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 375,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -26801,7 +28882,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 376,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -26872,7 +28955,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 377,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -26942,7 +29027,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 378,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -27006,7 +29093,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 379,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -27065,7 +29154,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 380,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -27137,7 +29228,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 381,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -27214,7 +29307,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.15
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 382,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -27277,7 +29372,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 383,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -27355,7 +29452,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 384,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -27440,7 +29539,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 385,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -27500,7 +29601,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 386,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -27564,7 +29667,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 387,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -27643,7 +29748,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 388,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -27732,7 +29839,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 389,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -27806,7 +29915,80 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 390,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 4,
+        "grade": 5,
+        "freq": 159,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Branch",
+            "Support",
+            "Sustain",
+            "Branch Radical (no. 65)"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [
+            "ささ.える",
+            "つか.える",
+            "か.う"
+        ],
+        "wk_level": 8,
+        "wk_meanings": [
+            "Support",
+            "^Branch"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [
+            "!ささ"
+        ],
+        "wk_radicals": [
+            "Branch"
+        ],
+        "meanings_de": [
+            "unterstützen",
+            "Zweig(-Niederlassung)"
+        ],
+        "wk_radicals_new": [
+            "Branch"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Zweig"
+        ],
+        "wk_radicals_kanji": [
+            "支"
+        ],
+        "kanji": "支",
+        "kanji_ord": 25903,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='支'>Zweig</span> <span class='radical_kanji'>(支)</span>  , <span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_meaning'>(支)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_reading'>(支)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 713,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 19,
+                "prop": 0.95
+            },
+            {
+                "reading": "ささ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ],
+        "order_wiki_radical_corrected": 391,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -27877,67 +30059,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 3,
-        "freq": 1812,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Dish",
-            "A Helping",
-            "Plate"
         ],
-        "readings_on": [
-            "べい"
-        ],
-        "readings_kun": [
-            "さら"
-        ],
-        "wk_level": 4,
-        "wk_meanings": [
-            "Plate",
-            "^Dish"
-        ],
-        "wk_readings_on": [],
-        "wk_readings_kun": [
-            "さら"
-        ],
-        "wk_radicals": [
-            "Plate"
-        ],
-        "meanings_de": [
-            "Teller",
-            "Schale",
-            "Schüssel"
-        ],
-        "wk_radicals_new": [
-            "Plate"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Platte"
-        ],
-        "wk_radicals_kanji": [
-            "皿"
-        ],
-        "kanji": "皿",
-        "kanji_ord": 30399,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='皿'>Platte</span> <span class='radical_kanji'>(皿)</span>  , <span class='meaning' data-kanji='皿'>Teller</span> <span class='meaning_kanji_meaning'>(皿)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='皿'>Teller</span> <span class='meaning_kanji_reading'>(皿)</span> , <span class='reading kunyomi' data-hiragana='さら'>Sara</span> <span class='hiragana'>(さら)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 369,
-        "reading_dist": [
-            {
-                "reading": "さら",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 392,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -28031,7 +30155,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 393,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -28095,7 +30221,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 394,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -28171,7 +30299,9 @@ let kyouiku =
                 "count": 13,
                 "prop": 0.36
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 395,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -28268,7 +30398,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 396,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -28338,7 +30470,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 397,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -28408,7 +30542,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 398,
+        "grade_corrected": 3
     },
     {
         "strokes": 5,
@@ -28471,7 +30607,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 399,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -28567,7 +30705,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 400,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -28643,7 +30783,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 401,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -28703,7 +30845,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 402,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -28759,7 +30903,75 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 403,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 5,
+        "grade": 6,
+        "freq": 1366,
+        "jlpt_old": 1,
+        "jlpt_new": 1,
+        "meanings": [
+            "Hole",
+            "Aperture",
+            "Slit",
+            "Cave",
+            "Den"
+        ],
+        "readings_on": [
+            "けつ"
+        ],
+        "readings_kun": [
+            "あな"
+        ],
+        "wk_level": 20,
+        "wk_meanings": [
+            "Hole",
+            "^Cave"
+        ],
+        "wk_readings_on": [
+            "!けつ"
+        ],
+        "wk_readings_kun": [
+            "あな"
+        ],
+        "wk_radicals": [
+            "Hole"
+        ],
+        "meanings_de": [
+            "Loch",
+            "Höhle",
+            "Senke"
+        ],
+        "wk_radicals_new": [
+            "Hole"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Loch"
+        ],
+        "wk_radicals_kanji": [
+            "穴"
+        ],
+        "kanji": "穴",
+        "kanji_ord": 31348,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='穴'>Loch</span> <span class='radical_kanji'>(穴)</span>  , <span class='meaning' data-kanji='穴'>Loch</span> <span class='meaning_kanji_meaning'>(穴)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='穴'>Loch</span> <span class='meaning_kanji_reading'>(穴)</span> , <span class='reading kunyomi' data-hiragana='あな'>Ana</span> <span class='hiragana'>(あな)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 942,
+        "reading_dist": [
+            {
+                "reading": "あな",
+                "count": 2,
+                "prop": 1.0
+            }
+        ],
+        "order_wiki_radical_corrected": 404,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -28822,7 +31034,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 405,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -28885,7 +31099,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 406,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -28946,7 +31162,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 407,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -29012,7 +31230,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 408,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -29074,7 +31294,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 409,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -29149,7 +31371,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 410,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -29236,7 +31460,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 411,
+        "grade_corrected": 3
     },
     {
         "strokes": 15,
@@ -29304,7 +31530,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 412,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -29366,7 +31594,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 413,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -29449,7 +31679,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 414,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -29525,7 +31757,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 415,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -29600,69 +31834,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 3,
-        "freq": 1852,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Sheep"
         ],
-        "readings_on": [
-            "よう"
-        ],
-        "readings_kun": [
-            "ひつじ"
-        ],
-        "wk_level": 6,
-        "wk_meanings": [
-            "Sheep"
-        ],
-        "wk_readings_on": [
-            "よう"
-        ],
-        "wk_readings_kun": [
-            "!ひつじ"
-        ],
-        "wk_radicals": [
-            "Sheep"
-        ],
-        "meanings_de": [
-            "Schaf"
-        ],
-        "wk_radicals_new": [
-            "Sheep"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Schaf"
-        ],
-        "wk_radicals_kanji": [
-            "羊"
-        ],
-        "kanji": "羊",
-        "kanji_ord": 32650,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='羊'>Schaf</span> <span class='radical_kanji'>(羊)</span>  , <span class='meaning' data-kanji='羊'>Schaf</span> <span class='meaning_kanji_meaning'>(羊)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='羊'>Schaf</span> <span class='meaning_kanji_reading'>(羊)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 393,
-        "reading_dist": [
-            {
-                "reading": "ひつじ",
-                "count": 1,
-                "prop": 0.5
-            },
-            {
-                "reading": "よう",
-                "count": 1,
-                "prop": 0.5
-            }
-        ]
+        "order_wiki_radical_corrected": 416,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -29741,7 +31915,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 417,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -29810,7 +31986,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 418,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -29874,7 +32052,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 419,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -29954,7 +32134,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 420,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -30042,7 +32224,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 421,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -30117,7 +32301,80 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 422,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 6,
+        "grade": 4,
+        "freq": 243,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Each",
+            "Every",
+            "Either"
+        ],
+        "readings_on": [
+            "かく"
+        ],
+        "readings_kun": [
+            "おのおの"
+        ],
+        "wk_level": 22,
+        "wk_meanings": [
+            "Each"
+        ],
+        "wk_readings_on": [
+            "かく"
+        ],
+        "wk_readings_kun": [
+            "!おの"
+        ],
+        "wk_radicals": [
+            "Kiss"
+        ],
+        "meanings_de": [
+            "jeder"
+        ],
+        "wk_radicals_new": [
+            "Kiss"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Kuss"
+        ],
+        "wk_radicals_kanji": [
+            "各"
+        ],
+        "kanji": "各",
+        "kanji_ord": 21508,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_meaning'>(各)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_reading'>(各)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 505,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "おのおの",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "かっ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ],
+        "order_wiki_radical_corrected": 423,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -30198,7 +32455,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 424,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -30273,7 +32532,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 425,
+        "grade_corrected": 3
     },
     {
         "strokes": 16,
@@ -30360,7 +32621,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 426,
+        "grade_corrected": 3
     },
     {
         "strokes": 6,
@@ -30427,7 +32690,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 427,
+        "grade_corrected": 3
     },
     {
         "strokes": 8,
@@ -30509,7 +32774,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 428,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -30572,7 +32839,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 429,
+        "grade_corrected": 3
     },
     {
         "strokes": 15,
@@ -30654,7 +32923,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 430,
+        "grade_corrected": 3
     },
     {
         "strokes": 15,
@@ -30714,74 +32985,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 7,
-        "grade": 3,
-        "freq": 1422,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Beans",
-            "Pea",
-            "Midget"
         ],
-        "readings_on": [
-            "とう",
-            "ず"
-        ],
-        "readings_kun": [
-            "まめ",
-            "まめ-"
-        ],
-        "wk_level": 34,
-        "wk_meanings": [
-            "Beans"
-        ],
-        "wk_readings_on": [
-            "とう"
-        ],
-        "wk_readings_kun": [
-            "!まめ"
-        ],
-        "wk_radicals": [
-            "Beans"
-        ],
-        "meanings_de": [
-            "Bohnen",
-            "Erbsen"
-        ],
-        "wk_radicals_new": [
-            "Beans"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Bohnen"
-        ],
-        "wk_radicals_kanji": [
-            "豆"
-        ],
-        "kanji": "豆",
-        "kanji_ord": 35910,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span>  , <span class='meaning' data-kanji='豆'>Bohnen</span> <span class='meaning_kanji_meaning'>(豆)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='豆'>Bohnen</span> <span class='meaning_kanji_reading'>(豆)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 408,
-        "reading_dist": [
-            {
-                "reading": "まめ",
-                "count": 2,
-                "prop": 0.5
-            },
-            {
-                "reading": "とう",
-                "count": 2,
-                "prop": 0.5
-            }
-        ]
+        "order_wiki_radical_corrected": 431,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -30865,7 +33071,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 432,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -30939,7 +33147,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 433,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -31007,7 +33217,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 434,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -31077,7 +33289,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.28
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 435,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -31154,7 +33368,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 436,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -31235,7 +33451,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 437,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -31294,7 +33512,9 @@ let kyouiku =
                 "count": 22,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 438,
+        "grade_corrected": 3
     },
     {
         "strokes": 7,
@@ -31368,7 +33588,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 439,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -31440,7 +33662,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 0.48
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 440,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -31511,7 +33735,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 441,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -31597,7 +33823,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 442,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -31668,7 +33896,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 443,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -31747,7 +33977,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 444,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -31827,7 +34059,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 445,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -31904,7 +34138,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 446,
+        "grade_corrected": 3
     },
     {
         "strokes": 11,
@@ -31981,7 +34217,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 447,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -32050,7 +34288,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 448,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -32125,99 +34365,87 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 449,
+        "grade_corrected": 3
     },
     {
-        "strokes": 9,
-        "grade": 3,
-        "freq": 193,
-        "jlpt_old": 3,
-        "jlpt_new": 4,
+        "strokes": 5,
+        "grade": 4,
+        "freq": 447,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
         "meanings": [
-            "Heavy",
-            "Important",
-            "Esteem",
-            "Respect",
-            "Heap Up",
-            "Pile Up",
-            "Nest Of Boxes",
-            "-fold"
+            "Lose",
+            "Error",
+            "Fault",
+            "Disadvantage",
+            "Loss"
         ],
         "readings_on": [
-            "じゅう",
-            "ちょう"
+            "しつ"
         ],
         "readings_kun": [
-            "え",
-            "おも.い",
-            "おも.り",
-            "おも.なう",
-            "かさ.ねる",
-            "かさ.なる",
-            "おも"
+            "うしな.う",
+            "う.せる"
         ],
-        "wk_level": 9,
+        "wk_level": 7,
         "wk_meanings": [
-            "Heavy"
+            "Fault"
         ],
         "wk_readings_on": [
-            "じゅう",
-            "^ちょう"
+            "しつ"
         ],
         "wk_readings_kun": [
-            "!おも",
-            "!かさ",
-            "!え"
+            "!うしな"
         ],
         "wk_radicals": [
-            "Heavy"
+            "Slide",
+            "Husband"
         ],
         "meanings_de": [
-            "schwer",
-            "wichtig",
-            "aufeinanderlegen",
-            "-fach"
+            "verlieren"
         ],
         "wk_radicals_new": [
-            "Heavy"
+            "Slide",
+            "Husband"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Schwer"
+            "Rutsche",
+            "Ehemann"
         ],
         "wk_radicals_kanji": [
-            "重"
+            "丿",
+            "夫"
         ],
-        "kanji": "重",
-        "kanji_ord": 37325,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='重'>Schwer</span> <span class='radical_kanji'>(重)</span>  , <span class='meaning' data-kanji='重'>schwer</span> <span class='meaning_kanji_meaning'>(重)</span>",
+        "kanji": "失",
+        "kanji_ord": 22833,
+        "is_radical": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  <span class='radical' data-kanji='夫'>Ehemann</span> <span class='radical_kanji'>(夫)</span>  , <span class='meaning' data-kanji='失'>verlieren</span> <span class='meaning_kanji_meaning'>(失)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='重'>schwer</span> <span class='meaning_kanji_reading'>(重)</span> , <span class='reading onyomi' data-hiragana='じゅう'>Juu</span> <span class='hiragana'>(じゅう)</span>",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='失'>verlieren</span> <span class='meaning_kanji_reading'>(失)</span> , <span class='reading onyomi' data-hiragana='しつ'>Shitsu</span> <span class='hiragana'>(しつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 427,
+        "order_wiki": 513,
         "reading_dist": [
             {
-                "reading": "じゅう",
-                "count": 24,
-                "prop": 0.62
+                "reading": "しっ",
+                "count": 11,
+                "prop": 0.58
             },
             {
-                "reading": "おも",
-                "count": 10,
-                "prop": 0.26
+                "reading": "しつ",
+                "count": 7,
+                "prop": 0.37
             },
             {
-                "reading": "かさ",
-                "count": 3,
-                "prop": 0.08
-            },
-            {
-                "reading": "ちょう",
-                "count": 2,
+                "reading": "うしな",
+                "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 450,
+        "grade_corrected": 3
     },
     {
         "strokes": 13,
@@ -32282,7 +34510,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.27
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 451,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -32340,7 +34570,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 452,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -32420,7 +34652,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 453,
+        "grade_corrected": 3
     },
     {
         "strokes": 10,
@@ -32485,7 +34719,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 454,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -32554,7 +34790,78 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 455,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 4,
+        "grade": 5,
+        "freq": 329,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Compare",
+            "Race",
+            "Ratio",
+            "Philippines"
+        ],
+        "readings_on": [
+            "ひ"
+        ],
+        "readings_kun": [
+            "くら.べる"
+        ],
+        "wk_level": 19,
+        "wk_meanings": [
+            "Compare"
+        ],
+        "wk_readings_on": [
+            "ひ"
+        ],
+        "wk_readings_kun": [
+            "!くら"
+        ],
+        "wk_radicals": [
+            "Compare"
+        ],
+        "meanings_de": [
+            "Vergleich",
+            "Verhältnis",
+            "vergleichen"
+        ],
+        "wk_radicals_new": [
+            "Compare"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Vergleichen"
+        ],
+        "wk_radicals_kanji": [
+            "比"
+        ],
+        "kanji": "比",
+        "kanji_ord": 27604,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='比'>Vergleichen</span> <span class='radical_kanji'>(比)</span>  , <span class='meaning' data-kanji='比'>Vergleich</span> <span class='meaning_kanji_meaning'>(比)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='比'>Vergleich</span> <span class='meaning_kanji_reading'>(比)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 729,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "くら",
+                "count": 2,
+                "prop": 0.22
+            }
+        ],
+        "order_wiki_radical_corrected": 456,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -32621,7 +34928,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 457,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -32704,7 +35013,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 458,
+        "grade_corrected": 3
     },
     {
         "strokes": 9,
@@ -32782,7 +35093,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 459,
+        "grade_corrected": 3
     },
     {
         "strokes": 18,
@@ -32846,7 +35159,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 460,
+        "grade_corrected": 3
     },
     {
         "strokes": 12,
@@ -32917,7 +35232,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.45
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 461,
+        "grade_corrected": 3
     },
     {
         "strokes": 16,
@@ -32984,7 +35301,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 462,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -33041,7 +35360,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 463,
+        "grade_corrected": 3
     },
     {
         "strokes": 14,
@@ -33107,7 +35428,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 464,
+        "grade_corrected": 3
     },
     {
         "strokes": 4,
@@ -33176,7 +35499,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.01
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 465,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -33251,7 +35576,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 466,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -33336,7 +35663,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.37
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 467,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -33390,7 +35719,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 468,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -33468,7 +35799,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 469,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -33541,7 +35874,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 470,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -33624,7 +35959,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.19
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 471,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -33697,7 +36034,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 472,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -33771,7 +36110,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.13
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 473,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -33846,7 +36187,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 474,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -33936,7 +36279,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 475,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -33998,7 +36343,9 @@ let kyouiku =
                 "count": 20,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 476,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -34061,7 +36408,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 477,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -34136,7 +36485,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 478,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -34218,7 +36569,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 479,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -34294,7 +36647,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 480,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -34376,7 +36731,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 481,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -34443,7 +36800,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 482,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -34500,7 +36859,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 483,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -34566,7 +36927,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 484,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -34638,7 +37001,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 485,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -34712,7 +37077,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.15
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 486,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -34784,7 +37151,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 487,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -34848,7 +37217,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 488,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -34936,7 +37307,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 489,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -35023,7 +37396,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 490,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -35109,7 +37484,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 491,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -35183,7 +37560,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 492,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -35259,7 +37638,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 493,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -35323,7 +37704,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 494,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -35390,7 +37773,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 495,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -35464,7 +37849,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 496,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -35538,7 +37925,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 497,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -35614,7 +38003,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 498,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -35690,7 +38081,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 499,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -35755,7 +38148,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.44
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 500,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -35828,7 +38223,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 501,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -35887,7 +38284,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 502,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -35943,7 +38342,9 @@ let kyouiku =
                 "count": 15,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 503,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -36021,7 +38422,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 504,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -36099,7 +38502,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 505,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -36185,7 +38590,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 506,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -36256,142 +38663,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 4,
-        "freq": 243,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Each",
-            "Every",
-            "Either"
         ],
-        "readings_on": [
-            "かく"
-        ],
-        "readings_kun": [
-            "おのおの"
-        ],
-        "wk_level": 22,
-        "wk_meanings": [
-            "Each"
-        ],
-        "wk_readings_on": [
-            "かく"
-        ],
-        "wk_readings_kun": [
-            "!おの"
-        ],
-        "wk_radicals": [
-            "Kiss"
-        ],
-        "meanings_de": [
-            "jeder"
-        ],
-        "wk_radicals_new": [
-            "Kiss"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Kuss"
-        ],
-        "wk_radicals_kanji": [
-            "各"
-        ],
-        "kanji": "各",
-        "kanji_ord": 21508,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_meaning'>(各)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_reading'>(各)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 505,
-        "reading_dist": [
-            {
-                "reading": "かく",
-                "count": 5,
-                "prop": 0.71
-            },
-            {
-                "reading": "おのおの",
-                "count": 1,
-                "prop": 0.14
-            },
-            {
-                "reading": "かっ",
-                "count": 1,
-                "prop": 0.14
-            }
-        ]
-    },
-    {
-        "strokes": 8,
-        "grade": 4,
-        "freq": 562,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Circumference",
-            "Circuit",
-            "Lap"
-        ],
-        "readings_on": [
-            "しゅう"
-        ],
-        "readings_kun": [
-            "まわ.り"
-        ],
-        "wk_level": 14,
-        "wk_meanings": [
-            "Circumference"
-        ],
-        "wk_readings_on": [
-            "しゅう"
-        ],
-        "wk_readings_kun": [
-            "!まわ"
-        ],
-        "wk_radicals": [
-            "Circumference"
-        ],
-        "meanings_de": [
-            "Umgebung",
-            "Runde",
-            "Umfang"
-        ],
-        "wk_radicals_new": [
-            "Circumference"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Umfang"
-        ],
-        "wk_radicals_kanji": [
-            "周"
-        ],
-        "kanji": "周",
-        "kanji_ord": 21608,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='周'>Umfang</span> <span class='radical_kanji'>(周)</span>  , <span class='meaning' data-kanji='周'>Umgebung</span> <span class='meaning_kanji_meaning'>(周)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='周'>Umgebung</span> <span class='meaning_kanji_reading'>(周)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 506,
-        "reading_dist": [
-            {
-                "reading": "しゅう",
-                "count": 7,
-                "prop": 0.88
-            },
-            {
-                "reading": "まわ",
-                "count": 1,
-                "prop": 0.12
-            }
-        ]
+        "order_wiki_radical_corrected": 507,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -36459,7 +38733,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 508,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -36535,7 +38811,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 509,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -36609,7 +38887,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 510,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -36688,7 +38968,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 511,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -36761,7 +39043,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 512,
+        "grade_corrected": 4
     },
     {
         "strokes": 4,
@@ -36833,83 +39117,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 4,
-        "freq": 447,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Lose",
-            "Error",
-            "Fault",
-            "Disadvantage",
-            "Loss"
         ],
-        "readings_on": [
-            "しつ"
-        ],
-        "readings_kun": [
-            "うしな.う",
-            "う.せる"
-        ],
-        "wk_level": 7,
-        "wk_meanings": [
-            "Fault"
-        ],
-        "wk_readings_on": [
-            "しつ"
-        ],
-        "wk_readings_kun": [
-            "!うしな"
-        ],
-        "wk_radicals": [
-            "Slide",
-            "Husband"
-        ],
-        "meanings_de": [
-            "verlieren"
-        ],
-        "wk_radicals_new": [
-            "Slide",
-            "Husband"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Rutsche",
-            "Ehemann"
-        ],
-        "wk_radicals_kanji": [
-            "丿",
-            "夫"
-        ],
-        "kanji": "失",
-        "kanji_ord": 22833,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  <span class='radical' data-kanji='夫'>Ehemann</span> <span class='radical_kanji'>(夫)</span>  , <span class='meaning' data-kanji='失'>verlieren</span> <span class='meaning_kanji_meaning'>(失)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='失'>verlieren</span> <span class='meaning_kanji_reading'>(失)</span> , <span class='reading onyomi' data-hiragana='しつ'>Shitsu</span> <span class='hiragana'>(しつ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 513,
-        "reading_dist": [
-            {
-                "reading": "しっ",
-                "count": 11,
-                "prop": 0.58
-            },
-            {
-                "reading": "しつ",
-                "count": 7,
-                "prop": 0.37
-            },
-            {
-                "reading": "うしな",
-                "count": 1,
-                "prop": 0.05
-            }
-        ]
+        "order_wiki_radical_corrected": 513,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -36993,7 +39203,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 514,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -37051,7 +39263,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 515,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -37112,7 +39326,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 516,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -37173,7 +39389,9 @@ let kyouiku =
                 "count": 13,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 517,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -37231,7 +39449,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 518,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -37296,7 +39516,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 519,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -37360,7 +39582,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 520,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -37422,7 +39646,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 521,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -37505,7 +39731,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 522,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -37582,7 +39810,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 523,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -37650,7 +39880,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 524,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -37731,7 +39963,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 525,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -37808,7 +40042,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 526,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -37869,7 +40105,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 527,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -37927,7 +40165,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='康'>Gesundheit</span> <span class='meaning_kanji_reading'>(康)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 528
+        "order_wiki": 528,
+        "order_wiki_radical_corrected": 528,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -38008,7 +40248,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 529,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -38066,7 +40308,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='径'>Durchmesser</span> <span class='meaning_kanji_reading'>(径)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 530,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 530,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -38141,7 +40385,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 531,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -38217,7 +40463,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 532,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -38283,7 +40531,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 533,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -38363,7 +40613,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 534,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -38444,7 +40696,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 535,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -38516,7 +40770,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 536,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -38601,7 +40857,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 537,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -38684,7 +40942,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 538,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -38759,7 +41019,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 539,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -38829,7 +41091,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 540,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -38910,7 +41174,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 541,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -38971,7 +41237,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 542,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -39043,7 +41311,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 543,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -39113,7 +41383,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 544,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -39177,7 +41449,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 545,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -39263,7 +41537,89 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 546,
+        "grade_corrected": 4
+    },
+    {
+        "strokes": 3,
+        "grade": 6,
+        "freq": 661,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Deceased",
+            "The Late",
+            "Dying",
+            "Perish"
+        ],
+        "readings_on": [
+            "ぼう",
+            "もう"
+        ],
+        "readings_kun": [
+            "な.い",
+            "な.き-",
+            "ほろ.びる",
+            "ほろ.ぶ",
+            "ほろ.ぼす"
+        ],
+        "wk_level": 6,
+        "wk_meanings": [
+            "Death",
+            "^Deceased"
+        ],
+        "wk_readings_on": [
+            "ぼう"
+        ],
+        "wk_readings_kun": [
+            "!な"
+        ],
+        "wk_radicals": [
+            "Death"
+        ],
+        "meanings_de": [
+            "sterben",
+            "zugrunde gehen",
+            "vergehen"
+        ],
+        "wk_radicals_new": [
+            "Death"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Tod"
+        ],
+        "wk_radicals_kanji": [
+            "亡"
+        ],
+        "kanji": "亡",
+        "kanji_ord": 20129,
+        "is_radical": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span>  , <span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_meaning'>(亡)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_reading'>(亡)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
+        "mnemonic_reading_de_done": false,
+        "order_wiki": 1021,
+        "reading_dist": [
+            {
+                "reading": "な",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ぼう",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "なき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ],
+        "order_wiki_radical_corrected": 547,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -39348,84 +41704,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 4,
-        "freq": 650,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Un-",
-            "Not Yet",
-            "Hitherto",
-            "Still",
-            "Even Now",
-            "Sign Of The Ram",
-            "1-3pm",
-            "Eighth Sign Of Chinese Zodiac"
         ],
-        "readings_on": [
-            "み",
-            "び"
-        ],
-        "readings_kun": [
-            "いま.だ",
-            "ま.だ",
-            "ひつじ"
-        ],
-        "wk_level": 7,
-        "wk_meanings": [
-            "Not Yet"
-        ],
-        "wk_readings_on": [
-            "み"
-        ],
-        "wk_readings_kun": [
-            "!ま",
-            "!いま",
-            "!ひつじ"
-        ],
-        "wk_radicals": [
-            "Jet"
-        ],
-        "meanings_de": [
-            "noch",
-            "noch nicht",
-            "unfertig",
-            "unreif"
-        ],
-        "wk_radicals_new": [
-            "Jet"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Jet"
-        ],
-        "wk_radicals_kanji": [
-            "未"
-        ],
-        "kanji": "未",
-        "kanji_ord": 26410,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span>  , <span class='meaning' data-kanji='未'>noch</span> <span class='meaning_kanji_meaning'>(未)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='未'>noch</span> <span class='meaning_kanji_reading'>(未)</span> , <span class='reading onyomi' data-hiragana='み'>Mi</span> <span class='hiragana'>(み)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 548,
-        "reading_dist": [
-            {
-                "reading": "み",
-                "count": 21,
-                "prop": 0.84
-            },
-            {
-                "reading": "ま",
-                "count": 4,
-                "prop": 0.16
-            }
-        ]
+        "order_wiki_radical_corrected": 548,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -39499,7 +41780,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 549,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -39574,7 +41857,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 550,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -39640,80 +41925,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 7,
-        "grade": 4,
-        "freq": 918,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Bundle",
-            "Sheaf",
-            "Ream",
-            "Tie In Bundles",
-            "Govern",
-            "Manage",
-            "Control"
         ],
-        "readings_on": [
-            "そく"
-        ],
-        "readings_kun": [
-            "たば",
-            "たば.ねる",
-            "つか",
-            "つか.ねる"
-        ],
-        "wk_level": 14,
-        "wk_meanings": [
-            "Bundle"
-        ],
-        "wk_readings_on": [
-            "そく"
-        ],
-        "wk_readings_kun": [
-            "!たば"
-        ],
-        "wk_radicals": [
-            "Bundle"
-        ],
-        "meanings_de": [
-            "Bündel",
-            "Garbe",
-            "zusammenbinden"
-        ],
-        "wk_radicals_new": [
-            "Bundle"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Bündel"
-        ],
-        "wk_radicals_kanji": [
-            "束"
-        ],
-        "kanji": "束",
-        "kanji_ord": 26463,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='束'>Bündel</span> <span class='radical_kanji'>(束)</span>  , <span class='meaning' data-kanji='束'>Bündel</span> <span class='meaning_kanji_meaning'>(束)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='束'>Bündel</span> <span class='meaning_kanji_reading'>(束)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 552,
-        "reading_dist": [
-            {
-                "reading": "たば",
-                "count": 2,
-                "prop": 0.67
-            },
-            {
-                "reading": "そく",
-                "count": 1,
-                "prop": 0.33
-            }
-        ]
+        "order_wiki_radical_corrected": 551,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -39776,7 +41990,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 552,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -39855,7 +42071,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 553,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -39935,7 +42153,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 554,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -40005,7 +42225,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 555,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -40086,7 +42308,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 556,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -40147,7 +42371,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_reading'>(械)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 558
+        "order_wiki": 558,
+        "order_wiki_radical_corrected": 557,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -40252,7 +42478,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 558,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -40330,7 +42558,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 559,
+        "grade_corrected": 4
     },
     {
         "strokes": 16,
@@ -40409,91 +42639,9 @@ let kyouiku =
                 "count": 24,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 4,
-        "freq": 860,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Lack",
-            "Gap",
-            "Fail",
-            "Yawning Radical (no. 76)"
         ],
-        "readings_on": [
-            "けつ",
-            "けん"
-        ],
-        "readings_kun": [
-            "か.ける",
-            "か.く"
-        ],
-        "wk_level": 7,
-        "wk_meanings": [
-            "Lack"
-        ],
-        "wk_readings_on": [
-            "けつ"
-        ],
-        "wk_readings_kun": [
-            "!か"
-        ],
-        "wk_radicals": [
-            "Lack"
-        ],
-        "meanings_de": [
-            "Mangel",
-            "Unvollkommenheit",
-            "fehlen"
-        ],
-        "wk_radicals_new": [
-            "Lack"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Mangel"
-        ],
-        "wk_radicals_kanji": [
-            "欠"
-        ],
-        "kanji": "欠",
-        "kanji_ord": 27424,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='欠'>Mangel</span> <span class='radical_kanji'>(欠)</span>  , <span class='meaning' data-kanji='欠'>Mangel</span> <span class='meaning_kanji_meaning'>(欠)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='欠'>Mangel</span> <span class='meaning_kanji_reading'>(欠)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 562,
-        "reading_dist": [
-            {
-                "reading": "けっ",
-                "count": 4,
-                "prop": 0.31
-            },
-            {
-                "reading": "けつ",
-                "count": 4,
-                "prop": 0.31
-            },
-            {
-                "reading": "か",
-                "count": 3,
-                "prop": 0.23
-            },
-            {
-                "reading": "あくび",
-                "count": 1,
-                "prop": 0.08
-            },
-            {
-                "reading": "かけ",
-                "count": 1,
-                "prop": 0.08
-            }
-        ]
+        "order_wiki_radical_corrected": 560,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -40566,70 +42714,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.36
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 4,
-        "freq": 84,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Family Name",
-            "Surname",
-            "Clan"
         ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "うじ",
-            "-うじ"
-        ],
-        "wk_level": 7,
-        "wk_meanings": [
-            "Family Name",
-            "^Last Name",
-            "^Surname"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!うじ"
-        ],
-        "wk_radicals": [
-            "Clan"
-        ],
-        "meanings_de": [
-            "Familie",
-            "Clan"
-        ],
-        "wk_radicals_new": [
-            "Clan"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Clan"
-        ],
-        "wk_radicals_kanji": [
-            "氏"
-        ],
-        "kanji": "氏",
-        "kanji_ord": 27663,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_meaning'>(氏)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_reading'>(氏)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 564,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 3,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 561,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -40701,7 +42788,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 562,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -40778,7 +42867,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 563,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -40869,7 +42960,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 564,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -40938,7 +43031,9 @@ let kyouiku =
                 "count": 25,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 565,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -41003,7 +43098,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 566,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -41069,7 +43166,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 567,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -41142,7 +43241,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 568,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -41224,7 +43325,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 569,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -41300,7 +43403,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 570,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -41374,7 +43479,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 571,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -41454,7 +43561,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 572,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -41526,7 +43635,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 573,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -41610,7 +43721,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 574,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -41688,7 +43801,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 575,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -41763,7 +43878,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 576,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -41842,7 +43959,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.13
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 577,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -41909,7 +44028,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 578,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -42003,7 +44124,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 579,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -42080,7 +44203,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 580,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -42150,7 +44275,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 581,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -42228,7 +44355,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 582,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -42302,7 +44431,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 583,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -42363,7 +44494,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 584,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -42439,7 +44572,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 585,
+        "grade_corrected": 4
     },
     {
         "strokes": 16,
@@ -42530,7 +44665,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 586,
+        "grade_corrected": 4
     },
     {
         "strokes": 20,
@@ -42616,7 +44753,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 587,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -42685,7 +44824,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 588,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -42756,7 +44897,9 @@ let kyouiku =
                 "count": 15,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 589,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -42850,7 +44993,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 590,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -42915,7 +45060,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 591,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -43003,7 +45150,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 592,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -43073,7 +45222,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 593,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -43152,7 +45303,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 594,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -43227,7 +45380,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 595,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -43306,7 +45461,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 596,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -43354,7 +45511,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='臣'>Gefolgsmann</span> <span class='meaning_kanji_reading'>(臣)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>  <span class='reading onyomi' data-hiragana='じん'>Jin</span> <span class='hiragana'>(じん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 600
+        "order_wiki": 600,
+        "order_wiki_radical_corrected": 597,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -43426,7 +45585,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.45
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 598,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -43496,7 +45657,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 599,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -43561,7 +45724,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 600,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -43632,7 +45797,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 601,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -43699,7 +45866,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 602,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -43775,7 +45944,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 603,
+        "grade_corrected": 4
     },
     {
         "strokes": 6,
@@ -43839,7 +46010,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 604,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -43918,7 +46091,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 605,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -44004,7 +46179,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 606,
+        "grade_corrected": 4
     },
     {
         "strokes": 18,
@@ -44075,7 +46252,9 @@ let kyouiku =
                 "count": 14,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 607,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -44146,7 +46325,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 608,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -44231,7 +46412,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 609,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -44307,7 +46490,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 610,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -44369,7 +46554,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 611,
+        "grade_corrected": 4
     },
     {
         "strokes": 20,
@@ -44431,7 +46618,9 @@ let kyouiku =
                 "count": 15,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 612,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -44492,7 +46681,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 613,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -44556,7 +46747,9 @@ let kyouiku =
                 "count": 20,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 614,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -44631,7 +46824,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 615,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -44696,7 +46891,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 616,
+        "grade_corrected": 4
     },
     {
         "strokes": 19,
@@ -44769,7 +46966,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 617,
+        "grade_corrected": 4
     },
     {
         "strokes": 18,
@@ -44842,7 +47041,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 618,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -44904,7 +47105,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 0.32
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 619,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -44968,7 +47171,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 620,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -45045,7 +47250,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 621,
+        "grade_corrected": 4
     },
     {
         "strokes": 18,
@@ -45108,7 +47315,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='験'>untersuchen</span> <span class='meaning_kanji_reading'>(験)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 625,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 622,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -45165,7 +47374,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='賀'>Glückwünsche</span> <span class='meaning_kanji_reading'>(賀)</span> , <span class='reading onyomi' data-hiragana='が'>Ga</span> <span class='hiragana'>(が)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 626,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 623,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -45247,7 +47458,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 624,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -45329,7 +47542,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 625,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -45403,7 +47618,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 626,
+        "grade_corrected": 4
     },
     {
         "strokes": 5,
@@ -45477,7 +47694,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 627,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -45566,7 +47785,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.02
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 628,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -45643,7 +47864,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 629,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -45721,7 +47944,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 630,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -45784,7 +48009,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 631,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -45854,7 +48081,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 632,
+        "grade_corrected": 4
     },
     {
         "strokes": 16,
@@ -45918,7 +48147,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 633,
+        "grade_corrected": 4
     },
     {
         "strokes": 19,
@@ -45987,7 +48218,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 634,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -46074,7 +48307,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 635,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -46140,7 +48375,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 636,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -46207,7 +48444,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 637,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -46269,7 +48508,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='徳'>Tugend</span> <span class='meaning_kanji_reading'>(徳)</span> , <span class='reading onyomi' data-hiragana='とく'>Toku</span> <span class='hiragana'>(とく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 641
+        "order_wiki": 641,
+        "order_wiki_radical_corrected": 638,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -46346,7 +48587,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 639,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -46410,7 +48653,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 640,
+        "grade_corrected": 4
     },
     {
         "strokes": 14,
@@ -46479,7 +48724,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 641,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -46545,7 +48792,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 642,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -46617,7 +48866,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 643,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -46688,7 +48939,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 644,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -46775,7 +49028,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 645,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -46847,7 +49102,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 646,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -46920,7 +49177,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 647,
+        "grade_corrected": 4
     },
     {
         "strokes": 12,
@@ -46990,7 +49249,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 648,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -47076,7 +49337,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.18
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 649,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -47137,7 +49400,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 650,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -47212,7 +49477,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 651,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -47276,7 +49543,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 652,
+        "grade_corrected": 4
     },
     {
         "strokes": 10,
@@ -47342,7 +49611,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 653,
+        "grade_corrected": 4
     },
     {
         "strokes": 15,
@@ -47409,7 +49680,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 654,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -47479,7 +49752,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 655,
+        "grade_corrected": 4
     },
     {
         "strokes": 11,
@@ -47550,7 +49825,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.15
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 656,
+        "grade_corrected": 4
     },
     {
         "strokes": 7,
@@ -47624,7 +49901,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 657,
+        "grade_corrected": 4
     },
     {
         "strokes": 9,
@@ -47689,63 +49968,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 4,
-        "freq": 511,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "History",
-            "Chronicle"
         ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [],
-        "wk_level": 19,
-        "wk_meanings": [
-            "History"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "History"
-        ],
-        "meanings_de": [
-            "Geschichte",
-            "das Vergangene",
-            "historisch"
-        ],
-        "wk_radicals_new": [
-            "History"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Geschichte"
-        ],
-        "wk_radicals_kanji": [
-            "史"
-        ],
-        "kanji": "史",
-        "kanji_ord": 21490,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='史'>Geschichte</span> <span class='radical_kanji'>(史)</span>  , <span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_meaning'>(史)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_reading'>(史)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 662,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 7,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 658,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -47823,7 +50048,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 659,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -47902,7 +50129,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 660,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -47958,82 +50187,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 5,
-        "freq": 314,
-        "jlpt_old": 2,
-        "jlpt_new": null,
-        "meanings": [
-            "Can",
-            "Passable",
-            "Mustn't",
-            "Should Not",
-            "Do Not"
         ],
-        "readings_on": [
-            "か",
-            "こく"
-        ],
-        "readings_kun": [
-            "-べ.き",
-            "-べ.し"
-        ],
-        "wk_level": 18,
-        "wk_meanings": [
-            "Possible",
-            "^Passable"
-        ],
-        "wk_readings_on": [
-            "か"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Lip Ring"
-        ],
-        "meanings_de": [
-            "Möglichkeit",
-            "Zustimmung",
-            "können",
-            "sollte"
-        ],
-        "wk_radicals_new": [
-            "Lip Ring"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Lippenring"
-        ],
-        "wk_radicals_kanji": [
-            "可"
-        ],
-        "kanji": "可",
-        "kanji_ord": 21487,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='可'>Lippenring</span> <span class='radical_kanji'>(可)</span>  , <span class='meaning' data-kanji='可'>Möglichkeit</span> <span class='meaning_kanji_meaning'>(可)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='可'>Möglichkeit</span> <span class='meaning_kanji_reading'>(可)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 666,
-        "reading_dist": [
-            {
-                "reading": "か",
-                "count": 12,
-                "prop": 0.8
-            },
-            {
-                "reading": "おか",
-                "count": 2,
-                "prop": 0.13
-            },
-            {
-                "reading": "べ",
-                "count": 1,
-                "prop": 0.07
-            }
-        ]
+        "order_wiki_radical_corrected": 661,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -48106,7 +50262,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 662,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -48181,7 +50339,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 663,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -48256,7 +50416,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 664,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -48329,7 +50491,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 665,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -48402,7 +50566,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 666,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -48469,7 +50635,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 667,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -48541,7 +50709,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 668,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -48617,7 +50787,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 669,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -48696,7 +50868,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 670,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -48762,7 +50936,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 671,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -48843,7 +51019,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 672,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -48922,7 +51100,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 673,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -48993,7 +51173,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 674,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -49064,7 +51246,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 675,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -49136,7 +51320,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 676,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -49217,7 +51403,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 677,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -49298,7 +51486,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 678,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -49368,7 +51558,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 679,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -49444,7 +51636,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 680,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -49510,7 +51704,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 681,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -49577,7 +51773,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 682,
+        "grade_corrected": 6
     },
     {
         "strokes": 5,
@@ -49647,7 +51845,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 683,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -49724,7 +51924,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 684,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -49807,7 +52009,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.13
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 685,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -49881,7 +52085,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 686,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -49958,7 +52164,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 687,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -50039,7 +52247,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 688,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -50119,7 +52329,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 689,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -50190,7 +52402,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 690,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -50282,7 +52496,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 691,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -50347,7 +52563,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 692,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -50428,7 +52646,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 693,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -50503,7 +52723,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 694,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -50577,7 +52799,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 695,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -50643,7 +52867,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 696,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -50704,7 +52930,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='務'>Pflicht</span> <span class='meaning_kanji_reading'>(務)</span> , <span class='reading onyomi' data-hiragana='む'>Mu</span> <span class='hiragana'>(む)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 701,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 697,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -50778,7 +53006,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 698,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -50850,7 +53080,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 699,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -50922,7 +53154,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 700,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -50996,7 +53230,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 701,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -51072,7 +53308,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 702,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -51140,7 +53378,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 703,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -51212,7 +53452,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 704,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -51288,7 +53530,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 705,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -51365,7 +53609,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 706,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -51435,7 +53681,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 707,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -51512,76 +53760,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 5,
-        "freq": 159,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Branch",
-            "Support",
-            "Sustain",
-            "Branch Radical (no. 65)"
         ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "ささ.える",
-            "つか.える",
-            "か.う"
-        ],
-        "wk_level": 8,
-        "wk_meanings": [
-            "Support",
-            "^Branch"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!ささ"
-        ],
-        "wk_radicals": [
-            "Branch"
-        ],
-        "meanings_de": [
-            "unterstützen",
-            "Zweig(-Niederlassung)"
-        ],
-        "wk_radicals_new": [
-            "Branch"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Zweig"
-        ],
-        "wk_radicals_kanji": [
-            "支"
-        ],
-        "kanji": "支",
-        "kanji_ord": 25903,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='支'>Zweig</span> <span class='radical_kanji'>(支)</span>  , <span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_meaning'>(支)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_reading'>(支)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 713,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 19,
-                "prop": 0.95
-            },
-            {
-                "reading": "ささ",
-                "count": 1,
-                "prop": 0.05
-            }
-        ]
+        "order_wiki_radical_corrected": 708,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -51650,7 +53831,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 709,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -51736,7 +53919,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 710,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -51796,7 +53981,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='則'>Regel</span> <span class='meaning_kanji_reading'>(則)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 716,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 711,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -51886,7 +54073,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 712,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -51953,79 +54142,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 8,
-        "grade": 5,
-        "freq": 571,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Easy",
-            "Ready To",
-            "Simple",
-            "Fortune-telling",
-            "Divination"
         ],
-        "readings_on": [
-            "えき",
-            "い"
-        ],
-        "readings_kun": [
-            "やさ.しい",
-            "やす.い"
-        ],
-        "wk_level": 19,
-        "wk_meanings": [
-            "Easy"
-        ],
-        "wk_readings_on": [
-            "い",
-            "^えき"
-        ],
-        "wk_readings_kun": [
-            "!やさ"
-        ],
-        "wk_radicals": [
-            "Easy"
-        ],
-        "meanings_de": [
-            "einfach",
-            "leicht",
-            "mühelos",
-            "wahrsagen"
-        ],
-        "wk_radicals_new": [
-            "Easy"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Einfach"
-        ],
-        "wk_radicals_kanji": [
-            "易"
-        ],
-        "kanji": "易",
-        "kanji_ord": 26131,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='易'>Einfach</span> <span class='radical_kanji'>(易)</span>  , <span class='meaning' data-kanji='易'>einfach</span> <span class='meaning_kanji_meaning'>(易)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='易'>einfach</span> <span class='meaning_kanji_reading'>(易)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 719,
-        "reading_dist": [
-            {
-                "reading": "やさ",
-                "count": 1,
-                "prop": 0.5
-            },
-            {
-                "reading": "やす",
-                "count": 1,
-                "prop": 0.5
-            }
-        ]
+        "order_wiki_radical_corrected": 713,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -52110,7 +54229,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 714,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -52178,7 +54299,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 715,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -52244,7 +54367,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 716,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -52304,7 +54429,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 717,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -52381,7 +54508,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 718,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -52449,7 +54578,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 719,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -52512,7 +54643,9 @@ let kyouiku =
                 "count": 19,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 720,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -52584,7 +54717,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 721,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -52661,133 +54796,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 5,
-        "freq": 329,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Compare",
-            "Race",
-            "Ratio",
-            "Philippines"
         ],
-        "readings_on": [
-            "ひ"
-        ],
-        "readings_kun": [
-            "くら.べる"
-        ],
-        "wk_level": 19,
-        "wk_meanings": [
-            "Compare"
-        ],
-        "wk_readings_on": [
-            "ひ"
-        ],
-        "wk_readings_kun": [
-            "!くら"
-        ],
-        "wk_radicals": [
-            "Compare"
-        ],
-        "meanings_de": [
-            "Vergleich",
-            "Verhältnis",
-            "vergleichen"
-        ],
-        "wk_radicals_new": [
-            "Compare"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Vergleichen"
-        ],
-        "wk_radicals_kanji": [
-            "比"
-        ],
-        "kanji": "比",
-        "kanji_ord": 27604,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='比'>Vergleichen</span> <span class='radical_kanji'>(比)</span>  , <span class='meaning' data-kanji='比'>Vergleich</span> <span class='meaning_kanji_meaning'>(比)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='比'>Vergleich</span> <span class='meaning_kanji_reading'>(比)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 729,
-        "reading_dist": [
-            {
-                "reading": "ひ",
-                "count": 7,
-                "prop": 0.78
-            },
-            {
-                "reading": "くら",
-                "count": 2,
-                "prop": 0.22
-            }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 5,
-        "freq": 846,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Eternity",
-            "Long",
-            "Lengthy"
-        ],
-        "readings_on": [
-            "えい"
-        ],
-        "readings_kun": [
-            "なが.い"
-        ],
-        "wk_level": 32,
-        "wk_meanings": [
-            "Eternity"
-        ],
-        "wk_readings_on": [
-            "えい"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Eternity"
-        ],
-        "meanings_de": [
-            "ewig",
-            "lange Zeit",
-            "dauerhaft"
-        ],
-        "wk_radicals_new": [
-            "Eternity"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Ewigkeit"
-        ],
-        "wk_radicals_kanji": [
-            "永"
-        ],
-        "kanji": "永",
-        "kanji_ord": 27704,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span>  , <span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_meaning'>(永)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_reading'>(永)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 730,
-        "reading_dist": [
-            {
-                "reading": "えい",
-                "count": 5,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 722,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -52853,7 +54864,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 723,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -52915,7 +54928,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 724,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -52998,7 +55013,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 725,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -53071,7 +55088,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 726,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -53146,7 +55165,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 727,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -53225,7 +55246,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 728,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -53302,7 +55325,9 @@ let kyouiku =
                 "count": 17,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 729,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -53382,7 +55407,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 730,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -53452,7 +55479,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 731,
+        "grade_corrected": 5
     },
     {
         "strokes": 16,
@@ -53521,7 +55550,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 732,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -53584,7 +55615,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 733,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -53654,7 +55687,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 734,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -53718,7 +55753,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 735,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -53798,7 +55835,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 736,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -53890,7 +55929,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 737,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -53965,7 +56006,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 738,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -54057,7 +56100,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 739,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -54135,7 +56180,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 740,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -54214,7 +56261,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 741,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -54287,7 +56336,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 742,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -54361,7 +56412,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 743,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -54453,7 +56506,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 744,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -54523,7 +56578,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 745,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -54583,7 +56640,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 746,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -54644,7 +56703,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 747,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -54720,7 +56781,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 748,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -54800,7 +56863,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 749,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -54858,7 +56923,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 750,
+        "grade_corrected": 5
     },
     {
         "strokes": 16,
@@ -54932,7 +56999,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 751,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -55004,7 +57073,9 @@ let kyouiku =
                 "count": 19,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 752,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -55081,7 +57152,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.09
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 753,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -55174,7 +57247,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 754,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -55241,7 +57316,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 755,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -55327,7 +57404,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.18
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 756,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -55392,7 +57471,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 757,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -55463,7 +57544,9 @@ let kyouiku =
                 "count": 34,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 758,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -55539,7 +57622,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 759,
+        "grade_corrected": 5
     },
     {
         "strokes": 17,
@@ -55591,7 +57676,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='績'>spinnen</span> <span class='meaning_kanji_reading'>(績)</span> , <span class='reading onyomi' data-hiragana='せき'>Seki</span> <span class='hiragana'>(せき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 768
+        "order_wiki": 768,
+        "order_wiki_radical_corrected": 760,
+        "grade_corrected": 5
     },
     {
         "strokes": 18,
@@ -55666,7 +57753,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 761,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -55733,7 +57822,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 762,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -55799,7 +57890,9 @@ let kyouiku =
                 "count": 14,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 763,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -55854,7 +57947,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 764,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -55917,7 +58012,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 765,
+        "grade_corrected": 5
     },
     {
         "strokes": 18,
@@ -55985,7 +58082,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 766,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -56066,7 +58165,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 767,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -56135,7 +58236,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 768,
+        "grade_corrected": 5
     },
     {
         "strokes": 16,
@@ -56219,7 +58322,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 769,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -56283,7 +58388,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 770,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -56341,7 +58448,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 771,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -56412,7 +58521,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 772,
+        "grade_corrected": 5
     },
     {
         "strokes": 16,
@@ -56471,7 +58582,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 773,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -56524,7 +58637,9 @@ let kyouiku =
                 "count": 13,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 774,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -56585,7 +58700,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 775,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -56646,7 +58763,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 776,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -56748,7 +58867,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 777,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -56824,7 +58945,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 778,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -56899,7 +59022,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 779,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -56968,7 +59093,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 780,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -57027,7 +59154,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 781,
+        "grade_corrected": 5
     },
     {
         "strokes": 17,
@@ -57085,7 +59214,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 782,
+        "grade_corrected": 5
     },
     {
         "strokes": 17,
@@ -57158,7 +59289,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 783,
+        "grade_corrected": 5
     },
     {
         "strokes": 19,
@@ -57224,7 +59357,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 784,
+        "grade_corrected": 5
     },
     {
         "strokes": 20,
@@ -57295,7 +59430,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 785,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -57368,7 +59505,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 786,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -57439,7 +59578,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 787,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -57514,7 +59655,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 788,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -57585,7 +59728,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 789,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -57659,7 +59804,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 790,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -57722,7 +59869,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 791,
+        "grade_corrected": 5
     },
     {
         "strokes": 5,
@@ -57783,7 +59932,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 792,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -57846,7 +59997,9 @@ let kyouiku =
                 "count": 15,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 793,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -57912,7 +60065,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 794,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -57992,7 +60147,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 795,
+        "grade_corrected": 5
     },
     {
         "strokes": 16,
@@ -58052,7 +60209,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 796,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -58123,7 +60282,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 797,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -58203,7 +60364,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 798,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -58279,7 +60442,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 799,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -58366,7 +60531,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 800,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -58433,7 +60600,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 801,
+        "grade_corrected": 5
     },
     {
         "strokes": 12,
@@ -58518,7 +60687,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.04
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 802,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -58582,7 +60753,9 @@ let kyouiku =
                 "count": 16,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 803,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -58652,7 +60825,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 804,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -58714,7 +60889,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 805,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -58774,7 +60951,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 806,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -58838,7 +61017,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 807,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -58912,7 +61093,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 808,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -58988,7 +61171,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 809,
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -59062,7 +61247,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 810,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -59138,7 +61325,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 811,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -59218,7 +61407,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.27
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 812,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -59278,7 +61469,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 813,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -59365,7 +61558,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 814,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -59428,7 +61623,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 815,
+        "grade_corrected": 5
     },
     {
         "strokes": 18,
@@ -59500,7 +61697,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 816,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -59569,69 +61768,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 4,
-        "freq": 526,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Gentleman",
-            "Scholar",
-            "Samurai",
-            "Samurai Radical (no. 33)"
         ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "さむらい"
-        ],
-        "wk_level": 13,
-        "wk_meanings": [
-            "Samurai"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!さむらい"
-        ],
-        "wk_radicals": [
-            "Samurai"
-        ],
-        "meanings_de": [
-            "Samurai",
-            "Krieger",
-            "ein gebildeter Mann"
-        ],
-        "wk_radicals_new": [
-            "Samurai"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Samurai"
-        ],
-        "wk_radicals_kanji": [
-            "士"
-        ],
-        "kanji": "士",
-        "kanji_ord": 22763,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  , <span class='meaning' data-kanji='士'>Samurai</span> <span class='meaning_kanji_meaning'>(士)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='士'>Samurai</span> <span class='meaning_kanji_reading'>(士)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 826,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 2,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 817,
+        "grade_corrected": 5
     },
     {
         "strokes": 3,
@@ -59696,7 +61835,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 818,
+        "grade_corrected": 5
     },
     {
         "strokes": 4,
@@ -59776,7 +61917,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 819,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -59855,7 +61998,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 820,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -59921,7 +62066,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 821,
+        "grade_corrected": 5
     },
     {
         "strokes": 6,
@@ -59997,7 +62144,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 822,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -60074,7 +62223,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 823,
+        "grade_corrected": 5
     },
     {
         "strokes": 7,
@@ -60149,7 +62300,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 824,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -60214,7 +62367,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 825,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -60293,7 +62448,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.03
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 826,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -60355,7 +62512,9 @@ let kyouiku =
                 "count": 11,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 827,
+        "grade_corrected": 6
     },
     {
         "strokes": 5,
@@ -60416,7 +62575,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 828,
+        "grade_corrected": 6
     },
     {
         "strokes": 5,
@@ -60488,7 +62649,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 829,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -60567,7 +62730,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 830,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -60655,7 +62820,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 0.38
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 831,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -60725,7 +62892,9 @@ let kyouiku =
                 "count": 12,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 832,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -60787,7 +62956,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 833,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -60861,7 +63032,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 834,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -60941,7 +63114,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 835,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -61003,7 +63178,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 836,
+        "grade_corrected": 6
     },
     {
         "strokes": 17,
@@ -61091,7 +63268,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 837,
+        "grade_corrected": 6
     },
     {
         "strokes": 4,
@@ -61165,7 +63344,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.18
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 838,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -61233,7 +63414,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='后'>Kaiserin</span> <span class='meaning_kanji_reading'>(后)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 848,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 839,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -61307,7 +63490,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 840,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -61378,7 +63563,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 841,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -61447,7 +63634,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 842,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -61527,7 +63716,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 843,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -61598,7 +63789,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 844,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -61669,7 +63862,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 845,
+        "grade_corrected": 6
     },
     {
         "strokes": 17,
@@ -61764,7 +63959,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 846,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -61835,7 +64032,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 847,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -61899,7 +64098,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 848,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -61973,7 +64174,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 849,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -62045,7 +64248,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 850,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -62125,62 +64330,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
-    },
-    {
-        "strokes": 7,
-        "grade": 6,
-        "freq": 1030,
-        "jlpt_old": 1,
-        "jlpt_new": null,
-        "meanings": [
-            "Filial Piety",
-            "Child's Respect"
         ],
-        "readings_on": [
-            "こう",
-            "きょう"
-        ],
-        "readings_kun": [],
-        "wk_level": 40,
-        "wk_meanings": [
-            "Filial Piety"
-        ],
-        "wk_readings_on": [
-            "こう"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Teacher"
-        ],
-        "meanings_de": [
-            "kindliche Pflicht (gegenüber den Eltern)"
-        ],
-        "wk_radicals_new": [
-            "Teacher"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Lehrerin"
-        ],
-        "wk_radicals_kanji": [
-            "孝"
-        ],
-        "kanji": "孝",
-        "kanji_ord": 23389,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='孝'>Lehrerin</span> <span class='radical_kanji'>(孝)</span>  , <span class='meaning' data-kanji='孝'>kindliche Pflicht (gegenüber den Eltern)</span> <span class='meaning_kanji_meaning'>(孝)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='孝'>kindliche Pflicht (gegenüber den Eltern)</span> <span class='meaning_kanji_reading'>(孝)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 861,
-        "reading_dist": [
-            {
-                "reading": "こう",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 851,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -62248,7 +64400,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 852,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -62310,7 +64464,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 853,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -62375,7 +64531,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 854,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -62438,7 +64596,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 855,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -62511,7 +64671,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 856,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -62580,7 +64742,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 857,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -62661,66 +64825,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 6,
-        "freq": 1669,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Measurement",
-            "Tenth Of A Shaku",
-            "A Little",
-            "Small"
         ],
-        "readings_on": [
-            "すん"
-        ],
-        "readings_kun": [],
-        "wk_level": 44,
-        "wk_meanings": [
-            "Measurement"
-        ],
-        "wk_readings_on": [
-            "すん"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Measurement"
-        ],
-        "meanings_de": [
-            "messen",
-            "Länge",
-            "SUN = 3",
-            "03 cm"
-        ],
-        "wk_radicals_new": [
-            "Measurement"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Messung"
-        ],
-        "wk_radicals_kanji": [
-            "寸"
-        ],
-        "kanji": "寸",
-        "kanji_ord": 23544,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='寸'>Messung</span> <span class='radical_kanji'>(寸)</span>  , <span class='meaning' data-kanji='寸'>messen</span> <span class='meaning_kanji_meaning'>(寸)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='寸'>messen</span> <span class='meaning_kanji_reading'>(寸)</span> , <span class='reading onyomi' data-hiragana='すん'>Sun</span> <span class='hiragana'>(すん)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 869,
-        "reading_dist": [
-            {
-                "reading": "すん",
-                "count": 3,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 858,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -62796,7 +64903,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 859,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -62873,7 +64982,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 860,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -62938,7 +65049,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 861,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -63020,7 +65133,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 862,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -63094,63 +65209,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
-    },
-    {
-        "strokes": 4,
-        "grade": 6,
-        "freq": 1940,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Shaku",
-            "Japanese Foot",
-            "Measure",
-            "Scale",
-            "Rule"
         ],
-        "readings_on": [
-            "しゃく"
-        ],
-        "readings_kun": [],
-        "wk_level": 47,
-        "wk_meanings": [
-            "Shaku",
-            "^Japanese Foot"
-        ],
-        "wk_readings_on": [
-            "しゃく"
-        ],
-        "wk_readings_kun": [],
-        "wk_radicals": [
-            "Shrimp"
-        ],
-        "meanings_de": [
-            "messen",
-            "Längenmaß (ungefähr 30",
-            "3cm)"
-        ],
-        "wk_radicals_new": [],
-        "wk_radicals_missing": [
-            "Shrimp"
-        ],
-        "wk_radicals_de": [],
-        "wk_radicals_kanji": [],
-        "kanji": "尺",
-        "kanji_ord": 23610,
-        "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='尺'>messen</span> <span class='meaning_kanji_meaning'>(尺)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='尺'>messen</span> <span class='meaning_kanji_reading'>(尺)</span> , <span class='reading onyomi' data-hiragana='しゃく'>Shaku</span> <span class='hiragana'>(しゃく)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 875,
-        "reading_dist": [
-            {
-                "reading": "しゃく",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 863,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -63223,7 +65284,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 864,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -63288,7 +65351,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 865,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -63342,69 +65407,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='層'>Klasse</span> <span class='meaning_kanji_reading'>(層)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 878
-    },
-    {
-        "strokes": 3,
-        "grade": 6,
-        "freq": 1098,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Self"
-        ],
-        "readings_on": [
-            "こ",
-            "き"
-        ],
-        "readings_kun": [
-            "おのれ",
-            "つちのと",
-            "な"
-        ],
-        "wk_level": 35,
-        "wk_meanings": [
-            "Oneself"
-        ],
-        "wk_readings_on": [
-            "こ",
-            "^き"
-        ],
-        "wk_readings_kun": [
-            "!おのれ"
-        ],
-        "wk_radicals": [
-            "Oneself"
-        ],
-        "meanings_de": [
-            "ich",
-            "jemand selbst"
-        ],
-        "wk_radicals_new": [
-            "Oneself"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Selber"
-        ],
-        "wk_radicals_kanji": [
-            "己"
-        ],
-        "kanji": "己",
-        "kanji_ord": 24049,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_meaning'>(己)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_reading'>(己)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 879,
-        "reading_dist": [
-            {
-                "reading": "おのれ",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki": 878,
+        "order_wiki_radical_corrected": 866,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -63488,7 +65493,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 867,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -63559,85 +65566,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 6,
-        "freq": 1349,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Dry",
-            "Parch",
-            "Ebb",
-            "Recede",
-            "Interfere",
-            "Intercede"
         ],
-        "readings_on": [
-            "かん"
-        ],
-        "readings_kun": [
-            "ほ.す",
-            "ほ.し-",
-            "-ぼ.し",
-            "ひ.る"
-        ],
-        "wk_level": 17,
-        "wk_meanings": [
-            "Dry"
-        ],
-        "wk_readings_on": [
-            "かん"
-        ],
-        "wk_readings_kun": [
-            "!ほ",
-            "!ひ"
-        ],
-        "wk_radicals": [
-            "Dry"
-        ],
-        "meanings_de": [
-            "trocken werden",
-            "trocknen",
-            "getrocknet"
-        ],
-        "wk_radicals_new": [
-            "Dry"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Trocken"
-        ],
-        "wk_radicals_kanji": [
-            "干"
-        ],
-        "kanji": "干",
-        "kanji_ord": 24178,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='干'>Trocken</span> <span class='radical_kanji'>(干)</span>  , <span class='meaning' data-kanji='干'>trocken werden</span> <span class='meaning_kanji_meaning'>(干)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='干'>trocken werden</span> <span class='meaning_kanji_reading'>(干)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 882,
-        "reading_dist": [
-            {
-                "reading": "ほ",
-                "count": 1,
-                "prop": 0.33
-            },
-            {
-                "reading": "かん",
-                "count": 1,
-                "prop": 0.33
-            },
-            {
-                "reading": "ひ",
-                "count": 1,
-                "prop": 0.33
-            }
-        ]
+        "order_wiki_radical_corrected": 868,
+        "grade_corrected": 6
     },
     {
         "strokes": 5,
@@ -63707,7 +65638,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 869,
+        "grade_corrected": 6
     },
     {
         "strokes": 5,
@@ -63769,7 +65702,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 870,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -63846,7 +65781,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.3
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 871,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -63919,7 +65856,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 872,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -63977,7 +65916,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='律'>Gesetz</span> <span class='meaning_kanji_reading'>(律)</span> , <span class='reading onyomi' data-hiragana='りつ'>Ritsu</span> <span class='hiragana'>(りつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 887
+        "order_wiki": 887,
+        "order_wiki_radical_corrected": 873,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -64067,7 +66008,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 874,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -64133,7 +66076,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 875,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -64193,7 +66138,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 876,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -64260,7 +66207,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 877,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -64336,7 +66285,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 878,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -64394,7 +66345,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 879,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -64471,7 +66424,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.22
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 880,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -64542,7 +66497,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 881,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -64611,7 +66568,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 882,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -64678,7 +66637,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 883,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -64759,7 +66720,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 884,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -64833,7 +66796,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 885,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -64896,7 +66861,9 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='揮'>schwingen</span> <span class='meaning_kanji_reading'>(揮)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 900
+        "order_wiki": 900,
+        "order_wiki_radical_corrected": 886,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -64981,7 +66948,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 887,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -65053,7 +67022,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 888,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -65133,7 +67104,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 889,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -65191,7 +67164,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 890,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -65265,7 +67240,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 891,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -65334,7 +67311,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 892,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -65406,7 +67385,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 893,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -65473,7 +67454,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 894,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -65535,7 +67518,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 895,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -65626,7 +67611,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 896,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -65697,7 +67684,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 897,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -65767,7 +67756,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 898,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -65829,7 +67820,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 899,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -65900,7 +67893,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 900,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -65969,7 +67964,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 901,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -66052,7 +68049,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 902,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -66113,7 +68112,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 903,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -66193,7 +68194,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 904,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -66257,7 +68260,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 905,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -66324,7 +68329,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.21
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 906,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -66393,7 +68400,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 907,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -66470,7 +68479,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 908,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -66538,7 +68549,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 909,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -66612,7 +68625,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.5
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 910,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -66695,7 +68710,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 911,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -66759,7 +68776,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 912,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -66835,7 +68854,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 913,
+        "grade_corrected": 6
     },
     {
         "strokes": 4,
@@ -66894,7 +68915,9 @@ let kyouiku =
                 "count": 8,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 914,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -66955,7 +68978,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 915,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -67031,7 +69056,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 916,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -67111,7 +69138,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 917,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -67188,7 +69217,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 918,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -67247,7 +69278,9 @@ let kyouiku =
                 "count": 9,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 919,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -67329,7 +69362,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 920,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -67388,7 +69423,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 921,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -67454,7 +69491,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 922,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -67525,7 +69564,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 923,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -67592,7 +69633,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 924,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -67663,7 +69706,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 925,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -67728,7 +69773,9 @@ let kyouiku =
                 "count": 5,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 926,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -67795,71 +69842,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
-    },
-    {
-        "strokes": 5,
-        "grade": 6,
-        "freq": 1366,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Hole",
-            "Aperture",
-            "Slit",
-            "Cave",
-            "Den"
         ],
-        "readings_on": [
-            "けつ"
-        ],
-        "readings_kun": [
-            "あな"
-        ],
-        "wk_level": 20,
-        "wk_meanings": [
-            "Hole",
-            "^Cave"
-        ],
-        "wk_readings_on": [
-            "!けつ"
-        ],
-        "wk_readings_kun": [
-            "あな"
-        ],
-        "wk_radicals": [
-            "Hole"
-        ],
-        "meanings_de": [
-            "Loch",
-            "Höhle",
-            "Senke"
-        ],
-        "wk_radicals_new": [
-            "Hole"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Loch"
-        ],
-        "wk_radicals_kanji": [
-            "穴"
-        ],
-        "kanji": "穴",
-        "kanji_ord": 31348,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='穴'>Loch</span> <span class='radical_kanji'>(穴)</span>  , <span class='meaning' data-kanji='穴'>Loch</span> <span class='meaning_kanji_meaning'>(穴)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='穴'>Loch</span> <span class='meaning_kanji_reading'>(穴)</span> , <span class='reading kunyomi' data-hiragana='あな'>Ana</span> <span class='hiragana'>(あな)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 942,
-        "reading_dist": [
-            {
-                "reading": "あな",
-                "count": 2,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 927,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -67928,7 +69913,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 928,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -68010,7 +69997,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 929,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -68078,7 +70067,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 930,
+        "grade_corrected": 6
     },
     {
         "strokes": 18,
@@ -68140,7 +70131,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 931,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -68205,7 +70198,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 932,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -68257,7 +70252,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 933,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -68330,7 +70327,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 934,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -68411,7 +70410,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 935,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -68471,7 +70472,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 936,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -68536,7 +70539,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 937,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -68616,7 +70621,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 938,
+        "grade_corrected": 6
     },
     {
         "strokes": 17,
@@ -68700,7 +70707,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 939,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -68761,7 +70770,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 940,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -68822,7 +70833,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 941,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -68891,7 +70904,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 942,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -68948,7 +70963,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 943,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -69032,7 +71049,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.08
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 944,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -69110,7 +71129,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 945,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -69173,7 +71194,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 946,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -69245,7 +71268,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 947,
+        "grade_corrected": 6
     },
     {
         "strokes": 19,
@@ -69306,7 +71331,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 948,
+        "grade_corrected": 6
     },
     {
         "strokes": 18,
@@ -69380,7 +71407,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 949,
+        "grade_corrected": 6
     },
     {
         "strokes": 6,
@@ -69445,7 +71474,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.43
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 950,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -69535,7 +71566,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 951,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -69621,7 +71654,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.12
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 952,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -69704,7 +71739,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 953,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -69771,7 +71808,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 954,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -69839,7 +71878,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 955,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -69918,7 +71959,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 956,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -69995,7 +72038,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.25
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 957,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -70080,7 +72125,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 958,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -70154,7 +72201,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.07
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 959,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -70218,7 +72267,9 @@ let kyouiku =
                 "count": 10,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 960,
+        "grade_corrected": 6
     },
     {
         "strokes": 17,
@@ -70281,7 +72332,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='覧'>genaues Schauen</span> <span class='meaning_kanji_reading'>(覧)</span> , <span class='reading onyomi' data-hiragana='らん'>Ran</span> <span class='hiragana'>(らん)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 977,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 961,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -70351,7 +72404,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 962,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -70429,7 +72484,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 963,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -70501,7 +72558,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 964,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -70559,7 +72618,9 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='詞'>Wort(e)</span> <span class='meaning_kanji_reading'>(詞)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
         "order_wiki": 981,
-        "reading_dist": []
+        "reading_dist": [],
+        "order_wiki_radical_corrected": 965,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -70623,7 +72684,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 966,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -70700,7 +72763,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 967,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -70765,7 +72830,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 968,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -70838,7 +72905,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.4
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 969,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -70909,7 +72978,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.38
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 970,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -70977,7 +73048,9 @@ let kyouiku =
                 "count": 17,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 971,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -71042,7 +73115,9 @@ let kyouiku =
                 "count": 4,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 972,
+        "grade_corrected": 6
     },
     {
         "strokes": 19,
@@ -71109,7 +73184,9 @@ let kyouiku =
                 "count": 14,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 973,
+        "grade_corrected": 6
     },
     {
         "strokes": 12,
@@ -71188,7 +73265,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 974,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -71256,7 +73335,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 975,
+        "grade_corrected": 6
     },
     {
         "strokes": 15,
@@ -71327,7 +73408,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.05
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 976,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -71386,7 +73469,9 @@ let kyouiku =
                 "count": 6,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 977,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -71450,7 +73535,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 978,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -71516,7 +73603,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 979,
+        "grade_corrected": 6
     },
     {
         "strokes": 16,
@@ -71581,7 +73670,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 980,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -71661,7 +73752,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 981,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -71722,7 +73815,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 982,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -71809,7 +73904,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.1
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 983,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -71872,7 +73969,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 984,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -71950,7 +74049,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 985,
+        "grade_corrected": 6
     },
     {
         "strokes": 14,
@@ -72019,7 +74120,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 986,
+        "grade_corrected": 6
     },
     {
         "strokes": 18,
@@ -72104,7 +74207,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 987,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -72167,7 +74272,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.33
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 988,
+        "grade_corrected": 6
     },
     {
         "strokes": 11,
@@ -72248,7 +74355,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 989,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -72328,7 +74437,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.14
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 990,
+        "grade_corrected": 6
     },
     {
         "strokes": 9,
@@ -72388,7 +74499,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 991,
+        "grade_corrected": 4
     },
     {
         "strokes": 13,
@@ -72454,7 +74567,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 992,
+        "grade_corrected": 4
     },
     {
         "strokes": 8,
@@ -72513,7 +74628,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 993,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -72592,66 +74709,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.25
             }
-        ]
-    },
-    {
-        "strokes": 6,
-        "grade": 5,
-        "freq": 1830,
-        "jlpt_old": 1,
-        "jlpt_new": 1,
-        "meanings": [
-            "Tongue",
-            "Reed",
-            "Clapper"
         ],
-        "readings_on": [
-            "ぜつ"
-        ],
-        "readings_kun": [
-            "した"
-        ],
-        "wk_level": 19,
-        "wk_meanings": [
-            "Tongue"
-        ],
-        "wk_readings_on": [
-            "!ぜつ"
-        ],
-        "wk_readings_kun": [
-            "した"
-        ],
-        "wk_radicals": [
-            "Tongue"
-        ],
-        "meanings_de": [
-            "Zunge"
-        ],
-        "wk_radicals_new": [
-            "Tongue"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Zunge"
-        ],
-        "wk_radicals_kanji": [
-            "舌"
-        ],
-        "kanji": "舌",
-        "kanji_ord": 33292,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='舌'>Zunge</span> <span class='radical_kanji'>(舌)</span>  , <span class='meaning' data-kanji='舌'>Zunge</span> <span class='meaning_kanji_meaning'>(舌)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='舌'>Zunge</span> <span class='meaning_kanji_reading'>(舌)</span> , <span class='reading kunyomi' data-hiragana='した'>Shita</span> <span class='hiragana'>(した)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 1011,
-        "reading_dist": [
-            {
-                "reading": "した",
-                "count": 1,
-                "prop": 1.0
-            }
-        ]
+        "order_wiki_radical_corrected": 994,
+        "grade_corrected": 5
     },
     {
         "strokes": 14,
@@ -72717,7 +74777,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 995,
+        "grade_corrected": 5
     },
     {
         "strokes": 9,
@@ -72804,7 +74866,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.06
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 996,
+        "grade_corrected": 5
     },
     {
         "strokes": 15,
@@ -72876,7 +74940,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 997,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -72945,7 +75011,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 998,
+        "grade_corrected": 5
     },
     {
         "strokes": 13,
@@ -73021,7 +75089,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.11
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 999,
+        "grade_corrected": 5
     },
     {
         "strokes": 10,
@@ -73091,7 +75161,9 @@ let kyouiku =
                 "count": 7,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1000,
+        "grade_corrected": 5
     },
     {
         "strokes": 8,
@@ -73183,7 +75255,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1001,
+        "grade_corrected": 6
     },
     {
         "strokes": 7,
@@ -73260,7 +75334,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 0.23
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1002,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -73338,85 +75414,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
-    },
-    {
-        "strokes": 3,
-        "grade": 6,
-        "freq": 661,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Deceased",
-            "The Late",
-            "Dying",
-            "Perish"
         ],
-        "readings_on": [
-            "ぼう",
-            "もう"
-        ],
-        "readings_kun": [
-            "な.い",
-            "な.き-",
-            "ほろ.びる",
-            "ほろ.ぶ",
-            "ほろ.ぼす"
-        ],
-        "wk_level": 6,
-        "wk_meanings": [
-            "Death",
-            "^Deceased"
-        ],
-        "wk_readings_on": [
-            "ぼう"
-        ],
-        "wk_readings_kun": [
-            "!な"
-        ],
-        "wk_radicals": [
-            "Death"
-        ],
-        "meanings_de": [
-            "sterben",
-            "zugrunde gehen",
-            "vergehen"
-        ],
-        "wk_radicals_new": [
-            "Death"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Tod"
-        ],
-        "wk_radicals_kanji": [
-            "亡"
-        ],
-        "kanji": "亡",
-        "kanji_ord": 20129,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span>  , <span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_meaning'>(亡)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_reading'>(亡)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 1021,
-        "reading_dist": [
-            {
-                "reading": "な",
-                "count": 2,
-                "prop": 0.5
-            },
-            {
-                "reading": "ぼう",
-                "count": 1,
-                "prop": 0.25
-            },
-            {
-                "reading": "なき",
-                "count": 1,
-                "prop": 0.25
-            }
-        ]
+        "order_wiki_radical_corrected": 1003,
+        "grade_corrected": 6
     },
     {
         "strokes": 4,
@@ -73483,7 +75483,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1004,
+        "grade_corrected": 6
     },
     {
         "strokes": 8,
@@ -73573,7 +75575,9 @@ let kyouiku =
                 "count": 1,
                 "prop": 0.17
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1005,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -73632,7 +75636,9 @@ let kyouiku =
                 "count": 3,
                 "prop": 1.0
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1006,
+        "grade_corrected": 6
     },
     {
         "strokes": 10,
@@ -73704,7 +75710,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.2
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1007,
+        "grade_corrected": 6
     },
     {
         "strokes": 13,
@@ -73789,7 +75797,9 @@ let kyouiku =
                 "count": 2,
                 "prop": 0.29
             }
-        ]
+        ],
+        "order_wiki_radical_corrected": 1008,
+        "grade_corrected": 6
     }
 ]
 ;
