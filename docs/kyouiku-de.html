@@ -33,6 +33,7 @@
                     <th v-if="show_meaning">Bedeutung</th>
                     <th v-if="show_mnemonic_meaning">Merksatz Radikal &rarr; Bedeutung</th>
                     <th v-if="show_mnemonic_reading">Merksatz Bedeutung &rarr; Lesung</th>
+                    <th>Lesung Verteilung</th>
                 </tr>
             </thead>
             <tbody>
@@ -58,6 +59,13 @@
                     </td>
                     <td :class="{ 'missing': !entry.mnemonic_reading_de_done }" v-if="show_mnemonic_reading">
                         <div v-html="entry.mnemonic_reading_de"></div>
+                    </td>
+                    <td style="font-size: 14px">
+                        <ul>
+                            <li v-for="rd in entry.reading_dist" v-show="rd.prop > 0.05" style="white-space: nowrap;">
+                                {{rd.reading}} {{(rd.prop * 100).toFixed(0)}}% ({{rd.count}})
+                            </li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>

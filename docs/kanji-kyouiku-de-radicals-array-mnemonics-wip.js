@@ -53,7 +53,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Tag <span class='meaning' data-kanji='一'>eins</span> <span class='meaning_kanji_reading'>(一)</span> an dem <span class='reading onyomi' data-hiragana='いち'>ich Chi</span>ps <span class='hiragana'>(いち)</span> nicht mehr esse, ich mache keine W<span class='reading onyomi' data-hiragana='いつ'>itze</span> <span class='hiragana'>(いつ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 1
+        "order_wiki": 1,
+        "reading_dist": [
+            {
+                "reading": "いっ",
+                "count": 94,
+                "prop": 0.46
+            },
+            {
+                "reading": "いち",
+                "count": 77,
+                "prop": 0.37
+            },
+            {
+                "reading": "ひと",
+                "count": 31,
+                "prop": 0.15
+            },
+            {
+                "reading": "おととし",
+                "count": 1,
+                "prop": 0.0
+            },
+            {
+                "reading": "ちょっと",
+                "count": 1,
+                "prop": 0.0
+            },
+            {
+                "reading": "ひとつ",
+                "count": 1,
+                "prop": 0.0
+            },
+            {
+                "reading": "おととい",
+                "count": 1,
+                "prop": 0.0
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -108,7 +145,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Zu <span class='meaning' data-kanji='二'>zwei</span>t <span class='meaning_kanji_reading'>(二)</span> ist man <span class='reading onyomi' data-hiragana='に'>Nie</span> <span class='hiragana'>(に)</span> allein.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 2
+        "order_wiki": 2,
+        "reading_dist": [
+            {
+                "reading": "に",
+                "count": 37,
+                "prop": 0.84
+            },
+            {
+                "reading": "ふた",
+                "count": 6,
+                "prop": 0.14
+            },
+            {
+                "reading": "はつか",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -165,7 +219,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Ich male ein <span class='meaning' data-kanji='三'>Drei</span>eck <span class='meaning_kanji_reading'>(三)</span> in den <span class='reading onyomi' data-hiragana='さん'>San</span>d <span class='hiragana'>(さん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 3
+        "order_wiki": 3,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 32,
+                "prop": 0.89
+            },
+            {
+                "reading": "み",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "みっ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "しゃみせん",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -223,7 +299,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Anstatt zwei sehe ich <span class='meaning' data-kanji='四'>vier</span> <span class='meaning_kanji_reading'>(四)</span>, weil ich <span class='reading onyomi' data-hiragana='し'>schie</span>le <span class='hiragana'>(し)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 4
+        "order_wiki": 4,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 11,
+                "prop": 0.65
+            },
+            {
+                "reading": "よ",
+                "count": 3,
+                "prop": 0.18
+            },
+            {
+                "reading": "よん",
+                "count": 2,
+                "prop": 0.12
+            },
+            {
+                "reading": "よっ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -275,7 +373,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Er bezahlt mit <span class='meaning' data-kanji='五'>fünf</span> <span class='meaning_kanji_reading'>(五)</span> <span class='reading onyomi' data-hiragana='ご'>Go</span>ldstücke <span class='hiragana'>(ご)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 5
+        "order_wiki": 5,
+        "reading_dist": [
+            {
+                "reading": "ご",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "いつ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -333,7 +443,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Titel Nummer <span class='meaning' data-kanji='六'>sechs</span> <span class='meaning_kanji_reading'>(六)</span> ist ein <span class='reading onyomi' data-hiragana='ろく'>Rock</span> <span class='hiragana'>(ろく)</span> Lied.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 6
+        "order_wiki": 6,
+        "reading_dist": [
+            {
+                "reading": "ろく",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "むっ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -387,7 +509,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='七'>sieben</span> <span class='meaning_kanji_reading'>(七)</span> Stunden als <span class='reading onyomi' data-hiragana='しち'>Schicht-Chi</span>rurg <span class='hiragana'>(しち)</span> gearbeitet.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 7
+        "order_wiki": 7,
+        "reading_dist": [
+            {
+                "reading": "しち",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "なな",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "たなばた",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -442,7 +581,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Spinnen mit <span class='meaning' data-kanji='八'>acht</span> <span class='meaning_kanji_reading'>(八)</span> Beinen <span class='reading onyomi' data-hiragana='はち'>hat Chi</span>tin <span class='hiragana'>(はち)</span> Außenskelett.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 8
+        "order_wiki": 8,
+        "reading_dist": [
+            {
+                "reading": "はち",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "や",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "はっ",
+                "count": 2,
+                "prop": 0.2
+            },
+            {
+                "reading": "やっ",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "やち",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -496,7 +662,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='九'>neun</span>te <span class='meaning_kanji_reading'>(九)</span> Klasse als Fleiß<span class='reading onyomi' data-hiragana='きゅう'>igju</span>gend <span class='hiragana'>(きゅう)</span> schreibt mit <span class='reading onyomi' data-hiragana='く'>Ku</span>li <span class='hiragana'>(く)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 9
+        "order_wiki": 9,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "ここの",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "く",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -550,7 +733,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='十'>zehn</span> <span class='meaning_kanji_reading'>(十)</span> Finger hat ein Han<span class='reading onyomi' data-hiragana='じゅう'>dschuh</span> <span class='hiragana'>(じゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 10
+        "order_wiki": 10,
+        "reading_dist": [
+            {
+                "reading": "じゅう",
+                "count": 17,
+                "prop": 0.94
+            },
+            {
+                "reading": "おはこ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -605,7 +800,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='百'>Einhundert</span> <span class='meaning_kanji_reading'>(百)</span> Tage im Jahr sieht man die Frü<span class='reading onyomi' data-hiragana='ひゃく'>hjahrku</span>lisse <span class='hiragana'>(ひゃく)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 11
+        "order_wiki": 11,
+        "reading_dist": [
+            {
+                "reading": "ひゃく",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "ひゃっかじてん",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "ひゃっかてん",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "ゆり",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -656,7 +873,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='千'>tausend</span> <span class='meaning_kanji_reading'>(千)</span> hat Tau<span class='reading onyomi' data-hiragana='せん'>sen</span>d <span class='hiragana'>(せん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 12
+        "order_wiki": 12,
+        "reading_dist": [
+            {
+                "reading": "ち",
+                "count": 7,
+                "prop": 0.58
+            },
+            {
+                "reading": "せん",
+                "count": 5,
+                "prop": 0.42
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -734,7 +963,64 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='上'>oben</span> <span class='meaning_kanji_reading'>(上)</span> auf dem Dach habe ich in der ganzen Straße ein Vorbil<span class='reading onyomi' data-hiragana='じょう'>dscho</span>rnstein <span class='hiragana'>(じょう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 13
+        "order_wiki": 13,
+        "reading_dist": [
+            {
+                "reading": "じょう",
+                "count": 31,
+                "prop": 0.56
+            },
+            {
+                "reading": "うわ",
+                "count": 7,
+                "prop": 0.13
+            },
+            {
+                "reading": "あ",
+                "count": 5,
+                "prop": 0.09
+            },
+            {
+                "reading": "のぼ",
+                "count": 3,
+                "prop": 0.05
+            },
+            {
+                "reading": "うえ",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "かみ",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "シャンハイ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "こうずけ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "う",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "うま",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -814,7 +1100,49 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Haare hängen nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_reading'>(下)</span>, also mit <span class='reading onyomi' data-hiragana='か'>Ka</span>mm <span class='hiragana'>(か)</span> und <span class='reading onyomi' data-hiragana='げ'>Ge</span>l <span class='hiragana'>(げ)</span> stylen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 14
+        "order_wiki": 14,
+        "reading_dist": [
+            {
+                "reading": "した",
+                "count": 15,
+                "prop": 0.29
+            },
+            {
+                "reading": "か",
+                "count": 11,
+                "prop": 0.21
+            },
+            {
+                "reading": "げ",
+                "count": 11,
+                "prop": 0.21
+            },
+            {
+                "reading": "くだ",
+                "count": 7,
+                "prop": 0.13
+            },
+            {
+                "reading": "さ",
+                "count": 3,
+                "prop": 0.06
+            },
+            {
+                "reading": "しも",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "へた",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -869,7 +1197,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='左'>linke</span> <span class='meaning_kanji_reading'>(左)</span> Seite vom <span class='reading onyomi' data-hiragana='さ'>Sa</span>al <span class='hiragana'>(さ)</span> ist noch nicht renoviert.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 15
+        "order_wiki": 15,
+        "reading_dist": [
+            {
+                "reading": "さ",
+                "count": 8,
+                "prop": 0.53
+            },
+            {
+                "reading": "ひだり",
+                "count": 7,
+                "prop": 0.47
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -925,7 +1265,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='右'>rechte</span> <span class='meaning_kanji_reading'>(右)</span> Nazis verfolgen <span class='reading onyomi' data-hiragana='ゆう'>Ju</span>den <span class='hiragana'>(ゆう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 16
+        "order_wiki": 16,
+        "reading_dist": [
+            {
+                "reading": "みぎ",
+                "count": 8,
+                "prop": 0.67
+            },
+            {
+                "reading": "う",
+                "count": 4,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -986,7 +1338,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "In der <span class='meaning' data-kanji='中'>Mitte</span> <span class='meaning_kanji_reading'>(中)</span> das <span class='reading onyomi' data-hiragana='ちゅう'>Chu</span>rro <span class='hiragana'>(ちゅう)</span> Gebäck geteilt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 17
+        "order_wiki": 17,
+        "reading_dist": [
+            {
+                "reading": "ちゅう",
+                "count": 66,
+                "prop": 0.89
+            },
+            {
+                "reading": "なか",
+                "count": 8,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -1043,7 +1407,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Ich bin <span class='meaning' data-kanji='大'>groß</span> <span class='meaning_kanji_reading'>(大)</span> weil ich viele Me<span class='reading onyomi' data-hiragana='だい'>dai</span>llons <span class='hiragana'>(だい)</span> esse, nicht gut für meine <span class='reading onyomi' data-hiragana='たい'>Tai</span>lle <span class='hiragana'>(たい)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 18
+        "order_wiki": 18,
+        "reading_dist": [
+            {
+                "reading": "だい",
+                "count": 50,
+                "prop": 0.34
+            },
+            {
+                "reading": "たい",
+                "count": 47,
+                "prop": 0.32
+            },
+            {
+                "reading": "おお",
+                "count": 45,
+                "prop": 0.31
+            },
+            {
+                "reading": "お",
+                "count": 2,
+                "prop": 0.01
+            },
+            {
+                "reading": "おおい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にんにく",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "やまと",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -1101,7 +1502,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Als du <span class='meaning' data-kanji='小'>klein</span> <span class='meaning_kanji_reading'>(小)</span> warst, wolltest du immer auf meinen <span class='reading onyomi' data-hiragana='しょう'>Scho</span>ß <span class='hiragana'>(しょう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 19
+        "order_wiki": 19,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 24,
+                "prop": 0.44
+            },
+            {
+                "reading": "しょう",
+                "count": 23,
+                "prop": 0.42
+            },
+            {
+                "reading": "ちい",
+                "count": 3,
+                "prop": 0.05
+            },
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "ぼや",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "あずき",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -1157,7 +1595,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Bei Voll<span class='meaning' data-kanji='月'>mond</span> <span class='meaning_kanji_reading'>(月)</span> mache ich Übungen mit meinem Yo<span class='reading onyomi' data-hiragana='がつ'>gazu</span>behör <span class='hiragana'>(がつ)</span>, meine Muskeln haben <span class='reading onyomi' data-hiragana='げつ'>gezu</span>ckt <span class='hiragana'>(げつ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 20
+        "order_wiki": 20,
+        "reading_dist": [
+            {
+                "reading": "げっ",
+                "count": 10,
+                "prop": 0.4
+            },
+            {
+                "reading": "げつ",
+                "count": 7,
+                "prop": 0.28
+            },
+            {
+                "reading": "つき",
+                "count": 7,
+                "prop": 0.28
+            },
+            {
+                "reading": "がっ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -1219,7 +1679,219 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "In der <span class='meaning' data-kanji='日'>Sonne</span> <span class='meaning_kanji_reading'>(日)</span> Biki<span class='reading onyomi' data-hiragana='にち'>nichi</span>llen <span class='hiragana'>(にち)</span> und dazu Li<span class='reading onyomi' data-hiragana='じつ'>tschizu</span>bereitung <span class='hiragana'>(じつ)</span> trinken.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 21
+        "order_wiki": 21,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 21,
+                "prop": 0.29
+            },
+            {
+                "reading": "にち",
+                "count": 10,
+                "prop": 0.14
+            },
+            {
+                "reading": "にっけい",
+                "count": 2,
+                "prop": 0.03
+            },
+            {
+                "reading": "にっかん",
+                "count": 2,
+                "prop": 0.03
+            },
+            {
+                "reading": "にっぽう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっきゅう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんけいざい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんし",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんじゅう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんはつ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんじん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんしゅ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっぽんぎんこう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんいち",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんどうろこうだん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっさん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっし",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんご",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんかい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっしょく",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんが",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっこうよく",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっちゅう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんりょうり",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっすう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんしき",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "び",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっき",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっこう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にってい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっか",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんきぎょう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんぜんこく",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんせいふ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんしゃかい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんせい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっぽんこうくう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっぽんゆうせいこうしゃ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にほんがくじゅつかいぎ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっしょう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "にっ",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -1274,7 +1946,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Im <span class='meaning' data-kanji='年'>Jahr</span> <span class='meaning_kanji_reading'>(年)</span> ist viel <span class='reading onyomi' data-hiragana='ねん'>nen</span>nenswertes <span class='hiragana'>(ねん)</span> passiert.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 22
+        "order_wiki": 22,
+        "reading_dist": [
+            {
+                "reading": "ねん",
+                "count": 36,
+                "prop": 0.78
+            },
+            {
+                "reading": "とし",
+                "count": 10,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -1339,7 +2023,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='早'>früh</span> <span class='meaning_kanji_reading'>(早)</span> zur Schule meinen <span class='reading onyomi' data-hiragana='そう'>Soh</span>n <span class='hiragana'>(そう)</span> fahren.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 23
+        "order_wiki": 23,
+        "reading_dist": [
+            {
+                "reading": "はや",
+                "count": 11,
+                "prop": 0.55
+            },
+            {
+                "reading": "そう",
+                "count": 7,
+                "prop": 0.35
+            },
+            {
+                "reading": "さっ",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "さ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -1397,7 +2103,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Am <span class='meaning' data-kanji='木'>Baum</span> <span class='meaning_kanji_reading'>(木)</span> wachsen Li<span class='reading onyomi' data-hiragana='もく'>moku</span>geln <span class='hiragana'>(もく)</span>, richtig große Jum<span class='reading onyomi' data-hiragana='ぼく'>boku</span>geln <span class='hiragana'>(ぼく)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 24
+        "order_wiki": 24,
+        "reading_dist": [
+            {
+                "reading": "もく",
+                "count": 7,
+                "prop": 0.44
+            },
+            {
+                "reading": "き",
+                "count": 5,
+                "prop": 0.31
+            },
+            {
+                "reading": "こ",
+                "count": 2,
+                "prop": 0.12
+            },
+            {
+                "reading": "もめん",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "もっこう",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -1449,7 +2182,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "In einem <span class='meaning' data-kanji='林'>kleinen Wald</span> <span class='meaning_kanji_reading'>(林)</span> ohne Gewässer würde ein <span class='reading kunyomi' data-hiragana='はやし'>Hai ja schi</span>kaniert <span class='hiragana'>(はやし)</span> werden.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 25
+        "order_wiki": 25,
+        "reading_dist": [
+            {
+                "reading": "りん",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "はやし",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -1501,7 +2246,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Der <span class='meaning' data-kanji='山'>Berg</span> <span class='meaning_kanji_reading'>(山)</span> besteht aus <span class='reading onyomi' data-hiragana='さん'>San</span>d <span class='hiragana'>(さん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 26
+        "order_wiki": 26,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 14,
+                "prop": 0.58
+            },
+            {
+                "reading": "やま",
+                "count": 9,
+                "prop": 0.38
+            },
+            {
+                "reading": "わさび",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -1554,7 +2316,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "In einem <span class='meaning' data-kanji='川'>Fluss</span> <span class='meaning_kanji_reading'>(川)</span> in Russland schwimmt ein Wod<span class='reading kunyomi' data-hiragana='かわ'>kawa</span>l <span class='hiragana'>(かわ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 27
+        "order_wiki": 27,
+        "reading_dist": [
+            {
+                "reading": "かわ",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "せん",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -1614,7 +2388,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Aus der <span class='meaning' data-kanji='土'>Erde</span> <span class='meaning_kanji_reading'>(土)</span> wächst ein <span class='reading onyomi' data-hiragana='ど'>Do</span>rnenbusch <span class='hiragana'>(ど)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 28
+        "order_wiki": 28,
+        "reading_dist": [
+            {
+                "reading": "ど",
+                "count": 18,
+                "prop": 0.82
+            },
+            {
+                "reading": "と",
+                "count": 2,
+                "prop": 0.09
+            },
+            {
+                "reading": "つち",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "みやげ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -1689,7 +2485,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Unter dem <span class='meaning' data-kanji='空'>leeren</span> <span class='meaning_kanji_meaning'>(空)</span> <span class='meaning' data-kanji='空'>Himmel</span> <span class='meaning_kanji_meaning'>(空)</span> steht eine <span class='reading onyomi' data-hiragana='くう'>Kuh</span> <span class='hiragana'>(くう)</span> auf der Weide.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 29
+        "order_wiki": 29,
+        "reading_dist": [
+            {
+                "reading": "くう",
+                "count": 23,
+                "prop": 0.7
+            },
+            {
+                "reading": "あ",
+                "count": 4,
+                "prop": 0.12
+            },
+            {
+                "reading": "から",
+                "count": 4,
+                "prop": 0.12
+            },
+            {
+                "reading": "そら",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "す",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -1743,7 +2566,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Auf dem <span class='meaning' data-kanji='田'>Reisfeld</span> <span class='meaning_kanji_reading'>(田)</span> gearbeitet den ganzen <span class='reading kunyomi' data-hiragana='た'>Ta</span>g <span class='hiragana'>(た)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 30
+        "order_wiki": 30,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "いなか",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "でん",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -1799,7 +2639,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Im göttlichen <span class='meaning' data-kanji='天'>Himmel</span> <span class='meaning_kanji_reading'>(天)</span> singen die Engel im <span class='reading onyomi' data-hiragana='てん'>Ten</span>or <span class='hiragana'>(てん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 31
+        "order_wiki": 31,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 27,
+                "prop": 0.9
+            },
+            {
+                "reading": "あま",
+                "count": 2,
+                "prop": 0.07
+            },
+            {
+                "reading": "てっぺん",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -1879,7 +2736,59 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Zum Erhalt des <span class='meaning' data-kanji='生'>Lebens</span> <span class='meaning_kanji_reading'>(生)</span> Es<span class='reading onyomi' data-hiragana='せい'>se i</span>ch <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='しょう'>Scho</span>nkost <span class='hiragana'>(しょう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 32
+        "order_wiki": 32,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 36,
+                "prop": 0.49
+            },
+            {
+                "reading": "い",
+                "count": 12,
+                "prop": 0.16
+            },
+            {
+                "reading": "う",
+                "count": 8,
+                "prop": 0.11
+            },
+            {
+                "reading": "なま",
+                "count": 7,
+                "prop": 0.09
+            },
+            {
+                "reading": "しょう",
+                "count": 4,
+                "prop": 0.05
+            },
+            {
+                "reading": "は",
+                "count": 3,
+                "prop": 0.04
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "あいにく",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "な",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -1940,7 +2849,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='花'>Blume</span> <span class='meaning_kanji_reading'>(花)</span> braucht Wasser<span class='reading kunyomi' data-hiragana='はな'>hahnna</span>hrung <span class='hiragana'>(はな)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 33
+        "order_wiki": 33,
+        "reading_dist": [
+            {
+                "reading": "はな",
+                "count": 14,
+                "prop": 0.7
+            },
+            {
+                "reading": "か",
+                "count": 6,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -2006,7 +2927,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='草'>Gras</span> <span class='meaning_kanji_reading'>(草)</span> ist für die <span class='reading kunyomi' data-hiragana='くさ'>Kuh Sa</span>lat <span class='hiragana'>(くさ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 34
+        "order_wiki": 34,
+        "reading_dist": [
+            {
+                "reading": "くさ",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "そう",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "ぞう",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -2063,7 +3001,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Das <span class='meaning' data-kanji='虫'>Insekt</span> <span class='meaning_kanji_reading'>(虫)</span> sieht die Mückenklatsche und <span class='reading kunyomi' data-hiragana='むし'>muss Schi</span>cksal <span class='hiragana'>(むし)</span> akzeptieren.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 35
+        "order_wiki": 35,
+        "reading_dist": [
+            {
+                "reading": "むし",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -2115,7 +3060,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mein Dackel <span class='meaning' data-kanji='犬'>Hund</span> <span class='meaning_kanji_reading'>(犬)</span> sieht aus wie eine Hund<span class='reading kunyomi' data-hiragana='いぬ'>inu</span>del <span class='hiragana'>(いぬ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 36
+        "order_wiki": 36,
+        "reading_dist": [
+            {
+                "reading": "いぬ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -2172,7 +3124,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die weibliche <span class='meaning' data-kanji='人'>Person</span> <span class='meaning_kanji_reading'>(人)</span> ist Germa<span class='reading onyomi' data-hiragana='にん'>nin</span> <span class='hiragana'>(にん)</span> auch umgangssprachlich \"Deu<span class='reading onyomi' data-hiragana='じん'>tschin</span>\" <span class='hiragana'>(じん)</span> genannt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 37
+        "order_wiki": 37,
+        "reading_dist": [
+            {
+                "reading": "じん",
+                "count": 38,
+                "prop": 0.51
+            },
+            {
+                "reading": "ひと",
+                "count": 21,
+                "prop": 0.28
+            },
+            {
+                "reading": "にん",
+                "count": 16,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -2234,7 +3203,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='名'>Name</span> <span class='meaning_kanji_reading'>(名)</span>: Mit meinem <span class='reading kunyomi' data-hiragana='な'>Na</span>men <span class='hiragana'>(な)</span> bin ich zur Sch<span class='reading onyomi' data-hiragana='めい'>mähi</span>kone <span class='hiragana'>(めい)</span> geworden, verklagt auf eine Millionen (<span class='reading onyomi' data-hiragana='みょう'>Mio</span>.) <span class='hiragana'>(みょう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 38
+        "order_wiki": 38,
+        "reading_dist": [
+            {
+                "reading": "めい",
+                "count": 21,
+                "prop": 0.64
+            },
+            {
+                "reading": "な",
+                "count": 12,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -2290,7 +3271,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='女'>Frau</span> <span class='meaning_kanji_reading'>(女)</span> ist ein ro<span class='reading onyomi' data-hiragana='じょ'>tscho</span>pf <span class='hiragana'>(じょ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 39
+        "order_wiki": 39,
+        "reading_dist": [
+            {
+                "reading": "じょ",
+                "count": 12,
+                "prop": 0.63
+            },
+            {
+                "reading": "おんな",
+                "count": 5,
+                "prop": 0.26
+            },
+            {
+                "reading": "にょう",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "め",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -2347,7 +3350,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Dass der <span class='meaning' data-kanji='男'>Mann</span> <span class='meaning_kanji_reading'>(男)</span> auf dem Reisfeld gearbeitet hat, ist jeder sehr <span class='reading onyomi' data-hiragana='だん'>dan</span>kbar <span class='hiragana'>(だん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 40
+        "order_wiki": 40,
+        "reading_dist": [
+            {
+                "reading": "おとこ",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "だん",
+                "count": 6,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -2408,7 +3423,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='子'>Kind</span> <span class='meaning_kanji_reading'>(子)</span> <span class='reading onyomi' data-hiragana='し'>Schi</span>mpfen <span class='hiragana'>(し)</span>, damit es die <span class='reading onyomi' data-hiragana='す'>Su</span>ppe <span class='hiragana'>(す)</span> aufisst.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 41
+        "order_wiki": 41,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 11,
+                "prop": 0.65
+            },
+            {
+                "reading": "し",
+                "count": 5,
+                "prop": 0.29
+            },
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -2468,7 +3500,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mit dem zweiten <span class='meaning' data-kanji='目'>Auge</span> <span class='meaning_kanji_reading'>(目)</span> sieht man <span class='reading kunyomi' data-hiragana='め'>me</span>hr <span class='hiragana'>(め)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 42
+        "order_wiki": 42,
+        "reading_dist": [
+            {
+                "reading": "め",
+                "count": 30,
+                "prop": 0.81
+            },
+            {
+                "reading": "もく",
+                "count": 7,
+                "prop": 0.19
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -2519,7 +3563,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='耳'>Ohr</span>stöpsel <span class='meaning_kanji_reading'>(耳)</span> bestehen aus elastischem Gum<span class='reading kunyomi' data-hiragana='みみ'>mimi</span>x <span class='hiragana'>(みみ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 43
+        "order_wiki": 43,
+        "reading_dist": [
+            {
+                "reading": "みみ",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "じ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -2573,7 +3629,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='口'>Mund</span> <span class='meaning_kanji_reading'>(口)</span> esse ich <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 44
+        "order_wiki": 44,
+        "reading_dist": [
+            {
+                "reading": "くち",
+                "count": 18,
+                "prop": 0.67
+            },
+            {
+                "reading": "こう",
+                "count": 9,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -2629,7 +3697,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mit der <span class='meaning' data-kanji='手'>Hand</span> <span class='meaning_kanji_reading'>(手)</span> schreibt man <span class='reading kunyomi' data-hiragana='て'>Te</span>xt <span class='hiragana'>(て)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 45
+        "order_wiki": 45,
+        "reading_dist": [
+            {
+                "reading": "て",
+                "count": 62,
+                "prop": 0.89
+            },
+            {
+                "reading": "しゅ",
+                "count": 8,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -2691,7 +3771,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Deine <span class='meaning' data-kanji='足'>Beine</span> <span class='meaning_kanji_reading'>(足)</span> sind <span class='reading onyomi' data-hiragana='そく'>so ku</span>rz <span class='hiragana'>(そく)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 46
+        "order_wiki": 46,
+        "reading_dist": [
+            {
+                "reading": "あし",
+                "count": 12,
+                "prop": 0.75
+            },
+            {
+                "reading": "た",
+                "count": 4,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -2751,7 +3843,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Ich <span class='meaning' data-kanji='見'>sehe</span> <span class='meaning_kanji_reading'>(見)</span> im Spiegel <span class='reading kunyomi' data-hiragana='み'>mi</span>ch <span class='hiragana'>(み)</span> an.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 47
+        "order_wiki": 47,
+        "reading_dist": [
+            {
+                "reading": "み",
+                "count": 78,
+                "prop": 0.91
+            },
+            {
+                "reading": "けん",
+                "count": 8,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -2813,7 +3917,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Wer spielt die <span class='meaning' data-kanji='音'>Musik</span> <span class='meaning_kanji_reading'>(音)</span> auf deinem Geburtstag? - DJ ist mein <span class='reading onyomi' data-hiragana='おん'>On</span>kel <span class='hiragana'>(おん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 48
+        "order_wiki": 48,
+        "reading_dist": [
+            {
+                "reading": "おん",
+                "count": 9,
+                "prop": 0.82
+            },
+            {
+                "reading": "おと",
+                "count": 1,
+                "prop": 0.09
+            },
+            {
+                "reading": "ね",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -2875,7 +3996,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Hatte schon <span class='meaning' data-kanji='力'>Kraft</span> <span class='meaning_kanji_reading'>(力)</span> als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>gel <span class='hiragana'>(りょく)</span>. Ausgewachsen bin ich ein Safa<span class='reading onyomi' data-hiragana='りき'>riki</span>ller <span class='hiragana'>(りき)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 49
+        "order_wiki": 49,
+        "reading_dist": [
+            {
+                "reading": "りき",
+                "count": 8,
+                "prop": 0.62
+            },
+            {
+                "reading": "ちから",
+                "count": 5,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -2937,7 +4070,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Der <span class='meaning' data-kanji='気'>Geist</span> <span class='meaning_kanji_reading'>(気)</span> trägt einen weißen <span class='reading onyomi' data-hiragana='き'>Ki</span>ttel <span class='hiragana'>(き)</span> und schwingt eine <span class='reading onyomi' data-hiragana='け'>Ke</span>tte <span class='hiragana'>(け)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 50
+        "order_wiki": 50,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 50,
+                "prop": 0.94
+            },
+            {
+                "reading": "ぎ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "かぶ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "け",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -3000,7 +4155,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Ein <span class='meaning' data-kanji='円'>rund</span>er <span class='meaning_kanji_reading'>(円)</span> Kreis hat kein <span class='reading onyomi' data-hiragana='えん'>En</span>de <span class='hiragana'>(えん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 51
+        "order_wiki": 51,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -3061,7 +4223,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Wir <span class='meaning' data-kanji='入'>betreten</span> <span class='meaning_kanji_reading'>(入)</span> einen Raum voller Kro<span class='reading onyomi' data-hiragana='にゅう'>nju</span>welen <span class='hiragana'>(にゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 52
+        "order_wiki": 52,
+        "reading_dist": [
+            {
+                "reading": "にゅう",
+                "count": 32,
+                "prop": 0.73
+            },
+            {
+                "reading": "い",
+                "count": 9,
+                "prop": 0.2
+            },
+            {
+                "reading": "はい",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -3124,7 +4308,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Aus Gefahr <span class='meaning' data-kanji='出'>herausgekommen</span> <span class='meaning_kanji_reading'>(出)</span>, hatte einen <span class='reading onyomi' data-hiragana='しゅつ'>Schutz</span>engel <span class='hiragana'>(しゅつ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 53
+        "order_wiki": 53,
+        "reading_dist": [
+            {
+                "reading": "しゅっ",
+                "count": 33,
+                "prop": 0.44
+            },
+            {
+                "reading": "で",
+                "count": 26,
+                "prop": 0.35
+            },
+            {
+                "reading": "しゅつ",
+                "count": 13,
+                "prop": 0.17
+            },
+            {
+                "reading": "だ",
+                "count": 2,
+                "prop": 0.03
+            },
+            {
+                "reading": "すい",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -3191,7 +4402,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_reading'>(立)</span> in der vollen Ferra<span class='reading onyomi' data-hiragana='りゅう'>ri-U-</span>Bahn <span class='hiragana'>(りゅう)</span>, überall Tiere im Safa<span class='reading onyomi' data-hiragana='りつ'>rizu</span>g <span class='hiragana'>(りつ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 54
+        "order_wiki": 54,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 25,
+                "prop": 0.62
+            },
+            {
+                "reading": "りっ",
+                "count": 12,
+                "prop": 0.3
+            },
+            {
+                "reading": "たち",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "りつ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -3252,7 +4485,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Er möchte sich <span class='meaning' data-kanji='休'>ausruhen</span> <span class='meaning_kanji_reading'>(休)</span> in einer Baroc<span class='reading onyomi' data-hiragana='きゅう'>kju</span>gendherberge <span class='hiragana'>(きゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 55
+        "order_wiki": 55,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 18,
+                "prop": 0.82
+            },
+            {
+                "reading": "やす",
+                "count": 4,
+                "prop": 0.18
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -3323,7 +4568,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='先'>Vorher</span> <span class='meaning_kanji_reading'>(先)</span> auf die Bratwurst <span class='reading onyomi' data-hiragana='せん'>Sen</span>f <span class='hiragana'>(せん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 56
+        "order_wiki": 56,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 29,
+                "prop": 0.66
+            },
+            {
+                "reading": "さき",
+                "count": 14,
+                "prop": 0.32
+            },
+            {
+                "reading": "ま",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -3374,7 +4636,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Der <span class='meaning' data-kanji='夕'>Abend</span> <span class='meaning_kanji_reading'>(夕)</span> ist noch <span class='reading kunyomi' data-hiragana='ゆう'>Ju</span>ng <span class='hiragana'>(ゆう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 57
+        "order_wiki": 57,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -3437,7 +4706,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Für das Kapitel im <span class='meaning' data-kanji='本'>Buch</span> <span class='meaning_kanji_reading'>(本)</span> erhalte ich ein <span class='reading onyomi' data-hiragana='ほん'>Hon</span>ora <span class='hiragana'>(ほん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 58
+        "order_wiki": 58,
+        "reading_dist": [
+            {
+                "reading": "ほん",
+                "count": 63,
+                "prop": 0.98
+            },
+            {
+                "reading": "もと",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -3498,7 +4779,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Der <span class='meaning' data-kanji='文'>Text</span> <span class='meaning_kanji_reading'>(文)</span> ist mit <span class='reading onyomi' data-hiragana='ぶん'>Bun</span>tstift <span class='hiragana'>(ぶん)</span> geschrieben, schwarz/weiß wäre zu <span class='reading onyomi' data-hiragana='もん'>mon</span>oton <span class='hiragana'>(もん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 59
+        "order_wiki": 59,
+        "reading_dist": [
+            {
+                "reading": "ぶん",
+                "count": 32,
+                "prop": 0.8
+            },
+            {
+                "reading": "もん",
+                "count": 6,
+                "prop": 0.15
+            },
+            {
+                "reading": "もじ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "もじどお",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -3558,7 +4861,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='字'>Buchstaben</span> <span class='meaning_kanji_reading'>(字)</span> werden auf einem Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rm <span class='hiragana'>(じ)</span> angezeigt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 60
+        "order_wiki": 60,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -3616,7 +4926,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Viel <span class='meaning' data-kanji='学'>lernen</span> <span class='meaning_kanji_reading'>(学)</span>, um in den Li<span class='reading onyomi' data-hiragana='がく'>gaku</span>rs <span class='hiragana'>(がく)</span> zu kommen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 61
+        "order_wiki": 61,
+        "reading_dist": [
+            {
+                "reading": "がく",
+                "count": 28,
+                "prop": 0.72
+            },
+            {
+                "reading": "がっ",
+                "count": 10,
+                "prop": 0.26
+            },
+            {
+                "reading": "まな",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -3676,7 +5003,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Schon wieder <span class='meaning' data-kanji='校'>Schule</span> <span class='meaning_kanji_reading'>(校)</span>, mein <span class='reading onyomi' data-hiragana='こう'>Ko</span>pf <span class='hiragana'>(こう)</span> brummt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 62
+        "order_wiki": 62,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -3732,7 +5066,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Im <span class='meaning' data-kanji='村'>Dorf</span> <span class='meaning_kanji_reading'>(村)</span> leben viele Sa<span class='reading kunyomi' data-hiragana='むら'>mura</span>i <span class='hiragana'>(むら)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 63
+        "order_wiki": 63,
+        "reading_dist": [
+            {
+                "reading": "そん",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "むら",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -3790,7 +5136,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "In der <span class='meaning' data-kanji='町'>Stadt</span> <span class='meaning_kanji_reading'>(町)</span> mit vielen Häusern hallt das E<span class='reading onyomi' data-hiragana='ちょう'>cho</span> <span class='hiragana'>(ちょう)</span> wieder.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 64
+        "order_wiki": 64,
+        "reading_dist": [
+            {
+                "reading": "まち",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "ちょう",
+                "count": 5,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -3842,7 +5200,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Im <span class='meaning' data-kanji='森'>Wald</span> <span class='meaning_kanji_reading'>(森)</span> errichten wir ein Su<span class='reading kunyomi' data-hiragana='もり'>mori</span>ng <span class='hiragana'>(もり)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 65
+        "order_wiki": 65,
+        "reading_dist": [
+            {
+                "reading": "もり",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "しん",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -3907,7 +5277,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Mit der <span class='meaning' data-kanji='正'>richtigen</span> <span class='meaning_kanji_reading'>(正)</span> Rei<span class='reading onyomi' data-hiragana='せい'>sei</span>dee <span class='hiragana'>(せい)</span> eine <span class='reading onyomi' data-hiragana='しょう'>Scho</span>nzeit <span class='hiragana'>(しょう)</span> erleben.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 66
+        "order_wiki": 66,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 21,
+                "prop": 0.68
+            },
+            {
+                "reading": "しょう",
+                "count": 6,
+                "prop": 0.19
+            },
+            {
+                "reading": "ただ",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "まとも",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "まさ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -3959,7 +5356,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Im <span class='meaning' data-kanji='水'>Wasser</span> <span class='meaning_kanji_reading'>(水)</span> ertrinken für <span class='reading onyomi' data-hiragana='すい'>Sui</span>zid <span class='hiragana'>(すい)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 67
+        "order_wiki": 67,
+        "reading_dist": [
+            {
+                "reading": "すい",
+                "count": 42,
+                "prop": 0.76
+            },
+            {
+                "reading": "みず",
+                "count": 12,
+                "prop": 0.22
+            },
+            {
+                "reading": "みなまたびょう",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -4014,7 +5428,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Das <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_reading'>(火)</span> brennt im <span class='reading onyomi' data-hiragana='か'>Ka</span>min <span class='hiragana'>(か)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 68
+        "order_wiki": 68,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 14,
+                "prop": 0.7
+            },
+            {
+                "reading": "ひ",
+                "count": 5,
+                "prop": 0.25
+            },
+            {
+                "reading": "やけど",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -4073,7 +5504,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Das <span class='meaning' data-kanji='玉'>Juwel</span> <span class='meaning_kanji_reading'>(玉)</span> glänzt wie Lamet<span class='reading kunyomi' data-hiragana='たま'>tama</span>tte <span class='hiragana'>(たま)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 69
+        "order_wiki": 69,
+        "reading_dist": [
+            {
+                "reading": "たま",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "とうもろこし",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -4124,7 +5567,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Dem <span class='meaning' data-kanji='王'>König</span> <span class='meaning_kanji_reading'>(王)</span> hängt die Krone über sein <span class='reading onyomi' data-hiragana='おう'>Oh</span>r <span class='hiragana'>(おう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 70
+        "order_wiki": 70,
+        "reading_dist": [
+            {
+                "reading": "おう",
+                "count": 16,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -4178,7 +5628,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die kleinen <span class='meaning' data-kanji='石'>Steine</span> <span class='meaning_kanji_reading'>(石)</span> besteht aus Porö<span class='reading onyomi' data-hiragana='せき'>seki</span>es <span class='hiragana'>(せき)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 71
+        "order_wiki": 71,
+        "reading_dist": [
+            {
+                "reading": "いし",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "せき",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "せっけん",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "せっき",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "せっかい",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "しゃく",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -4227,7 +5709,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='竹'>Bambus</span> <span class='meaning_kanji_reading'>(竹)</span> Schwert pariert er die At<span class='reading kunyomi' data-hiragana='たけ'>tacke</span> <span class='hiragana'>(たけ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 72
+        "order_wiki": 72,
+        "reading_dist": [
+            {
+                "reading": "たけ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -4278,7 +5767,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Im <span class='meaning' data-kanji='糸'>Faden</span> <span class='meaning_kanji_reading'>(糸)</span> des Netzes der Spinne bleibt der Mosk<span class='reading kunyomi' data-hiragana='いと'>ito</span> <span class='hiragana'>(いと)</span> hängen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 73
+        "order_wiki": 73,
+        "reading_dist": [
+            {
+                "reading": "いと",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -4328,7 +5824,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die besondere <span class='meaning' data-kanji='貝'>Muschel</span>perle <span class='meaning_kanji_reading'>(貝)</span> ist ein Geschenk für den <span class='reading kunyomi' data-hiragana='かい'>Kai</span>ser <span class='hiragana'>(かい)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 74
+        "order_wiki": 74,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -4379,7 +5882,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='車'>Fahrzeug</span> <span class='meaning_kanji_reading'>(車)</span> hat einen hohen <span class='reading onyomi' data-hiragana='しゃ'>Scha</span>dstoffwert <span class='hiragana'>(しゃ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 75
+        "order_wiki": 75,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "くるま",
+                "count": 2,
+                "prop": 0.15
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -4436,7 +5951,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='金'>Gold</span>kette <span class='meaning_kanji_reading'>(金)</span> passt nicht über mein <span class='reading onyomi' data-hiragana='きん'>Kinn</span> <span class='hiragana'>(きん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 76
+        "order_wiki": 76,
+        "reading_dist": [
+            {
+                "reading": "きん",
+                "count": 21,
+                "prop": 0.72
+            },
+            {
+                "reading": "かね",
+                "count": 4,
+                "prop": 0.14
+            },
+            {
+                "reading": "かな",
+                "count": 3,
+                "prop": 0.1
+            },
+            {
+                "reading": "ごん",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -4490,7 +6027,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Es fällt öfters <span class='meaning' data-kanji='雨'>Regen</span> <span class='meaning_kanji_reading'>(雨)</span> im <span class='reading kunyomi' data-hiragana='あま'>Ama</span>zonas <span class='hiragana'>(あま)</span> als in <span class='reading kunyomi' data-hiragana='あめ'>Ame</span>rika <span class='hiragana'>(あめ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 77
+        "order_wiki": 77,
+        "reading_dist": [
+            {
+                "reading": "あま",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "あめ",
+                "count": 3,
+                "prop": 0.25
+            },
+            {
+                "reading": "う",
+                "count": 3,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -4546,7 +6100,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='赤'>rot</span>en <span class='meaning_kanji_reading'>(赤)</span> Blüten der <span class='reading kunyomi' data-hiragana='あか'>Aka</span>zie <span class='hiragana'>(あか)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 78
+        "order_wiki": 78,
+        "reading_dist": [
+            {
+                "reading": "あか",
+                "count": 8,
+                "prop": 0.57
+            },
+            {
+                "reading": "せき",
+                "count": 5,
+                "prop": 0.36
+            },
+            {
+                "reading": "あかい",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -4603,7 +6174,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='青'>Blau</span>schimmel <span class='meaning_kanji_reading'>(青)</span> Es<span class='reading onyomi' data-hiragana='せい'>se i</span>ch <span class='hiragana'>(せい)</span>, obwohl es nicht <span class='reading onyomi' data-hiragana='しょう'>Scho</span>kolade <span class='hiragana'>(しょう)</span> ist.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 79
+        "order_wiki": 79,
+        "reading_dist": [
+            {
+                "reading": "あお",
+                "count": 11,
+                "prop": 0.58
+            },
+            {
+                "reading": "せい",
+                "count": 7,
+                "prop": 0.37
+            },
+            {
+                "reading": "あおい",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -4658,7 +6246,49 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Das <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Fett sieht man im <span class='reading onyomi' data-hiragana='はく'>Hack</span>fleisch <span class='hiragana'>(はく)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 80
+        "order_wiki": 80,
+        "reading_dist": [
+            {
+                "reading": "はく",
+                "count": 11,
+                "prop": 0.44
+            },
+            {
+                "reading": "しろ",
+                "count": 6,
+                "prop": 0.24
+            },
+            {
+                "reading": "しら",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "はっこつ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "おしろい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "しろい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "はっけつびょう",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "はっけっきゅう",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -4732,7 +6362,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Beim <span class='meaning' data-kanji='数'>Zählen</span> <span class='meaning_kanji_reading'>(数)</span> bilden wir die <span class='reading onyomi' data-hiragana='すう'>Su</span>mme <span class='hiragana'>(すう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 81
+        "order_wiki": 81,
+        "reading_dist": [
+            {
+                "reading": "すう",
+                "count": 19,
+                "prop": 0.83
+            },
+            {
+                "reading": "かず",
+                "count": 3,
+                "prop": 0.13
+            },
+            {
+                "reading": "かぞ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -4788,7 +6435,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Es gibt so <span class='meaning' data-kanji='多'>viele</span> <span class='meaning_kanji_reading'>(多)</span> Abende wie <span class='reading onyomi' data-hiragana='た'>Ta</span>ge <span class='hiragana'>(た)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 82
+        "order_wiki": 82,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 23,
+                "prop": 0.88
+            },
+            {
+                "reading": "おお",
+                "count": 3,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -4845,7 +6504,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Wegen Gewicht lieber <span class='meaning' data-kanji='少'>wenig</span>er <span class='meaning_kanji_reading'>(少)</span> <span class='reading onyomi' data-hiragana='しょう'>Scho</span>kolade <span class='hiragana'>(しょう)</span> essen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 83
+        "order_wiki": 83,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 10,
+                "prop": 0.62
+            },
+            {
+                "reading": "すこ",
+                "count": 3,
+                "prop": 0.19
+            },
+            {
+                "reading": "すく",
+                "count": 3,
+                "prop": 0.19
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -4900,7 +6576,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='万'>Zehntausend</span> <span class='meaning_kanji_reading'>(万)</span> Wörter hat ein Ro<span class='reading onyomi' data-hiragana='まん'>man</span> <span class='hiragana'>(まん)</span> und <span class='meaning' data-kanji='万'>zehntausend</span> <span class='meaning_kanji_reading'>(万)</span> Stunden Verspätung hat die <span class='reading onyomi' data-hiragana='ばん'>Bahn</span> <span class='hiragana'>(ばん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 84
+        "order_wiki": 84,
+        "reading_dist": [
+            {
+                "reading": "ばん",
+                "count": 7,
+                "prop": 0.54
+            },
+            {
+                "reading": "まん",
+                "count": 6,
+                "prop": 0.46
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -4959,7 +6647,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Gerade am Abtrocknen, aber die <span class='meaning' data-kanji='半'>Hälfte</span> <span class='meaning_kanji_reading'>(半)</span> vom <span class='reading onyomi' data-hiragana='はん'>Han</span>dtuch <span class='hiragana'>(はん)</span> fehlt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 85
+        "order_wiki": 85,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 19,
+                "prop": 0.95
+            },
+            {
+                "reading": "なか",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -5025,7 +6725,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Eine seltsame Mund<span class='meaning' data-kanji='形'>form</span> <span class='meaning_kanji_reading'>(形)</span> entsteht durch die Lüc<span class='reading onyomi' data-hiragana='けい'>ke i</span>m <span class='hiragana'>(けい)</span> Zahn.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 86
+        "order_wiki": 86,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "かたち",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "かた",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -5085,7 +6802,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Er ist <span class='meaning' data-kanji='太'>dick</span> <span class='meaning_kanji_reading'>(太)</span>, was man an seiner <span class='reading onyomi' data-hiragana='たい'>Tai</span>lle <span class='hiragana'>(たい)</span> sieht, weil er den ganzen <span class='reading onyomi' data-hiragana='た'>Ta</span>g <span class='hiragana'>(た)</span> isst.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 87
+        "order_wiki": 87,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 7,
+                "prop": 0.58
+            },
+            {
+                "reading": "ふと",
+                "count": 5,
+                "prop": 0.42
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -5151,7 +6880,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='細'>Schmal</span> <span class='meaning_kanji_reading'>(細)</span> müssen die <span class='reading onyomi' data-hiragana='さい'>Sai</span>ten <span class='hiragana'>(さい)</span> einer Violine sein.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 88
+        "order_wiki": 88,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 8,
+                "prop": 0.5
+            },
+            {
+                "reading": "こま",
+                "count": 5,
+                "prop": 0.31
+            },
+            {
+                "reading": "ほそ",
+                "count": 2,
+                "prop": 0.12
+            },
+            {
+                "reading": "ささ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -5212,7 +6963,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Der Gang in der ägyptischen Pyradmide ist sehr <span class='meaning' data-kanji='広'>weit</span> <span class='meaning_kanji_reading'>(広)</span> mit vielen <span class='reading kunyomi' data-hiragana='ひろ'>Hiero</span>glyphen <span class='hiragana'>(ひろ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 89
+        "order_wiki": 89,
+        "reading_dist": [
+            {
+                "reading": "ひろ",
+                "count": 11,
+                "prop": 0.55
+            },
+            {
+                "reading": "こう",
+                "count": 8,
+                "prop": 0.4
+            },
+            {
+                "reading": "カントン",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -5270,7 +7038,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='長'>Lange</span> <span class='meaning_kanji_reading'>(長)</span> Haare hat unser Ma<span class='reading onyomi' data-hiragana='ちょう'>cho</span> <span class='hiragana'>(ちょう)</span> <span class='meaning' data-kanji='長'>Anführer</span> <span class='meaning_kanji_reading'>(長)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 90
+        "order_wiki": 90,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 19,
+                "prop": 0.54
+            },
+            {
+                "reading": "なが",
+                "count": 14,
+                "prop": 0.4
+            },
+            {
+                "reading": "ながい",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "のどか",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -5336,7 +7126,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "In der Musik gibt es <span class='meaning' data-kanji='点'>punkt</span>ierte <span class='meaning_kanji_reading'>(点)</span> No<span class='reading onyomi' data-hiragana='てん'>ten</span> <span class='hiragana'>(てん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 91
+        "order_wiki": 91,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 10,
+                "prop": 0.83
+            },
+            {
+                "reading": "つ",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -5405,7 +7207,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Wir gehen <span class='meaning' data-kanji='丸'>rund</span> <span class='meaning_kanji_reading'>(丸)</span> im Kreis um das Hotel für den Panora<span class='reading kunyomi' data-hiragana='まる'>maru</span>ndgang <span class='hiragana'>(まる)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 92
+        "order_wiki": 92,
+        "reading_dist": [
+            {
+                "reading": "まる",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -5477,7 +7286,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Für die <span class='meaning' data-kanji='交'>Mischung</span> <span class='meaning_kanji_reading'>(交)</span> von Sauerkraut benötigt man <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 93
+        "order_wiki": 93,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 23,
+                "prop": 0.85
+            },
+            {
+                "reading": "まじ",
+                "count": 2,
+                "prop": 0.07
+            },
+            {
+                "reading": "か",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ま",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -5537,7 +7368,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Durch das Sonnen<span class='meaning' data-kanji='光'>licht</span> <span class='meaning_kanji_reading'>(光)</span> wächst der <span class='reading onyomi' data-hiragana='こう'>Koh</span>l <span class='hiragana'>(こう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 94
+        "order_wiki": 94,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "ひかり",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "ひか",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -5599,7 +7447,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Könnte ich eine <span class='meaning' data-kanji='角'>Ecke</span> <span class='meaning_kanji_reading'>(角)</span> vom Mok<span class='reading onyomi' data-hiragana='かく'>kaku</span>chen <span class='hiragana'>(かく)</span> haben?",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 95
+        "order_wiki": 95,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -5659,7 +7514,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Durch die <span class='meaning' data-kanji='計'>Messung</span> <span class='meaning_kanji_reading'>(計)</span> haben wir den <span class='meaning' data-kanji='計'>Plan</span> <span class='meaning_kanji_reading'>(計)</span> wie wir die Bir<span class='reading onyomi' data-hiragana='けい'>ke i</span>m <span class='hiragana'>(けい)</span> Garten fällen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 96
+        "order_wiki": 96,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "はか",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -5733,7 +7600,74 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Wir müssen <span class='meaning' data-kanji='直'>ehrlich gesagt</span> <span class='meaning_kanji_reading'>(直)</span> folgendes <span class='meaning' data-kanji='直'>reparieren</span> <span class='meaning_kanji_reading'>(直)</span>: Zu arg als Ma<span class='reading onyomi' data-hiragana='ちょく'>cho Ku</span>pplung <span class='hiragana'>(ちょく)</span> getreten, weil verbaut in der to<span class='reading onyomi' data-hiragana='じき'>dschickki</span>ste <span class='hiragana'>(じき)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 97
+        "order_wiki": 97,
+        "reading_dist": [
+            {
+                "reading": "ちょく",
+                "count": 15,
+                "prop": 0.45
+            },
+            {
+                "reading": "なお",
+                "count": 3,
+                "prop": 0.09
+            },
+            {
+                "reading": "す",
+                "count": 3,
+                "prop": 0.09
+            },
+            {
+                "reading": "じき",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "ちょっけい",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "ちょっかく",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ちょっかん",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ただ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "じか",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ちょっこう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ちょっきゅう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ちょっか",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ちょっかつ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -5793,7 +7727,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die Laser <span class='meaning' data-kanji='線'>Linie</span> <span class='meaning_kanji_reading'>(線)</span> wird am <span class='reading onyomi' data-hiragana='せん'>Sen</span>sor <span class='hiragana'>(せん)</span> unterbrochen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 98
+        "order_wiki": 98,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -5844,7 +7785,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Mit dem <span class='meaning' data-kanji='矢'>Pfeil</span> <span class='meaning_kanji_reading'>(矢)</span> konnte ich das <span class='reading kunyomi' data-hiragana='や'>Ya</span>k <span class='hiragana'>(や)</span> (Grunzochse) erlegen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 99
+        "order_wiki": 99,
+        "reading_dist": [
+            {
+                "reading": "や",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -5902,7 +7850,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die Zugtiere sind <span class='meaning' data-kanji='弱'>schwach</span> <span class='meaning_kanji_reading'>(弱)</span> bei einer Wil<span class='reading onyomi' data-hiragana='じゃく'>dscha(f)ku</span>tsche <span class='hiragana'>(じゃく)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 100
+        "order_wiki": 100,
+        "reading_dist": [
+            {
+                "reading": "よわ",
+                "count": 8,
+                "prop": 0.67
+            },
+            {
+                "reading": "じゃく",
+                "count": 4,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -5967,7 +7927,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Der Lieferant ist so <span class='meaning' data-kanji='強'>stark</span> <span class='meaning_kanji_reading'>(強)</span>, dass er mehere Zeitungen in das <span class='reading onyomi' data-hiragana='きょう'>Kio</span>sk <span class='hiragana'>(きょう)</span> trägt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 101
+        "order_wiki": 101,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 19,
+                "prop": 0.59
+            },
+            {
+                "reading": "つよ",
+                "count": 6,
+                "prop": 0.19
+            },
+            {
+                "reading": "ごう",
+                "count": 3,
+                "prop": 0.09
+            },
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "ねだ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "あなが",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -6035,7 +8027,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Es ist <span class='meaning' data-kanji='高'>hoch</span> <span class='meaning_kanji_reading'>(高)</span> und auch manchmal <span class='meaning' data-kanji='高'>teuer</span> <span class='meaning_kanji_reading'>(高)</span>; das Risi<span class='reading onyomi' data-hiragana='こう'>ko</span> <span class='hiragana'>(こう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 102
+        "order_wiki": 102,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 44,
+                "prop": 0.8
+            },
+            {
+                "reading": "たか",
+                "count": 11,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -6091,7 +8095,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Immer <span class='meaning' data-kanji='同'>das Gleiche</span> <span class='meaning_kanji_reading'>(同)</span> zu machen ist <span class='reading onyomi' data-hiragana='どう'>doo</span>f <span class='hiragana'>(どう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 103
+        "order_wiki": 103,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 65,
+                "prop": 0.97
+            },
+            {
+                "reading": "おな",
+                "count": 2,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -6159,7 +8175,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='親'>Eltern</span> <span class='meaning_kanji_reading'>(親)</span> essen gerne <span class='reading onyomi' data-hiragana='しん'>Schin</span>kenwurst <span class='hiragana'>(しん)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 104
+        "order_wiki": 104,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 14,
+                "prop": 0.52
+            },
+            {
+                "reading": "おや",
+                "count": 10,
+                "prop": 0.37
+            },
+            {
+                "reading": "した",
+                "count": 3,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -6216,7 +8249,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='母'>Mutter</span> <span class='meaning_kanji_reading'>(母)</span> ist die Alp<span class='reading kunyomi' data-hiragana='はは'>haha</span>usfrau <span class='hiragana'>(はは)</span> in der Familie.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 105
+        "order_wiki": 105,
+        "reading_dist": [
+            {
+                "reading": "ぼ",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "はは",
+                "count": 2,
+                "prop": 0.2
+            },
+            {
+                "reading": "かあ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -6268,7 +8318,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='父'>Vater</span> <span class='meaning_kanji_reading'>(父)</span> hat sich im Krankenhaus hochgearbeitet als Hierar<span class='reading kunyomi' data-hiragana='ちち'>chiechi</span>rurg <span class='hiragana'>(ちち)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 106
+        "order_wiki": 106,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ちち",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "とう",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -6327,7 +8394,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='姉'>ältere Schwester</span> <span class='meaning_kanji_reading'>(姉)</span> reist gerne mit dem <span class='reading onyomi' data-hiragana='し'>Schi</span>ff <span class='hiragana'>(し)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 107
+        "order_wiki": 107,
+        "reading_dist": [
+            {
+                "reading": "あね",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "し",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "ねえ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -6385,7 +8469,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='兄'>älterer Bruder</span> <span class='meaning_kanji_reading'>(兄)</span> kauf gerne Magazine im <span class='reading onyomi' data-hiragana='きょう'>Kio</span>sk <span class='hiragana'>(きょう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 108
+        "order_wiki": 108,
+        "reading_dist": [
+            {
+                "reading": "あに",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "にい",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "きょう",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -6449,11 +8550,23 @@ let kyouiku =
         "kanji": "弟",
         "kanji_ord": 24351,
         "is_radical": false,
-        "mnemonic_meaning_de": "Mit <span class='radical' data-kanji=' '>Hörner</span> <span class='radical_kanji'>( )</span> auf dem <span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span> spannt er einen <span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span> oben auf der <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>, es ist mein <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_meaning'>(弟)</span>.",
+        "mnemonic_meaning_de": "In meiner Familie: Mit <span class='radical' data-kanji=' '>Hörner</span> <span class='radical_kanji'>( )</span> auf dem <span class='radical' data-kanji='弓'>Bogen</span> <span class='radical_kanji'>(弓)</span> spannt er einen <span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span> oben auf der <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>, es ist mein <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_meaning'>(弟)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Mein <span class='meaning' data-kanji='弟'>jüngerer Bruder</span> <span class='meaning_kanji_reading'>(弟)</span> gewann eine Me<span class='reading onyomi' data-hiragana='だい'>dai</span>lle <span class='hiragana'>(だい)</span> beim Sport, nach dem Training macht er immer <span class='reading onyomi' data-hiragana='で'>De</span>o <span class='hiragana'>(で)</span> drauf.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 109
+        "order_wiki": 109,
+        "reading_dist": [
+            {
+                "reading": "で",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "おとうと",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -6504,11 +8617,18 @@ let kyouiku =
         "kanji": "妹",
         "kanji_ord": 22969,
         "is_radical": false,
-        "mnemonic_meaning_de": "In meiner Familie: Die <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>, die so schnell in die Luft geht wie ein <span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span> ist, ist meine <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_meaning'>(妹)</span>.",
+        "mnemonic_meaning_de": "In meiner Familie: Die <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>, die so schnell in die Luft geht wie ein <span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span>, ist meine <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_meaning'>(妹)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='妹'>jüngere Schwester</span> <span class='meaning_kanji_reading'>(妹)</span> feiert ihren Geburtstag im <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 110
+        "order_wiki": 110,
+        "reading_dist": [
+            {
+                "reading": "いもうと",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -6561,7 +8681,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Ich sehe mich durch die Webcam <span class='meaning' data-kanji='自'>selbst</span> <span class='meaning_kanji_reading'>(自)</span> im Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rm <span class='hiragana'>(じ)</span> wie <span class='reading onyomi' data-hiragana='し'>Schi</span>ck <span class='hiragana'>(し)</span> ich bin.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 111
+        "order_wiki": 111,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 75,
+                "prop": 0.88
+            },
+            {
+                "reading": "し",
+                "count": 5,
+                "prop": 0.06
+            },
+            {
+                "reading": "うぬぼ",
+                "count": 2,
+                "prop": 0.02
+            },
+            {
+                "reading": "おの",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "やけ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "みずか",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -6615,7 +8767,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Viele <span class='meaning' data-kanji='友'>Freund</span>e <span class='meaning_kanji_reading'>(友)</span> habe ich in meiner <span class='reading onyomi' data-hiragana='ゆう'>Ju</span>gend <span class='hiragana'>(ゆう)</span> kennengelernt.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 112
+        "order_wiki": 112,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "とも",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -6671,11 +8835,28 @@ let kyouiku =
         "kanji": "体",
         "kanji_ord": 20307,
         "is_radical": false,
-        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> trainiert mit dem <span class='radical' data-kanji='本'>Buch</span> <span class='radical_kanji'>(本)</span> über dem Muskeltraining seinen <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_meaning'>(体)</span>.",
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> trainiert mit dem <span class='radical' data-kanji='本'>Buch</span> <span class='radical_kanji'>(本)</span> über Muskeltraining seinen <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_meaning'>(体)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Durchtrainierte <span class='meaning' data-kanji='体'>Körper</span> <span class='meaning_kanji_reading'>(体)</span> haben eine schlanke <span class='reading onyomi' data-hiragana='たい'>Tai</span>lle <span class='hiragana'>(たい)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 113
+        "order_wiki": 113,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 22,
+                "prop": 0.88
+            },
+            {
+                "reading": "からだ",
+                "count": 2,
+                "prop": 0.08
+            },
+            {
+                "reading": "てい",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -6730,7 +8911,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='毛'>Fell</span> <span class='meaning_kanji_reading'>(毛)</span> zu tragen ist nicht mehr in <span class='reading onyomi' data-hiragana='もう'>Mo</span>de <span class='hiragana'>(もう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 114
+        "order_wiki": 114,
+        "reading_dist": [
+            {
+                "reading": "け",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "もう",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -6793,7 +8986,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "So viele schlimme Dinge erlebt, mein <span class='meaning' data-kanji='頭'>Kopf</span> <span class='meaning_kanji_reading'>(頭)</span> ist voll mit Traum<span class='reading kunyomi' data-hiragana='あたま'>atama</span>sse <span class='hiragana'>(あたま)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 115
+        "order_wiki": 115,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 4,
+                "prop": 0.36
+            },
+            {
+                "reading": "あたま",
+                "count": 3,
+                "prop": 0.27
+            },
+            {
+                "reading": "ず",
+                "count": 3,
+                "prop": 0.27
+            },
+            {
+                "reading": "かしら",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -6856,7 +9071,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='顔'>Gesicht</span> <span class='meaning_kanji_reading'>(顔)</span> , <span class='reading kunyomi' data-hiragana='かお'>Kao</span> <span class='hiragana'>(かお)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 116
+        "order_wiki": 116,
+        "reading_dist": [
+            {
+                "reading": "かお",
+                "count": 11,
+                "prop": 0.92
+            },
+            {
+                "reading": "がん",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -6909,7 +9136,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='首'>Nacken</span> <span class='meaning_kanji_reading'>(首)</span> , <span class='reading kunyomi' data-hiragana='くび'>Kubi</span> <span class='hiragana'>(くび)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 117
+        "order_wiki": 117,
+        "reading_dist": [
+            {
+                "reading": "しゅ",
+                "count": 10,
+                "prop": 0.91
+            },
+            {
+                "reading": "くび",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -6964,7 +9203,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='心'>Herz</span> <span class='meaning_kanji_reading'>(心)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 118
+        "order_wiki": 118,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 14,
+                "prop": 0.48
+            },
+            {
+                "reading": "こころ",
+                "count": 13,
+                "prop": 0.45
+            },
+            {
+                "reading": "ここち",
+                "count": 2,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -7023,7 +9279,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='時'>Stunde</span> <span class='meaning_kanji_reading'>(時)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 119
+        "order_wiki": 119,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 23,
+                "prop": 0.74
+            },
+            {
+                "reading": "とき",
+                "count": 6,
+                "prop": 0.19
+            },
+            {
+                "reading": "しぐれ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とけい",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -7078,7 +9356,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='曜'>Wochentag</span> <span class='meaning_kanji_reading'>(曜)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 120
+        "order_wiki": 120,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -7142,7 +9427,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='朝'>Morgen</span> <span class='meaning_kanji_reading'>(朝)</span> , <span class='reading kunyomi' data-hiragana='あさ'>Asa</span> <span class='hiragana'>(あさ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 121
+        "order_wiki": 121,
+        "reading_dist": [
+            {
+                "reading": "あさ",
+                "count": 8,
+                "prop": 0.57
+            },
+            {
+                "reading": "ちょう",
+                "count": 6,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -7200,7 +9497,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='昼'>Mittag</span> <span class='meaning_kanji_reading'>(昼)</span> , <span class='reading kunyomi' data-hiragana='ひる'>Hiru</span> <span class='hiragana'>(ひる)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 122
+        "order_wiki": 122,
+        "reading_dist": [
+            {
+                "reading": "ひる",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "ちゅう",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -7266,7 +9575,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='夜'>Nacht</span> <span class='meaning_kanji_reading'>(夜)</span> , <span class='reading onyomi' data-hiragana='や'>Ya</span> <span class='hiragana'>(や)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 123
+        "order_wiki": 123,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 5,
+                "prop": 0.42
+            },
+            {
+                "reading": "や",
+                "count": 5,
+                "prop": 0.42
+            },
+            {
+                "reading": "よる",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -7345,7 +9671,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='分'>Minute</span> <span class='meaning_kanji_reading'>(分)</span> , <span class='reading onyomi' data-hiragana='ぶん'>Bun</span> <span class='hiragana'>(ぶん)</span>  <span class='reading onyomi' data-hiragana='ふん'>Fun</span> <span class='hiragana'>(ふん)</span>  <span class='reading onyomi' data-hiragana='ぶ'>Bu</span> <span class='hiragana'>(ぶ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 124
+        "order_wiki": 124,
+        "reading_dist": [
+            {
+                "reading": "ぶん",
+                "count": 29,
+                "prop": 0.71
+            },
+            {
+                "reading": "わ",
+                "count": 10,
+                "prop": 0.24
+            },
+            {
+                "reading": "ふん",
+                "count": 2,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -7395,7 +9738,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='週'>Woche</span> <span class='meaning_kanji_reading'>(週)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 125
+        "order_wiki": 125,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -7450,7 +9800,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='春'>Frühling</span> <span class='meaning_kanji_reading'>(春)</span> , <span class='reading kunyomi' data-hiragana='はる'>Haru</span> <span class='hiragana'>(はる)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 126
+        "order_wiki": 126,
+        "reading_dist": [
+            {
+                "reading": "しゅん",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "はる",
+                "count": 4,
+                "prop": 0.44
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -7512,7 +9874,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='夏'>Sommer</span> <span class='meaning_kanji_reading'>(夏)</span> , <span class='reading kunyomi' data-hiragana='なつ'>Natsu</span> <span class='hiragana'>(なつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 127
+        "order_wiki": 127,
+        "reading_dist": [
+            {
+                "reading": "なつ",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "か",
+                "count": 2,
+                "prop": 0.22
+            },
+            {
+                "reading": "げ",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -7566,7 +9945,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='秋'>Herbst</span> <span class='meaning_kanji_reading'>(秋)</span> , <span class='reading kunyomi' data-hiragana='あき'>Aki</span> <span class='hiragana'>(あき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 128
+        "order_wiki": 128,
+        "reading_dist": [
+            {
+                "reading": "あき",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "しゅう",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -7620,7 +10011,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='冬'>Winter</span> <span class='meaning_kanji_reading'>(冬)</span> , <span class='reading kunyomi' data-hiragana='ふゆ'>Fuyu</span> <span class='hiragana'>(ふゆ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 129
+        "order_wiki": 129,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "ふゆ",
+                "count": 3,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -7671,7 +10074,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='今'>jetzt</span> <span class='meaning_kanji_reading'>(今)</span> , <span class='reading onyomi' data-hiragana='こん'>Kon</span> <span class='hiragana'>(こん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 130
+        "order_wiki": 130,
+        "reading_dist": [
+            {
+                "reading": "こん",
+                "count": 17,
+                "prop": 0.53
+            },
+            {
+                "reading": "いま",
+                "count": 11,
+                "prop": 0.34
+            },
+            {
+                "reading": "こよい",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "きょう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "けさ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ことし",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -7734,7 +10169,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='新'>neu</span> <span class='meaning_kanji_reading'>(新)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 131
+        "order_wiki": 131,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 61,
+                "prop": 0.94
+            },
+            {
+                "reading": "あら",
+                "count": 2,
+                "prop": 0.03
+            },
+            {
+                "reading": "あたら",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "にい",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -7786,7 +10243,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='古'>alt</span> <span class='meaning_kanji_reading'>(古)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 132
+        "order_wiki": 132,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 11,
+                "prop": 0.65
+            },
+            {
+                "reading": "ふる",
+                "count": 4,
+                "prop": 0.24
+            },
+            {
+                "reading": "いにしえ",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "ふるす",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -7849,7 +10328,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='間'>Spalt</span> <span class='meaning_kanji_reading'>(間)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 133
+        "order_wiki": 133,
+        "reading_dist": [
+            {
+                "reading": "ま",
+                "count": 14,
+                "prop": 0.56
+            },
+            {
+                "reading": "かん",
+                "count": 7,
+                "prop": 0.28
+            },
+            {
+                "reading": "あいだ",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -7907,7 +10408,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='方'>Richtung</span> <span class='meaning_kanji_reading'>(方)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 134
+        "order_wiki": 134,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "かた",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -7961,7 +10474,54 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='北'>Norden</span> <span class='meaning_kanji_reading'>(北)</span> , <span class='reading onyomi' data-hiragana='ほく'>Hoku</span> <span class='hiragana'>(ほく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 135
+        "order_wiki": 135,
+        "reading_dist": [
+            {
+                "reading": "ほく",
+                "count": 9,
+                "prop": 0.38
+            },
+            {
+                "reading": "きた",
+                "count": 8,
+                "prop": 0.33
+            },
+            {
+                "reading": "ほっきょく",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ほっかいどう",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ほっきょくけん",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ほっぽう",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ほっかい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ペキン",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "ほっかいどうかいはつちょうちょうかん",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -8024,7 +10584,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='南'>Süden</span> <span class='meaning_kanji_reading'>(南)</span> , <span class='reading onyomi' data-hiragana='なん'>Nan</span> <span class='hiragana'>(なん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 136
+        "order_wiki": 136,
+        "reading_dist": [
+            {
+                "reading": "なん",
+                "count": 11,
+                "prop": 0.69
+            },
+            {
+                "reading": "みなみ",
+                "count": 4,
+                "prop": 0.25
+            },
+            {
+                "reading": "かぼちゃ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -8078,7 +10655,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='東'>Osten</span> <span class='meaning_kanji_reading'>(東)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 137
+        "order_wiki": 137,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 18,
+                "prop": 0.86
+            },
+            {
+                "reading": "ひがし",
+                "count": 3,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -8127,12 +10716,29 @@ let kyouiku =
         ],
         "kanji": "西",
         "kanji_ord": 35199,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='西'>West</span> <span class='radical_kanji'>(西)</span>  , <span class='meaning' data-kanji='西'>Westen</span> <span class='meaning_kanji_meaning'>(西)</span>",
-        "mnemonic_meaning_de_done": false,
+        "is_radical": false,
+        "mnemonic_meaning_de": "Auf dem Erd<span class='radical' data-kanji='一'>boden</span> <span class='radical_kanji'>(一)</span> die <span class='radical' data-kanji='四'>vier</span>te <span class='radical_kanji'>(四)</span> Richtung ist <span class='meaning' data-kanji='西'>Westen</span> <span class='meaning_kanji_meaning'>(西)</span>.",
+        "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='西'>Westen</span> <span class='meaning_kanji_reading'>(西)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 138
+        "order_wiki": 138,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 8,
+                "prop": 0.57
+            },
+            {
+                "reading": "にし",
+                "count": 5,
+                "prop": 0.36
+            },
+            {
+                "reading": "す",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -8188,7 +10794,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='遠'>Entfernung</span> <span class='meaning_kanji_reading'>(遠)</span> , <span class='reading onyomi' data-hiragana='えん'>En</span> <span class='hiragana'>(えん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 139
+        "order_wiki": 139,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 7,
+                "prop": 0.64
+            },
+            {
+                "reading": "とお",
+                "count": 4,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -8248,7 +10866,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='近'>nahe</span> <span class='meaning_kanji_reading'>(近)</span> , <span class='reading onyomi' data-hiragana='きん'>Kin</span> <span class='hiragana'>(きん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 140
+        "order_wiki": 140,
+        "reading_dist": [
+            {
+                "reading": "きん",
+                "count": 19,
+                "prop": 0.63
+            },
+            {
+                "reading": "ちか",
+                "count": 10,
+                "prop": 0.33
+            },
+            {
+                "reading": "このえ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -8315,7 +10950,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='前'>vorne</span> <span class='meaning_kanji_reading'>(前)</span> , <span class='reading onyomi' data-hiragana='ぜん'>Zen</span> <span class='hiragana'>(ぜん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 141
+        "order_wiki": 141,
+        "reading_dist": [
+            {
+                "reading": "ぜん",
+                "count": 29,
+                "prop": 0.69
+            },
+            {
+                "reading": "まえ",
+                "count": 13,
+                "prop": 0.31
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -8390,7 +11037,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='後'>später</span> <span class='meaning_kanji_reading'>(後)</span> , <span class='reading onyomi' data-hiragana='ご'>Go</span> <span class='hiragana'>(ご)</span>  <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 142
+        "order_wiki": 142,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 19,
+                "prop": 0.58
+            },
+            {
+                "reading": "あと",
+                "count": 7,
+                "prop": 0.21
+            },
+            {
+                "reading": "うし",
+                "count": 4,
+                "prop": 0.12
+            },
+            {
+                "reading": "ご",
+                "count": 3,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -8451,7 +11120,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='内'>innen</span> <span class='meaning_kanji_reading'>(内)</span> , <span class='reading onyomi' data-hiragana='ない'>Nai</span> <span class='hiragana'>(ない)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 143
+        "order_wiki": 143,
+        "reading_dist": [
+            {
+                "reading": "ない",
+                "count": 35,
+                "prop": 0.83
+            },
+            {
+                "reading": "うち",
+                "count": 7,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -8515,7 +11196,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='外'>Außenseite</span> <span class='meaning_kanji_reading'>(外)</span> , <span class='reading onyomi' data-hiragana='がい'>Gai</span> <span class='hiragana'>(がい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 144
+        "order_wiki": 144,
+        "reading_dist": [
+            {
+                "reading": "がい",
+                "count": 33,
+                "prop": 0.8
+            },
+            {
+                "reading": "そと",
+                "count": 3,
+                "prop": 0.07
+            },
+            {
+                "reading": "はず",
+                "count": 3,
+                "prop": 0.07
+            },
+            {
+                "reading": "げ",
+                "count": 2,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -8572,7 +11275,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='場'>Platz</span> <span class='meaning_kanji_reading'>(場)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 145
+        "order_wiki": 145,
+        "reading_dist": [
+            {
+                "reading": "ば",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "じょう",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -8628,7 +11343,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='地'>Grund</span> <span class='meaning_kanji_reading'>(地)</span> , <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 146
+        "order_wiki": 146,
+        "reading_dist": [
+            {
+                "reading": "ち",
+                "count": 40,
+                "prop": 0.77
+            },
+            {
+                "reading": "じ",
+                "count": 12,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -8687,7 +11414,74 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='国'>Land</span> <span class='meaning_kanji_reading'>(国)</span> , <span class='reading onyomi' data-hiragana='こく'>Koku</span> <span class='hiragana'>(こく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 147
+        "order_wiki": 147,
+        "reading_dist": [
+            {
+                "reading": "こく",
+                "count": 68,
+                "prop": 0.82
+            },
+            {
+                "reading": "くに",
+                "count": 3,
+                "prop": 0.04
+            },
+            {
+                "reading": "こっか",
+                "count": 2,
+                "prop": 0.02
+            },
+            {
+                "reading": "こっきょう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっかい",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっき",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっかいぎいん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっこう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっかこうむいん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっけん",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっこ",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっかいぎじどう",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "こっかしけん",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -8743,7 +11537,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='園'>Park</span> <span class='meaning_kanji_reading'>(園)</span> , <span class='reading onyomi' data-hiragana='えん'>En</span> <span class='hiragana'>(えん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 148
+        "order_wiki": 148,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -8802,7 +11603,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='谷'>Tal</span> <span class='meaning_kanji_reading'>(谷)</span> , <span class='reading kunyomi' data-hiragana='たに'>Tani</span> <span class='hiragana'>(たに)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 149
+        "order_wiki": 149,
+        "reading_dist": [
+            {
+                "reading": "たに",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -8861,7 +11669,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='野'>Feld</span> <span class='meaning_kanji_reading'>(野)</span> , <span class='reading onyomi' data-hiragana='や'>Ya</span> <span class='hiragana'>(や)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 150
+        "order_wiki": 150,
+        "reading_dist": [
+            {
+                "reading": "や",
+                "count": 13,
+                "prop": 0.68
+            },
+            {
+                "reading": "の",
+                "count": 6,
+                "prop": 0.32
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -8920,7 +11740,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='原'>ursprünglich</span> <span class='meaning_kanji_reading'>(原)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 151
+        "order_wiki": 151,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 36,
+                "prop": 0.95
+            },
+            {
+                "reading": "はら",
+                "count": 2,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -8976,7 +11808,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='里'>Ortschaft</span> <span class='meaning_kanji_reading'>(里)</span> , <span class='reading kunyomi' data-hiragana='さと'>Sato</span> <span class='hiragana'>(さと)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 152
+        "order_wiki": 152,
+        "reading_dist": [
+            {
+                "reading": "さと",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "り",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -9033,7 +11877,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='市'>Stadt</span> <span class='meaning_kanji_reading'>(市)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 153
+        "order_wiki": 153,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 23,
+                "prop": 0.96
+            },
+            {
+                "reading": "いち",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -9094,7 +11950,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='京'>Hauptstadt</span> <span class='meaning_kanji_reading'>(京)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 154
+        "order_wiki": 154,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "けい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -9162,7 +12030,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='風'>Wind</span> <span class='meaning_kanji_reading'>(風)</span> , <span class='reading onyomi' data-hiragana='ふう'>Fuu</span> <span class='hiragana'>(ふう)</span>  <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 155
+        "order_wiki": 155,
+        "reading_dist": [
+            {
+                "reading": "ふう",
+                "count": 14,
+                "prop": 0.47
+            },
+            {
+                "reading": "かぜ",
+                "count": 6,
+                "prop": 0.2
+            },
+            {
+                "reading": "ふ",
+                "count": 5,
+                "prop": 0.17
+            },
+            {
+                "reading": "かざ",
+                "count": 4,
+                "prop": 0.13
+            },
+            {
+                "reading": "ぷう",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -9216,7 +12111,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='雪'>Schnee</span> <span class='meaning_kanji_reading'>(雪)</span> , <span class='reading kunyomi' data-hiragana='ゆき'>Yuki</span> <span class='hiragana'>(ゆき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 156
+        "order_wiki": 156,
+        "reading_dist": [
+            {
+                "reading": "ゆき",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "なだれ",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "せつ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -9271,7 +12183,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='雲'>Wolke</span> <span class='meaning_kanji_reading'>(雲)</span> , <span class='reading kunyomi' data-hiragana='くも'>Kumo</span> <span class='hiragana'>(くも)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 157
+        "order_wiki": 157,
+        "reading_dist": [
+            {
+                "reading": "くも",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ひばり",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -9329,7 +12253,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='池'>Teich</span> <span class='meaning_kanji_reading'>(池)</span> , <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 158
+        "order_wiki": 158,
+        "reading_dist": [
+            {
+                "reading": "いけ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -9390,7 +12321,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='海'>Meer</span> <span class='meaning_kanji_reading'>(海)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 159
+        "order_wiki": 159,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 30,
+                "prop": 0.86
+            },
+            {
+                "reading": "うみ",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "えび",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "のり",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "いるか",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -9446,7 +12404,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='岩'>Fels</span> <span class='meaning_kanji_reading'>(岩)</span> , <span class='reading kunyomi' data-hiragana='いわ'>Iwa</span> <span class='hiragana'>(いわ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 160
+        "order_wiki": 160,
+        "reading_dist": [
+            {
+                "reading": "いわ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "がん",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -9505,7 +12475,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='星'>Stern</span> <span class='meaning_kanji_reading'>(星)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 161
+        "order_wiki": 161,
+        "reading_dist": [
+            {
+                "reading": "ほし",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "せい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -9570,7 +12552,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='室'>Zimmer</span> <span class='meaning_kanji_reading'>(室)</span> , <span class='reading onyomi' data-hiragana='しつ'>Shitsu</span> <span class='hiragana'>(しつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 162
+        "order_wiki": 162,
+        "reading_dist": [
+            {
+                "reading": "しつ",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "むろ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -9622,7 +12616,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='戸'>Tür</span> <span class='meaning_kanji_reading'>(戸)</span> , <span class='reading kunyomi' data-hiragana='と'>To</span> <span class='hiragana'>(と)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 163
+        "order_wiki": 163,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "こ",
+                "count": 5,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -9689,7 +12695,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='家'>Haus</span> <span class='meaning_kanji_reading'>(家)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 164
+        "order_wiki": 164,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 21,
+                "prop": 0.72
+            },
+            {
+                "reading": "いえ",
+                "count": 5,
+                "prop": 0.17
+            },
+            {
+                "reading": "や",
+                "count": 2,
+                "prop": 0.07
+            },
+            {
+                "reading": "あひる",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -9739,7 +12767,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='寺'>Tempel</span> <span class='meaning_kanji_reading'>(寺)</span> , <span class='reading kunyomi' data-hiragana='てら'>Tera</span> <span class='hiragana'>(てら)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 165
+        "order_wiki": 165,
+        "reading_dist": [
+            {
+                "reading": "てら",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "じ",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -9812,7 +12852,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='通'>hindurchgehen</span> <span class='meaning_kanji_reading'>(通)</span> , <span class='reading onyomi' data-hiragana='つう'>Tsuu</span> <span class='hiragana'>(つう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 166
+        "order_wiki": 166,
+        "reading_dist": [
+            {
+                "reading": "つう",
+                "count": 36,
+                "prop": 0.78
+            },
+            {
+                "reading": "とお",
+                "count": 6,
+                "prop": 0.13
+            },
+            {
+                "reading": "かよ",
+                "count": 2,
+                "prop": 0.04
+            },
+            {
+                "reading": "どお",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "つ",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -9864,7 +12931,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='門'>Tor</span> <span class='meaning_kanji_reading'>(門)</span> , <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 167
+        "order_wiki": 167,
+        "reading_dist": [
+            {
+                "reading": "もん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -9930,7 +13004,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='道'>Straße</span> <span class='meaning_kanji_reading'>(道)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 168
+        "order_wiki": 168,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 7,
+                "prop": 0.54
+            },
+            {
+                "reading": "みち",
+                "count": 6,
+                "prop": 0.46
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -9989,7 +13075,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='話'>sprechen</span> <span class='meaning_kanji_reading'>(話)</span> , <span class='reading onyomi' data-hiragana='わ'>Wa</span> <span class='hiragana'>(わ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 169
+        "order_wiki": 169,
+        "reading_dist": [
+            {
+                "reading": "はな",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "はなし",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "わ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -10046,7 +13149,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='言'>Wort</span> <span class='meaning_kanji_reading'>(言)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 170
+        "order_wiki": 170,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 16,
+                "prop": 0.64
+            },
+            {
+                "reading": "げん",
+                "count": 6,
+                "prop": 0.24
+            },
+            {
+                "reading": "こと",
+                "count": 3,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -10104,7 +13224,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='答'>antworten</span> <span class='meaning_kanji_reading'>(答)</span> , <span class='reading kunyomi' data-hiragana='こた'>Kota</span> <span class='hiragana'>(こた)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 171
+        "order_wiki": 171,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "こた",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -10164,7 +13296,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='声'>Stimme</span> <span class='meaning_kanji_reading'>(声)</span> , <span class='reading kunyomi' data-hiragana='こえ'>Koe</span> <span class='hiragana'>(こえ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 172
+        "order_wiki": 172,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "こえ",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "こわ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -10225,7 +13374,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='聞'>hören</span> <span class='meaning_kanji_reading'>(聞)</span> , <span class='reading onyomi' data-hiragana='ぶん'>Bun</span> <span class='hiragana'>(ぶん)</span>  <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 173
+        "order_wiki": 173,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -10288,7 +13444,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='語'>Sprache</span> <span class='meaning_kanji_reading'>(語)</span> , <span class='reading onyomi' data-hiragana='ご'>Go</span> <span class='hiragana'>(ご)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 174
+        "order_wiki": 174,
+        "reading_dist": [
+            {
+                "reading": "ご",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "かた",
+                "count": 4,
+                "prop": 0.44
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -10346,7 +13514,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='読'>lesen</span> <span class='meaning_kanji_reading'>(読)</span> , <span class='reading kunyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 175
+        "order_wiki": 175,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "どく",
+                "count": 2,
+                "prop": 0.18
+            },
+            {
+                "reading": "よみ",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -10403,7 +13588,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='書'>schreiben</span> <span class='meaning_kanji_reading'>(書)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 176
+        "order_wiki": 176,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 18,
+                "prop": 0.6
+            },
+            {
+                "reading": "か",
+                "count": 11,
+                "prop": 0.37
+            },
+            {
+                "reading": "かき",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -10462,7 +13664,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='記'>Bericht</span> <span class='meaning_kanji_reading'>(記)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 177
+        "order_wiki": 177,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 14,
+                "prop": 0.93
+            },
+            {
+                "reading": "しる",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -10516,7 +13730,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='紙'>Papier</span> <span class='meaning_kanji_reading'>(紙)</span> , <span class='reading kunyomi' data-hiragana='かみ'>Kami</span> <span class='hiragana'>(かみ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 178
+        "order_wiki": 178,
+        "reading_dist": [
+            {
+                "reading": "かみ",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "し",
+                "count": 3,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -10585,7 +13811,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='画'>Bild</span> <span class='meaning_kanji_reading'>(画)</span> , <span class='reading onyomi' data-hiragana='が'>Ga</span> <span class='hiragana'>(が)</span>  <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 179
+        "order_wiki": 179,
+        "reading_dist": [
+            {
+                "reading": "が",
+                "count": 7,
+                "prop": 0.54
+            },
+            {
+                "reading": "かく",
+                "count": 3,
+                "prop": 0.23
+            },
+            {
+                "reading": "かっ",
+                "count": 2,
+                "prop": 0.15
+            },
+            {
+                "reading": "かくす",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -10641,7 +13889,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='絵'>Bild</span> <span class='meaning_kanji_reading'>(絵)</span> , <span class='reading onyomi' data-hiragana='え'>E</span> <span class='hiragana'>(え)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 180
+        "order_wiki": 180,
+        "reading_dist": [
+            {
+                "reading": "え",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "かい",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -10709,7 +13969,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='図'>Plan</span> <span class='meaning_kanji_reading'>(図)</span> , <span class='reading onyomi' data-hiragana='ず'>Zu</span> <span class='hiragana'>(ず)</span>  <span class='reading onyomi' data-hiragana='と'>To</span> <span class='hiragana'>(と)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 181
+        "order_wiki": 181,
+        "reading_dist": [
+            {
+                "reading": "ず",
+                "count": 11,
+                "prop": 0.73
+            },
+            {
+                "reading": "と",
+                "count": 3,
+                "prop": 0.2
+            },
+            {
+                "reading": "はか",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -10763,7 +14040,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='工'>Handwerker</span> <span class='meaning_kanji_reading'>(工)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 182
+        "order_wiki": 182,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "く",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -10821,7 +14110,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='教'>unterrichten</span> <span class='meaning_kanji_reading'>(教)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 183
+        "order_wiki": 183,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 25,
+                "prop": 0.86
+            },
+            {
+                "reading": "おし",
+                "count": 3,
+                "prop": 0.1
+            },
+            {
+                "reading": "おそ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -10881,7 +14187,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='晴'>hell</span> <span class='meaning_kanji_reading'>(晴)</span> , <span class='reading kunyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 184
+        "order_wiki": 184,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "せい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -10938,7 +14256,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='思'>denken</span> <span class='meaning_kanji_reading'>(思)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 185
+        "order_wiki": 185,
+        "reading_dist": [
+            {
+                "reading": "おも",
+                "count": 24,
+                "prop": 0.89
+            },
+            {
+                "reading": "し",
+                "count": 3,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -10996,7 +14326,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='考'>denken</span> <span class='meaning_kanji_reading'>(考)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 186
+        "order_wiki": 186,
+        "reading_dist": [
+            {
+                "reading": "かんが",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "こう",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -11053,7 +14395,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='知'>kennen</span> <span class='meaning_kanji_reading'>(知)</span> , <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 187
+        "order_wiki": 187,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 11,
+                "prop": 0.52
+            },
+            {
+                "reading": "ち",
+                "count": 10,
+                "prop": 0.48
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -11107,7 +14461,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='才'>Talent</span> <span class='meaning_kanji_reading'>(才)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 188
+        "order_wiki": 188,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -11166,7 +14527,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='理'>Grund</span> <span class='meaning_kanji_reading'>(理)</span> , <span class='reading onyomi' data-hiragana='り'>Ri</span> <span class='hiragana'>(り)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 189
+        "order_wiki": 189,
+        "reading_dist": [
+            {
+                "reading": "り",
+                "count": 18,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -11230,7 +14598,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='算'>rechnen</span> <span class='meaning_kanji_reading'>(算)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 190
+        "order_wiki": 190,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "そろ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -11292,7 +14672,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='作'>anfertigen</span> <span class='meaning_kanji_reading'>(作)</span> , <span class='reading onyomi' data-hiragana='さく'>Saku</span> <span class='hiragana'>(さく)</span>  <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 191
+        "order_wiki": 191,
+        "reading_dist": [
+            {
+                "reading": "さく",
+                "count": 13,
+                "prop": 0.46
+            },
+            {
+                "reading": "つく",
+                "count": 6,
+                "prop": 0.21
+            },
+            {
+                "reading": "さ",
+                "count": 5,
+                "prop": 0.18
+            },
+            {
+                "reading": "さっ",
+                "count": 4,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -11347,7 +14749,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='元'>Ursprung</span> <span class='meaning_kanji_reading'>(元)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>  <span class='reading onyomi' data-hiragana='がん'>Gan</span> <span class='hiragana'>(がん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 192
+        "order_wiki": 192,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 7,
+                "prop": 0.44
+            },
+            {
+                "reading": "がん",
+                "count": 6,
+                "prop": 0.38
+            },
+            {
+                "reading": "もと",
+                "count": 3,
+                "prop": 0.19
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -11405,7 +14824,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='食'>essen</span> <span class='meaning_kanji_reading'>(食)</span> , <span class='reading onyomi' data-hiragana='しょく'>Shoku</span> <span class='hiragana'>(しょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 193
+        "order_wiki": 193,
+        "reading_dist": [
+            {
+                "reading": "しょく",
+                "count": 22,
+                "prop": 0.67
+            },
+            {
+                "reading": "く",
+                "count": 6,
+                "prop": 0.18
+            },
+            {
+                "reading": "た",
+                "count": 3,
+                "prop": 0.09
+            },
+            {
+                "reading": "しょっき",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "しょっかんほう",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -11453,7 +14899,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='肉'>Fleisch</span> <span class='meaning_kanji_reading'>(肉)</span> , <span class='reading onyomi' data-hiragana='にく'>Niku</span> <span class='hiragana'>(にく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 194
+        "order_wiki": 194,
+        "reading_dist": [
+            {
+                "reading": "にく",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -11505,7 +14958,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='馬'>Pferd</span> <span class='meaning_kanji_reading'>(馬)</span> , <span class='reading onyomi' data-hiragana='ば'>Ba</span> <span class='hiragana'>(ば)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 195
+        "order_wiki": 195,
+        "reading_dist": [
+            {
+                "reading": "ば",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "うま",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -11556,7 +15021,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='牛'>Kuh</span> <span class='meaning_kanji_reading'>(牛)</span> , <span class='reading onyomi' data-hiragana='ぎゅう'>Gyuu</span> <span class='hiragana'>(ぎゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 196
+        "order_wiki": 196,
+        "reading_dist": [
+            {
+                "reading": "ぎゅう",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "うし",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "オックスフォード",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -11608,7 +15090,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='魚'>Fisch</span> <span class='meaning_kanji_reading'>(魚)</span> , <span class='reading onyomi' data-hiragana='ぎょ'>Gyo</span> <span class='hiragana'>(ぎょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 197
+        "order_wiki": 197,
+        "reading_dist": [
+            {
+                "reading": "ぎょ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "さかな",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -11659,7 +15153,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鳥'>Vogel</span> <span class='meaning_kanji_reading'>(鳥)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 198
+        "order_wiki": 198,
+        "reading_dist": [
+            {
+                "reading": "とり",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -11719,7 +15225,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='羽'>Flügel</span> <span class='meaning_kanji_reading'>(羽)</span> , <span class='reading kunyomi' data-hiragana='はね'>Hane</span> <span class='hiragana'>(はね)</span>  <span class='reading kunyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>  <span class='reading kunyomi' data-hiragana='わ'>Wa</span> <span class='hiragana'>(わ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 199
+        "order_wiki": 199,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "はね",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "う",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -11783,7 +15306,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鳴'>Tierlaute: singen</span> <span class='meaning_kanji_reading'>(鳴)</span> , <span class='reading kunyomi' data-hiragana='な'>Na</span> <span class='hiragana'>(な)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 200
+        "order_wiki": 200,
+        "reading_dist": [
+            {
+                "reading": "な",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "なる",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -11840,7 +15375,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='麦'>Getreide</span> <span class='meaning_kanji_reading'>(麦)</span> , <span class='reading kunyomi' data-hiragana='むぎ'>Mugi</span> <span class='hiragana'>(むぎ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 201
+        "order_wiki": 201,
+        "reading_dist": [
+            {
+                "reading": "むぎ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "ばく",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -11898,7 +15445,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='米'>Reis</span> <span class='meaning_kanji_reading'>(米)</span> , <span class='reading onyomi' data-hiragana='べい'>Bei</span> <span class='hiragana'>(べい)</span>  <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 202
+        "order_wiki": 202,
+        "reading_dist": [
+            {
+                "reading": "べい",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "米",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "こめ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -11954,7 +15518,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='茶'>Tee</span> <span class='meaning_kanji_reading'>(茶)</span> , <span class='reading onyomi' data-hiragana='ちゃ'>Cha</span> <span class='hiragana'>(ちゃ)</span>  <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 203
+        "order_wiki": 203,
+        "reading_dist": [
+            {
+                "reading": "ちゃ",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "さ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -12007,7 +15583,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='色'>Farbe</span> <span class='meaning_kanji_reading'>(色)</span> , <span class='reading kunyomi' data-hiragana='いろ'>Iro</span> <span class='hiragana'>(いろ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 204
+        "order_wiki": 204,
+        "reading_dist": [
+            {
+                "reading": "いろ",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "しき",
+                "count": 4,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -12059,7 +15647,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='黄'>gelb</span> <span class='meaning_kanji_reading'>(黄)</span> , <span class='reading kunyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 205
+        "order_wiki": 205,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "おう",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "たそがれ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -12111,7 +15716,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='黒'>schwarz</span> <span class='meaning_kanji_reading'>(黒)</span> , <span class='reading onyomi' data-hiragana='こく'>Koku</span> <span class='hiragana'>(こく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 206
+        "order_wiki": 206,
+        "reading_dist": [
+            {
+                "reading": "くろ",
+                "count": 8,
+                "prop": 0.5
+            },
+            {
+                "reading": "こく",
+                "count": 5,
+                "prop": 0.31
+            },
+            {
+                "reading": "くろい",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "こっかい",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "ほくろ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -12177,7 +15809,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='来'>kommen</span> <span class='meaning_kanji_reading'>(来)</span> , <span class='reading onyomi' data-hiragana='らい'>Rai</span> <span class='hiragana'>(らい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 207
+        "order_wiki": 207,
+        "reading_dist": [
+            {
+                "reading": "らい",
+                "count": 10,
+                "prop": 0.91
+            },
+            {
+                "reading": "く",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -12249,7 +15893,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='行'>gehen</span> <span class='meaning_kanji_reading'>(行)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>  <span class='reading onyomi' data-hiragana='ぎょう'>Gyou</span> <span class='hiragana'>(ぎょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 208
+        "order_wiki": 208,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 15,
+                "prop": 0.38
+            },
+            {
+                "reading": "ぎょう",
+                "count": 10,
+                "prop": 0.26
+            },
+            {
+                "reading": "こう",
+                "count": 8,
+                "prop": 0.21
+            },
+            {
+                "reading": "おこな",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "ゆく",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "ゆ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "あん",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -12318,7 +15999,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='帰'>zurückkehren</span> <span class='meaning_kanji_reading'>(帰)</span> , <span class='reading kunyomi' data-hiragana='かえ'>Kae</span> <span class='hiragana'>(かえ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 209
+        "order_wiki": 209,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 9,
+                "prop": 0.69
+            },
+            {
+                "reading": "かえ",
+                "count": 4,
+                "prop": 0.31
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -12381,7 +16074,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='歩'>zu Fuß gehen</span> <span class='meaning_kanji_reading'>(歩)</span> , <span class='reading onyomi' data-hiragana='ほ'>Ho</span> <span class='hiragana'>(ほ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 210
+        "order_wiki": 210,
+        "reading_dist": [
+            {
+                "reading": "ほ",
+                "count": 7,
+                "prop": 0.5
+            },
+            {
+                "reading": "あゆ",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "ある",
+                "count": 2,
+                "prop": 0.14
+            },
+            {
+                "reading": "ぶ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -12431,7 +16146,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='走'>Laufen</span> <span class='meaning_kanji_reading'>(走)</span> auf richtiger Schuh <span class='reading onyomi' data-hiragana='そう'>Soh</span>le <span class='hiragana'>(そう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 211
+        "order_wiki": 211,
+        "reading_dist": [
+            {
+                "reading": "はし",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "そう",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -12497,7 +16224,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_reading'>(止)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 212
+        "order_wiki": 212,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "や",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "よ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -12557,7 +16301,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='活'>Leben</span> <span class='meaning_kanji_reading'>(活)</span> , <span class='reading onyomi' data-hiragana='かつ'>Katsu</span> <span class='hiragana'>(かつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 213
+        "order_wiki": 213,
+        "reading_dist": [
+            {
+                "reading": "かつ",
+                "count": 7,
+                "prop": 0.64
+            },
+            {
+                "reading": "かっ",
+                "count": 4,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -12615,7 +16371,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='店'>Laden</span> <span class='meaning_kanji_reading'>(店)</span> , <span class='reading onyomi' data-hiragana='てん'>Ten</span> <span class='hiragana'>(てん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 214
+        "order_wiki": 214,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "みせ",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -12669,7 +16437,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='買'>kaufen</span> <span class='meaning_kanji_reading'>(買)</span> , <span class='reading kunyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 215
+        "order_wiki": 215,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 13,
+                "prop": 0.87
+            },
+            {
+                "reading": "ばい",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "かい",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -12728,7 +16513,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_reading'>(売)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 216
+        "order_wiki": 216,
+        "reading_dist": [
+            {
+                "reading": "う",
+                "count": 16,
+                "prop": 0.7
+            },
+            {
+                "reading": "ばい",
+                "count": 5,
+                "prop": 0.22
+            },
+            {
+                "reading": "うり",
+                "count": 2,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -12783,7 +16585,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='午'>Mittag</span> <span class='meaning_kanji_reading'>(午)</span> , <span class='reading onyomi' data-hiragana='ご'>Go</span> <span class='hiragana'>(ご)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 217
+        "order_wiki": 217,
+        "reading_dist": [
+            {
+                "reading": "ご",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "うま",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -12834,7 +16648,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='汽'>Dampf</span> <span class='meaning_kanji_reading'>(汽)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 218
+        "order_wiki": 218,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -12886,7 +16707,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Beim Spannen vom <span class='meaning' data-kanji='弓'>Bogen</span> <span class='meaning_kanji_reading'>(弓)</span> muss man ihn druc<span class='reading onyomi' data-hiragana='きゅう'>kju</span>stieren <span class='hiragana'>(きゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 219
+        "order_wiki": 219,
+        "reading_dist": [
+            {
+                "reading": "ゆみ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -12951,7 +16779,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='回'>drehen</span> <span class='meaning_kanji_reading'>(回)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 220
+        "order_wiki": 220,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 18,
+                "prop": 0.78
+            },
+            {
+                "reading": "まわ",
+                "count": 5,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -13009,7 +16849,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='会'>treffen</span> <span class='meaning_kanji_reading'>(会)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 221
+        "order_wiki": 221,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 25,
+                "prop": 0.93
+            },
+            {
+                "reading": "あ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "え",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -13075,7 +16932,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='組'>Gruppe</span> <span class='meaning_kanji_reading'>(組)</span> , <span class='reading onyomi' data-hiragana='そ'>So</span> <span class='hiragana'>(そ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 222
+        "order_wiki": 222,
+        "reading_dist": [
+            {
+                "reading": "く",
+                "count": 7,
+                "prop": 0.5
+            },
+            {
+                "reading": "くみ",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "そ",
+                "count": 3,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -13137,7 +17011,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='船'>Schiff</span> <span class='meaning_kanji_reading'>(船)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 223
+        "order_wiki": 223,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "ふな",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "ふね",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -13207,7 +17098,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='明'>klar</span> <span class='meaning_kanji_reading'>(明)</span> , <span class='reading onyomi' data-hiragana='めい'>Mei</span> <span class='hiragana'>(めい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 224
+        "order_wiki": 224,
+        "reading_dist": [
+            {
+                "reading": "めい",
+                "count": 12,
+                "prop": 0.46
+            },
+            {
+                "reading": "あ",
+                "count": 8,
+                "prop": 0.31
+            },
+            {
+                "reading": "みょう",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "あか",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "あき",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "しあさって",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -13266,7 +17189,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='社'>Firma</span> <span class='meaning_kanji_reading'>(社)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 225
+        "order_wiki": 225,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 35,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -13332,7 +17262,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='切'>schneiden</span> <span class='meaning_kanji_reading'>(切)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 226
+        "order_wiki": 226,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 17,
+                "prop": 0.74
+            },
+            {
+                "reading": "せつ",
+                "count": 4,
+                "prop": 0.17
+            },
+            {
+                "reading": "きっ",
+                "count": 2,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -13386,7 +17333,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='電'>Elektrizität</span> <span class='meaning_kanji_reading'>(電)</span> , <span class='reading onyomi' data-hiragana='でん'>Den</span> <span class='hiragana'>(でん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 227
+        "order_wiki": 227,
+        "reading_dist": [
+            {
+                "reading": "でん",
+                "count": 35,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -13442,7 +17396,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='毎'>jeder</span> <span class='meaning_kanji_reading'>(毎)</span> , <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 228
+        "order_wiki": 228,
+        "reading_dist": [
+            {
+                "reading": "まい",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "ごと",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -13510,7 +17476,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='合'>passen</span> <span class='meaning_kanji_reading'>(合)</span> , <span class='reading onyomi' data-hiragana='ごう'>Gou</span> <span class='hiragana'>(ごう)</span>  <span class='reading onyomi' data-hiragana='がっ'>Gaっ</span> <span class='hiragana'>(がっ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 229
+        "order_wiki": 229,
+        "reading_dist": [
+            {
+                "reading": "ごう",
+                "count": 21,
+                "prop": 0.58
+            },
+            {
+                "reading": "がっ",
+                "count": 8,
+                "prop": 0.22
+            },
+            {
+                "reading": "あい",
+                "count": 3,
+                "prop": 0.08
+            },
+            {
+                "reading": "あ",
+                "count": 3,
+                "prop": 0.08
+            },
+            {
+                "reading": "かっ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -13578,7 +17571,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='当'>treffen</span> <span class='meaning_kanji_reading'>(当)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 230
+        "order_wiki": 230,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 22,
+                "prop": 0.73
+            },
+            {
+                "reading": "あ",
+                "count": 8,
+                "prop": 0.27
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -13638,7 +17643,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='台'>Plattform</span> <span class='meaning_kanji_reading'>(台)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 231
+        "order_wiki": 231,
+        "reading_dist": [
+            {
+                "reading": "だい",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "たい",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -13707,7 +17724,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='楽'>Freude</span> <span class='meaning_kanji_reading'>(楽)</span> , <span class='reading onyomi' data-hiragana='らく'>Raku</span> <span class='hiragana'>(らく)</span>  <span class='reading onyomi' data-hiragana='がく'>Gaku</span> <span class='hiragana'>(がく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 232
+        "order_wiki": 232,
+        "reading_dist": [
+            {
+                "reading": "がく",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "らく",
+                "count": 3,
+                "prop": 0.21
+            },
+            {
+                "reading": "たの",
+                "count": 3,
+                "prop": 0.21
+            },
+            {
+                "reading": "がっ",
+                "count": 2,
+                "prop": 0.14
+            },
+            {
+                "reading": "らっかん",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "らっかんてき",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -13763,7 +17812,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='公'>öffentlich</span> <span class='meaning_kanji_reading'>(公)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 233
+        "order_wiki": 233,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 73,
+                "prop": 0.97
+            },
+            {
+                "reading": "コンス",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "おおやけ",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -13827,7 +17893,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='引'>ziehen</span> <span class='meaning_kanji_reading'>(引)</span> , <span class='reading kunyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 234
+        "order_wiki": 234,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 46,
+                "prop": 0.92
+            },
+            {
+                "reading": "いん",
+                "count": 4,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -13883,7 +17961,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='科'>Kurs</span> <span class='meaning_kanji_reading'>(科)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 235
+        "order_wiki": 235,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -13942,7 +18027,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='歌'>Gesang</span> <span class='meaning_kanji_reading'>(歌)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 236
+        "order_wiki": 236,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 10,
+                "prop": 0.71
+            },
+            {
+                "reading": "うた",
+                "count": 4,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -13996,7 +18093,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='刀'>Schwert</span> <span class='meaning_kanji_reading'>(刀)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 237
+        "order_wiki": 237,
+        "reading_dist": [
+            {
+                "reading": "かたな",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -14054,7 +18158,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='番'>Nummer</span> <span class='meaning_kanji_reading'>(番)</span> , <span class='reading onyomi' data-hiragana='ばん'>Ban</span> <span class='hiragana'>(ばん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 238
+        "order_wiki": 238,
+        "reading_dist": [
+            {
+                "reading": "ばん",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14109,7 +18220,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='用'>(ge-)brauchen</span> <span class='meaning_kanji_reading'>(用)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 239
+        "order_wiki": 239,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "もち",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -14168,7 +18291,59 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='何'>was</span> <span class='meaning_kanji_reading'>(何)</span> , <span class='reading kunyomi' data-hiragana='なに'>Nani</span> <span class='hiragana'>(なに)</span>  <span class='reading kunyomi' data-hiragana='なん'>Nan</span> <span class='hiragana'>(なん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 240
+        "order_wiki": 240,
+        "reading_dist": [
+            {
+                "reading": "なん",
+                "count": 28,
+                "prop": 0.42
+            },
+            {
+                "reading": "なに",
+                "count": 15,
+                "prop": 0.22
+            },
+            {
+                "reading": "ど",
+                "count": 5,
+                "prop": 0.07
+            },
+            {
+                "reading": "なぜ",
+                "count": 4,
+                "prop": 0.06
+            },
+            {
+                "reading": "いつ",
+                "count": 4,
+                "prop": 0.06
+            },
+            {
+                "reading": "どこ",
+                "count": 4,
+                "prop": 0.06
+            },
+            {
+                "reading": "どなた",
+                "count": 3,
+                "prop": 0.04
+            },
+            {
+                "reading": "どちら",
+                "count": 2,
+                "prop": 0.03
+            },
+            {
+                "reading": "いず",
+                "count": 1,
+                "prop": 0.01
+            },
+            {
+                "reading": "い",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 2,
@@ -14227,7 +18402,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='丁'>morceau</span> <span class='meaning_kanji_reading'>(丁)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 241
+        "order_wiki": 241,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ちょう",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14286,7 +18473,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='世'>Welt</span> <span class='meaning_kanji_reading'>(世)</span> , <span class='reading onyomi' data-hiragana='せ'>Se</span> <span class='hiragana'>(せ)</span>  <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 242
+        "order_wiki": 242,
+        "reading_dist": [
+            {
+                "reading": "せ",
+                "count": 18,
+                "prop": 0.78
+            },
+            {
+                "reading": "よ",
+                "count": 3,
+                "prop": 0.13
+            },
+            {
+                "reading": "せい",
+                "count": 2,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -14348,7 +18552,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='両'>beide</span> <span class='meaning_kanji_reading'>(両)</span> , <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 243
+        "order_wiki": 243,
+        "reading_dist": [
+            {
+                "reading": "りょう",
+                "count": 21,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14410,7 +18621,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Meinem <span class='meaning' data-kanji='主'>Herr</span> <span class='meaning_kanji_reading'>(主)</span> muss ich die <span class='reading onyomi' data-hiragana='しゅ'>Schuh</span> <span class='hiragana'>(しゅ)</span> putzen.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 244
+        "order_wiki": 244,
+        "reading_dist": [
+            {
+                "reading": "しゅ",
+                "count": 43,
+                "prop": 0.96
+            },
+            {
+                "reading": "あるじ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "おも",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -14476,7 +18704,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='乗'>einsteigen</span> <span class='meaning_kanji_reading'>(乗)</span> , <span class='reading kunyomi' data-hiragana='の'>No</span> <span class='hiragana'>(の)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 245
+        "order_wiki": 245,
+        "reading_dist": [
+            {
+                "reading": "の",
+                "count": 19,
+                "prop": 0.63
+            },
+            {
+                "reading": "じょう",
+                "count": 10,
+                "prop": 0.33
+            },
+            {
+                "reading": "のり",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -14535,7 +18780,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='予'>vorher</span> <span class='meaning_kanji_reading'>(予)</span> , <span class='reading onyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 246
+        "order_wiki": 246,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 24,
+                "prop": 0.92
+            },
+            {
+                "reading": "あらかじ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "かね",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -14606,7 +18868,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='事'>Ding</span> <span class='meaning_kanji_reading'>(事)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 247
+        "order_wiki": 247,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 26,
+                "prop": 0.74
+            },
+            {
+                "reading": "こと",
+                "count": 9,
+                "prop": 0.26
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14667,7 +18941,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='仕'>dienen</span> <span class='meaning_kanji_reading'>(仕)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 248
+        "order_wiki": 248,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 28,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14723,7 +19004,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='他'>ein anderer</span> <span class='meaning_kanji_reading'>(他)</span> , <span class='reading onyomi' data-hiragana='た'>Ta</span> <span class='hiragana'>(た)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 249
+        "order_wiki": 249,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "ほか",
+                "count": 3,
+                "prop": 0.27
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -14805,7 +19098,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='代'>Generation</span> <span class='meaning_kanji_reading'>(代)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 250
+        "order_wiki": 250,
+        "reading_dist": [
+            {
+                "reading": "だい",
+                "count": 21,
+                "prop": 0.84
+            },
+            {
+                "reading": "か",
+                "count": 2,
+                "prop": 0.08
+            },
+            {
+                "reading": "たい",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "が",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -14869,7 +19184,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Tarzan mag das <span class='meaning' data-kanji='住'>Wohnen</span> <span class='meaning_kanji_reading'>(住)</span> im <span class='reading onyomi' data-hiragana='じゅう'>Dschu</span>ngel <span class='hiragana'>(じゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 251
+        "order_wiki": 251,
+        "reading_dist": [
+            {
+                "reading": "じゅう",
+                "count": 13,
+                "prop": 0.76
+            },
+            {
+                "reading": "す",
+                "count": 3,
+                "prop": 0.18
+            },
+            {
+                "reading": "すみ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -14938,7 +19270,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='使'>gebrauchen</span> <span class='meaning_kanji_reading'>(使)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 252
+        "order_wiki": 252,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 9,
+                "prop": 0.6
+            },
+            {
+                "reading": "つか",
+                "count": 6,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -15006,7 +19350,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='係'>Aufgabe</span> <span class='meaning_kanji_reading'>(係)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 253
+        "order_wiki": 253,
+        "reading_dist": [
+            {
+                "reading": "かかり",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "けい",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -15062,7 +19418,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='倍'>doppelt</span> <span class='meaning_kanji_reading'>(倍)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 254
+        "order_wiki": 254,
+        "reading_dist": [
+            {
+                "reading": "ばい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -15125,7 +19488,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='全'>alles</span> <span class='meaning_kanji_reading'>(全)</span> , <span class='reading onyomi' data-hiragana='ぜん'>Zen</span> <span class='hiragana'>(ぜん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 255
+        "order_wiki": 255,
+        "reading_dist": [
+            {
+                "reading": "ぜん",
+                "count": 43,
+                "prop": 0.93
+            },
+            {
+                "reading": "まっと",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "すべ",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "まった",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -15191,7 +19576,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='具'>Werkzeug</span> <span class='meaning_kanji_reading'>(具)</span> , <span class='reading onyomi' data-hiragana='ぐ'>Gu</span> <span class='hiragana'>(ぐ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 256
+        "order_wiki": 256,
+        "reading_dist": [
+            {
+                "reading": "ぐ",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -15256,7 +19648,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='写'>kopieren</span> <span class='meaning_kanji_reading'>(写)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 257
+        "order_wiki": 257,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "うつ",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -15312,7 +19716,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='列'>Reihe</span> <span class='meaning_kanji_reading'>(列)</span> , <span class='reading onyomi' data-hiragana='れつ'>Retsu</span> <span class='hiragana'>(れつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 258
+        "order_wiki": 258,
+        "reading_dist": [
+            {
+                "reading": "れっ",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "れつ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -15373,7 +19789,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='助'>helfen</span> <span class='meaning_kanji_reading'>(助)</span> , <span class='reading onyomi' data-hiragana='じょ'>Jo</span> <span class='hiragana'>(じょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 259
+        "order_wiki": 259,
+        "reading_dist": [
+            {
+                "reading": "じょ",
+                "count": 8,
+                "prop": 0.62
+            },
+            {
+                "reading": "たす",
+                "count": 4,
+                "prop": 0.31
+            },
+            {
+                "reading": "すけ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -15430,7 +19863,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='勉'>sich anstrengen</span> <span class='meaning_kanji_reading'>(勉)</span> , <span class='reading onyomi' data-hiragana='べん'>Ben</span> <span class='hiragana'>(べん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 260
+        "order_wiki": 260,
+        "reading_dist": [
+            {
+                "reading": "べん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -15490,7 +19930,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='動'>bewegen</span> <span class='meaning_kanji_reading'>(動)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 261
+        "order_wiki": 261,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 19,
+                "prop": 0.79
+            },
+            {
+                "reading": "うご",
+                "count": 4,
+                "prop": 0.17
+            },
+            {
+                "reading": "やや",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -15557,7 +20014,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='勝'>gewinnen</span> <span class='meaning_kanji_reading'>(勝)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 262
+        "order_wiki": 262,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 7,
+                "prop": 0.44
+            },
+            {
+                "reading": "か",
+                "count": 6,
+                "prop": 0.38
+            },
+            {
+                "reading": "かっ",
+                "count": 2,
+                "prop": 0.12
+            },
+            {
+                "reading": "まさ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -15623,7 +20102,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='化'>sich ändern</span> <span class='meaning_kanji_reading'>(化)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 263
+        "order_wiki": 263,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 9,
+                "prop": 0.75
+            },
+            {
+                "reading": "ば",
+                "count": 2,
+                "prop": 0.17
+            },
+            {
+                "reading": "け",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -15678,7 +20174,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='区'>Stadtbezirk</span> <span class='meaning_kanji_reading'>(区)</span> , <span class='reading onyomi' data-hiragana='く'>Ku</span> <span class='hiragana'>(く)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 264
+        "order_wiki": 264,
+        "reading_dist": [
+            {
+                "reading": "く",
+                "count": 14,
+                "prop": 0.93
+            },
+            {
+                "reading": "まちまち",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -15735,7 +20243,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='医'>medizinische Behandlung</span> <span class='meaning_kanji_reading'>(医)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 265
+        "order_wiki": 265,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 13,
+                "prop": 0.87
+            },
+            {
+                "reading": "いや",
+                "count": 2,
+                "prop": 0.13
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -15799,7 +20319,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='去'>verlassen</span> <span class='meaning_kanji_reading'>(去)</span> , <span class='reading onyomi' data-hiragana='きょ'>Kyo</span> <span class='hiragana'>(きょ)</span>  <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 266
+        "order_wiki": 266,
+        "reading_dist": [
+            {
+                "reading": "きょ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "さ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -15862,7 +20394,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='反'>gegen</span> <span class='meaning_kanji_reading'>(反)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 267
+        "order_wiki": 267,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 29,
+                "prop": 0.97
+            },
+            {
+                "reading": "そ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -15924,7 +20468,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='取'>fassen</span> <span class='meaning_kanji_reading'>(取)</span> , <span class='reading onyomi' data-hiragana='しゅ'>Shu</span> <span class='hiragana'>(しゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 268
+        "order_wiki": 268,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 41,
+                "prop": 0.8
+            },
+            {
+                "reading": "とり",
+                "count": 7,
+                "prop": 0.14
+            },
+            {
+                "reading": "しゅ",
+                "count": 3,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -15992,7 +20553,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='受'>erhalten</span> <span class='meaning_kanji_reading'>(受)</span> , <span class='reading onyomi' data-hiragana='じゅ'>Ju</span> <span class='hiragana'>(じゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 269
+        "order_wiki": 269,
+        "reading_dist": [
+            {
+                "reading": "じゅ",
+                "count": 22,
+                "prop": 0.54
+            },
+            {
+                "reading": "う",
+                "count": 14,
+                "prop": 0.34
+            },
+            {
+                "reading": "うけ",
+                "count": 5,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -16056,7 +20634,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='号'>Nummer</span> <span class='meaning_kanji_reading'>(号)</span> , <span class='reading onyomi' data-hiragana='ごう'>Gou</span> <span class='hiragana'>(ごう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 270
+        "order_wiki": 270,
+        "reading_dist": [
+            {
+                "reading": "ごう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -16133,7 +20718,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='向'>gegenüberliegen</span> <span class='meaning_kanji_reading'>(向)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 271
+        "order_wiki": 271,
+        "reading_dist": [
+            {
+                "reading": "む",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "むか",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -16197,7 +20799,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='君'>du</span> <span class='meaning_kanji_reading'>(君)</span> , <span class='reading onyomi' data-hiragana='くん'>Kun</span> <span class='hiragana'>(くん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 272
+        "order_wiki": 272,
+        "reading_dist": [
+            {
+                "reading": "きみ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "くん",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -16257,7 +20871,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='味'>schmecken</span> <span class='meaning_kanji_reading'>(味)</span> , <span class='reading onyomi' data-hiragana='み'>Mi</span> <span class='hiragana'>(み)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 273
+        "order_wiki": 273,
+        "reading_dist": [
+            {
+                "reading": "あじ",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "み",
+                "count": 3,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -16319,7 +20945,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='命'>Befehl</span> <span class='meaning_kanji_reading'>(命)</span> , <span class='reading onyomi' data-hiragana='めい'>Mei</span> <span class='hiragana'>(めい)</span>  <span class='reading onyomi' data-hiragana='みょう'>Myou</span> <span class='hiragana'>(みょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 274
+        "order_wiki": 274,
+        "reading_dist": [
+            {
+                "reading": "めい",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "いのち",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -16388,7 +21026,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='和'>Friede</span> <span class='meaning_kanji_reading'>(和)</span> , <span class='reading onyomi' data-hiragana='わ'>Wa</span> <span class='hiragana'>(わ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 275
+        "order_wiki": 275,
+        "reading_dist": [
+            {
+                "reading": "わ",
+                "count": 15,
+                "prop": 0.79
+            },
+            {
+                "reading": "やわ",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "なご",
+                "count": 2,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -16444,7 +21099,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='品'>Waren</span> <span class='meaning_kanji_reading'>(品)</span> , <span class='reading onyomi' data-hiragana='ひん'>Hin</span> <span class='hiragana'>(ひん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 276
+        "order_wiki": 276,
+        "reading_dist": [
+            {
+                "reading": "ひん",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "しな",
+                "count": 3,
+                "prop": 0.27
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -16498,7 +21165,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='員'>Mitglied</span> <span class='meaning_kanji_reading'>(員)</span> , <span class='reading onyomi' data-hiragana='いん'>In</span> <span class='hiragana'>(いん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 277
+        "order_wiki": 277,
+        "reading_dist": [
+            {
+                "reading": "いん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -16560,7 +21234,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='商'>Handel</span> <span class='meaning_kanji_reading'>(商)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 278
+        "order_wiki": 278,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 21,
+                "prop": 0.95
+            },
+            {
+                "reading": "あきな",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -16619,7 +21305,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='問'>fragen</span> <span class='meaning_kanji_reading'>(問)</span> , <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 279
+        "order_wiki": 279,
+        "reading_dist": [
+            {
+                "reading": "もん",
+                "count": 7,
+                "prop": 0.58
+            },
+            {
+                "reading": "と",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "とん",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -16676,7 +21379,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='坂'>Abhang</span> <span class='meaning_kanji_reading'>(坂)</span> , <span class='reading kunyomi' data-hiragana='さか'>Saka</span> <span class='hiragana'>(さか)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 280
+        "order_wiki": 280,
+        "reading_dist": [
+            {
+                "reading": "さか",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -16789,7 +21499,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='始'>anfangen</span> <span class='meaning_kanji_reading'>(始)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 282
+        "order_wiki": 282,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "はじ",
+                "count": 4,
+                "prop": 0.44
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -16845,7 +21567,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='委'>anvertrauen</span> <span class='meaning_kanji_reading'>(委)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 283
+        "order_wiki": 283,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "ゆだ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -16910,7 +21644,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='守'>schützen</span> <span class='meaning_kanji_reading'>(守)</span> , <span class='reading onyomi' data-hiragana='す'>Su</span> <span class='hiragana'>(す)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 284
+        "order_wiki": 284,
+        "reading_dist": [
+            {
+                "reading": "しゅ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "まも",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -16977,7 +21723,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='安'>friedvoll</span> <span class='meaning_kanji_reading'>(安)</span> , <span class='reading onyomi' data-hiragana='あん'>An</span> <span class='hiragana'>(あん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 285
+        "order_wiki": 285,
+        "reading_dist": [
+            {
+                "reading": "あん",
+                "count": 15,
+                "prop": 0.6
+            },
+            {
+                "reading": "やす",
+                "count": 9,
+                "prop": 0.36
+            },
+            {
+                "reading": "あき",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -17040,7 +21803,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='定'>festlegen</span> <span class='meaning_kanji_reading'>(定)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 286
+        "order_wiki": 286,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 27,
+                "prop": 0.87
+            },
+            {
+                "reading": "さだ",
+                "count": 3,
+                "prop": 0.1
+            },
+            {
+                "reading": "じょう",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -17105,7 +21885,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='実'>Wahrheit</span> <span class='meaning_kanji_reading'>(実)</span> , <span class='reading onyomi' data-hiragana='じつ'>Jitsu</span> <span class='hiragana'>(じつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 287
+        "order_wiki": 287,
+        "reading_dist": [
+            {
+                "reading": "じっ",
+                "count": 30,
+                "prop": 0.56
+            },
+            {
+                "reading": "じつ",
+                "count": 22,
+                "prop": 0.41
+            },
+            {
+                "reading": "みの",
+                "count": 2,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -17165,7 +21962,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='客'>Gast</span> <span class='meaning_kanji_reading'>(客)</span> , <span class='reading onyomi' data-hiragana='きゃく'>Kyaku</span> <span class='hiragana'>(きゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 288
+        "order_wiki": 288,
+        "reading_dist": [
+            {
+                "reading": "きゃく",
+                "count": 9,
+                "prop": 0.82
+            },
+            {
+                "reading": "きゃっかんてき",
+                "count": 1,
+                "prop": 0.09
+            },
+            {
+                "reading": "きゃっかん",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -17227,7 +22041,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宮'>Palast</span> <span class='meaning_kanji_reading'>(宮)</span> , <span class='reading kunyomi' data-hiragana='みや'>Miya</span> <span class='hiragana'>(みや)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 289
+        "order_wiki": 289,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "く",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -17295,7 +22121,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宿'>Herberge</span> <span class='meaning_kanji_reading'>(宿)</span> , <span class='reading onyomi' data-hiragana='しゅく'>Shuku</span> <span class='hiragana'>(しゅく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 290
+        "order_wiki": 290,
+        "reading_dist": [
+            {
+                "reading": "しゅく",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "やど",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -17353,7 +22191,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='寒'>kalt</span> <span class='meaning_kanji_reading'>(寒)</span> , <span class='reading kunyomi' data-hiragana='さむ'>Samu</span> <span class='hiragana'>(さむ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 291
+        "order_wiki": 291,
+        "reading_dist": [
+            {
+                "reading": "さむ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "かん",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -17420,7 +22270,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='対'>gegen</span> <span class='meaning_kanji_reading'>(対)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 292
+        "order_wiki": 292,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 31,
+                "prop": 0.97
+            },
+            {
+                "reading": "つい",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -17485,7 +22347,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='局'>Büro</span> <span class='meaning_kanji_reading'>(局)</span> , <span class='reading onyomi' data-hiragana='きょく'>Kyoku</span> <span class='hiragana'>(きょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 293
+        "order_wiki": 293,
+        "reading_dist": [
+            {
+                "reading": "きょく",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -17554,7 +22423,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='屋'>Gebäude</span> <span class='meaning_kanji_reading'>(屋)</span> , <span class='reading kunyomi' data-hiragana='や'>Ya</span> <span class='hiragana'>(や)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 294
+        "order_wiki": 294,
+        "reading_dist": [
+            {
+                "reading": "や",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "おく",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -17613,7 +22494,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='岸'>Küste</span> <span class='meaning_kanji_reading'>(岸)</span> , <span class='reading onyomi' data-hiragana='がん'>Gan</span> <span class='hiragana'>(がん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 295
+        "order_wiki": 295,
+        "reading_dist": [
+            {
+                "reading": "きし",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "がん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -17667,7 +22560,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='島'>Insel</span> <span class='meaning_kanji_reading'>(島)</span> , <span class='reading kunyomi' data-hiragana='しま'>Shima</span> <span class='hiragana'>(しま)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 296
+        "order_wiki": 296,
+        "reading_dist": [
+            {
+                "reading": "しま",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "とう",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -17725,7 +22630,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='州'>Provinz</span> <span class='meaning_kanji_reading'>(州)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 297
+        "order_wiki": 297,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -17786,7 +22698,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='帳'>Buchhaltung</span> <span class='meaning_kanji_reading'>(帳)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 298
+        "order_wiki": 298,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -17853,7 +22772,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='平'>eben</span> <span class='meaning_kanji_reading'>(平)</span> , <span class='reading onyomi' data-hiragana='へい'>Hei</span> <span class='hiragana'>(へい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 299
+        "order_wiki": 299,
+        "reading_dist": [
+            {
+                "reading": "へい",
+                "count": 21,
+                "prop": 0.75
+            },
+            {
+                "reading": "ひら",
+                "count": 4,
+                "prop": 0.14
+            },
+            {
+                "reading": "ピョンヤン",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "びょう",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "たい",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -17913,7 +22859,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='幸'>Glück</span> <span class='meaning_kanji_reading'>(幸)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 300
+        "order_wiki": 300,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "しあわ",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "さいわ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -17978,7 +22941,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='度'>-mal</span> <span class='meaning_kanji_reading'>(度)</span> , <span class='reading onyomi' data-hiragana='ど'>Do</span> <span class='hiragana'>(ど)</span>  <span class='reading onyomi' data-hiragana='たく'>Taku</span> <span class='hiragana'>(たく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 301
+        "order_wiki": 301,
+        "reading_dist": [
+            {
+                "reading": "たび",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ど",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -18035,7 +23010,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='庫'>Lagerhaus</span> <span class='meaning_kanji_reading'>(庫)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 302
+        "order_wiki": 302,
+        "reading_dist": []
     },
     {
         "strokes": 10,
@@ -18095,7 +23071,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='庭'>Garten</span> <span class='meaning_kanji_reading'>(庭)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 303
+        "order_wiki": 303,
+        "reading_dist": [
+            {
+                "reading": "にわ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "てい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -18157,7 +23145,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='式'>Feier</span> <span class='meaning_kanji_reading'>(式)</span> , <span class='reading onyomi' data-hiragana='しき'>Shiki</span> <span class='hiragana'>(しき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 304
+        "order_wiki": 304,
+        "reading_dist": [
+            {
+                "reading": "しき",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -18218,7 +23213,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='役'>Aufgabe</span> <span class='meaning_kanji_reading'>(役)</span> , <span class='reading onyomi' data-hiragana='やく'>Yaku</span> <span class='hiragana'>(やく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 305
+        "order_wiki": 305,
+        "reading_dist": [
+            {
+                "reading": "やく",
+                "count": 14,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -18274,7 +23276,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='待'>warten</span> <span class='meaning_kanji_reading'>(待)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 306
+        "order_wiki": 306,
+        "reading_dist": [
+            {
+                "reading": "ま",
+                "count": 13,
+                "prop": 0.72
+            },
+            {
+                "reading": "たい",
+                "count": 3,
+                "prop": 0.17
+            },
+            {
+                "reading": "まち",
+                "count": 2,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -18339,7 +23358,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='急'>eilig</span> <span class='meaning_kanji_reading'>(急)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 307
+        "order_wiki": 307,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 21,
+                "prop": 0.84
+            },
+            {
+                "reading": "いそ",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "せ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -18398,7 +23434,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='息'>Atem</span> <span class='meaning_kanji_reading'>(息)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 308
+        "order_wiki": 308,
+        "reading_dist": [
+            {
+                "reading": "いき",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "むすこ",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "いぶき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -18469,7 +23522,39 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='悪'>schlecht</span> <span class='meaning_kanji_reading'>(悪)</span> , <span class='reading onyomi' data-hiragana='あく'>Aku</span> <span class='hiragana'>(あく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 309
+        "order_wiki": 309,
+        "reading_dist": [
+            {
+                "reading": "あく",
+                "count": 16,
+                "prop": 0.62
+            },
+            {
+                "reading": "わる",
+                "count": 6,
+                "prop": 0.23
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "あ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "いたずら",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "あっ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -18526,7 +23611,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='悲'>traurig</span> <span class='meaning_kanji_reading'>(悲)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 310
+        "order_wiki": 310,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 9,
+                "prop": 0.75
+            },
+            {
+                "reading": "かな",
+                "count": 3,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -18588,7 +23685,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='想'>Konzeption</span> <span class='meaning_kanji_reading'>(想)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 311
+        "order_wiki": 311,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -18646,7 +23750,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='意'>Gedanke</span> <span class='meaning_kanji_reading'>(意)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 312
+        "order_wiki": 312,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 26,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -18703,7 +23814,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='感'>Gefühl</span> <span class='meaning_kanji_reading'>(感)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 313
+        "order_wiki": 313,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 22,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -18764,7 +23882,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='所'>Stelle</span> <span class='meaning_kanji_reading'>(所)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 314
+        "order_wiki": 314,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 17,
+                "prop": 0.74
+            },
+            {
+                "reading": "ところ",
+                "count": 4,
+                "prop": 0.17
+            },
+            {
+                "reading": "いわゆる",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "せい",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -18827,7 +23967,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='打'>schlagen</span> <span class='meaning_kanji_reading'>(打)</span> , <span class='reading onyomi' data-hiragana='だ'>Da</span> <span class='hiragana'>(だ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 315
+        "order_wiki": 315,
+        "reading_dist": [
+            {
+                "reading": "う",
+                "count": 16,
+                "prop": 0.47
+            },
+            {
+                "reading": "だ",
+                "count": 16,
+                "prop": 0.47
+            },
+            {
+                "reading": "打",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ぶつ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -18890,7 +24052,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='投'>werfen</span> <span class='meaning_kanji_reading'>(投)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 316
+        "order_wiki": 316,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 24,
+                "prop": 0.86
+            },
+            {
+                "reading": "な",
+                "count": 4,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -18949,7 +24123,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='拾'>aufheben</span> <span class='meaning_kanji_reading'>(拾)</span> , <span class='reading kunyomi' data-hiragana='ひろ'>Hiro</span> <span class='hiragana'>(ひろ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 317
+        "order_wiki": 317,
+        "reading_dist": [
+            {
+                "reading": "ひろ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "しゅう",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -19007,7 +24193,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='持'>haben</span> <span class='meaning_kanji_reading'>(持)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 318
+        "order_wiki": 318,
+        "reading_dist": [
+            {
+                "reading": "も",
+                "count": 25,
+                "prop": 0.81
+            },
+            {
+                "reading": "じ",
+                "count": 6,
+                "prop": 0.19
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -19075,7 +24273,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='指'>Finger</span> <span class='meaning_kanji_reading'>(指)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 319
+        "order_wiki": 319,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 14,
+                "prop": 0.64
+            },
+            {
+                "reading": "ゆび",
+                "count": 5,
+                "prop": 0.23
+            },
+            {
+                "reading": "さ",
+                "count": 2,
+                "prop": 0.09
+            },
+            {
+                "reading": "さし",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -19143,7 +24363,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='放'>loslassen</span> <span class='meaning_kanji_reading'>(放)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 320
+        "order_wiki": 320,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 16,
+                "prop": 0.8
+            },
+            {
+                "reading": "はな",
+                "count": 3,
+                "prop": 0.15
+            },
+            {
+                "reading": "ほうり",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -19210,7 +24447,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='整'>in Ordnung sein</span> <span class='meaning_kanji_reading'>(整)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 321
+        "order_wiki": 321,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "ととの",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -19269,7 +24518,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='旅'>Reise</span> <span class='meaning_kanji_reading'>(旅)</span> mit dem Cab<span class='reading onyomi' data-hiragana='りょ'>rio</span> <span class='hiragana'>(りょ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 322
+        "order_wiki": 322,
+        "reading_dist": [
+            {
+                "reading": "りょ",
+                "count": 10,
+                "prop": 0.77
+            },
+            {
+                "reading": "たび",
+                "count": 3,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -19326,7 +24587,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='族'>Familie</span> <span class='meaning_kanji_reading'>(族)</span> , <span class='reading onyomi' data-hiragana='ぞく'>Zoku</span> <span class='hiragana'>(ぞく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 323
+        "order_wiki": 323,
+        "reading_dist": [
+            {
+                "reading": "ぞく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -19383,7 +24651,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='昔'>frühere Zeiten</span> <span class='meaning_kanji_reading'>(昔)</span> , <span class='reading kunyomi' data-hiragana='むかし'>Mukashi</span> <span class='hiragana'>(むかし)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 324
+        "order_wiki": 324,
+        "reading_dist": [
+            {
+                "reading": "むかし",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -19435,7 +24710,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='昭'>prächtig</span> <span class='meaning_kanji_reading'>(昭)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 325
+        "order_wiki": 325,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -19491,7 +24773,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='暑'>heiß (Wetter)</span> <span class='meaning_kanji_reading'>(暑)</span> , <span class='reading kunyomi' data-hiragana='あつ'>Atsu</span> <span class='hiragana'>(あつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 326
+        "order_wiki": 326,
+        "reading_dist": [
+            {
+                "reading": "あつ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "しょ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -19554,7 +24848,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='暗'>dunkel</span> <span class='meaning_kanji_reading'>(暗)</span> , <span class='reading onyomi' data-hiragana='あん'>An</span> <span class='hiragana'>(あん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 327
+        "order_wiki": 327,
+        "reading_dist": [
+            {
+                "reading": "あん",
+                "count": 9,
+                "prop": 0.82
+            },
+            {
+                "reading": "くら",
+                "count": 2,
+                "prop": 0.18
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -19622,7 +24928,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='曲'>Melodie</span> <span class='meaning_kanji_reading'>(曲)</span> , <span class='reading onyomi' data-hiragana='きょく'>Kyoku</span> <span class='hiragana'>(きょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 328
+        "order_wiki": 328,
+        "reading_dist": [
+            {
+                "reading": "きょく",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -19685,7 +25003,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='有'>haben</span> <span class='meaning_kanji_reading'>(有)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 329
+        "order_wiki": 329,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 30,
+                "prop": 0.67
+            },
+            {
+                "reading": "あ",
+                "count": 7,
+                "prop": 0.16
+            },
+            {
+                "reading": "あり",
+                "count": 5,
+                "prop": 0.11
+            },
+            {
+                "reading": "う",
+                "count": 3,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -19744,7 +25084,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='服'>Kleidung</span> <span class='meaning_kanji_reading'>(服)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 330
+        "order_wiki": 330,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -19799,7 +25146,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='期'>Periode</span> <span class='meaning_kanji_reading'>(期)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 331
+        "order_wiki": 331,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -19858,7 +25212,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='板'>Brett</span> <span class='meaning_kanji_reading'>(板)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 332
+        "order_wiki": 332,
+        "reading_dist": [
+            {
+                "reading": "いた",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "パンムンジョム",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -19916,7 +25282,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='柱'>Säule</span> <span class='meaning_kanji_reading'>(柱)</span> , <span class='reading onyomi' data-hiragana='ちゅう'>Chuu</span> <span class='hiragana'>(ちゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 333
+        "order_wiki": 333,
+        "reading_dist": [
+            {
+                "reading": "はしら",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -19972,7 +25345,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='根'>Wurzel</span> <span class='meaning_kanji_reading'>(根)</span> , <span class='reading onyomi' data-hiragana='こん'>Kon</span> <span class='hiragana'>(こん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 334
+        "order_wiki": 334,
+        "reading_dist": [
+            {
+                "reading": "こん",
+                "count": 9,
+                "prop": 0.64
+            },
+            {
+                "reading": "ね",
+                "count": 5,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -20027,7 +25412,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='植'>einpflanzen</span> <span class='meaning_kanji_reading'>(植)</span> , <span class='reading onyomi' data-hiragana='しょく'>Shoku</span> <span class='hiragana'>(しょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 335
+        "order_wiki": 335,
+        "reading_dist": [
+            {
+                "reading": "しょく",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "う",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "うえ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -20089,7 +25491,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='業'>Arbeit</span> <span class='meaning_kanji_reading'>(業)</span> , <span class='reading onyomi' data-hiragana='ぎょう'>Gyou</span> <span class='hiragana'>(ぎょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 336
+        "order_wiki": 336,
+        "reading_dist": [
+            {
+                "reading": "ぎょう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -20157,7 +25566,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='様'>so ein...</span> <span class='meaning_kanji_reading'>(様)</span> , <span class='reading kunyomi' data-hiragana='さま'>Sama</span> <span class='hiragana'>(さま)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 337
+        "order_wiki": 337,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "さま",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -20220,7 +25641,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='横'>Seite</span> <span class='meaning_kanji_reading'>(横)</span> , <span class='reading kunyomi' data-hiragana='よこ'>Yoko</span> <span class='hiragana'>(よこ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 338
+        "order_wiki": 338,
+        "reading_dist": [
+            {
+                "reading": "よこ",
+                "count": 13,
+                "prop": 0.59
+            },
+            {
+                "reading": "おう",
+                "count": 9,
+                "prop": 0.41
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -20282,7 +25715,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='橋'>Brücke</span> <span class='meaning_kanji_reading'>(橋)</span> , <span class='reading kunyomi' data-hiragana='はし'>Hashi</span> <span class='hiragana'>(はし)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 339
+        "order_wiki": 339,
+        "reading_dist": [
+            {
+                "reading": "はし",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "きょう",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -20341,7 +25786,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='次'>nächster</span> <span class='meaning_kanji_reading'>(次)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 340
+        "order_wiki": 340,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 10,
+                "prop": 0.56
+            },
+            {
+                "reading": "つぎ",
+                "count": 4,
+                "prop": 0.22
+            },
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "つ",
+                "count": 2,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -20404,7 +25871,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='歯'>Zahn</span> <span class='meaning_kanji_reading'>(歯)</span> , <span class='reading kunyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 341
+        "order_wiki": 341,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 10,
+                "prop": 0.71
+            },
+            {
+                "reading": "し",
+                "count": 4,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -20461,7 +25940,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='死'>Tod</span> <span class='meaning_kanji_reading'>(死)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 342
+        "order_wiki": 342,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 16,
+                "prop": 0.94
+            },
+            {
+                "reading": "しに",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -20521,7 +26012,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='氷'>Eis</span> <span class='meaning_kanji_reading'>(氷)</span> , <span class='reading kunyomi' data-hiragana='こおり'>Koori</span> <span class='hiragana'>(こおり)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 343
+        "order_wiki": 343,
+        "reading_dist": [
+            {
+                "reading": "ひょう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "こおり",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -20587,7 +26090,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='決'>entscheiden</span> <span class='meaning_kanji_reading'>(決)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 344
+        "order_wiki": 344,
+        "reading_dist": [
+            {
+                "reading": "けっ",
+                "count": 16,
+                "prop": 0.53
+            },
+            {
+                "reading": "き",
+                "count": 8,
+                "prop": 0.27
+            },
+            {
+                "reading": "けつ",
+                "count": 6,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -20642,7 +26162,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='油'>Öl</span> <span class='meaning_kanji_reading'>(油)</span> , <span class='reading onyomi' data-hiragana='ゆ'>Yu</span> <span class='hiragana'>(ゆ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 345
+        "order_wiki": 345,
+        "reading_dist": [
+            {
+                "reading": "ゆ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "あぶら",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -20697,7 +26229,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='波'>Welle</span> <span class='meaning_kanji_reading'>(波)</span> , <span class='reading onyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 346
+        "order_wiki": 346,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "なみ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -20766,7 +26310,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='注'>Notiz</span> <span class='meaning_kanji_reading'>(注)</span> , <span class='reading onyomi' data-hiragana='ちゅう'>Chuu</span> <span class='hiragana'>(ちゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 347
+        "order_wiki": 347,
+        "reading_dist": [
+            {
+                "reading": "ちゅう",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "そそ",
+                "count": 2,
+                "prop": 0.18
+            },
+            {
+                "reading": "さ",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -20820,7 +26381,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='泳'>schwimmen</span> <span class='meaning_kanji_reading'>(泳)</span> , <span class='reading kunyomi' data-hiragana='およ'>Oyo</span> <span class='hiragana'>(およ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 348
+        "order_wiki": 348,
+        "reading_dist": [
+            {
+                "reading": "およ",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -20875,7 +26443,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='洋'>Ozean</span> <span class='meaning_kanji_reading'>(洋)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 349
+        "order_wiki": 349,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 12,
+                "prop": 0.86
+            },
+            {
+                "reading": "ズボン",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "コップ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -20941,7 +26526,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='流'>fließen</span> <span class='meaning_kanji_reading'>(流)</span> , <span class='reading onyomi' data-hiragana='りゅう'>Ryuu</span> <span class='hiragana'>(りゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 350
+        "order_wiki": 350,
+        "reading_dist": [
+            {
+                "reading": "りゅう",
+                "count": 13,
+                "prop": 0.65
+            },
+            {
+                "reading": "なが",
+                "count": 5,
+                "prop": 0.25
+            },
+            {
+                "reading": "はや",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "さすが",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -21006,7 +26613,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='消'>löschen</span> <span class='meaning_kanji_reading'>(消)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 351
+        "order_wiki": 351,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 22,
+                "prop": 0.85
+            },
+            {
+                "reading": "け",
+                "count": 2,
+                "prop": 0.08
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "けし",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -21071,7 +26700,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='深'>tief</span> <span class='meaning_kanji_reading'>(深)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 352
+        "order_wiki": 352,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "ふか",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "み",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -21133,7 +26779,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='温'>warm</span> <span class='meaning_kanji_reading'>(温)</span> , <span class='reading onyomi' data-hiragana='おん'>On</span> <span class='hiragana'>(おん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 353
+        "order_wiki": 353,
+        "reading_dist": [
+            {
+                "reading": "おん",
+                "count": 10,
+                "prop": 0.71
+            },
+            {
+                "reading": "あたた",
+                "count": 2,
+                "prop": 0.14
+            },
+            {
+                "reading": "ぬる",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "ぬく",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -21192,7 +26860,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='港'>Hafen</span> <span class='meaning_kanji_reading'>(港)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 354
+        "order_wiki": 354,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "みなと",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -21250,7 +26930,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='湖'>der See</span> <span class='meaning_kanji_reading'>(湖)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 355
+        "order_wiki": 355,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "みずうみ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -21307,7 +26999,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='湯'>heißes Wasser</span> <span class='meaning_kanji_reading'>(湯)</span> , <span class='reading kunyomi' data-hiragana='ゆ'>Yu</span> <span class='hiragana'>(ゆ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 356
+        "order_wiki": 356,
+        "reading_dist": [
+            {
+                "reading": "ゆ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -21359,7 +27058,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='漢'>Han-China</span> <span class='meaning_kanji_reading'>(漢)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 357
+        "order_wiki": 357,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -21419,7 +27125,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='炭'>Holzkohle</span> <span class='meaning_kanji_reading'>(炭)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 358
+        "order_wiki": 358,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "すみ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -21479,7 +27197,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='物'>Sache</span> <span class='meaning_kanji_reading'>(物)</span> , <span class='reading onyomi' data-hiragana='ぶつ'>Butsu</span> <span class='hiragana'>(ぶつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 359
+        "order_wiki": 359,
+        "reading_dist": [
+            {
+                "reading": "もの",
+                "count": 16,
+                "prop": 0.47
+            },
+            {
+                "reading": "ぶっ",
+                "count": 13,
+                "prop": 0.38
+            },
+            {
+                "reading": "ぶつ",
+                "count": 5,
+                "prop": 0.15
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -21535,7 +27270,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='球'>Ball</span> <span class='meaning_kanji_reading'>(球)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 360
+        "order_wiki": 360,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -21596,7 +27338,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='由'>Grund</span> <span class='meaning_kanji_reading'>(由)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 361
+        "order_wiki": 361,
+        "reading_dist": [
+            {
+                "reading": "よし",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "ゆ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "ゆい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -21659,7 +27418,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='申'>sprechen</span> <span class='meaning_kanji_reading'>(申)</span> , <span class='reading kunyomi' data-hiragana='もう'>Mou</span> <span class='hiragana'>(もう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 362
+        "order_wiki": 362,
+        "reading_dist": [
+            {
+                "reading": "もう",
+                "count": 14,
+                "prop": 0.78
+            },
+            {
+                "reading": "しん",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "さる",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "もうし",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -21712,7 +27493,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='界'>Welt</span> <span class='meaning_kanji_reading'>(界)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 363
+        "order_wiki": 363,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -21769,7 +27557,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='畑'>(trockenes) Feld</span> <span class='meaning_kanji_reading'>(畑)</span> , <span class='reading kunyomi' data-hiragana='はたけ'>Hatake</span> <span class='hiragana'>(はたけ)</span>  <span class='reading kunyomi' data-hiragana='はた'>Hata</span> <span class='hiragana'>(はた)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 364
+        "order_wiki": 364,
+        "reading_dist": [
+            {
+                "reading": "はたけ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -21831,7 +27626,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='病'>krank</span> <span class='meaning_kanji_reading'>(病)</span> , <span class='reading onyomi' data-hiragana='びょう'>Byou</span> <span class='hiragana'>(びょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 365
+        "order_wiki": 365,
+        "reading_dist": [
+            {
+                "reading": "びょう",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "やまい",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "や",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -21898,7 +27710,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='発'>Abreise</span> <span class='meaning_kanji_reading'>(発)</span> , <span class='reading onyomi' data-hiragana='はつ'>Hatsu</span> <span class='hiragana'>(はつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 366
+        "order_wiki": 366,
+        "reading_dist": [
+            {
+                "reading": "はっ",
+                "count": 32,
+                "prop": 0.6
+            },
+            {
+                "reading": "はつ",
+                "count": 16,
+                "prop": 0.3
+            },
+            {
+                "reading": "ほっ",
+                "count": 4,
+                "prop": 0.08
+            },
+            {
+                "reading": "ばね",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -21960,7 +27794,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='登'>(hin-)aufsteigen</span> <span class='meaning_kanji_reading'>(登)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>  <span class='reading onyomi' data-hiragana='と'>To</span> <span class='hiragana'>(と)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 367
+        "order_wiki": 367,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 13,
+                "prop": 0.93
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -22019,7 +27865,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='皮'>Haut</span> <span class='meaning_kanji_reading'>(皮)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 368
+        "order_wiki": 368,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "かわ",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -22072,7 +27930,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='皿'>Teller</span> <span class='meaning_kanji_reading'>(皿)</span> , <span class='reading kunyomi' data-hiragana='さら'>Sara</span> <span class='hiragana'>(さら)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 369
+        "order_wiki": 369,
+        "reading_dist": [
+            {
+                "reading": "さら",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -22139,7 +28004,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='相'>gegenseitig</span> <span class='meaning_kanji_reading'>(相)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>  <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 370
+        "order_wiki": 370,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 17,
+                "prop": 0.57
+            },
+            {
+                "reading": "あい",
+                "count": 10,
+                "prop": 0.33
+            },
+            {
+                "reading": "しょう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "すもう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "ふさわ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -22196,7 +28088,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='県'>Präfektur</span> <span class='meaning_kanji_reading'>(県)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 371
+        "order_wiki": 371,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -22260,7 +28159,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='真'>Wirklichkeit</span> <span class='meaning_kanji_reading'>(真)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 372
+        "order_wiki": 372,
+        "reading_dist": [
+            {
+                "reading": "ま",
+                "count": 23,
+                "prop": 0.64
+            },
+            {
+                "reading": "しん",
+                "count": 13,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -22335,7 +28246,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='着'>ankommen</span> <span class='meaning_kanji_reading'>(着)</span> , <span class='reading onyomi' data-hiragana='ちゃく'>Chaku</span> <span class='hiragana'>(ちゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 373
+        "order_wiki": 373,
+        "reading_dist": [
+            {
+                "reading": "ちゃく",
+                "count": 11,
+                "prop": 0.58
+            },
+            {
+                "reading": "き",
+                "count": 6,
+                "prop": 0.32
+            },
+            {
+                "reading": "つ",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "ちゃっこう",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -22393,7 +28326,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='短'>kurz</span> <span class='meaning_kanji_reading'>(短)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 374
+        "order_wiki": 374,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 15,
+                "prop": 0.88
+            },
+            {
+                "reading": "みじか",
+                "count": 2,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -22451,7 +28396,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='研'>Forschung</span> <span class='meaning_kanji_reading'>(研)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 375
+        "order_wiki": 375,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -22507,7 +28464,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='礼'>Ehrerbietung</span> <span class='meaning_kanji_reading'>(礼)</span> , <span class='reading onyomi' data-hiragana='れい'>Rei</span> <span class='hiragana'>(れい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 376
+        "order_wiki": 376,
+        "reading_dist": [
+            {
+                "reading": "れい",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -22566,7 +28530,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='神'>Gott</span> <span class='meaning_kanji_reading'>(神)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 377
+        "order_wiki": 377,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 11,
+                "prop": 0.55
+            },
+            {
+                "reading": "かみ",
+                "count": 3,
+                "prop": 0.15
+            },
+            {
+                "reading": "じん",
+                "count": 2,
+                "prop": 0.1
+            },
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "みこし",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "かぐら",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "かん",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -22630,7 +28631,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='祭'>Fest</span> <span class='meaning_kanji_reading'>(祭)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 378
+        "order_wiki": 378,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "まつ",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -22683,7 +28696,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='福'>Glück</span> <span class='meaning_kanji_reading'>(福)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 379
+        "order_wiki": 379,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -22732,7 +28752,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='秒'>Sekunde</span> <span class='meaning_kanji_reading'>(秒)</span> , <span class='reading onyomi' data-hiragana='びょう'>Byou</span> <span class='hiragana'>(びょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 380
+        "order_wiki": 380,
+        "reading_dist": [
+            {
+                "reading": "びょう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -22788,7 +28815,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='究'>untersuchen</span> <span class='meaning_kanji_reading'>(究)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 381
+        "order_wiki": 381,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -22844,7 +28878,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='章'>Medaille</span> <span class='meaning_kanji_reading'>(章)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 382
+        "order_wiki": 382,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -22898,7 +28939,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='童'>Kind</span> <span class='meaning_kanji_reading'>(童)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 383
+        "order_wiki": 383,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -22957,7 +29005,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='笛'>Flöte</span> <span class='meaning_kanji_reading'>(笛)</span> , <span class='reading onyomi' data-hiragana='てき'>Teki</span> <span class='hiragana'>(てき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 384
+        "order_wiki": 384,
+        "reading_dist": [
+            {
+                "reading": "ふえ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -23012,7 +29067,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='第'>Reihenfolge</span> <span class='meaning_kanji_reading'>(第)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 385
+        "order_wiki": 385,
+        "reading_dist": [
+            {
+                "reading": "だい",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -23070,7 +29132,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='筆'>Pinsel</span> <span class='meaning_kanji_reading'>(筆)</span> , <span class='reading onyomi' data-hiragana='ひつ'>Hitsu</span> <span class='hiragana'>(ひつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 386
+        "order_wiki": 386,
+        "reading_dist": [
+            {
+                "reading": "ひっ",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "ふで",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "ひつ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -23135,7 +29214,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='等'>gleiche Weise</span> <span class='meaning_kanji_reading'>(等)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 387
+        "order_wiki": 387,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "など",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "ひと",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "なおざり",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -23196,7 +29297,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='箱'>Schachtel</span> <span class='meaning_kanji_reading'>(箱)</span> , <span class='reading kunyomi' data-hiragana='はこ'>Hako</span> <span class='hiragana'>(はこ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 388
+        "order_wiki": 388,
+        "reading_dist": [
+            {
+                "reading": "はこ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -23251,7 +29359,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='級'>Rang</span> <span class='meaning_kanji_reading'>(級)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 389
+        "order_wiki": 389,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -23317,7 +29432,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='終'>beenden</span> <span class='meaning_kanji_reading'>(終)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 390
+        "order_wiki": 390,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 16,
+                "prop": 0.8
+            },
+            {
+                "reading": "お",
+                "count": 3,
+                "prop": 0.15
+            },
+            {
+                "reading": "おわり",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -23376,7 +29508,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_reading'>(緑)</span> , <span class='reading kunyomi' data-hiragana='みどり'>Midori</span> <span class='hiragana'>(みどり)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 391
+        "order_wiki": 391,
+        "reading_dist": [
+            {
+                "reading": "みどり",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "りょく",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "りょっか",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -23439,7 +29588,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='練'>trainieren</span> <span class='meaning_kanji_reading'>(練)</span> , <span class='reading onyomi' data-hiragana='れん'>Ren</span> <span class='hiragana'>(れん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 392
+        "order_wiki": 392,
+        "reading_dist": [
+            {
+                "reading": "ね",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "れん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -23489,7 +29650,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='羊'>Schaf</span> <span class='meaning_kanji_reading'>(羊)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 393
+        "order_wiki": 393,
+        "reading_dist": [
+            {
+                "reading": "ひつじ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "よう",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -23551,7 +29724,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='美'>schön</span> <span class='meaning_kanji_reading'>(美)</span> , <span class='reading onyomi' data-hiragana='び'>Bi</span> <span class='hiragana'>(び)</span>  <span class='reading onyomi' data-hiragana='み'>Mi</span> <span class='hiragana'>(み)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 394
+        "order_wiki": 394,
+        "reading_dist": [
+            {
+                "reading": "び",
+                "count": 14,
+                "prop": 0.88
+            },
+            {
+                "reading": "おい",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "うつく",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -23608,7 +29798,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='習'>lernen</span> <span class='meaning_kanji_reading'>(習)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 395
+        "order_wiki": 395,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "なら",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -23665,7 +29867,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='者'>Person</span> <span class='meaning_kanji_reading'>(者)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 396
+        "order_wiki": 396,
+        "reading_dist": [
+            {
+                "reading": "もの",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -23728,7 +29937,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='育'>aufwachsen</span> <span class='meaning_kanji_reading'>(育)</span> , <span class='reading onyomi' data-hiragana='いく'>Iku</span> <span class='hiragana'>(いく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 397
+        "order_wiki": 397,
+        "reading_dist": [
+            {
+                "reading": "そだ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "いく",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "はぐく",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -23794,7 +30020,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='苦'>bitter</span> <span class='meaning_kanji_reading'>(苦)</span> , <span class='reading onyomi' data-hiragana='く'>Ku</span> <span class='hiragana'>(く)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 398
+        "order_wiki": 398,
+        "reading_dist": [
+            {
+                "reading": "く",
+                "count": 12,
+                "prop": 0.6
+            },
+            {
+                "reading": "くる",
+                "count": 4,
+                "prop": 0.2
+            },
+            {
+                "reading": "にが",
+                "count": 3,
+                "prop": 0.15
+            },
+            {
+                "reading": "クーリー",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -23862,7 +30110,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='荷'>Last</span> <span class='meaning_kanji_reading'>(荷)</span> , <span class='reading kunyomi' data-hiragana='に'>Ni</span> <span class='hiragana'>(に)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 399
+        "order_wiki": 399,
+        "reading_dist": [
+            {
+                "reading": "に",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -23926,7 +30181,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='落'>fallen</span> <span class='meaning_kanji_reading'>(落)</span> , <span class='reading onyomi' data-hiragana='らく'>Raku</span> <span class='hiragana'>(らく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 400
+        "order_wiki": 400,
+        "reading_dist": [
+            {
+                "reading": "お",
+                "count": 13,
+                "prop": 0.59
+            },
+            {
+                "reading": "らく",
+                "count": 8,
+                "prop": 0.36
+            },
+            {
+                "reading": "らっか",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -23994,7 +30266,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='葉'>Blatt (einer Pflanze)</span> <span class='meaning_kanji_reading'>(葉)</span> , <span class='reading kunyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 401
+        "order_wiki": 401,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -24054,7 +30333,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='薬'>Medizin</span> <span class='meaning_kanji_reading'>(薬)</span> , <span class='reading onyomi' data-hiragana='やく'>Yaku</span> <span class='hiragana'>(やく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 402
+        "order_wiki": 402,
+        "reading_dist": [
+            {
+                "reading": "やく",
+                "count": 6,
+                "prop": 0.55
+            },
+            {
+                "reading": "くすり",
+                "count": 2,
+                "prop": 0.18
+            },
+            {
+                "reading": "やっきょく",
+                "count": 1,
+                "prop": 0.09
+            },
+            {
+                "reading": "やかん",
+                "count": 1,
+                "prop": 0.09
+            },
+            {
+                "reading": "やっか",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -24104,7 +30410,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='血'>Blut</span> <span class='meaning_kanji_reading'>(血)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 403
+        "order_wiki": 403,
+        "reading_dist": [
+            {
+                "reading": "けつ",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "けっ",
+                "count": 2,
+                "prop": 0.22
+            },
+            {
+                "reading": "ち",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -24169,7 +30492,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='表'>zeigen</span> <span class='meaning_kanji_reading'>(表)</span> , <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 404
+        "order_wiki": 404,
+        "reading_dist": [
+            {
+                "reading": "ひょう",
+                "count": 15,
+                "prop": 0.71
+            },
+            {
+                "reading": "おもて",
+                "count": 5,
+                "prop": 0.24
+            },
+            {
+                "reading": "あらわ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -24225,7 +30565,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='詩'>Gedicht</span> <span class='meaning_kanji_reading'>(詩)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 405
+        "order_wiki": 405,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -24295,7 +30642,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='調'>untersuchen</span> <span class='meaning_kanji_reading'>(調)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 406
+        "order_wiki": 406,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 12,
+                "prop": 0.86
+            },
+            {
+                "reading": "しら",
+                "count": 2,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -24348,7 +30707,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='談'>Gespräch</span> <span class='meaning_kanji_reading'>(談)</span> , <span class='reading onyomi' data-hiragana='だん'>Dan</span> <span class='hiragana'>(だん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 407
+        "order_wiki": 407,
+        "reading_dist": [
+            {
+                "reading": "だん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -24403,7 +30769,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='豆'>Bohnen</span> <span class='meaning_kanji_reading'>(豆)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 408
+        "order_wiki": 408,
+        "reading_dist": [
+            {
+                "reading": "まめ",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "とう",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -24470,7 +30848,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='負'>verlieren</span> <span class='meaning_kanji_reading'>(負)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 409
+        "order_wiki": 409,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 5,
+                "prop": 0.42
+            },
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "お",
+                "count": 3,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -24532,7 +30927,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='起'>aufwachen</span> <span class='meaning_kanji_reading'>(起)</span> , <span class='reading kunyomi' data-hiragana='お'>O</span> <span class='hiragana'>(お)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 410
+        "order_wiki": 410,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 15,
+                "prop": 0.79
+            },
+            {
+                "reading": "お",
+                "count": 4,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -24593,7 +31000,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='路'>Weg</span> <span class='meaning_kanji_reading'>(路)</span> Makierung ist <span class='reading onyomi' data-hiragana='ろ'>Ro</span>t <span class='hiragana'>(ろ)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 411
+        "order_wiki": 411,
+        "reading_dist": [
+            {
+                "reading": "ろ",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -24651,7 +31065,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='身'>Körper</span> <span class='meaning_kanji_reading'>(身)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 412
+        "order_wiki": 412,
+        "reading_dist": [
+            {
+                "reading": "み",
+                "count": 18,
+                "prop": 0.72
+            },
+            {
+                "reading": "しん",
+                "count": 7,
+                "prop": 0.28
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -24716,7 +31142,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='転'>rollen</span> <span class='meaning_kanji_reading'>(転)</span> , <span class='reading onyomi' data-hiragana='てん'>Ten</span> <span class='hiragana'>(てん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 413
+        "order_wiki": 413,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 19,
+                "prop": 0.86
+            },
+            {
+                "reading": "ころ",
+                "count": 3,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -24780,7 +31218,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='軽'>leicht</span> <span class='meaning_kanji_reading'>(軽)</span> , <span class='reading kunyomi' data-hiragana='かる'>Karu</span> <span class='hiragana'>(かる)</span>  <span class='reading kunyomi' data-hiragana='かろ'>Karo</span> <span class='hiragana'>(かろ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 414
+        "order_wiki": 414,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 13,
+                "prop": 0.76
+            },
+            {
+                "reading": "かる",
+                "count": 3,
+                "prop": 0.18
+            },
+            {
+                "reading": "かろ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -24832,7 +31287,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='農'>Landwirtschaft</span> <span class='meaning_kanji_reading'>(農)</span> , <span class='reading onyomi' data-hiragana='のう'>Nou</span> <span class='hiragana'>(のう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 415
+        "order_wiki": 415,
+        "reading_dist": [
+            {
+                "reading": "のう",
+                "count": 22,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -24894,7 +31356,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='返'>zurück-...</span> <span class='meaning_kanji_reading'>(返)</span> , <span class='reading onyomi' data-hiragana='へん'>Hen</span> <span class='hiragana'>(へん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 416
+        "order_wiki": 416,
+        "reading_dist": [
+            {
+                "reading": "へん",
+                "count": 10,
+                "prop": 0.77
+            },
+            {
+                "reading": "かえ",
+                "count": 3,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -24954,7 +31428,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='追'>verfolgen</span> <span class='meaning_kanji_reading'>(追)</span> , <span class='reading kunyomi' data-hiragana='お'>O</span> <span class='hiragana'>(お)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 417
+        "order_wiki": 417,
+        "reading_dist": [
+            {
+                "reading": "お",
+                "count": 13,
+                "prop": 0.52
+            },
+            {
+                "reading": "つい",
+                "count": 12,
+                "prop": 0.48
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -25013,7 +31499,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='送'>senden</span> <span class='meaning_kanji_reading'>(送)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 418
+        "order_wiki": 418,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 12,
+                "prop": 0.67
+            },
+            {
+                "reading": "おく",
+                "count": 6,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -25072,7 +31570,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='速'>schnell</span> <span class='meaning_kanji_reading'>(速)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 419
+        "order_wiki": 419,
+        "reading_dist": [
+            {
+                "reading": "そく",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "そっきゅう",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "はや",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "すみ",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "そっこう",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -25131,7 +31656,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='進'>vorwärts gehen</span> <span class='meaning_kanji_reading'>(進)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 420
+        "order_wiki": 420,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 12,
+                "prop": 0.8
+            },
+            {
+                "reading": "すす",
+                "count": 3,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25198,7 +31735,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='遊'>spielen</span> <span class='meaning_kanji_reading'>(遊)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 421
+        "order_wiki": 421,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "あそ",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25266,7 +31815,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='運'>Bewegung</span> <span class='meaning_kanji_reading'>(運)</span> , <span class='reading onyomi' data-hiragana='うん'>Un</span> <span class='hiragana'>(うん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 422
+        "order_wiki": 422,
+        "reading_dist": [
+            {
+                "reading": "うん",
+                "count": 22,
+                "prop": 0.92
+            },
+            {
+                "reading": "はこ",
+                "count": 2,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -25331,7 +31892,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='部'>Bereich</span> <span class='meaning_kanji_reading'>(部)</span> , <span class='reading onyomi' data-hiragana='ぶ'>Bu</span> <span class='hiragana'>(ぶ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 423
+        "order_wiki": 423,
+        "reading_dist": [
+            {
+                "reading": "ぶ",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "へや",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -25391,7 +31964,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='都'>Hauptstadt</span> <span class='meaning_kanji_reading'>(都)</span> , <span class='reading onyomi' data-hiragana='と'>To</span> <span class='hiragana'>(と)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 424
+        "order_wiki": 424,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 14,
+                "prop": 0.82
+            },
+            {
+                "reading": "つ",
+                "count": 2,
+                "prop": 0.12
+            },
+            {
+                "reading": "みやこ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -25448,7 +32038,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='配'>verteilen</span> <span class='meaning_kanji_reading'>(配)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 425
+        "order_wiki": 425,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 20,
+                "prop": 0.91
+            },
+            {
+                "reading": "くば",
+                "count": 2,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -25506,7 +32108,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='酒'>Alkohol</span> <span class='meaning_kanji_reading'>(酒)</span> , <span class='reading onyomi' data-hiragana='しゅ'>Shu</span> <span class='hiragana'>(しゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 426
+        "order_wiki": 426,
+        "reading_dist": [
+            {
+                "reading": "さか",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "しゅ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "さけ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -25576,7 +32195,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='重'>schwer</span> <span class='meaning_kanji_reading'>(重)</span> , <span class='reading onyomi' data-hiragana='じゅう'>Juu</span> <span class='hiragana'>(じゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 427
+        "order_wiki": 427,
+        "reading_dist": [
+            {
+                "reading": "じゅう",
+                "count": 24,
+                "prop": 0.62
+            },
+            {
+                "reading": "おも",
+                "count": 10,
+                "prop": 0.26
+            },
+            {
+                "reading": "かさ",
+                "count": 3,
+                "prop": 0.08
+            },
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -25629,7 +32270,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鉄'>Eisen</span> <span class='meaning_kanji_reading'>(鉄)</span> , <span class='reading onyomi' data-hiragana='てつ'>Tetsu</span> <span class='hiragana'>(てつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 428
+        "order_wiki": 428,
+        "reading_dist": [
+            {
+                "reading": "てっ",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "てつ",
+                "count": 3,
+                "prop": 0.27
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -25680,7 +32333,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='銀'>Silber</span> <span class='meaning_kanji_reading'>(銀)</span> , <span class='reading onyomi' data-hiragana='ぎん'>Gin</span> <span class='hiragana'>(ぎん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 429
+        "order_wiki": 429,
+        "reading_dist": [
+            {
+                "reading": "ぎん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25743,7 +32403,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='開'>offen</span> <span class='meaning_kanji_reading'>(開)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 430
+        "order_wiki": 430,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 29,
+                "prop": 0.83
+            },
+            {
+                "reading": "ひら",
+                "count": 5,
+                "prop": 0.14
+            },
+            {
+                "reading": "あ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -25801,7 +32478,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='院'>Institut</span> <span class='meaning_kanji_reading'>(院)</span> , <span class='reading onyomi' data-hiragana='いん'>In</span> <span class='hiragana'>(いん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 431
+        "order_wiki": 431,
+        "reading_dist": [
+            {
+                "reading": "いん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25863,7 +32547,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='陽'>Sonnenlicht</span> <span class='meaning_kanji_reading'>(陽)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 432
+        "order_wiki": 432,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25923,7 +32614,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='階'>Stockwerk</span> <span class='meaning_kanji_reading'>(階)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 433
+        "order_wiki": 433,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -25984,7 +32682,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='集'>ansammeln</span> <span class='meaning_kanji_reading'>(集)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 434
+        "order_wiki": 434,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 16,
+                "prop": 0.76
+            },
+            {
+                "reading": "あつ",
+                "count": 3,
+                "prop": 0.14
+            },
+            {
+                "reading": "たか",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "つど",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -26040,7 +32760,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='面'>Gesicht</span> <span class='meaning_kanji_reading'>(面)</span> , <span class='reading onyomi' data-hiragana='めん'>Men</span> <span class='hiragana'>(めん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 435
+        "order_wiki": 435,
+        "reading_dist": [
+            {
+                "reading": "めん",
+                "count": 10,
+                "prop": 0.62
+            },
+            {
+                "reading": "おも",
+                "count": 4,
+                "prop": 0.25
+            },
+            {
+                "reading": "にきび",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "メンツ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -26097,7 +32839,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='題'>Thema</span> <span class='meaning_kanji_reading'>(題)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 436
+        "order_wiki": 436,
+        "reading_dist": [
+            {
+                "reading": "だい",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -26156,7 +32905,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='飲'>trinken</span> <span class='meaning_kanji_reading'>(飲)</span> , <span class='reading kunyomi' data-hiragana='の'>No</span> <span class='hiragana'>(の)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 437
+        "order_wiki": 437,
+        "reading_dist": [
+            {
+                "reading": "いん",
+                "count": 6,
+                "prop": 0.55
+            },
+            {
+                "reading": "の",
+                "count": 5,
+                "prop": 0.45
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -26216,7 +32977,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='館'>großes Gebäude</span> <span class='meaning_kanji_reading'>(館)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 438
+        "order_wiki": 438,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -26266,7 +33034,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='駅'>Bahnhof</span> <span class='meaning_kanji_reading'>(駅)</span> , <span class='reading onyomi' data-hiragana='えき'>Eki</span> <span class='hiragana'>(えき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 439
+        "order_wiki": 439,
+        "reading_dist": [
+            {
+                "reading": "えき",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -26325,7 +33100,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鼻'>Nase</span> <span class='meaning_kanji_reading'>(鼻)</span> , <span class='reading kunyomi' data-hiragana='はな'>Hana</span> <span class='hiragana'>(はな)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 440
+        "order_wiki": 440,
+        "reading_dist": [
+            {
+                "reading": "はな",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -26377,7 +33159,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='不'>nicht</span> <span class='meaning_kanji_reading'>(不)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 461
+        "order_wiki": 461,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 108,
+                "prop": 0.97
+            },
+            {
+                "reading": "ぶ",
+                "count": 2,
+                "prop": 0.02
+            },
+            {
+                "reading": "まず",
+                "count": 1,
+                "prop": 0.01
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -26440,7 +33239,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='争'>Streit</span> <span class='meaning_kanji_reading'>(争)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 462
+        "order_wiki": 462,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "あらそ",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -26513,7 +33324,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='付'>anheften</span> <span class='meaning_kanji_reading'>(付)</span> , <span class='reading kunyomi' data-hiragana='つ'>Tsu</span> <span class='hiragana'>(つ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 463
+        "order_wiki": 463,
+        "reading_dist": [
+            {
+                "reading": "つ",
+                "count": 12,
+                "prop": 0.63
+            },
+            {
+                "reading": "ふ",
+                "count": 7,
+                "prop": 0.37
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -26560,7 +33383,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='令'>Befehl</span> <span class='meaning_kanji_reading'>(令)</span> , <span class='reading onyomi' data-hiragana='れい'>Rei</span> <span class='hiragana'>(れい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 464
+        "order_wiki": 464,
+        "reading_dist": [
+            {
+                "reading": "れい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -26626,7 +33456,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='以'>Ausgangspunkt</span> <span class='meaning_kanji_reading'>(以)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 465
+        "order_wiki": 465,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "もっ",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -26682,7 +33524,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='仲'>Freundschaft</span> <span class='meaning_kanji_reading'>(仲)</span> , <span class='reading kunyomi' data-hiragana='なか'>Naka</span> <span class='hiragana'>(なか)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 466
+        "order_wiki": 466,
+        "reading_dist": [
+            {
+                "reading": "なか",
+                "count": 8,
+                "prop": 0.73
+            },
+            {
+                "reading": "ちゅう",
+                "count": 2,
+                "prop": 0.18
+            },
+            {
+                "reading": "なこうど",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -26753,7 +33612,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='伝'>Verbindung</span> <span class='meaning_kanji_reading'>(伝)</span> , <span class='reading onyomi' data-hiragana='でん'>Den</span> <span class='hiragana'>(でん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 467
+        "order_wiki": 467,
+        "reading_dist": [
+            {
+                "reading": "でん",
+                "count": 13,
+                "prop": 0.81
+            },
+            {
+                "reading": "つた",
+                "count": 3,
+                "prop": 0.19
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -26814,7 +33685,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='位'>Rang</span> <span class='meaning_kanji_reading'>(位)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 468
+        "order_wiki": 468,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "くらい",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -26876,7 +33759,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='低'>niedrig</span> <span class='meaning_kanji_reading'>(低)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 469
+        "order_wiki": 469,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 13,
+                "prop": 0.87
+            },
+            {
+                "reading": "ひく",
+                "count": 2,
+                "prop": 0.13
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -26939,7 +33834,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='例'>Beispiel</span> <span class='meaning_kanji_reading'>(例)</span> , <span class='reading onyomi' data-hiragana='れい'>Rei</span> <span class='hiragana'>(れい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 470
+        "order_wiki": 470,
+        "reading_dist": [
+            {
+                "reading": "れい",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "たと",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -27012,7 +33919,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='便'>Bequemlichkeit</span> <span class='meaning_kanji_reading'>(便)</span> , <span class='reading onyomi' data-hiragana='べん'>Ben</span> <span class='hiragana'>(べん)</span>  <span class='reading onyomi' data-hiragana='びん'>Bin</span> <span class='hiragana'>(びん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 471
+        "order_wiki": 471,
+        "reading_dist": [
+            {
+                "reading": "べん",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "びん",
+                "count": 3,
+                "prop": 0.33
+            },
+            {
+                "reading": "たよ",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -27067,7 +33991,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='信'>Vertrauen</span> <span class='meaning_kanji_reading'>(信)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 472
+        "order_wiki": 472,
+        "reading_dist": [
+            {
+                "reading": "しん",
+                "count": 20,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -27118,7 +34049,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='倉'>Lagerhaus</span> <span class='meaning_kanji_reading'>(倉)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 473
+        "order_wiki": 473,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "くら",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -27186,7 +34129,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='候'>Wetter</span> <span class='meaning_kanji_reading'>(候)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 474
+        "order_wiki": 474,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -27241,7 +34191,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='借'>entleihen</span> <span class='meaning_kanji_reading'>(借)</span> , <span class='reading onyomi' data-hiragana='しゃく'>Shaku</span> <span class='hiragana'>(しゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 475
+        "order_wiki": 475,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "しゃく",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "しゃっきん",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "かり",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "しゃっかん",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -27300,7 +34277,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='健'>Gesundheit</span> <span class='meaning_kanji_reading'>(健)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 476
+        "order_wiki": 476,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "すこ",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "けなげ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -27365,7 +34359,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='側'>Seite</span> <span class='meaning_kanji_reading'>(側)</span> , <span class='reading kunyomi' data-hiragana='がわ'>Gawa</span> <span class='hiragana'>(がわ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 477
+        "order_wiki": 477,
+        "reading_dist": [
+            {
+                "reading": "がわ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "そく",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "そっきん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -27425,7 +34436,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='働'>arbeiten</span> <span class='meaning_kanji_reading'>(働)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 478
+        "order_wiki": 478,
+        "reading_dist": [
+            {
+                "reading": "はたら",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -27475,7 +34493,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='億'>einhundert Millionen</span> <span class='meaning_kanji_reading'>(億)</span> , <span class='reading onyomi' data-hiragana='おく'>Oku</span> <span class='hiragana'>(おく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 479
+        "order_wiki": 479,
+        "reading_dist": [
+            {
+                "reading": "おく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -27529,7 +34554,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='兆'>Billion</span> <span class='meaning_kanji_reading'>(兆)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 480
+        "order_wiki": 480,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "きざ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -27594,7 +34631,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='児'>Kind</span> <span class='meaning_kanji_reading'>(児)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 481
+        "order_wiki": 481,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -27656,7 +34700,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='共'>zusammen</span> <span class='meaning_kanji_reading'>(共)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 482
+        "order_wiki": 482,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 28,
+                "prop": 0.85
+            },
+            {
+                "reading": "とも",
+                "count": 5,
+                "prop": 0.15
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -27721,7 +34777,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='兵'>Soldat</span> <span class='meaning_kanji_reading'>(兵)</span> , <span class='reading onyomi' data-hiragana='へい'>Hei</span> <span class='hiragana'>(へい)</span>  <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 483
+        "order_wiki": 483,
+        "reading_dist": [
+            {
+                "reading": "へい",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -27778,7 +34841,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='典'>Gesetzbuch</span> <span class='meaning_kanji_reading'>(典)</span> , <span class='reading onyomi' data-hiragana='てん'>Ten</span> <span class='hiragana'>(てん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 484
+        "order_wiki": 484,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -27844,7 +34914,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='冷'>kühlen</span> <span class='meaning_kanji_reading'>(冷)</span> , <span class='reading onyomi' data-hiragana='れい'>Rei</span> <span class='hiragana'>(れい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 485
+        "order_wiki": 485,
+        "reading_dist": [
+            {
+                "reading": "れい",
+                "count": 15,
+                "prop": 0.6
+            },
+            {
+                "reading": "ひ",
+                "count": 7,
+                "prop": 0.28
+            },
+            {
+                "reading": "さ",
+                "count": 2,
+                "prop": 0.08
+            },
+            {
+                "reading": "つめ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -27909,7 +35001,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='初'>erster</span> <span class='meaning_kanji_reading'>(初)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 487
+        "order_wiki": 487,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 20,
+                "prop": 0.61
+            },
+            {
+                "reading": "はつ",
+                "count": 9,
+                "prop": 0.27
+            },
+            {
+                "reading": "はじ",
+                "count": 3,
+                "prop": 0.09
+            },
+            {
+                "reading": "うい",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -27978,7 +35092,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='別'>sich trennen</span> <span class='meaning_kanji_reading'>(別)</span> , <span class='reading onyomi' data-hiragana='べつ'>Betsu</span> <span class='hiragana'>(べつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 488
+        "order_wiki": 488,
+        "reading_dist": [
+            {
+                "reading": "べっ",
+                "count": 8,
+                "prop": 0.47
+            },
+            {
+                "reading": "べつ",
+                "count": 7,
+                "prop": 0.41
+            },
+            {
+                "reading": "わか",
+                "count": 2,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -28040,7 +35171,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='利'>Gewinn</span> <span class='meaning_kanji_reading'>(利)</span> , <span class='reading onyomi' data-hiragana='り'>Ri</span> <span class='hiragana'>(り)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 489
+        "order_wiki": 489,
+        "reading_dist": [
+            {
+                "reading": "り",
+                "count": 20,
+                "prop": 0.95
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -28104,7 +35247,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='刷'>drucken</span> <span class='meaning_kanji_reading'>(刷)</span> , <span class='reading onyomi' data-hiragana='さつ'>Satsu</span> <span class='hiragana'>(さつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 490
+        "order_wiki": 490,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "さっ",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -28161,7 +35316,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='副'>stellvertretend</span> <span class='meaning_kanji_reading'>(副)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 491
+        "order_wiki": 491,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -28221,7 +35383,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='功'>große Leistung</span> <span class='meaning_kanji_reading'>(功)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 492
+        "order_wiki": 492,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -28283,7 +35452,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='加'>hinzufügen</span> <span class='meaning_kanji_reading'>(加)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 493
+        "order_wiki": 493,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 14,
+                "prop": 0.88
+            },
+            {
+                "reading": "くわ",
+                "count": 2,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -28345,7 +35526,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='努'>sich anstrengen</span> <span class='meaning_kanji_reading'>(努)</span> , <span class='reading onyomi' data-hiragana='ど'>Do</span> <span class='hiragana'>(ど)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 494
+        "order_wiki": 494,
+        "reading_dist": [
+            {
+                "reading": "つと",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ど",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -28409,7 +35602,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='労'>Arbeit</span> <span class='meaning_kanji_reading'>(労)</span> , <span class='reading onyomi' data-hiragana='ろう'>Rou</span> <span class='hiragana'>(ろう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 495
+        "order_wiki": 495,
+        "reading_dist": [
+            {
+                "reading": "ろう",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "いたわ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -28473,7 +35678,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='勇'>Mut</span> <span class='meaning_kanji_reading'>(勇)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 496
+        "order_wiki": 496,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "いさ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -28526,7 +35743,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='包'>verpacken</span> <span class='meaning_kanji_reading'>(包)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 497
+        "order_wiki": 497,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "つつ",
+                "count": 4,
+                "prop": 0.44
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -28592,7 +35821,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='卒'>absolvieren</span> <span class='meaning_kanji_reading'>(卒)</span> , <span class='reading onyomi' data-hiragana='そつ'>Sotsu</span> <span class='hiragana'>(そつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 498
+        "order_wiki": 498,
+        "reading_dist": [
+            {
+                "reading": "そつ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -28644,7 +35880,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='協'>Zusammenarbeit</span> <span class='meaning_kanji_reading'>(協)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 499
+        "order_wiki": 499,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -28693,7 +35936,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='単'>einzeln</span> <span class='meaning_kanji_reading'>(単)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 500
+        "order_wiki": 500,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 15,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -28754,7 +36004,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='博'>Doktor</span> <span class='meaning_kanji_reading'>(博)</span> , <span class='reading onyomi' data-hiragana='はく'>Haku</span> <span class='hiragana'>(はく)</span>  <span class='reading onyomi' data-hiragana='ばく'>Baku</span> <span class='hiragana'>(ばく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 501
+        "order_wiki": 501,
+        "reading_dist": [
+            {
+                "reading": "はく",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "はかせ",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "はかた",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -28820,7 +36087,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='印'>Siegel</span> <span class='meaning_kanji_reading'>(印)</span> , <span class='reading onyomi' data-hiragana='いん'>In</span> <span class='hiragana'>(いん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 502
+        "order_wiki": 502,
+        "reading_dist": [
+            {
+                "reading": "いん",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "しるし",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -28894,7 +36173,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='参'>teilnehmen</span> <span class='meaning_kanji_reading'>(参)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 503
+        "order_wiki": 503,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 19,
+                "prop": 0.95
+            },
+            {
+                "reading": "まい",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -28953,7 +36244,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='司'>Verwaltung</span> <span class='meaning_kanji_reading'>(司)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 504
+        "order_wiki": 504,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "つかさど",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -29005,7 +36308,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_reading'>(各)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 505
+        "order_wiki": 505,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "おのおの",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "かっ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -29059,7 +36379,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='周'>Umgebung</span> <span class='meaning_kanji_reading'>(周)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 506
+        "order_wiki": 506,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "まわ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -29120,7 +36452,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='唱'>singen</span> <span class='meaning_kanji_reading'>(唱)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 507
+        "order_wiki": 507,
+        "reading_dist": [
+            {
+                "reading": "とな",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -29184,7 +36523,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='器'>Gefäß</span> <span class='meaning_kanji_reading'>(器)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 508
+        "order_wiki": 508,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "うつわ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -29246,7 +36597,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='固'>hart</span> <span class='meaning_kanji_reading'>(固)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 509
+        "order_wiki": 509,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "かた",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -29308,7 +36671,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='塩'>Salz</span> <span class='meaning_kanji_reading'>(塩)</span> , <span class='reading kunyomi' data-hiragana='しお'>Shio</span> <span class='hiragana'>(しお)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 510
+        "order_wiki": 510,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "しお",
+                "count": 4,
+                "prop": 0.4
+            },
+            {
+                "reading": "あんばい",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -29369,7 +36749,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='変'>seltsam</span> <span class='meaning_kanji_reading'>(変)</span> , <span class='reading onyomi' data-hiragana='へん'>Hen</span> <span class='hiragana'>(へん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 511
+        "order_wiki": 511,
+        "reading_dist": [
+            {
+                "reading": "へん",
+                "count": 17,
+                "prop": 0.77
+            },
+            {
+                "reading": "か",
+                "count": 5,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -29424,7 +36816,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='夫'>Ehemann</span> <span class='meaning_kanji_reading'>(夫)</span> , <span class='reading onyomi' data-hiragana='ふう'>Fuu</span> <span class='hiragana'>(ふう)</span>  <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 512
+        "order_wiki": 512,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "おっと",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "ふう",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -29483,7 +36892,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='失'>verlieren</span> <span class='meaning_kanji_reading'>(失)</span> , <span class='reading onyomi' data-hiragana='しつ'>Shitsu</span> <span class='hiragana'>(しつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 513
+        "order_wiki": 513,
+        "reading_dist": [
+            {
+                "reading": "しっ",
+                "count": 11,
+                "prop": 0.58
+            },
+            {
+                "reading": "しつ",
+                "count": 7,
+                "prop": 0.37
+            },
+            {
+                "reading": "うしな",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -29545,7 +36971,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='好'>mögen</span> <span class='meaning_kanji_reading'>(好)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 514
+        "order_wiki": 514,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 16,
+                "prop": 0.67
+            },
+            {
+                "reading": "この",
+                "count": 4,
+                "prop": 0.17
+            },
+            {
+                "reading": "す",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "ず",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -29596,7 +37044,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_reading'>(季)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 515
+        "order_wiki": 515,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -29650,7 +37105,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='孫'>Enkelkind</span> <span class='meaning_kanji_reading'>(孫)</span> , <span class='reading onyomi' data-hiragana='そん'>Son</span> <span class='hiragana'>(そん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 516
+        "order_wiki": 516,
+        "reading_dist": [
+            {
+                "reading": "まご",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -29704,7 +37166,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='完'>vollständig</span> <span class='meaning_kanji_reading'>(完)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 517
+        "order_wiki": 517,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 13,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -29755,7 +37224,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='官'>Regierung</span> <span class='meaning_kanji_reading'>(官)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 518
+        "order_wiki": 518,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -29813,7 +37289,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='害'>Beschädigung</span> <span class='meaning_kanji_reading'>(害)</span> , <span class='reading onyomi' data-hiragana='がい'>Gai</span> <span class='hiragana'>(がい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 519
+        "order_wiki": 519,
+        "reading_dist": [
+            {
+                "reading": "がい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -29870,7 +37353,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='察'>untersuchen</span> <span class='meaning_kanji_reading'>(察)</span> , <span class='reading onyomi' data-hiragana='さつ'>Satsu</span> <span class='hiragana'>(さつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 520
+        "order_wiki": 520,
+        "reading_dist": [
+            {
+                "reading": "さっ",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -29925,7 +37415,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='巣'>Nest</span> <span class='meaning_kanji_reading'>(巣)</span> , <span class='reading kunyomi' data-hiragana='す'>Su</span> <span class='hiragana'>(す)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 521
+        "order_wiki": 521,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -29996,7 +37493,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='差'>Unterschied</span> <span class='meaning_kanji_reading'>(差)</span> , <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 522
+        "order_wiki": 522,
+        "reading_dist": [
+            {
+                "reading": "さ",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "さし",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -30066,7 +37575,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='希'>selten</span> <span class='meaning_kanji_reading'>(希)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 523
+        "order_wiki": 523,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -30122,7 +37638,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='席'>Sitz</span> <span class='meaning_kanji_reading'>(席)</span> , <span class='reading onyomi' data-hiragana='せき'>Seki</span> <span class='hiragana'>(せき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 524
+        "order_wiki": 524,
+        "reading_dist": [
+            {
+                "reading": "せき",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "せっけん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -30191,7 +37719,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='帯'>Gürtel</span> <span class='meaning_kanji_reading'>(帯)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 525
+        "order_wiki": 525,
+        "reading_dist": [
+            {
+                "reading": "おび",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -30256,7 +37796,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='底'>Boden</span> <span class='meaning_kanji_reading'>(底)</span> , <span class='reading kunyomi' data-hiragana='そこ'>Soko</span> <span class='hiragana'>(そこ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 526
+        "order_wiki": 526,
+        "reading_dist": [
+            {
+                "reading": "そこ",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "てい",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -30310,7 +37862,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='府'>Präfektur</span> <span class='meaning_kanji_reading'>(府)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 527
+        "order_wiki": 527,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -30427,7 +37986,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='建'>bauen</span> <span class='meaning_kanji_reading'>(建)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 529
+        "order_wiki": 529,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 13,
+                "prop": 0.72
+            },
+            {
+                "reading": "たて",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "た",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "こん",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -30484,7 +38065,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='径'>Durchmesser</span> <span class='meaning_kanji_reading'>(径)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 530
+        "order_wiki": 530,
+        "reading_dist": []
     },
     {
         "strokes": 10,
@@ -30552,7 +38134,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='徒'>zu Fuß</span> <span class='meaning_kanji_reading'>(徒)</span> , <span class='reading onyomi' data-hiragana='と'>To</span> <span class='hiragana'>(と)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 531
+        "order_wiki": 531,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -30611,7 +38200,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='必'>ohne Zweifel</span> <span class='meaning_kanji_reading'>(必)</span> , <span class='reading onyomi' data-hiragana='ひつ'>Hitsu</span> <span class='hiragana'>(ひつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 532
+        "order_wiki": 532,
+        "reading_dist": [
+            {
+                "reading": "ひっ",
+                "count": 8,
+                "prop": 0.47
+            },
+            {
+                "reading": "ひつ",
+                "count": 7,
+                "prop": 0.41
+            },
+            {
+                "reading": "かなら",
+                "count": 2,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -30670,7 +38276,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='念'>Gedanke</span> <span class='meaning_kanji_reading'>(念)</span> , <span class='reading onyomi' data-hiragana='ねん'>Nen</span> <span class='hiragana'>(ねん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 533
+        "order_wiki": 533,
+        "reading_dist": [
+            {
+                "reading": "ねん",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -30738,7 +38351,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='愛'>Liebe</span> <span class='meaning_kanji_reading'>(愛)</span> , <span class='reading onyomi' data-hiragana='あい'>Ai</span> <span class='hiragana'>(あい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 534
+        "order_wiki": 534,
+        "reading_dist": [
+            {
+                "reading": "あい",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "いと",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -30802,7 +38427,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='成'>etwas erreichen</span> <span class='meaning_kanji_reading'>(成)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 535
+        "order_wiki": 535,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 15,
+                "prop": 0.68
+            },
+            {
+                "reading": "な",
+                "count": 6,
+                "prop": 0.27
+            },
+            {
+                "reading": "なり",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -30857,7 +38499,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='戦'>Krieg</span> <span class='meaning_kanji_reading'>(戦)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 536
+        "order_wiki": 536,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 30,
+                "prop": 0.91
+            },
+            {
+                "reading": "たたか",
+                "count": 2,
+                "prop": 0.06
+            },
+            {
+                "reading": "いくさ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -30925,7 +38584,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='折'>brechen</span> <span class='meaning_kanji_reading'>(折)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 537
+        "order_wiki": 537,
+        "reading_dist": [
+            {
+                "reading": "お",
+                "count": 7,
+                "prop": 0.5
+            },
+            {
+                "reading": "せっ",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "おり",
+                "count": 3,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -30996,7 +38672,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='挙'>hochheben</span> <span class='meaning_kanji_reading'>(挙)</span> , <span class='reading onyomi' data-hiragana='きょ'>Kyo</span> <span class='hiragana'>(きょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 538
+        "order_wiki": 538,
+        "reading_dist": [
+            {
+                "reading": "きょ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "あげ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -31059,7 +38747,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='改'>erneuern</span> <span class='meaning_kanji_reading'>(改)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 539
+        "order_wiki": 539,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 18,
+                "prop": 0.86
+            },
+            {
+                "reading": "あらた",
+                "count": 3,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -31117,7 +38817,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='敗'>besiegen</span> <span class='meaning_kanji_reading'>(敗)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 540
+        "order_wiki": 540,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "やぶ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -31186,7 +38898,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='散'>zerstreuen</span> <span class='meaning_kanji_reading'>(散)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 541
+        "order_wiki": 541,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 8,
+                "prop": 0.57
+            },
+            {
+                "reading": "ち",
+                "count": 6,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -31240,7 +38964,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='料'>Gebühren</span> <span class='meaning_kanji_reading'>(料)</span> , <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 542
+        "order_wiki": 542,
+        "reading_dist": [
+            {
+                "reading": "りょう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -31300,7 +39031,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='旗'>Fahne</span> <span class='meaning_kanji_reading'>(旗)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 543
+        "order_wiki": 543,
+        "reading_dist": [
+            {
+                "reading": "はた",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -31353,7 +39096,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='昨'>gestern</span> <span class='meaning_kanji_reading'>(昨)</span> , <span class='reading onyomi' data-hiragana='さく'>Saku</span> <span class='hiragana'>(さく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 544
+        "order_wiki": 544,
+        "reading_dist": [
+            {
+                "reading": "さく",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "きのう",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "さっこん",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -31405,7 +39165,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='景'>Panorama</span> <span class='meaning_kanji_reading'>(景)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 545
+        "order_wiki": 545,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "けしき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -31469,7 +39241,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='最'>äußerst</span> <span class='meaning_kanji_reading'>(最)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 546
+        "order_wiki": 546,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 48,
+                "prop": 0.94
+            },
+            {
+                "reading": "もっと",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "もはや",
+                "count": 1,
+                "prop": 0.02
+            },
+            {
+                "reading": "もよ",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -31537,7 +39331,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='望'>Wunsch</span> <span class='meaning_kanji_reading'>(望)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 547
+        "order_wiki": 547,
+        "reading_dist": [
+            {
+                "reading": "のぞ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "ぼう",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "もち",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -31602,7 +39413,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='未'>noch</span> <span class='meaning_kanji_reading'>(未)</span> , <span class='reading onyomi' data-hiragana='み'>Mi</span> <span class='hiragana'>(み)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 548
+        "order_wiki": 548,
+        "reading_dist": [
+            {
+                "reading": "み",
+                "count": 21,
+                "prop": 0.84
+            },
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.16
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -31659,7 +39482,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='末'>Ende</span> <span class='meaning_kanji_reading'>(末)</span> , <span class='reading onyomi' data-hiragana='まつ'>Matsu</span> <span class='hiragana'>(まつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 549
+        "order_wiki": 549,
+        "reading_dist": [
+            {
+                "reading": "すえ",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "まっ",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "まつ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -31722,7 +39562,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='札'>Zettel</span> <span class='meaning_kanji_reading'>(札)</span> , <span class='reading onyomi' data-hiragana='さつ'>Satsu</span> <span class='hiragana'>(さつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 550
+        "order_wiki": 550,
+        "reading_dist": [
+            {
+                "reading": "さつ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "さっ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -31781,7 +39633,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='材'>Talent</span> <span class='meaning_kanji_reading'>(材)</span> , <span class='reading onyomi' data-hiragana='ざい'>Zai</span> <span class='hiragana'>(ざい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 551
+        "order_wiki": 551,
+        "reading_dist": [
+            {
+                "reading": "ざい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -31842,7 +39701,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='束'>Bündel</span> <span class='meaning_kanji_reading'>(束)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 552
+        "order_wiki": 552,
+        "reading_dist": [
+            {
+                "reading": "たば",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "そく",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -31898,7 +39769,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='松'>Kiefer</span> <span class='meaning_kanji_reading'>(松)</span> , <span class='reading kunyomi' data-hiragana='まつ'>Matsu</span> <span class='hiragana'>(まつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 553
+        "order_wiki": 553,
+        "reading_dist": [
+            {
+                "reading": "まつ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -31960,7 +39838,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='果'>Frucht</span> <span class='meaning_kanji_reading'>(果)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 554
+        "order_wiki": 554,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 4,
+                "prop": 0.44
+            },
+            {
+                "reading": "は",
+                "count": 4,
+                "prop": 0.44
+            },
+            {
+                "reading": "くだもの",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -32028,7 +39923,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='栄'>glänzen</span> <span class='meaning_kanji_reading'>(栄)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 555
+        "order_wiki": 555,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "さか",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -32091,7 +39998,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='案'>Plan</span> <span class='meaning_kanji_reading'>(案)</span> , <span class='reading onyomi' data-hiragana='あん'>An</span> <span class='hiragana'>(あん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 556
+        "order_wiki": 556,
+        "reading_dist": [
+            {
+                "reading": "あん",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -32150,7 +40064,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='梅'>Pflaume</span> <span class='meaning_kanji_reading'>(梅)</span> , <span class='reading kunyomi' data-hiragana='うめ'>Ume</span> <span class='hiragana'>(うめ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 557
+        "order_wiki": 557,
+        "reading_dist": [
+            {
+                "reading": "うめ",
+                "count": 2,
+                "prop": 0.4
+            },
+            {
+                "reading": "つゆ",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "つゆあ",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "つゆい",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -32299,7 +40235,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='極'>extrem</span> <span class='meaning_kanji_reading'>(極)</span> , <span class='reading onyomi' data-hiragana='きょく'>Kyoku</span> <span class='hiragana'>(きょく)</span>  <span class='reading onyomi' data-hiragana='ごく'>Goku</span> <span class='hiragana'>(ごく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 559
+        "order_wiki": 559,
+        "reading_dist": [
+            {
+                "reading": "きょく",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "ごく",
+                "count": 3,
+                "prop": 0.25
+            },
+            {
+                "reading": "きわ",
+                "count": 3,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -32370,7 +40323,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='標'>Zeichen</span> <span class='meaning_kanji_reading'>(標)</span> , <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 560
+        "order_wiki": 560,
+        "reading_dist": [
+            {
+                "reading": "ひょう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -32442,7 +40402,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='機'>Webstuhl</span> <span class='meaning_kanji_reading'>(機)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 561
+        "order_wiki": 561,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 24,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -32499,7 +40466,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='欠'>Mangel</span> <span class='meaning_kanji_reading'>(欠)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 562
+        "order_wiki": 562,
+        "reading_dist": [
+            {
+                "reading": "けっ",
+                "count": 4,
+                "prop": 0.31
+            },
+            {
+                "reading": "けつ",
+                "count": 4,
+                "prop": 0.31
+            },
+            {
+                "reading": "か",
+                "count": 3,
+                "prop": 0.23
+            },
+            {
+                "reading": "あくび",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "かけ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -32560,7 +40554,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='残'>übrig sein</span> <span class='meaning_kanji_reading'>(残)</span> , <span class='reading onyomi' data-hiragana='ざん'>Zan</span> <span class='hiragana'>(ざん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 563
+        "order_wiki": 563,
+        "reading_dist": [
+            {
+                "reading": "ざん",
+                "count": 9,
+                "prop": 0.64
+            },
+            {
+                "reading": "のこ",
+                "count": 5,
+                "prop": 0.36
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -32616,7 +40622,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_reading'>(氏)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 564
+        "order_wiki": 564,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -32676,7 +40689,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='民'>Volk</span> <span class='meaning_kanji_reading'>(民)</span> , <span class='reading onyomi' data-hiragana='みん'>Min</span> <span class='hiragana'>(みん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 565
+        "order_wiki": 565,
+        "reading_dist": [
+            {
+                "reading": "みん",
+                "count": 28,
+                "prop": 0.97
+            },
+            {
+                "reading": "たみ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -32741,7 +40766,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='求'>erbitten</span> <span class='meaning_kanji_reading'>(求)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 566
+        "order_wiki": 566,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "もと",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -32815,7 +40852,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='治'>regieren</span> <span class='meaning_kanji_reading'>(治)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>  <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 567
+        "order_wiki": 567,
+        "reading_dist": [
+            {
+                "reading": "ち",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "なお",
+                "count": 2,
+                "prop": 0.2
+            },
+            {
+                "reading": "おさ",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -32877,7 +40931,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='法'>Gesetz</span> <span class='meaning_kanji_reading'>(法)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 568
+        "order_wiki": 568,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 25,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -32935,7 +40996,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='泣'>weinen</span> <span class='meaning_kanji_reading'>(泣)</span> , <span class='reading kunyomi' data-hiragana='な'>Na</span> <span class='hiragana'>(な)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 569
+        "order_wiki": 569,
+        "reading_dist": [
+            {
+                "reading": "な",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -32994,7 +41062,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='浅'>seicht</span> <span class='meaning_kanji_reading'>(浅)</span> , <span class='reading kunyomi' data-hiragana='あさ'>Asa</span> <span class='hiragana'>(あさ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 570
+        "order_wiki": 570,
+        "reading_dist": [
+            {
+                "reading": "あさ",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -33050,7 +41125,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='浴'>baden</span> <span class='meaning_kanji_reading'>(浴)</span> , <span class='reading onyomi' data-hiragana='よく'>Yoku</span> <span class='hiragana'>(よく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 571
+        "order_wiki": 571,
+        "reading_dist": [
+            {
+                "reading": "よく",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "あ",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "ゆかた",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -33115,7 +41207,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='清'>rein</span> <span class='meaning_kanji_reading'>(清)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>  <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 572
+        "order_wiki": 572,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 10,
+                "prop": 0.77
+            },
+            {
+                "reading": "きよ",
+                "count": 2,
+                "prop": 0.15
+            },
+            {
+                "reading": "すがすが",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -33179,7 +41288,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='満'>voll</span> <span class='meaning_kanji_reading'>(満)</span> , <span class='reading onyomi' data-hiragana='まん'>Man</span> <span class='hiragana'>(まん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 573
+        "order_wiki": 573,
+        "reading_dist": [
+            {
+                "reading": "まん",
+                "count": 18,
+                "prop": 0.9
+            },
+            {
+                "reading": "み",
+                "count": 2,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -33236,7 +41357,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='漁'>Fischfang</span> <span class='meaning_kanji_reading'>(漁)</span> , <span class='reading onyomi' data-hiragana='ぎょ'>Gyo</span> <span class='hiragana'>(ぎょ)</span>  <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 574
+        "order_wiki": 574,
+        "reading_dist": [
+            {
+                "reading": "ぎょ",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "りょう",
+                "count": 2,
+                "prop": 0.2
+            },
+            {
+                "reading": "あさ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -33299,7 +41437,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='灯'>Licht</span> <span class='meaning_kanji_reading'>(灯)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 575
+        "order_wiki": 575,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ひ",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "とも",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -33354,7 +41509,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='無'>kein</span> <span class='meaning_kanji_reading'>(無)</span> , <span class='reading onyomi' data-hiragana='む'>Mu</span> <span class='hiragana'>(む)</span>  <span class='reading onyomi' data-hiragana='ぶ'>Bu</span> <span class='hiragana'>(ぶ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 576
+        "order_wiki": 576,
+        "reading_dist": [
+            {
+                "reading": "む",
+                "count": 80,
+                "prop": 0.84
+            },
+            {
+                "reading": "な",
+                "count": 11,
+                "prop": 0.12
+            },
+            {
+                "reading": "ぶ",
+                "count": 4,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -33426,7 +41598,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='然'>Bestätigung</span> <span class='meaning_kanji_reading'>(然)</span> , <span class='reading onyomi' data-hiragana='ぜん'>Zen</span> <span class='hiragana'>(ぜん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 577
+        "order_wiki": 577,
+        "reading_dist": [
+            {
+                "reading": "そ",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "しか",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -33487,7 +41671,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='焼'>braten</span> <span class='meaning_kanji_reading'>(焼)</span> , <span class='reading kunyomi' data-hiragana='や'>Ya</span> <span class='hiragana'>(や)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 578
+        "order_wiki": 578,
+        "reading_dist": [
+            {
+                "reading": "や",
+                "count": 7,
+                "prop": 0.64
+            },
+            {
+                "reading": "しょう",
+                "count": 3,
+                "prop": 0.27
+            },
+            {
+                "reading": "やき",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -33550,7 +41751,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='照'>beleuchten</span> <span class='meaning_kanji_reading'>(照)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 579
+        "order_wiki": 579,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "て",
+                "count": 3,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -33612,7 +41825,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='熱'>heiß</span> <span class='meaning_kanji_reading'>(熱)</span> , <span class='reading onyomi' data-hiragana='ねつ'>Netsu</span> <span class='hiragana'>(ねつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 580
+        "order_wiki": 580,
+        "reading_dist": [
+            {
+                "reading": "ねっ",
+                "count": 9,
+                "prop": 0.6
+            },
+            {
+                "reading": "ねつ",
+                "count": 4,
+                "prop": 0.27
+            },
+            {
+                "reading": "あつ",
+                "count": 2,
+                "prop": 0.13
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -33672,7 +41902,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='牧'>Weide</span> <span class='meaning_kanji_reading'>(牧)</span> , <span class='reading onyomi' data-hiragana='ぼく'>Boku</span> <span class='hiragana'>(ぼく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 581
+        "order_wiki": 581,
+        "reading_dist": [
+            {
+                "reading": "ぼく",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -33724,7 +41961,49 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='特'>besonders</span> <span class='meaning_kanji_reading'>(特)</span> , <span class='reading onyomi' data-hiragana='とく'>Toku</span> <span class='hiragana'>(とく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 582
+        "order_wiki": 582,
+        "reading_dist": [
+            {
+                "reading": "とく",
+                "count": 29,
+                "prop": 0.81
+            },
+            {
+                "reading": "とっきゅう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっけん",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっきょ",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっきょちょう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっこうやく",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっこうたい",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "とっくん",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -33794,7 +42073,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='産'>Geburt</span> <span class='meaning_kanji_reading'>(産)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 583
+        "order_wiki": 583,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -33857,7 +42143,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='的'>Ziel</span> <span class='meaning_kanji_reading'>(的)</span> , <span class='reading onyomi' data-hiragana='てき'>Teki</span> <span class='hiragana'>(てき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 584
+        "order_wiki": 584,
+        "reading_dist": [
+            {
+                "reading": "てき",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -33918,7 +42211,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='省'>Ministerium</span> <span class='meaning_kanji_reading'>(省)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 585
+        "order_wiki": 585,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "はぶ",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "かえり",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -33975,7 +42285,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='祝'>feiern</span> <span class='meaning_kanji_reading'>(祝)</span> , <span class='reading onyomi' data-hiragana='しゅく'>Shuku</span> <span class='hiragana'>(しゅく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 586
+        "order_wiki": 586,
+        "reading_dist": [
+            {
+                "reading": "しゅく",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "いわ",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "しゅう",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -34029,7 +42356,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='票'>Wahl</span> <span class='meaning_kanji_reading'>(票)</span> , <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 587
+        "order_wiki": 587,
+        "reading_dist": [
+            {
+                "reading": "ひょう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -34093,7 +42427,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='種'>Samen</span> <span class='meaning_kanji_reading'>(種)</span> , <span class='reading onyomi' data-hiragana='しゅ'>Shu</span> <span class='hiragana'>(しゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 588
+        "order_wiki": 588,
+        "reading_dist": [
+            {
+                "reading": "しゅ",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "たね",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -34157,7 +42503,34 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='積'>anhäufen</span> <span class='meaning_kanji_reading'>(積)</span> , <span class='reading onyomi' data-hiragana='せき'>Seki</span> <span class='hiragana'>(せき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 589
+        "order_wiki": 589,
+        "reading_dist": [
+            {
+                "reading": "つ",
+                "count": 6,
+                "prop": 0.43
+            },
+            {
+                "reading": "せき",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "つみ",
+                "count": 2,
+                "prop": 0.14
+            },
+            {
+                "reading": "せっきょくてき",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "せっきょく",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 20,
@@ -34221,7 +42594,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='競'>Wettstreit</span> <span class='meaning_kanji_reading'>(競)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 590
+        "order_wiki": 590,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 13,
+                "prop": 0.65
+            },
+            {
+                "reading": "けい",
+                "count": 4,
+                "prop": 0.2
+            },
+            {
+                "reading": "せ",
+                "count": 2,
+                "prop": 0.1
+            },
+            {
+                "reading": "きそ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -34278,7 +42673,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='笑'>lachen</span> <span class='meaning_kanji_reading'>(笑)</span> , <span class='reading kunyomi' data-hiragana='わら'>Wara</span> <span class='hiragana'>(わら)</span>  <span class='reading kunyomi' data-hiragana='え'>E</span> <span class='hiragana'>(え)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 591
+        "order_wiki": 591,
+        "reading_dist": [
+            {
+                "reading": "わら",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "え",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -34342,7 +42749,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='管'>Rohr</span> <span class='meaning_kanji_reading'>(管)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 592
+        "order_wiki": 592,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 15,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -34419,7 +42833,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='節'>Gelegenheit</span> <span class='meaning_kanji_reading'>(節)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 593
+        "order_wiki": 593,
+        "reading_dist": [
+            {
+                "reading": "せつ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ふし",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "せっ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -34477,7 +42908,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='約'>etwa</span> <span class='meaning_kanji_reading'>(約)</span> , <span class='reading onyomi' data-hiragana='やく'>Yaku</span> <span class='hiragana'>(やく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 594
+        "order_wiki": 594,
+        "reading_dist": [
+            {
+                "reading": "やく",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -34543,7 +42981,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='結'>binden</span> <span class='meaning_kanji_reading'>(結)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 595
+        "order_wiki": 595,
+        "reading_dist": [
+            {
+                "reading": "けっ",
+                "count": 13,
+                "prop": 0.62
+            },
+            {
+                "reading": "むす",
+                "count": 4,
+                "prop": 0.19
+            },
+            {
+                "reading": "けつ",
+                "count": 3,
+                "prop": 0.14
+            },
+            {
+                "reading": "ゆ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -34606,7 +43066,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='給'>versorgen</span> <span class='meaning_kanji_reading'>(給)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 596
+        "order_wiki": 596,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -34668,7 +43135,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='続'>fortsetzen</span> <span class='meaning_kanji_reading'>(続)</span> , <span class='reading onyomi' data-hiragana='ぞく'>Zoku</span> <span class='hiragana'>(ぞく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 597
+        "order_wiki": 597,
+        "reading_dist": [
+            {
+                "reading": "ぞく",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "つづ",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "ぞっこう",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -34731,7 +43215,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='置'>stellen</span> <span class='meaning_kanji_reading'>(置)</span> , <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 598
+        "order_wiki": 598,
+        "reading_dist": [
+            {
+                "reading": "お",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "おき",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -34788,7 +43284,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Den <span class='meaning' data-kanji='老'>Lebensabend</span> <span class='meaning_kanji_reading'>(老)</span> zu erreichen wäre ich f<span class='reading onyomi' data-hiragana='ろう'>roh</span> <span class='hiragana'>(ろう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 599
+        "order_wiki": 599,
+        "reading_dist": [
+            {
+                "reading": "ろう",
+                "count": 16,
+                "prop": 0.8
+            },
+            {
+                "reading": "お",
+                "count": 2,
+                "prop": 0.1
+            },
+            {
+                "reading": "ふ",
+                "count": 1,
+                "prop": 0.05
+            },
+            {
+                "reading": "しにせ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -34896,7 +43414,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='良'>gut</span> <span class='meaning_kanji_reading'>(良)</span> , <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 601
+        "order_wiki": 601,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 6,
+                "prop": 0.55
+            },
+            {
+                "reading": "りょう",
+                "count": 5,
+                "prop": 0.45
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -34959,7 +43489,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='芸'>Kunst</span> <span class='meaning_kanji_reading'>(芸)</span> , <span class='reading onyomi' data-hiragana='げい'>Gei</span> <span class='hiragana'>(げい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 602
+        "order_wiki": 602,
+        "reading_dist": [
+            {
+                "reading": "げい",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -35017,7 +43554,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='芽'>Keimling</span> <span class='meaning_kanji_reading'>(芽)</span> , <span class='reading kunyomi' data-hiragana='め'>Me</span> <span class='hiragana'>(め)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 603
+        "order_wiki": 603,
+        "reading_dist": [
+            {
+                "reading": "め",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -35076,7 +43620,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='英'>großartig</span> <span class='meaning_kanji_reading'>(英)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 604
+        "order_wiki": 604,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "イングランド",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -35136,7 +43692,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='菜'>Gemüse</span> <span class='meaning_kanji_reading'>(菜)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 605
+        "order_wiki": 605,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -35195,7 +43758,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='街'>Stadtviertel</span> <span class='meaning_kanji_reading'>(街)</span> , <span class='reading onyomi' data-hiragana='がい'>Gai</span> <span class='hiragana'>(がい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 606
+        "order_wiki": 606,
+        "reading_dist": [
+            {
+                "reading": "がい",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "まち",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "かい",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -35247,7 +43827,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='衣'>Bekleidung</span> <span class='meaning_kanji_reading'>(衣)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>  <span class='reading onyomi' data-hiragana='え'>E</span> <span class='hiragana'>(え)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 607
+        "order_wiki": 607,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "ころも",
+                "count": 2,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -35309,7 +43901,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='要'>Notwendigkeit</span> <span class='meaning_kanji_reading'>(要)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 608
+        "order_wiki": 608,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 21,
+                "prop": 0.91
+            },
+            {
+                "reading": "かなめ",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "い",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -35373,7 +43982,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='覚'>sich erinnern</span> <span class='meaning_kanji_reading'>(覚)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 609
+        "order_wiki": 609,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "おぼ",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "さ",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "おぼえ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -35437,7 +44068,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='観'>Beobachtung</span> <span class='meaning_kanji_reading'>(観)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 610
+        "order_wiki": 610,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 14,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -35501,7 +44139,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='訓'>KUN-Lesart</span> <span class='meaning_kanji_reading'>(訓)</span> , <span class='reading onyomi' data-hiragana='くん'>Kun</span> <span class='hiragana'>(くん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 611
+        "order_wiki": 611,
+        "reading_dist": [
+            {
+                "reading": "くん",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -35569,7 +44214,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='試'>erproben</span> <span class='meaning_kanji_reading'>(試)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 612
+        "order_wiki": 612,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 15,
+                "prop": 0.79
+            },
+            {
+                "reading": "ため",
+                "count": 2,
+                "prop": 0.11
+            },
+            {
+                "reading": "こころ",
+                "count": 2,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -35628,7 +44290,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='説'>erklären</span> <span class='meaning_kanji_reading'>(説)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 613
+        "order_wiki": 613,
+        "reading_dist": [
+            {
+                "reading": "せつ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "せっ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -35683,7 +44362,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='課'>Lektion</span> <span class='meaning_kanji_reading'>(課)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 614
+        "order_wiki": 614,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 20,
@@ -35738,7 +44424,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='議'>Diskussion</span> <span class='meaning_kanji_reading'>(議)</span> , <span class='reading onyomi' data-hiragana='ぎ'>Gi</span> <span class='hiragana'>(ぎ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 615
+        "order_wiki": 615,
+        "reading_dist": [
+            {
+                "reading": "ぎ",
+                "count": 15,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -35792,7 +44485,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貨'>Fracht</span> <span class='meaning_kanji_reading'>(貨)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 616
+        "order_wiki": 616,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -35849,7 +44549,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='軍'>Armee</span> <span class='meaning_kanji_reading'>(軍)</span> , <span class='reading onyomi' data-hiragana='ぐん'>Gun</span> <span class='hiragana'>(ぐん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 617
+        "order_wiki": 617,
+        "reading_dist": [
+            {
+                "reading": "ぐん",
+                "count": 20,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -35907,7 +44614,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='静'>ruhig</span> <span class='meaning_kanji_reading'>(静)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 618
+        "order_wiki": 618,
+        "reading_dist": [
+            {
+                "reading": "しず",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "せい",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "じょう",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -35965,7 +44689,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='順'>Ordnung</span> <span class='meaning_kanji_reading'>(順)</span> , <span class='reading onyomi' data-hiragana='じゅん'>Jun</span> <span class='hiragana'>(じゅん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 619
+        "order_wiki": 619,
+        "reading_dist": [
+            {
+                "reading": "じゅん",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 19,
@@ -36026,7 +44757,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='願'>Wunsch</span> <span class='meaning_kanji_reading'>(願)</span> , <span class='reading onyomi' data-hiragana='がん'>Gan</span> <span class='hiragana'>(がん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 620
+        "order_wiki": 620,
+        "reading_dist": [
+            {
+                "reading": "ねが",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "がん",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -36092,7 +44835,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='類'>Sorte</span> <span class='meaning_kanji_reading'>(類)</span> , <span class='reading onyomi' data-hiragana='るい'>Rui</span> <span class='hiragana'>(るい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 621
+        "order_wiki": 621,
+        "reading_dist": [
+            {
+                "reading": "るい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -36142,7 +44892,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='飛'>fliegen</span> <span class='meaning_kanji_reading'>(飛)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 622
+        "order_wiki": 622,
+        "reading_dist": [
+            {
+                "reading": "と",
+                "count": 15,
+                "prop": 0.68
+            },
+            {
+                "reading": "ひ",
+                "count": 7,
+                "prop": 0.32
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -36199,7 +44961,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='飯'>gekochter Reis</span> <span class='meaning_kanji_reading'>(飯)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 623
+        "order_wiki": 623,
+        "reading_dist": [
+            {
+                "reading": "めし",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -36264,7 +45033,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='養'>Aufzucht</span> <span class='meaning_kanji_reading'>(養)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 624
+        "order_wiki": 624,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "やしな",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -36326,7 +45107,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='験'>untersuchen</span> <span class='meaning_kanji_reading'>(験)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 625
+        "order_wiki": 625,
+        "reading_dist": []
     },
     {
         "strokes": 12,
@@ -36382,7 +45164,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='賀'>Glückwünsche</span> <span class='meaning_kanji_reading'>(賀)</span> , <span class='reading onyomi' data-hiragana='が'>Ga</span> <span class='hiragana'>(が)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 626
+        "order_wiki": 626,
+        "reading_dist": []
     },
     {
         "strokes": 13,
@@ -36447,7 +45230,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='群'>Herde</span> <span class='meaning_kanji_reading'>(群)</span> , <span class='reading onyomi' data-hiragana='ぐん'>Gun</span> <span class='hiragana'>(ぐん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 627
+        "order_wiki": 627,
+        "reading_dist": [
+            {
+                "reading": "ぐん",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "む",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "むら",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -36517,7 +45317,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='輪'>Rad</span> <span class='meaning_kanji_reading'>(輪)</span> , <span class='reading onyomi' data-hiragana='りん'>Rin</span> <span class='hiragana'>(りん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 628
+        "order_wiki": 628,
+        "reading_dist": [
+            {
+                "reading": "わ",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "りん",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -36579,7 +45391,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='辞'>Wort</span> <span class='meaning_kanji_reading'>(辞)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 629
+        "order_wiki": 629,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "や",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -36641,7 +45465,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='辺'>benachbart</span> <span class='meaning_kanji_reading'>(辺)</span> , <span class='reading onyomi' data-hiragana='へん'>Hen</span> <span class='hiragana'>(へん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 630
+        "order_wiki": 630,
+        "reading_dist": [
+            {
+                "reading": "へん",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "あた",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -36708,7 +45544,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='連'>begleiten</span> <span class='meaning_kanji_reading'>(連)</span> , <span class='reading onyomi' data-hiragana='れん'>Ren</span> <span class='hiragana'>(れん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 631
+        "order_wiki": 631,
+        "reading_dist": [
+            {
+                "reading": "れん",
+                "count": 34,
+                "prop": 0.81
+            },
+            {
+                "reading": "つ",
+                "count": 5,
+                "prop": 0.12
+            },
+            {
+                "reading": "つら",
+                "count": 2,
+                "prop": 0.05
+            },
+            {
+                "reading": "づ",
+                "count": 1,
+                "prop": 0.02
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -36768,7 +45626,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='達'>erreichen</span> <span class='meaning_kanji_reading'>(達)</span> , <span class='reading onyomi' data-hiragana='たつ'>Tatsu</span> <span class='hiragana'>(たつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 632
+        "order_wiki": 632,
+        "reading_dist": [
+            {
+                "reading": "たっ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "たち",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "たつ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -36829,7 +45704,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='選'>auswählen</span> <span class='meaning_kanji_reading'>(選)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 633
+        "order_wiki": 633,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 19,
+                "prop": 0.83
+            },
+            {
+                "reading": "よ",
+                "count": 3,
+                "prop": 0.13
+            },
+            {
+                "reading": "えら",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -36885,7 +45777,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='郡'>Bezirk</span> <span class='meaning_kanji_reading'>(郡)</span> , <span class='reading onyomi' data-hiragana='ぐん'>Gun</span> <span class='hiragana'>(ぐん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 634
+        "order_wiki": 634,
+        "reading_dist": [
+            {
+                "reading": "ぐん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -36948,7 +45847,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='量'>Menge</span> <span class='meaning_kanji_reading'>(量)</span> , <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 635
+        "order_wiki": 635,
+        "reading_dist": [
+            {
+                "reading": "りょう",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -37005,7 +45911,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='録'>Aufzeichnung</span> <span class='meaning_kanji_reading'>(録)</span> , <span class='reading onyomi' data-hiragana='ろく'>Roku</span> <span class='hiragana'>(ろく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 636
+        "order_wiki": 636,
+        "reading_dist": [
+            {
+                "reading": "ろく",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 19,
@@ -37067,7 +45980,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鏡'>Spiegel</span> <span class='meaning_kanji_reading'>(鏡)</span> , <span class='reading kunyomi' data-hiragana='かがみ'>Kagami</span> <span class='hiragana'>(かがみ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 637
+        "order_wiki": 637,
+        "reading_dist": [
+            {
+                "reading": "かがみ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -37137,7 +46057,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='関'>Grenzposten</span> <span class='meaning_kanji_reading'>(関)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 638
+        "order_wiki": 638,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 13,
+                "prop": 0.72
+            },
+            {
+                "reading": "せき",
+                "count": 3,
+                "prop": 0.17
+            },
+            {
+                "reading": "かか",
+                "count": 2,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -37191,7 +46128,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='陸'>Festland</span> <span class='meaning_kanji_reading'>(陸)</span> , <span class='reading onyomi' data-hiragana='りく'>Riku</span> <span class='hiragana'>(りく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 639
+        "order_wiki": 639,
+        "reading_dist": [
+            {
+                "reading": "りく",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "りっきょう",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -37251,7 +46200,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='隊'>Truppe</span> <span class='meaning_kanji_reading'>(隊)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 640
+        "order_wiki": 640,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -37373,7 +46329,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='富'>reich sein</span> <span class='meaning_kanji_reading'>(富)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 642
+        "order_wiki": 642,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "とみ",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -37430,7 +46403,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='毒'>Gift</span> <span class='meaning_kanji_reading'>(毒)</span> , <span class='reading onyomi' data-hiragana='どく'>Doku</span> <span class='hiragana'>(どく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 643
+        "order_wiki": 643,
+        "reading_dist": [
+            {
+                "reading": "どく",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -37492,7 +46472,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='歴'>Geschichte</span> <span class='meaning_kanji_reading'>(歴)</span> , <span class='reading onyomi' data-hiragana='れき'>Reki</span> <span class='hiragana'>(れき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 644
+        "order_wiki": 644,
+        "reading_dist": [
+            {
+                "reading": "れき",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -37551,7 +46538,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='脈'>Ader</span> <span class='meaning_kanji_reading'>(脈)</span> , <span class='reading onyomi' data-hiragana='みゃく'>Myaku</span> <span class='hiragana'>(みゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 645
+        "order_wiki": 645,
+        "reading_dist": [
+            {
+                "reading": "みゃく",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -37611,7 +46605,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='粉'>Mehl</span> <span class='meaning_kanji_reading'>(粉)</span> , <span class='reading onyomi' data-hiragana='ふん'>Fun</span> <span class='hiragana'>(ふん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 646
+        "order_wiki": 646,
+        "reading_dist": [
+            {
+                "reading": "こな",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ふん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -37670,7 +46676,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='喜'>Vergnügen</span> <span class='meaning_kanji_reading'>(喜)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 647
+        "order_wiki": 647,
+        "reading_dist": [
+            {
+                "reading": "よろこ",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -37745,7 +46763,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='得'>Gewinn</span> <span class='meaning_kanji_reading'>(得)</span> , <span class='reading onyomi' data-hiragana='とく'>Toku</span> <span class='hiragana'>(とく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 648
+        "order_wiki": 648,
+        "reading_dist": [
+            {
+                "reading": "とく",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "え",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -37810,7 +46840,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貯'>sparen</span> <span class='meaning_kanji_reading'>(貯)</span> , <span class='reading onyomi' data-hiragana='ちょ'>Cho</span> <span class='hiragana'>(ちょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 649
+        "order_wiki": 649,
+        "reading_dist": [
+            {
+                "reading": "ちょ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -37871,7 +46908,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='費'>Ausgaben</span> <span class='meaning_kanji_reading'>(費)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 650
+        "order_wiki": 650,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "つい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -37929,7 +46978,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='象'>Form</span> <span class='meaning_kanji_reading'>(象)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>  <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 651
+        "order_wiki": 651,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "しょう",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -37998,7 +47059,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='殺'>töten</span> <span class='meaning_kanji_reading'>(殺)</span> , <span class='reading onyomi' data-hiragana='さつ'>Satsu</span> <span class='hiragana'>(さつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 652
+        "order_wiki": 652,
+        "reading_dist": [
+            {
+                "reading": "さっ",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "さつ",
+                "count": 4,
+                "prop": 0.36
+            },
+            {
+                "reading": "ころ",
+                "count": 2,
+                "prop": 0.18
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -38052,7 +47130,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='停'>halten</span> <span class='meaning_kanji_reading'>(停)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 653
+        "order_wiki": 653,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -38115,7 +47200,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='告'>verkünden</span> <span class='meaning_kanji_reading'>(告)</span> , <span class='reading onyomi' data-hiragana='こく'>Koku</span> <span class='hiragana'>(こく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 654
+        "order_wiki": 654,
+        "reading_dist": [
+            {
+                "reading": "こく",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "つ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -38172,7 +47269,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='堂'>Halle</span> <span class='meaning_kanji_reading'>(堂)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 655
+        "order_wiki": 655,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -38231,7 +47335,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='航'>Navigation</span> <span class='meaning_kanji_reading'>(航)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 656
+        "order_wiki": 656,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -38291,7 +47402,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='賞'>Belohnung</span> <span class='meaning_kanji_reading'>(賞)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 657
+        "order_wiki": 657,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -38354,7 +47472,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='型'>Modell</span> <span class='meaning_kanji_reading'>(型)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 658
+        "order_wiki": 658,
+        "reading_dist": [
+            {
+                "reading": "かた",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -38413,7 +47538,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='救'>retten</span> <span class='meaning_kanji_reading'>(救)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 659
+        "order_wiki": 659,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "すく",
+                "count": 2,
+                "prop": 0.15
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -38475,7 +47612,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='囲'>umgeben</span> <span class='meaning_kanji_reading'>(囲)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 660
+        "order_wiki": 660,
+        "reading_dist": [
+            {
+                "reading": "かこ",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "い",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -38533,7 +47682,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='紀'>Aufzeichnung</span> <span class='meaning_kanji_reading'>(紀)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 661
+        "order_wiki": 661,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -38582,7 +47738,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_reading'>(史)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 662
+        "order_wiki": 662,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -38643,7 +47806,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='勢'>Kraft</span> <span class='meaning_kanji_reading'>(勢)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='せ'>Se</span> <span class='hiragana'>(せ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 663
+        "order_wiki": 663,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "いきお",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "ぜい",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -38710,7 +47890,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='厚'>dick</span> <span class='meaning_kanji_reading'>(厚)</span> , <span class='reading kunyomi' data-hiragana='あつ'>Atsu</span> <span class='hiragana'>(あつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 664
+        "order_wiki": 664,
+        "reading_dist": [
+            {
+                "reading": "あつ",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "こう",
+                "count": 5,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -38759,7 +47951,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='句'>Satz</span> <span class='meaning_kanji_reading'>(句)</span> , <span class='reading onyomi' data-hiragana='く'>Ku</span> <span class='hiragana'>(く)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 665
+        "order_wiki": 665,
+        "reading_dist": [
+            {
+                "reading": "く",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -38817,7 +48016,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='可'>Möglichkeit</span> <span class='meaning_kanji_reading'>(可)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 666
+        "order_wiki": 666,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 12,
+                "prop": 0.8
+            },
+            {
+                "reading": "おか",
+                "count": 2,
+                "prop": 0.13
+            },
+            {
+                "reading": "べ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -38878,7 +48094,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='営'>Geschäft betreiben</span> <span class='meaning_kanji_reading'>(営)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 667
+        "order_wiki": 667,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "いとな",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -38941,7 +48169,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='因'>Grund</span> <span class='meaning_kanji_reading'>(因)</span> , <span class='reading onyomi' data-hiragana='いん'>In</span> <span class='hiragana'>(いん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 668
+        "order_wiki": 668,
+        "reading_dist": [
+            {
+                "reading": "いん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "ちな",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -38999,7 +48239,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='団'>Team</span> <span class='meaning_kanji_reading'>(団)</span> , <span class='reading onyomi' data-hiragana='だん'>Dan</span> <span class='hiragana'>(だん)</span>  <span class='reading onyomi' data-hiragana='とん'>Ton</span> <span class='hiragana'>(とん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 669
+        "order_wiki": 669,
+        "reading_dist": [
+            {
+                "reading": "だん",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "うちわ",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "どん",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -39060,7 +48317,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='圧'>Druck</span> <span class='meaning_kanji_reading'>(圧)</span> , <span class='reading onyomi' data-hiragana='あつ'>Atsu</span> <span class='hiragana'>(あつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 670
+        "order_wiki": 670,
+        "reading_dist": [
+            {
+                "reading": "あっ",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "あつ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -39121,7 +48390,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='在'>existieren</span> <span class='meaning_kanji_reading'>(在)</span> , <span class='reading onyomi' data-hiragana='ざい'>Zai</span> <span class='hiragana'>(ざい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 671
+        "order_wiki": 671,
+        "reading_dist": [
+            {
+                "reading": "ざい",
+                "count": 15,
+                "prop": 0.94
+            },
+            {
+                "reading": "あ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -39181,7 +48462,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='均'>Durchschnitt</span> <span class='meaning_kanji_reading'>(均)</span> , <span class='reading onyomi' data-hiragana='きん'>Kin</span> <span class='hiragana'>(きん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 672
+        "order_wiki": 672,
+        "reading_dist": [
+            {
+                "reading": "きん",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -39241,7 +48529,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='基'>Fundament</span> <span class='meaning_kanji_reading'>(基)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 673
+        "order_wiki": 673,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 12,
+                "prop": 0.92
+            },
+            {
+                "reading": "もと",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -39305,7 +48605,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='報'>Bericht</span> <span class='meaning_kanji_reading'>(報)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 674
+        "order_wiki": 674,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 10,
+                "prop": 0.77
+            },
+            {
+                "reading": "むく",
+                "count": 3,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -39367,7 +48679,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='境'>Grenze</span> <span class='meaning_kanji_reading'>(境)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 675
+        "order_wiki": 675,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "さかい",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "けい",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -39421,7 +48750,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='墓'>Grab</span> <span class='meaning_kanji_reading'>(墓)</span> , <span class='reading onyomi' data-hiragana='ぼ'>Bo</span> <span class='hiragana'>(ぼ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 676
+        "order_wiki": 676,
+        "reading_dist": [
+            {
+                "reading": "はか",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ぼ",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -39485,7 +48826,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='増'>zunehmen</span> <span class='meaning_kanji_reading'>(増)</span> , <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 677
+        "order_wiki": 677,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 16,
+                "prop": 0.8
+            },
+            {
+                "reading": "ふ",
+                "count": 2,
+                "prop": 0.1
+            },
+            {
+                "reading": "ま",
+                "count": 2,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -39552,7 +48910,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='夢'>Traum</span> <span class='meaning_kanji_reading'>(夢)</span> , <span class='reading onyomi' data-hiragana='む'>Mu</span> <span class='hiragana'>(む)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 678
+        "order_wiki": 678,
+        "reading_dist": [
+            {
+                "reading": "む",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ゆめ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -39611,7 +48981,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='妻'>Ehefrau</span> <span class='meaning_kanji_reading'>(妻)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 679
+        "order_wiki": 679,
+        "reading_dist": [
+            {
+                "reading": "つま",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "さい",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -39675,7 +49057,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='婦'>Ehefrau</span> <span class='meaning_kanji_reading'>(婦)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 680
+        "order_wiki": 680,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -39735,7 +49124,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='容'>äußere Erscheinung</span> <span class='meaning_kanji_reading'>(容)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 681
+        "order_wiki": 681,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 10,
+                "prop": 0.91
+            },
+            {
+                "reading": "たやす",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -39799,7 +49200,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='寄'>sich nähern</span> <span class='meaning_kanji_reading'>(寄)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 682
+        "order_wiki": 682,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 8,
+                "prop": 0.5
+            },
+            {
+                "reading": "き",
+                "count": 7,
+                "prop": 0.44
+            },
+            {
+                "reading": "よせ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -39868,7 +49286,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='備'>Vorrat</span> <span class='meaning_kanji_reading'>(備)</span> , <span class='reading onyomi' data-hiragana='び'>Bi</span> <span class='hiragana'>(び)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 683
+        "order_wiki": 683,
+        "reading_dist": [
+            {
+                "reading": "そな",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "び",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -39926,7 +49356,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='導'>führen</span> <span class='meaning_kanji_reading'>(導)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 684
+        "order_wiki": 684,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "みちび",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -39990,7 +49432,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='居'>da sein</span> <span class='meaning_kanji_reading'>(居)</span> , <span class='reading onyomi' data-hiragana='きょ'>Kyo</span> <span class='hiragana'>(きょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 685
+        "order_wiki": 685,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "きょ",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -40049,7 +49503,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='属'>Gattung</span> <span class='meaning_kanji_reading'>(属)</span> , <span class='reading onyomi' data-hiragana='ぞく'>Zoku</span> <span class='hiragana'>(ぞく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 686
+        "order_wiki": 686,
+        "reading_dist": [
+            {
+                "reading": "ぞく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -40104,7 +49565,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='城'>Schloss</span> <span class='meaning_kanji_reading'>(城)</span> , <span class='reading kunyomi' data-hiragana='しろ'>Shiro</span> <span class='hiragana'>(しろ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 686
+        "order_wiki": 686,
+        "reading_dist": [
+            {
+                "reading": "しろ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "じょう",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -40162,7 +49635,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='布'>Stoff</span> <span class='meaning_kanji_reading'>(布)</span> , <span class='reading onyomi' data-hiragana='ふ'>Fu</span> <span class='hiragana'>(ふ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 687
+        "order_wiki": 687,
+        "reading_dist": [
+            {
+                "reading": "ふ",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "ぬの",
+                "count": 2,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -40232,7 +49717,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='師'>Lehrer</span> <span class='meaning_kanji_reading'>(師)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 688
+        "order_wiki": 688,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -40303,7 +49795,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='常'>gewöhnlich</span> <span class='meaning_kanji_reading'>(常)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 689
+        "order_wiki": 689,
+        "reading_dist": [
+            {
+                "reading": "じょう",
+                "count": 13,
+                "prop": 0.87
+            },
+            {
+                "reading": "つね",
+                "count": 2,
+                "prop": 0.13
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -40365,7 +49869,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='幹'>Baumstamm</span> <span class='meaning_kanji_reading'>(幹)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 690
+        "order_wiki": 690,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "みき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -40430,7 +49946,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='序'>Vorrede</span> <span class='meaning_kanji_reading'>(序)</span> , <span class='reading onyomi' data-hiragana='じょ'>Jo</span> <span class='hiragana'>(じょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 691
+        "order_wiki": 691,
+        "reading_dist": [
+            {
+                "reading": "つい",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "じょ",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -40499,7 +50027,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='弁'>Dialekt</span> <span class='meaning_kanji_reading'>(弁)</span> , <span class='reading onyomi' data-hiragana='べん'>Ben</span> <span class='hiragana'>(べん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 692
+        "order_wiki": 692,
+        "reading_dist": [
+            {
+                "reading": "べん",
+                "count": 12,
+                "prop": 0.92
+            },
+            {
+                "reading": "わきま",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -40562,7 +50102,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='張'>dehnen</span> <span class='meaning_kanji_reading'>(張)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 693
+        "order_wiki": 693,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "ちょう",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "ば",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -40626,7 +50183,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='往'>fortgehen</span> <span class='meaning_kanji_reading'>(往)</span> , <span class='reading onyomi' data-hiragana='おう'>Ou</span> <span class='hiragana'>(おう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 694
+        "order_wiki": 694,
+        "reading_dist": [
+            {
+                "reading": "おう",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -40681,7 +50245,44 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='復'>wiederholen</span> <span class='meaning_kanji_reading'>(復)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 695
+        "order_wiki": 695,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "ふっかつ",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ふっこう",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ふっきゅう",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ふっき",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ふっけん",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ふっこく",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -40739,7 +50340,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='個'>einzeln</span> <span class='meaning_kanji_reading'>(個)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 696
+        "order_wiki": 696,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -40803,7 +50411,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='志'>Ehrgeiz</span> <span class='meaning_kanji_reading'>(志)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 697
+        "order_wiki": 697,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "こころざし",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "こころざ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -40866,7 +50491,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='応'>zustimmen</span> <span class='meaning_kanji_reading'>(応)</span> , <span class='reading onyomi' data-hiragana='おう'>Ou</span> <span class='hiragana'>(おう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 698
+        "order_wiki": 698,
+        "reading_dist": [
+            {
+                "reading": "おう",
+                "count": 13,
+                "prop": 0.93
+            },
+            {
+                "reading": "こた",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -40928,7 +50565,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='快'>angenehm</span> <span class='meaning_kanji_reading'>(快)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 699
+        "order_wiki": 699,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "こころよ",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -40987,7 +50636,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='性'>Wesen</span> <span class='meaning_kanji_reading'>(性)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 700
+        "order_wiki": 700,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -41047,7 +50703,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='務'>Pflicht</span> <span class='meaning_kanji_reading'>(務)</span> , <span class='reading onyomi' data-hiragana='む'>Mu</span> <span class='hiragana'>(む)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 701
+        "order_wiki": 701,
+        "reading_dist": []
     },
     {
         "strokes": 11,
@@ -41109,7 +50766,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='情'>Mitleid</span> <span class='meaning_kanji_reading'>(情)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 702
+        "order_wiki": 702,
+        "reading_dist": [
+            {
+                "reading": "じょう",
+                "count": 11,
+                "prop": 0.79
+            },
+            {
+                "reading": "なさ",
+                "count": 3,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -41169,7 +50838,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='態'>Gestalt</span> <span class='meaning_kanji_reading'>(態)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 703
+        "order_wiki": 703,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "わざ",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -41229,7 +50910,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='慣'>sich gewöhnen an</span> <span class='meaning_kanji_reading'>(慣)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 704
+        "order_wiki": 704,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "な",
+                "count": 3,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -41291,7 +50984,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='効'>Wirkung</span> <span class='meaning_kanji_reading'>(効)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 705
+        "order_wiki": 705,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "き",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -41355,7 +51060,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='技'>Geschick</span> <span class='meaning_kanji_reading'>(技)</span> , <span class='reading onyomi' data-hiragana='ぎ'>Gi</span> <span class='hiragana'>(ぎ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 706
+        "order_wiki": 706,
+        "reading_dist": [
+            {
+                "reading": "ぎ",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "わざ",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -41411,7 +51128,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='招'>einladen</span> <span class='meaning_kanji_reading'>(招)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 707
+        "order_wiki": 707,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "まね",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -41471,7 +51200,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='授'>weitergeben</span> <span class='meaning_kanji_reading'>(授)</span> , <span class='reading onyomi' data-hiragana='じゅ'>Ju</span> <span class='hiragana'>(じゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 708
+        "order_wiki": 708,
+        "reading_dist": [
+            {
+                "reading": "じゅ",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "さず",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -41535,7 +51276,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='採'>pflücken</span> <span class='meaning_kanji_reading'>(採)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 709
+        "order_wiki": 709,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 8,
+                "prop": 0.89
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -41600,7 +51353,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='接'>berühren</span> <span class='meaning_kanji_reading'>(接)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 710
+        "order_wiki": 710,
+        "reading_dist": [
+            {
+                "reading": "せっ",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "せつ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -41663,7 +51428,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='提'>präsentieren</span> <span class='meaning_kanji_reading'>(提)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 711
+        "order_wiki": 711,
+        "reading_dist": [
+            {
+                "reading": "てい",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -41728,7 +51500,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='損'>verletzen</span> <span class='meaning_kanji_reading'>(損)</span> , <span class='reading onyomi' data-hiragana='そん'>Son</span> <span class='hiragana'>(そん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 712
+        "order_wiki": 712,
+        "reading_dist": [
+            {
+                "reading": "そん",
+                "count": 10,
+                "prop": 0.83
+            },
+            {
+                "reading": "そこ",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -41785,7 +51569,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_reading'>(支)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 713
+        "order_wiki": 713,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 19,
+                "prop": 0.95
+            },
+            {
+                "reading": "ささ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -41842,7 +51638,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='政'>Regierung</span> <span class='meaning_kanji_reading'>(政)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 714
+        "order_wiki": 714,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 24,
+                "prop": 0.96
+            },
+            {
+                "reading": "まつりごと",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -41911,7 +51719,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='故'>Grund</span> <span class='meaning_kanji_reading'>(故)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 715
+        "order_wiki": 715,
+        "reading_dist": [
+            {
+                "reading": "こ",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "ふる",
+                "count": 1,
+                "prop": 0.14
+            },
+            {
+                "reading": "ゆえ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -41970,7 +51795,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='則'>Regel</span> <span class='meaning_kanji_reading'>(則)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 716
+        "order_wiki": 716,
+        "reading_dist": []
     },
     {
         "strokes": 11,
@@ -42043,7 +51869,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='断'>ablehnen</span> <span class='meaning_kanji_reading'>(断)</span> , <span class='reading onyomi' data-hiragana='だん'>Dan</span> <span class='hiragana'>(だん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 717
+        "order_wiki": 717,
+        "reading_dist": [
+            {
+                "reading": "だん",
+                "count": 17,
+                "prop": 0.81
+            },
+            {
+                "reading": "ことわ",
+                "count": 3,
+                "prop": 0.14
+            },
+            {
+                "reading": "た",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -42103,7 +51946,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='旧'>vergangen</span> <span class='meaning_kanji_reading'>(旧)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 718
+        "order_wiki": 718,
+        "reading_dist": [
+            {
+                "reading": "きゅう",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -42163,7 +52013,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='易'>einfach</span> <span class='meaning_kanji_reading'>(易)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 719
+        "order_wiki": 719,
+        "reading_dist": [
+            {
+                "reading": "やさ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "やす",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -42231,7 +52093,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='暴'>Gewalt</span> <span class='meaning_kanji_reading'>(暴)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 720
+        "order_wiki": 720,
+        "reading_dist": [
+            {
+                "reading": "ぼう",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "あば",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "ばく",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -42292,7 +52171,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='条'>Paragraph</span> <span class='meaning_kanji_reading'>(条)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 721
+        "order_wiki": 721,
+        "reading_dist": [
+            {
+                "reading": "じょう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -42351,7 +52237,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='枝'>Ast</span> <span class='meaning_kanji_reading'>(枝)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 722
+        "order_wiki": 722,
+        "reading_dist": [
+            {
+                "reading": "えだ",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -42404,7 +52297,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='査'>untersuchen</span> <span class='meaning_kanji_reading'>(査)</span> , <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 723
+        "order_wiki": 723,
+        "reading_dist": [
+            {
+                "reading": "さ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -42464,7 +52364,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='格'>Rang</span> <span class='meaning_kanji_reading'>(格)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 724
+        "order_wiki": 724,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 9,
+                "prop": 0.75
+            },
+            {
+                "reading": "かっ",
+                "count": 2,
+                "prop": 0.17
+            },
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -42525,7 +52442,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='桜'>Kirschblüte</span> <span class='meaning_kanji_reading'>(桜)</span> , <span class='reading kunyomi' data-hiragana='さくら'>Sakura</span> <span class='hiragana'>(さくら)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 725
+        "order_wiki": 725,
+        "reading_dist": [
+            {
+                "reading": "さくら",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -42581,7 +52505,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='検'>überprüfen</span> <span class='meaning_kanji_reading'>(検)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 726
+        "order_wiki": 726,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 19,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -42641,7 +52572,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='構'>Bau</span> <span class='meaning_kanji_reading'>(構)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 727
+        "order_wiki": 727,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "かま",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -42706,7 +52649,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='武'>Militär</span> <span class='meaning_kanji_reading'>(武)</span> , <span class='reading onyomi' data-hiragana='ぶ'>Bu</span> <span class='hiragana'>(ぶ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 728
+        "order_wiki": 728,
+        "reading_dist": [
+            {
+                "reading": "ぶ",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "む",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -42761,7 +52716,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='比'>Vergleich</span> <span class='meaning_kanji_reading'>(比)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 729
+        "order_wiki": 729,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "くら",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -42813,7 +52780,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_reading'>(永)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 730
+        "order_wiki": 730,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -42867,7 +52841,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='河'>Fluss</span> <span class='meaning_kanji_reading'>(河)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 731
+        "order_wiki": 731,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "かわ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -42922,7 +52908,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='液'>Flüssigkeit</span> <span class='meaning_kanji_reading'>(液)</span> , <span class='reading onyomi' data-hiragana='えき'>Eki</span> <span class='hiragana'>(えき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 732
+        "order_wiki": 732,
+        "reading_dist": [
+            {
+                "reading": "えき",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -42988,7 +52981,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='混'>mischen</span> <span class='meaning_kanji_reading'>(混)</span> , <span class='reading onyomi' data-hiragana='こん'>Kon</span> <span class='hiragana'>(こん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 733
+        "order_wiki": 733,
+        "reading_dist": [
+            {
+                "reading": "こん",
+                "count": 9,
+                "prop": 0.64
+            },
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.29
+            },
+            {
+                "reading": "こ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -43049,7 +53059,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='減'>Abnahme</span> <span class='meaning_kanji_reading'>(減)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 734
+        "order_wiki": 734,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 15,
+                "prop": 0.88
+            },
+            {
+                "reading": "へ",
+                "count": 2,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -43112,7 +53134,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='測'>messen</span> <span class='meaning_kanji_reading'>(測)</span> , <span class='reading onyomi' data-hiragana='そく'>Soku</span> <span class='hiragana'>(そく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 735
+        "order_wiki": 735,
+        "reading_dist": [
+            {
+                "reading": "そく",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "そっこうじょ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -43179,7 +53213,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='準'>Niveau</span> <span class='meaning_kanji_reading'>(準)</span> , <span class='reading onyomi' data-hiragana='じゅん'>Jun</span> <span class='hiragana'>(じゅん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 736
+        "order_wiki": 736,
+        "reading_dist": [
+            {
+                "reading": "じゅん",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "なぞら",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -43249,7 +53295,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='演'>aufführen</span> <span class='meaning_kanji_reading'>(演)</span> , <span class='reading onyomi' data-hiragana='えん'>En</span> <span class='hiragana'>(えん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 737
+        "order_wiki": 737,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 17,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -43317,7 +53370,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='潔'>reinigen</span> <span class='meaning_kanji_reading'>(潔)</span> , <span class='reading onyomi' data-hiragana='けつ'>Ketsu</span> <span class='hiragana'>(けつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 738
+        "order_wiki": 738,
+        "reading_dist": [
+            {
+                "reading": "けっ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "いさぎよ",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -43375,7 +53440,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='災'>Katastrophe</span> <span class='meaning_kanji_reading'>(災)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 739
+        "order_wiki": 739,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "わざわ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -43432,7 +53509,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='燃'>brennen</span> <span class='meaning_kanji_reading'>(燃)</span> , <span class='reading onyomi' data-hiragana='ねん'>Nen</span> <span class='hiragana'>(ねん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 740
+        "order_wiki": 740,
+        "reading_dist": [
+            {
+                "reading": "ねん",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "も",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -43488,7 +53577,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='版'>Druckplatte</span> <span class='meaning_kanji_reading'>(版)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 741
+        "order_wiki": 741,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -43546,7 +53642,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='犯'>Verbrechen</span> <span class='meaning_kanji_reading'>(犯)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 742
+        "order_wiki": 742,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "おか",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -43603,7 +53711,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='状'>Zustand</span> <span class='meaning_kanji_reading'>(状)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 743
+        "order_wiki": 743,
+        "reading_dist": [
+            {
+                "reading": "じょう",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -43661,7 +53776,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='独'>alleine</span> <span class='meaning_kanji_reading'>(独)</span> , <span class='reading onyomi' data-hiragana='どく'>Doku</span> <span class='hiragana'>(どく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 744
+        "order_wiki": 744,
+        "reading_dist": [
+            {
+                "reading": "どく",
+                "count": 13,
+                "prop": 0.72
+            },
+            {
+                "reading": "ひと",
+                "count": 3,
+                "prop": 0.17
+            },
+            {
+                "reading": "こま",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "どっきんほう",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -43736,7 +53873,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='率'>Verhältnis</span> <span class='meaning_kanji_reading'>(率)</span> , <span class='reading onyomi' data-hiragana='りつ'>Ritsu</span> <span class='hiragana'>(りつ)</span>  <span class='reading onyomi' data-hiragana='そつ'>Sotsu</span> <span class='hiragana'>(そつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 745
+        "order_wiki": 745,
+        "reading_dist": [
+            {
+                "reading": "そっ",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "りつ",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "ひき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -43799,7 +53953,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='現'>Gegenwart</span> <span class='meaning_kanji_reading'>(現)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 746
+        "order_wiki": 746,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 23,
+                "prop": 0.92
+            },
+            {
+                "reading": "あらわ",
+                "count": 2,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -43869,7 +54035,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='留'>fernhalten</span> <span class='meaning_kanji_reading'>(留)</span> , <span class='reading onyomi' data-hiragana='る'>Ru</span> <span class='hiragana'>(る)</span>  <span class='reading onyomi' data-hiragana='りゅう'>Ryuu</span> <span class='hiragana'>(りゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 747
+        "order_wiki": 747,
+        "reading_dist": [
+            {
+                "reading": "りゅう",
+                "count": 7,
+                "prop": 0.64
+            },
+            {
+                "reading": "る",
+                "count": 2,
+                "prop": 0.18
+            },
+            {
+                "reading": "と",
+                "count": 1,
+                "prop": 0.09
+            },
+            {
+                "reading": "とど",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -43935,7 +54123,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='略'>Abkürzung</span> <span class='meaning_kanji_reading'>(略)</span> , <span class='reading onyomi' data-hiragana='りゃく'>Ryaku</span> <span class='hiragana'>(りゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 748
+        "order_wiki": 748,
+        "reading_dist": [
+            {
+                "reading": "りゃく",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "ほぼ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -44002,7 +54202,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='益'>Nutzen</span> <span class='meaning_kanji_reading'>(益)</span> , <span class='reading onyomi' data-hiragana='えき'>Eki</span> <span class='hiragana'>(えき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 749
+        "order_wiki": 749,
+        "reading_dist": [
+            {
+                "reading": "えき",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "ます",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -44058,7 +54270,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='眼'>Auge</span> <span class='meaning_kanji_reading'>(眼)</span> , <span class='reading onyomi' data-hiragana='がん'>Gan</span> <span class='hiragana'>(がん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 750
+        "order_wiki": 750,
+        "reading_dist": [
+            {
+                "reading": "まなこ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "まなざ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "がん",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -44120,7 +54349,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='破'>zerreißen</span> <span class='meaning_kanji_reading'>(破)</span> , <span class='reading onyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 751
+        "order_wiki": 751,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 10,
+                "prop": 0.83
+            },
+            {
+                "reading": "やぶ",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -44190,7 +54431,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='確'>bestimmt</span> <span class='meaning_kanji_reading'>(確)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 752
+        "order_wiki": 752,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 9,
+                "prop": 0.69
+            },
+            {
+                "reading": "たし",
+                "count": 2,
+                "prop": 0.15
+            },
+            {
+                "reading": "しっか",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "かっ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -44243,7 +54506,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='示'>zeigen</span> <span class='meaning_kanji_reading'>(示)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>  <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 753
+        "order_wiki": 753,
+        "reading_dist": [
+            {
+                "reading": "しめ",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "し",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "じ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -44296,7 +54576,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='祖'>Ahne</span> <span class='meaning_kanji_reading'>(祖)</span> , <span class='reading onyomi' data-hiragana='そ'>So</span> <span class='hiragana'>(そ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 754
+        "order_wiki": 754,
+        "reading_dist": [
+            {
+                "reading": "そ",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -44350,7 +54637,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='禁'>verbieten</span> <span class='meaning_kanji_reading'>(禁)</span> , <span class='reading onyomi' data-hiragana='きん'>Kin</span> <span class='hiragana'>(きん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 755
+        "order_wiki": 755,
+        "reading_dist": [
+            {
+                "reading": "きん",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -44414,7 +54708,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='移'>versetzen</span> <span class='meaning_kanji_reading'>(移)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 756
+        "order_wiki": 756,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 11,
+                "prop": 0.79
+            },
+            {
+                "reading": "うつ",
+                "count": 3,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -44482,7 +54788,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='程'>ungefähr</span> <span class='meaning_kanji_reading'>(程)</span> , <span class='reading onyomi' data-hiragana='てい'>Tei</span> <span class='hiragana'>(てい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 757
+        "order_wiki": 757,
+        "reading_dist": [
+            {
+                "reading": "ほど",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "てい",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -44533,7 +54851,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='税'>Steuer</span> <span class='meaning_kanji_reading'>(税)</span> , <span class='reading onyomi' data-hiragana='ぜい'>Zei</span> <span class='hiragana'>(ぜい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 758
+        "order_wiki": 758,
+        "reading_dist": [
+            {
+                "reading": "ぜい",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -44595,7 +54920,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='築'>Bau</span> <span class='meaning_kanji_reading'>(築)</span> , <span class='reading onyomi' data-hiragana='ちく'>Chiku</span> <span class='hiragana'>(ちく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 759
+        "order_wiki": 759,
+        "reading_dist": [
+            {
+                "reading": "きず",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ついじ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -44660,7 +54997,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='精'>Geist</span> <span class='meaning_kanji_reading'>(精)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 760
+        "order_wiki": 760,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 19,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -44720,7 +55064,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='素'>natürlich</span> <span class='meaning_kanji_reading'>(素)</span> , <span class='reading onyomi' data-hiragana='そ'>So</span> <span class='hiragana'>(そ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 761
+        "order_wiki": 761,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "そ",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "しろうと",
+                "count": 1,
+                "prop": 0.09
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -44791,7 +55152,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='経'>Längengrad</span> <span class='meaning_kanji_reading'>(経)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 762
+        "order_wiki": 762,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 26,
+                "prop": 0.9
+            },
+            {
+                "reading": "きょう",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "た",
+                "count": 1,
+                "prop": 0.03
+            },
+            {
+                "reading": "へ",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -44851,7 +55234,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='統'>Vereinigung</span> <span class='meaning_kanji_reading'>(統)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 763
+        "order_wiki": 763,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -44920,7 +55310,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='絶'>beenden</span> <span class='meaning_kanji_reading'>(絶)</span> , <span class='reading onyomi' data-hiragana='ぜつ'>Zetsu</span> <span class='hiragana'>(ぜつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 764
+        "order_wiki": 764,
+        "reading_dist": [
+            {
+                "reading": "ぜっ",
+                "count": 9,
+                "prop": 0.53
+            },
+            {
+                "reading": "ぜつ",
+                "count": 5,
+                "prop": 0.29
+            },
+            {
+                "reading": "た",
+                "count": 3,
+                "prop": 0.18
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -44978,7 +55385,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='綿'>Baumwolle</span> <span class='meaning_kanji_reading'>(綿)</span> , <span class='reading onyomi' data-hiragana='めん'>Men</span> <span class='hiragana'>(めん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 765
+        "order_wiki": 765,
+        "reading_dist": [
+            {
+                "reading": "めん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -45042,7 +55456,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='総'>umfassend</span> <span class='meaning_kanji_reading'>(総)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 766
+        "order_wiki": 766,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 34,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -45106,7 +55527,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='編'>zusammenstellen</span> <span class='meaning_kanji_reading'>(編)</span> , <span class='reading onyomi' data-hiragana='へん'>Hen</span> <span class='hiragana'>(へん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 767
+        "order_wiki": 767,
+        "reading_dist": [
+            {
+                "reading": "へん",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "あ",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -45221,7 +55654,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='織'>weben</span> <span class='meaning_kanji_reading'>(織)</span> , <span class='reading onyomi' data-hiragana='しき'>Shiki</span> <span class='hiragana'>(しき)</span>  <span class='reading onyomi' data-hiragana='しょく'>Shoku</span> <span class='hiragana'>(しょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 769
+        "order_wiki": 769,
+        "reading_dist": [
+            {
+                "reading": "お",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "おり",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -45281,7 +55726,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='罪'>Sünde</span> <span class='meaning_kanji_reading'>(罪)</span> , <span class='reading onyomi' data-hiragana='ざい'>Zai</span> <span class='hiragana'>(ざい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 770
+        "order_wiki": 770,
+        "reading_dist": [
+            {
+                "reading": "つみ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -45340,7 +55792,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='制'>Organisation</span> <span class='meaning_kanji_reading'>(制)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 771
+        "order_wiki": 771,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 14,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -45388,7 +55847,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='義'>Gerechtigkeit</span> <span class='meaning_kanji_reading'>(義)</span> , <span class='reading onyomi' data-hiragana='ぎ'>Gi</span> <span class='hiragana'>(ぎ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 772
+        "order_wiki": 772,
+        "reading_dist": [
+            {
+                "reading": "ぎ",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -45439,7 +55905,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='耕'>pflügen</span> <span class='meaning_kanji_reading'>(耕)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 773
+        "order_wiki": 773,
+        "reading_dist": [
+            {
+                "reading": "たがや",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -45495,7 +55973,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='職'>Arbeit</span> <span class='meaning_kanji_reading'>(職)</span> , <span class='reading onyomi' data-hiragana='しょく'>Shoku</span> <span class='hiragana'>(しょく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 774
+        "order_wiki": 774,
+        "reading_dist": [
+            {
+                "reading": "しょく",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "しょっけん",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -45559,7 +56049,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='肥'>Dünger</span> <span class='meaning_kanji_reading'>(肥)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 775
+        "order_wiki": 775,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "こえ",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "こ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -45621,7 +56128,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='能'>Talent</span> <span class='meaning_kanji_reading'>(能)</span> , <span class='reading onyomi' data-hiragana='のう'>Nou</span> <span class='hiragana'>(のう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 776
+        "order_wiki": 776,
+        "reading_dist": [
+            {
+                "reading": "のう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -45688,7 +56202,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='興'>Interesse</span> <span class='meaning_kanji_reading'>(興)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 777
+        "order_wiki": 777,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "こう",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "おこ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -45745,7 +56276,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='判'>Stempel</span> <span class='meaning_kanji_reading'>(判)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 778
+        "order_wiki": 778,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -45796,7 +56334,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='舎'>Beherbergung</span> <span class='meaning_kanji_reading'>(舎)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 779
+        "order_wiki": 779,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -45860,7 +56405,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='術'>Kunst</span> <span class='meaning_kanji_reading'>(術)</span> , <span class='reading onyomi' data-hiragana='じゅつ'>Jutsu</span> <span class='hiragana'>(じゅつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 780
+        "order_wiki": 780,
+        "reading_dist": [
+            {
+                "reading": "じゅつ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -45912,7 +56464,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='衛'>Wache</span> <span class='meaning_kanji_reading'>(衛)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 781
+        "order_wiki": 781,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -45958,7 +56517,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='製'>herstellen</span> <span class='meaning_kanji_reading'>(製)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 782
+        "order_wiki": 782,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 13,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -46012,7 +56578,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='複'>doppelt</span> <span class='meaning_kanji_reading'>(複)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 783
+        "order_wiki": 783,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -46066,7 +56639,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='規'>Vorschrift</span> <span class='meaning_kanji_reading'>(規)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 784
+        "order_wiki": 784,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -46146,7 +56726,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='解'>enträtseln</span> <span class='meaning_kanji_reading'>(解)</span> , <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 785
+        "order_wiki": 785,
+        "reading_dist": [
+            {
+                "reading": "かい",
+                "count": 19,
+                "prop": 0.79
+            },
+            {
+                "reading": "と",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "ほど",
+                "count": 1,
+                "prop": 0.04
+            },
+            {
+                "reading": "げ",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -46205,7 +56807,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='設'>vorbereiten</span> <span class='meaning_kanji_reading'>(設)</span> , <span class='reading onyomi' data-hiragana='せつ'>Setsu</span> <span class='hiragana'>(せつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 786
+        "order_wiki": 786,
+        "reading_dist": [
+            {
+                "reading": "せっ",
+                "count": 4,
+                "prop": 0.5
+            },
+            {
+                "reading": "せつ",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "もう",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -46263,7 +56882,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='許'>erlauben</span> <span class='meaning_kanji_reading'>(許)</span> , <span class='reading onyomi' data-hiragana='きょ'>Kyo</span> <span class='hiragana'>(きょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 787
+        "order_wiki": 787,
+        "reading_dist": [
+            {
+                "reading": "きょ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "ばか",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "ゆる",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -46320,7 +56956,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='証'>Beweis</span> <span class='meaning_kanji_reading'>(証)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 788
+        "order_wiki": 788,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 7,
+                "prop": 0.88
+            },
+            {
+                "reading": "あかし",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -46372,7 +57020,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='評'>Kritik</span> <span class='meaning_kanji_reading'>(評)</span> , <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 789
+        "order_wiki": 789,
+        "reading_dist": [
+            {
+                "reading": "ひょう",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -46423,7 +57078,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='講'>Vorlesung</span> <span class='meaning_kanji_reading'>(講)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 790
+        "order_wiki": 790,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -46484,7 +57146,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='謝'>entschuldigen</span> <span class='meaning_kanji_reading'>(謝)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 791
+        "order_wiki": 791,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "あやま",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 19,
@@ -46543,7 +57217,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='識'>Erfahrung</span> <span class='meaning_kanji_reading'>(識)</span> , <span class='reading onyomi' data-hiragana='しき'>Shiki</span> <span class='hiragana'>(しき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 792
+        "order_wiki": 792,
+        "reading_dist": [
+            {
+                "reading": "しき",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 20,
@@ -46607,7 +57288,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='護'>schützen</span> <span class='meaning_kanji_reading'>(護)</span> , <span class='reading onyomi' data-hiragana='ご'>Go</span> <span class='hiragana'>(ご)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 793
+        "order_wiki": 793,
+        "reading_dist": [
+            {
+                "reading": "ご",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -46668,7 +57356,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='豊'>reichlich</span> <span class='meaning_kanji_reading'>(豊)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 794
+        "order_wiki": 794,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "ゆた",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -46727,7 +57427,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='財'>Vermögenswerte</span> <span class='meaning_kanji_reading'>(財)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>  <span class='reading onyomi' data-hiragana='ざい'>Zai</span> <span class='hiragana'>(ざい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 795
+        "order_wiki": 795,
+        "reading_dist": [
+            {
+                "reading": "ざい",
+                "count": 12,
+                "prop": 0.92
+            },
+            {
+                "reading": "さい",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -46785,7 +57497,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貧'>arm</span> <span class='meaning_kanji_reading'>(貧)</span> , <span class='reading onyomi' data-hiragana='びん'>Bin</span> <span class='hiragana'>(びん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 796
+        "order_wiki": 796,
+        "reading_dist": [
+            {
+                "reading": "ひん",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "びん",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "まず",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -46844,7 +57573,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='責'>zur Rechenschaft ziehen</span> <span class='meaning_kanji_reading'>(責)</span> , <span class='reading onyomi' data-hiragana='せき'>Seki</span> <span class='hiragana'>(せき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 797
+        "order_wiki": 797,
+        "reading_dist": [
+            {
+                "reading": "せき",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "せ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -46901,7 +57642,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貸'>ausleihen</span> <span class='meaning_kanji_reading'>(貸)</span> , <span class='reading kunyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 798
+        "order_wiki": 798,
+        "reading_dist": [
+            {
+                "reading": "かし",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "か",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "たい",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -46957,7 +57715,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貿'>Handel</span> <span class='meaning_kanji_reading'>(貿)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 799
+        "order_wiki": 799,
+        "reading_dist": [
+            {
+                "reading": "ぼう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -47011,7 +57776,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='刊'>drucken</span> <span class='meaning_kanji_reading'>(刊)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 800
+        "order_wiki": 800,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -47067,7 +57839,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='資'>Vermögen</span> <span class='meaning_kanji_reading'>(資)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 801
+        "order_wiki": 801,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 15,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -47126,7 +57905,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='賛'>loben</span> <span class='meaning_kanji_reading'>(賛)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 802
+        "order_wiki": 802,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -47189,7 +57975,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='質'>Qualität</span> <span class='meaning_kanji_reading'>(質)</span> , <span class='reading onyomi' data-hiragana='しつ'>Shitsu</span> <span class='hiragana'>(しつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 803
+        "order_wiki": 803,
+        "reading_dist": [
+            {
+                "reading": "しつ",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "しっ",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "しち",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -47242,7 +58045,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='輸'>transportieren</span> <span class='meaning_kanji_reading'>(輸)</span> , <span class='reading onyomi' data-hiragana='ゆ'>Yu</span> <span class='hiragana'>(ゆ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 804
+        "order_wiki": 804,
+        "reading_dist": [
+            {
+                "reading": "ゆ",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -47306,7 +58116,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='述'>erzählen</span> <span class='meaning_kanji_reading'>(述)</span> , <span class='reading onyomi' data-hiragana='じゅつ'>Jutsu</span> <span class='hiragana'>(じゅつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 805
+        "order_wiki": 805,
+        "reading_dist": [
+            {
+                "reading": "の",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -47369,7 +58186,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='迷'>Zweifel</span> <span class='meaning_kanji_reading'>(迷)</span> , <span class='reading onyomi' data-hiragana='めい'>Mei</span> <span class='hiragana'>(めい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 806
+        "order_wiki": 806,
+        "reading_dist": [
+            {
+                "reading": "めい",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "まよ",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "まいご",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -47428,7 +58262,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='再'>erneut</span> <span class='meaning_kanji_reading'>(再)</span> , <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>  <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 807
+        "order_wiki": 807,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 25,
+                "prop": 0.86
+            },
+            {
+                "reading": "さ",
+                "count": 3,
+                "prop": 0.1
+            },
+            {
+                "reading": "ふたた",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -47493,7 +58344,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='逆'>Gegenteil</span> <span class='meaning_kanji_reading'>(逆)</span> , <span class='reading onyomi' data-hiragana='ぎゃく'>Gyaku</span> <span class='hiragana'>(ぎゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 808
+        "order_wiki": 808,
+        "reading_dist": [
+            {
+                "reading": "ぎゃく",
+                "count": 8,
+                "prop": 0.53
+            },
+            {
+                "reading": "さか",
+                "count": 5,
+                "prop": 0.33
+            },
+            {
+                "reading": "ぎゃっきょう",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "のぼ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -47553,7 +58426,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='造'>herstellen</span> <span class='meaning_kanji_reading'>(造)</span> , <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 809
+        "order_wiki": 809,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -47621,7 +58501,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='過'>zu viel sein</span> <span class='meaning_kanji_reading'>(過)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 810
+        "order_wiki": 810,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 21,
+                "prop": 0.84
+            },
+            {
+                "reading": "す",
+                "count": 3,
+                "prop": 0.12
+            },
+            {
+                "reading": "あやま",
+                "count": 1,
+                "prop": 0.04
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -47678,7 +58575,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='適'>angemessen</span> <span class='meaning_kanji_reading'>(適)</span> , <span class='reading onyomi' data-hiragana='てき'>Teki</span> <span class='hiragana'>(てき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 811
+        "order_wiki": 811,
+        "reading_dist": [
+            {
+                "reading": "てき",
+                "count": 16,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -47736,7 +58640,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='酸'>sauer</span> <span class='meaning_kanji_reading'>(酸)</span> , <span class='reading onyomi' data-hiragana='さん'>San</span> <span class='hiragana'>(さん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 812
+        "order_wiki": 812,
+        "reading_dist": [
+            {
+                "reading": "さん",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "す",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -47791,7 +58707,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鉱'>Erz</span> <span class='meaning_kanji_reading'>(鉱)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 813
+        "order_wiki": 813,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -47844,7 +58767,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='銅'>Kupfer</span> <span class='meaning_kanji_reading'>(銅)</span> , <span class='reading onyomi' data-hiragana='どう'>Dou</span> <span class='hiragana'>(どう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 814
+        "order_wiki": 814,
+        "reading_dist": [
+            {
+                "reading": "どう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -47901,7 +58831,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='像'>Eindruck</span> <span class='meaning_kanji_reading'>(像)</span> , <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 815
+        "order_wiki": 815,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -47963,7 +58900,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='防'>schützen</span> <span class='meaning_kanji_reading'>(防)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 816
+        "order_wiki": 816,
+        "reading_dist": [
+            {
+                "reading": "ぼう",
+                "count": 17,
+                "prop": 0.94
+            },
+            {
+                "reading": "ふせ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -48022,7 +58971,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='限'>Begrenzung</span> <span class='meaning_kanji_reading'>(限)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 817
+        "order_wiki": 817,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 4,
+                "prop": 0.44
+            },
+            {
+                "reading": "かぎ",
+                "count": 3,
+                "prop": 0.33
+            },
+            {
+                "reading": "ぎ",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -48084,7 +59050,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='険'>steil</span> <span class='meaning_kanji_reading'>(険)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 818
+        "order_wiki": 818,
+        "reading_dist": [
+            {
+                "reading": "けわ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "けん",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -48148,7 +59126,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='際'>Rand</span> <span class='meaning_kanji_reading'>(際)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 819
+        "order_wiki": 819,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "きわ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -48211,7 +59201,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='雑'>Durcheinander</span> <span class='meaning_kanji_reading'>(雑)</span> , <span class='reading onyomi' data-hiragana='ざつ'>Zatsu</span> <span class='hiragana'>(ざつ)</span>  <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 820
+        "order_wiki": 820,
+        "reading_dist": [
+            {
+                "reading": "ざっ",
+                "count": 5,
+                "prop": 0.45
+            },
+            {
+                "reading": "ざつ",
+                "count": 3,
+                "prop": 0.27
+            },
+            {
+                "reading": "ぞう",
+                "count": 3,
+                "prop": 0.27
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -48264,7 +59271,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='非'>nicht</span> <span class='meaning_kanji_reading'>(非)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 821
+        "order_wiki": 821,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -48334,7 +59348,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='修'>lernen</span> <span class='meaning_kanji_reading'>(修)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 822
+        "order_wiki": 822,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 11,
+                "prop": 0.85
+            },
+            {
+                "reading": "おさ",
+                "count": 1,
+                "prop": 0.08
+            },
+            {
+                "reading": "しゅ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -48390,7 +59421,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='領'>Gebiet</span> <span class='meaning_kanji_reading'>(領)</span> , <span class='reading onyomi' data-hiragana='りょう'>Ryou</span> <span class='hiragana'>(りょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 823
+        "order_wiki": 823,
+        "reading_dist": [
+            {
+                "reading": "りょう",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -48455,7 +59493,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='額'>Summe</span> <span class='meaning_kanji_reading'>(額)</span> , <span class='reading onyomi' data-hiragana='がく'>Gaku</span> <span class='hiragana'>(がく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 824
+        "order_wiki": 824,
+        "reading_dist": [
+            {
+                "reading": "がく",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -48512,7 +59557,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='飼'>Tierhaltung</span> <span class='meaning_kanji_reading'>(飼)</span> , <span class='reading kunyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 825
+        "order_wiki": 825,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -48567,7 +59624,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='士'>Samurai</span> <span class='meaning_kanji_reading'>(士)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 826
+        "order_wiki": 826,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -48625,7 +59689,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='久'>lang andauernd</span> <span class='meaning_kanji_reading'>(久)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 827
+        "order_wiki": 827,
+        "reading_dist": [
+            {
+                "reading": "ひさ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -48683,7 +59754,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='仏'>Buddha</span> <span class='meaning_kanji_reading'>(仏)</span> , <span class='reading onyomi' data-hiragana='ぶつ'>Butsu</span> <span class='hiragana'>(ぶつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 828
+        "order_wiki": 828,
+        "reading_dist": [
+            {
+                "reading": "ぶつ",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "ふつ",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "ほとけ",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "ぶっ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -48745,7 +59838,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='仮'>vorläufig</span> <span class='meaning_kanji_reading'>(仮)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 829
+        "order_wiki": 829,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 9,
+                "prop": 0.69
+            },
+            {
+                "reading": "かり",
+                "count": 3,
+                "prop": 0.23
+            },
+            {
+                "reading": "たとえ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -48804,7 +59914,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='件'>Angelegenheit</span> <span class='meaning_kanji_reading'>(件)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 830
+        "order_wiki": 830,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -48868,7 +59985,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='任'>Aufgabe</span> <span class='meaning_kanji_reading'>(任)</span> , <span class='reading onyomi' data-hiragana='にん'>Nin</span> <span class='hiragana'>(にん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 831
+        "order_wiki": 831,
+        "reading_dist": [
+            {
+                "reading": "にん",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "まか",
+                "count": 2,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -48938,7 +60067,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='似'>ähnlich sein</span> <span class='meaning_kanji_reading'>(似)</span> , <span class='reading onyomi' data-hiragana='ね'>Ne</span> <span class='hiragana'>(ね)</span>  <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 832
+        "order_wiki": 832,
+        "reading_dist": [
+            {
+                "reading": "に",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -49001,7 +60137,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='余'>übrig bleiben</span> <span class='meaning_kanji_reading'>(余)</span> , <span class='reading onyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 833
+        "order_wiki": 833,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 20,
+                "prop": 0.83
+            },
+            {
+                "reading": "あま",
+                "count": 4,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -49059,7 +60207,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='価'>Wert</span> <span class='meaning_kanji_reading'>(価)</span> , <span class='reading onyomi' data-hiragana='か'>Ka</span> <span class='hiragana'>(か)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 834
+        "order_wiki": 834,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -49126,7 +60281,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='保'>schützen</span> <span class='meaning_kanji_reading'>(保)</span> , <span class='reading onyomi' data-hiragana='ほ'>Ho</span> <span class='hiragana'>(ほ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 835
+        "order_wiki": 835,
+        "reading_dist": [
+            {
+                "reading": "ほ",
+                "count": 31,
+                "prop": 0.97
+            },
+            {
+                "reading": "たも",
+                "count": 1,
+                "prop": 0.03
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -49181,7 +60348,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='党'>Partei</span> <span class='meaning_kanji_reading'>(党)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 836
+        "order_wiki": 836,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 11,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -49230,7 +60404,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='冊'>Zähler für Bücher</span> <span class='meaning_kanji_reading'>(冊)</span> , <span class='reading onyomi' data-hiragana='さつ'>Satsu</span> <span class='hiragana'>(さつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 837
+        "order_wiki": 837,
+        "reading_dist": [
+            {
+                "reading": "さつ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "さっ",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -49295,7 +60481,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='処'>Ort</span> <span class='meaning_kanji_reading'>(処)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 838
+        "order_wiki": 838,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -49357,7 +60550,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='刻'>gravieren</span> <span class='meaning_kanji_reading'>(刻)</span> , <span class='reading onyomi' data-hiragana='こく'>Koku</span> <span class='hiragana'>(こく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 839
+        "order_wiki": 839,
+        "reading_dist": [
+            {
+                "reading": "こく",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "きざ",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "こっこく",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -49433,7 +60643,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='割'>Anteil</span> <span class='meaning_kanji_reading'>(割)</span> , <span class='reading kunyomi' data-hiragana='わり'>Wari</span> <span class='hiragana'>(わり)</span>  <span class='reading kunyomi' data-hiragana='わ'>Wa</span> <span class='hiragana'>(わ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 840
+        "order_wiki": 840,
+        "reading_dist": [
+            {
+                "reading": "わ",
+                "count": 13,
+                "prop": 0.62
+            },
+            {
+                "reading": "わり",
+                "count": 8,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -49496,7 +60718,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='創'>anfangen</span> <span class='meaning_kanji_reading'>(創)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 841
+        "order_wiki": 841,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 12,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -49551,7 +60780,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='劇'>Drama</span> <span class='meaning_kanji_reading'>(劇)</span> , <span class='reading onyomi' data-hiragana='げき'>Geki</span> <span class='hiragana'>(げき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 842
+        "order_wiki": 842,
+        "reading_dist": [
+            {
+                "reading": "げき",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -49613,7 +60849,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='勤'>Arbeit</span> <span class='meaning_kanji_reading'>(勤)</span> , <span class='reading onyomi' data-hiragana='きん'>Kin</span> <span class='hiragana'>(きん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 843
+        "order_wiki": 843,
+        "reading_dist": [
+            {
+                "reading": "きん",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "つと",
+                "count": 3,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -49676,7 +60924,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='危'>gefährlich</span> <span class='meaning_kanji_reading'>(危)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 844
+        "order_wiki": 844,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "あや",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "あぶ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -49726,7 +60991,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='卵'>Ei</span> <span class='meaning_kanji_reading'>(卵)</span> , <span class='reading kunyomi' data-hiragana='たまご'>Tamago</span> <span class='hiragana'>(たまご)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 845
+        "order_wiki": 845,
+        "reading_dist": [
+            {
+                "reading": "らん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "たまご",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -49797,7 +61074,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='厳'>streng</span> <span class='meaning_kanji_reading'>(厳)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 846
+        "order_wiki": 846,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "きび",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "おごそ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -49859,7 +61153,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='収'>erhalten</span> <span class='meaning_kanji_reading'>(収)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 847
+        "order_wiki": 847,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 14,
+                "prop": 0.82
+            },
+            {
+                "reading": "おさ",
+                "count": 3,
+                "prop": 0.18
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -49926,7 +61232,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='后'>Kaiserin</span> <span class='meaning_kanji_reading'>(后)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 848
+        "order_wiki": 848,
+        "reading_dist": []
     },
     {
         "strokes": 7,
@@ -49988,7 +61295,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='否'>verneinen</span> <span class='meaning_kanji_reading'>(否)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 849
+        "order_wiki": 849,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "いや",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -50047,7 +61366,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='吸'>saugen</span> <span class='meaning_kanji_reading'>(吸)</span> , <span class='reading onyomi' data-hiragana='きゅう'>Kyuu</span> <span class='hiragana'>(きゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 850
+        "order_wiki": 850,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "きゅう",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -50104,7 +61435,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='呼'>rufen</span> <span class='meaning_kanji_reading'>(呼)</span> , <span class='reading kunyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 851
+        "order_wiki": 851,
+        "reading_dist": [
+            {
+                "reading": "よ",
+                "count": 8,
+                "prop": 0.67
+            },
+            {
+                "reading": "こ",
+                "count": 4,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -50172,7 +61515,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='善'>Güte</span> <span class='meaning_kanji_reading'>(善)</span> , <span class='reading onyomi' data-hiragana='ぜん'>Zen</span> <span class='hiragana'>(ぜん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 852
+        "order_wiki": 852,
+        "reading_dist": [
+            {
+                "reading": "ぜん",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "よ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -50231,7 +61586,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='困'>ein Problem haben</span> <span class='meaning_kanji_reading'>(困)</span> , <span class='reading onyomi' data-hiragana='こん'>Kon</span> <span class='hiragana'>(こん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 853
+        "order_wiki": 853,
+        "reading_dist": [
+            {
+                "reading": "こま",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "こん",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -50290,7 +61657,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='垂'>herabhängen</span> <span class='meaning_kanji_reading'>(垂)</span> , <span class='reading onyomi' data-hiragana='すい'>Sui</span> <span class='hiragana'>(すい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 854
+        "order_wiki": 854,
+        "reading_dist": [
+            {
+                "reading": "た",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "すい",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -50368,7 +61747,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='優'>freundlich</span> <span class='meaning_kanji_reading'>(優)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 855
+        "order_wiki": 855,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 12,
+                "prop": 0.86
+            },
+            {
+                "reading": "やさ",
+                "count": 1,
+                "prop": 0.07
+            },
+            {
+                "reading": "すぐ",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -50432,7 +61828,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='域'>Region</span> <span class='meaning_kanji_reading'>(域)</span> , <span class='reading onyomi' data-hiragana='いき'>Iki</span> <span class='hiragana'>(いき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 856
+        "order_wiki": 856,
+        "reading_dist": [
+            {
+                "reading": "いき",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -50489,7 +61892,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='奏'>ein Musikinstrument spielen</span> <span class='meaning_kanji_reading'>(奏)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 857
+        "order_wiki": 857,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -50551,7 +61961,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='奮'>aufgeregt sein</span> <span class='meaning_kanji_reading'>(奮)</span> , <span class='reading onyomi' data-hiragana='ふん'>Fun</span> <span class='hiragana'>(ふん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 858
+        "order_wiki": 858,
+        "reading_dist": [
+            {
+                "reading": "ふん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "ふる",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -50611,7 +62033,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='姿'>Form</span> <span class='meaning_kanji_reading'>(姿)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 859
+        "order_wiki": 859,
+        "reading_dist": [
+            {
+                "reading": "すがた",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "し",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -50679,7 +62113,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='存'>Wissen</span> <span class='meaning_kanji_reading'>(存)</span> , <span class='reading onyomi' data-hiragana='そん'>Son</span> <span class='hiragana'>(そん)</span>  <span class='reading onyomi' data-hiragana='ぞん'>Zon</span> <span class='hiragana'>(ぞん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 860
+        "order_wiki": 860,
+        "reading_dist": [
+            {
+                "reading": "そん",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "ぞん",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -50727,7 +62173,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='孝'>kindliche Pflicht (gegenüber den Eltern)</span> <span class='meaning_kanji_reading'>(孝)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 861
+        "order_wiki": 861,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -50788,7 +62241,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宅'>Zuhause</span> <span class='meaning_kanji_reading'>(宅)</span> , <span class='reading onyomi' data-hiragana='たく'>Taku</span> <span class='hiragana'>(たく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 862
+        "order_wiki": 862,
+        "reading_dist": [
+            {
+                "reading": "たく",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -50843,7 +62303,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宇'>Dachvorsprung</span> <span class='meaning_kanji_reading'>(宇)</span> , <span class='reading onyomi' data-hiragana='う'>U</span> <span class='hiragana'>(う)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 863
+        "order_wiki": 863,
+        "reading_dist": [
+            {
+                "reading": "う",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -50901,7 +62368,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宗'>Religion</span> <span class='meaning_kanji_reading'>(宗)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 864
+        "order_wiki": 864,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -50957,7 +62431,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宙'>Weltraum</span> <span class='meaning_kanji_reading'>(宙)</span> , <span class='reading onyomi' data-hiragana='ちゅう'>Chuu</span> <span class='hiragana'>(ちゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 865
+        "order_wiki": 865,
+        "reading_dist": [
+            {
+                "reading": "ちゅう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -51018,7 +62499,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宝'>Schatz</span> <span class='meaning_kanji_reading'>(宝)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 866
+        "order_wiki": 866,
+        "reading_dist": [
+            {
+                "reading": "たから",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ほう",
+                "count": 3,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -51080,7 +62573,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='宣'>ankündigen</span> <span class='meaning_kanji_reading'>(宣)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 867
+        "order_wiki": 867,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -51144,7 +62644,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='密'>verstecken</span> <span class='meaning_kanji_reading'>(密)</span> , <span class='reading onyomi' data-hiragana='みつ'>Mitsu</span> <span class='hiragana'>(みつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 868
+        "order_wiki": 868,
+        "reading_dist": [
+            {
+                "reading": "みつ",
+                "count": 7,
+                "prop": 0.54
+            },
+            {
+                "reading": "みっ",
+                "count": 5,
+                "prop": 0.38
+            },
+            {
+                "reading": "ひそ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -51196,7 +62713,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='寸'>messen</span> <span class='meaning_kanji_reading'>(寸)</span> , <span class='reading onyomi' data-hiragana='すん'>Sun</span> <span class='hiragana'>(すん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 869
+        "order_wiki": 869,
+        "reading_dist": [
+            {
+                "reading": "すん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -51260,7 +62784,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='専'>exklusiv</span> <span class='meaning_kanji_reading'>(専)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 870
+        "order_wiki": 870,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 17,
+                "prop": 0.94
+            },
+            {
+                "reading": "もっぱ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -51320,7 +62856,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='射'>schießen</span> <span class='meaning_kanji_reading'>(射)</span> , <span class='reading onyomi' data-hiragana='しゃ'>Sha</span> <span class='hiragana'>(しゃ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 871
+        "order_wiki": 871,
+        "reading_dist": [
+            {
+                "reading": "しゃ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "さ",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "い",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -51378,7 +62931,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='将'>gerade eben</span> <span class='meaning_kanji_reading'>(将)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 872
+        "order_wiki": 872,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -51448,7 +63008,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='尊'>vornehm</span> <span class='meaning_kanji_reading'>(尊)</span> , <span class='reading onyomi' data-hiragana='そん'>Son</span> <span class='hiragana'>(そん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 873
+        "order_wiki": 873,
+        "reading_dist": [
+            {
+                "reading": "そん",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "とうと",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -51510,7 +63082,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='就'>eine Position innehaben</span> <span class='meaning_kanji_reading'>(就)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 874
+        "order_wiki": 874,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "つ",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -51559,7 +63143,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='尺'>messen</span> <span class='meaning_kanji_reading'>(尺)</span> , <span class='reading onyomi' data-hiragana='しゃく'>Shaku</span> <span class='hiragana'>(しゃく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 875
+        "order_wiki": 875,
+        "reading_dist": [
+            {
+                "reading": "しゃく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -51620,7 +63211,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='届'>erreichen</span> <span class='meaning_kanji_reading'>(届)</span> , <span class='reading kunyomi' data-hiragana='とど'>Todo</span> <span class='hiragana'>(とど)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 876
+        "order_wiki": 876,
+        "reading_dist": [
+            {
+                "reading": "とど",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "とどけ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -51678,7 +63281,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='展'>Ausstellung</span> <span class='meaning_kanji_reading'>(展)</span> , <span class='reading onyomi' data-hiragana='てん'>Ten</span> <span class='hiragana'>(てん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 877
+        "order_wiki": 877,
+        "reading_dist": [
+            {
+                "reading": "てん",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -51787,7 +63397,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_reading'>(己)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 879
+        "order_wiki": 879,
+        "reading_dist": [
+            {
+                "reading": "おのれ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -51854,7 +63471,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='巻'>Rolle</span> <span class='meaning_kanji_reading'>(巻)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 880
+        "order_wiki": 880,
+        "reading_dist": [
+            {
+                "reading": "ま",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "まき",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "かん",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -51913,7 +63547,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='幕'>Vorhang</span> <span class='meaning_kanji_reading'>(幕)</span> , <span class='reading onyomi' data-hiragana='まく'>Maku</span> <span class='hiragana'>(まく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 881
+        "order_wiki": 881,
+        "reading_dist": [
+            {
+                "reading": "まく",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "ばく",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -51974,7 +63620,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='干'>trocken werden</span> <span class='meaning_kanji_reading'>(干)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 882
+        "order_wiki": 882,
+        "reading_dist": [
+            {
+                "reading": "ほ",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "かん",
+                "count": 1,
+                "prop": 0.33
+            },
+            {
+                "reading": "ひ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -52032,7 +63695,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='幼'>kindlich</span> <span class='meaning_kanji_reading'>(幼)</span> , <span class='reading onyomi' data-hiragana='よう'>You</span> <span class='hiragana'>(よう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 883
+        "order_wiki": 883,
+        "reading_dist": [
+            {
+                "reading": "よう",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "おさな",
+                "count": 2,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -52087,7 +63762,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='庁'>Amt</span> <span class='meaning_kanji_reading'>(庁)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 884
+        "order_wiki": 884,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -52152,7 +63834,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='座'>Sitz</span> <span class='meaning_kanji_reading'>(座)</span> , <span class='reading onyomi' data-hiragana='ざ'>Za</span> <span class='hiragana'>(ざ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 885
+        "order_wiki": 885,
+        "reading_dist": [
+            {
+                "reading": "ざ",
+                "count": 7,
+                "prop": 0.7
+            },
+            {
+                "reading": "すわ",
+                "count": 3,
+                "prop": 0.3
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -52213,7 +63907,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='延'>verlängern</span> <span class='meaning_kanji_reading'>(延)</span> , <span class='reading onyomi' data-hiragana='えん'>En</span> <span class='hiragana'>(えん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 886
+        "order_wiki": 886,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "の",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -52344,7 +64050,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "Du wirst <span class='meaning' data-kanji='従'>gehorchen</span> <span class='meaning_kanji_reading'>(従)</span>, sonst droht Auspei<span class='reading onyomi' data-hiragana='じゅう'>tschu</span>ng <span class='hiragana'>(じゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 888
+        "order_wiki": 888,
+        "reading_dist": [
+            {
+                "reading": "じゅう",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "したが",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "いとこ",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -52398,7 +64121,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='忘'>vergessen</span> <span class='meaning_kanji_reading'>(忘)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 889
+        "order_wiki": 889,
+        "reading_dist": [
+            {
+                "reading": "わす",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ぼう",
+                "count": 2,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -52451,7 +64186,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='忠'>Loyalität</span> <span class='meaning_kanji_reading'>(忠)</span> , <span class='reading onyomi' data-hiragana='ちゅう'>Chuu</span> <span class='hiragana'>(ちゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 890
+        "order_wiki": 890,
+        "reading_dist": [
+            {
+                "reading": "ちゅう",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -52511,7 +64253,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='憲'>Verfassung</span> <span class='meaning_kanji_reading'>(憲)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 891
+        "order_wiki": 891,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -52565,7 +64314,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='我'>ich selbst</span> <span class='meaning_kanji_reading'>(我)</span> , <span class='reading onyomi' data-hiragana='が'>Ga</span> <span class='hiragana'>(が)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 892
+        "order_wiki": 892,
+        "reading_dist": [
+            {
+                "reading": "われ",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "わ",
+                "count": 3,
+                "prop": 0.38
+            },
+            {
+                "reading": "が",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "わが",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -52616,7 +64387,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='批'>Kritik</span> <span class='meaning_kanji_reading'>(批)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 893
+        "order_wiki": 893,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -52676,7 +64454,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='担'>schultern</span> <span class='meaning_kanji_reading'>(担)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 894
+        "order_wiki": 894,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "かつ",
+                "count": 2,
+                "prop": 0.22
+            },
+            {
+                "reading": "にな",
+                "count": 2,
+                "prop": 0.22
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -52735,7 +64530,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='拝'>Gottesdienst</span> <span class='meaning_kanji_reading'>(拝)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 895
+        "order_wiki": 895,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "おが",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -52797,7 +64604,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='拡'>verteilen</span> <span class='meaning_kanji_reading'>(拡)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 896
+        "order_wiki": 896,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -52857,7 +64671,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='捨'>wegwerfen</span> <span class='meaning_kanji_reading'>(捨)</span> , <span class='reading kunyomi' data-hiragana='す'>Su</span> <span class='hiragana'>(す)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 897
+        "order_wiki": 897,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -52921,7 +64742,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='探'>suchen</span> <span class='meaning_kanji_reading'>(探)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 898
+        "order_wiki": 898,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "さが",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "さぐ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -52983,7 +64821,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='推'>ableiten</span> <span class='meaning_kanji_reading'>(推)</span> , <span class='reading onyomi' data-hiragana='すい'>Sui</span> <span class='hiragana'>(すい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 899
+        "order_wiki": 899,
+        "reading_dist": [
+            {
+                "reading": "すい",
+                "count": 12,
+                "prop": 0.92
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -53114,7 +64964,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='操'>Handhabung</span> <span class='meaning_kanji_reading'>(操)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 901
+        "order_wiki": 901,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "みさお",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "あやつ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -53174,7 +65041,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='敬'>Respekt</span> <span class='meaning_kanji_reading'>(敬)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 902
+        "order_wiki": 902,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "うやま",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -53237,7 +65116,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='映'>reflektieren</span> <span class='meaning_kanji_reading'>(映)</span> , <span class='reading onyomi' data-hiragana='えい'>Ei</span> <span class='hiragana'>(えい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 903
+        "order_wiki": 903,
+        "reading_dist": [
+            {
+                "reading": "えい",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "うつ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "は",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -53288,7 +65184,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='晩'>Anbruch der Nacht</span> <span class='meaning_kanji_reading'>(晩)</span> , <span class='reading onyomi' data-hiragana='ばん'>Ban</span> <span class='hiragana'>(ばん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 904
+        "order_wiki": 904,
+        "reading_dist": [
+            {
+                "reading": "ばん",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -53345,7 +65248,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='暖'>warm</span> <span class='meaning_kanji_reading'>(暖)</span> , <span class='reading onyomi' data-hiragana='だん'>Dan</span> <span class='hiragana'>(だん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 905
+        "order_wiki": 905,
+        "reading_dist": [
+            {
+                "reading": "だん",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "あたた",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "のれん",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -53407,7 +65327,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='暮'>Sonnenuntergang</span> <span class='meaning_kanji_reading'>(暮)</span> , <span class='reading onyomi' data-hiragana='ぼ'>Bo</span> <span class='hiragana'>(ぼ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 906
+        "order_wiki": 906,
+        "reading_dist": [
+            {
+                "reading": "く",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -53467,7 +65394,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='朗'>glücklich</span> <span class='meaning_kanji_reading'>(朗)</span> , <span class='reading onyomi' data-hiragana='ろう'>Rou</span> <span class='hiragana'>(ろう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 907
+        "order_wiki": 907,
+        "reading_dist": [
+            {
+                "reading": "ろう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "ほが",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -53522,7 +65461,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='机'>Tisch</span> <span class='meaning_kanji_reading'>(机)</span> , <span class='reading kunyomi' data-hiragana='つくえ'>Tsukue</span> <span class='hiragana'>(つくえ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 908
+        "order_wiki": 908,
+        "reading_dist": [
+            {
+                "reading": "つくえ",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "き",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -53577,7 +65528,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='枚'>Zähler für flache Dinge wie Blätter</span> <span class='meaning_kanji_reading'>(枚)</span> , <span class='reading onyomi' data-hiragana='まい'>Mai</span> <span class='hiragana'>(まい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 909
+        "order_wiki": 909,
+        "reading_dist": [
+            {
+                "reading": "まい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -53651,7 +65609,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='染'>färben</span> <span class='meaning_kanji_reading'>(染)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 910
+        "order_wiki": 910,
+        "reading_dist": [
+            {
+                "reading": "そ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "せん",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -53715,7 +65690,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='株'>Baumstumpf</span> <span class='meaning_kanji_reading'>(株)</span> , <span class='reading kunyomi' data-hiragana='かぶ'>Kabu</span> <span class='hiragana'>(かぶ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 911
+        "order_wiki": 911,
+        "reading_dist": [
+            {
+                "reading": "かぶ",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -53778,7 +65760,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='棒'>Stock</span> <span class='meaning_kanji_reading'>(棒)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 912
+        "order_wiki": 912,
+        "reading_dist": [
+            {
+                "reading": "ぼう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -53833,7 +65822,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='模'>nachbilden</span> <span class='meaning_kanji_reading'>(模)</span> , <span class='reading onyomi' data-hiragana='も'>Mo</span> <span class='hiragana'>(も)</span>  <span class='reading onyomi' data-hiragana='ぼ'>Bo</span> <span class='hiragana'>(ぼ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 913
+        "order_wiki": 913,
+        "reading_dist": [
+            {
+                "reading": "も",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -53897,7 +65893,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='権'>Autorität</span> <span class='meaning_kanji_reading'>(権)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 914
+        "order_wiki": 914,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -53959,7 +65962,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='樹'>Baum</span> <span class='meaning_kanji_reading'>(樹)</span> , <span class='reading onyomi' data-hiragana='じゅ'>Ju</span> <span class='hiragana'>(じゅ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 915
+        "order_wiki": 915,
+        "reading_dist": [
+            {
+                "reading": "じゅ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -54020,7 +66030,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='欲'>Begierde</span> <span class='meaning_kanji_reading'>(欲)</span> , <span class='reading onyomi' data-hiragana='よく'>Yoku</span> <span class='hiragana'>(よく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 916
+        "order_wiki": 916,
+        "reading_dist": [
+            {
+                "reading": "よく",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "ほ",
+                "count": 2,
+                "prop": 0.22
+            },
+            {
+                "reading": "ほっ",
+                "count": 1,
+                "prop": 0.11
+            },
+            {
+                "reading": "よっきゅう",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -54074,7 +66106,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='段'>Stufe</span> <span class='meaning_kanji_reading'>(段)</span> , <span class='reading onyomi' data-hiragana='だん'>Dan</span> <span class='hiragana'>(だん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 917
+        "order_wiki": 917,
+        "reading_dist": [
+            {
+                "reading": "だん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -54137,7 +66176,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='沿'>entlang</span> <span class='meaning_kanji_reading'>(沿)</span> , <span class='reading onyomi' data-hiragana='えん'>En</span> <span class='hiragana'>(えん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 918
+        "order_wiki": 918,
+        "reading_dist": [
+            {
+                "reading": "えん",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "そ",
+                "count": 2,
+                "prop": 0.25
+            },
+            {
+                "reading": "ぞ",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -54194,7 +66250,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='泉'>Quelle</span> <span class='meaning_kanji_reading'>(泉)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 919
+        "order_wiki": 919,
+        "reading_dist": [
+            {
+                "reading": "いずみ",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -54249,7 +66312,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='洗'>waschen</span> <span class='meaning_kanji_reading'>(洗)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 920
+        "order_wiki": 920,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 11,
+                "prop": 0.79
+            },
+            {
+                "reading": "あら",
+                "count": 3,
+                "prop": 0.21
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -54311,7 +66386,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='派'>Sekte</span> <span class='meaning_kanji_reading'>(派)</span> , <span class='reading onyomi' data-hiragana='は'>Ha</span> <span class='hiragana'>(は)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 921
+        "order_wiki": 921,
+        "reading_dist": [
+            {
+                "reading": "は",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -54381,7 +66463,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='済'>beenden</span> <span class='meaning_kanji_reading'>(済)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 922
+        "order_wiki": 922,
+        "reading_dist": [
+            {
+                "reading": "す",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -54437,7 +66526,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='源'>Quelle</span> <span class='meaning_kanji_reading'>(源)</span> , <span class='reading onyomi' data-hiragana='げん'>Gen</span> <span class='hiragana'>(げん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 923
+        "order_wiki": 923,
+        "reading_dist": [
+            {
+                "reading": "げん",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "みなもと",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -54499,7 +66600,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='潮'>Flut</span> <span class='meaning_kanji_reading'>(潮)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 924
+        "order_wiki": 924,
+        "reading_dist": [
+            {
+                "reading": "しお",
+                "count": 1,
+                "prop": 0.5
+            },
+            {
+                "reading": "ちょう",
+                "count": 1,
+                "prop": 0.5
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -54570,7 +66683,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='激'>heftig</span> <span class='meaning_kanji_reading'>(激)</span> , <span class='reading onyomi' data-hiragana='げき'>Geki</span> <span class='hiragana'>(げき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 925
+        "order_wiki": 925,
+        "reading_dist": [
+            {
+                "reading": "げき",
+                "count": 9,
+                "prop": 0.9
+            },
+            {
+                "reading": "はげ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -54627,7 +66752,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='灰'>Asche</span> <span class='meaning_kanji_reading'>(灰)</span> , <span class='reading kunyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 926
+        "order_wiki": 926,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -54686,7 +66818,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='熟'>ausgewachsen</span> <span class='meaning_kanji_reading'>(熟)</span> , <span class='reading onyomi' data-hiragana='じゅく'>Juku</span> <span class='hiragana'>(じゅく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 927
+        "order_wiki": 927,
+        "reading_dist": [
+            {
+                "reading": "じゅく",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "つくづく",
+                "count": 1,
+                "prop": 0.2
+            },
+            {
+                "reading": "こな",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -54738,7 +66887,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='片'>eine Seite</span> <span class='meaning_kanji_reading'>(片)</span> , <span class='reading kunyomi' data-hiragana='かた'>Kata</span> <span class='hiragana'>(かた)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 928
+        "order_wiki": 928,
+        "reading_dist": [
+            {
+                "reading": "かた",
+                "count": 8,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -54792,7 +66948,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='班'>Trupp</span> <span class='meaning_kanji_reading'>(班)</span> , <span class='reading onyomi' data-hiragana='はん'>Han</span> <span class='hiragana'>(はん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 929
+        "order_wiki": 929,
+        "reading_dist": [
+            {
+                "reading": "はん",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -54856,7 +67019,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='異'>unterschiedlich sein</span> <span class='meaning_kanji_reading'>(異)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 930
+        "order_wiki": 930,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 17,
+                "prop": 0.94
+            },
+            {
+                "reading": "こと",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -54924,7 +67099,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='疑'>Zweifel</span> <span class='meaning_kanji_reading'>(疑)</span> , <span class='reading onyomi' data-hiragana='ぎ'>Gi</span> <span class='hiragana'>(ぎ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 931
+        "order_wiki": 931,
+        "reading_dist": [
+            {
+                "reading": "ぎ",
+                "count": 9,
+                "prop": 0.75
+            },
+            {
+                "reading": "うたが",
+                "count": 3,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -54989,7 +67176,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='痛'>Schmerz</span> <span class='meaning_kanji_reading'>(痛)</span> , <span class='reading onyomi' data-hiragana='つう'>Tsuu</span> <span class='hiragana'>(つう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 932
+        "order_wiki": 932,
+        "reading_dist": [
+            {
+                "reading": "いた",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "つう",
+                "count": 3,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -55041,7 +67240,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='皇'>Kaiserhaus</span> <span class='meaning_kanji_reading'>(皇)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 933
+        "order_wiki": 933,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 9,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -55106,7 +67312,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='盛'>gedeihen</span> <span class='meaning_kanji_reading'>(盛)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>  <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 934
+        "order_wiki": 934,
+        "reading_dist": [
+            {
+                "reading": "も",
+                "count": 6,
+                "prop": 0.6
+            },
+            {
+                "reading": "さか",
+                "count": 2,
+                "prop": 0.2
+            },
+            {
+                "reading": "せい",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -55158,7 +67381,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='盟'>Allianz</span> <span class='meaning_kanji_reading'>(盟)</span> , <span class='reading onyomi' data-hiragana='めい'>Mei</span> <span class='hiragana'>(めい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 935
+        "order_wiki": 935,
+        "reading_dist": [
+            {
+                "reading": "めい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -55212,7 +67442,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='看'>beobachten</span> <span class='meaning_kanji_reading'>(看)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 936
+        "order_wiki": 936,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "み",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -55266,7 +67508,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='砂'>Sand</span> <span class='meaning_kanji_reading'>(砂)</span> , <span class='reading onyomi' data-hiragana='さ'>Sa</span> <span class='hiragana'>(さ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 937
+        "order_wiki": 937,
+        "reading_dist": [
+            {
+                "reading": "さ",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "すな",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "じゃ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -55326,7 +67585,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='磁'>Magnet</span> <span class='meaning_kanji_reading'>(磁)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 938
+        "order_wiki": 938,
+        "reading_dist": [
+            {
+                "reading": "じ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -55385,7 +67651,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='私'>ich</span> <span class='meaning_kanji_reading'>(私)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 939
+        "order_wiki": 939,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 18,
+                "prop": 0.86
+            },
+            {
+                "reading": "わたし",
+                "count": 3,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -55443,7 +67721,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='秘'>geheim</span> <span class='meaning_kanji_reading'>(秘)</span> , <span class='reading onyomi' data-hiragana='ひ'>Hi</span> <span class='hiragana'>(ひ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 940
+        "order_wiki": 940,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 5,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -55503,7 +67788,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='穀'>Getreide</span> <span class='meaning_kanji_reading'>(穀)</span> , <span class='reading onyomi' data-hiragana='こく'>Koku</span> <span class='hiragana'>(こく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 941
+        "order_wiki": 941,
+        "reading_dist": [
+            {
+                "reading": "こく",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 5,
@@ -55560,7 +67852,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='穴'>Loch</span> <span class='meaning_kanji_reading'>(穴)</span> , <span class='reading kunyomi' data-hiragana='あな'>Ana</span> <span class='hiragana'>(あな)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 942
+        "order_wiki": 942,
+        "reading_dist": [
+            {
+                "reading": "あな",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -55622,7 +67921,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='窓'>Fenster</span> <span class='meaning_kanji_reading'>(窓)</span> , <span class='reading kunyomi' data-hiragana='まど'>Mado</span> <span class='hiragana'>(まど)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 943
+        "order_wiki": 943,
+        "reading_dist": [
+            {
+                "reading": "まど",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -55692,7 +67998,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='筋'>Muskel</span> <span class='meaning_kanji_reading'>(筋)</span> , <span class='reading onyomi' data-hiragana='きん'>Kin</span> <span class='hiragana'>(きん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 944
+        "order_wiki": 944,
+        "reading_dist": [
+            {
+                "reading": "すじ",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "きん",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -55753,7 +68071,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='策'>Politik</span> <span class='meaning_kanji_reading'>(策)</span> , <span class='reading onyomi' data-hiragana='さく'>Saku</span> <span class='hiragana'>(さく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 945
+        "order_wiki": 945,
+        "reading_dist": [
+            {
+                "reading": "さく",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -55808,7 +68133,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='簡'>einfach</span> <span class='meaning_kanji_reading'>(簡)</span> , <span class='reading onyomi' data-hiragana='かん'>Kan</span> <span class='hiragana'>(かん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 946
+        "order_wiki": 946,
+        "reading_dist": [
+            {
+                "reading": "かん",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -55866,7 +68198,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='糖'>Zucker</span> <span class='meaning_kanji_reading'>(糖)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 947
+        "order_wiki": 947,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -55911,7 +68250,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='系'>Abstammung</span> <span class='meaning_kanji_reading'>(系)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 948
+        "order_wiki": 948,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -55972,7 +68318,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='紅'>dunkelrot</span> <span class='meaning_kanji_reading'>(紅)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 949
+        "order_wiki": 949,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "くれない",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -56041,7 +68399,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='納'>Vereinbarung</span> <span class='meaning_kanji_reading'>(納)</span> , <span class='reading onyomi' data-hiragana='のう'>Nou</span> <span class='hiragana'>(のう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 950
+        "order_wiki": 950,
+        "reading_dist": [
+            {
+                "reading": "のう",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "なっ",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -56094,7 +68464,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='純'>makellos</span> <span class='meaning_kanji_reading'>(純)</span> , <span class='reading onyomi' data-hiragana='じゅん'>Jun</span> <span class='hiragana'>(じゅん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 951
+        "order_wiki": 951,
+        "reading_dist": [
+            {
+                "reading": "じゅん",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -56152,7 +68529,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='絹'>Seide</span> <span class='meaning_kanji_reading'>(絹)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 952
+        "order_wiki": 952,
+        "reading_dist": [
+            {
+                "reading": "きぬ",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -56220,7 +68604,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='縦'>senkrecht</span> <span class='meaning_kanji_reading'>(縦)</span> , <span class='reading kunyomi' data-hiragana='たて'>Tate</span> <span class='hiragana'>(たて)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 953
+        "order_wiki": 953,
+        "reading_dist": [
+            {
+                "reading": "たて",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "じゅう",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -56292,7 +68688,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='縮'>schrumpfen</span> <span class='meaning_kanji_reading'>(縮)</span> , <span class='reading onyomi' data-hiragana='しゅく'>Shuku</span> <span class='hiragana'>(しゅく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 954
+        "order_wiki": 954,
+        "reading_dist": [
+            {
+                "reading": "ちぢ",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "しゅく",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -56346,7 +68754,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='署'>Regierungsbehörde</span> <span class='meaning_kanji_reading'>(署)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 955
+        "order_wiki": 955,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -56400,7 +68815,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='翌'>der nächste</span> <span class='meaning_kanji_reading'>(翌)</span> , <span class='reading onyomi' data-hiragana='よく'>Yoku</span> <span class='hiragana'>(よく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 956
+        "order_wiki": 956,
+        "reading_dist": [
+            {
+                "reading": "よく",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -56462,7 +68884,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='聖'>Heiliger</span> <span class='meaning_kanji_reading'>(聖)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 957
+        "order_wiki": 957,
+        "reading_dist": [
+            {
+                "reading": "せい",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -56512,7 +68941,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='肺'>Lunge</span> <span class='meaning_kanji_reading'>(肺)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 958
+        "order_wiki": 958,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -56579,7 +69015,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='背'>Rücken</span> <span class='meaning_kanji_reading'>(背)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 959
+        "order_wiki": 959,
+        "reading_dist": [
+            {
+                "reading": "せ",
+                "count": 7,
+                "prop": 0.58
+            },
+            {
+                "reading": "はい",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "そむ",
+                "count": 1,
+                "prop": 0.08
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -56645,7 +69098,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='胸'>Brust</span> <span class='meaning_kanji_reading'>(胸)</span> , <span class='reading kunyomi' data-hiragana='むね'>Mune</span> <span class='hiragana'>(むね)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 960
+        "order_wiki": 960,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "むね",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -56701,7 +69166,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='脳'>Gehirn</span> <span class='meaning_kanji_reading'>(脳)</span> , <span class='reading onyomi' data-hiragana='のう'>Nou</span> <span class='hiragana'>(のう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 961
+        "order_wiki": 961,
+        "reading_dist": [
+            {
+                "reading": "のう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -56761,7 +69233,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='腹'>Bauch</span> <span class='meaning_kanji_reading'>(腹)</span> , <span class='reading onyomi' data-hiragana='ふく'>Fuku</span> <span class='hiragana'>(ふく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 962
+        "order_wiki": 962,
+        "reading_dist": [
+            {
+                "reading": "ふく",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "はら",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 19,
@@ -56815,7 +69299,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='臓'>innere Organe</span> <span class='meaning_kanji_reading'>(臓)</span> , <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 963
+        "order_wiki": 963,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -56877,7 +69368,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='臨'>anwesend sein</span> <span class='meaning_kanji_reading'>(臨)</span> , <span class='reading onyomi' data-hiragana='りん'>Rin</span> <span class='hiragana'>(りん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 964
+        "order_wiki": 964,
+        "reading_dist": [
+            {
+                "reading": "りん",
+                "count": 6,
+                "prop": 0.86
+            },
+            {
+                "reading": "のぞ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -56930,7 +69433,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='至'>erreichen (eines Ziels)</span> <span class='meaning_kanji_reading'>(至)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 965
+        "order_wiki": 965,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "いた",
+                "count": 3,
+                "prop": 0.43
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -56998,7 +69513,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='若'>jung</span> <span class='meaning_kanji_reading'>(若)</span> , <span class='reading kunyomi' data-hiragana='わか'>Waka</span> <span class='hiragana'>(わか)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 966
+        "order_wiki": 966,
+        "reading_dist": [
+            {
+                "reading": "わか",
+                "count": 10,
+                "prop": 0.56
+            },
+            {
+                "reading": "も",
+                "count": 6,
+                "prop": 0.33
+            },
+            {
+                "reading": "じゃっかん",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "じゃく",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -57067,7 +69604,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='著'>bemerkenswert</span> <span class='meaning_kanji_reading'>(著)</span> , <span class='reading onyomi' data-hiragana='ちょ'>Cho</span> <span class='hiragana'>(ちょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 967
+        "order_wiki": 967,
+        "reading_dist": [
+            {
+                "reading": "ちょ",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "あらわ",
+                "count": 1,
+                "prop": 0.12
+            },
+            {
+                "reading": "いちじる",
+                "count": 1,
+                "prop": 0.12
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -57133,7 +69687,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='蒸'>schwül sein</span> <span class='meaning_kanji_reading'>(蒸)</span> , <span class='reading onyomi' data-hiragana='じょう'>Jou</span> <span class='hiragana'>(じょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 968
+        "order_wiki": 968,
+        "reading_dist": [
+            {
+                "reading": "む",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "じょう",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "ふ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -57188,7 +69759,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='蔵'>Lager</span> <span class='meaning_kanji_reading'>(蔵)</span> , <span class='reading onyomi' data-hiragana='ぞう'>Zou</span> <span class='hiragana'>(ぞう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 969
+        "order_wiki": 969,
+        "reading_dist": [
+            {
+                "reading": "ぞう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "くら",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -57249,7 +69832,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='衆'>große Menschenmenge</span> <span class='meaning_kanji_reading'>(衆)</span> , <span class='reading onyomi' data-hiragana='しゅう'>Shuu</span> <span class='hiragana'>(しゅう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 971
+        "order_wiki": 971,
+        "reading_dist": [
+            {
+                "reading": "しゅう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -57311,7 +69901,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='裁'>beurteilen</span> <span class='meaning_kanji_reading'>(裁)</span> , <span class='reading onyomi' data-hiragana='さい'>Sai</span> <span class='hiragana'>(さい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 972
+        "order_wiki": 972,
+        "reading_dist": [
+            {
+                "reading": "さい",
+                "count": 7,
+                "prop": 0.78
+            },
+            {
+                "reading": "さば",
+                "count": 1,
+                "prop": 0.11
+            },
+            {
+                "reading": "た",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -57376,7 +69983,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='装'>Kleidung</span> <span class='meaning_kanji_reading'>(装)</span> , <span class='reading onyomi' data-hiragana='そう'>Sou</span> <span class='hiragana'>(そう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 973
+        "order_wiki": 973,
+        "reading_dist": [
+            {
+                "reading": "そう",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "よそお",
+                "count": 2,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -57449,7 +70068,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='裏'>Rückseite</span> <span class='meaning_kanji_reading'>(裏)</span> , <span class='reading kunyomi' data-hiragana='うら'>Ura</span> <span class='hiragana'>(うら)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 974
+        "order_wiki": 974,
+        "reading_dist": [
+            {
+                "reading": "うら",
+                "count": 17,
+                "prop": 0.94
+            },
+            {
+                "reading": "り",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -57511,7 +70142,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='補'>Versorgung</span> <span class='meaning_kanji_reading'>(補)</span> , <span class='reading onyomi' data-hiragana='ほ'>Ho</span> <span class='hiragana'>(ほ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 975
+        "order_wiki": 975,
+        "reading_dist": [
+            {
+                "reading": "ほ",
+                "count": 13,
+                "prop": 0.93
+            },
+            {
+                "reading": "おぎな",
+                "count": 1,
+                "prop": 0.07
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -57568,7 +70211,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='視'>sehen</span> <span class='meaning_kanji_reading'>(視)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 976
+        "order_wiki": 976,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 10,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 17,
@@ -57630,7 +70280,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='覧'>genaues Schauen</span> <span class='meaning_kanji_reading'>(覧)</span> , <span class='reading onyomi' data-hiragana='らん'>Ran</span> <span class='hiragana'>(らん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 977
+        "order_wiki": 977,
+        "reading_dist": []
     },
     {
         "strokes": 10,
@@ -57688,7 +70339,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='討'>angreifen</span> <span class='meaning_kanji_reading'>(討)</span> , <span class='reading onyomi' data-hiragana='とう'>Tou</span> <span class='hiragana'>(とう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 978
+        "order_wiki": 978,
+        "reading_dist": [
+            {
+                "reading": "とう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "う",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -57749,7 +70412,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='訪'>besuchen</span> <span class='meaning_kanji_reading'>(訪)</span> , <span class='reading onyomi' data-hiragana='ほう'>Hou</span> <span class='hiragana'>(ほう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 979
+        "order_wiki": 979,
+        "reading_dist": [
+            {
+                "reading": "ほう",
+                "count": 6,
+                "prop": 0.67
+            },
+            {
+                "reading": "おとず",
+                "count": 2,
+                "prop": 0.22
+            },
+            {
+                "reading": "たず",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -57809,7 +70489,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='訳'>Übersetzung</span> <span class='meaning_kanji_reading'>(訳)</span> , <span class='reading onyomi' data-hiragana='やく'>Yaku</span> <span class='hiragana'>(やく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 980
+        "order_wiki": 980,
+        "reading_dist": [
+            {
+                "reading": "わけ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "やく",
+                "count": 2,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -57866,7 +70558,8 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='詞'>Wort(e)</span> <span class='meaning_kanji_reading'>(詞)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 981
+        "order_wiki": 981,
+        "reading_dist": []
     },
     {
         "strokes": 14,
@@ -57923,7 +70616,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='誌'>Zeitschrift</span> <span class='meaning_kanji_reading'>(誌)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 982
+        "order_wiki": 982,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -57988,7 +70688,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='認'>anerkennen</span> <span class='meaning_kanji_reading'>(認)</span> , <span class='reading onyomi' data-hiragana='にん'>Nin</span> <span class='hiragana'>(にん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 983
+        "order_wiki": 983,
+        "reading_dist": [
+            {
+                "reading": "にん",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "みと",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -58046,7 +70758,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='誕'>Geburt</span> <span class='meaning_kanji_reading'>(誕)</span> , <span class='reading onyomi' data-hiragana='たん'>Tan</span> <span class='hiragana'>(たん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 984
+        "order_wiki": 984,
+        "reading_dist": [
+            {
+                "reading": "たん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -58107,7 +70826,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='誠'>Wahrheit</span> <span class='meaning_kanji_reading'>(誠)</span> , <span class='reading onyomi' data-hiragana='せい'>Sei</span> <span class='hiragana'>(せい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 985
+        "order_wiki": 985,
+        "reading_dist": [
+            {
+                "reading": "まこと",
+                "count": 3,
+                "prop": 0.6
+            },
+            {
+                "reading": "せい",
+                "count": 2,
+                "prop": 0.4
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -58166,7 +70897,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='誤'>Fehler</span> <span class='meaning_kanji_reading'>(誤)</span> , <span class='reading onyomi' data-hiragana='ご'>Go</span> <span class='hiragana'>(ご)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 986
+        "order_wiki": 986,
+        "reading_dist": [
+            {
+                "reading": "ご",
+                "count": 5,
+                "prop": 0.62
+            },
+            {
+                "reading": "あやま",
+                "count": 3,
+                "prop": 0.38
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -58227,7 +70970,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='論'>Argument</span> <span class='meaning_kanji_reading'>(論)</span> , <span class='reading onyomi' data-hiragana='ろん'>Ron</span> <span class='hiragana'>(ろん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 987
+        "order_wiki": 987,
+        "reading_dist": [
+            {
+                "reading": "ろん",
+                "count": 17,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -58285,7 +71035,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='諸'>allumfassend</span> <span class='meaning_kanji_reading'>(諸)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 988
+        "order_wiki": 988,
+        "reading_dist": [
+            {
+                "reading": "しょ",
+                "count": 4,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 19,
@@ -58345,7 +71102,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='警'>warnen</span> <span class='meaning_kanji_reading'>(警)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 989
+        "order_wiki": 989,
+        "reading_dist": [
+            {
+                "reading": "けい",
+                "count": 14,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 12,
@@ -58412,7 +71176,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='貴'>edel</span> <span class='meaning_kanji_reading'>(貴)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 990
+        "order_wiki": 990,
+        "reading_dist": [
+            {
+                "reading": "き",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "あなた",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -58473,7 +71249,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='賃'>Gebühr</span> <span class='meaning_kanji_reading'>(賃)</span> , <span class='reading onyomi' data-hiragana='ちん'>Chin</span> <span class='hiragana'>(ちん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 991
+        "order_wiki": 991,
+        "reading_dist": [
+            {
+                "reading": "ちん",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -58532,7 +71315,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='遺'>zurücklassen</span> <span class='meaning_kanji_reading'>(遺)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 992
+        "order_wiki": 992,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 18,
+                "prop": 0.95
+            },
+            {
+                "reading": "ゆい",
+                "count": 1,
+                "prop": 0.05
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -58584,7 +71379,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='郵'>Post</span> <span class='meaning_kanji_reading'>(郵)</span> , <span class='reading onyomi' data-hiragana='ゆう'>Yuu</span> <span class='hiragana'>(ゆう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 993
+        "order_wiki": 993,
+        "reading_dist": [
+            {
+                "reading": "ゆう",
+                "count": 6,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -58641,7 +71443,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='郷'>Heimatort</span> <span class='meaning_kanji_reading'>(郷)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 994
+        "order_wiki": 994,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -58700,7 +71509,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='針'>Nadel</span> <span class='meaning_kanji_reading'>(針)</span> , <span class='reading onyomi' data-hiragana='しん'>Shin</span> <span class='hiragana'>(しん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 995
+        "order_wiki": 995,
+        "reading_dist": [
+            {
+                "reading": "はり",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 16,
@@ -58753,7 +71569,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='鋼'>Stahl</span> <span class='meaning_kanji_reading'>(鋼)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 996
+        "order_wiki": 996,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "はがね",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -58816,7 +71644,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='閉'>schließen</span> <span class='meaning_kanji_reading'>(閉)</span> , <span class='reading onyomi' data-hiragana='へい'>Hei</span> <span class='hiragana'>(へい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 997
+        "order_wiki": 997,
+        "reading_dist": [
+            {
+                "reading": "へい",
+                "count": 6,
+                "prop": 0.5
+            },
+            {
+                "reading": "と",
+                "count": 4,
+                "prop": 0.33
+            },
+            {
+                "reading": "し",
+                "count": 2,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -58870,7 +71715,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='閣'>(Regierungs-)Kabinett</span> <span class='meaning_kanji_reading'>(閣)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 998
+        "order_wiki": 998,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -58940,7 +71792,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='降'>fallen (Regen)</span> <span class='meaning_kanji_reading'>(降)</span> , <span class='reading onyomi' data-hiragana='こう'>Kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 999
+        "order_wiki": 999,
+        "reading_dist": [
+            {
+                "reading": "こう",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "お",
+                "count": 1,
+                "prop": 0.1
+            },
+            {
+                "reading": "ふ",
+                "count": 1,
+                "prop": 0.1
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -58996,7 +71865,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='陛'>Majestät</span> <span class='meaning_kanji_reading'>(陛)</span> , <span class='reading onyomi' data-hiragana='へい'>Hei</span> <span class='hiragana'>(へい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1000
+        "order_wiki": 1000,
+        "reading_dist": [
+            {
+                "reading": "へい",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -59062,7 +71938,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='除'>entfernen</span> <span class='meaning_kanji_reading'>(除)</span> , <span class='reading onyomi' data-hiragana='じょ'>Jo</span> <span class='hiragana'>(じょ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1001
+        "order_wiki": 1001,
+        "reading_dist": [
+            {
+                "reading": "じょ",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "のぞ",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -59119,7 +72007,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='障'>behindern</span> <span class='meaning_kanji_reading'>(障)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1002
+        "order_wiki": 1002,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 4,
+                "prop": 0.8
+            },
+            {
+                "reading": "さわ",
+                "count": 1,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 18,
@@ -59182,7 +72082,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='難'>schwierig</span> <span class='meaning_kanji_reading'>(難)</span> , <span class='reading onyomi' data-hiragana='なん'>Nan</span> <span class='hiragana'>(なん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1003
+        "order_wiki": 1003,
+        "reading_dist": [
+            {
+                "reading": "なん",
+                "count": 14,
+                "prop": 0.82
+            },
+            {
+                "reading": "むずか",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "にく",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "なにわ",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -59233,7 +72155,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='革'>Leder</span> <span class='meaning_kanji_reading'>(革)</span> , <span class='reading onyomi' data-hiragana='かく'>Kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1004
+        "order_wiki": 1004,
+        "reading_dist": [
+            {
+                "reading": "かく",
+                "count": 2,
+                "prop": 0.67
+            },
+            {
+                "reading": "かわ",
+                "count": 1,
+                "prop": 0.33
+            }
+        ]
     },
     {
         "strokes": 11,
@@ -59297,7 +72231,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='頂'>Gipfel</span> <span class='meaning_kanji_reading'>(頂)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1005
+        "order_wiki": 1005,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "いただ",
+                "count": 3,
+                "prop": 0.43
+            },
+            {
+                "reading": "いただき",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -59360,7 +72311,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='骨'>Knochen</span> <span class='meaning_kanji_reading'>(骨)</span> , <span class='reading onyomi' data-hiragana='こつ'>Kotsu</span> <span class='hiragana'>(こつ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1006
+        "order_wiki": 1006,
+        "reading_dist": [
+            {
+                "reading": "こっ",
+                "count": 4,
+                "prop": 0.57
+            },
+            {
+                "reading": "ほね",
+                "count": 2,
+                "prop": 0.29
+            },
+            {
+                "reading": "こつ",
+                "count": 1,
+                "prop": 0.14
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -59413,7 +72381,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='胃'>Magen</span> <span class='meaning_kanji_reading'>(胃)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1007
+        "order_wiki": 1007,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -59472,7 +72447,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='腸'>Eingeweide</span> <span class='meaning_kanji_reading'>(腸)</span> , <span class='reading onyomi' data-hiragana='ちょう'>Chou</span> <span class='hiragana'>(ちょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1008
+        "order_wiki": 1008,
+        "reading_dist": [
+            {
+                "reading": "ちょう",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -59524,7 +72506,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='券'>Eintrittskarte</span> <span class='meaning_kanji_reading'>(券)</span> , <span class='reading onyomi' data-hiragana='けん'>Ken</span> <span class='hiragana'>(けん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1009
+        "order_wiki": 1009,
+        "reading_dist": [
+            {
+                "reading": "けん",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -59591,7 +72580,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='承'>erfahren</span> <span class='meaning_kanji_reading'>(承)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1010
+        "order_wiki": 1010,
+        "reading_dist": [
+            {
+                "reading": "しょう",
+                "count": 3,
+                "prop": 0.75
+            },
+            {
+                "reading": "うけたまわ",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 6,
@@ -59643,7 +72644,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='舌'>Zunge</span> <span class='meaning_kanji_reading'>(舌)</span> , <span class='reading kunyomi' data-hiragana='した'>Shita</span> <span class='hiragana'>(した)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1011
+        "order_wiki": 1011,
+        "reading_dist": [
+            {
+                "reading": "した",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 14,
@@ -59702,7 +72710,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='銭'>Geld</span> <span class='meaning_kanji_reading'>(銭)</span> , <span class='reading onyomi' data-hiragana='せん'>Sen</span> <span class='hiragana'>(せん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1012
+        "order_wiki": 1012,
+        "reading_dist": [
+            {
+                "reading": "せん",
+                "count": 2,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 9,
@@ -59772,7 +72787,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='退'>sich zurückziehen</span> <span class='meaning_kanji_reading'>(退)</span> , <span class='reading onyomi' data-hiragana='たい'>Tai</span> <span class='hiragana'>(たい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1013
+        "order_wiki": 1013,
+        "reading_dist": [
+            {
+                "reading": "たい",
+                "count": 16,
+                "prop": 0.89
+            },
+            {
+                "reading": "しりぞ",
+                "count": 1,
+                "prop": 0.06
+            },
+            {
+                "reading": "ど",
+                "count": 1,
+                "prop": 0.06
+            }
+        ]
     },
     {
         "strokes": 15,
@@ -59832,7 +72864,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='敵'>Feind</span> <span class='meaning_kanji_reading'>(敵)</span> , <span class='reading onyomi' data-hiragana='てき'>Teki</span> <span class='hiragana'>(てき)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1014
+        "order_wiki": 1014,
+        "reading_dist": [
+            {
+                "reading": "てき",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "かな",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -59894,7 +72938,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='俵'>Sack</span> <span class='meaning_kanji_reading'>(俵)</span> , <span class='reading onyomi' data-hiragana='ひょう'>Hyou</span> <span class='hiragana'>(ひょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1015
+        "order_wiki": 1015,
+        "reading_dist": [
+            {
+                "reading": "たわら",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -59953,7 +73004,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='預'>Aufbewahrung</span> <span class='meaning_kanji_reading'>(預)</span> , <span class='reading onyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1016
+        "order_wiki": 1016,
+        "reading_dist": [
+            {
+                "reading": "あず",
+                "count": 5,
+                "prop": 0.56
+            },
+            {
+                "reading": "よ",
+                "count": 3,
+                "prop": 0.33
+            },
+            {
+                "reading": "あずか",
+                "count": 1,
+                "prop": 0.11
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -60016,7 +73084,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='恩'>Freundlichkeit</span> <span class='meaning_kanji_reading'>(恩)</span> , <span class='reading onyomi' data-hiragana='おん'>On</span> <span class='hiragana'>(おん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1017
+        "order_wiki": 1017,
+        "reading_dist": [
+            {
+                "reading": "おん",
+                "count": 7,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -60091,7 +73166,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='並'>nebeneinander stehen</span> <span class='meaning_kanji_reading'>(並)</span> , <span class='reading onyomi' data-hiragana='へい'>Hei</span> <span class='hiragana'>(へい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1018
+        "order_wiki": 1018,
+        "reading_dist": [
+            {
+                "reading": "なら",
+                "count": 5,
+                "prop": 0.5
+            },
+            {
+                "reading": "へい",
+                "count": 3,
+                "prop": 0.3
+            },
+            {
+                "reading": "なみ",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 7,
@@ -60156,7 +73248,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='乱'>Revolte</span> <span class='meaning_kanji_reading'>(乱)</span> , <span class='reading onyomi' data-hiragana='らん'>Ran</span> <span class='hiragana'>(らん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1019
+        "order_wiki": 1019,
+        "reading_dist": [
+            {
+                "reading": "らん",
+                "count": 10,
+                "prop": 0.77
+            },
+            {
+                "reading": "みだ",
+                "count": 3,
+                "prop": 0.23
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -60217,7 +73321,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='乳'>Brüste</span> <span class='meaning_kanji_reading'>(乳)</span> mit <span class='meaning' data-kanji='乳'>Milch</span> <span class='meaning_kanji_reading'>(乳)</span> haben bei Babys Ko<span class='reading onyomi' data-hiragana='にゅう'>nju</span>ktur <span class='hiragana'>(にゅう)</span>.",
         "mnemonic_reading_de_done": true,
-        "order_wiki": 1020
+        "order_wiki": 1020,
+        "reading_dist": [
+            {
+                "reading": "にゅう",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "ち",
+                "count": 2,
+                "prop": 0.33
+            },
+            {
+                "reading": "ちち",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 3,
@@ -60278,7 +73399,24 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_reading'>(亡)</span> , <span class='reading onyomi' data-hiragana='ぼう'>Bou</span> <span class='hiragana'>(ぼう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1021
+        "order_wiki": 1021,
+        "reading_dist": [
+            {
+                "reading": "な",
+                "count": 2,
+                "prop": 0.5
+            },
+            {
+                "reading": "ぼう",
+                "count": 1,
+                "prop": 0.25
+            },
+            {
+                "reading": "なき",
+                "count": 1,
+                "prop": 0.25
+            }
+        ]
     },
     {
         "strokes": 4,
@@ -60338,7 +73476,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='仁'>Güte</span> <span class='meaning_kanji_reading'>(仁)</span> , <span class='reading onyomi' data-hiragana='じん'>Jin</span> <span class='hiragana'>(じん)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1022
+        "order_wiki": 1022,
+        "reading_dist": [
+            {
+                "reading": "じん",
+                "count": 1,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 8,
@@ -60406,7 +73551,29 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='供'>anbieten</span> <span class='meaning_kanji_reading'>(供)</span> , <span class='reading onyomi' data-hiragana='きょう'>Kyou</span> <span class='hiragana'>(きょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1023
+        "order_wiki": 1023,
+        "reading_dist": [
+            {
+                "reading": "きょう",
+                "count": 3,
+                "prop": 0.5
+            },
+            {
+                "reading": "とも",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "そな",
+                "count": 1,
+                "prop": 0.17
+            },
+            {
+                "reading": "く",
+                "count": 1,
+                "prop": 0.17
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -60458,7 +73625,14 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='俳'>Schauspieler</span> <span class='meaning_kanji_reading'>(俳)</span> , <span class='reading onyomi' data-hiragana='はい'>Hai</span> <span class='hiragana'>(はい)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1024
+        "order_wiki": 1024,
+        "reading_dist": [
+            {
+                "reading": "はい",
+                "count": 3,
+                "prop": 1.0
+            }
+        ]
     },
     {
         "strokes": 10,
@@ -60518,7 +73692,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='値'>Werte</span> <span class='meaning_kanji_reading'>(値)</span> , <span class='reading onyomi' data-hiragana='ち'>Chi</span> <span class='hiragana'>(ち)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1025
+        "order_wiki": 1025,
+        "reading_dist": [
+            {
+                "reading": "ね",
+                "count": 8,
+                "prop": 0.8
+            },
+            {
+                "reading": "あたい",
+                "count": 2,
+                "prop": 0.2
+            }
+        ]
     },
     {
         "strokes": 13,
@@ -60591,7 +73777,19 @@ let kyouiku =
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='傷'>Wunde</span> <span class='meaning_kanji_reading'>(傷)</span> , <span class='reading onyomi' data-hiragana='しょう'>Shou</span> <span class='hiragana'>(しょう)</span>",
         "mnemonic_reading_de_done": false,
-        "order_wiki": 1026
+        "order_wiki": 1026,
+        "reading_dist": [
+            {
+                "reading": "きず",
+                "count": 5,
+                "prop": 0.71
+            },
+            {
+                "reading": "しょう",
+                "count": 2,
+                "prop": 0.29
+            }
+        ]
     }
 ]
 ;

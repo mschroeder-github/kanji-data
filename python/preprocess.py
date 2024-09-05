@@ -1,4 +1,7 @@
 import random
+import time
+import urllib.parse
+
 import numpy as np
 from hiragana import hiragana_to_romaji, hiragana_to_ascii
 import csv
@@ -664,6 +667,192 @@ def order():
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
         json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
+def order_based_on_radical():
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    all_kanjis = set()
+    for entry in kanji_kyouiku:
+        all_kanjis.add(entry['kanji'])
+
+    kanji2entry = {}
+    for entry in kanji_kyouiku:
+        kanji2entry[entry['kanji']] = entry
+
+    visited = set()
+
+    order_wiki_radical_corrected = 1
+
+    for entry in kanji_kyouiku:
+
+        if entry['kanji'] in visited:
+            continue
+
+        if not entry['is_radical']:
+
+            for rad_meaning, rad_kanji in zip(entry['wk_radicals_de'], entry['wk_radicals_kanji']):
+
+                if rad_kanji.strip() == '':
+                    rad_kanji = rad_meaning
+
+                if rad_kanji in all_kanjis:
+                    if rad_kanji not in visited:
+                        kanji2entry[rad_kanji]['order_wiki_radical_corrected'] = order_wiki_radical_corrected
+                        kanji2entry[rad_kanji]['grade_corrected'] = entry['grade']
+                        order_wiki_radical_corrected += 1
+                        visited.add(rad_kanji)
+
+                        print(rad_kanji, ' needs to be earlier, order', kanji2entry[rad_kanji]['order_wiki_radical_corrected'], 'grade', 'std', kanji2entry[rad_kanji]['grade'], 'corrected', kanji2entry[rad_kanji]['grade_corrected'])
+
+                else:
+                    if rad_kanji not in visited:
+                        # print(rad_kanji, ' is a real radical')
+                        visited.add(rad_kanji)
+
+
+        entry['order_wiki_radical_corrected'] = order_wiki_radical_corrected
+        entry['grade_corrected'] = entry['grade']
+        order_wiki_radical_corrected += 1
+        visited.add(entry['kanji'])
+
+        print('visit', entry['kanji'], 'order', entry['order_wiki_radical_corrected'], 'grade corrected', entry['grade_corrected'])
+
+def jisho_crawler():
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    folder = "jisho_cache_"
+    os.makedirs(folder, exist_ok=True)
+
+    for entry in tqdm(kanji_kyouiku):
+        kanji = entry['kanji']
+        # print(kanji)
+
+        #町 #words #common
+
+        search_str = urllib.parse.quote(f"{kanji} #words #common")
+
+        for page in range(1, 100):
+
+            path = os.path.join(folder, f"{entry['kanji_ord']}-{page}.html")
+
+            if os.path.exists(path):
+                print(path, 'exists')
+                continue
+
+            try:
+                resp = requests.get('https://jisho.org/search/' + search_str + '?page=' + str(page))
+            except Exception as e:
+                print(e)
+                continue
+
+            if "Sorry, couldn't find anything" in resp.text:
+                break
+
+            with open(path, 'wt') as file:
+                file.write(resp.text)
+
+            time.sleep(1)
+
+        # print('wait ...')
+        time.sleep(4)
+
+        # break
+
+def jisho_furigana_scanner():
+    folder = "jisho_cache"
+
+    kanji2reading2num = { }
+
+    for filename in tqdm(os.listdir(folder)):
+        path = os.path.join(folder, filename)
+
+        with open(path, 'rt', encoding='utf-8') as file:
+            soup = BeautifulSoup(file, 'html.parser')
+
+        title = soup.title.text
+        focus_kanji = title.split('#')[0].strip()
+
+        concepts = soup.find_all("div", class_="concept_light")
+
+        visited_word = set()
+        reading2num = kanji2reading2num.get(focus_kanji)
+        if reading2num is None:
+            reading2num = defaultdict(int)
+            kanji2reading2num[focus_kanji] = reading2num
+
+        for concept in concepts:
+            repr = concept.find('div', class_="concept_light-representation")
+            word = repr.find('span', class_="text").get_text().strip()
+
+            if word in visited_word:
+                continue
+
+            furigana = repr.find('span', class_="furigana")
+            kanjis = [kanji for kanji in word]
+            children = [child for child in furigana.children if child.name is not None]
+
+            # len(kanjis) != len(children) is a special case, then they have this <ruby class="furigana-justify"><rb>歌留多</rb><rt>カルタ</rt></ruby>
+            # but this happens not so often
+
+            if len(kanjis) == len(children):
+
+                visited_word.add(word)
+
+                for kanji, furigana in zip(kanjis, children):
+                    # print(kanji, furigana.get_text())
+                    if kanji == focus_kanji:
+                        reading2num[furigana.get_text()] += 1
+
+                #print('kanji', kanji)
+                #print('word', kanjis)
+                #print(len(kanjis))
+                #print(len(children))
+
+                #for child in children:
+                #    print('  * ', child, child.get_text())
+
+                #print()
+                #print()
+
+        #print('focus_kanji', focus_kanji)
+        #print(reading2num)
+        #print()
+        #break
+
+    # print(kanji2reading2num)
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    for entry in kanji_kyouiku:
+        reading2num = kanji2reading2num.get(entry['kanji'])
+
+        if reading2num == None:
+            continue
+
+        reading2num_sorted = sorted(reading2num.items(), key=lambda item: item[1], reverse=True)
+
+        total = sum([count for _,count in reading2num_sorted])
+
+        reading_dist = []
+
+        # print(reading2num_sorted)
+        for reading, count in reading2num_sorted:
+            reading_entry = {
+                "reading": reading,
+                "count": count,
+                "prop": round(count / total, 2)
+            }
+            reading_dist.append(reading_entry)
+
+        entry['reading_dist'] = reading_dist
+
+        # print(json.dumps(entry, indent=2, ensure_ascii=False))
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
+        json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
+
 
 def is_done(entry):
     return entry['mnemonic_reading_de_done'] and (entry['mnemonic_meaning_de_done'] or entry.get('has_radical_img'))
@@ -1187,5 +1376,8 @@ def get_reading_strs(entry):
 # germanet_categories()
 # order()
 
-make_anki_v2(romaji_reading=True)
-make_anki_v2(romaji_reading=False)
+#make_anki_v2(romaji_reading=True)
+#make_anki_v2(romaji_reading=False)
+# order_based_on_radical()
+# jisho_crawler()
+# jisho_furigana_scanner()
