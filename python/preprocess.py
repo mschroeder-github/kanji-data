@@ -1250,33 +1250,36 @@ def make_anki_v2(romaji_reading=False, separator=" "):
     decks.append(kanji_kyouiku_deck)
 
     # Create a subdeck
-    no2deck = { }
-    no2deck['1'] = genanki.Deck(
-        1519507022,
-        'Kyōiku-Kanji Deutsch::1. Schuljahr')
-    no2deck['2'] = genanki.Deck(
-        2002120349,
-        'Kyōiku-Kanji Deutsch::2. Schuljahr')
-    no2deck['3'] = genanki.Deck(
-        1621021171,
-        'Kyōiku-Kanji Deutsch::3. Schuljahr')
-    no2deck['4'] = genanki.Deck(
-        1298392758,
-        'Kyōiku-Kanji Deutsch::4. Schuljahr')
-    no2deck['5'] = genanki.Deck(
-        1670745543,
-        'Kyōiku-Kanji Deutsch::5. Schuljahr')
-    no2deck['6'] = genanki.Deck(
-        1555589751,
-        'Kyōiku-Kanji Deutsch::6. Schuljahr')
+    #no2deck = { }
+    #no2deck['1'] = genanki.Deck(
+    #    1519507022,
+    #    'Kyōiku-Kanji Deutsch::1. Schuljahr')
+    #no2deck['2'] = genanki.Deck(
+    #    2002120349,
+    #    'Kyōiku-Kanji Deutsch::2. Schuljahr')
+    #no2deck['3'] = genanki.Deck(
+    #    1621021171,
+    #    'Kyōiku-Kanji Deutsch::3. Schuljahr')
+    #no2deck['4'] = genanki.Deck(
+    #    1298392758,
+    #    'Kyōiku-Kanji Deutsch::4. Schuljahr')
+    #no2deck['5'] = genanki.Deck(
+    #    1670745543,
+    #    'Kyōiku-Kanji Deutsch::5. Schuljahr')
+    #no2deck['6'] = genanki.Deck(
+    #    1555589751,
+    #    'Kyōiku-Kanji Deutsch::6. Schuljahr')
 
-    no2total = defaultdict(int)
+    #no2total = defaultdict(int)
 
+    actual = 0
     for entry in kanji_kyouiku:
-        no2total[str(entry['grade'])] += 1
+        #no2total[str(entry['grade'])] += 1
 
         if not is_done(entry):
             continue
+
+        actual += 1
 
         # turn reading mnemonic to reading check
         reading_strs = get_reading_strs(entry)
@@ -1325,11 +1328,12 @@ def make_anki_v2(romaji_reading=False, separator=" "):
                 ]
             )
 
-        no2deck[str(entry['grade'])].add_note(note)
+        # no2deck[str(entry['grade'])].add_note(note)
+        kanji_kyouiku_deck.add_note(note)
 
-    for no, deck in no2deck.items():
-        if len(deck.notes) > 0:
-            decks.append(deck)
+    #for no, deck in no2deck.items():
+    #    if len(deck.notes) > 0:
+    #        decks.append(deck)
 
     # export package
     package = genanki.Package(decks)
@@ -1341,21 +1345,21 @@ def make_anki_v2(romaji_reading=False, separator=" "):
     output_file = f'../anki/Kyouiku-Kanji-Deutsch_{reading_mode}.apkg'
     package.write_to_file(output_file)
 
-    actual_sum = 0
-    expected_sum = 0
-    text = ""
-    for no in sorted(no2total.keys()):
-        actual = len(no2deck[no].notes)
-        expected = no2total[no]
-        actual_sum += actual
-        expected_sum += expected
-        percent = int((actual / expected) * 100)
-        text += f"{no}. grade: {actual: 5} /{expected: 5} {percent: 4}%\n"
+    #actual_sum = 0
+    #expected_sum = 0
+    #text = ""
+    #for no in sorted(no2total.keys()):
+    #    actual = len(no2deck[no].notes)
+    #    expected = no2total[no]
+    #    actual_sum += actual
+    #    expected_sum += expected
+    #    percent = int((actual / expected) * 100)
+    #    text += f"{no}. grade: {actual: 5} /{expected: 5} {percent: 4}%\n"
 
-    percent_total = int((actual_sum / expected_sum) * 100)
-    print(f"   total: {actual_sum: 5} /{expected_sum: 5} {percent_total: 4}%")
+    total = len(kanji_kyouiku)
+    percent_total = int((actual / total) * 100)
+    print(f"total: {actual: 5} /{total: 5} {percent_total: 4}%")
     # print("---------------------------")
-    print(text)
     print()
 
 
@@ -1382,8 +1386,8 @@ def get_reading_strs(entry):
 # germanet_categories()
 # order()
 
-#make_anki_v2(romaji_reading=True)
-#make_anki_v2(romaji_reading=False)
+make_anki_v2(romaji_reading=True)
+make_anki_v2(romaji_reading=False)
 # order_based_on_radical()
 # jisho_crawler()
 # jisho_furigana_scanner()
