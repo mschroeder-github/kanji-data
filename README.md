@@ -13,9 +13,11 @@ The preprocessing code is written in Python. The following changes are made.
 * The `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` is the Work-In-Progress (WIP) file that is filled manually. The `watch_copy_to_docs.sh` is used to copy it to `docs`.
 * In `docs` folder is `kyouiku-de.html` which shows a table of the kanjis and mnemonics.
 * In `img` folder are image (`*-img.jpg`) and kanji (`*-kanji.jpg`, transparent `*-kanji.png`) pairs to give a visual clue for those kanji which are radicals. Almost all images are generated (thanks to [pollinations](https://image.pollinations.ai/prompt/), [deepai](https://deepai.org/machine-learning-model/text2img) and [craiyon](https://www.craiyon.com/)), some are manually post-processed. There is now an option `"has_radical_img": true` to enable the visual clue in `kyouiku-de.html`. Using CSS, image and kanji are overlapped and blended in an animation.
-* The order given by the table in [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji) is used to sort entries in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json`. Every entry has an `order_wiki` key.
+* The order given by the table in [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji) is used to sort entries in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json`. Every entry has an `order_wiki` key. However, to introduce radicals before they are used in a kanji, some kanjis are sorted accordingly. For example, 弓 occurs before 弱.
+* With a crawl from [jisho](https://jisho.org), furigana analysis on common words is performed, to inpect the reading distribution. For example, 村 is read in 3 common words as そん (60%) and in 2 common words as むら (40%).
 * Completed entries are provieded as Anki cards (see section below).
-* **Milestone**: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) all mnmemonics and in `img` all visual clues are completed.
+* **Milestone**: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
+* The commit message shows the current progress.
 
 
 ### Lesung Merksatz Leitfaden
@@ -41,24 +43,28 @@ Um gute Merksätze für Lesungen zu schreiben, ist hier ein Leitfaden mit Empfeh
 
 > [Anki](https://apps.ankiweb.net/) is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.
 
-Using data from `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` Anki decks are generated (see `make_anki` function). They are stored in the [anki](/anki) folder as `*.apkg` files.
+Using data from `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` Anki decks are generated (see `make_anki_v2` function). They are stored in the [anki](/anki) folder as `*.apkg` files.
+Instead of creating sub-decks for each grade, one deck named "Kyōiku-Kanji Deutsch" is created with all finished kanjis in them.
 
-Three card types are available:
-* Bedeutung Merksatz Karte - learn the meaning of kanjis by mnemonic sentences.
-* Bedeutung Merkbild Karte - learn the meaning of kanjis by visual clues.
-* Lesung Merksatz Karte - learn the reading of kanjis by mnemonic sentences.
+Two card types are available:
+* Bedeutung/Lesung Merksatz Karte - learn the meaning and reading of kanjis by mnemonic sentences.
+* Bedeutung/Lesung Merkbild Karte - learn the meaning and reading of kanjis by visual clues (meaning) and a mnemonic sentence (reading).
+
+This way, meaning and reading(s) are learned together with one card.
 
 For reading input there are two versions: hiragana or romaji. The latter proves to be useful when the learners do not have a Japanese input method. For multiple reading possibilities, a separator is used (by default space `" "`).
 
 #### Screenshots
 
-![](docs/anki-01.jpg)
+<center>
 
-![](docs/anki-02.jpg)
+![](docs/anki-05.jpg)
 
-![](docs/anki-03.jpg)
+![](docs/anki-07.jpg)
 
-![](docs/anki-04.jpg)
+![](docs/anki-06.jpg)
+
+</center>
 
 ### JSON Example
 
@@ -144,7 +150,51 @@ An entry in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` has the followi
     "mnemonic_meaning_de_done": true,
     "mnemonic_reading_de": "Haare hängen nach <span class='meaning' data-kanji='下'>unten</span> <span class='meaning_kanji_reading'>(下)</span>, also mit <span class='reading onyomi' data-hiragana='か'>Ka</span>mm <span class='hiragana'>(か)</span> und <span class='reading onyomi' data-hiragana='げ'>Ge</span>l <span class='hiragana'>(げ)</span> stylen.",
     "mnemonic_reading_de_done": true,
-    "order_wiki": 14
+    "order_wiki": 14,
+    "reading_dist": [
+        {
+            "reading": "した",
+            "count": 15,
+            "prop": 0.29
+        },
+        {
+            "reading": "か",
+            "count": 11,
+            "prop": 0.21
+        },
+        {
+            "reading": "げ",
+            "count": 11,
+            "prop": 0.21
+        },
+        {
+            "reading": "くだ",
+            "count": 7,
+            "prop": 0.13
+        },
+        {
+            "reading": "さ",
+            "count": 3,
+            "prop": 0.06
+        },
+        {
+            "reading": "しも",
+            "count": 2,
+            "prop": 0.04
+        },
+        {
+            "reading": "へた",
+            "count": 2,
+            "prop": 0.04
+        },
+        {
+            "reading": "お",
+            "count": 1,
+            "prop": 0.02
+        }
+    ],
+    "order_wiki_radical_corrected": 16,
+    "grade_corrected": 1
 }
 ```
 

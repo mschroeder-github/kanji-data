@@ -5853,7 +5853,7 @@ let kyouiku =
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='止'>Stop</span> <span class='radical_kanji'>(止)</span>  , <span class='meaning' data-kanji='止'>anhalten</span> <span class='meaning_kanji_meaning'>(止)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "In <span class='meaning' data-kanji='止'>stoppen</span> <span class='meaning_kanji_reading'>(止)</span> steckt S<span class='reading kunyomi' data-hiragana='し'>to</span>p <span class='hiragana'>(と)</span> <span class='reading onyomi' data-hiragana='し'>Schi</span>ld <span class='hiragana'>(し)</span>.",
+        "mnemonic_reading_de": "In <span class='meaning' data-kanji='止'>stoppen</span> <span class='meaning_kanji_reading'>(止)</span> steckt S<span class='reading kunyomi' data-hiragana='と'>to</span>p <span class='hiragana'>(と)</span> <span class='reading onyomi' data-hiragana='し'>Schi</span>ld <span class='hiragana'>(し)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 212,
         "reading_dist": [
