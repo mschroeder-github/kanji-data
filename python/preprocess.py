@@ -1386,8 +1386,12 @@ def get_reading_strs(entry):
 # germanet_categories()
 # order()
 
+
+# order_based_on_radical() # can be called again
+
 make_anki_v2(romaji_reading=True)
 make_anki_v2(romaji_reading=False)
-# order_based_on_radical()
+
+
 # jisho_crawler()
 # jisho_furigana_scanner()
