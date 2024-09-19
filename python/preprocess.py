@@ -20,6 +20,7 @@ from scipy.spatial.distance import cosine
 from functools import cmp_to_key
 import genanki
 import glob
+import pickle
 
 def best_reading_german_word_match():
 
@@ -860,6 +861,163 @@ def jisho_furigana_scanner():
         json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
 
+def common_words_vocab_scanner():
+    folder = "jisho_cache"
+    pkl_file = 'vocabs.pkl'
+
+    if os.path.exists(pkl_file):
+        with open(pkl_file, 'rb') as file:
+            vocabs = pickle.load(file)
+    else:
+        vocabs = collect_vocabs()
+        with open(pkl_file, 'wb') as file:
+            pickle.dump(vocabs, file)
+
+    print(len(vocabs), 'vocabs')
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    all_kanjis = set([entry['kanji'] for entry in kanji_kyouiku])
+
+    vocabs = [vocab for vocab in vocabs if vocab['kyouiku_friendly'] and len(vocab['kanjis']) > 0]
+
+    print(len(vocabs), 'vocabs kyouiku_friendly')
+
+    learned_kanjis = set()
+    visited_words = set()
+    for entry in kanji_kyouiku:
+        learned_kanjis.add(entry['kanji'])
+        print(learned_kanjis)
+
+        for vocab in vocabs:
+            if str(vocab['word_parts']) in visited_words:
+                continue
+
+            intersection = vocab['kanjis'] & learned_kanjis
+
+            if len(intersection) == len(vocab['kanjis']) and len(vocab['word']) > 1 and len(vocab['kanjis']) > 1:
+                print('\t', vocab)
+                visited_words.add(str(vocab['word_parts']))
+
+        a = 0
+
+    #with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
+    #    json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
+
+def collect_vocabs():
+    folder = "jisho_cache"
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    all_kanjis = set([entry['kanji'] for entry in kanji_kyouiku])
+
+    vocabs = []
+    visited_words = set()
+
+    for filename in tqdm(os.listdir(folder)):
+        path = os.path.join(folder, filename)
+
+        with open(path, 'rt', encoding='utf-8') as file:
+            soup = BeautifulSoup(file, 'html.parser')
+
+        title = soup.title.text
+        # focus_kanji = title.split('#')[0].strip()
+
+        concepts = soup.find_all("div", class_="concept_light")
+
+        # visited_word = set()
+        # reading2num = kanji2reading2num.get(focus_kanji)
+        # if reading2num is None:
+        #    reading2num = defaultdict(int)
+        #    kanji2reading2num[focus_kanji] = reading2num
+
+        for concept in concepts:
+            repr = concept.find('div', class_="concept_light-representation")
+            word = repr.find('span', class_="text").get_text().strip()
+
+            # if word in visited_word:
+            #    continue
+
+            furigana = repr.find('span', class_="furigana")
+            kanjis = [kanji for kanji in word]
+            children = [child for child in furigana.children if child.name is not None]
+
+            if len(kanjis) == len(children):
+                # print(concept)
+
+                full_word = []
+                for k, c in zip(kanjis, children):
+                    if len(c.get_text().strip()) == 0:
+                        full_word.append((k, k))
+                    else:
+                        full_word.append((k, c.get_text().strip()))
+
+                if str(full_word) in visited_words:
+                    continue
+                visited_words.add(str(full_word))
+
+                meanings_wrapper = concept.find('div', class_="meanings-wrapper")
+                meanings_wrapper_children = [child for child in meanings_wrapper.children if child.name is not None]
+
+                meanings = []
+                for i in range(0, len(meanings_wrapper_children), 2):
+                    try:
+                        tags = meanings_wrapper_children[i].get_text().strip()
+                        meaning = meanings_wrapper_children[i + 1].find('span',
+                                                                        class_="meaning-meaning").get_text().strip()
+
+                        if tags == 'Other forms' or tags == 'Notes':
+                            continue
+
+                        # print(word, full_word, ' -> ', tags, ' -> ', meaning)
+
+                        meanings.append((meaning, tags))
+                    except:
+                        continue
+
+                kyouiku_friendly = True
+                for k,c in full_word:
+                    if k != c and k not in all_kanjis:
+                        kyouiku_friendly = False
+                        break
+
+                vocabs.append({
+                    'word': word,
+                    'word_parts': full_word,
+                    'meanings': meanings,
+                    'kanjis': set(kanji for kanji in kanjis if kanji in all_kanjis),
+                    'kyouiku_friendly': kyouiku_friendly
+                })
+
+                a = 0
+                # visited_word.add(word)
+
+                # for kanji, furigana in zip(kanjis, children):
+                # print(kanji, furigana.get_text())
+                #    if kanji == focus_kanji:
+                #        reading2num[furigana.get_text()] += 1
+
+                # print('kanji', kanji)
+                # print('word', kanjis)
+                # print(len(kanjis))
+                # print(len(children))
+
+                # for child in children:
+                #    print('  * ', child, child.get_text())
+
+                # print()
+                # print()
+
+        # print('focus_kanji', focus_kanji)
+        # print(reading2num)
+        # print()
+        # break
+
+    # print(kanji2reading2num)
+    return vocabs
+
 def is_done(entry):
     return entry['mnemonic_reading_de_done'] and (entry['mnemonic_meaning_de_done'] or entry.get('has_radical_img'))
 
@@ -1395,3 +1553,5 @@ make_anki_v2(romaji_reading=False)
 
 # jisho_crawler()
 # jisho_furigana_scanner()
+
+# common_words_vocab_scanner()
