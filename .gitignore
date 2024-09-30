@@ -1,5 +1,14 @@
 best_reading_german_word_match.*
 dict_de-pos_comma.csv
+docs/img
+germanet
+llm-config.json
+jisho_cache
+tokenizer
+vocabs.pkl
+start.sh
+upload_to_strato.sh
+anki/other
 
 .~*
 
