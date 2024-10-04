@@ -14,10 +14,14 @@ The preprocessing code is written in Python. The following changes are made.
 * In `docs` folder is `kyouiku-de.html` which shows a table of the kanjis and mnemonics.
 * In `img` folder are image (`*-img.jpg`) and kanji (`*-kanji.jpg`, transparent `*-kanji.png`) pairs to give a visual clue for those kanji which are radicals. Almost all images are generated (thanks to [pollinations](https://image.pollinations.ai/prompt/), [deepai](https://deepai.org/machine-learning-model/text2img) and [craiyon](https://www.craiyon.com/)), some are manually post-processed. There is now an option `"has_radical_img": true` to enable the visual clue in `kyouiku-de.html`. Using CSS, image and kanji are overlapped and blended in an animation.
 * The order given by the table in [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji) is used to sort entries in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json`. Every entry has an `order_wiki` key. However, to introduce radicals before they are used in a kanji, some kanjis are sorted accordingly. For example, 弓 occurs before 弱.
-* With a crawl from [jisho](https://jisho.org), furigana analysis on common words is performed, to inpect the reading distribution. For example, 村 is read in 3 common words as そん (60%) and in 2 common words as むら (40%).
+* With a crawl from [jisho](https://jisho.org), furigana analysis on common words is performed, to inspect the reading distribution. For example, 村 is read in 3 common words as そん (60%) and in 2 common words as むら (40%).
 * Completed entries are provieded as Anki cards (see section below).
-* **Milestone**: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
-* The commit message shows the current progress.
+* To learn real Japanese words (vocabulary) common words are crawled from [jisho](https://jisho.org). Only words which contain learned kanjis are selected in anki decks. They are collected in pack of 50: for every 50 learned kanjis more words are accessable. The words are sorted by frequency (using a crawl from [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese)) to learn the most frequent words first. Sometimes the words use readings of kanjis that were not learned which is indicated with a value.
+
+
+**Progress**
+* Milestone: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
+* The commit messages show the current progress.
 
 
 ### Lesung Merksatz Leitfaden
@@ -56,15 +60,13 @@ For reading input there are two versions: hiragana or romaji. The latter proves 
 
 #### Screenshots
 
-<center>
-
 ![](docs/anki-05.jpg)
 
 ![](docs/anki-07.jpg)
 
 ![](docs/anki-06.jpg)
 
-</center>
+![](docs/anki-08.jpg)
 
 ### JSON Example
 
