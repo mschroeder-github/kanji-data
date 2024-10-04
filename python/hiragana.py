@@ -30,15 +30,28 @@ hiragana_to_ascii = {
 
 def hiragana_to_romaji(hiragana_text):
     romaji_text = ''
+    small_tsu = False
     i = 0
     while i < len(hiragana_text):
         if i + 1 < len(hiragana_text) and hiragana_text[i:i+2] in hiragana_to_ascii:
-            romaji_text += hiragana_to_ascii[hiragana_text[i:i+2]]
+            word = hiragana_to_ascii[hiragana_text[i:i+2]]
+            if small_tsu:
+                romaji_text += word[0]
+                small_tsu = False
+            romaji_text += word
             i += 2
+        elif hiragana_text[i] == 'っ':
+            small_tsu = True
+            i += 1
         elif hiragana_text[i] in hiragana_to_ascii:
-            romaji_text += hiragana_to_ascii[hiragana_text[i]]
+            word = hiragana_to_ascii[hiragana_text[i]]
+            if small_tsu:
+                romaji_text += word[0]
+                small_tsu = False
+            romaji_text += word
             i += 1
         else:
-            romaji_text += hiragana_text[i]
+            # romaji_text += hiragana_text[i]
             i += 1
+
     return romaji_text

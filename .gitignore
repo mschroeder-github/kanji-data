@@ -9,6 +9,10 @@ vocabs.pkl
 start.sh
 upload_to_strato.sh
 anki/other
+kanji-kyouiku-common-words.json
+
+python/gen.py
+python/translator.py
 
 .~*
 

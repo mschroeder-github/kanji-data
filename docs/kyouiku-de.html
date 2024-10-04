@@ -41,8 +41,8 @@
             <tbody>
                 <tr v-for="entry, i in kyouiku">
                     <td style="font-size: small">
-                        {{entry.kanji_ord}}<br/>
-                        {{entry.grade}}
+                        Nr.: {{i+1}}<br/>
+                        Stufe {{entry.grade}}
                     </td>
                     <td style="font-size: 40px" :class="{ 'kanji_is_radical': entry.is_radical }">{{entry.kanji}}</td>
                     <td style="width: 20%" v-if="show_meaning">

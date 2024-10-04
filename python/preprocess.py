@@ -21,6 +21,7 @@ from functools import cmp_to_key
 import genanki
 import glob
 import pickle
+import re
 
 def best_reading_german_word_match():
 
@@ -861,9 +862,89 @@ def jisho_furigana_scanner():
         json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
 
+def frequency_crawler():
+
+    links = [
+        #('2013', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese/Wikipedia2013'),
+        #('2013', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese10001-20000'),
+        ('2015', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2015_10000'),
+        ('2015', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2015_10001-20000'),
+        ('2022', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2022_10000'),
+        ('2022', 'https://en.m.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese2022_10001-20000')
+    ]
+
+    japanese_basic_words_1000 = requests.get('https://en.m.wiktionary.org/wiki/Appendix:1000_Japanese_basic_words').content
+    soup = BeautifulSoup(japanese_basic_words_1000, 'html.parser')
+    japanese_basic_words_1000 = set()
+    for anchor in soup.find_all('a'):
+        japanese_basic_words_1000.add(anchor.get_text())
+
+    word_dict = defaultdict(dict)
+
+    for name, link in links:
+
+        content = requests.get(link).content
+
+        soup = BeautifulSoup(content, 'html.parser')
+
+        print(link)
+
+        tbl = soup.find('table')
+        for tr in tbl.find_all('tr')[1:]:
+            tds = tr.find_all('td')
+
+            rank = int(tds[0].get_text())
+            freq = int(tds[1].get_text())
+            word = tds[2].get_text()
+
+            word_dict[word][f'{name}_freq'] = freq
+            word_dict[word][f'{name}_rank'] = rank
+            word_dict[word][f'in_1000_basic_words'] = word in japanese_basic_words_1000
+
+    #max_2015_rank = max([v['2015_rank'] for v in word_dict.values() if '2015_rank' in v])
+    #max_2022_rank = max([v['2022_rank'] for v in word_dict.values() if '2022_rank' in v])
+
+    min_2015_freq = min([v['2015_freq'] for v in word_dict.values() if '2015_freq' in v])
+    max_2015_freq = max([v['2015_freq'] for v in word_dict.values() if '2015_freq' in v])
+
+    min_2022_freq = min([v['2022_freq'] for v in word_dict.values() if '2022_freq' in v])
+    max_2022_freq = max([v['2022_freq'] for v in word_dict.values() if '2022_freq' in v])
+
+    # this is always 9999 (because 10,000)
+    #print('max_2015_rank', max_2015_rank)
+    #print('max_2022_rank', max_2022_rank)
+    #print('2015 freq range', min_2015_freq, max_2015_freq)
+    #print('2022 freq range', min_2022_freq, max_2022_freq)
+
+    for v in word_dict.values():
+        if '2015_rank' in v:
+            v['2015_rank_prop'] = (9999 - v['2015_rank']) / 9999
+
+        if '2022_rank' in v:
+            v['2022_rank_prop'] = (9999 - v['2022_rank']) / 9999
+
+        v['min_2015_freq'] = min_2015_freq
+        v['max_2015_freq'] = max_2015_freq
+        v['min_2022_freq'] = min_2022_freq
+        v['max_2022_freq'] = max_2022_freq
+
+        if '2015_freq' in v:
+            v['2015_rel_freq'] = (v['2015_freq'] - min_2015_freq) / (max_2015_freq - min_2015_freq)
+
+        if '2022_freq' in v:
+            v['2022_rel_freq'] = (v['2022_freq'] - min_2022_freq) / (max_2022_freq - min_2022_freq)
+
+    print(len(word_dict), 'in word_dict')
+    print('example:', '可能', word_dict['可能'])
+    print('example:', '人', word_dict['人'])
+
+    return word_dict
+
 def common_words_vocab_scanner():
     folder = "jisho_cache"
     pkl_file = 'vocabs.pkl'
+
+    word_dict = frequency_crawler()
 
     if os.path.exists(pkl_file):
         with open(pkl_file, 'rb') as file:
@@ -884,26 +965,296 @@ def common_words_vocab_scanner():
 
     print(len(vocabs), 'vocabs kyouiku_friendly')
 
+    kanji_to_reading_strs = {}
+
+    vocab_list = []
+
     learned_kanjis = set()
     visited_words = set()
-    for entry in kanji_kyouiku:
+    for entry in tqdm(kanji_kyouiku):
         learned_kanjis.add(entry['kanji'])
-        print(learned_kanjis)
+        # print(learned_kanjis)
+
+        kanji_to_reading_strs[entry['kanji']] = get_reading_strs(entry)
 
         for vocab in vocabs:
             if str(vocab['word_parts']) in visited_words:
                 continue
 
+            # search for vocab that has only learned kanjis in them
             intersection = vocab['kanjis'] & learned_kanjis
+            contains_learned_kanjis = len(intersection) == len(vocab['kanjis'])
+            if not contains_learned_kanjis:
+                continue
 
-            if len(intersection) == len(vocab['kanjis']) and len(vocab['word']) > 1 and len(vocab['kanjis']) > 1:
-                print('\t', vocab)
-                visited_words.add(str(vocab['word_parts']))
+            vocab['num_kanjis'] = len(vocab['kanjis'])
+            vocab['word_len'] = len(vocab['word'])
+            vocab['word_is_kanji'] = vocab['word'] in all_kanjis
+            vocab['num_learned_kanjis'] = len(learned_kanjis)
+            vocab['prop_learned_kanjis'] = len(learned_kanjis) / len(all_kanjis)
 
-        a = 0
+            # rwl = reading with learned
+            rwl_total = 0
+            rwl_hit = 0
+            for word_part in vocab['word_parts']:
+                kj = word_part[0]
+                reading = word_part[1]
 
-    #with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
-    #    json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
+                reading_was_learned = False
+                if kj in kanji_to_reading_strs:
+
+                    for hira, roma in kanji_to_reading_strs[kj]:
+                        if hira == reading:
+                            reading_was_learned = True
+                            break
+
+                    rwl_total += 1
+                    rwl_hit += 1 if reading_was_learned else 0
+
+            vocab['rwl_hit'] = rwl_hit
+            vocab['rwl_total'] = rwl_total
+            vocab['rwl_prop'] = rwl_hit / rwl_total
+
+            vocab['freq'] = word_dict.get(vocab['word'])
+
+            # print('\tvocab:', vocab)
+            vocab_list.append(vocab)
+            visited_words.add(str(vocab['word_parts']))
+
+    for vocab in vocab_list:
+        vocab['kanjis'] = list(vocab['kanjis'])
+
+    with open('../kanji-kyouiku-common-words.json', 'wt', encoding='utf-8') as file:
+        json.dump(vocab_list, file, indent=4, ensure_ascii=False)
+
+def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separator=" "):
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+        kanji_kyouiku_dict = {}
+        for entry in kanji_kyouiku:
+            kanji_kyouiku_dict[entry['kanji']] = entry['meanings_de']
+
+    with open('../kanji-kyouiku-common-words.json', 'rt', encoding='utf-8') as file:
+        common_words = json.load(file)
+
+    # emulate missing frequencies
+    for word in common_words:
+        if word['freq'] is None:
+            word['freq'] = {
+                '2015_rank': 20000,
+                '2022_rank': 20000
+            }
+
+        # and set rank
+        word['freq']['rank'] = word['freq'].get('2015_rank', 0) + word['freq'].get('2022_rank', 0)
+
+    # 1. contains only learned kanjis
+    # 2a. frequency is known (word['freq'] is not None)
+    # 2b. has meaning
+    common_words = [word for word in common_words if word['num_learned_kanjis'] <= num_learned_kanjis and len(word['meanings']) > 0]
+
+    # 3. where I know readings
+    # common_words = [word for word in common_words if word['rwl_prop'] >= 0.5]
+
+    # 4. word is not just the kanji
+    common_words = [word for word in common_words if not word['word_is_kanji']]
+
+    # sort by rank
+    common_words = sorted(common_words, key=lambda x: x['freq']['rank'])
+
+    # print(len(common_words))
+
+    with open('card.css', 'rt') as file:
+        css = file.read().strip()
+
+    qfmt = '''
+    <span class="kanji">{{Vokabel}}</span>
+    <br/>
+    <br/>
+    {{type:Antwort}}
+    '''
+
+    afmt = '''
+    {{FrontSide}}<br/><br/>
+    <div style="text-align: start;">
+    {{Bedeutungen_Deutsch}}<br/>
+    <br/>
+    {{Bedeutungen_Englisch}}<br/>
+    <br/>
+    <hr/>
+    <br/>
+    {{Lesung_Teile}}<br/>
+    <br/>
+    {{Kanji_Bedeutungen}}<br/>
+    <br/>
+    <hr/>
+    <br/>
+    Rang: {{Rang}}, Lesung-Einfachheit: {{Kanji_Lesung_Gelernt}}, Kanji-Level: {{Gelernte_Kanjis_Benötigt}} 
+    </div>
+    '''
+
+    deck = genanki.Deck(
+        1958658640,
+        'Kyōiku-Kanji Vokabeln'
+    )
+
+    model = genanki.Model(
+        1518950602,
+        'Kyōiku-Kanji Vokabel',
+        fields=[
+            {'name': 'Vokabel'},
+            {'name': 'Antwort'},
+            {'name': 'Bedeutungen_Deutsch'},
+            {'name': 'Bedeutungen_Englisch'},
+            {'name': 'Lesung_Hiragana'},
+            {'name': 'Lesung_Romaji'},
+            {'name': 'Lesung_Teile'},
+            {'name': 'Kanji_Bedeutungen'},
+            {'name': 'Kanji_Lesung_Gelernt'},
+            {'name': 'Rang'},
+            {'name': 'Gelernte_Kanjis_Benötigt'}
+        ],
+        templates=[
+            {
+                'name': 'Kyōiku-Kanji Vokabel Karte',
+                'qfmt': qfmt,
+                'afmt': afmt
+            }
+        ],
+        css=css
+    )
+
+    count = 0
+    for word in common_words:
+
+        # not interested in numeric vocabulary
+        if "'numeric'" in str(word['meanings']).lower():
+            continue
+
+        word['new_reading'] = word['rwl_prop'] < 1
+
+        # translate
+        meanings_de = []
+        for meaning in word['meanings']:
+            translation = translate_and_cache(meaning[0])
+            meanings_de.append((translation, meaning[1]))
+        word['meanings_de'] = meanings_de
+        word['vocab_de'] = word['meanings_de'][0][0].split(';')[0]
+
+        kanji_meanings_de = []
+        for part in word['word_parts']:
+            if part[0] in kanji_kyouiku_dict:
+                kanji_meanings_de.append((part[0], kanji_kyouiku_dict[part[0]]))
+        word['kanji_meanings_de'] = kanji_meanings_de
+
+        guid = genanki.guid_for(word['word'])
+
+        hiragana = ""
+        for part in word['word_parts']:
+            hiragana += part[1]
+        romaji = hiragana_to_romaji(hiragana)
+
+        vocab_de = remove_brackets(word['vocab_de'].lower()).strip()
+        if len(vocab_de) == 0:
+            # fallback
+            vocab_de = word['vocab_de'].lower().replace('(', '').replace(')', '').strip()
+            if len(vocab_de) == 0:
+                raise Exception("vocab empty: " + word['vocab_de'])
+
+        # similar to kanji: first the meaning than the reading
+        answer = separator.join([vocab_de, romaji.lower().strip()])
+
+        l = []
+        for m in word['meanings_de']:
+            l.append(f"{m[0]} ({m[1]})")
+        meanings_de_txt = ', '.join(l)
+
+        l = []
+        for m in word['meanings']:
+            l.append(f"{m[0]} ({m[1]})")
+        meanings_txt = ', '.join(l)
+
+        l = []
+        for m in word['word_parts']:
+            l.append(f"{m[0]}={m[1]}")
+        word_parts_txt = ', '.join(l)
+
+        l = []
+        for m in word['kanji_meanings_de']:
+            l.append(f"{m[0]}={';'.join(m[1])}")
+        kanji_meanings_de_txt = ', '.join(l)
+
+        note = genanki.Note(
+            model=model,
+            guid=guid,
+            fields=[
+                word['word'],
+                answer,
+
+                meanings_de_txt,
+                meanings_txt,
+
+                hiragana,
+                romaji,
+
+                word_parts_txt,
+                kanji_meanings_de_txt,
+
+                format(word['rwl_prop'], ".2f"),
+                str(word['freq']['rank']),
+                str(word['num_learned_kanjis'])
+            ]
+        )
+
+        deck.add_note(note)
+
+        count += 1
+
+        #print(
+        #      word['rwl_prop'],
+        #      word['new_reading'],
+        #      word['freq']['rank'],
+        #      word['vocab_de'],
+        #      word['word_parts'],
+        #      word['kanji_meanings_de'],
+        #      word['meanings_de']
+        #)
+
+    package = genanki.Package([deck])
+    output_file = f'../anki/Kyouiku-Kanji-Vokabeln-Lvl-{num_learned_kanjis}_{reading_mode}.apkg'
+    package.write_to_file(output_file)
+
+    print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis)
+
+def translate_and_cache(text):
+    from translator import translate
+
+    with open('../translation_cache.json', 'rt', encoding='utf-8') as file:
+        translation_cache = json.load(file)
+
+    # use cache
+    if text in translation_cache:
+        return translation_cache[text]
+
+    # translate
+    result = translate([text])
+    translation = result[0]['translation']
+
+    # cache
+    translation_cache[text] = translation
+    with open('../translation_cache.json', 'wt', encoding='utf-8') as file:
+        json.dump(translation_cache, file, indent=4, ensure_ascii=False)
+
+    return translation
+
+
+def common_words_make_anki_lvls():
+    max = 1050
+    max = 250
+    for lvl in range(50, max, 50):
+        common_words_make_anki(num_learned_kanjis=lvl)
 
 def collect_vocabs():
     folder = "jisho_cache"
@@ -1531,6 +1882,8 @@ def get_reading_strs(entry):
         reading_strs.append((hiragana, romaji))
     return reading_strs
 
+def remove_brackets(text):
+    return re.sub(r'\(.*?\)', '', text)
 
 # add_german()
 # radicals_check()
@@ -1543,15 +1896,16 @@ def get_reading_strs(entry):
 # special_radicals()
 # germanet_categories()
 # order()
-
-
 # order_based_on_radical() # can be called again
 
-make_anki_v2(romaji_reading=True)
-make_anki_v2(romaji_reading=False)
+#make_anki_v2(romaji_reading=True)
+#make_anki_v2(romaji_reading=False)
 
+common_words_make_anki_lvls()
 
 # jisho_crawler()
 # jisho_furigana_scanner()
 
-# common_words_vocab_scanner()
+
+#frequency_crawler()
+#common_words_vocab_scanner()
