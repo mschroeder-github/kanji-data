@@ -1133,6 +1133,14 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
         if "'numeric'" in str(word['meanings']).lower():
             continue
 
+        # verb check
+        #for meaning in word['meanings']:
+        #    m = meaning[1].lower()
+        #    verb =  'godan verb' in m or 'ichidan verb' in m
+            # 'suru verb' in m or
+        #    if verb:
+        #        print(word['word'], meaning[1], meaning[0])
+
         word['new_reading'] = word['rwl_prop'] < 1
 
         # translate
@@ -1898,10 +1906,10 @@ def remove_brackets(text):
 # order()
 # order_based_on_radical() # can be called again
 
-#make_anki_v2(romaji_reading=True)
-#make_anki_v2(romaji_reading=False)
+make_anki_v2(romaji_reading=True)
+make_anki_v2(romaji_reading=False)
 
-common_words_make_anki_lvls()
+# common_words_make_anki_lvls()
 
 # jisho_crawler()
 # jisho_furigana_scanner()

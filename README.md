@@ -20,8 +20,9 @@ The preprocessing code is written in Python. The following changes are made.
 
 
 **Progress**
-* Milestone: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
-* The commit messages show the current progress.
+* 2024-08-12 Milestone: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
+* 2024-10-05 Milestone: **200 kanjis done** with mnmemonics and visual clues.
+* Some commit messages show the current progress.
 
 
 ### Lesung Merksatz Leitfaden

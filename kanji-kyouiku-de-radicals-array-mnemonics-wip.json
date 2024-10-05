@@ -885,7 +885,7 @@
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>  , <span class='meaning' data-kanji='白'>weiß</span> <span class='meaning_kanji_meaning'>(白)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Fett sieht man im <span class='reading onyomi' data-hiragana='はく'>Hack</span>fleisch <span class='hiragana'>(はく)</span>, während der <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Reis beim Su<span class='reading kunyomi' data-hiragana='しろ'>shi ro</span>utinemäßig <span class='hiragana'>(しろ)</span> unterm Fisch liegt.",
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Fett ist wichtig beim <span class='reading onyomi' data-hiragana='はく'>Hack</span>fleisch <span class='hiragana'>(はく)</span>, während der <span class='meaning' data-kanji='白'>weiß</span>e <span class='meaning_kanji_reading'>(白)</span> Reis bei Su<span class='reading kunyomi' data-hiragana='しろ'>shiro</span>llen <span class='hiragana'>(しろ)</span> nicht fehlen darf.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 80,
         "reading_dist": [
@@ -4389,7 +4389,7 @@
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  , <span class='meaning' data-kanji='立'>stehen</span> <span class='meaning_kanji_meaning'>(立)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Wenn man gerade <span class='meaning' data-kanji='立'>steht</span> <span class='meaning_kanji_reading'>(立)</span> kann man <span class='reading onyomi' data-hiragana='りっ'>ri</span>chtig <span class='hiragana'>(りっ)</span> gut <span class='reading kunyomi' data-hiragana='た'>ta</span> <span class='hiragana'>(た)</span>nzen.",
+        "mnemonic_reading_de": "Wenn man gerade <span class='meaning' data-kanji='立'>steht</span> <span class='meaning_kanji_reading'>(立)</span> kann man <span class='reading onyomi' data-hiragana='りっ'>ri</span>chtig <span class='hiragana'>(りっ)</span> gut <span class='reading kunyomi' data-hiragana='た'>ta</span>nzen <span class='hiragana'>(た)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 54,
         "reading_dist": [
@@ -15246,10 +15246,10 @@
         "kanji": "売",
         "kanji_ord": 22770,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>  <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span>  , <span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_meaning'>(売)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_reading'>(売)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span> runzelt seine <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>, weil er zum Bezahlen einer Behandlung seiner <span class='radical' data-kanji='儿'>Bein</span>verletzung <span class='radical_kanji'>(儿)</span> etwas <span class='meaning' data-kanji='売'>verkaufen</span> <span class='meaning_kanji_meaning'>(売)</span> muss.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich <span class='meaning' data-kanji='売'>verkaufe</span> <span class='meaning_kanji_reading'>(売)</span> meine Tu<span class='reading onyomi' data-hiragana='ばい'>ba i</span>m <span class='hiragana'>(ばい)</span> Internet, weil ich <span class='reading kunyomi' data-hiragana='う'>u</span>nmusikalisch <span class='hiragana'>(う)</span> bin.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 216,
         "reading_dist": [
             {
@@ -15323,10 +15323,10 @@
         "kanji": "読",
         "kanji_ord": 35501,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='売'>Verkaufen</span> <span class='radical_kanji'>(売)</span>  , <span class='meaning' data-kanji='読'>lesen</span> <span class='meaning_kanji_meaning'>(読)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='読'>lesen</span> <span class='meaning_kanji_reading'>(読)</span> , <span class='reading kunyomi' data-hiragana='よ'>Yo</span> <span class='hiragana'>(よ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ich habe nur auf das <span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span> des <span class='radical' data-kanji='売'>Verkäufers</span> <span class='radical_kanji'>(売)</span> gehört, anstatt die Produktbeschreibung zu <span class='meaning' data-kanji='読'>lesen</span> <span class='meaning_kanji_meaning'>(読)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich muss das Rezept nochmal <span class='meaning' data-kanji='読'>lesen</span> <span class='meaning_kanji_reading'>(読)</span>, um die Ma<span class='reading kunyomi' data-hiragana='よ'>yo</span>nnaise <span class='hiragana'>(よ)</span> richtig zubereiten zu können.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 175,
         "reading_dist": [
             {
@@ -15399,10 +15399,10 @@
         "kanji": "書",
         "kanji_ord": 26360,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>  <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  , <span class='meaning' data-kanji='書'>schreiben</span> <span class='meaning_kanji_meaning'>(書)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='書'>schreiben</span> <span class='meaning_kanji_reading'>(書)</span> , <span class='reading onyomi' data-hiragana='しょ'>Sho</span> <span class='hiragana'>(しょ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ein Ast von <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>, das in der <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span> getrocknet ist, nutze ich, um in den Sand zu <span class='meaning' data-kanji='書'>schreiben</span> <span class='meaning_kanji_meaning'>(書)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Nach dem <span class='meaning' data-kanji='書'>Schreiben</span> <span class='meaning_kanji_reading'>(書)</span> des Aufsatz ist meine Lehrerin von meiner <span class='reading kunyomi' data-hiragana='か'>Ka</span>lligraphie <span class='hiragana'>(か)</span> <span class='reading onyomi' data-hiragana='しょ'>scho</span>ckiert <span class='hiragana'>(しょ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 176,
         "reading_dist": [
             {
@@ -15457,6 +15457,7 @@
             "Oneself"
         ],
         "meanings_de": [
+            "sich selbst",
             "ich",
             "jemand selbst"
         ],
@@ -15473,10 +15474,11 @@
         "kanji": "己",
         "kanji_ord": 24049,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_meaning'>(己)</span>",
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='己'>sich selbst</span> <span class='meaning_kanji_meaning'>(己)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='己'>ich</span> <span class='meaning_kanji_reading'>(己)</span> , <span class='reading onyomi' data-hiragana='こ'>Ko</span> <span class='hiragana'>(こ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Wenn ich nur auf <span class='meaning' data-kanji='己'>mich selbst</span> <span class='meaning_kanji_reading'>(己)</span> höre, habe ich später eine <span class='reading kunyomi' data-hiragana='おのれ'>\"oh no\" re</span>aktion <span class='hiragana'>(おのれ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 879,
         "reading_dist": [
             {
@@ -15541,10 +15543,10 @@
         "kanji": "記",
         "kanji_ord": 35352,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='記'>Bericht</span> <span class='meaning_kanji_meaning'>(記)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='記'>Bericht</span> <span class='meaning_kanji_reading'>(記)</span> , <span class='reading onyomi' data-hiragana='き'>Ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Durch das <span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span> von <span class='radical' data-kanji='己'>selbst</span> <span class='radical_kanji'>(己)</span> formulierten Aussagen, gebe ich einen <span class='meaning' data-kanji='記'>Bericht</span> <span class='meaning_kanji_meaning'>(記)</span> über die Lage ab.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich verfasse meinen Praktikums<span class='meaning' data-kanji='記'>bericht</span> <span class='meaning_kanji_reading'>(記)</span> über die Arbeit im <span class='reading onyomi' data-hiragana='き'>Ki</span>ndergarten <span class='hiragana'>(き)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 177,
         "reading_dist": [
             {
@@ -15595,7 +15597,7 @@
             "Clan"
         ],
         "meanings_de": [
-            "Familie",
+            "Familienname",
             "Clan"
         ],
         "wk_radicals_new": [
@@ -15611,10 +15613,11 @@
         "kanji": "氏",
         "kanji_ord": 27663,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_meaning'>(氏)</span>",
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='氏'>Familienname</span> <span class='meaning_kanji_meaning'>(氏)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='氏'>Familie</span> <span class='meaning_kanji_reading'>(氏)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Wir haben unseren vollständigen <span class='meaning' data-kanji='氏'>Familiennamen</span> <span class='meaning_kanji_reading'>(氏)</span> auf einem Türklingel<span class='reading onyomi' data-hiragana='し'>schi</span>ld <span class='hiragana'>(し)</span> stehen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 564,
         "reading_dist": [
             {
@@ -15674,10 +15677,10 @@
         "kanji": "紙",
         "kanji_ord": 32025,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='紙'>Papier</span> <span class='meaning_kanji_meaning'>(紙)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='紙'>Papier</span> <span class='meaning_kanji_reading'>(紙)</span> , <span class='reading kunyomi' data-hiragana='かみ'>Kami</span> <span class='hiragana'>(かみ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aus Seiden<span class='radical' data-kanji='糸'>faden</span> <span class='radical_kanji'>(糸)</span> stellt mein <span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span> besonderes <span class='meaning' data-kanji='紙'>Papier</span> <span class='meaning_kanji_meaning'>(紙)</span> her.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Durch Zeitungs<span class='meaning' data-kanji='紙'>papier</span> <span class='meaning_kanji_reading'>(紙)</span> mit vielen Papier<span class='reading onyomi' data-hiragana='し'>schi</span>chten <span class='hiragana'>(し)</span> lässt sich das <span class='reading kunyomi' data-hiragana='かみ'>Kami</span>nfeuer <span class='hiragana'>(かみ)</span> entfachen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 178,
         "reading_dist": [
             {
@@ -75425,7 +75428,7 @@
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Stollen</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='子'>Kind</span> <span class='radical_kanji'>(子)</span>  <span class='radical' data-kanji='乚'>Regenschirm</span> <span class='radical_kanji'>(乚)</span>  , <span class='meaning' data-kanji='乳'>Brüste</span> <span class='meaning_kanji_meaning'>(乳)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='乳'>Brüste</span> <span class='meaning_kanji_reading'>(乳)</span> mit <span class='meaning' data-kanji='乳'>Milch</span> <span class='meaning_kanji_reading'>(乳)</span> haben bei Babys Ko<span class='reading onyomi' data-hiragana='にゅう'>nju</span>ktur <span class='hiragana'>(にゅう)</span>.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='乳'>Brüste</span> <span class='meaning_kanji_reading'>(乳)</span> mit <span class='meaning' data-kanji='乳'>Milch</span> <span class='meaning_kanji_reading'>(乳)</span> haben bei Babys Ko<span class='reading onyomi' data-hiragana='にゅう'>nju</span>nktur <span class='hiragana'>(にゅう)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 1020,
         "reading_dist": [
