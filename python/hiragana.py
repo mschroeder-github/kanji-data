@@ -55,3 +55,28 @@ def hiragana_to_romaji(hiragana_text):
             i += 1
 
     return romaji_text
+
+
+u_to_a_dict = {
+    'う': 'わ',
+    'く': 'か',
+    'す': 'さ',
+    'つ': 'た',
+    'ぬ': 'な',
+    'む': 'ま',
+    'む': 'ま',
+    'ゆ': 'や',
+    'る': 'ら',
+    'ぐ': 'が',
+    'ず': 'ざ',
+    'づ': 'だ',
+    'ぶ': 'ば',
+    'ぷ': 'ぱ'
+}
+
+def u_to_a(text):
+    last = text[-1]
+    val = u_to_a_dict.get(last)
+    if val is None:
+        raise Exception(f"{last} not found")
+    return text[:-1] + val
