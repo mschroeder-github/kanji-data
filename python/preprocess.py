@@ -1,4 +1,5 @@
 import random
+import sys
 import time
 import urllib.parse
 
@@ -22,6 +23,7 @@ import genanki
 import glob
 import pickle
 import re
+from collections import OrderedDict
 
 def best_reading_german_word_match():
 
@@ -1039,6 +1041,19 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
     with open('../kanji-kyouiku-common-words.json', 'rt', encoding='utf-8') as file:
         common_words = json.load(file)
 
+        common_words_dict = {}
+        for entry in common_words:
+            common_words_dict[entry['word']] = entry
+
+    with open('../kanji-kyouiku-verbs-wip.json', 'rt', encoding='utf-8') as file:
+        kyouiku_verbs = json.load(file)
+
+        kyouiku_verbs_dict = {}
+        for entry in kyouiku_verbs:
+            kyouiku_verbs_dict[entry['word']] = entry
+
+
+
     # emulate missing frequencies
     for word in common_words:
         if word['freq'] is None:
@@ -1049,6 +1064,21 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
 
         # and set rank
         word['freq']['rank'] = word['freq'].get('2015_rank', 0) + word['freq'].get('2022_rank', 0)
+
+    # subtitle based frequency
+    with gzip.open('../word_freq_report.txt.gz', 'rt', newline='', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        for no, row in enumerate(reader, start=1):
+            row.insert(0, no)
+
+            common_word = common_words_dict.get(row[2])
+            if common_word:
+                common_word['freq']['subtitle'] = row
+
+    # emulate missing subtitle frequencies
+    for word in common_words:
+        if word['freq'].get('subtitle') is None:
+            word['freq']['subtitle'] = [sys.maxsize, -1]
 
     # 1. contains only learned kanjis
     # 2a. frequency is known (word['freq'] is not None)
@@ -1062,7 +1092,10 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
     common_words = [word for word in common_words if not word['word_is_kanji']]
 
     # sort by rank
-    common_words = sorted(common_words, key=lambda x: x['freq']['rank'])
+    # this came from jp wikipedia
+    # common_words = sorted(common_words, key=lambda x: x['freq']['rank'])
+    # this came from subtitles, [0] is rank, [1] Number of times word was encountered
+    common_words = sorted(common_words, key=lambda x: x['freq']['subtitle'][0])
 
     # print(len(common_words))
 
@@ -1077,12 +1110,10 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
     '''
 
     afmt = '''
-    {{FrontSide}}<br/><br/>
+    {{FrontSide}}<br/>
     <div style="text-align: start;">
-    {{Bedeutungen_Deutsch}}<br/>
-    <br/>
-    {{Bedeutungen_Englisch}}<br/>
-    <br/>
+    <ul>{{Bedeutungen_Deutsch}}</ul>
+    <ul>{{Bedeutungen_Englisch}}</ul>
     <hr/>
     <br/>
     {{Lesung_Teile}}<br/>
@@ -1126,12 +1157,27 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
         css=css
     )
 
+    equal_word_set = set()
+    duplicate_words = []
+    filtered_verbs = []
+    word_freq = defaultdict(int)
+
+    for word in common_words:
+        word_freq[word['word']] += 1
+
+    common_words = [word for word in common_words if word_freq[word['word']] <= 1]
+
     count = 0
     for word in common_words:
 
         # not interested in numeric vocabulary
         if "'numeric'" in str(word['meanings']).lower():
             continue
+
+        if word['word'] in kyouiku_verbs_dict:
+            filtered_verbs.append(word)
+            continue
+
 
         # verb check
         #for meaning in word['meanings']:
@@ -1176,13 +1222,13 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
 
         l = []
         for m in word['meanings_de']:
-            l.append(f"{m[0]} ({m[1]})")
-        meanings_de_txt = ', '.join(l)
+            l.append(f"<li>{m[0]} ({m[1]})</li>")
+        meanings_de_txt = '\n'.join(l)
 
         l = []
         for m in word['meanings']:
-            l.append(f"{m[0]} ({m[1]})")
-        meanings_txt = ', '.join(l)
+            l.append(f"<li>{m[0]} ({m[1]})</li>")
+        meanings_txt = '\n'.join(l)
 
         l = []
         for m in word['word_parts']:
@@ -1211,7 +1257,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
                 kanji_meanings_de_txt,
 
                 format(word['rwl_prop'], ".2f"),
-                str(word['freq']['rank']),
+                str(word['freq']['subtitle'][0]), # rank
                 str(word['num_learned_kanjis'])
             ]
         )
@@ -1234,7 +1280,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
     output_file = f'../anki/Kyouiku-Kanji-Vokabeln-Lvl-{num_learned_kanjis}_{reading_mode}.apkg'
     package.write_to_file(output_file)
 
-    print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis)
+    print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis, 'filtered_verbs:', len(filtered_verbs))
 
 def translate_and_cache(text):
     from translator import translate
@@ -1953,6 +1999,8 @@ def verbs_scanner():
         romaji = tds[0].get_text().strip()
 
         furigana = tds[1].find('span', class_="furigana").get_text().strip()
+        # fix for 生える
+        furigana = furigana.replace(',', '')
         kanji_text_elem = tds[1].find('div', class_="JScript")
 
         if kanji_text_elem is None:
@@ -2029,21 +2077,37 @@ def verbs_scanner():
         if kyouiku_friendly:
             easy_count += 1
 
-        kyouiku_verb = {
-            'romaji': romaji,
-            'furigana': furigana,
-            'furigana_neg': furigana_neg,
-            'word': kanji_text,
-            'word_neg': kanji_text_neg,
-            'kanjis': kyouiku_kanjis,
-            'kyouiku_index': kyouiku_index,
-            'meaning': meaning,
-            'meaning_de': meaning_de,
-            'mode': mode,
-            'kyouiku_friendly': kyouiku_friendly,
-            'reading_learned': reading_learned,
-            'common_words': matching_words
-        }
+        kanji_part, kanji_reading = remove_until_diff(kanji_text, furigana)
+        kanji_reading_romaji = hiragana_to_romaji(kanji_reading)
+
+        main_meaning_de = meaning_de.split(',')[0].strip()
+        # Go-Dan = female
+        # Ichi-Dan = male
+        mode_decides_gender = 'Sie' if mode == '1' else 'Er'
+
+        mnemonic = f"{mode_decides_gender}  {main_meaning_de}  <span class='reading kunyomi' data-hiragana='{kanji_reading}'>{kanji_reading_romaji}</span> <span class='hiragana'>({kanji_reading})</span>"
+
+        kyouiku_verb = OrderedDict([
+            ('romaji', romaji),
+            ('furigana', furigana),
+            ('furigana_neg', furigana_neg),
+            ('kanji_part', kanji_part),
+            ('kanji_reading', kanji_reading),
+            ('kanji_reading_romaji', kanji_reading_romaji),
+            ('word', kanji_text),
+            ('word_neg', kanji_text_neg),
+            ('mnemonic', mnemonic),
+            ('mnemonic_done', False),
+            ('kanjis', kyouiku_kanjis),
+            ('kyouiku_index', kyouiku_index),
+            ('meaning', meaning),
+            ('meaning_de', meaning_de),
+            ('main_meaning_de', main_meaning_de),
+            ('mode', mode),
+            ('kyouiku_friendly', kyouiku_friendly),
+            ('reading_learned', reading_learned),
+            ('common_words', matching_words)
+        ])
         kyouiku_verbs.append(kyouiku_verb)
 
         #print(i, romaji, furigana, kanji_text, kanjis, meaning, meaning_de, mode, kyouiku_friendly, reading_learned, len(matching_words), kyouiku_index, sep=' | ')
@@ -2060,6 +2124,23 @@ def verbs_scanner():
 
     #print(len(kyouiku_verbs))
 
+    kyouiku_verbs_filter = [verb for verb in kyouiku_verbs if verb['kyouiku_friendly']]
+
+    with open('../kanji-kyouiku-verbs.json', 'wt', encoding='utf-8') as file:
+        json.dump(kyouiku_verbs_filter, file, indent=4, ensure_ascii=False)
+
+
+def remove_until_diff(str1, str2):
+    while str1 and str2 and str1[-1] == str2[-1]:
+        str1 = str1[:-1]
+        str2 = str2[:-1]
+    return str1, str2
+
+
+def verbs_make_anki():
+    with open('../kanji-kyouiku-verbs-wip.json', 'rt', encoding='utf-8') as file:
+        kyouiku_verbs = json.load(file)
+
     with open('card.css', 'rt') as file:
         css = file.read().strip()
 
@@ -2071,7 +2152,9 @@ def verbs_scanner():
     '''
 
     afmt = '''
-    {{FrontSide}}<br/>
+    {{FrontSide}}
+    <br/>
+    {{Merksatz}}
     <br/>
     <div style="text-align: start;">
     {{Lesung_Hiragana}} - {{Lesung_Hiragana_Negation}}<br/>
@@ -2102,6 +2185,7 @@ def verbs_scanner():
         fields=[
             {'name': 'Vokabel'},
             {'name': 'Antwort'},
+            {'name': 'Merksatz'},
 
             {'name': 'Bedeutungen_Deutsch'},
             {'name': 'Bedeutungen_Englisch'},
@@ -2156,6 +2240,7 @@ def verbs_scanner():
             fields=[
                 verb['word'],
                 answer,
+                '<br/>' + verb['mnemonic'] + '<br/>' if verb['mnemonic_done'] else '',
 
                 meanings_de_txt,
                 meanings_txt,
@@ -2186,7 +2271,7 @@ def verbs_scanner():
 
     print(i, 'written')
 
-
+# PREPROCESS
 # add_german()
 # radicals_check()
 # dict_to_array()
@@ -2200,16 +2285,17 @@ def verbs_scanner():
 # order()
 # order_based_on_radical() # can be called again
 
-# make_anki_v2(romaji_reading=True)
-# make_anki_v2(romaji_reading=False)
 
-# common_words_make_anki_lvls()
-
+# CRAWLER & SCANNER
 # jisho_crawler()
 # jisho_furigana_scanner()
-
-
 # frequency_crawler()
 # common_words_vocab_scanner()
+# verbs_scanner()
 
-verbs_scanner()
+
+# MAKE
+# make_anki_v2(romaji_reading=True)
+# make_anki_v2(romaji_reading=False)
+# common_words_make_anki_lvls()
+# verbs_make_anki()

@@ -10,6 +10,7 @@ start.sh
 upload_to_strato.sh
 anki/other
 kanji-kyouiku-common-words.json
+2024-07-21-kanji-quest.txt
 
 python/gen.py
 python/translator.py
