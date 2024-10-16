@@ -6,6 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="kanji-kyouiku-de-radicals-array-mnemonics-wip.js"></script>
+    <script src="kanji-kyouiku-verbs-wip.js"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="kyouiku-de.css" rel="stylesheet">
@@ -15,63 +16,113 @@
 <body>
     <div id="app" class="container-fluid m-2">
         <h2>Kyouiku Deutsch</h2>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" v-model="show_meaning">
-          <label class="form-check-label">Bedeutung anzeigen</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" v-model="show_mnemonic_meaning">
-          <label class="form-check-label">Merksatz Radikal anzeigen</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" v-model="show_mnemonic_reading">
-          <label class="form-check-label">Merksatz Lesung anzeigen</label>
-        </div>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Unicode<br/>Schuljahr</th>
-                    <th>Kanji</th>
-                    <th v-if="show_meaning">Bedeutung</th>
-                    <th v-if="show_mnemonic_meaning">Merksatz Radikal &rarr; Bedeutung</th>
-                    <th v-if="show_mnemonic_reading">Merksatz Bedeutung &rarr; Lesung</th>
-                    <th>Lesung Verteilung</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="entry, i in kyouiku">
-                    <td style="font-size: small">
-                        Nr.: {{i+1}}<br/>
-                        Stufe {{entry.grade}}
-                    </td>
-                    <td style="font-size: 40px" :class="{ 'kanji_is_radical': entry.is_radical }">{{entry.kanji}}</td>
-                    <td style="width: 20%" v-if="show_meaning">
-                        {{entry.meanings_de.join(', ')}}<br/>
-                        <span class="meanings_en meanings_wk">{{entry.wk_meanings.join(', ')}}</span><br/>
-                        <span class="meanings_en">{{entry.meanings.join(', ')}}</span>
-                    </td>
-                    <td :class="{ 'missing': !entry.has_radical_img && !entry.mnemonic_meaning_de_done }" v-if="show_mnemonic_meaning">
+        <ul class="nav nav-pills">
+          <li class="nav-item" >
+            <button class="nav-link" :class="{ 'active': tab == 1 }" @click="tab = 1">Kanji</button>
+          </li>
+          <li class="nav-item" >
+            <button class="nav-link" :class="{ 'active': tab == 2 }" @click="tab = 2">Verben</button>
+          </li>
+        </ul>
 
-                        <div v-if="entry.has_radical_img" class="img_container">
-                            <img :src="'img/' + entry.wk_radicals_de[0] + '-img.jpg'">
-                            <img :src="'img/' + entry.wk_radicals_de[0] + '-kanji.png'">
-                        </div>
-                        <div v-else v-html="entry.mnemonic_meaning_de"></div>
 
-                    </td>
-                    <td :class="{ 'missing': !entry.mnemonic_reading_de_done }" v-if="show_mnemonic_reading">
-                        <div v-html="entry.mnemonic_reading_de"></div>
-                    </td>
-                    <td style="font-size: 14px">
-                        <ul>
-                            <li v-for="rd in entry.reading_dist" v-show="rd.prop > 0.05" style="white-space: nowrap;">
-                                {{rd.reading}} {{(rd.prop * 100).toFixed(0)}}% ({{rd.count}})
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div v-if="tab == 1">
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" v-model="show_meaning">
+              <label class="form-check-label">Bedeutung anzeigen</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" v-model="show_mnemonic_meaning">
+              <label class="form-check-label">Merksatz Radikal anzeigen</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" v-model="show_mnemonic_reading">
+              <label class="form-check-label">Merksatz Lesung anzeigen</label>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nr.</th>
+                        <th>Kanji</th>
+                        <th v-if="show_meaning">Bedeutung</th>
+                        <th v-if="show_mnemonic_meaning">Merksatz Radikal &rarr; Bedeutung</th>
+                        <th v-if="show_mnemonic_reading">Merksatz Bedeutung &rarr; Lesung</th>
+                        <th>Lesung Verteilung</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="entry, i in kyouiku">
+                        <td style="font-size: small; white-space: pre;">
+                            Nr.: {{i+1}}<br/>
+                            Stufe {{entry.grade}}
+                        </td>
+                        <td style="font-size: 40px" :class="{ 'kanji_is_radical': entry.is_radical }">{{entry.kanji}}</td>
+                        <td style="width: 20%" v-if="show_meaning">
+                            {{entry.meanings_de.join(', ')}}<br/>
+                            <span class="meanings_en meanings_wk">{{entry.wk_meanings.join(', ')}}</span><br/>
+                            <span class="meanings_en">{{entry.meanings.join(', ')}}</span>
+                        </td>
+                        <td :class="{ 'missing': !entry.has_radical_img && !entry.mnemonic_meaning_de_done }" v-if="show_mnemonic_meaning">
+
+                            <div v-if="entry.has_radical_img" class="img_container">
+                                <img :src="'img/' + entry.wk_radicals_de[0] + '-img.jpg'">
+                                <img :src="'img/' + entry.wk_radicals_de[0] + '-kanji.png'">
+                            </div>
+                            <div v-else v-html="entry.mnemonic_meaning_de"></div>
+
+                        </td>
+                        <td :class="{ 'missing': !entry.mnemonic_reading_de_done }" v-if="show_mnemonic_reading">
+                            <div v-html="entry.mnemonic_reading_de"></div>
+                        </td>
+                        <td style="font-size: 14px">
+                            <ul>
+                                <li v-for="rd in entry.reading_dist" v-show="rd.prop > 0.05" style="white-space: nowrap;">
+                                    {{rd.reading}} {{(rd.prop * 100).toFixed(0)}}% ({{rd.count}})
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div v-if="tab == 2">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nr.</th>
+                        <th>Verb</th>
+                        <th>Bedeutung</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="entry, i in verbs">
+                        <td>{{i+1}}<br/>
+                            <small>{{entry.kyouiku_index}}</small>
+                        </td>
+                        <td>
+                            {{entry.word}}<br/>
+                            <small>{{entry.mode == "1" ? "Go-Dan" : "Ichi-Dan"}}</small>
+                        </td>
+                        <td>
+                            {{entry.meaning_de}}<br/>
+                            <span class="meanings_en">{{entry.meaning}}</span>
+                        </td>
+                        <!--td>
+                            {{entry.kanjis}}
+                        </td-->
+                        <td :class="{ 'missing': !entry.mnemonic_done }">
+                            <div v-html="entry.mnemonic"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
     </div>
 
     <script>
@@ -80,13 +131,17 @@
             data() {
                 return {
                     kyouiku: kyouiku,
+                    verbs: verbs,
                     show_meaning: true,
                     show_mnemonic_meaning: true,
-                    show_mnemonic_reading: true
+                    show_mnemonic_reading: true,
+                    tab: 1
                 };
             },
             created() {
-
+                if(window.location.hash === '#verbs') {
+                    this.tab = 2;
+                }
             }
         }).mount('#app');
     </script>

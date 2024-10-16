@@ -10747,7 +10747,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Wenn hinter dem <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span> in der <span class='radical' data-kanji='早'>Früh</span> <span class='radical_kanji'>(早)</span> der <span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span> langsam verblasst, ist <span class='meaning' data-kanji='朝'>Morgen</span> <span class='meaning_kanji_meaning'>(朝)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='朝'>Morgen</span>s <span class='meaning_kanji_reading'>(朝)</span> mache ich mir extr<span class='reading kunyomi' data-hiragana='あさ'>a Sa</span>hne <span class='hiragana'>(あさ)</span> in den Kaffee für meine Psy<span class='reading onyomi' data-hiragana='ちょう'>cho</span>logie <span class='hiragana'>(ちょう)</span>.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='朝'>Morgen</span>s <span class='meaning_kanji_reading'>(朝)</span> mache ich mir extr<span class='reading kunyomi' data-hiragana='あさ'>a Sa</span>hne <span class='hiragana'>(あさ)</span> in den Kaffee gegen meine Psy<span class='reading onyomi' data-hiragana='ちょう'>cho</span>sen <span class='hiragana'>(ちょう)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 121,
         "reading_dist": [
@@ -12349,7 +12349,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Auf einem <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> können <span class='radical' data-kanji='袁'>Zombie</span>s <span class='radical_kanji'>(袁)</span> theoretisch eine größere <span class='meaning' data-kanji='遠'>Entfernung</span> <span class='meaning_kanji_meaning'>(遠)</span> zurücklegen.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "In <span class='meaning' data-kanji='遠'>Entfernung</span> <span class='meaning_kanji_reading'>(遠)</span> steckt <span class='reading onyomi' data-hiragana='えん'>En</span>tfernung <span class='hiragana'>(えん)</span>. Auch wenn der Shop <span class='meaning' data-kanji='遠'>entfernt</span> <span class='meaning_kanji_reading'>(遠)</span> ist, lass ich mir mein Ta<span class='reading kunyomi' data-hiragana='とお'>too</span> <span class='hiragana'>(とお)</span> stechen.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='遠'>Entfernung</span> <span class='meaning_kanji_reading'>(遠)</span>: Umso <span class='reading onyomi' data-hiragana='えん'>en</span>tfernter <span class='hiragana'>(えん)</span> der Ort, des<span class='reading kunyomi' data-hiragana='とお'>to o</span>ffener <span class='hiragana'>(とお)</span> die Leute dort.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 139,
         "reading_dist": [

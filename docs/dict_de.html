@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="dict_de.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="kyouiku-de.css" rel="stylesheet">
+
+    <title>Dict De</title>
+</head>
+<body>
+    <div id="app" class="container-fluid m-2">
+        <h2>Dict De</h2>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" v-model="match_case">
+          <label class="form-check-label">Match Case</label>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" v-model="input" @keydown.enter="search()"/>
+
+                <div class="row">
+                    <table class="table table-sm">
+                        <tr>
+                            <td class="col-lg" v-for="result in resultArray">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            Prefix
+                                            <ul>
+                                                <li v-for="val in result.prefix">{{val}}</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            Infix
+                                            <ul>
+                                                <li v-for="val in result.infix"><span v-html="val"></span></li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            Postfix
+                                            <ul>
+                                                <li v-for="val in result.postfix">{{val}}</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+        createApp({
+            data() {
+                return {
+                    dict_de: dict_de,
+                    input: '',
+                    match_case: false,
+                    result: [],
+                    resultArray: [],
+                    hiraganaToAscii: {
+                        'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
+                        'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
+                        'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
+                        'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
+                        'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
+                        'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
+                        'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
+                        'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
+                        'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
+                        'わ': 'wa', 'を': 'wo', 'ん': 'n',
+                        'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
+                        'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
+                        'だ': 'da', 'ぢ': 'ji', 'づ': 'zu', 'で': 'de', 'ど': 'do',
+                        'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
+                        'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
+                        'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
+                        'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
+                        'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
+                        'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
+                        'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
+                        'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
+                        'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
+                        'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
+                        'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
+                        'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
+                        'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo'
+                    }
+                };
+            },
+            created() {
+
+            },
+            methods: {
+                search: function() {
+                    this.resultArray = undefined;
+                    this.resultArray = [];
+
+                    if(this.input.trim().length == 0) {
+                        return;
+                    }
+
+                    var inputs = this.input.split(' ');
+
+                    for(var input of inputs) {
+
+                        const prefixRe = new RegExp("^" + input, this.match_case ? '' : 'i');
+                        const infixRe = new RegExp(input);
+                        const postfixRe = new RegExp(input + "$", this.match_case ? '' : 'i');
+
+                        var prefix = [];
+                        var infix = [];
+                        var postfix = [];
+                        for(var entry of this.dict_de) {
+                            var lc = entry.toLowerCase();
+                            if(/*lc.startsWith(input)*/ prefixRe.test(entry)) {
+                                prefix.push(entry);
+                            } else if(/*lc.endsWith(input)*/ postfixRe.test(entry)) {
+                                postfix.push(entry);
+                            } else if(/*lc.includes(input)*/ infixRe.test(entry)) {
+                                entry = entry.replace(infixRe, '<b>$&</b>');
+                                infix.push(entry);
+                            }
+                        }
+
+                        for(var array of [prefix, infix, postfix]) {
+                            array.sort((a, b) => {
+                                const lengthDiff = a.length - b.length;
+                                if (lengthDiff !== 0) {
+                                    return lengthDiff;
+                                }
+                                return a.localeCompare(b);
+                            });
+                        }
+
+                        var result = {
+                                prefix: prefix,
+                                infix: infix,
+                                postfix: postfix
+                        };
+
+
+                        /*
+                        var foundKeys = [];
+                        for(var key of keys) {
+                            if(key.startsWith(input)) {
+                                foundKeys.push(key);
+                            }
+                        }
+
+                        for(var key of foundKeys) {
+                            res.push(best_reading_german_word_match[key]);
+                        }
+                        */
+
+                        this.resultArray.push(result);
+                    }
+                },
+                hiraganaToRomaji: function(hiraganaText) {
+                    let romajiText = '';
+                    let smallTsu = false;
+                    let i = 0;
+
+                    while (i < hiraganaText.length) {
+                        if (i + 1 < hiraganaText.length && this.hiraganaToAscii[hiraganaText.substr(i, 2)]) {
+                            const word = this.hiraganaToAscii[hiraganaText.substr(i, 2)];
+                            if (smallTsu) {
+                                romajiText += word[0];
+                                smallTsu = false;
+                            }
+                            romajiText += word;
+                            i += 2;
+                        } else if (hiraganaText[i] === 'っ') {
+                            smallTsu = true;
+                            i += 1;
+                        } else if (this.hiraganaToAscii[hiraganaText[i]]) {
+                            const word = this.hiraganaToAscii[hiraganaText[i]];
+                            if (smallTsu) {
+                                romajiText += word[0];
+                                smallTsu = false;
+                            }
+                            romajiText += word;
+                            i += 1;
+                        } else {
+                            // Ignore unrecognized characters
+                            i += 1;
+                        }
+                    }
+
+                    return romajiText;
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
