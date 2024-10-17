@@ -2447,8 +2447,8 @@ let verbs =
         "kanji_reading_romaji": "yasu",
         "word": "休む",
         "word_neg": "休まない",
-        "mnemonic": "Sie  Ruhe  <span class='reading kunyomi' data-hiragana='やす'>yasu</span> <span class='hiragana'>(やす)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Die Streamerin möchte sich bei einer Multimed<span class='reading kunyomi' data-hiragana='やす'>iasu</span>che <span class='hiragana'>(やす)</span> ausruhen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "休",
@@ -2543,8 +2543,8 @@ let verbs =
         "kanji_reading_romaji": "mana",
         "word": "学ぶ",
         "word_neg": "学ばない",
-        "mnemonic": "Sie  Lernen  <span class='reading kunyomi' data-hiragana='まな'>mana</span> <span class='hiragana'>(まな)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Die Studentin muss etwas über Selbst<span class='reading kunyomi' data-hiragana='まな'>mana</span>gement <span class='hiragana'>(まな)</span> lernen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "学",
@@ -2625,8 +2625,8 @@ let verbs =
         "kanji_reading_romaji": "to",
         "word": "止まる",
         "word_neg": "止まらない",
-        "mnemonic": "Sie  aufhören  <span class='reading kunyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Die Polizistin möchte das Au<span class='reading kunyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span> stoppen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "止",
@@ -2648,8 +2648,8 @@ let verbs =
         ],
         "kyouiku_index": 71,
         "meaning": "stop",
-        "meaning_de": "aufhören",
-        "main_meaning_de": "aufhören",
+        "meaning_de": "stoppen",
+        "main_meaning_de": "stoppen",
         "mode": "1",
         "kyouiku_friendly": true,
         "reading_learned": true,
@@ -2771,176 +2771,6 @@ let verbs =
         ]
     },
     {
-        "romaji": "tomeru",
-        "furigana": "とめる",
-        "furigana_neg": "とめない",
-        "kanji_part": "止",
-        "kanji_reading": "と",
-        "kanji_reading_romaji": "to",
-        "word": "止める",
-        "word_neg": "止めない",
-        "mnemonic": "Er  Anhalten  <span class='reading kunyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span>",
-        "mnemonic_done": false,
-        "kanjis": [
-            [
-                "止",
-                [
-                    "stoppen",
-                    "anhalten"
-                ],
-                [
-                    [
-                        "と",
-                        "to"
-                    ],
-                    [
-                        "し",
-                        "shi"
-                    ]
-                ]
-            ]
-        ],
-        "kyouiku_index": 71,
-        "meaning": "stop, fasten",
-        "meaning_de": "Anhalten, Befestigen",
-        "main_meaning_de": "Anhalten",
-        "mode": "2",
-        "kyouiku_friendly": true,
-        "reading_learned": true,
-        "common_words": [
-            {
-                "word": "止める",
-                "word_parts": [
-                    [
-                        "止",
-                        "と"
-                    ],
-                    [
-                        "め",
-                        "め"
-                    ],
-                    [
-                        "る",
-                        "る"
-                    ]
-                ],
-                "meanings": [
-                    [
-                        "to stop; to turn off",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to park",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to prevent; to suppress (a cough); to hold back (tears); to hold (one's breath); to relieve (pain)",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to stop (someone from doing something); to dissuade; to forbid; to prohibit",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to notice; to be aware of; to concentrate on; to pay attention to; to remember; to bear in mind",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to fix (in place); to fasten; to tack; to pin; to nail; to button; to staple",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to detain; to keep in custody",
-                        "Ichidan verb, Transitive verb"
-                    ]
-                ],
-                "kanjis": [
-                    "止"
-                ],
-                "kyouiku_friendly": true,
-                "num_kanjis": 1,
-                "word_len": 3,
-                "word_is_kanji": false,
-                "num_learned_kanjis": 72,
-                "prop_learned_kanjis": 0.07164179104477612,
-                "rwl_hit": 1,
-                "rwl_total": 1,
-                "rwl_prop": 1.0,
-                "freq": {
-                    "2015_freq": 20850,
-                    "2015_rank": 3279,
-                    "in_1000_basic_words": false,
-                    "2022_freq": 15967,
-                    "2022_rank": 8967,
-                    "2015_rank_prop": 0.6720672067206721,
-                    "2022_rank_prop": 0.10321032103210322,
-                    "min_2015_freq": 1997,
-                    "max_2015_freq": 34943515,
-                    "min_2022_freq": 4810,
-                    "max_2022_freq": 100210912,
-                    "2015_rel_freq": 0.0005395586991956103,
-                    "2022_rel_freq": 0.00011134052495126494,
-                    "rank": 12246
-                }
-            },
-            {
-                "word": "止める",
-                "word_parts": [
-                    [
-                        "止",
-                        "や"
-                    ],
-                    [
-                        "め",
-                        "め"
-                    ],
-                    [
-                        "る",
-                        "る"
-                    ]
-                ],
-                "meanings": [
-                    [
-                        "to stop (an activity); to cease; to discontinue; to end; to quit",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to cancel; to abandon; to give up; to abolish; to abstain; to refrain",
-                        "Ichidan verb, Transitive verb"
-                    ]
-                ],
-                "kanjis": [
-                    "止"
-                ],
-                "kyouiku_friendly": true,
-                "num_kanjis": 1,
-                "word_len": 3,
-                "word_is_kanji": false,
-                "num_learned_kanjis": 72,
-                "prop_learned_kanjis": 0.07164179104477612,
-                "rwl_hit": 0,
-                "rwl_total": 1,
-                "rwl_prop": 0.0,
-                "freq": {
-                    "2015_freq": 20850,
-                    "2015_rank": 3279,
-                    "in_1000_basic_words": false,
-                    "2022_freq": 15967,
-                    "2022_rank": 8967,
-                    "2015_rank_prop": 0.6720672067206721,
-                    "2022_rank_prop": 0.10321032103210322,
-                    "min_2015_freq": 1997,
-                    "max_2015_freq": 34943515,
-                    "min_2022_freq": 4810,
-                    "max_2022_freq": 100210912,
-                    "2015_rel_freq": 0.0005395586991956103,
-                    "2022_rel_freq": 0.00011134052495126494,
-                    "rank": 12246
-                }
-            }
-        ]
-    },
-    {
         "romaji": "yameru",
         "furigana": "やめる",
         "furigana_neg": "やめない",
@@ -2949,8 +2779,8 @@ let verbs =
         "kanji_reading_romaji": "ya",
         "word": "止める",
         "word_neg": "止めない",
-        "mnemonic": "Er  Aufhören  <span class='reading kunyomi' data-hiragana='や'>ya</span> <span class='hiragana'>(や)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Der Tierschützer möchte das die Menschen mit der <span class='reading kunyomi' data-hiragana='や'>Ja</span>gt <span class='hiragana'>(や)</span> aufhören.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "止",
@@ -2972,8 +2802,8 @@ let verbs =
         ],
         "kyouiku_index": 71,
         "meaning": "stop, give up, resign",
-        "meaning_de": "Aufhören, aufgeben, resignieren",
-        "main_meaning_de": "Aufhören",
+        "meaning_de": "aufhören, aufgeben, resignieren",
+        "main_meaning_de": "aufhören",
         "mode": "2",
         "kyouiku_friendly": true,
         "reading_learned": false,
@@ -3119,8 +2949,8 @@ let verbs =
         "kanji_reading_romaji": "kazo",
         "word": "数える",
         "word_neg": "数えない",
-        "mnemonic": "Er  zählen  <span class='reading kunyomi' data-hiragana='かぞ'>kazo</span> <span class='hiragana'>(かぞ)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Der Mathematiker möchte die Dubli<span class='reading kunyomi' data-hiragana='かぞ'>katso</span>rdinalzahlen <span class='hiragana'>(かぞ)</span> zählen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "数",
@@ -3206,8 +3036,8 @@ let verbs =
         "kanji_reading_romaji": "ho",
         "word": "干す",
         "word_neg": "干さない",
-        "mnemonic": "Sie  trocken  <span class='reading kunyomi' data-hiragana='ほ'>ho</span> <span class='hiragana'>(ほ)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Die Hausfrau möchte die <span class='reading kunyomi' data-hiragana='ほ'>Ho</span>sen <span class='hiragana'>(ほ)</span> trocknen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "干",
@@ -3291,8 +3121,8 @@ let verbs =
         "kanji_reading_romaji": "futo",
         "word": "太る",
         "word_neg": "太らない",
-        "mnemonic": "Sie  Werden Sie fett  <span class='reading kunyomi' data-hiragana='ふと'>futo</span> <span class='hiragana'>(ふと)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Das abgemagerte Mädchen möchte mit einer To<span class='reading kunyomi' data-hiragana='ふと'>futo</span>pf <span class='hiragana'>(ふと)</span> Diät Gewicht zunehmen.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "太",
@@ -3314,8 +3144,8 @@ let verbs =
         ],
         "kyouiku_index": 95,
         "meaning": "get fat, put on weight",
-        "meaning_de": "Werden Sie fett, nehmen Sie zu",
-        "main_meaning_de": "Werden Sie fett",
+        "meaning_de": "fett werden, zu nehmen",
+        "main_meaning_de": "fett werden",
         "mode": "1",
         "kyouiku_friendly": true,
         "reading_learned": true,

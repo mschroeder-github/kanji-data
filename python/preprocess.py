@@ -2298,4 +2298,4 @@ def verbs_make_anki():
 # make_anki_v2(romaji_reading=True)
 # make_anki_v2(romaji_reading=False)
 # common_words_make_anki_lvls()
-verbs_make_anki()
+# verbs_make_anki()
