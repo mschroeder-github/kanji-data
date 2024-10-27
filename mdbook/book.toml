@@ -1,0 +1,11 @@
+[book]
+authors = ["Markus Schröder"]
+language = "de"
+multilingual = false
+src = "src"
+title = "Strukturiert Japanisch Lernen"
+
+
+[output.html]
+additional-css = ["all.min.css", "my.css"]
+additional-js = []
