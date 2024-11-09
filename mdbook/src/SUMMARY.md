@@ -1,6 +1,6 @@
 # Summary
 
-[Einleitung](./einleitung.md) <!-- für das ganze buch ansich -->
+[Einleitung](./einleitung.md) <!-- für das ganze buch ansicht -->
 
 <!-- hier macht man nur deutsche beispiele -->
 - [Grundlagen: Sprachenlernen](./grundlagen.md)
@@ -19,5 +19,9 @@
     - [Gebräuchliche Wörter]()
         - [Verben]()
         - [Adjektive]()
+        - [Fremdwörter]() <!-- katakana: englische wörter -->
     - [Einfache Sätze]()
     - [Grammatik]()
+
+[Referenzen](./referenzen.md)
+[Autor](./autor.md)

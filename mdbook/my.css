@@ -1,9 +1,19 @@
 
-.gray {
-    color: lightgray;
+/*transkript*/
+.ts {
+    color: gray;
 }
 
-.ts {
+/*kanji meaning*/
+.km {
+    color: gray;
+}
+/*kanji word*/
+.km {
+    white-space: nowrap;
+}
+
+.gray {
     color: gray;
 }
 
@@ -24,4 +34,173 @@
     font-size: 9px;
     width: 20px;
     height: 20px;
+}
+
+.play-btn-warn {
+    border: 2px solid black;
+}
+
+
+.spoiler{
+  background-color: black;
+  color: transparent;
+  user-select: none;
+  font-family: monospace;
+}
+
+.spoiler:hover{
+  background-color: inherit;
+  color: inherit;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.kanji_img_in_table {
+    height: 50px;
+}
+
+.kanji_in_table {
+    font-size: 30px;
+}
+
+
+/* scan */
+.scan_hiragana {
+    background-color: #D5E9C9;
+}
+
+.scan_katakana {
+    background-color: #B3CDE0;
+}
+
+.scan_punctuation {
+    background-color: #e0e0e0;
+}
+
+.scan_numbers {
+    background-color: #ffc8fd;
+}
+
+.scan_kyouiku_kanji {
+    background-color: #FCE5C6;
+}
+
+.scan_other_kanji {
+    background-color: #ff9c9c;
+}
+
+/* radical img */
+.img_container img {
+    position: absolute;
+    opacity: 0;
+    /*transition: opacity 2s ease-in-out;*/
+    height: 200px;
+    width: 200px;
+}
+
+.img_container img:nth-child(1) {
+    animation: fade 12s infinite;
+}
+
+.img_container img:nth-child(2) {
+    animation: fade2 12s infinite;
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes fade2 {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.kanji_beispiel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px
+}
+
+.kanji_muster_table td {
+    padding: 1px;
+}
+
+.kanji_beispiel_bild {
+    height: 30px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.merksatz {
+    margin: 20px 0;
+    padding: 0 20px;
+    color: var(--fg);
+    background-color: var(--quote-bg);
+    border-block-start: .1em solid var(--quote-border);
+    border-block-end: .1em solid var(--quote-border);
+}
+
+/* radical -> meaning */
+.radical {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #a3ffb3;
+}
+.radical_kanji {
+
+}
+.meaning_kanji_meaning {
+
+}
+
+/* meaning -> reading */
+.meaning {
+    font-weight: bold;
+}
+.meaning_kanji_reading {
+
+}
+.reading {
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.onyomi {
+    background-color: #ffa3a3;
+}
+.kunyomi {
+    background-color: #a3d9ff;
+}
+.hirayomi {
+    background-color: #fdff67;
+}
+.hiragana {
+
+}
+
+
+ruby {
+    font-size: 150%;
 }

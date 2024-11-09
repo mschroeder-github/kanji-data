@@ -12,12 +12,12 @@
 # Japanische Silbenschrift & Aussprache
 
 Wie Eingangs erwähnt gibt es zwei Silbenschriften, die durch ihren recht logischen Aufbau leicht zu lernen sind.
-Doch es benötigt zuerst noch eine Umschreibung.
+Doch es benötigt zuerst noch eine Umschrift.
 
 ## Transkription
 
 Eine [Transkription](https://de.wikipedia.org/wiki/Transkription_(Schreibung)) ist eine Umschrift:
-Es wird ein Schriftsystem (Skript) in ein anderes übertragen (*trans*fer).
+Es wird ein Schriftsystem (Skript) in ein anderes übertragen (*trans*feriert).
 Diese neue Umschrift hilft dem Lernenden zu verstehen, wie die eigentliche Schrift ausgesprochen wird.
 Dadurch soll es dem Nicht-Muttersprachler eine halbwegs richtige Aussprache von Wörtern ermöglichen.
 
@@ -69,7 +69,7 @@ Die [erste Silbenschrift](https://de.wikipedia.org/wiki/Hiragana) ist <span clas
 
 > Merksatz: <span class="ts">|hiragana</span> wird **hier** in Japan geschrieben, mit <span class="ts">|katakana</span> werden Fremdworte **kata**logisiert.
 
-Nicht wundern: <span class="ts">|hira**ga**na</span> meint <span class="ts">|**ka**na</span>, wird nur zwecks besseren Aussprechens von Japanern mit *g* statt *k* ausgesprochen.
+Nicht wundern: <span class="ts">|hira**ga**na</span> meint <span class="ts">|**ka**na</span>, wird nur zwecks besseren Aussprechens von Japanern mit *g* statt *k* geschrieben und ausgesprochen.
 
 Im Folgenden werden die beide Silbenschriften mit je 46 Grundsilben (Monographen) als Tabelle vorgestellt.
 Darauf folgen noch Zusammensetzungen (Digraphen, je 21), zwei angebrachte kleine Zeichen, die die Aussprache verändern (Diakritika, je 25) sowie eine Kombination daraus (je 12).
@@ -81,12 +81,10 @@ immer aussprache mitnehmen
 einfache aussprache mit farben: weiß, gelb (warn), rot (danger)
 -->
 
-Silben werden aus Konsonanten (im Zeilenkopf) und den bekannten Vokalen (im Spaltenkopf) gebildet.
-Links steht das <span class="ts">|hiragana</span> Zeichen, rechts das <span class="ts">|katakana</span> Zeichen.
+Silben werden aus Konsonanten (im Zeilenkopf, links) und den bekannten Vokalen (im Spaltenkopf, oben) gebildet.
+In den Zellen steht links das <span class="ts">|hiragana</span> Zeichen und rechts das <span class="ts">|katakana</span> Zeichen.
 Bestimmte Kombinationen bei **y** und und **w** werden nicht mehr verwendet, daher sind sie ausgelassen.
 Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Muttersprachler ist.
-
-
 
 <table class="centered-table">
     <thead>
@@ -118,14 +116,14 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             </td>
             <td>
                 う<span class="ts">|u</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/u.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/u.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ウ<span class="ts">|u</span>
             </td>
             <td>
                 え<span class="ts">|e</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/e.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/e.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 エ<span class="ts">|e</span>
@@ -187,7 +185,7 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             </td>
             <td>
                 し<span class="ts">|shi</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/shi.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/shi.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 シ<span class="ts">|shi</span>
@@ -225,7 +223,7 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             </td>
             <td>
                 ち<span class="ts">|chi</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/chi.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/chi.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 チ<span class="ts">|chi</span>
@@ -308,7 +306,7 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             </td>
             <td>
                 ふ<span class="ts">|fu</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/hu.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/hu.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 フ<span class="ts">|fu</span>
@@ -398,35 +396,35 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             <th>r</th>
             <td>
                 ら<span class="ts">|ra</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ra.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ra.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ラ<span class="ts">|ra</span>
             </td>
             <td>
                 り<span class="ts">|ri</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ri.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ri.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 リ<span class="ts">|ri</span>
             </td>
             <td>
                 る<span class="ts">|ru</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ru.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ru.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ル<span class="ts">|ru</span>
             </td>
             <td>
                 れ<span class="ts">|re</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/re.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/re.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 レ<span class="ts">|re</span>
             </td>
             <td>
                 ろ<span class="ts">|ro</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ro.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ro.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ロ<span class="ts">|ro</span>
@@ -449,7 +447,7 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
             </td>
             <td>
                 を<span class="ts">|wo</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/wo.wav')">
+                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/o.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ヲ<span class="ts">|wo</span>
@@ -472,23 +470,88 @@ Das **n** bildet eine eigene Silbe, was zuerst ungewohnt für deutsche Mutterspr
 In der Mitte jeder Tabellenzelle befindet sich eine Schaltfläche, um die Aussprache abzuspielen.
 Der Lernende sollte sich Zeit nehmen, die Laute mehrmals anzuhören.
 Wer tiefer absteigen möchte, kann das [Internationalen Phonetischen Alphabet](https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen) konsultieren und über [Wiktionary](https://de.wiktionary.org/wiki/%E3%81%86) (z.B. von う<span class="ts">|u</span>) die Aussprache überprüfen.
-Im Folgenden sind ein paar Besonderheiten herausgestellt.
+Im Folgenden sind ein paar Besonderheiten herausgestellt (die Schaltflächen sind hervorgehoben).
 
 * Das う<span class="ts">|u</span> ist ein ungerundetes Gegenstück zum deutschen *u*, was in Richtung *ü* geht.
 * Das え<span class="ts">|e</span> klingt wie *ä*.
 * Bei し<span class="ts">|shi</span> ist es nicht *sie* sondern *schi*.
-* Bei ち<span class="ts">|chi</span> ist es nicht *tie* sondern *tschi*.
+* Bei ち<span class="ts">|chi</span> ist es nicht *tie* oder *chi* sondern *tschi*.
 * Bei ふ<span class="ts">|fu</span> ist es zwischen [*hu* und *fu*](https://de.wikipedia.org/wiki/Stimmloser_bilabialer_Frikativ).
 * Bei den **r** Lauten ist es ein Zungenschlag erzeugtes *r*, was sich wie ein *l* anhört, aber kein *l* ist.
 
+<!-- TODO: ist wo nun o oder wo ausgesprochen? -->
 
+#### Ähnlich aussehende <span class="ts">|hiragana</span> Zeichen
 
+Hier ein paar Merksätze, um recht ähnlich aussehende Silben besser auseinander halten zu können.
 
+> Der Unterschied zwischen め<span class="ts">|me</span> und ぬ<span class="ts">|nu</span> ist die geschwungene **Nu**del.
 
+> Der Unterschied zwischen ろ<span class="ts">|ro</span> und る<span class="ts">|ru</span> ist wieder die **ru**nde Nudel.
 
+> Der Unterschied zwischen ま<span class="ts">|ma</span> und ほ<span class="ts">|ho</span> ist der extra **ho**chkantstrich (|).
 
+> Der Unterschied zwischen は<span class="ts">|ha</span> und ほ<span class="ts">|ho</span> ist der obere **ho**rizontalstrich (&ndash;).
 
+> Der Unterschied zwischen わ<span class="ts">|wa</span> und ね<span class="ts">|ne</span> ist ei**ne** Schleife.
 
+#### Ähnlich aussende <span class="ts">|katakana</span> Zeichen
+
+Merksatz, um die ノ<span class="ts">|no</span> ähnlichen Silben nebeneinander zu sehen.
+<table>
+    <tr>
+        <td>
+            no,
+        </td>
+        <td>
+            so
+        </td>
+        <td>
+            <span class="gray">'</span>n
+        </td>
+        <td>
+            shi
+        </td>
+        <td>
+            t<span class="gray">su</span>
+        </td>
+    </tr>
+    <tr>
+        <td>ノ</td>
+        <td>ソ</td>
+        <td>ン</td>
+        <td>シ</td>
+        <td>ツ</td>
+    </tr>
+</table>
+
+Merksatz, um die フ<span class="ts">|fu</span> ähnlichen Silben nebeneinander zu sehen.
+<table>
+    <tr>
+        <td>fu<span class="gray">**,</span></td>
+        <td>ra<span class="gray">te</span></td>
+        <td>wo</td>
+        <td><span class="gray">und</span></td>
+        <td>wa<span class="gray">-</span></td>
+        <td><span class="gray">-r</span>u<span class="gray">m</span></td>
+    </tr>
+    <tr>
+        <td>フ</td>
+        <td>ラ</td>
+        <td>ヲ</td>
+        <td></td>
+        <td>ワ</td>
+        <td>ウ</td>
+    </tr>
+</table>
+
+> Der Unterschied zwischen ク<span class="ts">|ku</span> und ケ<span class="ts">|ke</span> ist der Ha**ke**n.
+
+<!--
+> Der Unterschied zwischen マ<span class="ts">|ma</span> ヌ<span class="ts">|nu</span> ist
+
+> Der Unterschied zwischen ナ<span class="ts">|na</span> チ<span class="ts">|chi</span> ist
+-->
 
 ### Zusammensetzungen (Digraphen)
 
@@ -553,19 +616,19 @@ Zusammen mit den Konsonanten (außer **w**) entstehen neue Zusammensetzungen, di
     <tr>
       <th>t</th>
       <td> ちゃ<span class="ts">|cha</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/cha.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/cha.wav')">
         <i class="fas fa-play">
         </i>
         </button> チャ<span class="ts">|cha</span>
       </td>
       <td> ちゅ<span class="ts">|chu</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/chu.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/chu.wav')">
         <i class="fas fa-play">
         </i>
         </button> チュ<span class="ts">|chu</span>
       </td>
       <td> ちょ<span class="ts">|cho</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/cho.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/cho.wav')">
         <i class="fas fa-play">
         </i>
         </button> チョ<span class="ts">|cho</span>
@@ -736,7 +799,7 @@ Für **h** gibt es zwei Varianten, da man mit den Lippen **b** aber auch **p** f
             </td>
             <td>
                 じ<span class="ts">|ji</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ji.wav')">
+                <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ji.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ジ<span class="ts">|ji</span>
@@ -774,7 +837,7 @@ Für **h** gibt es zwei Varianten, da man mit den Lippen **b** aber auch **p** f
             </td>
             <td>
                 ぢ<span class="ts">|ji</span>
-                <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ji.wav')">
+                <button class="play-btn  play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ji.wav')">
                     <i class="fas fa-play"></i>
                 </button>
                 ヂ<span class="ts">|ji</span>
@@ -926,19 +989,19 @@ Die kleinen angebrachten Zeichen können auch auf die Zusammensetzungen angewand
     <tr>
       <th>s <i class="fa fa-arrow-right"></i> z</th>
       <td> じゃ<span class="ts">|ja</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ja.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ja.wav')">
         <i class="fas fa-play">
         </i>
         </button> ジャ<span class="ts">|ja</span>
       </td>
       <td> じゅ<span class="ts">|ju</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/ju.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/ju.wav')">
         <i class="fas fa-play">
         </i>
         </button> ジュ<span class="ts">|ju</span>
       </td>
       <td> じょ<span class="ts">|jo</span>
-      <button class="play-btn" onclick="loadAndPlay(this, 'hiragana_reading/jo.wav')">
+      <button class="play-btn play-btn-warn" onclick="loadAndPlay(this, 'hiragana_reading/jo.wav')">
         <i class="fas fa-play">
         </i>
         </button> ジョ<span class="ts">|jo</span>
@@ -1024,36 +1087,8 @@ Man kann sie nun in echter japanischer Schrift schreiben:
 * つなみ<span class="ts">|tsunami</span> - wörtlich: Hafenwelle
 * やくざ<span class="ts">|yakuza</span> - japanische Mafia
 
-
-Nur die Tabellen gesehen und verstanden zu haben, hilft einem Anfänger trotzdem nicht, nun die Silbenschriften lesen zu können.
-Es erfordert nun das Lernen von Silbe zu Aussprache (bzw. Transkription).
-
-## Lernen durch Wiederholung
-
-Der Lernende sollte sich ständig fordern, alle Silben der beiden Schriften ひらがな<span class="ts">|hiragana</span> und カタカナ<span class="ts">|katakana</span> lesen und umschreiben zu müssen, damit sich die Aussprache und Transkription festigt.
-
-Nutzt man die [Anki](https://apps.ankiweb.net/) Lernkartei-Applikation, gibt es bereits gut gemachte [Kartenstapel](https://ankiweb.net/shared/decks?search=kana) für die Schriften.
-* [Japanische Silben: Kana (Hiragana und Katakana)](https://ankiweb.net/shared/info/978901593)
-* [Tofugu: Learn Hiragana Deck](https://ankiweb.net/shared/info/1081858108) & [Tofugu: Learn Katakana Deck](https://ankiweb.net/shared/info/1027153995) - englisch, aber mit Merksätzen, Merkbildern und Aussprache Aufnahmen
-
-Für das Android-Handy gibt es auch einige Apps im [Google Playstore](https://play.google.com/store/search?q=kana).
-Ob als [Abfragetests](https://apkpure.com/kana-town-learn-japanese-hir/fr.koridev.kanatown) oder [spielerisch](https://play.google.com/store/apps/details?id=com.kazzuyak.kanagame), wichtig ist, dass man ständig gefordert wird zu einer Silbe die Umschrift schreiben (tippen) zu müssen.
-
-
-Lernende tendieren wegen der starken Nutzung von ひらがな<span class="ts">|hiragana</span> das カタカナ<span class="ts">|katakana</span> eher zu vernachlässigen.
-Ich empfehle beide Schriften als gleich wichtig anzusehen und im Lernaufwand genau 50% ひらがな<span class="ts">|hiragana</span> und 50% カタカナ<span class="ts">|katakana</span> einzusetzen.
-Man wird sich sonst beim Lesen von echten japanischen Texten immer ärgern, noch fundamentale Wissenslücken zu haben.
-
-Es sollten auch immer alle Silben gelernt werden.
-Dadurch wird das Gehirn darauf trainiert z.B. Ausschau nach dem &#x3099; Zeichen zu halten.
-Zudem gewöhnt man sich daran, die angehangenen ゃ<span class="ts" style="font-size: smaller;">|ya</span>, ゅ<span class="ts" style="font-size: smaller;">|yu</span> und ょ<span class="ts" style="font-size: smaller;">|yo</span> als eine Silbeneinheit zu betrachten und auszusprechen.
-
-<!--
-ノ、ソ ン　シ ツ
-no, so n shit(su)
--->
-
-Nicht nur das Lesen und Umschreiben ist wichtig:
+Mithilfe der Tabellen kann mühselig die einzelnen Silben nachgeschlagen werden.
+Doch nicht nur das Lesen und Umschreiben ist wichtig:
 Der Lernende sollte so früh wie möglich in die Lage versetzt werden, selbst die Schrift schreiben zu können.
 
 ## Selbst Schreiben Können
@@ -1064,26 +1099,204 @@ Hat man die Umschrift gelernt, kann man mit einer normalen deutschen Tastatur un
 
 ### Online
 
-<https://www.google.com/inputtools/try/>
+Die [Input Tools von Google](https://www.google.com/inputtools/try/) können online ausprobiert werden.
+Stellt man die Sprache auf Japanisch, kann man das Verhalten der Tastatur testen.
+Auch [Yavego](https://www.yavego.com/tastatur-japanisch/) bietet eine Japanische Tastatur online an.
+
+Doch besser ist es für sein Betriebsystem die richtige Eingabemethode einzustellen.
 
 ### Windows
 
+In Windows kann über [Microsoft IME](https://support.microsoft.com/de-de/windows/microsoft-ime-f%C3%BCr-japanisch-da40471d-6b91-4042-ae8b-713a96476916) (Input Method Editor) die Tastatur auf Japanische Eingabe gestellt werden.
+Am besten man folgt einer [Einstellungsanleitung](https://learn.microsoft.com/de-de/globalization/input/japanese-ime).
 
-### Linux
+![](windows-keyboard-layouts.png)
 
-<!-- funktionstasten -->
+Nachdem Japanisch eingestellt ist, kann man ひらがな<span class="ts">|hiragana</span> eintippen.
 
-<https://wiki.archlinux.org/title/Uim>
+![](windows-ime.png)
 
-<https://wiki.archlinux.org/title/Mozc>
+### Unix
 
-<https://help.ubuntu.com/community/JapaneseInput>
+In Unix Systemen gibt es die [Universal Input Method (UIM)](https://wiki.archlinux.org/title/Uim).
+Dort kann mit [Anthy](https://en.wikipedia.org/wiki/Anthy) die Japanische Eingabe hinzugefügt werden.
 
+[Mozc](https://wiki.archlinux.org/title/Mozc) ist von Google und für mehrere Betriebsysteme implementiert worden.
+Auch [Ubuntu](https://help.ubuntu.com/community/JapaneseInput) untersützt Mozc in seiner Distribution.
+
+<!--
 ### Android
 
+Die Google-Tastatur [Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin) unterstützt auch Japanisch.
+-->
+
+### Generelle Nutzungshinweise
+
+Verschiedene Eingabemethoden verhalten sich möglicherweise unterschiedlich.
+Im Folgenden eine kurze Erklärung der Nutzung, wie es in den meisten Tastaturen der Fall sein müsste.
+* Schreibe die Umschrift, wie in den Tabellen oben gezeigt.
+Es entstehen die Silben, sobald sie vollständig geschrieben werden.
+Beispielsweise entsteht きゃ<span class="ts">|kya</span>, sobald der letzte Buchstabe <kbd>ky**a**</kbd> getippt ist.
+* Erst durch Drücken der <kbd>Eingabetaste</kbd> wird das geschriebene Wort in den Text übernommen.
+* Durch das Drücken von <kbd>Leerzeichen</kbd> oder <kbd><i class="fa fa-arrow-down"></i></kbd> kann man durch verschiedene Formen wechseln.
+Näheres dazu im nächsten Kapitel.
+* Manche Tastaturen erlauben durch Drücken von Funktionstasten das Wort in seiner Schrift zu ändern (am Beispiel がっこう<span class="ts">|gakkou</span>).
+  * <kbd>F6</kbd> ひらがな<span class="ts">|hiragana</span>-Modus: がっこう<span class="ts">|gakkou</span>
+  * <kbd>F7</kbd> カタカナ<span class="ts">|katakana</span>-Modus: ガッコウ<span class="ts">|gakkou</span>
+  * <kbd>F8</kbd> カタカナ<span class="ts">|katakana</span>-Halbe-Weite-Modus: ｶﾞｯｺｳ<span class="ts">|gakkou</span>
+* Da mit <kbd>n</kbd> entweder ein **n** Laut wie z.B. な<span class="ts">|na</span> gemeint sein könnte oder einfach ん<span class="ts">|n</span>, muss man bei ん<span class="ts">|n</span> <kbd>nn</kbd> tippen.
+* Tippe zweimal den selben Konsonanten, um ein kleines っ<span class="ts" style="font-size: smaller">|tsu</span> zu erhalten.
+Alternativ kann man <kbd>ltsu</kbd> schreiben.
+Das <kbd>l</kbd> steht für das englische Wort *lower* (dt. kleiner).
+
+
+
+<br/>
+
+Silben tippen zu können und die Tabellen gesehen und verstanden zu haben, ist ein erster wichtiger Schritt.
+Doch das hilft einem Anfänger trotzdem nicht, nun die Silbenschriften einfach lesen zu können.
+Es erfordert nun das Lernen von Silbe zu Aussprache bzw. Transkription.
+
+## Lernen durch Wiederholung
+
+Der Lernende sollte sich nun ständig fordern, alle Silben der beiden Schriften ひらがな<span class="ts">|hiragana</span> und カタカナ<span class="ts">|katakana</span> lesen und umschreiben zu müssen, damit sich die Aussprache und Transkription im Gedächtnis festigt.
+
+Nutzt man die [Anki](https://apps.ankiweb.net/) Lernkartei-Applikation, gibt es bereits gut gemachte [Kartenstapel](https://ankiweb.net/shared/decks?search=kana) für die Schriften.
+* [Japanische Silben: Kana (Hiragana und Katakana)](https://ankiweb.net/shared/info/978901593) - deutsch
+* [Tofugu: Learn Hiragana Deck](https://ankiweb.net/shared/info/1081858108) & [Tofugu: Learn Katakana Deck](https://ankiweb.net/shared/info/1027153995) - englisch, aber mit Merksätzen, Merkbildern und Aussprache Aufnahmen.
+Daher auch empfohlen.
+
+Für Android-Handys gibt es auch einige Apps im [Google Playstore](https://play.google.com/store/search?q=kana).
+Ob als [Abfragetests](https://apkpure.com/kana-town-learn-japanese-hir/fr.koridev.kanatown) oder [spielerisch](https://play.google.com/store/apps/details?id=com.kazzuyak.kanagame), wichtig ist, dass man ständig gefordert wird zu einer Silbe die Umschrift tippen zu müssen.
+[Spiele für den PC](https://store.steampowered.com/search/?term=kana) gibt es natürlich auch.
+
+Lernende tendieren wegen der starken Nutzung von ひらがな<span class="ts">|hiragana</span> das カタカナ<span class="ts">|katakana</span> eher zu vernachlässigen.
+Ich empfehle beide Schriften als gleich wichtig anzusehen und im Lernaufwand genau 50% ひらがな<span class="ts">|hiragana</span> und 50% カタカナ<span class="ts">|katakana</span> einzusetzen.
+Man wird sich sonst beim Lesen von echten japanischen Texten immer ärgern, noch fundamentale Wissenslücken zu haben.
+
+Es sollten auch immer alle Silben gelernt werden.
+Dadurch wird das Gehirn darauf trainiert z.B. Ausschau nach dem &#x3099; Zeichen zu halten.
+Zudem gewöhnt man sich daran, die angehangenen ゃ<span class="ts" style="font-size: smaller;">|ya</span>, ゅ<span class="ts" style="font-size: smaller;">|yu</span> und ょ<span class="ts" style="font-size: smaller;">|yo</span> als eine Silbeneinheit zu betrachten und auszusprechen.
+
+Dieser Abschnitt im Kapitel ist kurz, da hier nun die Arbeit des Lernenden im Vordergrund steht.
+Die Silben-Aussprache-Paare müssen verinnerlicht werden, da sie fundamental sind für den weiteren Lernweg.
 
 
 ## Fazit
 
+Mithilfe der Umschrift (Transkription) ist es möglich die aus chinesischen Zeichen stammende japanische Silbenschriften ひらがな<span class="ts">|hiragana</span> und カタカナ<span class="ts">|katakana</span> sowie ihre ungefähre Aussprache zu vermitteln.
+In Tabellen wurden die Grundsilben, die Zusammensetzungen und Silben mit angebrachten Zeichen zusammengefasst.
+Durch Abspielschaltflächen konnte man die einzelnen Silben durch Hören nachvollziehen.
+Der Lernende sollte zudem in der Lage sein, durch eine ausgewählte Eingabemethode die Silben selbst schreiben zu können.
+Am längsten müsste Zeit in das Lernen durch ständige Wiederholung gegangen sein, welches den Lernenden nun ermöglichen sollte, in Silbenschrift geschriebene Wörter entziffern zu können.
 
-<!-- javascript: erst wenn test bestanden weiter gehen dürfen -->
+### Kleiner Test
+
+Der Lernende sollte erst zum nächsten Kapitel übergehen, wenn alle Silben gelesen werden können.
+Im Folgenden ist ein kleiner Test, um das selbst überprüfen zu können.
+Nach jedem neuen Laden der Seite (<kbd>F5</kbd>) mischt sich eine neue ひらがな (links) und カタカナ (rechts) Silbenliste.
+Durch Darüberhalten mit der Maus wird die Transkription aufgedeckt.
+Erst wenn der Lernende bei wirklich allen Silben richtig lag, sollte das nächste Kapitel besucht werden.
+Wurde ein Fehler gemacht, ist es nicht schlimm weiterhin beim [Lernen durch Wiederholung](#lernen-durch-wiederholung) zu bleiben.
+
+<table>
+    <tr>
+        <td><ul id="hiragana-list"></ul></td>
+        <td><ul id="katakana-list"></ul></td>
+    </tr>
+</table>
+
+
+
+
+<script>
+    const hiraganaToAscii = {
+        'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
+        'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
+        'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
+        'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
+        'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
+        'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
+        'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
+        'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
+        'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
+        'わ': 'wa', 'を': 'wo', 'ん': 'n',
+        'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
+        'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
+        'だ': 'da', 'ぢ': 'ji', 'づ': 'zu', 'で': 'de', 'ど': 'do',
+        'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
+        'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
+        'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
+        'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
+        'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
+        'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
+        'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
+        'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
+        'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
+        'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
+        'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
+        'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
+        'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo'
+    };
+    const katakanaToAscii = {
+        'ア': 'a', 'イ': 'i', 'ウ': 'u', 'エ': 'e', 'オ': 'o',
+        'カ': 'ka', 'キ': 'ki', 'ク': 'ku', 'ケ': 'ke', 'コ': 'ko',
+        'サ': 'sa', 'シ': 'shi', 'ス': 'su', 'セ': 'se', 'ソ': 'so',
+        'タ': 'ta', 'チ': 'chi', 'ツ': 'tsu', 'テ': 'te', 'ト': 'to',
+        'ナ': 'na', 'ニ': 'ni', 'ヌ': 'nu', 'ネ': 'ne', 'ノ': 'no',
+        'ハ': 'ha', 'ヒ': 'hi', 'フ': 'fu', 'ヘ': 'he', 'ホ': 'ho',
+        'マ': 'ma', 'ミ': 'mi', 'ム': 'mu', 'メ': 'me', 'モ': 'mo',
+        'ヤ': 'ya', 'ユ': 'yu', 'ヨ': 'yo',
+        'ラ': 'ra', 'リ': 'ri', 'ル': 'ru', 'レ': 're', 'ロ': 'ro',
+        'ワ': 'wa', 'ヲ': 'wo', 'ン': 'n',
+        'ガ': 'ga', 'ギ': 'gi', 'グ': 'gu', 'ゲ': 'ge', 'ゴ': 'go',
+        'ザ': 'za', 'ジ': 'ji', 'ズ': 'zu', 'ゼ': 'ze', 'ゾ': 'zo',
+        'ダ': 'da', 'ヂ': 'ji', 'ヅ': 'zu', 'デ': 'de', 'ド': 'do',
+        'バ': 'ba', 'ビ': 'bi', 'ブ': 'bu', 'ベ': 'be', 'ボ': 'bo',
+        'パ': 'pa', 'ピ': 'pi', 'プ': 'pu', 'ペ': 'pe', 'ポ': 'po',
+        'キャ': 'kya', 'キュ': 'kyu', 'キョ': 'kyo',
+        'シャ': 'sha', 'シュ': 'shu', 'ショ': 'sho',
+        'チャ': 'cha', 'チュ': 'chu', 'チョ': 'cho',
+        'ニャ': 'nya', 'ニュ': 'nyu', 'ニョ': 'nyo',
+        'ヒャ': 'hya', 'ヒュ': 'hyu', 'ヒョ': 'hyo',
+        'ミャ': 'mya', 'ミュ': 'myu', 'ミョ': 'myo',
+        'リャ': 'rya', 'リュ': 'ryu', 'リョ': 'ryo',
+        'ギャ': 'gya', 'ギュ': 'gyu', 'ギョ': 'gyo',
+        'ジャ': 'ja', 'ジュ': 'ju', 'ジョ': 'jo',
+        'ビャ': 'bya', 'ビュ': 'byu', 'ビョ': 'byo',
+        'ピャ': 'pya', 'ピュ': 'pyu', 'ピョ': 'pyo'
+    };
+
+
+    function getRandomHiragana(n, kana, classname) {
+        const keys = Object.keys(kana);
+        const selectedKeys = [];
+
+        while (selectedKeys.length < n) {
+            const randomKey = keys[Math.floor(Math.random() * keys.length)];
+            if (!selectedKeys.includes(randomKey)) {
+                selectedKeys.push(randomKey);
+            }
+        }
+
+        const ul = document.getElementById(classname);
+        ul.innerHTML = ''; // Clear the existing list
+
+        selectedKeys.forEach(key => {
+            const li = document.createElement('li');
+            var asciiValue = kana[key];
+            var needed = 4 - asciiValue.length;
+
+            key = key.padEnd(3, '　');
+
+            for(var i = 0; i < needed; i++){
+                asciiValue += '&nbsp;';
+            }
+            li.innerHTML = `${key} <span class="spoiler">${asciiValue}</span>`;
+            ul.appendChild(li);
+        });
+    }
+
+    getRandomHiragana(20, hiraganaToAscii, 'hiragana-list');
+    getRandomHiragana(20, katakanaToAscii, 'katakana-list');
+</script>

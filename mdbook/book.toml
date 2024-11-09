@@ -9,3 +9,4 @@ title = "Strukturiert Japanisch Lernen"
 [output.html]
 additional-css = ["all.min.css", "my.css"]
 additional-js = []
+site-url = "/www/strukturiert_japanisch_lernen/"
