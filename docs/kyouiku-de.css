@@ -93,3 +93,29 @@
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
 }
+
+
+/* scan */
+.scan_hiragana {
+    background-color: #D5E9C9;
+}
+
+.scan_katakana {
+    background-color: #B3CDE0;
+}
+
+.scan_punctuation {
+    background-color: #e0e0e0;
+}
+
+.scan_numbers {
+    background-color: #ffc8fd;
+}
+
+.scan_kyouiku_kanji {
+    background-color: #FCE5C6;
+}
+
+.scan_other_kanji {
+    background-color: #ff9c9c;
+}

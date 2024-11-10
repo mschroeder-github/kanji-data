@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -23,6 +24,9 @@
           <li class="nav-item" >
             <button class="nav-link" :class="{ 'active': tab == 2 }" @click="tab = 2">Verben</button>
           </li>
+          <li class="nav-item" >
+            <button class="nav-link" :class="{ 'active': tab == 3 }" @click="tab = 3">Analyse</button>
+          </li>
         </ul>
 
 
@@ -39,6 +43,10 @@
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" v-model="show_mnemonic_reading">
               <label class="form-check-label">Merksatz Lesung anzeigen</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" v-model="show_short_reading">
+              <label class="form-check-label">Lesungen verkürzen</label>
             </div>
             <table class="table table-bordered">
                 <thead>
@@ -77,7 +85,7 @@
                         </td>
                         <td style="font-size: 14px">
                             <ul>
-                                <li v-for="rd in entry.reading_dist" v-show="rd.prop > 0.05" style="white-space: nowrap;">
+                                <li v-for="rd in entry.reading_dist" v-show="!show_short_reading || rd.prop > 0.05" style="white-space: nowrap;">
                                     {{rd.reading}} {{(rd.prop * 100).toFixed(0)}}% ({{rd.count}})
                                 </li>
                             </ul>
@@ -120,6 +128,19 @@
             </table>
         </div>
 
+        <div v-if="tab == 3">
+            <textarea class="form-control" rows="10" v-model="text"></textarea>
+            <button class="btn btn-primary" @click="analyse(text)">Scan</button>
+
+            <br/>
+            <br/>
+            <div v-if="analyse_result">
+                <span v-for="char in analyse_result.chars" :class="char.class">{{char.value}}</span>
+            </div>
+
+            <pre>{{analyse_result}}</pre>
+        </div>
+
 
 
 
@@ -135,12 +156,114 @@
                     show_meaning: true,
                     show_mnemonic_meaning: true,
                     show_mnemonic_reading: true,
-                    tab: 1
+                    show_short_reading: true,
+                    text: "こうした骨格となるインフラは徳川の治世から現在の東京まで、基本的にはあまり変わらず継承されている。内堀は現在も皇居の周辺をとりかこみ、侵入者を防ぐ機能を果たしている。水路・運河は現在も多くが残っており、例えば小名木川は隅田川と（旧）中川を東西に結ぶ大きな水路（運河）であるが、昭和時代も重要な物流インフラであったのであり、現在でも運河沿いの工場に様々な資源物資を運ぶのに使われているし、観光・遊覧船も行き来している。江戸城のお堀は1964年のオリンピックにあわせて都心に高速道路を通そうとした時にも道路を物理的に通すための貴重な空間として利用されたのであり、つまり時代を経て船が自動車に変わりはしたが、都市の交通を支える役割を果たしたのである。また、玉川上水は今も東京の水道局の現役の水道施設として活用されている。",
+                    text_ex: "ハア～！ ブオ～！ ハア～！ そっ　そうだ！ 天津飯　技を借りるぜ。　太陽拳！ ウオ！ ウワ…　ウワ～！ ウワ…。 まぶしさで目が　くらんでいるうちに！ （ベジータ）グオ～　目が　目が！ はあ　はあ　はあ…。 よっ　よし　この距離なら。 ハア～　フフフッ。 だっ　大地よ 海よ そして生きている　全ての　みんな このオラにほんのちょっとずつだけ 元気を分けてくれ！ 《頼む！》 ・～ ウッ　グオ～！ チクショー　こしゃくなまねを…ウワ～！ 《あっ　あと少しあとちょっとで　元気玉が出来る》 （ヤジロベー）なっ　何だぎゃ。えっ　ええ？ 《うん？　視力が戻りだしたな。だが　これだけの距離があれば やつの攻撃より先に元気玉が出せる》 ウウ…　チクショー　どこだ！ グウ…　どこだ！どこに行きやがった！ 逃げても無駄だ。気配で分かるぞ！ （ベジータ）ウウ…。 《元気が集まってきた》 己～！　クッ…。 見つかった！　間に合ってくれ。 でっ　出来た。地球中の元気が集まった。 オオ～！ フッ…　よし！ 食らえ～！ オリャ～。 ウワ～！ （ヤジロベー）ウワ。 （孫　悟飯）うん？（クリリン）何だ？　何があったんだ？ クッ…。 ヘヘヘヘ…　おっ!? アッ　クウ…。 クッ…　ウウ～。 まっ　まさかあんな攻撃をしてくるなんて とっ　とんだ誤算だった。 何てこった。　せっかくの元気玉が消えちまった。 ヘッ　しぶとい野郎だ。 だが　限界は近そうだな　分かるぞ。 クッ…　参ったな。　これで　もうさすがに　勝ち目は　ねえや。 さっきの元気玉で　オラの気はほとんど使っちまった。 クッ！ （ベジータ）ハ～ッハッハッハッハ！さあ　どうする。 フッ！ ウワ～！　クッ。 ウオ～！　タア！ギャ～！ 悟空の気がどんどん小さくなっている。 おっ　お父さん！（クリリン）急げ　もうすぐだ！ ウギャ～！ヘヘヘヘ。 ウワ～　クッ！ ウワ～　クッ　クウ…。 おっと　悪い　悪い。 うっかり　踏んじまって足をつぶしちまったようだな。 クッ　ウオ～。 じゃ　今度は　うっかり心臓をつぶしてやろう。 はあ　はあ　はあ…。 これで終わりだ　カカロット。 たとえ　また　生き返ったとしてもそのときには　もう　この星はない。 チッ　チクショーかっ　完全に負けだ。 こんなに　力の差があったなんて。 強えやつがいたのは　うれしいけどしっ　死んじまっちゃな…。 悔しいぜ…。 フッ。　死ね～！ ギャッ！　ウオ…。 ウワ～！ ヘヘヘ。イタチの最後っぺってやつだ。 ウウ…。　こっ　これで　オラには 鼻クソをほじる力も残っちゃいねえや。 すっ　好きにしろ…。 クッ　ウワ～。 ググ…。 己～！ カカロット　貴様　よくも… よくも　よくもこの俺さまの顔に傷を！ ウオ～　己…。 握りつぶしてくれるわ！ オリャ～。 ウワ～！ アッ　アア～！　ウウ…。 （ヤジロベー）あっ…　ありゃ　きついわ。駄目だ　死んだな　こりゃ。 ギャア～！ 俺は見捨てたわけではねえからな。 どっ　どうしようもねえんだわ。おっ　俺を恨まんでちょ～よ。 フハハハハハハ！せいぜい　苦しんで死ね！ ギャア～！アア～！ 近い　もう　すぐそこだ！ あの　妙な　光の玉のせいで夕方だってのに　この明るさだ。 いったい　あれは何だ？ あっ…　クッ　クリリンさん　あれ！ アッ！　下りろ　悟飯。下に下りて　隠れるんだ！ なっ　何なの？　あれ…。早くしろ　バカヤロー！ あっ　あいつら…。 《そんな…　あいつも大猿になってやがる！》 （ベジータ）クックックッ。　今のでずいぶん骨が折れたようだな。 痛いか　えっ？ 悟空が　やられてる。　ヤバいぞ。 こっちだ。はい！ （ヤジロベー）おい！（クリリン）うわ！　ヤジロベー。 おい　あの化け物誰だと思っとりゃす？ サイヤ人だわ。（クリリン）知ってるさ。 あんな化け物にかなうわけねえでしょ。 やめときゃ！（クリリン）それも知ってる。 だが　やつの　しっぽを斬れば元に戻る！ しっぽ？しっぽ？ いいか？　悟飯と　ヤジロベーは前に回って やつの気を引いてくれ。 すきを見て　俺が　後ろからしっぽを斬ってやる。 急げ！　悟空が死んでしまうぞ！はっ　はい！ じょっ　冗談じゃにゃあわ。やつの気を引けだと？ お前ら　知らにゃあんだわ。やつは　元に戻ったって 信じられにゃあ強さなんだぎゃ。 《お父さん　死なないで！》 《悟空の気が　もう　ほとんどなくなってきてる。 チクショー　死ぬ寸前だ！》 《お父さん　死なないで！》 うん？　何か　いやがるな。どこだ！ こっちだ！うん!? お父さんを放せ！",
+                    analyse_result: null,
+                    tab: 1,
+
+                    kyouiku_str: "一右雨円王音下火花貝学気休玉金九空月犬見五口校左三山四子糸字耳七車手十出女小上森人水正生青石赤先千川早草足村大男竹中虫町天田土二日入年白八百文本名木目夕立力林六 引羽雲園遠黄何夏家科歌画会回海絵外角楽活間丸岩顔帰汽記弓牛魚京強教近兄形計元原言古戸午後語交光公工広考行高合国黒今才細作算姉市思止紙寺時自室社弱首秋週春書少場色食心新親図数星晴声西切雪線船前組走多太体台谷知地池茶昼朝長鳥直通弟店点電冬刀東当答頭同道読内南肉馬買売麦半番父風分聞米歩母方北妹毎万明鳴毛門夜野矢友曜用来理里話 悪安暗委意医育員飲院運泳駅横屋温化荷界開階寒感漢館岸期起客宮急球究級去橋業局曲銀区苦具君係軽決血研県庫湖向幸港号根祭坂皿仕使始指死詩歯事持次式実写者主取守酒受州拾終習集住重宿所暑助勝商昭消章乗植深申真神身進世整昔全想相送息速族他打対待代第題炭短談着柱注丁帳調追定庭笛鉄転登都度島投湯等豆動童農波配倍箱畑発反板悲皮美鼻筆氷表病秒品夫負部服福物平返勉放味命面問役薬油有由遊予様洋羊葉陽落流旅両緑礼列練路和 愛案以位囲胃衣印栄英塩央億加果課貨芽改械害街各覚完官管観関願喜器希旗機季紀議救求泣給挙漁競共協鏡極訓軍郡型径景芸欠結健建験固候功好康航告差最菜材昨刷察札殺参散産残司史士氏試児治辞失借種周祝順初唱松焼照省笑象賞信臣成清静席積折節説戦浅選然倉巣争側束続卒孫帯隊達単置仲貯兆腸低停底的典伝徒努灯働堂得特毒熱念敗梅博飯費飛必標票不付府副粉兵別変辺便包法望牧末満未脈民無約勇要養浴利陸料良量輪類令例冷歴連労老録 圧易移因営永衛液益演往応恩仮価可河過賀解快格確額刊幹慣眼基寄規技義逆久旧居許境興均禁句群経潔件券検険減現限個故護効厚構耕講鉱混査再妻採災際在罪財桜雑賛酸師志支枝資飼似示識質舎謝授修術述準序承招証常情条状織職制勢性政精製税績責接設絶舌銭祖素総像増造則測属損態貸退団断築張提程敵適統導銅徳独任燃能破判版犯比肥非備俵評貧婦富布武復複仏編弁保墓報豊暴貿防務夢迷綿輸余預容率略留領 異遺域宇映延沿我灰拡閣革割株巻干看簡危揮机貴疑吸供胸郷勤筋敬系警劇激穴憲権絹厳源呼己誤后孝皇紅鋼降刻穀骨困砂座済裁策冊蚕姿私至視詞誌磁射捨尺若樹収宗就衆従縦縮熟純処署諸除傷将障城蒸針仁垂推寸盛聖誠宣専泉洗染善創奏層操窓装臓蔵存尊宅担探誕暖段値宙忠著庁潮頂賃痛展党糖討届難乳認納脳派俳拝背肺班晩否批秘腹奮並閉陛片補暮宝訪亡忘棒枚幕密盟模訳優郵幼欲翌乱卵覧裏律臨朗論",
+                    joyo_str: "亜哀握扱依偉威尉慰為維緯違井壱逸稲芋姻陰隠韻渦浦影詠鋭疫悦謁越閲宴援炎煙猿縁鉛汚凹奥押欧殴翁沖憶乙卸穏佳嫁寡暇架禍稼箇華菓蚊雅餓介塊壊怪悔懐戒拐皆劾慨概涯該垣嚇核殻獲穫較郭隔岳掛潟喝括渇滑褐轄且刈乾冠勘勧喚堪寛患憾換敢棺款歓汗環甘監緩缶肝艦貫還鑑閑陥含頑企奇岐幾忌既棋棄祈軌輝飢騎鬼偽儀宜戯擬欺犠菊吉喫詰却脚虐丘及朽窮糾巨拒拠虚距享凶叫峡恐恭挟況狂狭矯脅響驚仰凝暁斤琴緊菌襟謹吟駆愚虞偶遇隅屈掘靴繰桑勲薫傾刑啓契恵慶憩掲携渓継茎蛍鶏迎鯨撃傑倹兼剣圏堅嫌懸献肩謙賢軒遣顕幻弦玄孤弧枯誇雇顧鼓互呉娯御悟碁侯坑孔巧恒慌抗拘控攻更江洪溝甲硬稿絞綱肯荒衡貢購郊酵項香剛拷豪克酷獄腰込墾婚恨懇昆紺魂佐唆詐鎖債催宰彩栽歳砕斎載剤咲崎削搾索錯 撮擦傘惨桟暫伺刺嗣施旨祉紫肢脂諮賜雌侍慈滋璽軸執湿漆疾芝赦斜煮遮蛇邪勺爵酌釈寂朱殊狩珠趣儒寿需囚愁秀臭舟襲酬醜充柔汁渋獣銃叔淑粛塾俊瞬准循旬殉潤盾巡遵庶緒叙徐償匠升召奨宵尚床彰抄掌昇晶沼渉焦症硝礁祥称粧紹肖衝訟詔詳鐘丈冗剰壌嬢浄畳譲醸錠嘱飾殖触辱伸侵唇娠寝審慎振浸紳薪診辛震刃尋甚尽迅陣酢吹帥炊睡粋衰遂酔錘随髄崇枢据杉澄瀬畝是姓征牲誓請逝斉隻惜斥析籍跡拙摂窃仙占扇栓潜旋繊薦践遷銑鮮漸禅繕塑措疎礎租粗訴阻僧双喪壮捜掃挿曹槽燥荘葬藻遭霜騒憎贈促即俗賊堕妥惰駄耐怠替泰滞胎袋逮滝卓択拓沢濯託濁諾但奪脱棚丹嘆淡端胆鍛壇弾恥痴稚致遅畜蓄逐秩窒嫡抽衷鋳駐弔彫徴懲挑眺聴脹超跳勅朕沈珍鎮陳津墜塚漬坪釣亭偵貞呈堤帝廷抵締艇訂逓邸泥摘滴哲徹撤 迭添殿吐塗斗渡途奴怒倒凍唐塔悼搭桃棟盗痘筒到謄踏逃透陶騰闘洞胴峠匿督篤凸突屯豚曇鈍縄軟尼弐如尿妊忍寧猫粘悩濃把覇婆廃排杯輩培媒賠陪伯拍泊舶薄迫漠爆縛肌鉢髪伐罰抜閥伴帆搬畔繁般藩販範煩頒盤蛮卑妃彼扉披泌疲碑罷被避尾微匹姫漂描苗浜賓頻敏瓶怖扶敷普浮符腐膚譜賦赴附侮舞封伏幅覆払沸噴墳憤紛雰丙併塀幣弊柄壁癖偏遍舗捕穂募慕簿倣俸奉峰崩抱泡砲縫胞芳褒邦飽乏傍剖坊妨帽忙房某冒紡肪膨謀僕墨撲朴没堀奔翻凡盆摩磨魔麻埋膜又抹繭慢漫魅岬妙眠矛霧婿娘銘滅免茂妄猛盲網耗黙戻紋匁厄躍柳愉癒諭唯幽悠憂猶裕誘雄融与誉庸揚揺擁溶窯謡踊抑翼羅裸頼雷絡酪欄濫吏履痢離硫粒隆竜慮虜了僚寮涼猟療糧陵倫厘隣塁涙累励鈴隷零霊麗齢暦劣烈裂廉恋錬炉露廊楼浪漏郎賄惑枠湾腕媛怨鬱唄淫咽茨彙椅萎畏嵐宛顎曖挨韓鎌葛骸蓋崖諧潰瓦牙苛俺臆岡旺艶稽憬詣熊窟串惧錦僅巾嗅臼畿亀伎玩挫沙痕頃駒傲乞喉梗虎股舷鍵拳桁隙呪腫嫉叱鹿餌摯恣斬拶刹柵埼塞采戚脊醒凄裾須腎芯尻拭憧蹴羞袖汰遜捉踪痩爽遡狙膳箋詮腺煎羨鶴爪椎捗嘲貼酎緻綻旦誰戴堆唾鍋謎梨奈那丼貪頓栃瞳藤賭妬填溺諦阜訃肘膝眉斑阪汎氾箸剥罵捻虹匂喩闇弥冶麺冥蜜枕昧勃頬貌蜂蔑璧餅蔽脇麓籠弄呂瑠瞭侶慄璃藍辣拉沃瘍妖湧柿哺楷睦釜錮賂毀勾曽"
                 };
             },
             created() {
+                //this.text = this.text_ex;
                 if(window.location.hash === '#verbs') {
                     this.tab = 2;
+                }
+                if(window.location.hash === '#analyse') {
+                    this.tab = 3;
+                }
+            },
+            methods: {
+                analyse: function(text) {
+                    this.analyse_result = null;
+                    text = text.trim();
+                    var counter = { hiragana: 0, katakana: 0, punctuation: 0, kyouiku_kanji: 0, other_kanji: 0, number: 0, unknown: 0 };
+                    var chars = [];
+                    var distinct_kyouiku = [];
+                    var distinct_joyo = [];
+                    for(var c of text) {
+                        var codePoint = c.codePointAt(0);
+                        var cl = "";
+                        if(codePoint >= 0x3040 && codePoint <= 0x309F) {
+                            cl = "scan_hiragana";
+                            counter['hiragana']++;
+                        } else if(codePoint >= 0x30A0 && codePoint <= 0x30FF) {
+                            cl = "scan_katakana";
+                            counter['katakana']++;
+                        } else if (codePoint >= 0x30 && codePoint <= 0x39) {
+                            cl = "scan_numbers";
+                            counter['number']++;
+                        } else if(this.isJapanesePunctuation(codePoint)) {
+                            cl = "scan_punctuation";
+                            counter['punctuation']++;
+                        } else if(this.kyouiku_str.includes(c)) {  // this.kyouiku.some(obj => obj.kanji === c)
+                            cl = "scan_kyouiku_kanji";
+                            counter['kyouiku_kanji']++;
+                            if (!distinct_kyouiku.includes(c)) {
+                                distinct_kyouiku.push(c);
+                            }
+
+                        } else if(this.joyo_str.includes(c)){
+                            cl = "scan_other_kanji";
+                            counter['other_kanji']++;
+                            if (!distinct_joyo.includes(c)) {
+                                distinct_joyo.push(c);
+                            }
+                        } else {
+                            cl = "scan_unknown";
+                            counter['unknown']++;
+                        }
+                        var entry = { value: c, class: cl }
+                        chars.push(entry);
+                    }
+                    this.analyse_result = {};
+                    this.analyse_result['text'] = text;
+                    this.analyse_result['len'] = text.length;
+                    this.analyse_result['counter'] = counter;
+                    this.analyse_result['percent'] = {};
+                    for (const [key, count] of Object.entries(this.analyse_result['counter'])) {
+                        this.analyse_result['percent'][key] = (count / text.length) * 100;
+                    }
+                    this.analyse_result['percent']['kyouiku_prop'] = (counter['kyouiku_kanji'] / (counter['kyouiku_kanji'] + counter['other_kanji'])) * 100;
+                    this.analyse_result['distinct_kyouiku_len'] = distinct_kyouiku.length;
+                    this.analyse_result['distinct_joyo_len'] = distinct_joyo.length;
+                    this.analyse_result['distinct_kyouiku'] = distinct_kyouiku;
+                    this.analyse_result['distinct_joyo'] = distinct_joyo;
+                    this.analyse_result['chars'] = chars;
+                },
+                isJapanesePunctuation(codePoint) {
+                    return [
+                        0x3001, // Japanese Comma (、)
+                        0x3002, // Japanese Full Stop (。)
+                        0x201C, // Opening Quotation Mark (“)
+                        0x201D, // Closing Quotation Mark (”)
+                        0x2018, // Opening Single Quotation Mark (‘)
+                        0x2019, // Closing Single Quotation Mark (’)
+                        0xFF1A, // Full-width Colon (：)
+                        0xFF1B, // Full-width Semicolon (；)
+                        0xFF1F, // Full-width Question Mark (？)
+                        0xFF01, // Full-width Exclamation Mark (！)
+                        0x2015, // Horizontal Bar (―)
+                        0x300C, // Opening Bracket (「)
+                        0x300D, // Closing Bracket (」)
+                        0x300E, // Opening Double Bracket (『)
+                        0x300F,  // Closing Double Bracket (』)
+                        0x3005, // 々
+                        0xFF08, // Full-width Opening Parenthesis （
+                        0xFF09, // Full-width Closing Parenthesis ）
+                        0x0020, // Normal Space ( )
+                        0x000A, // New Line (Line Feed)
+                        0xFF5E, // ～
+                        0x3000, // full-width space
+                        0x2026, // '…'
+                        0x300A, // Left Corner Bracket (《)
+                        0x300B, // Right Corner Bracket (》)
+                        0x21,   // Exclamation Mark (!)
+                        0x3F,    // Question Mark (?)
+                        0xff61,    // ｡
+                    ].includes(codePoint);
                 }
             }
         }).mount('#app');

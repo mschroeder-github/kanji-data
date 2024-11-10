@@ -3204,8 +3204,8 @@ let verbs =
         "kanji_reading_romaji": "hiro",
         "word": "広まる",
         "word_neg": "広まらない",
-        "mnemonic": "Sie  Verbreiten  <span class='reading kunyomi' data-hiragana='ひろ'>hiro</span> <span class='hiragana'>(ひろ)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Sie möchte ein Gerücht über die Entstehung der <span class='reading kunyomi' data-hiragana='ひろ'>Hiero</span>glpyhen <span class='hiragana'>(ひろ)</span> verbreiten.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "広",
@@ -3279,93 +3279,6 @@ let verbs =
         ]
     },
     {
-        "romaji": "hiromeru",
-        "furigana": "ひろめる",
-        "furigana_neg": "ひろめない",
-        "kanji_part": "広",
-        "kanji_reading": "ひろ",
-        "kanji_reading_romaji": "hiro",
-        "word": "広める",
-        "word_neg": "広めない",
-        "mnemonic": "Er  verbreiten  <span class='reading kunyomi' data-hiragana='ひろ'>hiro</span> <span class='hiragana'>(ひろ)</span>",
-        "mnemonic_done": false,
-        "kanjis": [
-            [
-                "広",
-                [
-                    "weit",
-                    "breit"
-                ],
-                [
-                    [
-                        "ひろ",
-                        "hiro"
-                    ]
-                ]
-            ]
-        ],
-        "kyouiku_index": 97,
-        "meaning": "spread, make popular",
-        "meaning_de": "verbreiten, populär machen",
-        "main_meaning_de": "verbreiten",
-        "mode": "2",
-        "kyouiku_friendly": true,
-        "reading_learned": true,
-        "common_words": [
-            {
-                "word": "広める",
-                "word_parts": [
-                    [
-                        "広",
-                        "ひろ"
-                    ],
-                    [
-                        "め",
-                        "め"
-                    ],
-                    [
-                        "る",
-                        "る"
-                    ]
-                ],
-                "meanings": [
-                    [
-                        "to spread; to propagate; to popularize; to disseminate",
-                        "Ichidan verb, Transitive verb"
-                    ],
-                    [
-                        "to broaden; to extend; to widen; to enlarge",
-                        "Ichidan verb, Transitive verb"
-                    ]
-                ],
-                "kanjis": [
-                    "広"
-                ],
-                "kyouiku_friendly": true,
-                "num_kanjis": 1,
-                "word_len": 3,
-                "word_is_kanji": false,
-                "num_learned_kanjis": 98,
-                "prop_learned_kanjis": 0.09751243781094528,
-                "rwl_hit": 1,
-                "rwl_total": 1,
-                "rwl_prop": 1.0,
-                "freq": {
-                    "2015_freq": 4622,
-                    "2015_rank": 8923,
-                    "in_1000_basic_words": false,
-                    "2015_rank_prop": 0.1076107610761076,
-                    "min_2015_freq": 1997,
-                    "max_2015_freq": 34943515,
-                    "min_2022_freq": 4810,
-                    "max_2022_freq": 100210912,
-                    "2015_rel_freq": 7.51255283184892e-05,
-                    "rank": 8923
-                }
-            }
-        ]
-    },
-    {
         "romaji": "takeru",
         "furigana": "たける",
         "furigana_neg": "たけない",
@@ -3374,8 +3287,8 @@ let verbs =
         "kanji_reading_romaji": "ta",
         "word": "長ける",
         "word_neg": "長けない",
-        "mnemonic": "Er  Übertreffen Sie sich  <span class='reading kunyomi' data-hiragana='た'>ta</span> <span class='hiragana'>(た)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Er sticht heraus mit seinem <span class='reading kunyomi' data-hiragana='た'>Ta</span>lent <span class='hiragana'>(た)</span>.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "長",
@@ -3398,7 +3311,7 @@ let verbs =
         ],
         "kyouiku_index": 98,
         "meaning": "excel, be proficient at",
-        "meaning_de": "Übertreffen Sie sich, seien Sie kompetent in",
+        "meaning_de": "sich auszeichnen, kompetent sein",
         "main_meaning_de": "Übertreffen Sie sich",
         "mode": "2",
         "kyouiku_friendly": true,
@@ -3414,8 +3327,8 @@ let verbs =
         "kanji_reading_romaji": "tsu",
         "word": "点ける",
         "word_neg": "点けない",
-        "mnemonic": "Er  einschalten  <span class='reading kunyomi' data-hiragana='つ'>tsu</span> <span class='hiragana'>(つ)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Der Elektrikmeister möchte, dass sein A<span class='reading kunyomi' data-hiragana='つ'>zu</span>bi <span class='hiragana'>(つ)</span> das Licht einschaltet.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "点",
@@ -3489,8 +3402,8 @@ let verbs =
         "kanji_reading_romaji": "hika",
         "word": "光る",
         "word_neg": "光らない",
-        "mnemonic": "Sie  Glanz  <span class='reading kunyomi' data-hiragana='ひか'>hika</span> <span class='hiragana'>(ひか)</span>",
-        "mnemonic_done": false,
+        "mnemonic": "Ihr Kleid glänzt, weil es aus Monarc<span class='reading kunyomi' data-hiragana='ひか'>hie Ka</span>schmir <span class='hiragana'>(ひか)</span> ist.",
+        "mnemonic_done": true,
         "kanjis": [
             [
                 "光",
@@ -3509,8 +3422,8 @@ let verbs =
         ],
         "kyouiku_index": 102,
         "meaning": "shine, glitter",
-        "meaning_de": "Glanz, Glitzer",
-        "main_meaning_de": "Glanz",
+        "meaning_de": "erstahlen, glänzen",
+        "main_meaning_de": "erstahlen",
         "mode": "1",
         "kyouiku_friendly": true,
         "reading_learned": false,
