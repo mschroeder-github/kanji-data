@@ -8,12 +8,20 @@ tokenizer
 vocabs.pkl
 start.sh
 upload_to_strato.sh
+upload_mdbook_to_strato.sh
 anki/other
 kanji-kyouiku-common-words.json
 2024-07-21-kanji-quest.txt
+wadoku-xml-20240707
+wadoku-vocabs.json
+2024-09-23-jp-scratchpad.txt
+kanji-kyouiku-verbs-aussortiert.json
+conv.py
 
 python/gen.py
 python/translator.py
+
+
 
 .~*
 
