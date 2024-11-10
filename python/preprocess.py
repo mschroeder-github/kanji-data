@@ -24,6 +24,8 @@ import glob
 import pickle
 import re
 from collections import OrderedDict
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
 def best_reading_german_word_match():
 
@@ -1029,7 +1031,7 @@ def common_words_vocab_scanner():
     with open('../kanji-kyouiku-common-words.json', 'wt', encoding='utf-8') as file:
         json.dump(vocab_list, file, indent=4, ensure_ascii=False)
 
-def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separator=" "):
+def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", separator=" "):
 
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
@@ -1052,6 +1054,18 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
         for entry in kyouiku_verbs:
             kyouiku_verbs_dict[entry['word']] = entry
 
+    with open('../wadoku-vocabs.json', 'rt', encoding='utf-8') as file:
+        wadoku_vocabs = json.load(file)
+
+        wadoku_vocabs_dict = {}
+        for entry in wadoku_vocabs:
+            for word in entry['words']:
+                wadoku_vocabs_dict[word + entry['reading']] = entry
+
+        wadoku_vocabs_word_dict = {}
+        for entry in wadoku_vocabs:
+            for word in entry['words']:
+                wadoku_vocabs_word_dict[word] = entry
 
 
     # emulate missing frequencies
@@ -1128,12 +1142,12 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
 
     deck = genanki.Deck(
         1958658640,
-        'Kyōiku-Kanji Vokabeln'
+        'Unterrichtsschriftzeichen - Gebräuchliche Wörter'
     )
 
     model = genanki.Model(
         1518950602,
-        'Kyōiku-Kanji Vokabel',
+        'Vokabel',
         fields=[
             {'name': 'Vokabel'},
             {'name': 'Antwort'},
@@ -1178,24 +1192,21 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
             filtered_verbs.append(word)
             continue
 
-
         # verb check
-        #for meaning in word['meanings']:
-        #    m = meaning[1].lower()
-        #    verb =  'godan verb' in m or 'ichidan verb' in m
+        skip_verb = False
+        for meaning in word['meanings']:
+            m = meaning[1].lower()
+            verb = 'godan verb' in m or 'ichidan verb' in m
             # 'suru verb' in m or
-        #    if verb:
-        #        print(word['word'], meaning[1], meaning[0])
+            if verb:
+                # print(word['word'], meaning[1], meaning[0])
+                skip_verb = True
+        if skip_verb:
+            filtered_verbs.append(word)
+            continue
+
 
         word['new_reading'] = word['rwl_prop'] < 1
-
-        # translate
-        meanings_de = []
-        for meaning in word['meanings']:
-            translation = translate_and_cache(meaning[0])
-            meanings_de.append((translation, meaning[1]))
-        word['meanings_de'] = meanings_de
-        word['vocab_de'] = word['meanings_de'][0][0].split(';')[0]
 
         kanji_meanings_de = []
         for part in word['word_parts']:
@@ -1210,6 +1221,27 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
             hiragana += part[1]
         romaji = hiragana_to_romaji(hiragana)
 
+        # translate
+        meanings_de = []
+
+        wadoku_entry = wadoku_vocabs_dict.get(word['word'] + hiragana)
+        if wadoku_entry is None:
+            wadoku_entry = wadoku_vocabs_word_dict.get(word['word'])
+            if wadoku_entry is None:
+                #raise Exception('no wadoku entry for ' + word['word'])
+                print('[WARN] no wadoku entry for ' + word['word'])
+
+                #TODO maybe later fallback translate
+                continue
+                #for meaning in word['meanings']:
+                #    translation = translate_and_cache(meaning[0])
+                #    meanings_de.append((translation, meaning[1]))
+
+        word['meanings_de'] = wadoku_entry['meanings_de']
+        # word['meanings_de'] = meanings_de
+        #word['vocab_de'] = word['meanings_de'][0][0].split(';')[0]
+        word['vocab_de'] = word['meanings_de'][0][0]
+
         vocab_de = remove_brackets(word['vocab_de'].lower()).strip()
         if len(vocab_de) == 0:
             # fallback
@@ -1222,7 +1254,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
 
         l = []
         for m in word['meanings_de']:
-            l.append(f"<li>{m[0]} ({m[1]})</li>")
+            l.append(f"<li>{'; '.join(m)}</li>")
         meanings_de_txt = '\n'.join(l)
 
         l = []
@@ -1277,7 +1309,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Romaji", separa
         #)
 
     package = genanki.Package([deck])
-    output_file = f'../anki/Kyouiku-Kanji-Vokabeln-Lvl-{num_learned_kanjis}_{reading_mode}.apkg'
+    output_file = f'../anki/Unterrichtsschriftzeichen_Gebräuchliche_Wörter-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
     print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis, 'filtered_verbs:', len(filtered_verbs))
@@ -1306,7 +1338,8 @@ def translate_and_cache(text):
 
 def common_words_make_anki_lvls():
     max = 1050
-    max = 250
+    max = 251
+    #max = 51
     for lvl in range(50, max, 50):
         common_words_make_anki(num_learned_kanjis=lvl)
 
@@ -1426,6 +1459,92 @@ def collect_vocabs():
 def is_done(entry):
     return entry['mnemonic_reading_de_done'] and (entry['mnemonic_meaning_de_done'] or entry.get('has_radical_img'))
 
+def collect_wadoku():
+    tree = ET.parse('../wadoku-xml-20240707/wadoku.xml')
+    root = tree.getroot()
+
+    ns = {'': 'http://www.wadoku.de/xml/entry'}
+
+    wadoku_vocabs = []
+
+    for entry in tqdm(root.findall('entry', ns)):
+        try:
+            vocab = {}
+
+            entry_id = entry.get('id')
+            link = f"https://www.wadoku.de/entry/view/{entry_id}"
+
+            vocab['words'] = []
+            for form in entry.findall('form', ns):
+                orths = form.findall("orth", ns)
+                for orth in orths:
+                    if orth.text not in vocab['words']:
+                        vocab['words'].append(orth.text)
+
+            #if vocab['words'] == ['一生']:
+            #    print_element(entry)
+            #    a = 0
+
+            hira = entry.find("form/reading/hira", ns)
+            if hira is not None:
+                vocab['reading'] = hira.text
+
+            vocab['meanings_de'] = []
+
+            #if len(senses) == 0:
+            #    print_element(entry)
+            #    raise Exception('no senses found for ' + vocab['words'])
+
+            for sense in entry.findall('sense', ns):
+                transes = list(sense.findall('trans', ns))
+                if len(transes) == 0:
+                    transes = []
+                    for subsense in sense.findall('sense', ns):
+                        transes.extend(subsense.findall('trans', ns))
+
+                if len(transes) == 0:
+                    continue
+                    # raise Exception('no translations found for ' + str(vocab['words']))
+
+                trans_list = []
+                for trans in transes:
+                    tr = trans.find('tr', ns)
+                    if tr is None:
+                        tr = trans.find('title', ns)
+
+                    #if tr is None:
+                    #    print_element(trans)
+                    #    continue
+
+                    tr_text = ''
+                    for child in tr:
+                        if child.get('hasPrecedingSpace'):
+                            tr_text += ' '
+
+                        txt = ' '.join(child.itertext())
+                        tr_text += txt
+
+                        if child.get('hasFollowingSpace'):
+                            tr_text += ' '
+
+                    trans_list.append(tr_text)
+
+                vocab['meanings_de'].append(trans_list)
+
+            # print(json.dumps(vocab, indent=2, ensure_ascii=False))
+            wadoku_vocabs.append(vocab)
+
+        except Exception as e:
+            print_element(entry)
+            raise e
+
+    with open('../wadoku-vocabs.json', 'wt', encoding='utf-8') as file:
+        json.dump(wadoku_vocabs, file, indent=4, ensure_ascii=False)
+
+def print_element(entry):
+    xml_str = ET.tostring(entry, 'utf-8')
+    parsed_xml = minidom.parseString(xml_str)
+    print(parsed_xml.toprettyxml(indent="  "))
 
 def make_anki(romaji_reading=False, separator=" ", meaning_kanji_bg="#fffee6", reading_kanji_bg="#e6fffd"):
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
@@ -1757,7 +1876,7 @@ def make_anki_v2(romaji_reading=False, separator=" "):
 
     mnemonic_meaning = genanki.Model(
         1695632296,
-        'Kyōiku-Kanji Deutsch Bedeutung/Lesung Merksatz',
+        'Merksatz', # 'Kyōiku-Kanji Deutsch Bedeutung/Lesung Merksatz',
         fields=[
             {'name': 'Kanji'},
             {'name': 'Antwort'},
@@ -1781,7 +1900,7 @@ def make_anki_v2(romaji_reading=False, separator=" "):
 
     image_meaning = genanki.Model(
         1835909438,
-        'Kyōiku-Kanji Deutsch Bedeutung/Lesung Merkbild',
+        'Merkbild', # 'Kyōiku-Kanji Deutsch Bedeutung/Lesung Merkbild',
         fields=[
             {'name': 'Kanji'},
             {'name': 'Antwort'},
@@ -1809,7 +1928,8 @@ def make_anki_v2(romaji_reading=False, separator=" "):
     # main deck
     kanji_kyouiku_deck = genanki.Deck(
         1818403339,
-        'Kyōiku-Kanji Deutsch')
+        'Unterrichtsschriftzeichen', #'Kyōiku-Kanji Deutsch'
+    )
     decks.append(kanji_kyouiku_deck)
 
     # Create a subdeck
@@ -1904,8 +2024,8 @@ def make_anki_v2(romaji_reading=False, separator=" "):
     package.media_files.extend(glob.glob('../img/*.jpg'))
     package.media_files.extend(glob.glob('../img/*.png'))
 
-    reading_mode = "Romaji" if romaji_reading else "Hiragana"
-    output_file = f'../anki/Kyouiku-Kanji-Deutsch_{reading_mode}.apkg'
+    reading_mode = "Umschrift" if romaji_reading else "Hiragana"
+    output_file = f'../anki/Unterrichtsschriftzeichen_{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
     #actual_sum = 0
@@ -2292,10 +2412,11 @@ def verbs_make_anki():
 # frequency_crawler()
 # common_words_vocab_scanner()
 # verbs_scanner()
+# collect_wadoku()
 
 
 # MAKE
 # make_anki_v2(romaji_reading=True)
 # make_anki_v2(romaji_reading=False)
-# common_words_make_anki_lvls()
+common_words_make_anki_lvls()
 # verbs_make_anki()
