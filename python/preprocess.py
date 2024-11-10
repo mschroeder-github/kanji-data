@@ -1182,6 +1182,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
     common_words = [word for word in common_words if word_freq[word['word']] <= 1]
 
     count = 0
+    wadoku_not_found_count = 0
     for word in common_words:
 
         # not interested in numeric vocabulary
@@ -1229,7 +1230,8 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
             wadoku_entry = wadoku_vocabs_word_dict.get(word['word'])
             if wadoku_entry is None:
                 #raise Exception('no wadoku entry for ' + word['word'])
-                print('[WARN] no wadoku entry for ' + word['word'])
+                # print('[WARN] no wadoku entry for ' + word['word'])
+                wadoku_not_found_count += 1
 
                 #TODO maybe later fallback translate
                 continue
@@ -1309,10 +1311,10 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         #)
 
     package = genanki.Package([deck])
-    output_file = f'../anki/Unterrichtsschriftzeichen_Gebräuchliche_Wörter-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
+    output_file = f'../anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
-    print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis, 'filtered_verbs:', len(filtered_verbs))
+    print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis, 'filtered_verbs:', len(filtered_verbs), 'wadoku_not_found_count:', wadoku_not_found_count)
 
 def translate_and_cache(text):
     from translator import translate
@@ -1338,7 +1340,7 @@ def translate_and_cache(text):
 
 def common_words_make_anki_lvls():
     max = 1050
-    max = 251
+    #max = 251
     #max = 51
     for lvl in range(50, max, 50):
         common_words_make_anki(num_learned_kanjis=lvl)
@@ -2418,5 +2420,5 @@ def verbs_make_anki():
 # MAKE
 # make_anki_v2(romaji_reading=True)
 # make_anki_v2(romaji_reading=False)
-common_words_make_anki_lvls()
+# common_words_make_anki_lvls()
 # verbs_make_anki()
