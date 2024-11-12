@@ -1057,15 +1057,15 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
     with open('../wadoku-vocabs.json', 'rt', encoding='utf-8') as file:
         wadoku_vocabs = json.load(file)
 
-        wadoku_vocabs_dict = {}
+        wadoku_vocabs_dict = defaultdict(list)
         for entry in wadoku_vocabs:
             for word in entry['words']:
-                wadoku_vocabs_dict[word + entry['reading']] = entry
+                wadoku_vocabs_dict[word + entry['reading']].append(entry)
 
-        wadoku_vocabs_word_dict = {}
+        wadoku_vocabs_word_dict = defaultdict(list)
         for entry in wadoku_vocabs:
             for word in entry['words']:
-                wadoku_vocabs_word_dict[word] = entry
+                wadoku_vocabs_word_dict[word].append(entry)
 
 
     # emulate missing frequencies
@@ -1225,10 +1225,10 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         # translate
         meanings_de = []
 
-        wadoku_entry = wadoku_vocabs_dict.get(word['word'] + hiragana)
-        if wadoku_entry is None:
-            wadoku_entry = wadoku_vocabs_word_dict.get(word['word'])
-            if wadoku_entry is None:
+        wadoku_entry_list = wadoku_vocabs_dict.get(word['word'] + hiragana)
+        if wadoku_entry_list is None:
+            wadoku_entry_list = wadoku_vocabs_word_dict.get(word['word'])
+            if wadoku_entry_list is None:
                 #raise Exception('no wadoku entry for ' + word['word'])
                 # print('[WARN] no wadoku entry for ' + word['word'])
                 wadoku_not_found_count += 1
@@ -1239,7 +1239,16 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
                 #    translation = translate_and_cache(meaning[0])
                 #    meanings_de.append((translation, meaning[1]))
 
-        word['meanings_de'] = wadoku_entry['meanings_de']
+
+        if len(wadoku_entry_list) == 1:
+            word['meanings_de'] = wadoku_entry_list[0]['meanings_de']
+        else:
+            word['meanings_de'] = []
+            wadoku_entry_list.sort(key=lambda x: sum(len(m) for m in x['meanings_de']), reverse=True)
+            for entry in wadoku_entry_list:
+                word['meanings_de'].extend(entry['meanings_de'])
+
+
         # word['meanings_de'] = meanings_de
         #word['vocab_de'] = word['meanings_de'][0][0].split(';')[0]
         word['vocab_de'] = word['meanings_de'][0][0]
@@ -1339,8 +1348,8 @@ def translate_and_cache(text):
 
 
 def common_words_make_anki_lvls():
-    max = 1050
-    #max = 251
+    #max = 1050
+    max = 250
     #max = 51
     for lvl in range(50, max, 50):
         common_words_make_anki(num_learned_kanjis=lvl)
