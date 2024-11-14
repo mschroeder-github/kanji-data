@@ -2401,33 +2401,3 @@ def verbs_make_anki():
     package.write_to_file(output_file)
 
     print(i, 'written')
-
-# PREPROCESS
-# add_german()
-# radicals_check()
-# dict_to_array()
-# prepare_mnemonics()
-# check_radical_kanji_mapping()
-# reading_decision()
-# best_reading_german_word_match()
-# radical_graph()
-# special_radicals()
-# germanet_categories()
-# order()
-# order_based_on_radical() # can be called again
-
-
-# CRAWLER & SCANNER
-# jisho_crawler()
-# jisho_furigana_scanner()
-# frequency_crawler()
-# common_words_vocab_scanner()
-# verbs_scanner()
-# collect_wadoku()
-
-
-# MAKE
-# make_anki_v2(romaji_reading=True)
-# make_anki_v2(romaji_reading=False)
-# common_words_make_anki_lvls()
-# verbs_make_anki()

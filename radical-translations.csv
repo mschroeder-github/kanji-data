@@ -2,7 +2,7 @@
 4,ｲ,Leader,Anführer,
 1,ト,Toe,Zehe,
 2,ナ,Narwhal,Narwal,
-4,ネ,Spirit,Geist,
+4,ネ,Spirit,Seele,
 1,ハ,Fins,Flossen,
 6,ホ,Angel,Engel,
 6,マ,Mama,Mama,
@@ -69,7 +69,7 @@
 8,合,Suit,Anzug,
 7,周,Circumference,Umfang,
 9,咅,Clown,Clown,
-2,土,Dirt,Dreck,
+2,土,Dirt,Erde,
 10,圣,Tombstone,Grabstein,
 4,士,Samurai,Samurai,
 10,売,Sell,Verkaufen,
@@ -213,7 +213,7 @@
 1,|,Stick,Stock,
 2,,Leaf,Blatt,7‾
 3,,Hat,Hut,^
-3,,Triceratops,Triceratops,'''
+3,,Triceratops,Triceratops,`'´
 4,,Beggar,Bettler,5
 4,,Horns,Hörner,' '
 4,,Spikes,Stacheln,“
