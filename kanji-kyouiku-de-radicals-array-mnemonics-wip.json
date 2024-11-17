@@ -20347,36 +20347,36 @@
         "wk_radicals": [
             "Cross",
             "Mouth",
-            "Brush"
+            "Wolverine"
         ],
         "meanings_de": [
-            "Ding",
-            "Sache",
-            "Tatsache"
+            "Handlung",
+            "Tatsache",
+            "Ding"
         ],
         "wk_radicals_new": [
             "Cross",
             "Mouth",
-            "Brush"
+            "Wolverine"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Kreuz",
             "Mund",
-            "Gestrüpp"
+            "Wolverine"
         ],
         "wk_radicals_kanji": [
             "十",
             "口",
-            "聿"
+            "ヨ"
         ],
         "kanji": "事",
         "kanji_ord": 20107,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>  , <span class='meaning' data-kanji='事'>Ding</span> <span class='meaning_kanji_meaning'>(事)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='事'>Ding</span> <span class='meaning_kanji_reading'>(事)</span> , <span class='reading onyomi' data-hiragana='じ'>Ji</span> <span class='hiragana'>(じ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='十'>Kreuz</span>verhör <span class='radical_kanji'>(十)</span> führt der geschickte <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> von <span class='radical' data-kanji='ヨ'>Wolverine</span> <span class='radical_kanji'>(ヨ)</span>, um über die <span class='meaning' data-kanji='事'>Handlung</span> <span class='meaning_kanji_meaning'>(事)</span>, Tatsachen und Dinge des Gegners zu erfahren.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er verfolgt die <span class='meaning' data-kanji='事'>Handlung</span> <span class='meaning_kanji_reading'>(事)</span> auf dem Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rm <span class='hiragana'>(じ)</span>, bis die Sache nach einer Fias<span class='reading kunyomi' data-hiragana='こと'>koto</span>rtur <span class='hiragana'>(こと)</span> endet.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 247,
         "reading_dist": [
             {
@@ -20428,9 +20428,9 @@
             "Samurai"
         ],
         "meanings_de": [
-            "dienen",
-            "arbeiten",
-            "tun"
+            "tun",
+            "teilnehmen",
+            "dienen"
         ],
         "wk_radicals_new": [
             "Leader",
@@ -20448,10 +20448,10 @@
         "kanji": "仕",
         "kanji_ord": 20181,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  , <span class='meaning' data-kanji='仕'>dienen</span> <span class='meaning_kanji_meaning'>(仕)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='仕'>dienen</span> <span class='meaning_kanji_reading'>(仕)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> ist nun <span class='radical' data-kanji='士'>Samurai</span> <span class='radical_kanji'>(士)</span>  geworden, weil er weiß, was zu <span class='meaning' data-kanji='仕'>tun</span> <span class='meaning_kanji_meaning'>(仕)</span> ist.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wir haben weniger zu <span class='meaning' data-kanji='仕'>tun</span> <span class='meaning_kanji_reading'>(仕)</span>, wenn uns die Ma<span class='reading onyomi' data-hiragana='し'>schi</span>nen <span class='hiragana'>(し)</span> dienen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 248,
         "reading_dist": [
             {
@@ -20495,7 +20495,7 @@
             "Alligator"
         ],
         "meanings_de": [
-            "ein anderer"
+            "Andere"
         ],
         "wk_radicals_new": [
             "Leader",
@@ -20513,10 +20513,10 @@
         "kanji": "他",
         "kanji_ord": 20182,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='也'>Alligator</span> <span class='radical_kanji'>(也)</span>  , <span class='meaning' data-kanji='他'>ein anderer</span> <span class='meaning_kanji_meaning'>(他)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='他'>ein anderer</span> <span class='meaning_kanji_reading'>(他)</span> , <span class='reading onyomi' data-hiragana='た'>Ta</span> <span class='hiragana'>(た)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> hat sich als Haustier ein <span class='radical' data-kanji='也'>Alligator</span> <span class='radical_kanji'>(也)</span> geholt, weil das <span class='meaning' data-kanji='他'>Andere</span> <span class='meaning_kanji_meaning'>(他)</span> auch gemacht haben.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Habe aus Versehen von einem <span class='meaning' data-kanji='他'>Andere</span> <span class='meaning_kanji_reading'>(他)</span> an seiner <span class='reading onyomi' data-hiragana='た'>Ta</span>sse <span class='hiragana'>(た)</span> getrunken, weil <span class='reading kunyomi' data-hiragana='ほか'>hock Ka</span>ffee <span class='hiragana'>(ほか)</span> hier immer anders.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 249,
         "reading_dist": [
             {
@@ -20587,11 +20587,8 @@
             "Ceremony"
         ],
         "meanings_de": [
-            "Generation",
-            "Wechsel",
-            "Epoche",
-            "ersetzen",
-            "vertreten"
+            "Ersetzung",
+            "Epoche"
         ],
         "wk_radicals_new": [
             "Leader",
@@ -20609,10 +20606,10 @@
         "kanji": "代",
         "kanji_ord": 20195,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='弋'>Zeremonie</span> <span class='radical_kanji'>(弋)</span>  , <span class='meaning' data-kanji='代'>Generation</span> <span class='meaning_kanji_meaning'>(代)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='代'>Generation</span> <span class='meaning_kanji_reading'>(代)</span> , <span class='reading onyomi' data-hiragana='だい'>Dai</span> <span class='hiragana'>(だい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> plant eine spezielle Hochzeits<span class='radical' data-kanji='弋'>zeremonie</span> <span class='radical_kanji'>(弋)</span>, um seine Ehefrau zu <span class='meaning' data-kanji='代'>ersetzen</span> <span class='meaning_kanji_meaning'>(代)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich brauche eine <span class='meaning' data-kanji='代'>Ersetzung</span> <span class='meaning_kanji_reading'>(代)</span> für die <span class='reading kunyomi' data-hiragana='か'>ka</span>putte <span class='hiragana'>(か)</span> Me<span class='reading onyomi' data-hiragana='だい'>dai</span>lle <span class='hiragana'>(だい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 250,
         "reading_dist": [
             {
@@ -20697,9 +20694,9 @@
         "kanji": "住",
         "kanji_ord": 20303,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='主'>Meister</span> <span class='radical_kanji'>(主)</span>  , <span class='meaning' data-kanji='住'>wohnen</span> <span class='meaning_kanji_meaning'>(住)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Tarzan mag das <span class='meaning' data-kanji='住'>Wohnen</span> <span class='meaning_kanji_reading'>(住)</span> im <span class='reading onyomi' data-hiragana='じゅう'>Dschu</span>ngel <span class='hiragana'>(じゅう)</span>.",
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> lässt seinen <span class='radical' data-kanji='主'>Meister</span> <span class='radical_kanji'>(主)</span> bei sich <span class='meaning' data-kanji='住'>wohnen</span> <span class='meaning_kanji_meaning'>(住)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Tarzan mag das <span class='meaning' data-kanji='住'>Wohnen</span> <span class='meaning_kanji_reading'>(住)</span> im <span class='reading onyomi' data-hiragana='じゅう'>Dschu</span>ngel <span class='hiragana'>(じゅう)</span>, weil er im <span class='reading kunyomi' data-hiragana='す'>Su</span>mpf <span class='hiragana'>(す)</span> baden kann.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 251,
         "reading_dist": [
