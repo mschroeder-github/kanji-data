@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 from tqdm import tqdm
 
@@ -86,3 +87,21 @@ def collect_wadoku():
 
     with open('../wadoku-vocabs.json', 'wt', encoding='utf-8') as file:
         json.dump(wadoku_vocabs, file, indent=4, ensure_ascii=False)
+
+
+
+def wadoku_load():
+    with open('../wadoku-vocabs.json', 'rt', encoding='utf-8') as file:
+        wadoku_vocabs = json.load(file)
+
+        wadoku_vocabs_dict = defaultdict(list)
+        for entry in wadoku_vocabs:
+            for word in entry['words']:
+                wadoku_vocabs_dict[word + entry['reading']].append(entry)
+
+        wadoku_vocabs_word_dict = defaultdict(list)
+        for entry in wadoku_vocabs:
+            for word in entry['words']:
+                wadoku_vocabs_word_dict[word].append(entry)
+
+    return wadoku_vocabs_dict, wadoku_vocabs_word_dict

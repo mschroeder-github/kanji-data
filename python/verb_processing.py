@@ -2,10 +2,12 @@ import json
 
 import genanki
 
+from hiragana import hiragana_to_romaji
 
-def verbs_make_anki():
-    with open('../kanji-kyouiku-verbs-wip.json', 'rt', encoding='utf-8') as file:
-        kyouiku_verbs = json.load(file)
+
+def verbs_make_anki(num_learned_kanjis=50, reading_mode="Umschrift", separator=" "):
+    with open('../jisho_verbs-wip.json', 'rt', encoding='utf-8') as file:
+        jisho_verbs = json.load(file)
 
     with open('card.css', 'rt') as file:
         css = file.read().strip()
@@ -20,11 +22,12 @@ def verbs_make_anki():
     afmt = '''
     {{FrontSide}}
     <br/>
+    <br/>
     {{Merksatz}}
     <br/>
+    <br/>
     <div style="text-align: start;">
-    {{Lesung_Hiragana}} - {{Lesung_Hiragana_Negation}}<br/>
-    {{Lesung_Romaji}} - {{Lesung_Romaji_Negation}}<br/>
+    Plain Positive: {{Lesung_Hiragana}} | Plain Negative: {{Lesung_Hiragana_Negation}}<br/>
     <br/>
     {{Bedeutungen_Deutsch}}<br/>
     <br/>
@@ -32,22 +35,24 @@ def verbs_make_anki():
     <br/>
     <hr/>
     <br/>
+    {{Lesung_Teile}}<br/>
+    <br/>
     {{Kanji_Bedeutungen}}<br/>
     <br/>
     <hr/>
     <br/>
-    Typ: {{Dan}}-Dan, Lesung-Einfachheit: {{Kanji_Lesung_Gelernt}}, Kanji-Level: {{Gelernte_Kanjis_Benötigt}} 
+    Typ: {{Dan}}-dan, Rang: {{Rang}}, Lesung-Einfachheit: {{Kanji_Lesung_Gelernt}}, Kanji-Level: {{Gelernte_Kanjis_Benötigt}} 
     </div>
     '''
 
     deck = genanki.Deck(
         1210461573,
-        'Kyōiku-Kanji Verben'
+        'Unterrichtsschriftzeichen - Verben'
     )
 
     model = genanki.Model(
         1417794174,
-        'Kyōiku-Kanji Verb',
+        'Verb',
         fields=[
             {'name': 'Vokabel'},
             {'name': 'Antwort'},
@@ -61,15 +66,17 @@ def verbs_make_anki():
             {'name': 'Lesung_Romaji'},
             {'name': 'Lesung_Hiragana_Negation'},
             {'name': 'Lesung_Romaji_Negation'},
+            {'name': 'Lesung_Teile'},
             {'name': 'Kanji_Bedeutungen'},
 
             {'name': 'Dan'},
             {'name': 'Kanji_Lesung_Gelernt'},
-            {'name': 'Gelernte_Kanjis_Benötigt'}
+            {'name': 'Gelernte_Kanjis_Benötigt'},
+            {'name': 'Rang'}
         ],
         templates=[
             {
-                'name': 'Kyōiku-Kanji Verb Karte',
+                'name': 'Verb Karte',
                 'qfmt': qfmt,
                 'afmt': afmt
             }
@@ -77,26 +84,42 @@ def verbs_make_anki():
         css=css
     )
 
+    # filter jisho_verbs based on kanji level
+    jisho_verbs = [v for v in jisho_verbs if v['max_kanji_index'] <= num_learned_kanjis]
+    print(f"{len(jisho_verbs)} verbs <= kanji level {num_learned_kanjis}")
+
+    # sort by rank
+    jisho_verbs.sort(key=lambda x: x['freq']['rank'])
+
     i = 0
-    for verb in kyouiku_verbs:
-        if not verb['kyouiku_friendly']:
+    for verb in jisho_verbs:
+        if not verb['kyouiku_friendly'] or not verb['mnemonic_de_done']:
             continue
 
-        # print(verb)
+        guid = genanki.guid_for(verb['word'] + verb['reading'])
 
-        guid = genanki.guid_for(verb['word'] + verb['furigana'])
-
-        hiragana = verb['furigana']
-        romaji = hiragana_to_romaji(verb['furigana'])
-        romaji_neg = hiragana_to_romaji(verb['furigana_neg'])
-
-        meanings_de_txt = verb['meaning_de'].lower()
-        meanings_txt = verb['meaning'].lower()
-
-        answer = f"{verb['meaning_de'].split(',')[0].strip()} {romaji_neg}".lower()
+        romaji = hiragana_to_romaji(verb['reading'])
+        romaji_neg = hiragana_to_romaji(verb['reading_neg'])
 
         l = []
-        for m in verb['kanjis']:
+        for m in verb['meanings_de']:
+            l.append(f"<li>{'; '.join(m)}</li>")
+        meanings_de_txt = '\n'.join(l)
+
+        l = []
+        for m in verb['meanings']:
+            l.append(f"<li>{m[0]} ({m[1]})</li>")
+        meanings_txt = '\n'.join(l)
+
+        l = []
+        for m in verb['word_parts']:
+            l.append(f"{m[0]}={m[1]}")
+        word_parts_txt = ', '.join(l)
+
+        answer = f"{verb['main_meaning_de']} {romaji_neg}".lower()
+
+        l = []
+        for m in verb['kanji_meanings_de']:
             l.append(f"{m[0]}={';'.join(m[1])}")
         kanji_meanings_de_txt = ', '.join(l)
 
@@ -106,220 +129,40 @@ def verbs_make_anki():
             fields=[
                 verb['word'],
                 answer,
-                '<br/>' + verb['mnemonic'] + '<br/>' if verb['mnemonic_done'] else '',
+                verb['mnemonic_de'],
 
                 meanings_de_txt,
                 meanings_txt,
                 verb['word_neg'],
 
-                verb['furigana'],
+                verb['reading'],
                 romaji,
 
-                verb['furigana_neg'],
+                verb['reading_neg'],
                 romaji_neg,
 
+                word_parts_txt,
                 kanji_meanings_de_txt,
 
-                'Go' if verb['mode'] == '1' else 'Ichi',
-                'Ja' if verb['reading_learned'] else 'Nein',
-                str(verb['kyouiku_index'])
+                verb['dan'],
+                str(verb['kanji_reading_score']),
+                str(verb['max_kanji_index']),
+                str(verb['freq']['rank'])
             ]
         )
 
         deck.add_note(note)
         i += 1
 
-        # print(verb)
-
     package = genanki.Package([deck])
-    output_file = f'../anki/Kyouiku-Kanji-Verben.apkg'
+    output_file = f'../anki/Unterrichtsschriftzeichen_Verben-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
-    print(i, 'written')
+    print(f'{i} verbs written to {output_file}')
 
+def verbs_make_anki_lvls():
+    #max = 1050
+    max = 250
+    for lvl in range(50, max, 50):
+        verbs_make_anki(num_learned_kanjis=lvl)
 
-
-
-# def verbs_scanner():
-#     with open('../kanji-kyouiku-common-words.json', 'rt', encoding='utf-8') as file:
-#         common_words = json.load(file)
-#
-#         common_words_dict = defaultdict(list)
-#
-#         # emulate missing frequencies
-#         for word in common_words:
-#             if word['freq'] is None:
-#                 word['freq'] = {
-#                     '2015_rank': 20000,
-#                     '2022_rank': 20000
-#                 }
-#
-#             # and set rank
-#             word['freq']['rank'] = word['freq'].get('2015_rank', 0) + word['freq'].get('2022_rank', 0)
-#
-#             common_words_dict[word['word']].append(word)
-#
-#     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
-#         kanji_kyouiku = json.load(file)
-#
-#         kanji_kyouiku_dict = {}
-#         kanji_kyouiku_list = []
-#
-#         for entry in kanji_kyouiku:
-#             kanji_kyouiku_dict[entry['kanji']] = {
-#                 'meanings_de': entry['meanings_de'],
-#                 'reading_dist': entry.get('reading_dist'),
-#                 'reading_strs': get_reading_strs(entry)
-#             }
-#
-#             kanji_kyouiku_list.append(entry['kanji'])
-#
-#     html = requests.get('https://www.japaneseverbconjugator.com/JVerbList.asp')
-#     soup = BeautifulSoup(html.content, 'html.parser')
-#
-#     table = soup.find_all('table')[1]
-#
-#     kyouiku_verbs = []
-#
-#     error_count = 0
-#
-#     i = 1
-#     easy_count = 0
-#     for tr in table.find_all('tr'):
-#         tds = tr.find_all('td')
-#
-#         if len(tds) < 4:
-#             continue
-#
-#         romaji = tds[0].get_text().strip()
-#
-#         furigana = tds[1].find('span', class_="furigana").get_text().strip()
-#         # fix for 生える
-#         furigana = furigana.replace(',', '')
-#         kanji_text_elem = tds[1].find('div', class_="JScript")
-#
-#         if kanji_text_elem is None:
-#             error_count += 1
-#             continue
-#
-#         kanji_text = kanji_text_elem.get_text().strip()
-#
-#         if len(kanji_text) == 0 or len(furigana) == 0:
-#             error_count += 1
-#             continue
-#
-#         meaning = tds[2].get_text().strip()
-#
-#         #ms = []
-#         #for m in meaning.split(','):
-#         #    m = m.strip()
-#         #    m_de = translate_and_cache(m)
-#         #    ms.append(m_de)
-#         # meaning_de = ', '.join(ms)
-#
-#         meaning_de = translate_and_cache(meaning)
-#         mode = tds[3].get_text().strip()
-#
-#         # fix
-#         if kanji_text == '加わる':
-#             # Godan, see https://jisho.org/search/%E5%8A%A0%E3%82%8F%E3%82%8B
-#             mode = '1'
-#
-#         # need negative plain form for correct conjugation later
-#         if mode == '1':
-#             # Godan
-#             kanji_text_neg = u_to_a(kanji_text) + 'ない'
-#             furigana_neg = u_to_a(furigana) + 'ない'
-#
-#         elif mode == '2':
-#             # Ichidan
-#             kanji_text_neg = kanji_text[:-1] + 'ない'
-#             furigana_neg = furigana[:-1] + 'ない'
-#
-#         else:
-#             raise Exception("mode not found: " + mode + ", " + kanji_text)
-#
-#         #better kanji detection
-#         extracted_kanjis = extract_kanji(kanji_text)
-#         kyouiku_kanjis = []
-#         reading_learned = False
-#         for char in extracted_kanjis:
-#             if char in kanji_kyouiku_dict:
-#                 readings = kanji_kyouiku_dict[char]['reading_strs']
-#                 kyouiku_kanjis.append((char, kanji_kyouiku_dict[char]['meanings_de'], readings))
-#                 for hira, roma in readings:
-#                     reading_learned |= furigana.startswith(hira)
-#
-#         matching_words = common_words_dict.get(kanji_text, [])
-#
-#         kyouiku_friendly = len(extracted_kanjis) > 0 and len(extracted_kanjis) == len(kyouiku_kanjis)
-#
-#         kyouiku_index = -1
-#         if kyouiku_friendly:
-#             kyouiku_index = kanji_kyouiku_list.index(kyouiku_kanjis[0][0])
-#
-#         # 422 having all info
-#         # 249 with a match
-#         #  12 with two   or more matches
-#         #   0 with three or more matches
-#         #  13 have two kanjis
-#         #  78 reading is learned (and kyouiku_friendly), can be higher later
-#         # 280 kyouiku_friendly (66%, 2/3)
-#
-#
-#         #if kyouiku_friendly and reading_learned:
-#         # if len(matching_words) > 0:
-#         if kyouiku_friendly:
-#             easy_count += 1
-#
-#         kanji_part, kanji_reading = remove_until_diff(kanji_text, furigana)
-#         kanji_reading_romaji = hiragana_to_romaji(kanji_reading)
-#
-#         main_meaning_de = meaning_de.split(',')[0].strip()
-#         # Go-Dan = female
-#         # Ichi-Dan = male
-#         mode_decides_gender = 'Sie' if mode == '1' else 'Er'
-#
-#         mnemonic = f"{mode_decides_gender}  {main_meaning_de}  <span class='reading kunyomi' data-hiragana='{kanji_reading}'>{kanji_reading_romaji}</span> <span class='hiragana'>({kanji_reading})</span>"
-#
-#         kyouiku_verb = OrderedDict([
-#             ('romaji', romaji),
-#             ('furigana', furigana),
-#             ('furigana_neg', furigana_neg),
-#             ('kanji_part', kanji_part),
-#             ('kanji_reading', kanji_reading),
-#             ('kanji_reading_romaji', kanji_reading_romaji),
-#             ('word', kanji_text),
-#             ('word_neg', kanji_text_neg),
-#             ('mnemonic', mnemonic),
-#             ('mnemonic_done', False),
-#             ('kanjis', kyouiku_kanjis),
-#             ('kyouiku_index', kyouiku_index),
-#             ('meaning', meaning),
-#             ('meaning_de', meaning_de),
-#             ('main_meaning_de', main_meaning_de),
-#             ('mode', mode),
-#             ('kyouiku_friendly', kyouiku_friendly),
-#             ('reading_learned', reading_learned),
-#             ('common_words', matching_words)
-#         ])
-#         kyouiku_verbs.append(kyouiku_verb)
-#
-#         #print(i, romaji, furigana, kanji_text, kanjis, meaning, meaning_de, mode, kyouiku_friendly, reading_learned, len(matching_words), kyouiku_index, sep=' | ')
-#         #for word in matching_words:
-#         #    print('\t', word)
-#         #i += 1
-#
-#     #print(easy_count)
-#
-#     # 108
-#     # print(error_count)
-#
-#     kyouiku_verbs.sort(key=lambda x: (len(x['kanjis']), x['kyouiku_index']))
-#
-#     #print(len(kyouiku_verbs))
-#
-#     kyouiku_verbs_filter = [verb for verb in kyouiku_verbs if verb['kyouiku_friendly']]
-#
-#     with open('../kanji-kyouiku-verbs.json', 'wt', encoding='utf-8') as file:
-#         json.dump(kyouiku_verbs_filter, file, indent=4, ensure_ascii=False)

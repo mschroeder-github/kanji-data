@@ -1,3 +1,5 @@
+import csv
+import gzip
 from collections import defaultdict
 
 import requests
@@ -81,3 +83,19 @@ def frequency_crawler():
     print('example:', '人', word_dict['人'])
 
     return word_dict
+
+
+def subtitle_freq_load():
+    freq_dict = {}
+    # subtitle based frequency
+    with gzip.open('../word_freq_report.txt.gz', 'rt', newline='', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        for no, row in enumerate(reader, start=1):
+            row.insert(0, no)
+
+            if row[2] in freq_dict:
+                raise Exception('duplicate')
+
+            freq_dict[row[2]] = row
+
+    return freq_dict

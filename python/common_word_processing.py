@@ -13,6 +13,7 @@ from frequency import frequency_crawler
 from helper import get_reading_strs, remove_brackets
 from hiragana import hiragana_to_romaji
 from jisho_processing import jisho_collect_common_words
+from wadoku_processing import wadoku_load
 
 
 def common_words_vocab_scanner():
@@ -124,19 +125,7 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         for entry in kyouiku_verbs:
             kyouiku_verbs_dict[entry['word']] = entry
 
-    with open('../wadoku-vocabs.json', 'rt', encoding='utf-8') as file:
-        wadoku_vocabs = json.load(file)
-
-        wadoku_vocabs_dict = defaultdict(list)
-        for entry in wadoku_vocabs:
-            for word in entry['words']:
-                wadoku_vocabs_dict[word + entry['reading']].append(entry)
-
-        wadoku_vocabs_word_dict = defaultdict(list)
-        for entry in wadoku_vocabs:
-            for word in entry['words']:
-                wadoku_vocabs_word_dict[word].append(entry)
-
+    wadoku_vocabs_dict, wadoku_vocabs_word_dict = wadoku_load()
 
     # emulate missing frequencies
     for word in common_words:

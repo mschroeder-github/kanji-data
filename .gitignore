@@ -23,6 +23,7 @@ python/gen.py
 python/translator.py
 python/main.py
 
+jisho_cache_verb
 
 .~*
 
