@@ -109,19 +109,18 @@
                         <td>{{i+1}}<br/>
                             <small>{{entry.kyouiku_index}}</small>
                         </td>
-                        <td>
+                        <td style="white-space: nowrap;">
                             {{entry.word}}<br/>
-                            <small>{{entry.mode == "1" ? "Go-Dan" : "Ichi-Dan"}}</small>
+                            <small>{{entry.dan}}-dan</small>
                         </td>
-                        <td>
-                            {{entry.meaning_de}}<br/>
+                        <td style="font-size: 10px;">
+                            <ul>
+                                <li v-for="m in entry.meanings_de">{{m.join('; ')}}</li>
+                            </ul>
                             <span class="meanings_en">{{entry.meaning}}</span>
                         </td>
-                        <!--td>
-                            {{entry.kanjis}}
-                        </td-->
-                        <td :class="{ 'missing': !entry.mnemonic_done }">
-                            <div v-html="entry.mnemonic"></div>
+                        <td :class="{ 'missing': !entry.mnemonic_de_done }" style="width: 50%">
+                            <div v-html="entry.mnemonic_de"></div>
                         </td>
                     </tr>
                 </tbody>

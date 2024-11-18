@@ -20762,10 +20762,11 @@
         "kanji": "史",
         "kanji_ord": 21490,
         "is_radical": true,
+        "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='史'>Geschichte</span> <span class='radical_kanji'>(史)</span>  , <span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_meaning'>(史)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_reading'>(史)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "In <span class='meaning' data-kanji='史'>Geschichte</span> <span class='meaning_kanji_reading'>(史)</span> steckt Ge<span class='reading onyomi' data-hiragana='し'>schi</span>chte <span class='hiragana'>(し)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 662,
         "reading_dist": [
             {
@@ -20817,9 +20818,9 @@
             "History"
         ],
         "meanings_de": [
+            "Benutzen",
             "gebrauchen",
-            "dienen",
-            "benutzen"
+            "dienen"
         ],
         "wk_radicals_new": [
             "Leader",
@@ -20840,10 +20841,10 @@
         "kanji": "使",
         "kanji_ord": 20351,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='史'>Geschichte</span> <span class='radical_kanji'>(史)</span>  , <span class='meaning' data-kanji='使'>gebrauchen</span> <span class='meaning_kanji_meaning'>(使)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='使'>gebrauchen</span> <span class='meaning_kanji_reading'>(使)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> studiert die <span class='radical' data-kanji='一'>Boden</span>verhältnisse <span class='radical_kanji'>(一)</span> genau, weil ihm die <span class='radical' data-kanji='史'>Geschichte</span> <span class='radical_kanji'>(史)</span> gezeigt hat, wie man seine Umgebung zum Vorteil <span class='meaning' data-kanji='使'>benutzen</span> <span class='meaning_kanji_meaning'>(使)</span> kann.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Um das Schießgewehr zu <span class='meaning' data-kanji='使'>Benutzen</span> <span class='meaning_kanji_reading'>(使)</span>, lohnt es sich <span class='reading onyomi' data-hiragana='し'>Schie</span>ßpulver <span class='hiragana'>(し)</span> ein<span class='reading kunyomi' data-hiragana='つか'>zuka</span>ufen <span class='hiragana'>(つか)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 252,
         "reading_dist": [
             {
@@ -20898,8 +20899,9 @@
             "Thread"
         ],
         "meanings_de": [
+            "Verbundene Person",
             "Aufgabe",
-            "zuständig",
+            "Zuständigkeit",
             "Amt",
             "Pflicht"
         ],
@@ -20922,10 +20924,10 @@
         "kanji": "係",
         "kanji_ord": 20418,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  , <span class='meaning' data-kanji='係'>Aufgabe</span> <span class='meaning_kanji_meaning'>(係)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='係'>Aufgabe</span> <span class='meaning_kanji_reading'>(係)</span> , <span class='reading onyomi' data-hiragana='けい'>Kei</span> <span class='hiragana'>(けい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> bindet im <span class='radical' data-kanji='一'>Boden</span>graben <span class='radical_kanji'>(一)</span> einen blauen <span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span> um eine <span class='meaning' data-kanji='係'>verbundene Person</span> <span class='meaning_kanji_meaning'>(係)</span>, damit die Zuständigkeit geklärt ist.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die mit uns <span class='meaning' data-kanji='係'>Verbundene Person</span> <span class='meaning_kanji_reading'>(係)</span> ist zuständig in ihren Prakti<span class='reading kunyomi' data-hiragana='かかり'>ka, Kari</span>es <span class='hiragana'>(かかり)</span> zu entfernen in einer Lüc<span class='reading onyomi' data-hiragana='けい'>ke i</span>m  <span class='hiragana'>(けい)</span> Zahn.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 253,
         "reading_dist": [
             {
@@ -20983,19 +20985,21 @@
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Anführer",
-            "Clown"
+            "Stand",
+            "Mund"
         ],
         "wk_radicals_kanji": [
             "ｲ",
-            "咅"
+            "立",
+            "口"
         ],
         "kanji": "倍",
         "kanji_ord": 20493,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='咅'>Clown</span> <span class='radical_kanji'>(咅)</span>  , <span class='meaning' data-kanji='倍'>doppelt</span> <span class='meaning_kanji_meaning'>(倍)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='倍'>doppelt</span> <span class='meaning_kanji_reading'>(倍)</span> , <span class='reading onyomi' data-hiragana='ばい'>Bai</span> <span class='hiragana'>(ばい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> hält aus dem <span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span> eine Rede, aber sein <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> ist so aufgeregt, dass er vieles <span class='meaning' data-kanji='倍'>doppelt</span> <span class='meaning_kanji_meaning'>(倍)</span> (mehrfach) wiederholt.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Sie lernt die <span class='meaning' data-kanji='倍'>Doppel</span>drehung <span class='meaning_kanji_reading'>(倍)</span>, um zu tanzen wie ihr Sam<span class='reading onyomi' data-hiragana='ばい'>bai</span>dol <span class='hiragana'>(ばい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 254,
         "reading_dist": [
             {
@@ -21064,10 +21068,10 @@
         "kanji": "全",
         "kanji_ord": 20840,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='𠆢'>Hut</span> <span class='radical_kanji'>(𠆢)</span>  <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  , <span class='meaning' data-kanji='全'>alles</span> <span class='meaning_kanji_meaning'>(全)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='全'>alles</span> <span class='meaning_kanji_reading'>(全)</span> , <span class='reading onyomi' data-hiragana='ぜん'>Zen</span> <span class='hiragana'>(ぜん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der goldene <span class='radical' data-kanji='𠆢'>Hut</span> <span class='radical_kanji'>(𠆢)</span> ist für den <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span> sein ein und <span class='meaning' data-kanji='全'>alles</span> <span class='meaning_kanji_meaning'>(全)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Man kann <span class='meaning' data-kanji='全'>alles</span> <span class='meaning_kanji_reading'>(全)</span> vom Bericht lesen bei der Version ohne <span class='reading onyomi' data-hiragana='ぜん'>Zen</span>sur <span class='hiragana'>(ぜん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 255,
         "reading_dist": [
             {
@@ -34173,7 +34177,7 @@
         "kanji": "部",
         "kanji_ord": 37096,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='咅'>Clown</span> <span class='radical_kanji'>(咅)</span>  <span class='radical' data-kanji='阝'>Gebäude</span> <span class='radical_kanji'>(阝)</span>  , <span class='meaning' data-kanji='部'>Bereich</span> <span class='meaning_kanji_meaning'>(部)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='阝'>Gebäude</span> <span class='radical_kanji'>(阝)</span>  , <span class='meaning' data-kanji='部'>Bereich</span> <span class='meaning_kanji_meaning'>(部)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='部'>Bereich</span> <span class='meaning_kanji_reading'>(部)</span> , <span class='reading onyomi' data-hiragana='ぶ'>Bu</span> <span class='hiragana'>(ぶ)</span>",
         "mnemonic_reading_de_done": false,
