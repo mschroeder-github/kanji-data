@@ -1,13 +1,15 @@
 import os
 import re
 import shutil
+import subprocess
 from string import Template
 from datetime import datetime
 
-def deploy(mdbook_src_path):
+def deploy_anki_to_mdbook(mdbook_src_path):
     trg_dir = os.path.join(mdbook_src_path, 'anki')
 
     shutil.copytree('../anki', trg_dir, dirs_exist_ok=True)
+    print('anki directory copied')
 
     with open('lernmaterialien.md', 'rt') as file:
         content = file.read()
@@ -36,3 +38,13 @@ def deploy(mdbook_src_path):
 
     with open(os.path.join(mdbook_src_path, 'lernmaterialien.md'), 'wt') as file:
         file.write(content)
+
+    print('lernmaterialien.md written')
+
+def deploy_mdbook_to_server():
+    result = subprocess.run(['sh', '../scripts/upload_mdbook_to_strato.sh'], capture_output=True, text=True)
+    print(result.stdout)
+
+def deploy_all(mdbook_src_path):
+    deploy_anki_to_mdbook(mdbook_src_path)
+    deploy_mdbook_to_server()

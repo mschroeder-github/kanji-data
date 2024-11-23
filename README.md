@@ -16,13 +16,15 @@ The preprocessing code is written in Python. The following changes are made.
 * The order given by the table in [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji) is used to sort entries in `kanji-kyouiku-de-radicals-array-mnemonics-wip.json`. Every entry has an `order_wiki` key. However, to introduce radicals before they are used in a kanji, some kanjis are sorted accordingly. For example, 弓 occurs before 弱.
 * With a crawl from [jisho](https://jisho.org), furigana analysis on common words is performed, to inspect the reading distribution. For example, 村 is read in 3 common words as そん (60%) and in 2 common words as むら (40%).
 * Completed entries are provieded as Anki cards (see section below).
-* To learn real Japanese words (vocabulary) common words are crawled from [jisho](https://jisho.org). Only words which contain learned kanjis are selected in anki decks. They are collected in pack of 50: for every 50 learned kanjis more words are accessable. The words are sorted by frequency (using a crawl from [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese)) to learn the most frequent words first. Sometimes the words use readings of kanjis that were not learned which is indicated with a value.
-
+* To learn real Japanese words (vocabulary) common words are crawled from [jisho](https://jisho.org). They are translated to German with [Wadoku](https://www.wadoku.de/). Only words which contain learned kanjis are selected in anki decks. They are collected in pack of 50: for every 50 learned kanjis more words are accessable. The words are sorted by frequency (using [japanese subtitles word kanji frequency lists](https://github.com/chriskempson/japanese-subtitles-word-kanji-frequency-lists)) to learn the most frequent words first. Sometimes the words use readings of kanjis that were not learned which is indicated with a reading score.
+* In `mdbook` are markdown files and resources which compile a German book (WIP) about learning Japanese (created using [mdBook](https://rust-lang.github.io/mdBook/)). It is published at <http://markus-projects.net/www/strukturiert_japanisch_lernen/>.
 
 **Progress**
 * 2024-08-12 Milestone: In `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` for the first grade [Kyōiku-Kanji](https://de.wikipedia.org/wiki/Ky%C5%8Diku-Kanji#Erstes_Schuljahr_(80_Kanji)) (80) all mnmemonics and in `img` all visual clues are completed.
 * 2024-10-05 Milestone: **200 kanjis done** with mnmemonics and visual clues.
 * Some commit messages show the current progress.
+
+Built Anki decks can be downloaded on the [Lernmaterialien](http://markus-projects.net/www/strukturiert_japanisch_lernen/lernmaterialien.html) (learning material) page.
 
 
 ### Lesung Merksatz Leitfaden
@@ -48,12 +50,12 @@ Um gute Merksätze für Lesungen zu schreiben, ist hier ein Leitfaden mit Empfeh
 
 > [Anki](https://apps.ankiweb.net/) is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.
 
-Using data from `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` Anki decks are generated (see `make_anki_v2` function). They are stored in the [anki](/anki) folder as `*.apkg` files.
-Instead of creating sub-decks for each grade, one deck named "Kyōiku-Kanji Deutsch" is created with all finished kanjis in them.
+Using data from `kanji-kyouiku-de-radicals-array-mnemonics-wip.json` Anki decks are generated. They are published at [Lernmaterialien](http://markus-projects.net/www/strukturiert_japanisch_lernen/lernmaterialien.html) as `*.apkg` files.
+Instead of creating sub-decks for each grade, one deck named "Unterrichtsschriftzeichen" is created with all finished kanjis in them.
 
 Two card types are available:
-* Bedeutung/Lesung Merksatz Karte - learn the meaning and reading of kanjis by mnemonic sentences.
-* Bedeutung/Lesung Merkbild Karte - learn the meaning and reading of kanjis by visual clues (meaning) and a mnemonic sentence (reading).
+* Merksatz Karte - learn the meaning and reading of kanjis by mnemonic sentences.
+* Merkbild Karte - learn the meaning and reading of kanjis by visual clues (meaning) and a mnemonic sentence (reading).
 
 This way, meaning and reading(s) are learned together with one card.
 

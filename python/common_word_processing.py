@@ -176,7 +176,12 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
     '''
 
     afmt = '''
-    {{FrontSide}}<br/>
+    <span class="kanji">{{Vokabel}}</span>
+    <br/>
+    <span class="lesung_hiragana">{{Lesung_Hiragana}}</span>
+    <br/>
+    <br/>
+    {{type:Antwort}}
     <div style="text-align: start;">
     <ul>{{Bedeutungen_Deutsch}}</ul>
     <ul>{{Bedeutungen_Englisch}}</ul>

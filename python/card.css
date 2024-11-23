@@ -16,7 +16,9 @@
 }
 .kanji {
     font-size: 75px;
-    padding: 10px;
+}
+.lesung_hiragana {
+    font-size: 30px;
 }
 .additional {
     font-size: small;
