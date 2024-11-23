@@ -18,7 +18,7 @@ wadoku-vocabs.json
 2024-09-23-jp-scratchpad.txt
 kanji-kyouiku-verbs-aussortiert.json
 conv.py
-
+mdbook/src/anki/
 python/gen.py
 python/translator.py
 python/main.py

@@ -23,5 +23,6 @@
     - [Einfache Sätze]()
     - [Grammatik]()
 
+[Lernmaterialien](./lernmaterialien.md)
 [Referenzen](./referenzen.md)
 [Autor](./autor.md)

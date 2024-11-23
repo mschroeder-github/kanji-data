@@ -502,8 +502,8 @@ Die chinesischen Zeichen müssen mit Hilfe der Merksätze durch verteilte Wieder
 Mit digitalen Karteikarten und einer Lernkartei-Applikation lassen sich ideal Bedeutung und Lesungen der Zeichen erlernen.
 Für [Anki](https://apps.ankiweb.net/) stellt dieser Ratgeber ein Karteistapel zur Verfügung, der für die Unterrichtsschriftzeichen Merkbilder und Merksätze zum Lernen bereitstellt.
 Da die Abfrage der Lesungen über die Umschrift (Transkription) oder über ひらがな erfolgen kann, existieren zwei Versionen zum Download:
-* [Unterrichtsschriftzeichen_Umschrift_Abfrage.apkg](Unterrichtsschriftzeichen_Umschrift_Abfrage.apkg)
-* [Unterrichtsschriftzeichen_Hiragana_Abfrage.apkg](Unterrichtsschriftzeichen_Hiragana_Abfrage.apkg)
+* [Unterrichtsschriftzeichen_Umschrift_Abfrage.apkg](anki/Unterrichtsschriftzeichen_Umschrift_Abfrage.apkg)
+* [Unterrichtsschriftzeichen_Hiragana_Abfrage.apkg](anki/Unterrichtsschriftzeichen_Hiragana_Abfrage.apkg)
 
 Wie der Lernende die Karteikarten nutzen kann, wird anhand von <span class="kw">親<span class="km">|Eltern</span></span> in folgendem Anki-Screenshot gezeigt (Umschrift-Version).
 

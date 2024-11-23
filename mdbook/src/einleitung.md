@@ -17,3 +17,5 @@ Durch seine grundsätzlich andere Herangehensweise möchte sich der Inhalt des R
 Normalerweise werden solche Lehrbücher von Muttersprachler der zu lernenden Sprache verfasst oder von Personen mit  	exzellenten Sprachkenntnissen.
 Im Gegensatz dazu möchte der Verfasser, selbst deutscher Muttersprachler, seine Lernerfahrungen mit der japanischen Sprache in diesem Ratgeber festhalten und mit interessierten Lesern teilen.
 Erklärungen sind deshalb immer aus der deutschen Perspektive auf die japanische Sprache gegeben und nicht umgekehrt.
+
+Aufgrund der besseren Lesbarkeit wird im Text das generische Maskulinum verwendet. Gemeint sind jedoch immer alle Geschlechter.
