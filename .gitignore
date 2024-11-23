@@ -22,7 +22,7 @@ mdbook/src/anki/
 python/gen.py
 python/translator.py
 python/main.py
-
+/anki
 jisho_cache_verb
 
 .~*

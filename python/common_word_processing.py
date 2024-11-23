@@ -103,6 +103,7 @@ def common_words_vocab_scanner():
         json.dump(vocab_list, file, indent=4, ensure_ascii=False)
 
 def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", separator=" "):
+    os.makedirs('../anki', exist_ok=True)
 
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)

@@ -1,4 +1,5 @@
 import json
+import os
 
 import genanki
 
@@ -6,6 +7,8 @@ from hiragana import hiragana_to_romaji
 
 
 def verbs_make_anki(num_learned_kanjis=50, reading_mode="Umschrift", separator=" "):
+    os.makedirs('../anki', exist_ok=True)
+
     with open('../jisho_verbs-wip.json', 'rt', encoding='utf-8') as file:
         jisho_verbs = json.load(file)
 

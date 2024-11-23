@@ -1,5 +1,6 @@
 import glob
 import json
+import os
 
 import genanki
 
@@ -7,6 +8,8 @@ from helper import is_done, get_reading_strs
 
 
 def make_anki_v2(romaji_reading=False, separator=" "):
+    os.makedirs('../anki', exist_ok=True)
+
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
 
