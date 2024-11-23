@@ -118,13 +118,6 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         for entry in common_words:
             common_words_dict[entry['word']] = entry
 
-    with open('../kanji-kyouiku-verbs-wip.json', 'rt', encoding='utf-8') as file:
-        kyouiku_verbs = json.load(file)
-
-        kyouiku_verbs_dict = {}
-        for entry in kyouiku_verbs:
-            kyouiku_verbs_dict[entry['word']] = entry
-
     wadoku_vocabs_dict, wadoku_vocabs_word_dict = wadoku_load()
 
     # emulate missing frequencies
@@ -208,17 +201,17 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         1518950602,
         'Vokabel',
         fields=[
-            {'name': 'Vokabel'},
-            {'name': 'Antwort'},
-            {'name': 'Bedeutungen_Deutsch'},
-            {'name': 'Bedeutungen_Englisch'},
-            {'name': 'Lesung_Hiragana'},
-            {'name': 'Lesung_Romaji'},
-            {'name': 'Lesung_Teile'},
-            {'name': 'Kanji_Bedeutungen'},
-            {'name': 'Kanji_Lesung_Gelernt'},
-            {'name': 'Rang'},
-            {'name': 'Gelernte_Kanjis_Benötigt'}
+            {'name': 'Vokabel'}, # 0
+            {'name': 'Antwort'}, # 1
+            {'name': 'Bedeutungen_Deutsch'}, # 2
+            {'name': 'Bedeutungen_Englisch'}, # 3
+            {'name': 'Lesung_Hiragana'}, # 4
+            {'name': 'Lesung_Romaji'}, # 5
+            {'name': 'Lesung_Teile'}, # 6
+            {'name': 'Kanji_Bedeutungen'}, # 7
+            {'name': 'Kanji_Lesung_Gelernt'}, # 8
+            {'name': 'Rang'}, # 9
+            {'name': 'Gelernte_Kanjis_Benötigt'} # 10
         ],
         templates=[
             {
@@ -227,7 +220,8 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
                 'afmt': afmt
             }
         ],
-        css=css
+        css=css,
+        sort_field_index=9
     )
 
     equal_word_set = set()
@@ -248,9 +242,9 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         if "'numeric'" in str(word['meanings']).lower():
             continue
 
-        if word['word'] in kyouiku_verbs_dict:
-            filtered_verbs.append(word)
-            continue
+        #if word['word'] in kyouiku_verbs_dict:
+        #    filtered_verbs.append(word)
+        #    continue
 
         # verb check
         skip_verb = False
@@ -379,17 +373,33 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
         #)
 
     package = genanki.Package([deck])
-    output_file = f'../anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
+    output_file = f'../anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_{num_learned_kanjis:04}-{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
     print(count, 'written,', 'num_learned_kanjis:', num_learned_kanjis, 'filtered_verbs:', len(filtered_verbs), 'wadoku_not_found_count:', wadoku_not_found_count)
 
+    return common_words
 
-def common_words_make_anki_lvls():
-    #max = 1050
-    max = 250
-    #max = 51
-    for lvl in range(50, max, 50):
-        common_words_make_anki(num_learned_kanjis=lvl)
+def common_words_make_anki_lvls(max=50, debug_new_words=False):
+    last_common_words = []
+    for lvl in range(50, max+1, 50):
+        common_words = common_words_make_anki(num_learned_kanjis=lvl)
+
+        if debug_new_words:
+            new_words = set([w['word'] for w in common_words]) - set([w['word'] for w in last_common_words])
+            print(len(new_words), 'new words')
+
+            d = dict((w['word'], w) for w in common_words)
+
+            ranked_words = [(w, d[w]['freq']['rank']) for w in new_words]
+            ranked_words.sort(key=lambda x: x[1])
+
+            for rw in ranked_words:
+                print('\t' + str(rw))
+            print()
+            print('==========================')
+            print()
+
+            last_common_words = common_words
 
 

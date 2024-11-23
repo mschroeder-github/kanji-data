@@ -155,14 +155,12 @@ def verbs_make_anki(num_learned_kanjis=50, reading_mode="Umschrift", separator="
         i += 1
 
     package = genanki.Package([deck])
-    output_file = f'../anki/Unterrichtsschriftzeichen_Verben-Level_{num_learned_kanjis}-{reading_mode}_Abfrage.apkg'
+    output_file = f'../anki/Unterrichtsschriftzeichen_Verben-Level_{num_learned_kanjis:04}-{reading_mode}_Abfrage.apkg'
     package.write_to_file(output_file)
 
     print(f'{i} verbs written to {output_file}')
 
-def verbs_make_anki_lvls():
-    #max = 1050
-    max = 250
-    for lvl in range(50, max, 50):
+def verbs_make_anki_lvls(max=50):
+    for lvl in range(50, max+1, 50):
         verbs_make_anki(num_learned_kanjis=lvl)
 
