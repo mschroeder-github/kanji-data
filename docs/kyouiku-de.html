@@ -12,6 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="kyouiku-de.css" rel="stylesheet">
 
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
     <title>Unterrichtsschriftzeichen</title>
 </head>
 <body>
@@ -102,16 +104,34 @@
                         <th>Nr.</th>
                         <th>Verb</th>
                         <th>Bedeutung</th>
+                        <th>Merksatz</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr v-for="entry, i in verbs">
-                        <td>{{i+1}}<br/>
-                            <small>{{entry.kyouiku_index}}</small>
+                        <td>
+                            {{i+1}}<br/>
+                            <small>Rank: {{entry.freq.rank}}</small><br/>
+                            <small>Lvl.: {{entry.max_kanji_index}}</small><br/>
+                            <small>Lesung: {{entry.kanji_reading_score}}</small>
                         </td>
                         <td style="white-space: nowrap;">
                             {{entry.word}}<br/>
                             <small>{{entry.dan}}-dan</small>
+                            <br/>
+
+                            <span v-if="entry.ambiguity">
+                                {{entry.ambiguity.length}} <i class="icon-warning-sign" style="cursor: pointer;" @click="entry.show_amb = !!!entry.show_amb"></i>
+                                <ul v-if="entry.show_amb">
+                                    <li v-for="amb in entry.ambiguity">
+                                        <ruby>
+                                            <template v-for="word in amb">
+                                                {{word[0]}} <rt>{{word[1]}}</rt>
+                                            </template>
+                                        </ruby>
+                                    </li>
+                                </ul>
+                            </span>
                         </td>
                         <td style="font-size: 10px;">
                             <ul>

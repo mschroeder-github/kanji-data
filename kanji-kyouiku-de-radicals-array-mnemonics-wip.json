@@ -11037,8 +11037,8 @@
             "Sword"
         ],
         "meanings_de": [
+            "Teil",
             "Minute",
-            "teilen",
             "verstehen"
         ],
         "wk_radicals_new": [
@@ -11057,9 +11057,9 @@
         "kanji": "分",
         "kanji_ord": 20998,
         "is_radical": false,
-        "mnemonic_meaning_de": "Die <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span> vom Fisch mit dem <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span> zu trennen, schaffe ich unter einer <span class='meaning' data-kanji='分'>Minute</span> <span class='meaning_kanji_meaning'>(分)</span>.",
+        "mnemonic_meaning_de": "Die <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span> vom Fisch mit dem <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span> zu <span class='meaning' data-kanji='分'>teilen</span> <span class='meaning_kanji_meaning'>(分)</span>, schaffe ich unter einer <span class='meaning' data-kanji='分'>Minute</span> <span class='meaning_kanji_meaning'>(分)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "Es braucht nur eine <span class='meaning' data-kanji='分'>Minute</span> <span class='meaning_kanji_reading'>(分)</span> zu <span class='reading kunyomi' data-hiragana='わ'>wa</span>rten <span class='hiragana'>(わ)</span>, um Wasser zu kochen mit dem <span class='reading onyomi' data-hiragana='ぶん'>Bun</span>senbrenner <span class='hiragana'>(ぶん)</span>.",
+        "mnemonic_reading_de": "Es braucht nur ein <span class='meaning' data-kanji='分'>Teil</span> <span class='meaning_kanji_reading'>(分)</span> einer <span class='meaning' data-kanji='分'>Minute</span> <span class='meaning_kanji_reading'>(分)</span> zu <span class='reading kunyomi' data-hiragana='わ'>wa</span>rten <span class='hiragana'>(わ)</span>, um Wasser zu kochen mit dem <span class='reading onyomi' data-hiragana='ぶん'>Bun</span>senbrenner <span class='hiragana'>(ぶん)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 124,
         "reading_dist": [
@@ -23092,10 +23092,10 @@
         "kanji": "問",
         "kanji_ord": 21839,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  , <span class='meaning' data-kanji='問'>Problem</span> <span class='meaning_kanji_meaning'>(問)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='問'>Problem</span> <span class='meaning_kanji_reading'>(問)</span> , <span class='reading onyomi' data-hiragana='もん'>Mon</span> <span class='hiragana'>(もん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie ein offenes <span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span> spricht sein <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> nur <span class='meaning' data-kanji='問'>Problem</span>e <span class='meaning_kanji_meaning'>(問)</span> an.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die NASA stellt Fragen zu dem <span class='meaning' data-kanji='問'>Problem</span> <span class='meaning_kanji_reading'>(問)</span>, wie man auf dem <span class='reading onyomi' data-hiragana='もん'>Mon</span>d <span class='hiragana'>(もん)</span> mit einem Au<span class='reading kunyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span> fahren kann.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 279,
         "reading_dist": [
             {
@@ -23149,7 +23149,7 @@
             "Anti"
         ],
         "meanings_de": [
-            "Abhang",
+            "Hang",
             "Hügel"
         ],
         "wk_radicals_new": [
@@ -23168,10 +23168,10 @@
         "kanji": "坂",
         "kanji_ord": 22338,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='土'>Erde</span> <span class='radical_kanji'>(土)</span>  <span class='radical' data-kanji='反'>Anti</span> <span class='radical_kanji'>(反)</span>  , <span class='meaning' data-kanji='坂'>Abhang</span> <span class='meaning_kanji_meaning'>(坂)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='坂'>Abhang</span> <span class='meaning_kanji_reading'>(坂)</span> , <span class='reading kunyomi' data-hiragana='さか'>Saka</span> <span class='hiragana'>(さか)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Auf der <span class='radical' data-kanji='土'>Erde</span> <span class='radical_kanji'>(土)</span> besser <span class='radical' data-kanji='反'>Anti</span>-Rutsch <span class='radical_kanji'>(反)</span> Schuhe tragen, um nicht den <span class='meaning' data-kanji='坂'>Hang</span> <span class='meaning_kanji_meaning'>(坂)</span> herunterzufallen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mir ist aus Versehen am <span class='meaning' data-kanji='坂'>Hang</span> <span class='meaning_kanji_reading'>(坂)</span> der <span class='reading kunyomi' data-hiragana='さか'>Sackka</span>rren <span class='hiragana'>(さか)</span> heruntergerollt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 280,
         "reading_dist": [
             {
@@ -23230,10 +23230,10 @@
         "kanji": "央",
         "kanji_ord": 22830,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='大'>Groß</span> <span class='radical_kanji'>(大)</span>  <span class='radical' data-kanji='冂'>Kopf</span> <span class='radical_kanji'>(冂)</span>  , <span class='meaning' data-kanji='央'>Zentrum</span> <span class='meaning_kanji_meaning'>(央)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='央'>Zentrum</span> <span class='meaning_kanji_reading'>(央)</span> , <span class='reading onyomi' data-hiragana='おう'>Ou</span> <span class='hiragana'>(おう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit <span class='radical' data-kanji='大'>Groß</span>er <span class='radical_kanji'>(大)</span> Statur kann er mit seinem <span class='radical' data-kanji='冂'>Kopf</span> <span class='radical_kanji'>(冂)</span> das ganze <span class='meaning' data-kanji='央'>Zentrum</span> <span class='meaning_kanji_meaning'>(央)</span> überblicken.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Im <span class='meaning' data-kanji='央'>Zentrum</span> <span class='meaning_kanji_reading'>(央)</span> der Stadt findet ein Fl<span class='reading onyomi' data-hiragana='おう'>oh</span>markt <span class='hiragana'>(おう)</span> statt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 281,
         "order_wiki_radical_corrected": 302,
         "grade_corrected": 3
@@ -23272,6 +23272,7 @@
             "Machine"
         ],
         "meanings_de": [
+            "Anfang",
             "anfangen",
             "Start",
             "erster"
@@ -23292,10 +23293,10 @@
         "kanji": "始",
         "kanji_ord": 22987,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>  <span class='radical' data-kanji='台'>Maschine</span> <span class='radical_kanji'>(台)</span>  , <span class='meaning' data-kanji='始'>anfangen</span> <span class='meaning_kanji_meaning'>(始)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='始'>anfangen</span> <span class='meaning_kanji_reading'>(始)</span> , <span class='reading onyomi' data-hiragana='し'>Shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Als die <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span> nur als Gebär<span class='radical' data-kanji='台'>maschine</span> <span class='radical_kanji'>(台)</span> betrachtet wurde, war es der <span class='meaning' data-kanji='始'>Anfang</span> <span class='meaning_kanji_meaning'>(始)</span> des Patriarchats.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Am <span class='meaning' data-kanji='始'>Anfang</span> <span class='meaning_kanji_reading'>(始)</span> der Erkältung fange ich an mehr zu niesen \"<span class='reading kunyomi' data-hiragana='はじ'>hatschi</span>\" <span class='hiragana'>(はじ)</span>,  weshalb ich mich lieber ab<span class='reading onyomi' data-hiragana='し'>schi</span>rme <span class='hiragana'>(し)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 282,
         "reading_dist": [
             {
@@ -23344,6 +23345,7 @@
             "Woman"
         ],
         "meanings_de": [
+            "Komitee",
             "anvertrauen"
         ],
         "wk_radicals_new": [
@@ -23362,10 +23364,10 @@
         "kanji": "委",
         "kanji_ord": 22996,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span>  <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>  , <span class='meaning' data-kanji='委'>anvertrauen</span> <span class='meaning_kanji_meaning'>(委)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='委'>anvertrauen</span> <span class='meaning_kanji_reading'>(委)</span> , <span class='reading onyomi' data-hiragana='い'>I</span> <span class='hiragana'>(い)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span> zu kochen ist, sollten wir den <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span> in einem <span class='meaning' data-kanji='委'>Komitee</span> <span class='meaning_kanji_meaning'>(委)</span> anvertrauen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Im <span class='meaning' data-kanji='委'>Komitee</span> <span class='meaning_kanji_reading'>(委)</span> ist ein <span class='reading kunyomi' data-hiragana='ゆだ'>Juda</span>s <span class='hiragana'>(ゆだ)</span> (Verräter) unter uns und <span class='reading onyomi' data-hiragana='い'>I</span>ch <span class='hiragana'>(い)</span> bin es nicht.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 283,
         "reading_dist": [
             {
