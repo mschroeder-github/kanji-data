@@ -57,25 +57,25 @@ def verbs_make_anki(num_learned_kanjis=50, reading_mode="Umschrift", separator="
         1417794174,
         'Verb',
         fields=[
-            {'name': 'Vokabel'},
+            {'name': 'Vokabel'}, # 0
             {'name': 'Antwort'},
             {'name': 'Merksatz'},
 
             {'name': 'Bedeutungen_Deutsch'},
             {'name': 'Bedeutungen_Englisch'},
-            {'name': 'Vokabel_Negation'},
+            {'name': 'Vokabel_Negation'}, # 5
 
             {'name': 'Lesung_Hiragana'},
             {'name': 'Lesung_Romaji'},
             {'name': 'Lesung_Hiragana_Negation'},
             {'name': 'Lesung_Romaji_Negation'},
-            {'name': 'Lesung_Teile'},
+            {'name': 'Lesung_Teile'}, # 10
             {'name': 'Kanji_Bedeutungen'},
 
             {'name': 'Dan'},
             {'name': 'Kanji_Lesung_Gelernt'},
             {'name': 'Gelernte_Kanjis_Benötigt'},
-            {'name': 'Rang'}
+            {'name': 'Rang'} # 15
         ],
         templates=[
             {
@@ -84,7 +84,8 @@ def verbs_make_anki(num_learned_kanjis=50, reading_mode="Umschrift", separator="
                 'afmt': afmt
             }
         ],
-        css=css
+        css=css,
+        sort_field_index=15
     )
 
     # filter jisho_verbs based on kanji level

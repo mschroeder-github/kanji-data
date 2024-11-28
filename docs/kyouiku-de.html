@@ -91,6 +91,16 @@
                                     {{rd.reading}} {{(rd.prop * 100).toFixed(0)}}% ({{rd.count}})
                                 </li>
                             </ul>
+                            <span style="font-size: smaller;">
+                                <ul>
+                                    <li v-for="rd in entry.wk_readings_on" style="white-space: nowrap;">
+                                        <span class="onyomi">{{rd}}</span>
+                                    </li>
+                                    <li v-for="rd in entry.wk_readings_kun" style="white-space: nowrap;">
+                                        <span class="kunyomi">{{rd}}</span>
+                                    </li>
+                                </ul>
+                            </span>
                         </td>
                     </tr>
                 </tbody>

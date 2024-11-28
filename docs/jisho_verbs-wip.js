@@ -259,8 +259,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "verstehen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='わ' data-kanji='分'>wa</span> <span class='hiragana'>(わ)</span>  <span class='reading hirayomi' data-hiragana='かる'>karu</span> <span class='hiragana'>(かる)</span> verstehen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Managerin möchte die <span class='reading kunyomi' data-hiragana='わ' data-kanji='分'>Wa</span>rtbarkeit <span class='hiragana'>(わ)</span>  von ihrem <span class='reading hirayomi' data-hiragana='かる'>Karu</span>ssel <span class='hiragana'>(かる)</span> verstehen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 87726,
             "rank": 43,
@@ -424,8 +424,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "hören",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='き' data-kanji='聞'>ki</span> <span class='hiragana'>(き)</span>  <span class='reading hirayomi' data-hiragana='く'>ku</span> <span class='hiragana'>(く)</span> hören.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Sie möchte im <span class='reading kunyomi' data-hiragana='き' data-kanji='聞'>Ki</span>no <span class='hiragana'>(き)</span> eine gute A<span class='reading hirayomi' data-hiragana='く'>ku</span>stik <span class='hiragana'>(く)</span> hören.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 46083,
             "rank": 88,
@@ -669,8 +669,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "hinausgehen",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='で' data-kanji='出'>de</span> <span class='hiragana'>(で)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> hinausgehen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der Soldat möchte aus der <span class='reading kunyomi' data-hiragana='で' data-kanji='出'>De</span>ckung <span class='hiragana'>(で)</span> in <span class='reading hirayomi' data-hiragana='る'>ru</span>he <span class='hiragana'>(る)</span> hinausgehen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 37524,
             "rank": 110,
@@ -957,8 +957,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "aufstehen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='た' data-kanji='立'>ta</span> <span class='hiragana'>(た)</span>  <span class='reading hirayomi' data-hiragana='つ'>tsu</span> <span class='hiragana'>(つ)</span> aufstehen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Büroangestellte möchte nach <span class='reading kunyomi' data-hiragana='た' data-kanji='立'>ta</span>gelangem <span class='hiragana'>(た)</span> Sitzen bevor<span class='reading hirayomi' data-hiragana='つ'>zu</span>gt <span class='hiragana'>(つ)</span> bei der Arbeit aufstehen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 34732,
             "rank": 118,
@@ -1165,8 +1165,8 @@ let verbs =
         ],
         "kanji_reading_score": 0,
         "main_meaning_de": "herausholen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='だ' data-kanji='出'>da</span> <span class='hiragana'>(だ)</span>  <span class='reading hirayomi' data-hiragana='す'>su</span> <span class='hiragana'>(す)</span> herausholen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Chemikerin möchte mit <span class='reading kunyomi' data-hiragana='だ' data-kanji='出'>Da</span>mpf <span class='hiragana'>(だ)</span> die <span class='reading hirayomi' data-hiragana='す'>Su</span>bstanz <span class='hiragana'>(す)</span> herausholen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 31491,
             "rank": 136,
@@ -1309,145 +1309,6 @@ let verbs =
         "word_parts": [
             [
                 "入",
-                "い"
-            ],
-            [
-                "る",
-                "る"
-            ]
-        ],
-        "reading": "いる",
-        "dan": "go",
-        "word_neg": "入らない",
-        "reading_neg": "いらない",
-        "meanings": [
-            [
-                "to enter; to go in; to get in; to come in",
-                "Godan verb with 'ru' ending, Intransitive verb"
-            ],
-            [
-                "to set (of the sun or moon); to sink; to go down",
-                "Godan verb with 'ru' ending, Intransitive verb"
-            ],
-            [
-                "to attain (nirvana, enlightenment, etc.); to achieve; to reach (e.g. a climax)",
-                "Godan verb with 'ru' ending, Intransitive verb"
-            ],
-            [
-                "to do fully; to do intently; to do sincerely; to do deeply; to feel keenly",
-                "Suffix, Godan verb with 'ru' ending"
-            ],
-            [
-                "to (reach a state) completely",
-                "Suffix, Godan verb with 'ru' ending"
-            ]
-        ],
-        "meanings_de": [
-            [
-                "hineingehen",
-                "eintreten",
-                "hineinkommen",
-                "einsteigen",
-                "anfangen",
-                "eröffnen"
-            ]
-        ],
-        "kanjis": [
-            "入"
-        ],
-        "max_kanji_index": 56,
-        "kyouiku_friendly": true,
-        "kanji_meanings_de": [
-            [
-                "入",
-                [
-                    "betreten",
-                    "hineingehen",
-                    "hineinstecken"
-                ]
-            ]
-        ],
-        "kanji_readings": [
-            [
-                "入",
-                [
-                    [
-                        "にゅう",
-                        "nyuu"
-                    ]
-                ]
-            ]
-        ],
-        "kanji_reading_score": 0,
-        "main_meaning_de": "hineingehen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='い' data-kanji='入'>i</span> <span class='hiragana'>(い)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> hineingehen.",
-        "mnemonic_de_done": false,
-        "freq": {
-            "count": 26268,
-            "rank": 160,
-            "percentage": 0.07706989,
-            "pos": "v5r"
-        },
-        "ambiguity": [
-            [
-                [
-                    "入",
-                    "い"
-                ],
-                [
-                    "れ",
-                    "れ"
-                ],
-                [
-                    "る",
-                    "る"
-                ]
-            ],
-            [
-                [
-                    "入",
-                    "い"
-                ],
-                [
-                    "る",
-                    "る"
-                ]
-            ],
-            [
-                [
-                    "入",
-                    "はい"
-                ],
-                [
-                    "る",
-                    "る"
-                ]
-            ],
-            [
-                [
-                    "入",
-                    "はい"
-                ],
-                [
-                    "り",
-                    "り"
-                ],
-                [
-                    "込",
-                    "こ"
-                ],
-                [
-                    "む",
-                    "む"
-                ]
-            ]
-        ]
-    },
-    {
-        "word": "入る",
-        "word_parts": [
-            [
-                "入",
                 "はい"
             ],
             [
@@ -1561,8 +1422,8 @@ let verbs =
         ],
         "kanji_reading_score": 0,
         "main_meaning_de": "hineingehen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='はい' data-kanji='入'>hai</span> <span class='hiragana'>(はい)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> hineingehen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Meeresbiologin möchte ins <span class='reading kunyomi' data-hiragana='はい' data-kanji='入'>Hai</span>fischbecken <span class='hiragana'>(はい)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span>dernd <span class='hiragana'>(る)</span> hineingehen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 26268,
             "rank": 160,
@@ -1704,9 +1565,9 @@ let verbs =
             ]
         ],
         "kanji_reading_score": 1,
-        "main_meaning_de": "sagen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='はな' data-kanji='話'>hana</span> <span class='hiragana'>(はな)</span>  <span class='reading hirayomi' data-hiragana='す'>su</span> <span class='hiragana'>(す)</span> sagen.",
-        "mnemonic_de_done": false,
+        "main_meaning_de": "reden",
+        "mnemonic_de": "Die Fischzüchterin möchte über Piran<span class='reading kunyomi' data-hiragana='はな' data-kanji='話'>hana</span>hrung <span class='hiragana'>(はな)</span>  <span class='reading hirayomi' data-hiragana='す'>su</span>btil <span class='hiragana'>(す)</span> reden.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 20919,
             "rank": 197,
@@ -1880,8 +1741,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "leben",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='い' data-kanji='生'>i</span> <span class='hiragana'>(い)</span>  <span class='reading hirayomi' data-hiragana='きる'>kiru</span> <span class='hiragana'>(きる)</span> leben.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der freigelassene Häftling möchte <span class='reading kunyomi' data-hiragana='い' data-kanji='生'>i</span>gnorant <span class='hiragana'>(い)</span> ohne Mar<span class='reading hirayomi' data-hiragana='きる'>kieru</span>ng <span class='hiragana'>(きる)</span> leben.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 20702,
             "rank": 199,
@@ -2084,8 +1945,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "schreiben",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='か' data-kanji='書'>ka</span> <span class='hiragana'>(か)</span>  <span class='reading hirayomi' data-hiragana='く'>ku</span> <span class='hiragana'>(く)</span> schreiben.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Schülerin möchte mit <span class='reading kunyomi' data-hiragana='か' data-kanji='書'>Ka</span>lligraphie <span class='hiragana'>(か)</span> auf ein <span class='reading hirayomi' data-hiragana='く'>Ku</span>vert <span class='hiragana'>(く)</span> schreiben.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 14026,
             "rank": 303,
@@ -2235,8 +2096,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "sichtbar sein",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='み' data-kanji='見'>mi</span> <span class='hiragana'>(み)</span>  <span class='reading hirayomi' data-hiragana='える'>eru</span> <span class='hiragana'>(える)</span> sichtbar sein.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der ehrgeizige Arbeiter möchte durch Beteiligung in einem Gre<span class='reading kunyomi' data-hiragana='み' data-kanji='見'>mi</span>um <span class='hiragana'>(み)</span> im B<span class='reading hirayomi' data-hiragana='える'>eru</span>f <span class='hiragana'>(える)</span> sichtbar sein.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 13827,
             "rank": 309,
@@ -2759,8 +2620,8 @@ let verbs =
         ],
         "kanji_reading_score": 0,
         "main_meaning_de": "hineintun",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='い' data-kanji='入'>i</span> <span class='hiragana'>(い)</span>  <span class='reading hirayomi' data-hiragana='れる'>reru</span> <span class='hiragana'>(れる)</span> hineintun.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der Schmuggler möchte ins <span class='reading kunyomi' data-hiragana='い' data-kanji='入'>I</span>nnere <span class='hiragana'>(い)</span> der Wa<span class='reading hirayomi' data-hiragana='れる'>re Ru</span>bine <span class='hiragana'>(れる)</span> hineintun.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 12002,
             "rank": 362,
@@ -2941,8 +2802,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "zeigen",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='み' data-kanji='見'>mi</span> <span class='hiragana'>(み)</span>  <span class='reading hirayomi' data-hiragana='せる'>seru</span> <span class='hiragana'>(せる)</span> zeigen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der Vermieter möchte dem <span class='reading kunyomi' data-hiragana='み' data-kanji='見'>Mi</span>eter <span class='hiragana'>(み)</span> die Bewäs<span class='reading hirayomi' data-hiragana='せる'>seru</span>ng <span class='hiragana'>(せる)</span> zeigen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 11294,
             "rank": 385,
@@ -3295,8 +3156,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "gebären",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='う' data-kanji='生'>u</span> <span class='hiragana'>(う)</span>  <span class='reading hirayomi' data-hiragana='む'>mu</span> <span class='hiragana'>(む)</span> gebären.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Sie möchte in einer <span class='reading kunyomi' data-hiragana='う' data-kanji='生'>U</span>niklinik <span class='hiragana'>(う)</span> <span class='reading hirayomi' data-hiragana='む'>mu</span>tig ihr Kind <span class='hiragana'>(む)</span> gebären.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 10835,
             "rank": 397,
@@ -3520,8 +3381,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "verkaufen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='う' data-kanji='売'>u</span> <span class='hiragana'>(う)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> verkaufen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Hausfrau möchte ihre alten <span class='reading kunyomi' data-hiragana='う' data-kanji='売'>U</span>tensilien <span class='hiragana'>(う)</span> nach langer Lage<span class='reading hirayomi' data-hiragana='る'>ru</span>ng <span class='hiragana'>(る)</span> verkaufen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 8862,
             "rank": 484,
@@ -3712,8 +3573,8 @@ let verbs =
         ],
         "kanji_reading_score": 0,
         "main_meaning_de": "entlanggehen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='とお' data-kanji='通'>too</span> <span class='hiragana'>(とお)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> entlanggehen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Das Emo-Girl möchte für ein Ta<span class='reading kunyomi' data-hiragana='とお' data-kanji='通'>too</span> <span class='hiragana'>(とお)</span> an der G<span class='reading hirayomi' data-hiragana='る'>ru</span>ft <span class='hiragana'>(る)</span> entlanggehen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 8126,
             "rank": 529,
@@ -3890,8 +3751,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "lesen",
-        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='よ' data-kanji='読'>yo</span> <span class='hiragana'>(よ)</span>  <span class='reading hirayomi' data-hiragana='む'>mu</span> <span class='hiragana'>(む)</span> lesen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Die Köchin möchte das Ma<span class='reading kunyomi' data-hiragana='よ' data-kanji='読'>yo</span>-Rezept <span class='hiragana'>(よ)</span> für ihre <span class='reading hirayomi' data-hiragana='む'>Mu</span>se <span class='hiragana'>(む)</span> lesen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 7710,
             "rank": 560,
@@ -3983,8 +3844,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "finden",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='み' data-kanji='見'>mi</span> <span class='hiragana'>(み)</span>  <span class='reading hirayomi' data-hiragana='つける'>tsukeru</span> <span class='hiragana'>(つける)</span> finden.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der kleine Junge möchte <span class='reading kunyomi' data-hiragana='み' data-kanji='見'>Mi</span>lch <span class='hiragana'>(み)</span> und da<span class='reading hirayomi' data-hiragana='つける'>zu Ke</span>kse <span class='hiragana'>(つけ)</span> finden.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 7558,
             "rank": 566,
@@ -4313,8 +4174,8 @@ let verbs =
         ],
         "kanji_reading_score": 0,
         "main_meaning_de": "zwingen",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='し' data-kanji='強'>shi</span> <span class='hiragana'>(し)</span>  <span class='reading hirayomi' data-hiragana='いる'>iru</span> <span class='hiragana'>(いる)</span> zwingen.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Er möchte aus unter<span class='reading kunyomi' data-hiragana='し' data-kanji='強'>schi</span>edlichen <span class='hiragana'>(し)</span> Gründen seine Freundin zu einer Körper-Ch<span class='reading hirayomi' data-hiragana='いる'>iru</span>rgie <span class='hiragana'>(いる)</span> zwingen.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 7241,
             "rank": 585,
@@ -4572,8 +4433,8 @@ let verbs =
         ],
         "kanji_reading_score": 1,
         "main_meaning_de": "antworten",
-        "mnemonic_de": "Er möchte <span class='reading kunyomi' data-hiragana='こた' data-kanji='答'>kota</span> <span class='hiragana'>(こた)</span>  <span class='reading hirayomi' data-hiragana='える'>eru</span> <span class='hiragana'>(える)</span> antworten.",
-        "mnemonic_de_done": false,
+        "mnemonic_de": "Der Berater möchte mit einer Risi<span class='reading kunyomi' data-hiragana='こた' data-kanji='答'>kota</span>belle <span class='hiragana'>(こた)</span> die Frage nach der Vulkan<span class='reading hirayomi' data-hiragana='える'>eru</span>ption <span class='hiragana'>(える)</span> beantworten.",
+        "mnemonic_de_done": true,
         "freq": {
             "count": 6185,
             "rank": 666,

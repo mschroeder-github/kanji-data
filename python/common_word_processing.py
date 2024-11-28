@@ -278,6 +278,9 @@ def common_words_make_anki(num_learned_kanjis=150, reading_mode="Umschrift", sep
 
         hiragana = ""
         for part in word['word_parts']:
+            part_romaji = hiragana_to_romaji(part[1])
+            if part[1] in kanji_kyouiku_dict:
+                print(f'[WARN] {word['word']} {word['word_parts']}, kanji detected in reading: {part[1]}')
             hiragana += part[1]
         romaji = hiragana_to_romaji(hiragana)
 

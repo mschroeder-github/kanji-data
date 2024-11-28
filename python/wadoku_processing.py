@@ -1,5 +1,6 @@
 import json
 from collections import defaultdict
+import xml.etree.ElementTree as ET
 
 from tqdm import tqdm
 
@@ -69,7 +70,14 @@ def collect_wadoku():
                             tr_text += ' '
 
                         txt = ' '.join(child.itertext())
+
+                        if 'bracket' in child.tag:
+                            tr_text += ' ('
+
                         tr_text += txt
+
+                        if 'bracket' in child.tag:
+                            tr_text += ')'
 
                         if child.get('hasFollowingSpace'):
                             tr_text += ' '

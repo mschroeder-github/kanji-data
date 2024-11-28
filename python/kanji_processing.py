@@ -4,8 +4,60 @@ import os
 
 import genanki
 
+import hiragana
 from helper import is_done, get_reading_strs
 
+def mnemonic_reading_de_fix():
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+    for entry in kanji_kyouiku:
+        if entry['mnemonic_reading_de_done']:
+            continue
+
+        yomi_list = []
+        for yomi in entry['readings_on'] + entry['readings_kun']:
+            is_on = yomi in entry['readings_on']
+            yomi = yomi.replace('!', '').replace('^', '')
+            mode = 'onyomi' if is_on else 'kunyomi'
+            romaji = hiragana.hiragana_to_romaji(yomi)
+
+        if 'reading_dist' not in entry:
+            # print('[WARN]', entry['kanji'], 'no reading dist')
+            # fix
+            entry['reading_dist'] = []
+
+        for reading in entry['reading_dist']:
+
+            if reading['prop'] < 0.05:
+                continue
+
+            selected_mode = 'unknown'
+            for yomi in entry['readings_on'] + entry['readings_kun']:
+                is_on = yomi in entry['readings_on']
+                mode = 'onyomi' if is_on else 'kunyomi'
+                yomi : str = yomi.replace('-', '').replace('.', '')
+
+                if yomi.startswith(reading['reading']):
+                    selected_mode = mode
+                    break
+
+            if selected_mode == 'unknown':
+                continue
+
+            romaji = hiragana.hiragana_to_romaji(reading['reading'])
+            yomi_list.append(f"<span class='reading {selected_mode}' data-hiragana='{reading['reading']}'>{romaji}</span> <span class='hiragana'>({reading['reading']})</span>")
+
+        yomi_part = '  '.join(yomi_list)
+
+        meaning_part = f"<span class='meaning' data-kanji='{entry['kanji']}'>{entry['meanings_de'][0]}</span> <span class='meaning_kanji_reading'>({entry['kanji']})</span>"
+
+        mnemonic_reading_de = f"{meaning_part} , {yomi_part}"
+
+        entry['mnemonic_reading_de'] = mnemonic_reading_de
+
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'wt', encoding='utf-8') as file:
+        json.dump(kanji_kyouiku, file, indent=4, ensure_ascii=False)
 
 def make_anki_v2(romaji_reading=False, separator=" "):
     os.makedirs('../anki', exist_ok=True)
