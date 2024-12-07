@@ -1,6 +1,6 @@
 # Lernmaterialien
 
-Stand: 30.11.2024
+Stand: 07.12.2024
 
 ## Anki Decks
 
@@ -16,6 +16,7 @@ Stand: 30.11.2024
 * [Level 150](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0150-Umschrift_Abfrage.apkg)
 * [Level 200](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0200-Umschrift_Abfrage.apkg)
 * [Level 250](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0250-Umschrift_Abfrage.apkg)
+* [Level 300](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0300-Umschrift_Abfrage.apkg)
 
 ### Verben
 

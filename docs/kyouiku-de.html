@@ -208,6 +208,9 @@
                 if(window.location.hash === '#analyse') {
                     this.tab = 3;
                 }
+                if(window.location.hash === '#done') {
+                    this.hide_done = false;
+                }
             },
             methods: {
                 analyse: function(text) {
