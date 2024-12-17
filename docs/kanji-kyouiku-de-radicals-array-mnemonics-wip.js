@@ -6091,7 +6091,7 @@ let kyouiku =
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='火'>Feuer</span> <span class='radical_kanji'>(火)</span>  , <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_meaning'>(火)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_reading'>(火)</span> brennt im <span class='reading onyomi' data-hiragana='か'>Ka</span>min <span class='hiragana'>(か)</span>.",
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_reading'>(火)</span> brennt im <span class='reading onyomi' data-hiragana='か'>Ka</span>min <span class='hiragana'>(か)</span> <span class='reading kunyomi' data-hiragana='か'>hi</span>nten <span class='hiragana'>(ひ)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 68,
         "reading_dist": [
@@ -26139,7 +26139,7 @@ let kyouiku =
         "kanji": "持",
         "kanji_ord": 25345,
         "is_radical": false,
-        "mnemonic_meaning_de": "Es ist üblich von den Mönchen eine Kette an den <span class='radical' data-kanji='扌'>Finger</span> <span class='radical_kanji'>(扌)</span>n im <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span> zu <span class='meaning' data-kanji='持'>halten</span> <span class='meaning_kanji_meaning'>(持)</span>.",
+        "mnemonic_meaning_de": "Es ist üblich von den Mönchen eine Kette an den <span class='radical' data-kanji='扌'>Finger</span>n <span class='radical_kanji'>(扌)</span> im <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span> zu <span class='meaning' data-kanji='持'>halten</span> <span class='meaning_kanji_meaning'>(持)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die Halterung ist da zum <span class='meaning' data-kanji='持'>Halten</span> <span class='meaning_kanji_reading'>(持)</span> des <span class='reading kunyomi' data-hiragana='も'>Mo</span>nitor <span class='hiragana'>(も)</span> Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rms <span class='hiragana'>(じ)</span>.",
         "mnemonic_reading_de_done": true,
@@ -28309,7 +28309,7 @@ let kyouiku =
         "kanji": "決",
         "kanji_ord": 27770,
         "is_radical": false,
-        "mnemonic_meaning_de": "Wegen dem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> muss die <span class='radical' data-kanji='人'>Person</span> <span class='radical_kanji'>(人)</span> mit der <span class='radical' data-kanji='ユ'>Hakenhand</span> <span class='radical_kanji'>(ユ)</span> (also Pirat) sich <span class='meaning' data-kanji='決'>entscheiden</span> <span class='meaning_kanji_meaning'>(決)</span>, ob der Kurs geändert wird.",
+        "mnemonic_meaning_de": "Wegen dem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> muss die <span class='radical' data-kanji='人'>Person</span> <span class='radical_kanji'>(人)</span> mit der <span class='radical' data-kanji='ユ'>Hakenhand</span> <span class='radical_kanji'>(ユ)</span> (also Pirat) sich für einen Kurswechsel <span class='meaning' data-kanji='決'>entscheiden</span> <span class='meaning_kanji_meaning'>(決)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Bei der Ernährung <span class='meaning' data-kanji='決'>entscheiden</span> <span class='meaning_kanji_reading'>(決)</span> ob man den <span class='reading kunyomi' data-hiragana='き'>Ki</span>ndern <span class='hiragana'>(き)</span> schon früh Geträn<span class='reading onyomi' data-hiragana='けつ'>kezu</span>cker <span class='hiragana'>(けつ)</span> gibt.",
         "mnemonic_reading_de_done": true,
@@ -28486,6 +28486,150 @@ let kyouiku =
         "grade_corrected": 3
     },
     {
+        "strokes": 4,
+        "grade": 5,
+        "freq": 159,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Branch",
+            "Support",
+            "Sustain",
+            "Branch Radical (no. 65)"
+        ],
+        "readings_on": [
+            "し"
+        ],
+        "readings_kun": [
+            "ささ.える",
+            "つか.える",
+            "か.う"
+        ],
+        "wk_level": 8,
+        "wk_meanings": [
+            "Support",
+            "^Branch"
+        ],
+        "wk_readings_on": [
+            "し"
+        ],
+        "wk_readings_kun": [
+            "!ささ"
+        ],
+        "wk_radicals": [
+            "Branch"
+        ],
+        "meanings_de": [
+            "unterstützen",
+            "Zweig(-Niederlassung)"
+        ],
+        "wk_radicals_new": [
+            "Branch"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Zweig"
+        ],
+        "wk_radicals_kanji": [
+            "支"
+        ],
+        "kanji": "支",
+        "kanji_ord": 25903,
+        "is_radical": false,
+        "mnemonic_meaning_de": "Der Verkauf von <span class='radical' data-kanji='十'>Zehn</span> <span class='radical_kanji'>(十)</span> hochwertigen <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span> könnte den Möbelgeschäfts<span class='meaning' data-kanji='支'>zweig</span> <span class='meaning_kanji_meaning'>(支)</span> finanziell <span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_meaning'>(支)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='支'>Zweig</span>-Niederlassung <span class='meaning_kanji_meaning'>(支)</span> ereilt bald ein <span class='reading onyomi' data-hiragana='し'>Schi</span>cksal <span class='hiragana'>(し)</span>, wenn das <span class='meaning' data-kanji='支'>Unterstützen</span> <span class='meaning_kanji_reading'>(支)</span> der Men<span class='reading kunyomi' data-hiragana='ささ'>sasa</span>nierung <span class='hiragana'>(ささ)</span> fehlt.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 713,
+        "reading_dist": [
+            {
+                "reading": "し",
+                "count": 19,
+                "prop": 0.95
+            },
+            {
+                "reading": "ささ",
+                "count": 1,
+                "prop": 0.05
+            }
+        ],
+        "order_wiki_radical_corrected": 373,
+        "grade_corrected": 5
+    },
+    {
+        "strokes": 5,
+        "grade": 3,
+        "freq": 1092,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Pelt",
+            "Skin",
+            "Hide",
+            "Leather",
+            "Skin Radical (no. 107)"
+        ],
+        "readings_on": [
+            "ひ"
+        ],
+        "readings_kun": [
+            "かわ"
+        ],
+        "wk_level": 5,
+        "wk_meanings": [
+            "Skin"
+        ],
+        "wk_readings_on": [
+            "ひ"
+        ],
+        "wk_readings_kun": [
+            "!かわ"
+        ],
+        "wk_radicals": [
+            "Slide",
+            "Branch"
+        ],
+        "meanings_de": [
+            "Haut",
+            "Leder"
+        ],
+        "wk_radicals_new": [
+            "Slide",
+            "Branch"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Rutsche",
+            "Zweig"
+        ],
+        "wk_radicals_kanji": [
+            "丿",
+            "支"
+        ],
+        "kanji": "皮",
+        "kanji_ord": 30382,
+        "is_radical": false,
+        "mnemonic_meaning_de": "Ist die <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span> voller <span class='radical' data-kanji='支'>Zweig</span>e <span class='radical_kanji'>(支)</span>, verbrennt man sich die <span class='meaning' data-kanji='皮'>Haut</span> <span class='meaning_kanji_meaning'>(皮)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Dicke <span class='meaning' data-kanji='皮'>Haut</span> <span class='meaning_kanji_reading'>(皮)</span> hat der Or<span class='reading kunyomi' data-hiragana='かわ'>ca Wa</span>l <span class='hiragana'>(かわ)</span>, aber nicht bei seiner <span class='reading onyomi' data-hiragana='ひ'>Hi</span>rnhaut <span class='hiragana'>(ひ)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 368,
+        "reading_dist": [
+            {
+                "reading": "ひ",
+                "count": 4,
+                "prop": 0.67
+            },
+            {
+                "reading": "かわ",
+                "count": 2,
+                "prop": 0.33
+            }
+        ],
+        "order_wiki_radical_corrected": 374,
+        "grade_corrected": 3
+    },
+    {
         "strokes": 8,
         "grade": 3,
         "freq": 740,
@@ -28526,18 +28670,20 @@ let kyouiku =
             "Skin"
         ],
         "wk_radicals_de": [
-            "Tsunami"
+            "Tsunami",
+            "Haut"
         ],
         "wk_radicals_kanji": [
-            "氵"
+            "氵",
+            "皮"
         ],
         "kanji": "波",
         "kanji_ord": 27874,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  , <span class='meaning' data-kanji='波'>Welle</span> <span class='meaning_kanji_meaning'>(波)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='波'>Welle</span> <span class='meaning_kanji_reading'>(波)</span> , <span class='reading onyomi' data-hiragana='は'>ha</span> <span class='hiragana'>(は)</span>  <span class='reading kunyomi' data-hiragana='なみ'>nami</span> <span class='hiragana'>(なみ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wenn ein <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> auf die <span class='radical' data-kanji='皮'>Haut</span> <span class='radical_kanji'>(皮)</span> klatscht, spürt man die <span class='meaning' data-kanji='波'>Welle</span> <span class='meaning_kanji_meaning'>(波)</span> deutlich.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='波'>Welle</span>n <span class='meaning_kanji_reading'>(波)</span> im <span class='reading onyomi' data-hiragana='は'>Ha</span>llenbad <span class='hiragana'>(は)</span> haben ihre eigene dy<span class='reading kunyomi' data-hiragana='なみ'>nami</span>k <span class='hiragana'>(なみ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 346,
         "reading_dist": [
             {
@@ -28551,7 +28697,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 372,
+        "order_wiki_radical_corrected": 375,
         "grade_corrected": 3
     },
     {
@@ -28595,9 +28741,9 @@ let kyouiku =
             "Master"
         ],
         "meanings_de": [
-            "Notiz",
-            "einschenken",
             "gießen",
+            "einschenken",
+            "Notiz",
             "sich widmen",
             "sich vertiefen"
         ],
@@ -28617,10 +28763,10 @@ let kyouiku =
         "kanji": "注",
         "kanji_ord": 27880,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='主'>Meister</span> <span class='radical_kanji'>(主)</span>  , <span class='meaning' data-kanji='注'>Notiz</span> <span class='meaning_kanji_meaning'>(注)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='注'>Notiz</span> <span class='meaning_kanji_reading'>(注)</span> , <span class='reading onyomi' data-hiragana='ちゅう'>chuu</span> <span class='hiragana'>(ちゅう)</span>  <span class='reading kunyomi' data-hiragana='そそ'>soso</span> <span class='hiragana'>(そそ)</span>  <span class='reading kunyomi' data-hiragana='さ'>sa</span> <span class='hiragana'>(さ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Selbst bei einem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> ist er ein <span class='radical' data-kanji='主'>Meister</span> <span class='radical_kanji'>(主)</span> im ein<span class='meaning' data-kanji='注'>gießen</span> <span class='meaning_kanji_reading'>(注)</span>, steht auf der <span class='meaning' data-kanji='注'>Notiz</span> <span class='meaning_kanji_meaning'>(注)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Kaffeemaschine tut viel er<span class='meaning' data-kanji='注'>gießen</span> <span class='meaning_kanji_reading'>(注)</span>, weshalb der Espres<span class='reading kunyomi' data-hiragana='そそ'>so so</span>gar <span class='hiragana'>(そそ)</span> überschwappt, eine <span class='meaning' data-kanji='注'>Notiz</span> <span class='meaning_kanji_reading'>(注)</span> hängt dran als En<span class='reading onyomi' data-hiragana='ちゅう'>tschu</span>ldigung <span class='hiragana'>(ちゅう)</span>, typisch in der Men<span class='reading kunyomi' data-hiragana='さ'>sa</span> <span class='hiragana'>(さ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 347,
         "reading_dist": [
             {
@@ -28639,7 +28785,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 373,
+        "order_wiki_radical_corrected": 376,
         "grade_corrected": 3
     },
     {
@@ -28671,7 +28817,7 @@ let kyouiku =
             "Eternity"
         ],
         "meanings_de": [
-            "ewig",
+            "Ewigkeit",
             "lange Zeit",
             "dauerhaft"
         ],
@@ -28688,10 +28834,11 @@ let kyouiku =
         "kanji": "永",
         "kanji_ord": 27704,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span>  , <span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_meaning'>(永)</span>",
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span>  , <span class='meaning' data-kanji='永'>Ewigkeit</span> <span class='meaning_kanji_meaning'>(永)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='永'>ewig</span> <span class='meaning_kanji_reading'>(永)</span> , <span class='reading onyomi' data-hiragana='えい'>ei</span> <span class='hiragana'>(えい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "In der <span class='meaning' data-kanji='永'>Ewigkeit</span> <span class='meaning_kanji_reading'>(永)</span> sind all<span class='reading onyomi' data-hiragana='えい'>e i</span>rgendwann <span class='hiragana'>(えい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 730,
         "reading_dist": [
             {
@@ -28700,7 +28847,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 374,
+        "order_wiki_radical_corrected": 377,
         "grade_corrected": 5
     },
     {
@@ -28751,10 +28898,10 @@ let kyouiku =
         "kanji": "泳",
         "kanji_ord": 27891,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span>  , <span class='meaning' data-kanji='泳'>schwimmen</span> <span class='meaning_kanji_meaning'>(泳)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='泳'>schwimmen</span> <span class='meaning_kanji_reading'>(泳)</span> , <span class='reading kunyomi' data-hiragana='およ'>oyo</span> <span class='hiragana'>(およ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Während dem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> dauert es eine <span class='radical' data-kanji='永'>Ewigkeit</span> <span class='radical_kanji'>(永)</span> im Wasser zu <span class='meaning' data-kanji='泳'>schwimmen</span> <span class='meaning_kanji_meaning'>(泳)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Nach dem <span class='meaning' data-kanji='泳'>schwimmen</span> <span class='meaning_kanji_reading'>(泳)</span> im Niel macht der Phara<span class='reading kunyomi' data-hiragana='およ'>oh Yo</span>ga <span class='hiragana'>(およ)</span> im Wasser.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 348,
         "reading_dist": [
             {
@@ -28763,7 +28910,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 375,
+        "order_wiki_radical_corrected": 378,
         "grade_corrected": 3
     },
     {
@@ -28815,10 +28962,10 @@ let kyouiku =
         "kanji": "洋",
         "kanji_ord": 27915,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='羊'>Schaf</span> <span class='radical_kanji'>(羊)</span>  , <span class='meaning' data-kanji='洋'>Ozean</span> <span class='meaning_kanji_meaning'>(洋)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='洋'>Ozean</span> <span class='meaning_kanji_reading'>(洋)</span> , <span class='reading onyomi' data-hiragana='よう'>you</span> <span class='hiragana'>(よう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Durch ein <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> wurde das <span class='radical' data-kanji='羊'>Schaf</span> <span class='radical_kanji'>(羊)</span> in den <span class='meaning' data-kanji='洋'>Ozean</span> <span class='meaning_kanji_meaning'>(洋)</span> gespült.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Vom <span class='meaning' data-kanji='洋'>Ozean</span> <span class='meaning_kanji_reading'>(洋)</span> kommender, langgestreckter Meeresarm nennt man F<span class='reading onyomi' data-hiragana='よう'>jo</span>rde <span class='hiragana'>(よう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 349,
         "reading_dist": [
             {
@@ -28837,7 +28984,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 376,
+        "order_wiki_radical_corrected": 379,
         "grade_corrected": 3
     },
     {
@@ -28891,19 +29038,21 @@ let kyouiku =
         ],
         "wk_radicals_de": [
             "Tsunami",
+            "Müll",
             "Fluss"
         ],
         "wk_radicals_kanji": [
             "氵",
+            "𠫓",
             "川"
         ],
         "kanji": "流",
         "kanji_ord": 27969,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='川'>Fluss</span> <span class='radical_kanji'>(川)</span>  , <span class='meaning' data-kanji='流'>fließen</span> <span class='meaning_kanji_meaning'>(流)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='流'>fließen</span> <span class='meaning_kanji_reading'>(流)</span> , <span class='reading onyomi' data-hiragana='りゅう'>ryuu</span> <span class='hiragana'>(りゅう)</span>  <span class='reading kunyomi' data-hiragana='なが'>naga</span> <span class='hiragana'>(なが)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Nach einem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> wird <span class='radical' data-kanji='𠫓'>Müll</span> <span class='radical_kanji'>(𠫓)</span> über den <span class='radical' data-kanji='川'>Fluss</span> <span class='radical_kanji'>(川)</span> ins Meer <span class='meaning' data-kanji='流'>fließen</span> <span class='meaning_kanji_meaning'>(流)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das Wasser <span class='meaning' data-kanji='流'>fließt</span> <span class='meaning_kanji_reading'>(流)</span> ins Aqua<span class='reading onyomi' data-hiragana='りゅう'>riu</span>m <span class='hiragana'>(りゅう)</span> bis es bei<span class='reading kunyomi' data-hiragana='なが'>nah ga</span>nz <span class='hiragana'>(なが)</span> voll war.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 350,
         "reading_dist": [
             {
@@ -28927,7 +29076,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 377,
+        "order_wiki_radical_corrected": 380,
         "grade_corrected": 3
     },
     {
@@ -28978,21 +29127,19 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Tsunami",
-            "Triceratops",
-            "Mond"
+            "Ähnlichkeit"
         ],
         "wk_radicals_kanji": [
             "氵",
-            "`'´",
-            "月"
+            "肖"
         ],
         "kanji": "消",
         "kanji_ord": 28040,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji=\"`'´\">Triceratops</span> <span class='radical_kanji'>(`'´)</span>  <span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span>  , <span class='meaning' data-kanji='消'>löschen</span> <span class='meaning_kanji_meaning'>(消)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='消'>löschen</span> <span class='meaning_kanji_reading'>(消)</span> , <span class='reading onyomi' data-hiragana='しょう'>shou</span> <span class='hiragana'>(しょう)</span>  <span class='reading kunyomi' data-hiragana='け'>ke</span> <span class='hiragana'>(け)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Eine große <span class='radical' data-kanji='氵'>Tsunami</span>-Welle <span class='radical_kanji'>(氵)</span> ist von der <span class='radical' data-kanji='肖'>Ähnlichkeit</span> <span class='radical_kanji'>(肖)</span> wie eine Wasserfontäne zum <span class='meaning' data-kanji='消'>löschen</span> <span class='meaning_kanji_meaning'>(消)</span> von Feuer.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Feuerwehr <span class='meaning' data-kanji='消'>löscht</span> <span class='meaning_kanji_reading'>(消)</span> den <span class='reading onyomi' data-hiragana='しょう'>Scho</span>rnsteinbrannt <span class='hiragana'>(しょう)</span>, weil der Ofen<span class='reading kunyomi' data-hiragana='け'>ke</span>ssel <span class='hiragana'>(け)</span> feuer fing.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 351,
         "reading_dist": [
             {
@@ -29016,7 +29163,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 378,
+        "order_wiki_radical_corrected": 381,
         "grade_corrected": 3
     },
     {
@@ -29100,7 +29247,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 379,
+        "order_wiki_radical_corrected": 382,
         "grade_corrected": 3
     },
     {
@@ -29162,7 +29309,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 380,
+        "order_wiki_radical_corrected": 383,
         "grade_corrected": 3
     },
     {
@@ -29248,7 +29395,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 381,
+        "order_wiki_radical_corrected": 384,
         "grade_corrected": 3
     },
     {
@@ -29321,7 +29468,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 382,
+        "order_wiki_radical_corrected": 385,
         "grade_corrected": 3
     },
     {
@@ -29393,7 +29540,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 383,
+        "order_wiki_radical_corrected": 386,
         "grade_corrected": 3
     },
     {
@@ -29459,7 +29606,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 384,
+        "order_wiki_radical_corrected": 387,
         "grade_corrected": 3
     },
     {
@@ -29520,7 +29667,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 385,
+        "order_wiki_radical_corrected": 388,
         "grade_corrected": 3
     },
     {
@@ -29594,7 +29741,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 386,
+        "order_wiki_radical_corrected": 389,
         "grade_corrected": 3
     },
     {
@@ -29673,7 +29820,7 @@ let kyouiku =
                 "prop": 0.15
             }
         ],
-        "order_wiki_radical_corrected": 387,
+        "order_wiki_radical_corrected": 390,
         "grade_corrected": 3
     },
     {
@@ -29738,7 +29885,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 388,
+        "order_wiki_radical_corrected": 391,
         "grade_corrected": 3
     },
     {
@@ -29825,7 +29972,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 389,
+        "order_wiki_radical_corrected": 392,
         "grade_corrected": 3
     },
     {
@@ -29887,7 +30034,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 390,
+        "order_wiki_radical_corrected": 393,
         "grade_corrected": 3
     },
     {
@@ -29953,7 +30100,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 391,
+        "order_wiki_radical_corrected": 394,
         "grade_corrected": 3
     },
     {
@@ -30034,7 +30181,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 392,
+        "order_wiki_radical_corrected": 395,
         "grade_corrected": 3
     },
     {
@@ -30125,7 +30272,7 @@ let kyouiku =
                 "prop": 0.02
             }
         ],
-        "order_wiki_radical_corrected": 393,
+        "order_wiki_radical_corrected": 396,
         "grade_corrected": 3
     },
     {
@@ -30201,151 +30348,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 394,
-        "grade_corrected": 3
-    },
-    {
-        "strokes": 4,
-        "grade": 5,
-        "freq": 159,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Branch",
-            "Support",
-            "Sustain",
-            "Branch Radical (no. 65)"
-        ],
-        "readings_on": [
-            "し"
-        ],
-        "readings_kun": [
-            "ささ.える",
-            "つか.える",
-            "か.う"
-        ],
-        "wk_level": 8,
-        "wk_meanings": [
-            "Support",
-            "^Branch"
-        ],
-        "wk_readings_on": [
-            "し"
-        ],
-        "wk_readings_kun": [
-            "!ささ"
-        ],
-        "wk_radicals": [
-            "Branch"
-        ],
-        "meanings_de": [
-            "unterstützen",
-            "Zweig(-Niederlassung)"
-        ],
-        "wk_radicals_new": [
-            "Branch"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Zweig"
-        ],
-        "wk_radicals_kanji": [
-            "支"
-        ],
-        "kanji": "支",
-        "kanji_ord": 25903,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='支'>Zweig</span> <span class='radical_kanji'>(支)</span>  , <span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_meaning'>(支)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='支'>unterstützen</span> <span class='meaning_kanji_reading'>(支)</span> , <span class='reading onyomi' data-hiragana='し'>shi</span> <span class='hiragana'>(し)</span>  <span class='reading kunyomi' data-hiragana='ささ'>sasa</span> <span class='hiragana'>(ささ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 713,
-        "reading_dist": [
-            {
-                "reading": "し",
-                "count": 19,
-                "prop": 0.95
-            },
-            {
-                "reading": "ささ",
-                "count": 1,
-                "prop": 0.05
-            }
-        ],
-        "order_wiki_radical_corrected": 395,
-        "grade_corrected": 5
-    },
-    {
-        "strokes": 5,
-        "grade": 3,
-        "freq": 1092,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Pelt",
-            "Skin",
-            "Hide",
-            "Leather",
-            "Skin Radical (no. 107)"
-        ],
-        "readings_on": [
-            "ひ"
-        ],
-        "readings_kun": [
-            "かわ"
-        ],
-        "wk_level": 5,
-        "wk_meanings": [
-            "Skin"
-        ],
-        "wk_readings_on": [
-            "ひ"
-        ],
-        "wk_readings_kun": [
-            "!かわ"
-        ],
-        "wk_radicals": [
-            "Slide",
-            "Branch"
-        ],
-        "meanings_de": [
-            "Haut",
-            "Leder"
-        ],
-        "wk_radicals_new": [
-            "Slide",
-            "Branch"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Rutsche",
-            "Zweig"
-        ],
-        "wk_radicals_kanji": [
-            "丿",
-            "支"
-        ],
-        "kanji": "皮",
-        "kanji_ord": 30382,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  <span class='radical' data-kanji='支'>Zweig</span> <span class='radical_kanji'>(支)</span>  , <span class='meaning' data-kanji='皮'>Haut</span> <span class='meaning_kanji_meaning'>(皮)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='皮'>Haut</span> <span class='meaning_kanji_reading'>(皮)</span> , <span class='reading onyomi' data-hiragana='ひ'>hi</span> <span class='hiragana'>(ひ)</span>  <span class='reading kunyomi' data-hiragana='かわ'>kawa</span> <span class='hiragana'>(かわ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 368,
-        "reading_dist": [
-            {
-                "reading": "ひ",
-                "count": 4,
-                "prop": 0.67
-            },
-            {
-                "reading": "かわ",
-                "count": 2,
-                "prop": 0.33
-            }
-        ],
-        "order_wiki_radical_corrected": 396,
+        "order_wiki_radical_corrected": 397,
         "grade_corrected": 3
     },
     {
@@ -30441,7 +30444,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 397,
+        "order_wiki_radical_corrected": 398,
         "grade_corrected": 3
     },
     {
@@ -30507,7 +30510,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 398,
+        "order_wiki_radical_corrected": 399,
         "grade_corrected": 3
     },
     {
@@ -30585,7 +30588,7 @@ let kyouiku =
                 "prop": 0.36
             }
         ],
-        "order_wiki_radical_corrected": 399,
+        "order_wiki_radical_corrected": 400,
         "grade_corrected": 3
     },
     {
@@ -30684,7 +30687,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 400,
+        "order_wiki_radical_corrected": 401,
         "grade_corrected": 3
     },
     {
@@ -30756,7 +30759,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 401,
+        "order_wiki_radical_corrected": 402,
         "grade_corrected": 3
     },
     {
@@ -30828,7 +30831,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 402,
+        "order_wiki_radical_corrected": 403,
         "grade_corrected": 3
     },
     {
@@ -30893,7 +30896,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 403,
+        "order_wiki_radical_corrected": 404,
         "grade_corrected": 3
     },
     {
@@ -30991,7 +30994,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 404,
+        "order_wiki_radical_corrected": 405,
         "grade_corrected": 3
     },
     {
@@ -31069,7 +31072,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 405,
+        "order_wiki_radical_corrected": 406,
         "grade_corrected": 3
     },
     {
@@ -31131,7 +31134,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 406,
+        "order_wiki_radical_corrected": 407,
         "grade_corrected": 3
     },
     {
@@ -31189,7 +31192,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 407,
+        "order_wiki_radical_corrected": 408,
         "grade_corrected": 3
     },
     {
@@ -31255,7 +31258,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 408,
+        "order_wiki_radical_corrected": 409,
         "grade_corrected": 6
     },
     {
@@ -31320,7 +31323,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 409,
+        "order_wiki_radical_corrected": 410,
         "grade_corrected": 3
     },
     {
@@ -31385,7 +31388,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 410,
+        "order_wiki_radical_corrected": 411,
         "grade_corrected": 3
     },
     {
@@ -31448,7 +31451,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 411,
+        "order_wiki_radical_corrected": 412,
         "grade_corrected": 3
     },
     {
@@ -31516,7 +31519,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 412,
+        "order_wiki_radical_corrected": 413,
         "grade_corrected": 3
     },
     {
@@ -31580,7 +31583,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 413,
+        "order_wiki_radical_corrected": 414,
         "grade_corrected": 3
     },
     {
@@ -31657,7 +31660,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 414,
+        "order_wiki_radical_corrected": 415,
         "grade_corrected": 3
     },
     {
@@ -31746,7 +31749,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 415,
+        "order_wiki_radical_corrected": 416,
         "grade_corrected": 3
     },
     {
@@ -31816,7 +31819,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 416,
+        "order_wiki_radical_corrected": 417,
         "grade_corrected": 3
     },
     {
@@ -31880,7 +31883,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 417,
+        "order_wiki_radical_corrected": 418,
         "grade_corrected": 3
     },
     {
@@ -31965,7 +31968,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 418,
+        "order_wiki_radical_corrected": 419,
         "grade_corrected": 3
     },
     {
@@ -32043,7 +32046,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 419,
+        "order_wiki_radical_corrected": 420,
         "grade_corrected": 3
     },
     {
@@ -32120,7 +32123,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 420,
+        "order_wiki_radical_corrected": 421,
         "grade_corrected": 3
     },
     {
@@ -32201,7 +32204,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 421,
+        "order_wiki_radical_corrected": 422,
         "grade_corrected": 3
     },
     {
@@ -32272,7 +32275,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 422,
+        "order_wiki_radical_corrected": 423,
         "grade_corrected": 3
     },
     {
@@ -32354,7 +32357,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 423,
+        "order_wiki_radical_corrected": 424,
         "grade_corrected": 3
     },
     {
@@ -32444,7 +32447,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 424,
+        "order_wiki_radical_corrected": 425,
         "grade_corrected": 3
     },
     {
@@ -32521,7 +32524,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 425,
+        "order_wiki_radical_corrected": 426,
         "grade_corrected": 3
     },
     {
@@ -32592,7 +32595,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 426,
+        "order_wiki_radical_corrected": 427,
         "grade_corrected": 4
     },
     {
@@ -32675,7 +32678,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 427,
+        "order_wiki_radical_corrected": 428,
         "grade_corrected": 3
     },
     {
@@ -32752,7 +32755,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 428,
+        "order_wiki_radical_corrected": 429,
         "grade_corrected": 3
     },
     {
@@ -32841,7 +32844,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 429,
+        "order_wiki_radical_corrected": 430,
         "grade_corrected": 3
     },
     {
@@ -32910,7 +32913,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 430,
+        "order_wiki_radical_corrected": 431,
         "grade_corrected": 3
     },
     {
@@ -32994,7 +32997,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 431,
+        "order_wiki_radical_corrected": 432,
         "grade_corrected": 3
     },
     {
@@ -33059,7 +33062,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 432,
+        "order_wiki_radical_corrected": 433,
         "grade_corrected": 3
     },
     {
@@ -33143,7 +33146,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 433,
+        "order_wiki_radical_corrected": 434,
         "grade_corrected": 3
     },
     {
@@ -33205,7 +33208,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 434,
+        "order_wiki_radical_corrected": 435,
         "grade_corrected": 3
     },
     {
@@ -33291,7 +33294,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 435,
+        "order_wiki_radical_corrected": 436,
         "grade_corrected": 3
     },
     {
@@ -33367,7 +33370,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 436,
+        "order_wiki_radical_corrected": 437,
         "grade_corrected": 3
     },
     {
@@ -33437,7 +33440,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 437,
+        "order_wiki_radical_corrected": 438,
         "grade_corrected": 3
     },
     {
@@ -33509,7 +33512,7 @@ let kyouiku =
                 "prop": 0.28
             }
         ],
-        "order_wiki_radical_corrected": 438,
+        "order_wiki_radical_corrected": 439,
         "grade_corrected": 3
     },
     {
@@ -33588,7 +33591,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 439,
+        "order_wiki_radical_corrected": 440,
         "grade_corrected": 3
     },
     {
@@ -33671,7 +33674,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 440,
+        "order_wiki_radical_corrected": 441,
         "grade_corrected": 3
     },
     {
@@ -33732,7 +33735,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 441,
+        "order_wiki_radical_corrected": 442,
         "grade_corrected": 3
     },
     {
@@ -33808,7 +33811,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 442,
+        "order_wiki_radical_corrected": 443,
         "grade_corrected": 3
     },
     {
@@ -33882,7 +33885,7 @@ let kyouiku =
                 "prop": 0.48
             }
         ],
-        "order_wiki_radical_corrected": 443,
+        "order_wiki_radical_corrected": 444,
         "grade_corrected": 3
     },
     {
@@ -33955,7 +33958,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 444,
+        "order_wiki_radical_corrected": 445,
         "grade_corrected": 3
     },
     {
@@ -34043,7 +34046,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 445,
+        "order_wiki_radical_corrected": 446,
         "grade_corrected": 3
     },
     {
@@ -34116,7 +34119,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 446,
+        "order_wiki_radical_corrected": 447,
         "grade_corrected": 3
     },
     {
@@ -34197,7 +34200,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 447,
+        "order_wiki_radical_corrected": 448,
         "grade_corrected": 3
     },
     {
@@ -34279,7 +34282,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 448,
+        "order_wiki_radical_corrected": 449,
         "grade_corrected": 3
     },
     {
@@ -34358,7 +34361,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 449,
+        "order_wiki_radical_corrected": 450,
         "grade_corrected": 3
     },
     {
@@ -34437,7 +34440,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 450,
+        "order_wiki_radical_corrected": 451,
         "grade_corrected": 3
     },
     {
@@ -34508,7 +34511,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 451,
+        "order_wiki_radical_corrected": 452,
         "grade_corrected": 3
     },
     {
@@ -34585,7 +34588,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 452,
+        "order_wiki_radical_corrected": 453,
         "grade_corrected": 3
     },
     {
@@ -34659,7 +34662,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 453,
+        "order_wiki_radical_corrected": 454,
         "grade_corrected": 4
     },
     {
@@ -34737,7 +34740,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 454,
+        "order_wiki_radical_corrected": 455,
         "grade_corrected": 4
     },
     {
@@ -34804,7 +34807,7 @@ let kyouiku =
                 "prop": 0.27
             }
         ],
-        "order_wiki_radical_corrected": 455,
+        "order_wiki_radical_corrected": 456,
         "grade_corrected": 3
     },
     {
@@ -34864,7 +34867,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 456,
+        "order_wiki_radical_corrected": 457,
         "grade_corrected": 3
     },
     {
@@ -34946,7 +34949,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 457,
+        "order_wiki_radical_corrected": 458,
         "grade_corrected": 3
     },
     {
@@ -35013,7 +35016,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 458,
+        "order_wiki_radical_corrected": 459,
         "grade_corrected": 3
     },
     {
@@ -35084,7 +35087,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 459,
+        "order_wiki_radical_corrected": 460,
         "grade_corrected": 3
     },
     {
@@ -35153,7 +35156,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 460,
+        "order_wiki_radical_corrected": 461,
         "grade_corrected": 5
     },
     {
@@ -35222,7 +35225,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 461,
+        "order_wiki_radical_corrected": 462,
         "grade_corrected": 3
     },
     {
@@ -35307,7 +35310,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 462,
+        "order_wiki_radical_corrected": 463,
         "grade_corrected": 3
     },
     {
@@ -35387,7 +35390,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 463,
+        "order_wiki_radical_corrected": 464,
         "grade_corrected": 3
     },
     {
@@ -35453,7 +35456,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 464,
+        "order_wiki_radical_corrected": 465,
         "grade_corrected": 3
     },
     {
@@ -35526,7 +35529,7 @@ let kyouiku =
                 "prop": 0.45
             }
         ],
-        "order_wiki_radical_corrected": 465,
+        "order_wiki_radical_corrected": 466,
         "grade_corrected": 3
     },
     {
@@ -35595,7 +35598,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 466,
+        "order_wiki_radical_corrected": 467,
         "grade_corrected": 3
     },
     {
@@ -35653,7 +35656,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 467,
+        "order_wiki_radical_corrected": 468,
         "grade_corrected": 3
     },
     {
@@ -35721,7 +35724,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 468,
+        "order_wiki_radical_corrected": 469,
         "grade_corrected": 3
     },
     {
@@ -35792,7 +35795,7 @@ let kyouiku =
                 "prop": 0.01
             }
         ],
-        "order_wiki_radical_corrected": 469,
+        "order_wiki_radical_corrected": 470,
         "grade_corrected": 4
     },
     {
@@ -35869,7 +35872,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 470,
+        "order_wiki_radical_corrected": 471,
         "grade_corrected": 4
     },
     {
@@ -35956,7 +35959,7 @@ let kyouiku =
                 "prop": 0.37
             }
         ],
-        "order_wiki_radical_corrected": 471,
+        "order_wiki_radical_corrected": 472,
         "grade_corrected": 4
     },
     {
@@ -36036,7 +36039,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 472,
+        "order_wiki_radical_corrected": 473,
         "grade_corrected": 4
     },
     {
@@ -36111,7 +36114,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 473,
+        "order_wiki_radical_corrected": 474,
         "grade_corrected": 4
     },
     {
@@ -36196,7 +36199,7 @@ let kyouiku =
                 "prop": 0.19
             }
         ],
-        "order_wiki_radical_corrected": 474,
+        "order_wiki_radical_corrected": 475,
         "grade_corrected": 4
     },
     {
@@ -36271,7 +36274,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 475,
+        "order_wiki_radical_corrected": 476,
         "grade_corrected": 4
     },
     {
@@ -36347,7 +36350,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 476,
+        "order_wiki_radical_corrected": 477,
         "grade_corrected": 4
     },
     {
@@ -36424,7 +36427,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 477,
+        "order_wiki_radical_corrected": 478,
         "grade_corrected": 4
     },
     {
@@ -36516,7 +36519,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 478,
+        "order_wiki_radical_corrected": 479,
         "grade_corrected": 4
     },
     {
@@ -36580,7 +36583,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 479,
+        "order_wiki_radical_corrected": 480,
         "grade_corrected": 4
     },
     {
@@ -36645,7 +36648,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 480,
+        "order_wiki_radical_corrected": 481,
         "grade_corrected": 4
     },
     {
@@ -36722,7 +36725,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 481,
+        "order_wiki_radical_corrected": 482,
         "grade_corrected": 4
     },
     {
@@ -36806,7 +36809,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 482,
+        "order_wiki_radical_corrected": 483,
         "grade_corrected": 4
     },
     {
@@ -36884,7 +36887,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 483,
+        "order_wiki_radical_corrected": 484,
         "grade_corrected": 4
     },
     {
@@ -36968,7 +36971,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 484,
+        "order_wiki_radical_corrected": 485,
         "grade_corrected": 4
     },
     {
@@ -37037,7 +37040,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 485,
+        "order_wiki_radical_corrected": 486,
         "grade_corrected": 4
     },
     {
@@ -37096,7 +37099,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 486,
+        "order_wiki_radical_corrected": 487,
         "grade_corrected": 4
     },
     {
@@ -37164,7 +37167,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 487,
+        "order_wiki_radical_corrected": 488,
         "grade_corrected": 4
     },
     {
@@ -37238,7 +37241,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 488,
+        "order_wiki_radical_corrected": 489,
         "grade_corrected": 4
     },
     {
@@ -37316,7 +37319,7 @@ let kyouiku =
                 "prop": 0.15
             }
         ],
-        "order_wiki_radical_corrected": 489,
+        "order_wiki_radical_corrected": 490,
         "grade_corrected": 4
     },
     {
@@ -37390,7 +37393,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 490,
+        "order_wiki_radical_corrected": 491,
         "grade_corrected": 4
     },
     {
@@ -37456,7 +37459,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 491,
+        "order_wiki_radical_corrected": 492,
         "grade_corrected": 4
     },
     {
@@ -37546,7 +37549,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 492,
+        "order_wiki_radical_corrected": 493,
         "grade_corrected": 4
     },
     {
@@ -37635,7 +37638,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 493,
+        "order_wiki_radical_corrected": 494,
         "grade_corrected": 4
     },
     {
@@ -37723,7 +37726,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 494,
+        "order_wiki_radical_corrected": 495,
         "grade_corrected": 4
     },
     {
@@ -37799,7 +37802,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 495,
+        "order_wiki_radical_corrected": 496,
         "grade_corrected": 4
     },
     {
@@ -37877,7 +37880,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 496,
+        "order_wiki_radical_corrected": 497,
         "grade_corrected": 4
     },
     {
@@ -37943,7 +37946,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 497,
+        "order_wiki_radical_corrected": 498,
         "grade_corrected": 4
     },
     {
@@ -38012,7 +38015,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 498,
+        "order_wiki_radical_corrected": 499,
         "grade_corrected": 4
     },
     {
@@ -38088,7 +38091,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 499,
+        "order_wiki_radical_corrected": 500,
         "grade_corrected": 4
     },
     {
@@ -38164,7 +38167,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 500,
+        "order_wiki_radical_corrected": 501,
         "grade_corrected": 4
     },
     {
@@ -38242,7 +38245,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 501,
+        "order_wiki_radical_corrected": 502,
         "grade_corrected": 4
     },
     {
@@ -38320,7 +38323,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 502,
+        "order_wiki_radical_corrected": 503,
         "grade_corrected": 4
     },
     {
@@ -38387,7 +38390,7 @@ let kyouiku =
                 "prop": 0.44
             }
         ],
-        "order_wiki_radical_corrected": 503,
+        "order_wiki_radical_corrected": 504,
         "grade_corrected": 4
     },
     {
@@ -38462,7 +38465,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 504,
+        "order_wiki_radical_corrected": 505,
         "grade_corrected": 4
     },
     {
@@ -38523,7 +38526,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 505,
+        "order_wiki_radical_corrected": 506,
         "grade_corrected": 4
     },
     {
@@ -38581,7 +38584,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 506,
+        "order_wiki_radical_corrected": 507,
         "grade_corrected": 4
     },
     {
@@ -38661,7 +38664,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 507,
+        "order_wiki_radical_corrected": 508,
         "grade_corrected": 4
     },
     {
@@ -38741,7 +38744,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 508,
+        "order_wiki_radical_corrected": 509,
         "grade_corrected": 4
     },
     {
@@ -38829,7 +38832,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 509,
+        "order_wiki_radical_corrected": 510,
         "grade_corrected": 4
     },
     {
@@ -38902,7 +38905,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 510,
+        "order_wiki_radical_corrected": 511,
         "grade_corrected": 4
     },
     {
@@ -38972,7 +38975,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 511,
+        "order_wiki_radical_corrected": 512,
         "grade_corrected": 4
     },
     {
@@ -39050,7 +39053,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 512,
+        "order_wiki_radical_corrected": 513,
         "grade_corrected": 4
     },
     {
@@ -39126,7 +39129,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 513,
+        "order_wiki_radical_corrected": 514,
         "grade_corrected": 4
     },
     {
@@ -39207,7 +39210,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 514,
+        "order_wiki_radical_corrected": 515,
         "grade_corrected": 4
     },
     {
@@ -39282,7 +39285,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 515,
+        "order_wiki_radical_corrected": 516,
         "grade_corrected": 4
     },
     {
@@ -39368,7 +39371,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 516,
+        "order_wiki_radical_corrected": 517,
         "grade_corrected": 4
     },
     {
@@ -39428,7 +39431,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 517,
+        "order_wiki_radical_corrected": 518,
         "grade_corrected": 4
     },
     {
@@ -39491,7 +39494,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 518,
+        "order_wiki_radical_corrected": 519,
         "grade_corrected": 4
     },
     {
@@ -39554,7 +39557,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 519,
+        "order_wiki_radical_corrected": 520,
         "grade_corrected": 4
     },
     {
@@ -39614,7 +39617,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 520,
+        "order_wiki_radical_corrected": 521,
         "grade_corrected": 4
     },
     {
@@ -39681,7 +39684,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 521,
+        "order_wiki_radical_corrected": 522,
         "grade_corrected": 4
     },
     {
@@ -39747,7 +39750,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 522,
+        "order_wiki_radical_corrected": 523,
         "grade_corrected": 4
     },
     {
@@ -39811,7 +39814,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 523,
+        "order_wiki_radical_corrected": 524,
         "grade_corrected": 4
     },
     {
@@ -39896,7 +39899,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 524,
+        "order_wiki_radical_corrected": 525,
         "grade_corrected": 4
     },
     {
@@ -39975,7 +39978,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 525,
+        "order_wiki_radical_corrected": 526,
         "grade_corrected": 4
     },
     {
@@ -40045,7 +40048,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 526,
+        "order_wiki_radical_corrected": 527,
         "grade_corrected": 4
     },
     {
@@ -40128,7 +40131,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 527,
+        "order_wiki_radical_corrected": 528,
         "grade_corrected": 4
     },
     {
@@ -40207,7 +40210,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 528,
+        "order_wiki_radical_corrected": 529,
         "grade_corrected": 4
     },
     {
@@ -40270,7 +40273,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 529,
+        "order_wiki_radical_corrected": 530,
         "grade_corrected": 4
     },
     {
@@ -40330,7 +40333,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='康'>Gesundheit</span> <span class='meaning_kanji_reading'>(康)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 528,
-        "order_wiki_radical_corrected": 530,
+        "order_wiki_radical_corrected": 531,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -40414,7 +40417,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 531,
+        "order_wiki_radical_corrected": 532,
         "grade_corrected": 4
     },
     {
@@ -40474,7 +40477,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 530,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 532,
+        "order_wiki_radical_corrected": 533,
         "grade_corrected": 4
     },
     {
@@ -40551,7 +40554,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 533,
+        "order_wiki_radical_corrected": 534,
         "grade_corrected": 4
     },
     {
@@ -40629,7 +40632,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 534,
+        "order_wiki_radical_corrected": 535,
         "grade_corrected": 4
     },
     {
@@ -40697,7 +40700,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 535,
+        "order_wiki_radical_corrected": 536,
         "grade_corrected": 4
     },
     {
@@ -40779,7 +40782,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 536,
+        "order_wiki_radical_corrected": 537,
         "grade_corrected": 4
     },
     {
@@ -40862,7 +40865,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 537,
+        "order_wiki_radical_corrected": 538,
         "grade_corrected": 4
     },
     {
@@ -40936,7 +40939,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 538,
+        "order_wiki_radical_corrected": 539,
         "grade_corrected": 4
     },
     {
@@ -41023,7 +41026,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 539,
+        "order_wiki_radical_corrected": 540,
         "grade_corrected": 4
     },
     {
@@ -41108,7 +41111,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 540,
+        "order_wiki_radical_corrected": 541,
         "grade_corrected": 4
     },
     {
@@ -41185,7 +41188,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 541,
+        "order_wiki_radical_corrected": 542,
         "grade_corrected": 4
     },
     {
@@ -41257,7 +41260,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 542,
+        "order_wiki_radical_corrected": 543,
         "grade_corrected": 4
     },
     {
@@ -41342,7 +41345,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 543,
+        "order_wiki_radical_corrected": 544,
         "grade_corrected": 4
     },
     {
@@ -41405,7 +41408,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 544,
+        "order_wiki_radical_corrected": 545,
         "grade_corrected": 4
     },
     {
@@ -41479,7 +41482,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 545,
+        "order_wiki_radical_corrected": 546,
         "grade_corrected": 4
     },
     {
@@ -41551,7 +41554,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 546,
+        "order_wiki_radical_corrected": 547,
         "grade_corrected": 4
     },
     {
@@ -41617,7 +41620,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 547,
+        "order_wiki_radical_corrected": 548,
         "grade_corrected": 4
     },
     {
@@ -41705,7 +41708,7 @@ let kyouiku =
                 "prop": 0.02
             }
         ],
-        "order_wiki_radical_corrected": 548,
+        "order_wiki_radical_corrected": 549,
         "grade_corrected": 4
     },
     {
@@ -41785,7 +41788,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 549,
+        "order_wiki_radical_corrected": 550,
         "grade_corrected": 6
     },
     {
@@ -41872,7 +41875,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 550,
+        "order_wiki_radical_corrected": 551,
         "grade_corrected": 4
     },
     {
@@ -41948,7 +41951,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 551,
+        "order_wiki_radical_corrected": 552,
         "grade_corrected": 4
     },
     {
@@ -42025,7 +42028,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 552,
+        "order_wiki_radical_corrected": 553,
         "grade_corrected": 4
     },
     {
@@ -42093,7 +42096,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 553,
+        "order_wiki_radical_corrected": 554,
         "grade_corrected": 4
     },
     {
@@ -42158,7 +42161,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 554,
+        "order_wiki_radical_corrected": 555,
         "grade_corrected": 4
     },
     {
@@ -42239,7 +42242,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 555,
+        "order_wiki_radical_corrected": 556,
         "grade_corrected": 4
     },
     {
@@ -42321,7 +42324,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 556,
+        "order_wiki_radical_corrected": 557,
         "grade_corrected": 4
     },
     {
@@ -42393,7 +42396,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 557,
+        "order_wiki_radical_corrected": 558,
         "grade_corrected": 4
     },
     {
@@ -42476,7 +42479,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 558,
+        "order_wiki_radical_corrected": 559,
         "grade_corrected": 4
     },
     {
@@ -42539,7 +42542,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_reading'>(械)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 558,
-        "order_wiki_radical_corrected": 559,
+        "order_wiki_radical_corrected": 560,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -42647,7 +42650,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 560,
+        "order_wiki_radical_corrected": 561,
         "grade_corrected": 4
     },
     {
@@ -42727,7 +42730,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 561,
+        "order_wiki_radical_corrected": 562,
         "grade_corrected": 4
     },
     {
@@ -42808,7 +42811,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 562,
+        "order_wiki_radical_corrected": 563,
         "grade_corrected": 4
     },
     {
@@ -42883,7 +42886,7 @@ let kyouiku =
                 "prop": 0.36
             }
         ],
-        "order_wiki_radical_corrected": 563,
+        "order_wiki_radical_corrected": 564,
         "grade_corrected": 4
     },
     {
@@ -42957,7 +42960,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 564,
+        "order_wiki_radical_corrected": 565,
         "grade_corrected": 4
     },
     {
@@ -43036,7 +43039,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 565,
+        "order_wiki_radical_corrected": 566,
         "grade_corrected": 4
     },
     {
@@ -43129,7 +43132,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 566,
+        "order_wiki_radical_corrected": 567,
         "grade_corrected": 4
     },
     {
@@ -43200,7 +43203,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 567,
+        "order_wiki_radical_corrected": 568,
         "grade_corrected": 4
     },
     {
@@ -43267,7 +43270,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 568,
+        "order_wiki_radical_corrected": 569,
         "grade_corrected": 4
     },
     {
@@ -43335,7 +43338,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 569,
+        "order_wiki_radical_corrected": 570,
         "grade_corrected": 4
     },
     {
@@ -43410,7 +43413,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 570,
+        "order_wiki_radical_corrected": 571,
         "grade_corrected": 4
     },
     {
@@ -43494,7 +43497,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 571,
+        "order_wiki_radical_corrected": 572,
         "grade_corrected": 4
     },
     {
@@ -43572,7 +43575,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 572,
+        "order_wiki_radical_corrected": 573,
         "grade_corrected": 4
     },
     {
@@ -43648,7 +43651,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 573,
+        "order_wiki_radical_corrected": 574,
         "grade_corrected": 4
     },
     {
@@ -43730,7 +43733,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 574,
+        "order_wiki_radical_corrected": 575,
         "grade_corrected": 4
     },
     {
@@ -43804,7 +43807,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 575,
+        "order_wiki_radical_corrected": 576,
         "grade_corrected": 4
     },
     {
@@ -43890,7 +43893,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 576,
+        "order_wiki_radical_corrected": 577,
         "grade_corrected": 4
     },
     {
@@ -43970,7 +43973,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 577,
+        "order_wiki_radical_corrected": 578,
         "grade_corrected": 4
     },
     {
@@ -44047,7 +44050,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 578,
+        "order_wiki_radical_corrected": 579,
         "grade_corrected": 4
     },
     {
@@ -44128,7 +44131,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 579,
+        "order_wiki_radical_corrected": 580,
         "grade_corrected": 4
     },
     {
@@ -44197,7 +44200,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 580,
+        "order_wiki_radical_corrected": 581,
         "grade_corrected": 4
     },
     {
@@ -44293,7 +44296,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 581,
+        "order_wiki_radical_corrected": 582,
         "grade_corrected": 4
     },
     {
@@ -44372,7 +44375,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 582,
+        "order_wiki_radical_corrected": 583,
         "grade_corrected": 4
     },
     {
@@ -44444,7 +44447,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 583,
+        "order_wiki_radical_corrected": 584,
         "grade_corrected": 4
     },
     {
@@ -44524,7 +44527,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 584,
+        "order_wiki_radical_corrected": 585,
         "grade_corrected": 4
     },
     {
@@ -44600,7 +44603,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 585,
+        "order_wiki_radical_corrected": 586,
         "grade_corrected": 4
     },
     {
@@ -44663,7 +44666,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 586,
+        "order_wiki_radical_corrected": 587,
         "grade_corrected": 4
     },
     {
@@ -44741,7 +44744,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 587,
+        "order_wiki_radical_corrected": 588,
         "grade_corrected": 4
     },
     {
@@ -44834,7 +44837,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 588,
+        "order_wiki_radical_corrected": 589,
         "grade_corrected": 4
     },
     {
@@ -44922,7 +44925,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 589,
+        "order_wiki_radical_corrected": 590,
         "grade_corrected": 4
     },
     {
@@ -44993,7 +44996,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 590,
+        "order_wiki_radical_corrected": 591,
         "grade_corrected": 4
     },
     {
@@ -45066,7 +45069,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 591,
+        "order_wiki_radical_corrected": 592,
         "grade_corrected": 4
     },
     {
@@ -45162,7 +45165,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 592,
+        "order_wiki_radical_corrected": 593,
         "grade_corrected": 4
     },
     {
@@ -45229,7 +45232,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 593,
+        "order_wiki_radical_corrected": 594,
         "grade_corrected": 4
     },
     {
@@ -45319,7 +45322,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 594,
+        "order_wiki_radical_corrected": 595,
         "grade_corrected": 4
     },
     {
@@ -45391,7 +45394,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 595,
+        "order_wiki_radical_corrected": 596,
         "grade_corrected": 4
     },
     {
@@ -45472,7 +45475,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 596,
+        "order_wiki_radical_corrected": 597,
         "grade_corrected": 4
     },
     {
@@ -45549,7 +45552,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 597,
+        "order_wiki_radical_corrected": 598,
         "grade_corrected": 4
     },
     {
@@ -45630,7 +45633,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 598,
+        "order_wiki_radical_corrected": 599,
         "grade_corrected": 4
     },
     {
@@ -45680,7 +45683,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='臣'>Gefolgsmann</span> <span class='meaning_kanji_reading'>(臣)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 600,
-        "order_wiki_radical_corrected": 599,
+        "order_wiki_radical_corrected": 600,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -45755,7 +45758,7 @@ let kyouiku =
                 "prop": 0.45
             }
         ],
-        "order_wiki_radical_corrected": 600,
+        "order_wiki_radical_corrected": 601,
         "grade_corrected": 4
     },
     {
@@ -45827,7 +45830,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 601,
+        "order_wiki_radical_corrected": 602,
         "grade_corrected": 4
     },
     {
@@ -45894,7 +45897,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 602,
+        "order_wiki_radical_corrected": 603,
         "grade_corrected": 4
     },
     {
@@ -45967,7 +45970,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 603,
+        "order_wiki_radical_corrected": 604,
         "grade_corrected": 4
     },
     {
@@ -46036,7 +46039,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 604,
+        "order_wiki_radical_corrected": 605,
         "grade_corrected": 4
     },
     {
@@ -46114,7 +46117,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 605,
+        "order_wiki_radical_corrected": 606,
         "grade_corrected": 4
     },
     {
@@ -46180,7 +46183,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 606,
+        "order_wiki_radical_corrected": 607,
         "grade_corrected": 4
     },
     {
@@ -46261,7 +46264,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 607,
+        "order_wiki_radical_corrected": 608,
         "grade_corrected": 4
     },
     {
@@ -46349,7 +46352,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 608,
+        "order_wiki_radical_corrected": 609,
         "grade_corrected": 4
     },
     {
@@ -46422,7 +46425,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 609,
+        "order_wiki_radical_corrected": 610,
         "grade_corrected": 4
     },
     {
@@ -46495,7 +46498,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 610,
+        "order_wiki_radical_corrected": 611,
         "grade_corrected": 4
     },
     {
@@ -46582,7 +46585,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 611,
+        "order_wiki_radical_corrected": 612,
         "grade_corrected": 4
     },
     {
@@ -46660,7 +46663,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 612,
+        "order_wiki_radical_corrected": 613,
         "grade_corrected": 4
     },
     {
@@ -46724,7 +46727,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 613,
+        "order_wiki_radical_corrected": 614,
         "grade_corrected": 4
     },
     {
@@ -46788,7 +46791,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 614,
+        "order_wiki_radical_corrected": 615,
         "grade_corrected": 4
     },
     {
@@ -46851,7 +46854,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 615,
+        "order_wiki_radical_corrected": 616,
         "grade_corrected": 4
     },
     {
@@ -46917,7 +46920,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 616,
+        "order_wiki_radical_corrected": 617,
         "grade_corrected": 4
     },
     {
@@ -46994,7 +46997,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 617,
+        "order_wiki_radical_corrected": 618,
         "grade_corrected": 4
     },
     {
@@ -47061,7 +47064,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 618,
+        "order_wiki_radical_corrected": 619,
         "grade_corrected": 4
     },
     {
@@ -47136,7 +47139,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 619,
+        "order_wiki_radical_corrected": 620,
         "grade_corrected": 4
     },
     {
@@ -47211,7 +47214,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 620,
+        "order_wiki_radical_corrected": 621,
         "grade_corrected": 4
     },
     {
@@ -47275,7 +47278,7 @@ let kyouiku =
                 "prop": 0.32
             }
         ],
-        "order_wiki_radical_corrected": 621,
+        "order_wiki_radical_corrected": 622,
         "grade_corrected": 4
     },
     {
@@ -47341,7 +47344,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 622,
+        "order_wiki_radical_corrected": 623,
         "grade_corrected": 4
     },
     {
@@ -47420,7 +47423,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 623,
+        "order_wiki_radical_corrected": 624,
         "grade_corrected": 4
     },
     {
@@ -47485,7 +47488,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 625,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 624,
+        "order_wiki_radical_corrected": 625,
         "grade_corrected": 4
     },
     {
@@ -47544,7 +47547,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 626,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 625,
+        "order_wiki_radical_corrected": 626,
         "grade_corrected": 5
     },
     {
@@ -47628,7 +47631,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 626,
+        "order_wiki_radical_corrected": 627,
         "grade_corrected": 5
     },
     {
@@ -47712,7 +47715,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 627,
+        "order_wiki_radical_corrected": 628,
         "grade_corrected": 4
     },
     {
@@ -47788,7 +47791,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 628,
+        "order_wiki_radical_corrected": 629,
         "grade_corrected": 4
     },
     {
@@ -47864,7 +47867,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 629,
+        "order_wiki_radical_corrected": 630,
         "grade_corrected": 4
     },
     {
@@ -47955,7 +47958,7 @@ let kyouiku =
                 "prop": 0.02
             }
         ],
-        "order_wiki_radical_corrected": 630,
+        "order_wiki_radical_corrected": 631,
         "grade_corrected": 4
     },
     {
@@ -48034,7 +48037,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 631,
+        "order_wiki_radical_corrected": 632,
         "grade_corrected": 4
     },
     {
@@ -48114,7 +48117,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 632,
+        "order_wiki_radical_corrected": 633,
         "grade_corrected": 4
     },
     {
@@ -48179,7 +48182,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 633,
+        "order_wiki_radical_corrected": 634,
         "grade_corrected": 4
     },
     {
@@ -48251,7 +48254,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 634,
+        "order_wiki_radical_corrected": 635,
         "grade_corrected": 4
     },
     {
@@ -48317,7 +48320,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 635,
+        "order_wiki_radical_corrected": 636,
         "grade_corrected": 4
     },
     {
@@ -48388,7 +48391,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 636,
+        "order_wiki_radical_corrected": 637,
         "grade_corrected": 4
     },
     {
@@ -48477,7 +48480,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 637,
+        "order_wiki_radical_corrected": 638,
         "grade_corrected": 4
     },
     {
@@ -48545,7 +48548,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 638,
+        "order_wiki_radical_corrected": 639,
         "grade_corrected": 4
     },
     {
@@ -48614,7 +48617,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 639,
+        "order_wiki_radical_corrected": 640,
         "grade_corrected": 4
     },
     {
@@ -48678,7 +48681,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='徳'>Tugend</span> <span class='meaning_kanji_reading'>(徳)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 641,
-        "order_wiki_radical_corrected": 640,
+        "order_wiki_radical_corrected": 641,
         "grade_corrected": 5,
         "reading_dist": []
     },
@@ -48758,7 +48761,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 641,
+        "order_wiki_radical_corrected": 642,
         "grade_corrected": 5
     },
     {
@@ -48824,7 +48827,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 642,
+        "order_wiki_radical_corrected": 643,
         "grade_corrected": 4
     },
     {
@@ -48895,7 +48898,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 643,
+        "order_wiki_radical_corrected": 644,
         "grade_corrected": 4
     },
     {
@@ -48963,7 +48966,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 644,
+        "order_wiki_radical_corrected": 645,
         "grade_corrected": 4
     },
     {
@@ -49037,7 +49040,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 645,
+        "order_wiki_radical_corrected": 646,
         "grade_corrected": 4
     },
     {
@@ -49110,7 +49113,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 646,
+        "order_wiki_radical_corrected": 647,
         "grade_corrected": 4
     },
     {
@@ -49199,7 +49202,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 647,
+        "order_wiki_radical_corrected": 648,
         "grade_corrected": 4
     },
     {
@@ -49273,7 +49276,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 648,
+        "order_wiki_radical_corrected": 649,
         "grade_corrected": 4
     },
     {
@@ -49348,7 +49351,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 649,
+        "order_wiki_radical_corrected": 650,
         "grade_corrected": 4
     },
     {
@@ -49420,7 +49423,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 650,
+        "order_wiki_radical_corrected": 651,
         "grade_corrected": 4
     },
     {
@@ -49508,7 +49511,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 651,
+        "order_wiki_radical_corrected": 652,
         "grade_corrected": 4
     },
     {
@@ -49571,7 +49574,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 652,
+        "order_wiki_radical_corrected": 653,
         "grade_corrected": 4
     },
     {
@@ -49648,7 +49651,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 653,
+        "order_wiki_radical_corrected": 654,
         "grade_corrected": 4
     },
     {
@@ -49714,7 +49717,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 654,
+        "order_wiki_radical_corrected": 655,
         "grade_corrected": 4
     },
     {
@@ -49782,7 +49785,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 655,
+        "order_wiki_radical_corrected": 656,
         "grade_corrected": 4
     },
     {
@@ -49851,7 +49854,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 656,
+        "order_wiki_radical_corrected": 657,
         "grade_corrected": 4
     },
     {
@@ -49923,7 +49926,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 657,
+        "order_wiki_radical_corrected": 658,
         "grade_corrected": 4
     },
     {
@@ -49996,7 +49999,7 @@ let kyouiku =
                 "prop": 0.15
             }
         ],
-        "order_wiki_radical_corrected": 658,
+        "order_wiki_radical_corrected": 659,
         "grade_corrected": 4
     },
     {
@@ -50072,7 +50075,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 659,
+        "order_wiki_radical_corrected": 660,
         "grade_corrected": 4
     },
     {
@@ -50139,7 +50142,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 660,
+        "order_wiki_radical_corrected": 661,
         "grade_corrected": 4
     },
     {
@@ -50219,7 +50222,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 661,
+        "order_wiki_radical_corrected": 662,
         "grade_corrected": 5
     },
     {
@@ -50300,7 +50303,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 662,
+        "order_wiki_radical_corrected": 663,
         "grade_corrected": 5
     },
     {
@@ -50358,7 +50361,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 663,
+        "order_wiki_radical_corrected": 664,
         "grade_corrected": 5
     },
     {
@@ -50433,7 +50436,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 664,
+        "order_wiki_radical_corrected": 665,
         "grade_corrected": 5
     },
     {
@@ -50510,7 +50513,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 665,
+        "order_wiki_radical_corrected": 666,
         "grade_corrected": 5
     },
     {
@@ -50587,7 +50590,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 666,
+        "order_wiki_radical_corrected": 667,
         "grade_corrected": 5
     },
     {
@@ -50662,7 +50665,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 667,
+        "order_wiki_radical_corrected": 668,
         "grade_corrected": 5
     },
     {
@@ -50737,7 +50740,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 668,
+        "order_wiki_radical_corrected": 669,
         "grade_corrected": 5
     },
     {
@@ -50806,7 +50809,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 669,
+        "order_wiki_radical_corrected": 670,
         "grade_corrected": 5
     },
     {
@@ -50880,7 +50883,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 670,
+        "order_wiki_radical_corrected": 671,
         "grade_corrected": 5
     },
     {
@@ -50958,7 +50961,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 671,
+        "order_wiki_radical_corrected": 672,
         "grade_corrected": 5
     },
     {
@@ -51039,7 +51042,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 672,
+        "order_wiki_radical_corrected": 673,
         "grade_corrected": 5
     },
     {
@@ -51107,7 +51110,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 673,
+        "order_wiki_radical_corrected": 674,
         "grade_corrected": 5
     },
     {
@@ -51190,7 +51193,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 674,
+        "order_wiki_radical_corrected": 675,
         "grade_corrected": 5
     },
     {
@@ -51271,7 +51274,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 675,
+        "order_wiki_radical_corrected": 676,
         "grade_corrected": 5
     },
     {
@@ -51344,7 +51347,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 676,
+        "order_wiki_radical_corrected": 677,
         "grade_corrected": 5
     },
     {
@@ -51417,7 +51420,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 677,
+        "order_wiki_radical_corrected": 678,
         "grade_corrected": 5
     },
     {
@@ -51491,7 +51494,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 678,
+        "order_wiki_radical_corrected": 679,
         "grade_corrected": 5
     },
     {
@@ -51574,7 +51577,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 679,
+        "order_wiki_radical_corrected": 680,
         "grade_corrected": 5
     },
     {
@@ -51657,7 +51660,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 680,
+        "order_wiki_radical_corrected": 681,
         "grade_corrected": 5
     },
     {
@@ -51729,7 +51732,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 681,
+        "order_wiki_radical_corrected": 682,
         "grade_corrected": 5
     },
     {
@@ -51807,7 +51810,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 682,
+        "order_wiki_radical_corrected": 683,
         "grade_corrected": 5
     },
     {
@@ -51875,7 +51878,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 683,
+        "order_wiki_radical_corrected": 684,
         "grade_corrected": 5
     },
     {
@@ -51944,7 +51947,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 684,
+        "order_wiki_radical_corrected": 685,
         "grade_corrected": 6
     },
     {
@@ -52016,7 +52019,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 685,
+        "order_wiki_radical_corrected": 686,
         "grade_corrected": 5
     },
     {
@@ -52095,7 +52098,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 686,
+        "order_wiki_radical_corrected": 687,
         "grade_corrected": 5
     },
     {
@@ -52180,7 +52183,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 687,
+        "order_wiki_radical_corrected": 688,
         "grade_corrected": 5
     },
     {
@@ -52256,7 +52259,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 688,
+        "order_wiki_radical_corrected": 689,
         "grade_corrected": 5
     },
     {
@@ -52335,7 +52338,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 689,
+        "order_wiki_radical_corrected": 690,
         "grade_corrected": 5
     },
     {
@@ -52418,7 +52421,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 690,
+        "order_wiki_radical_corrected": 691,
         "grade_corrected": 5
     },
     {
@@ -52500,7 +52503,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 691,
+        "order_wiki_radical_corrected": 692,
         "grade_corrected": 5
     },
     {
@@ -52573,7 +52576,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 692,
+        "order_wiki_radical_corrected": 693,
         "grade_corrected": 5
     },
     {
@@ -52667,7 +52670,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 693,
+        "order_wiki_radical_corrected": 694,
         "grade_corrected": 5
     },
     {
@@ -52734,7 +52737,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 694,
+        "order_wiki_radical_corrected": 695,
         "grade_corrected": 5
     },
     {
@@ -52817,7 +52820,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 695,
+        "order_wiki_radical_corrected": 696,
         "grade_corrected": 5
     },
     {
@@ -52894,7 +52897,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 696,
+        "order_wiki_radical_corrected": 697,
         "grade_corrected": 5
     },
     {
@@ -52970,7 +52973,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 697,
+        "order_wiki_radical_corrected": 698,
         "grade_corrected": 5
     },
     {
@@ -53038,7 +53041,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 698,
+        "order_wiki_radical_corrected": 699,
         "grade_corrected": 5
     },
     {
@@ -53101,7 +53104,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 701,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 699,
+        "order_wiki_radical_corrected": 700,
         "grade_corrected": 5
     },
     {
@@ -53177,7 +53180,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 700,
+        "order_wiki_radical_corrected": 701,
         "grade_corrected": 5
     },
     {
@@ -53251,7 +53254,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 701,
+        "order_wiki_radical_corrected": 702,
         "grade_corrected": 5
     },
     {
@@ -53325,7 +53328,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 702,
+        "order_wiki_radical_corrected": 703,
         "grade_corrected": 5
     },
     {
@@ -53401,7 +53404,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 703,
+        "order_wiki_radical_corrected": 704,
         "grade_corrected": 5
     },
     {
@@ -53479,7 +53482,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 704,
+        "order_wiki_radical_corrected": 705,
         "grade_corrected": 5
     },
     {
@@ -53549,7 +53552,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 705,
+        "order_wiki_radical_corrected": 706,
         "grade_corrected": 5
     },
     {
@@ -53623,7 +53626,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 706,
+        "order_wiki_radical_corrected": 707,
         "grade_corrected": 5
     },
     {
@@ -53701,7 +53704,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 707,
+        "order_wiki_radical_corrected": 708,
         "grade_corrected": 5
     },
     {
@@ -53780,7 +53783,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 708,
+        "order_wiki_radical_corrected": 709,
         "grade_corrected": 5
     },
     {
@@ -53852,7 +53855,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 709,
+        "order_wiki_radical_corrected": 710,
         "grade_corrected": 5
     },
     {
@@ -53931,7 +53934,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 710,
+        "order_wiki_radical_corrected": 711,
         "grade_corrected": 5
     },
     {
@@ -54002,7 +54005,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 711,
+        "order_wiki_radical_corrected": 712,
         "grade_corrected": 5
     },
     {
@@ -54090,7 +54093,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 712,
+        "order_wiki_radical_corrected": 713,
         "grade_corrected": 5
     },
     {
@@ -54152,7 +54155,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 716,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 713,
+        "order_wiki_radical_corrected": 714,
         "grade_corrected": 5
     },
     {
@@ -54244,7 +54247,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 714,
+        "order_wiki_radical_corrected": 715,
         "grade_corrected": 5
     },
     {
@@ -54313,7 +54316,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 715,
+        "order_wiki_radical_corrected": 716,
         "grade_corrected": 5
     },
     {
@@ -54400,7 +54403,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 716,
+        "order_wiki_radical_corrected": 717,
         "grade_corrected": 5
     },
     {
@@ -54470,7 +54473,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 717,
+        "order_wiki_radical_corrected": 718,
         "grade_corrected": 5
     },
     {
@@ -54538,7 +54541,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 718,
+        "order_wiki_radical_corrected": 719,
         "grade_corrected": 5
     },
     {
@@ -54600,7 +54603,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 719,
+        "order_wiki_radical_corrected": 720,
         "grade_corrected": 5
     },
     {
@@ -54679,7 +54682,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 720,
+        "order_wiki_radical_corrected": 721,
         "grade_corrected": 5
     },
     {
@@ -54749,7 +54752,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 721,
+        "order_wiki_radical_corrected": 722,
         "grade_corrected": 5
     },
     {
@@ -54814,7 +54817,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 722,
+        "order_wiki_radical_corrected": 723,
         "grade_corrected": 5
     },
     {
@@ -54888,7 +54891,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 723,
+        "order_wiki_radical_corrected": 724,
         "grade_corrected": 5
     },
     {
@@ -54967,7 +54970,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 724,
+        "order_wiki_radical_corrected": 725,
         "grade_corrected": 5
     },
     {
@@ -55035,7 +55038,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 725,
+        "order_wiki_radical_corrected": 726,
         "grade_corrected": 5
     },
     {
@@ -55099,7 +55102,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 726,
+        "order_wiki_radical_corrected": 727,
         "grade_corrected": 5
     },
     {
@@ -55184,7 +55187,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 727,
+        "order_wiki_radical_corrected": 728,
         "grade_corrected": 5
     },
     {
@@ -55259,7 +55262,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 728,
+        "order_wiki_radical_corrected": 729,
         "grade_corrected": 5
     },
     {
@@ -55336,7 +55339,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 729,
+        "order_wiki_radical_corrected": 730,
         "grade_corrected": 5
     },
     {
@@ -55417,7 +55420,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 730,
+        "order_wiki_radical_corrected": 731,
         "grade_corrected": 5
     },
     {
@@ -55496,7 +55499,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 731,
+        "order_wiki_radical_corrected": 732,
         "grade_corrected": 5
     },
     {
@@ -55578,7 +55581,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 732,
+        "order_wiki_radical_corrected": 733,
         "grade_corrected": 5
     },
     {
@@ -55650,7 +55653,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 733,
+        "order_wiki_radical_corrected": 734,
         "grade_corrected": 5
     },
     {
@@ -55721,7 +55724,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 734,
+        "order_wiki_radical_corrected": 735,
         "grade_corrected": 5
     },
     {
@@ -55786,7 +55789,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 735,
+        "order_wiki_radical_corrected": 736,
         "grade_corrected": 5
     },
     {
@@ -55858,7 +55861,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 736,
+        "order_wiki_radical_corrected": 737,
         "grade_corrected": 5
     },
     {
@@ -55924,7 +55927,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 737,
+        "order_wiki_radical_corrected": 738,
         "grade_corrected": 5
     },
     {
@@ -56006,7 +56009,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 738,
+        "order_wiki_radical_corrected": 739,
         "grade_corrected": 5
     },
     {
@@ -56100,7 +56103,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 739,
+        "order_wiki_radical_corrected": 740,
         "grade_corrected": 5
     },
     {
@@ -56177,7 +56180,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 740,
+        "order_wiki_radical_corrected": 741,
         "grade_corrected": 5
     },
     {
@@ -56271,7 +56274,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 741,
+        "order_wiki_radical_corrected": 742,
         "grade_corrected": 5
     },
     {
@@ -56351,7 +56354,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 742,
+        "order_wiki_radical_corrected": 743,
         "grade_corrected": 5
     },
     {
@@ -56432,7 +56435,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 743,
+        "order_wiki_radical_corrected": 744,
         "grade_corrected": 5
     },
     {
@@ -56507,7 +56510,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 744,
+        "order_wiki_radical_corrected": 745,
         "grade_corrected": 5
     },
     {
@@ -56583,7 +56586,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 745,
+        "order_wiki_radical_corrected": 746,
         "grade_corrected": 5
     },
     {
@@ -56677,7 +56680,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 746,
+        "order_wiki_radical_corrected": 747,
         "grade_corrected": 5
     },
     {
@@ -56749,7 +56752,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 747,
+        "order_wiki_radical_corrected": 748,
         "grade_corrected": 5
     },
     {
@@ -56811,7 +56814,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 748,
+        "order_wiki_radical_corrected": 749,
         "grade_corrected": 5
     },
     {
@@ -56874,7 +56877,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 749,
+        "order_wiki_radical_corrected": 750,
         "grade_corrected": 5
     },
     {
@@ -56952,7 +56955,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 750,
+        "order_wiki_radical_corrected": 751,
         "grade_corrected": 5
     },
     {
@@ -57034,7 +57037,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 751,
+        "order_wiki_radical_corrected": 752,
         "grade_corrected": 5
     },
     {
@@ -57094,7 +57097,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 752,
+        "order_wiki_radical_corrected": 753,
         "grade_corrected": 5
     },
     {
@@ -57170,7 +57173,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 753,
+        "order_wiki_radical_corrected": 754,
         "grade_corrected": 5
     },
     {
@@ -57244,7 +57247,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 754,
+        "order_wiki_radical_corrected": 755,
         "grade_corrected": 5
     },
     {
@@ -57323,7 +57326,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 755,
+        "order_wiki_radical_corrected": 756,
         "grade_corrected": 5
     },
     {
@@ -57418,7 +57421,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 756,
+        "order_wiki_radical_corrected": 757,
         "grade_corrected": 5
     },
     {
@@ -57487,7 +57490,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 757,
+        "order_wiki_radical_corrected": 758,
         "grade_corrected": 5
     },
     {
@@ -57575,7 +57578,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 758,
+        "order_wiki_radical_corrected": 759,
         "grade_corrected": 5
     },
     {
@@ -57642,7 +57645,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 759,
+        "order_wiki_radical_corrected": 760,
         "grade_corrected": 5
     },
     {
@@ -57715,7 +57718,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 760,
+        "order_wiki_radical_corrected": 761,
         "grade_corrected": 5
     },
     {
@@ -57793,7 +57796,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 761,
+        "order_wiki_radical_corrected": 762,
         "grade_corrected": 5
     },
     {
@@ -57847,7 +57850,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='績'>spinnen</span> <span class='meaning_kanji_reading'>(績)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 768,
-        "order_wiki_radical_corrected": 762,
+        "order_wiki_radical_corrected": 763,
         "grade_corrected": 5,
         "reading_dist": []
     },
@@ -57925,7 +57928,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 763,
+        "order_wiki_radical_corrected": 764,
         "grade_corrected": 5
     },
     {
@@ -57994,7 +57997,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 764,
+        "order_wiki_radical_corrected": 765,
         "grade_corrected": 5
     },
     {
@@ -58062,7 +58065,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 765,
+        "order_wiki_radical_corrected": 766,
         "grade_corrected": 5
     },
     {
@@ -58119,7 +58122,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 766,
+        "order_wiki_radical_corrected": 767,
         "grade_corrected": 5
     },
     {
@@ -58184,7 +58187,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 767,
+        "order_wiki_radical_corrected": 768,
         "grade_corrected": 5
     },
     {
@@ -58254,7 +58257,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 768,
+        "order_wiki_radical_corrected": 769,
         "grade_corrected": 5
     },
     {
@@ -58337,7 +58340,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 769,
+        "order_wiki_radical_corrected": 770,
         "grade_corrected": 5
     },
     {
@@ -58408,7 +58411,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 770,
+        "order_wiki_radical_corrected": 771,
         "grade_corrected": 5
     },
     {
@@ -58494,7 +58497,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 771,
+        "order_wiki_radical_corrected": 772,
         "grade_corrected": 5
     },
     {
@@ -58560,7 +58563,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 772,
+        "order_wiki_radical_corrected": 773,
         "grade_corrected": 5
     },
     {
@@ -58620,7 +58623,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 773,
+        "order_wiki_radical_corrected": 774,
         "grade_corrected": 5
     },
     {
@@ -58693,7 +58696,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 774,
+        "order_wiki_radical_corrected": 775,
         "grade_corrected": 5
     },
     {
@@ -58754,7 +58757,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 775,
+        "order_wiki_radical_corrected": 776,
         "grade_corrected": 5
     },
     {
@@ -58809,7 +58812,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 776,
+        "order_wiki_radical_corrected": 777,
         "grade_corrected": 5
     },
     {
@@ -58872,7 +58875,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 777,
+        "order_wiki_radical_corrected": 778,
         "grade_corrected": 5
     },
     {
@@ -58935,7 +58938,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 778,
+        "order_wiki_radical_corrected": 779,
         "grade_corrected": 5
     },
     {
@@ -59039,7 +59042,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 779,
+        "order_wiki_radical_corrected": 780,
         "grade_corrected": 5
     },
     {
@@ -59117,7 +59120,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 780,
+        "order_wiki_radical_corrected": 781,
         "grade_corrected": 5
     },
     {
@@ -59194,7 +59197,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 781,
+        "order_wiki_radical_corrected": 782,
         "grade_corrected": 5
     },
     {
@@ -59265,7 +59268,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 782,
+        "order_wiki_radical_corrected": 783,
         "grade_corrected": 5
     },
     {
@@ -59326,7 +59329,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 783,
+        "order_wiki_radical_corrected": 784,
         "grade_corrected": 5
     },
     {
@@ -59386,7 +59389,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 784,
+        "order_wiki_radical_corrected": 785,
         "grade_corrected": 5
     },
     {
@@ -59461,7 +59464,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 785,
+        "order_wiki_radical_corrected": 786,
         "grade_corrected": 5
     },
     {
@@ -59529,7 +59532,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 786,
+        "order_wiki_radical_corrected": 787,
         "grade_corrected": 5
     },
     {
@@ -59602,7 +59605,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 787,
+        "order_wiki_radical_corrected": 788,
         "grade_corrected": 5
     },
     {
@@ -59677,7 +59680,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 788,
+        "order_wiki_radical_corrected": 789,
         "grade_corrected": 5
     },
     {
@@ -59750,7 +59753,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 789,
+        "order_wiki_radical_corrected": 790,
         "grade_corrected": 5
     },
     {
@@ -59827,7 +59830,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 790,
+        "order_wiki_radical_corrected": 791,
         "grade_corrected": 5
     },
     {
@@ -59900,7 +59903,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 791,
+        "order_wiki_radical_corrected": 792,
         "grade_corrected": 5
     },
     {
@@ -59976,7 +59979,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 792,
+        "order_wiki_radical_corrected": 793,
         "grade_corrected": 5
     },
     {
@@ -60041,7 +60044,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 793,
+        "order_wiki_radical_corrected": 794,
         "grade_corrected": 5
     },
     {
@@ -60104,7 +60107,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 794,
+        "order_wiki_radical_corrected": 795,
         "grade_corrected": 5
     },
     {
@@ -60169,7 +60172,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 795,
+        "order_wiki_radical_corrected": 796,
         "grade_corrected": 5
     },
     {
@@ -60237,7 +60240,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 796,
+        "order_wiki_radical_corrected": 797,
         "grade_corrected": 5
     },
     {
@@ -60319,7 +60322,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 797,
+        "order_wiki_radical_corrected": 798,
         "grade_corrected": 5
     },
     {
@@ -60381,7 +60384,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 798,
+        "order_wiki_radical_corrected": 799,
         "grade_corrected": 5
     },
     {
@@ -60454,7 +60457,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 799,
+        "order_wiki_radical_corrected": 800,
         "grade_corrected": 5
     },
     {
@@ -60536,7 +60539,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 800,
+        "order_wiki_radical_corrected": 801,
         "grade_corrected": 5
     },
     {
@@ -60614,7 +60617,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 801,
+        "order_wiki_radical_corrected": 802,
         "grade_corrected": 5
     },
     {
@@ -60703,7 +60706,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 802,
+        "order_wiki_radical_corrected": 803,
         "grade_corrected": 5
     },
     {
@@ -60772,7 +60775,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 803,
+        "order_wiki_radical_corrected": 804,
         "grade_corrected": 5
     },
     {
@@ -60859,7 +60862,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 804,
+        "order_wiki_radical_corrected": 805,
         "grade_corrected": 5
     },
     {
@@ -60925,7 +60928,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 805,
+        "order_wiki_radical_corrected": 806,
         "grade_corrected": 5
     },
     {
@@ -60997,7 +61000,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 806,
+        "order_wiki_radical_corrected": 807,
         "grade_corrected": 5
     },
     {
@@ -61061,7 +61064,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 807,
+        "order_wiki_radical_corrected": 808,
         "grade_corrected": 5
     },
     {
@@ -61123,7 +61126,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 808,
+        "order_wiki_radical_corrected": 809,
         "grade_corrected": 5
     },
     {
@@ -61189,7 +61192,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 809,
+        "order_wiki_radical_corrected": 810,
         "grade_corrected": 5
     },
     {
@@ -61265,7 +61268,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 810,
+        "order_wiki_radical_corrected": 811,
         "grade_corrected": 5
     },
     {
@@ -61343,7 +61346,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 811,
+        "order_wiki_radical_corrected": 812,
         "grade_corrected": 5
     },
     {
@@ -61419,7 +61422,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 812,
+        "order_wiki_radical_corrected": 813,
         "grade_corrected": 5
     },
     {
@@ -61497,7 +61500,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 813,
+        "order_wiki_radical_corrected": 814,
         "grade_corrected": 5
     },
     {
@@ -61579,7 +61582,7 @@ let kyouiku =
                 "prop": 0.27
             }
         ],
-        "order_wiki_radical_corrected": 814,
+        "order_wiki_radical_corrected": 815,
         "grade_corrected": 5
     },
     {
@@ -61668,7 +61671,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 815,
+        "order_wiki_radical_corrected": 816,
         "grade_corrected": 5
     },
     {
@@ -61733,7 +61736,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 816,
+        "order_wiki_radical_corrected": 817,
         "grade_corrected": 5
     },
     {
@@ -61807,7 +61810,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 817,
+        "order_wiki_radical_corrected": 818,
         "grade_corrected": 5
     },
     {
@@ -61878,7 +61881,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 818,
+        "order_wiki_radical_corrected": 819,
         "grade_corrected": 5
     },
     {
@@ -61945,7 +61948,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 819,
+        "order_wiki_radical_corrected": 820,
         "grade_corrected": 5
     },
     {
@@ -62027,7 +62030,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 820,
+        "order_wiki_radical_corrected": 821,
         "grade_corrected": 5
     },
     {
@@ -62108,7 +62111,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 821,
+        "order_wiki_radical_corrected": 822,
         "grade_corrected": 5
     },
     {
@@ -62176,7 +62179,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 822,
+        "order_wiki_radical_corrected": 823,
         "grade_corrected": 5
     },
     {
@@ -62254,7 +62257,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 823,
+        "order_wiki_radical_corrected": 824,
         "grade_corrected": 5
     },
     {
@@ -62333,7 +62336,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 824,
+        "order_wiki_radical_corrected": 825,
         "grade_corrected": 5
     },
     {
@@ -62410,7 +62413,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 825,
+        "order_wiki_radical_corrected": 826,
         "grade_corrected": 5
     },
     {
@@ -62477,7 +62480,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 826,
+        "order_wiki_radical_corrected": 827,
         "grade_corrected": 5
     },
     {
@@ -62558,7 +62561,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 827,
+        "order_wiki_radical_corrected": 828,
         "grade_corrected": 5
     },
     {
@@ -62622,7 +62625,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 828,
+        "order_wiki_radical_corrected": 829,
         "grade_corrected": 6
     },
     {
@@ -62685,7 +62688,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 829,
+        "order_wiki_radical_corrected": 830,
         "grade_corrected": 6
     },
     {
@@ -62759,7 +62762,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 830,
+        "order_wiki_radical_corrected": 831,
         "grade_corrected": 6
     },
     {
@@ -62840,7 +62843,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 831,
+        "order_wiki_radical_corrected": 832,
         "grade_corrected": 6
     },
     {
@@ -62930,7 +62933,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 832,
+        "order_wiki_radical_corrected": 833,
         "grade_corrected": 6
     },
     {
@@ -63002,7 +63005,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 833,
+        "order_wiki_radical_corrected": 834,
         "grade_corrected": 6
     },
     {
@@ -63066,7 +63069,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 834,
+        "order_wiki_radical_corrected": 835,
         "grade_corrected": 6
     },
     {
@@ -63142,7 +63145,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 835,
+        "order_wiki_radical_corrected": 836,
         "grade_corrected": 6
     },
     {
@@ -63224,7 +63227,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 836,
+        "order_wiki_radical_corrected": 837,
         "grade_corrected": 6
     },
     {
@@ -63288,7 +63291,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 837,
+        "order_wiki_radical_corrected": 838,
         "grade_corrected": 6
     },
     {
@@ -63378,7 +63381,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 838,
+        "order_wiki_radical_corrected": 839,
         "grade_corrected": 6
     },
     {
@@ -63454,7 +63457,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 839,
+        "order_wiki_radical_corrected": 840,
         "grade_corrected": 6
     },
     {
@@ -63524,7 +63527,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 848,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 840,
+        "order_wiki_radical_corrected": 841,
         "grade_corrected": 6
     },
     {
@@ -63600,7 +63603,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 841,
+        "order_wiki_radical_corrected": 842,
         "grade_corrected": 6
     },
     {
@@ -63673,7 +63676,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 842,
+        "order_wiki_radical_corrected": 843,
         "grade_corrected": 6
     },
     {
@@ -63744,7 +63747,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 843,
+        "order_wiki_radical_corrected": 844,
         "grade_corrected": 6
     },
     {
@@ -63826,7 +63829,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 844,
+        "order_wiki_radical_corrected": 845,
         "grade_corrected": 6
     },
     {
@@ -63899,7 +63902,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 845,
+        "order_wiki_radical_corrected": 846,
         "grade_corrected": 6
     },
     {
@@ -63972,7 +63975,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 846,
+        "order_wiki_radical_corrected": 847,
         "grade_corrected": 6
     },
     {
@@ -64069,7 +64072,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 847,
+        "order_wiki_radical_corrected": 848,
         "grade_corrected": 6
     },
     {
@@ -64142,7 +64145,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 848,
+        "order_wiki_radical_corrected": 849,
         "grade_corrected": 6
     },
     {
@@ -64208,7 +64211,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 849,
+        "order_wiki_radical_corrected": 850,
         "grade_corrected": 6
     },
     {
@@ -64284,7 +64287,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 850,
+        "order_wiki_radical_corrected": 851,
         "grade_corrected": 6
     },
     {
@@ -64358,7 +64361,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 851,
+        "order_wiki_radical_corrected": 852,
         "grade_corrected": 6
     },
     {
@@ -64440,7 +64443,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 852,
+        "order_wiki_radical_corrected": 853,
         "grade_corrected": 6
     },
     {
@@ -64510,7 +64513,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 853,
+        "order_wiki_radical_corrected": 854,
         "grade_corrected": 6
     },
     {
@@ -64574,7 +64577,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 854,
+        "order_wiki_radical_corrected": 855,
         "grade_corrected": 6
     },
     {
@@ -64641,7 +64644,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 855,
+        "order_wiki_radical_corrected": 856,
         "grade_corrected": 6
     },
     {
@@ -64706,7 +64709,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 856,
+        "order_wiki_radical_corrected": 857,
         "grade_corrected": 6
     },
     {
@@ -64781,7 +64784,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 857,
+        "order_wiki_radical_corrected": 858,
         "grade_corrected": 6
     },
     {
@@ -64852,7 +64855,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 858,
+        "order_wiki_radical_corrected": 859,
         "grade_corrected": 6
     },
     {
@@ -64935,7 +64938,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 859,
+        "order_wiki_radical_corrected": 860,
         "grade_corrected": 6
     },
     {
@@ -65013,7 +65016,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 860,
+        "order_wiki_radical_corrected": 861,
         "grade_corrected": 6
     },
     {
@@ -65092,7 +65095,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 861,
+        "order_wiki_radical_corrected": 862,
         "grade_corrected": 6
     },
     {
@@ -65159,7 +65162,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 862,
+        "order_wiki_radical_corrected": 863,
         "grade_corrected": 6
     },
     {
@@ -65243,7 +65246,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 863,
+        "order_wiki_radical_corrected": 864,
         "grade_corrected": 6
     },
     {
@@ -65319,7 +65322,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 864,
+        "order_wiki_radical_corrected": 865,
         "grade_corrected": 6
     },
     {
@@ -65394,7 +65397,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 865,
+        "order_wiki_radical_corrected": 866,
         "grade_corrected": 6
     },
     {
@@ -65463,7 +65466,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 866,
+        "order_wiki_radical_corrected": 867,
         "grade_corrected": 6
     },
     {
@@ -65519,7 +65522,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='層'>Klasse</span> <span class='meaning_kanji_reading'>(層)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 878,
-        "order_wiki_radical_corrected": 867,
+        "order_wiki_radical_corrected": 868,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -65606,7 +65609,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 868,
+        "order_wiki_radical_corrected": 869,
         "grade_corrected": 6
     },
     {
@@ -65679,7 +65682,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 869,
+        "order_wiki_radical_corrected": 870,
         "grade_corrected": 6
     },
     {
@@ -65751,7 +65754,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 870,
+        "order_wiki_radical_corrected": 871,
         "grade_corrected": 6
     },
     {
@@ -65815,7 +65818,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 871,
+        "order_wiki_radical_corrected": 872,
         "grade_corrected": 6
     },
     {
@@ -65894,7 +65897,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 872,
+        "order_wiki_radical_corrected": 873,
         "grade_corrected": 6
     },
     {
@@ -65969,7 +65972,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 873,
+        "order_wiki_radical_corrected": 874,
         "grade_corrected": 6
     },
     {
@@ -66029,7 +66032,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='律'>Gesetz</span> <span class='meaning_kanji_reading'>(律)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 887,
-        "order_wiki_radical_corrected": 874,
+        "order_wiki_radical_corrected": 875,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -66122,7 +66125,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 875,
+        "order_wiki_radical_corrected": 876,
         "grade_corrected": 6
     },
     {
@@ -66190,7 +66193,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 876,
+        "order_wiki_radical_corrected": 877,
         "grade_corrected": 6
     },
     {
@@ -66252,7 +66255,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 877,
+        "order_wiki_radical_corrected": 878,
         "grade_corrected": 6
     },
     {
@@ -66321,7 +66324,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 878,
+        "order_wiki_radical_corrected": 879,
         "grade_corrected": 6
     },
     {
@@ -66399,7 +66402,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 879,
+        "order_wiki_radical_corrected": 880,
         "grade_corrected": 6
     },
     {
@@ -66459,7 +66462,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 880,
+        "order_wiki_radical_corrected": 881,
         "grade_corrected": 6
     },
     {
@@ -66538,7 +66541,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 881,
+        "order_wiki_radical_corrected": 882,
         "grade_corrected": 6
     },
     {
@@ -66611,7 +66614,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 882,
+        "order_wiki_radical_corrected": 883,
         "grade_corrected": 6
     },
     {
@@ -66682,7 +66685,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 883,
+        "order_wiki_radical_corrected": 884,
         "grade_corrected": 6
     },
     {
@@ -66751,7 +66754,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 884,
+        "order_wiki_radical_corrected": 885,
         "grade_corrected": 6
     },
     {
@@ -66834,7 +66837,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 885,
+        "order_wiki_radical_corrected": 886,
         "grade_corrected": 6
     },
     {
@@ -66910,7 +66913,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 886,
+        "order_wiki_radical_corrected": 887,
         "grade_corrected": 6
     },
     {
@@ -66975,7 +66978,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='揮'>schwingen</span> <span class='meaning_kanji_reading'>(揮)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 900,
-        "order_wiki_radical_corrected": 887,
+        "order_wiki_radical_corrected": 888,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -67063,7 +67066,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 888,
+        "order_wiki_radical_corrected": 889,
         "grade_corrected": 6
     },
     {
@@ -67137,7 +67140,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 889,
+        "order_wiki_radical_corrected": 890,
         "grade_corrected": 6
     },
     {
@@ -67219,7 +67222,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 890,
+        "order_wiki_radical_corrected": 891,
         "grade_corrected": 6
     },
     {
@@ -67279,7 +67282,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 891,
+        "order_wiki_radical_corrected": 892,
         "grade_corrected": 6
     },
     {
@@ -67355,7 +67358,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 892,
+        "order_wiki_radical_corrected": 893,
         "grade_corrected": 6
     },
     {
@@ -67426,7 +67429,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 893,
+        "order_wiki_radical_corrected": 894,
         "grade_corrected": 6
     },
     {
@@ -67500,7 +67503,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 894,
+        "order_wiki_radical_corrected": 895,
         "grade_corrected": 6
     },
     {
@@ -67569,7 +67572,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 895,
+        "order_wiki_radical_corrected": 896,
         "grade_corrected": 6
     },
     {
@@ -67633,7 +67636,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 896,
+        "order_wiki_radical_corrected": 897,
         "grade_corrected": 6
     },
     {
@@ -67726,7 +67729,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 897,
+        "order_wiki_radical_corrected": 898,
         "grade_corrected": 6
     },
     {
@@ -67799,7 +67802,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 898,
+        "order_wiki_radical_corrected": 899,
         "grade_corrected": 6
     },
     {
@@ -67871,7 +67874,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 899,
+        "order_wiki_radical_corrected": 900,
         "grade_corrected": 6
     },
     {
@@ -67935,7 +67938,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 900,
+        "order_wiki_radical_corrected": 901,
         "grade_corrected": 6
     },
     {
@@ -68008,7 +68011,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 901,
+        "order_wiki_radical_corrected": 902,
         "grade_corrected": 6
     },
     {
@@ -68079,7 +68082,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 902,
+        "order_wiki_radical_corrected": 903,
         "grade_corrected": 6
     },
     {
@@ -68164,7 +68167,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 903,
+        "order_wiki_radical_corrected": 904,
         "grade_corrected": 6
     },
     {
@@ -68227,7 +68230,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 904,
+        "order_wiki_radical_corrected": 905,
         "grade_corrected": 6
     },
     {
@@ -68309,7 +68312,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 905,
+        "order_wiki_radical_corrected": 906,
         "grade_corrected": 6
     },
     {
@@ -68375,7 +68378,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 906,
+        "order_wiki_radical_corrected": 907,
         "grade_corrected": 6
     },
     {
@@ -68444,7 +68447,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 907,
+        "order_wiki_radical_corrected": 908,
         "grade_corrected": 6
     },
     {
@@ -68515,7 +68518,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 908,
+        "order_wiki_radical_corrected": 909,
         "grade_corrected": 6
     },
     {
@@ -68594,7 +68597,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 909,
+        "order_wiki_radical_corrected": 910,
         "grade_corrected": 6
     },
     {
@@ -68664,7 +68667,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 910,
+        "order_wiki_radical_corrected": 911,
         "grade_corrected": 6
     },
     {
@@ -68740,7 +68743,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 911,
+        "order_wiki_radical_corrected": 912,
         "grade_corrected": 6
     },
     {
@@ -68825,7 +68828,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 912,
+        "order_wiki_radical_corrected": 913,
         "grade_corrected": 6
     },
     {
@@ -68891,7 +68894,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 913,
+        "order_wiki_radical_corrected": 914,
         "grade_corrected": 6
     },
     {
@@ -68969,7 +68972,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 914,
+        "order_wiki_radical_corrected": 915,
         "grade_corrected": 6
     },
     {
@@ -69030,7 +69033,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 915,
+        "order_wiki_radical_corrected": 916,
         "grade_corrected": 6
     },
     {
@@ -69093,7 +69096,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 916,
+        "order_wiki_radical_corrected": 917,
         "grade_corrected": 6
     },
     {
@@ -69171,7 +69174,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 917,
+        "order_wiki_radical_corrected": 918,
         "grade_corrected": 6
     },
     {
@@ -69253,7 +69256,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 918,
+        "order_wiki_radical_corrected": 919,
         "grade_corrected": 6
     },
     {
@@ -69332,7 +69335,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 919,
+        "order_wiki_radical_corrected": 920,
         "grade_corrected": 6
     },
     {
@@ -69393,7 +69396,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 920,
+        "order_wiki_radical_corrected": 921,
         "grade_corrected": 6
     },
     {
@@ -69477,7 +69480,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 921,
+        "order_wiki_radical_corrected": 922,
         "grade_corrected": 6
     },
     {
@@ -69538,7 +69541,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 922,
+        "order_wiki_radical_corrected": 923,
         "grade_corrected": 6
     },
     {
@@ -69606,7 +69609,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 923,
+        "order_wiki_radical_corrected": 924,
         "grade_corrected": 6
     },
     {
@@ -69679,7 +69682,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 924,
+        "order_wiki_radical_corrected": 925,
         "grade_corrected": 6
     },
     {
@@ -69748,7 +69751,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 925,
+        "order_wiki_radical_corrected": 926,
         "grade_corrected": 6
     },
     {
@@ -69821,7 +69824,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 926,
+        "order_wiki_radical_corrected": 927,
         "grade_corrected": 6
     },
     {
@@ -69888,7 +69891,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 927,
+        "order_wiki_radical_corrected": 928,
         "grade_corrected": 6
     },
     {
@@ -69957,7 +69960,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 928,
+        "order_wiki_radical_corrected": 929,
         "grade_corrected": 6
     },
     {
@@ -70028,7 +70031,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 929,
+        "order_wiki_radical_corrected": 930,
         "grade_corrected": 6
     },
     {
@@ -70112,7 +70115,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 930,
+        "order_wiki_radical_corrected": 931,
         "grade_corrected": 6
     },
     {
@@ -70182,7 +70185,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 931,
+        "order_wiki_radical_corrected": 932,
         "grade_corrected": 6
     },
     {
@@ -70246,7 +70249,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 932,
+        "order_wiki_radical_corrected": 933,
         "grade_corrected": 6
     },
     {
@@ -70313,7 +70316,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 933,
+        "order_wiki_radical_corrected": 934,
         "grade_corrected": 6
     },
     {
@@ -70367,7 +70370,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 934,
+        "order_wiki_radical_corrected": 935,
         "grade_corrected": 6
     },
     {
@@ -70442,7 +70445,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 935,
+        "order_wiki_radical_corrected": 936,
         "grade_corrected": 6
     },
     {
@@ -70525,7 +70528,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 936,
+        "order_wiki_radical_corrected": 937,
         "grade_corrected": 6
     },
     {
@@ -70587,7 +70590,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 937,
+        "order_wiki_radical_corrected": 938,
         "grade_corrected": 6
     },
     {
@@ -70654,7 +70657,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 938,
+        "order_wiki_radical_corrected": 939,
         "grade_corrected": 6
     },
     {
@@ -70736,7 +70739,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 939,
+        "order_wiki_radical_corrected": 940,
         "grade_corrected": 6
     },
     {
@@ -70822,7 +70825,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 940,
+        "order_wiki_radical_corrected": 941,
         "grade_corrected": 6
     },
     {
@@ -70885,7 +70888,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 941,
+        "order_wiki_radical_corrected": 942,
         "grade_corrected": 6
     },
     {
@@ -70948,7 +70951,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 942,
+        "order_wiki_radical_corrected": 943,
         "grade_corrected": 6
     },
     {
@@ -71019,7 +71022,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 943,
+        "order_wiki_radical_corrected": 944,
         "grade_corrected": 6
     },
     {
@@ -71078,7 +71081,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 944,
+        "order_wiki_radical_corrected": 945,
         "grade_corrected": 6
     },
     {
@@ -71164,7 +71167,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 945,
+        "order_wiki_radical_corrected": 946,
         "grade_corrected": 6
     },
     {
@@ -71244,7 +71247,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 946,
+        "order_wiki_radical_corrected": 947,
         "grade_corrected": 6
     },
     {
@@ -71309,7 +71312,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 947,
+        "order_wiki_radical_corrected": 948,
         "grade_corrected": 6
     },
     {
@@ -71383,7 +71386,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 948,
+        "order_wiki_radical_corrected": 949,
         "grade_corrected": 6
     },
     {
@@ -71446,7 +71449,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 949,
+        "order_wiki_radical_corrected": 950,
         "grade_corrected": 6
     },
     {
@@ -71522,7 +71525,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 950,
+        "order_wiki_radical_corrected": 951,
         "grade_corrected": 6
     },
     {
@@ -71589,7 +71592,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 951,
+        "order_wiki_radical_corrected": 952,
         "grade_corrected": 6
     },
     {
@@ -71681,7 +71684,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 952,
+        "order_wiki_radical_corrected": 953,
         "grade_corrected": 6
     },
     {
@@ -71769,7 +71772,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 953,
+        "order_wiki_radical_corrected": 954,
         "grade_corrected": 6
     },
     {
@@ -71854,7 +71857,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 954,
+        "order_wiki_radical_corrected": 955,
         "grade_corrected": 6
     },
     {
@@ -71923,7 +71926,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 955,
+        "order_wiki_radical_corrected": 956,
         "grade_corrected": 6
     },
     {
@@ -71993,7 +71996,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 956,
+        "order_wiki_radical_corrected": 957,
         "grade_corrected": 6
     },
     {
@@ -72074,7 +72077,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 957,
+        "order_wiki_radical_corrected": 958,
         "grade_corrected": 6
     },
     {
@@ -72153,7 +72156,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 958,
+        "order_wiki_radical_corrected": 959,
         "grade_corrected": 6
     },
     {
@@ -72240,7 +72243,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 959,
+        "order_wiki_radical_corrected": 960,
         "grade_corrected": 6
     },
     {
@@ -72316,7 +72319,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 960,
+        "order_wiki_radical_corrected": 961,
         "grade_corrected": 6
     },
     {
@@ -72382,7 +72385,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 961,
+        "order_wiki_radical_corrected": 962,
         "grade_corrected": 6
     },
     {
@@ -72447,7 +72450,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 977,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 962,
+        "order_wiki_radical_corrected": 963,
         "grade_corrected": 6
     },
     {
@@ -72519,7 +72522,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 963,
+        "order_wiki_radical_corrected": 964,
         "grade_corrected": 6
     },
     {
@@ -72599,7 +72602,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 964,
+        "order_wiki_radical_corrected": 965,
         "grade_corrected": 6
     },
     {
@@ -72672,7 +72675,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 965,
+        "order_wiki_radical_corrected": 966,
         "grade_corrected": 6
     },
     {
@@ -72732,7 +72735,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 981,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 966,
+        "order_wiki_radical_corrected": 967,
         "grade_corrected": 6
     },
     {
@@ -72798,7 +72801,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 967,
+        "order_wiki_radical_corrected": 968,
         "grade_corrected": 6
     },
     {
@@ -72877,7 +72880,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 968,
+        "order_wiki_radical_corrected": 969,
         "grade_corrected": 6
     },
     {
@@ -72944,7 +72947,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 969,
+        "order_wiki_radical_corrected": 970,
         "grade_corrected": 6
     },
     {
@@ -73019,7 +73022,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 970,
+        "order_wiki_radical_corrected": 971,
         "grade_corrected": 6
     },
     {
@@ -73092,7 +73095,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 971,
+        "order_wiki_radical_corrected": 972,
         "grade_corrected": 6
     },
     {
@@ -73162,7 +73165,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 972,
+        "order_wiki_radical_corrected": 973,
         "grade_corrected": 6
     },
     {
@@ -73229,7 +73232,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 973,
+        "order_wiki_radical_corrected": 974,
         "grade_corrected": 6
     },
     {
@@ -73298,7 +73301,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 974,
+        "order_wiki_radical_corrected": 975,
         "grade_corrected": 6
     },
     {
@@ -73379,7 +73382,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 975,
+        "order_wiki_radical_corrected": 976,
         "grade_corrected": 6
     },
     {
@@ -73449,7 +73452,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 976,
+        "order_wiki_radical_corrected": 977,
         "grade_corrected": 6
     },
     {
@@ -73522,7 +73525,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 977,
+        "order_wiki_radical_corrected": 978,
         "grade_corrected": 6
     },
     {
@@ -73583,7 +73586,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 978,
+        "order_wiki_radical_corrected": 979,
         "grade_corrected": 6
     },
     {
@@ -73649,7 +73652,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 979,
+        "order_wiki_radical_corrected": 980,
         "grade_corrected": 6
     },
     {
@@ -73717,7 +73720,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 980,
+        "order_wiki_radical_corrected": 981,
         "grade_corrected": 6
     },
     {
@@ -73784,7 +73787,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 981,
+        "order_wiki_radical_corrected": 982,
         "grade_corrected": 6
     },
     {
@@ -73866,7 +73869,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 982,
+        "order_wiki_radical_corrected": 983,
         "grade_corrected": 6
     },
     {
@@ -73929,7 +73932,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 983,
+        "order_wiki_radical_corrected": 984,
         "grade_corrected": 6
     },
     {
@@ -74018,7 +74021,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 984,
+        "order_wiki_radical_corrected": 985,
         "grade_corrected": 6
     },
     {
@@ -74083,7 +74086,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 985,
+        "order_wiki_radical_corrected": 986,
         "grade_corrected": 6
     },
     {
@@ -74163,7 +74166,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 986,
+        "order_wiki_radical_corrected": 987,
         "grade_corrected": 6
     },
     {
@@ -74234,7 +74237,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 987,
+        "order_wiki_radical_corrected": 988,
         "grade_corrected": 6
     },
     {
@@ -74321,7 +74324,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 988,
+        "order_wiki_radical_corrected": 989,
         "grade_corrected": 6
     },
     {
@@ -74386,7 +74389,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 989,
+        "order_wiki_radical_corrected": 990,
         "grade_corrected": 6
     },
     {
@@ -74469,7 +74472,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 990,
+        "order_wiki_radical_corrected": 991,
         "grade_corrected": 6
     },
     {
@@ -74551,7 +74554,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 991,
+        "order_wiki_radical_corrected": 992,
         "grade_corrected": 6
     },
     {
@@ -74613,7 +74616,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 992,
+        "order_wiki_radical_corrected": 993,
         "grade_corrected": 4
     },
     {
@@ -74681,7 +74684,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 993,
+        "order_wiki_radical_corrected": 994,
         "grade_corrected": 4
     },
     {
@@ -74742,7 +74745,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 994,
+        "order_wiki_radical_corrected": 995,
         "grade_corrected": 5
     },
     {
@@ -74823,7 +74826,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 995,
+        "order_wiki_radical_corrected": 996,
         "grade_corrected": 5
     },
     {
@@ -74891,7 +74894,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 996,
+        "order_wiki_radical_corrected": 997,
         "grade_corrected": 5
     },
     {
@@ -74980,7 +74983,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 997,
+        "order_wiki_radical_corrected": 998,
         "grade_corrected": 5
     },
     {
@@ -75054,7 +75057,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 998,
+        "order_wiki_radical_corrected": 999,
         "grade_corrected": 5
     },
     {
@@ -75125,7 +75128,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 999,
+        "order_wiki_radical_corrected": 1000,
         "grade_corrected": 5
     },
     {
@@ -75203,7 +75206,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 1000,
+        "order_wiki_radical_corrected": 1001,
         "grade_corrected": 5
     },
     {
@@ -75275,7 +75278,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1001,
+        "order_wiki_radical_corrected": 1002,
         "grade_corrected": 5
     },
     {
@@ -75369,7 +75372,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 1002,
+        "order_wiki_radical_corrected": 1003,
         "grade_corrected": 6
     },
     {
@@ -75448,7 +75451,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 1003,
+        "order_wiki_radical_corrected": 1004,
         "grade_corrected": 6
     },
     {
@@ -75528,7 +75531,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 1004,
+        "order_wiki_radical_corrected": 1005,
         "grade_corrected": 6
     },
     {
@@ -75597,7 +75600,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1005,
+        "order_wiki_radical_corrected": 1006,
         "grade_corrected": 6
     },
     {
@@ -75689,7 +75692,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 1006,
+        "order_wiki_radical_corrected": 1007,
         "grade_corrected": 6
     },
     {
@@ -75750,7 +75753,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1007,
+        "order_wiki_radical_corrected": 1008,
         "grade_corrected": 6
     },
     {
@@ -75824,7 +75827,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 1008,
+        "order_wiki_radical_corrected": 1009,
         "grade_corrected": 6
     },
     {
@@ -75911,8 +75914,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 1009,
+        "order_wiki_radical_corrected": 1010,
         "grade_corrected": 6
     }
-]
-;
+];
