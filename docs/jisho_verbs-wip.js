@@ -1309,6 +1309,145 @@ let verbs =
         "word_parts": [
             [
                 "入",
+                "い"
+            ],
+            [
+                "る",
+                "る"
+            ]
+        ],
+        "reading": "いる",
+        "dan": "go",
+        "word_neg": "入らない",
+        "reading_neg": "いらない",
+        "meanings": [
+            [
+                "to enter; to go in; to get in; to come in",
+                "Godan verb with 'ru' ending, Intransitive verb"
+            ],
+            [
+                "to set (of the sun or moon); to sink; to go down",
+                "Godan verb with 'ru' ending, Intransitive verb"
+            ],
+            [
+                "to attain (nirvana, enlightenment, etc.); to achieve; to reach (e.g. a climax)",
+                "Godan verb with 'ru' ending, Intransitive verb"
+            ],
+            [
+                "to do fully; to do intently; to do sincerely; to do deeply; to feel keenly",
+                "Suffix, Godan verb with 'ru' ending"
+            ],
+            [
+                "to (reach a state) completely",
+                "Suffix, Godan verb with 'ru' ending"
+            ]
+        ],
+        "meanings_de": [
+            [
+                "hineingehen",
+                "eintreten",
+                "hineinkommen",
+                "einsteigen",
+                "anfangen",
+                "eröffnen"
+            ]
+        ],
+        "kanjis": [
+            "入"
+        ],
+        "max_kanji_index": 56,
+        "kyouiku_friendly": true,
+        "kanji_meanings_de": [
+            [
+                "入",
+                [
+                    "betreten",
+                    "hineingehen",
+                    "hineinstecken"
+                ]
+            ]
+        ],
+        "kanji_readings": [
+            [
+                "入",
+                [
+                    [
+                        "にゅう",
+                        "nyuu"
+                    ]
+                ]
+            ]
+        ],
+        "kanji_reading_score": 0,
+        "main_meaning_de": "hineingehen",
+        "mnemonic_de": "Sie möchte <span class='reading kunyomi' data-hiragana='い' data-kanji='入'>i</span> <span class='hiragana'>(い)</span>  <span class='reading hirayomi' data-hiragana='る'>ru</span> <span class='hiragana'>(る)</span> hineingehen.",
+        "mnemonic_de_done": false,
+        "freq": {
+            "count": 26268,
+            "rank": 160,
+            "percentage": 0.07706989,
+            "pos": "v5r"
+        },
+        "ambiguity": [
+            [
+                [
+                    "入",
+                    "い"
+                ],
+                [
+                    "れ",
+                    "れ"
+                ],
+                [
+                    "る",
+                    "る"
+                ]
+            ],
+            [
+                [
+                    "入",
+                    "い"
+                ],
+                [
+                    "る",
+                    "る"
+                ]
+            ],
+            [
+                [
+                    "入",
+                    "はい"
+                ],
+                [
+                    "る",
+                    "る"
+                ]
+            ],
+            [
+                [
+                    "入",
+                    "はい"
+                ],
+                [
+                    "り",
+                    "り"
+                ],
+                [
+                    "込",
+                    "こ"
+                ],
+                [
+                    "む",
+                    "む"
+                ]
+            ]
+        ]
+    },
+    {
+        "word": "入る",
+        "word_parts": [
+            [
+                "入",
                 "はい"
             ],
             [
