@@ -43,7 +43,8 @@ def deploy_anki_to_mdbook(mdbook_src_path):
 
 def deploy_mdbook_to_server():
     result = subprocess.run(['sh', '../scripts/upload_mdbook_to_strato.sh'], capture_output=True, text=True)
-    print(result.stdout)
+    #print(result.stdout)
+    print('uploaded')
 
 def deploy_all(mdbook_src_path):
     deploy_anki_to_mdbook(mdbook_src_path)

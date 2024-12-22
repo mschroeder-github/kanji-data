@@ -30734,10 +30734,10 @@
         "kanji": "真",
         "kanji_ord": 30495,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span> <span class='radical' data-kanji='具'>Werkzeug</span> <span class='radical_kanji'>(具)</span>, <span class='meaning' data-kanji='真'>Wirklichkeit</span> <span class='meaning_kanji_meaning'>(真)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='真'>Wirklichkeit</span> <span class='meaning_kanji_reading'>(真)</span> , <span class='reading kunyomi' data-hiragana='ま'>ma</span> <span class='hiragana'>(ま)</span>  <span class='reading onyomi' data-hiragana='しん'>shin</span> <span class='hiragana'>(しん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='十'>Kreuz</span> <span class='radical_kanji'>(十)</span> der Kirche ist ein <span class='radical' data-kanji='具'>Werkzeug</span> <span class='radical_kanji'>(具)</span>, um die <span class='meaning' data-kanji='真'>Wirklichkeit</span> <span class='meaning_kanji_meaning'>(真)</span> zu verdrängen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er verliert die <span class='meaning' data-kanji='真'>Wirklichkeit</span> <span class='meaning_kanji_reading'>(真)</span> als er in ein künstliches Ko<span class='reading kunyomi' data-hiragana='ま'>ma</span> <span class='hiragana'>(ま)</span> mit einer Ma<span class='reading onyomi' data-hiragana='しん'>schin</span>e <span class='hiragana'>(しん)</span> versetzt wird.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 372,
         "reading_dist": [
             {
@@ -30797,7 +30797,8 @@
             "Eye"
         ],
         "meanings_de": [
-            "ankommen",
+            "tragen & ankommen",
+            "(Kleidung) tragen",
             "anziehen",
             "erreichen"
         ],
@@ -30823,10 +30824,10 @@
         "kanji": "着",
         "kanji_ord": 30528,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span>  <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  <span class='radical' data-kanji='目'>Auge</span> <span class='radical_kanji'>(目)</span>  , <span class='meaning' data-kanji='着'>ankommen</span> <span class='meaning_kanji_meaning'>(着)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='着'>ankommen</span> <span class='meaning_kanji_reading'>(着)</span> , <span class='reading onyomi' data-hiragana='ちゃく'>chaku</span> <span class='hiragana'>(ちゃく)</span>  <span class='reading kunyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>  <span class='reading kunyomi' data-hiragana='つ'>tsu</span> <span class='hiragana'>(つ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span> auf <span class='radical' data-kanji='王'>König</span>s <span class='radical_kanji'>(王)</span> Kopf <span class='meaning' data-kanji='着'>tragend</span> <span class='meaning_kanji_meaning'>(着)</span> nimmt er die <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>, um in einem <span class='radical' data-kanji='目'>Auge</span>nblick <span class='radical_kanji'>(目)</span> unten <span class='meaning' data-kanji='着'>anzukommen</span> <span class='meaning_kanji_meaning'>(着)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wenn wir <span class='meaning' data-kanji='着'>ankommen</span> <span class='meaning_kanji_reading'>(着)</span> in der japanischen Bo<span class='reading onyomi' data-hiragana='ちゃく'>tscha(ft) Ku</span>nstaustellung <span class='hiragana'>(ちゃく)</span>, dann <span class='meaning' data-kanji='着'>tragen</span> <span class='meaning_kanji_reading'>(着)</span> wir <span class='reading kunyomi' data-hiragana='き'>Ki</span>monos <span class='hiragana'>(き)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 373,
         "reading_dist": [
             {
@@ -30905,10 +30906,10 @@
         "kanji": "短",
         "kanji_ord": 30701,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='矢'>Pfeil</span> <span class='radical_kanji'>(矢)</span>  <span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span>  , <span class='meaning' data-kanji='短'>kurz</span> <span class='meaning_kanji_meaning'>(短)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='短'>kurz</span> <span class='meaning_kanji_reading'>(短)</span> , <span class='reading onyomi' data-hiragana='たん'>tan</span> <span class='hiragana'>(たん)</span>  <span class='reading kunyomi' data-hiragana='みじか'>mijika</span> <span class='hiragana'>(みじか)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ein <span class='radical' data-kanji='矢'>Pfeil</span> <span class='radical_kanji'>(矢)</span> reicht aus, den <span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span> halt zu geben, weil er <span class='meaning' data-kanji='短'>kurz</span> <span class='meaning_kanji_meaning'>(短)</span> genug ist.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='短'>kurz</span> <span class='meaning_kanji_reading'>(短)</span> ist unsere <span class='reading onyomi' data-hiragana='たん'>Tan</span>ne <span class='hiragana'>(たん)</span> für Weihnachten da<span class='reading kunyomi' data-hiragana='みじか'>mit schick Ka</span>bel <span class='hiragana'>(みじか)</span> drauf passen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 374,
         "reading_dist": [
             {
@@ -30957,9 +30958,9 @@
             "Lantern"
         ],
         "meanings_de": [
-            "Forschung",
+            "schärfen",
             "polieren",
-            "schärfen"
+            "Forschung"
         ],
         "wk_radicals_new": [
             "Stone",
@@ -30977,10 +30978,10 @@
         "kanji": "研",
         "kanji_ord": 30740,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='石'>Stein</span> <span class='radical_kanji'>(石)</span>  <span class='radical' data-kanji='开'>Laterne</span> <span class='radical_kanji'>(开)</span>  , <span class='meaning' data-kanji='研'>Forschung</span> <span class='meaning_kanji_meaning'>(研)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='研'>Forschung</span> <span class='meaning_kanji_reading'>(研)</span> , <span class='reading onyomi' data-hiragana='けん'>ken</span> <span class='hiragana'>(けん)</span>  <span class='reading kunyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Bei Nacht mit einem Schleif<span class='radical' data-kanji='石'>stein</span> <span class='radical_kanji'>(石)</span> und einer <span class='radical' data-kanji='开'>Laterne</span> <span class='radical_kanji'>(开)</span> kann er sein Schwert <span class='meaning' data-kanji='研'>schärfen</span> <span class='meaning_kanji_meaning'>(研)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Beim <span class='meaning' data-kanji='研'>Schärfen</span> <span class='meaning_kanji_reading'>(研)</span> entstehen Fun<span class='reading onyomi' data-hiragana='けん'>ken</span> <span class='hiragana'>(けん)</span> und für den Schmied ist es eine <span class='reading kunyomi' data-hiragana='と'>To</span>rtur <span class='hiragana'>(と)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 375,
         "reading_dist": [
             {
@@ -31028,6 +31029,7 @@
             "Umbrella"
         ],
         "meanings_de": [
+            "Dank",
             "Ehrerbietung",
             "Verbeugung"
         ],
@@ -31047,10 +31049,10 @@
         "kanji": "礼",
         "kanji_ord": 31036,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ネ'>Seele</span> <span class='radical_kanji'>(ネ)</span>  <span class='radical' data-kanji='乚'>Regenschirm</span> <span class='radical_kanji'>(乚)</span>  , <span class='meaning' data-kanji='礼'>Ehrerbietung</span> <span class='meaning_kanji_meaning'>(礼)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='礼'>Ehrerbietung</span> <span class='meaning_kanji_reading'>(礼)</span> , <span class='reading onyomi' data-hiragana='れい'>rei</span> <span class='hiragana'>(れい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die gute <span class='radical' data-kanji='ネ'>Seele</span> <span class='radical_kanji'>(ネ)</span> schenkt ihm einen <span class='radical' data-kanji='乚'>Regenschirm</span> <span class='radical_kanji'>(乚)</span> als <span class='meaning' data-kanji='礼'>Dank</span> <span class='meaning_kanji_meaning'>(礼)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er spricht sein <span class='meaning' data-kanji='礼'>Dank</span> <span class='meaning_kanji_reading'>(礼)</span> aus, weil er Eh<span class='reading onyomi' data-hiragana='れい'>re i</span>n <span class='hiragana'>(れい)</span> sich trägt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 376,
         "reading_dist": [
             {
