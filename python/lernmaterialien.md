@@ -13,6 +13,18 @@ Stand: ${date}
 
 ${words}
 
+#### Höheres Level in Anki integrieren
+
+1. Stapel importieren
+2. Karten durchsuchen
+3. In Suche eingeben: `is:new -is:suspended`
+4. Alle auswählen
+5. Position ändern: Von 0 starten.
+6. Die Fällig-Spalte geht nun ab 0 los, aufsteigend wie Sortierfeld
+
+
+
+
 ### Verben
 
 ${verbs}

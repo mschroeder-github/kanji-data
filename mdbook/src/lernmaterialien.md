@@ -1,6 +1,6 @@
 # Lernmaterialien
 
-Stand: 22.12.2024
+Stand: 24.12.2024
 
 ## Anki Decks
 
@@ -17,6 +17,19 @@ Stand: 22.12.2024
 * [Level 200](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0200-Umschrift_Abfrage.apkg)
 * [Level 250](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0250-Umschrift_Abfrage.apkg)
 * [Level 300](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0300-Umschrift_Abfrage.apkg)
+* [Level 350](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0350-Umschrift_Abfrage.apkg)
+
+#### Höheres Level in Anki integrieren
+
+1. Stapel importieren
+2. Karten durchsuchen
+3. In Suche eingeben: `is:new -is:suspended`
+4. Alle auswählen
+5. Position ändern: Von 0 starten.
+6. Die Fällig-Spalte geht nun ab 0 los, aufsteigend wie Sortierfeld
+
+
+
 
 ### Verben
 
