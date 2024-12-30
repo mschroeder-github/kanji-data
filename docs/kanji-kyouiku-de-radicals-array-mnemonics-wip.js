@@ -26815,9 +26815,9 @@ let kyouiku =
         "kanji": "者",
         "kanji_ord": 32773,
         "is_radical": false,
-        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='耂'>Sarg</span> <span class='radical_kanji'>(耂)</span> liegt ohne <span class='radical' data-kanji='日'>Sonne</span>nlicht <span class='radical_kanji'>(日)</span> <span class='meaning' data-kanji='者'>Jemand</span> <span class='meaning_kanji_meaning'>(者)</span> begraben.",
+        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='耂'>Sarg</span> <span class='radical_kanji'>(耂)</span> liegt ohne <span class='radical' data-kanji='日'>Sonne</span>nlicht <span class='radical_kanji'>(日)</span> <span class='meaning' data-kanji='者'>Jemand</span> <span class='meaning_kanji_meaning'>(者)</span> spezielles begraben.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "Dort drüben ist <span class='meaning' data-kanji='者'>Jemand</span> <span class='meaning_kanji_reading'>(者)</span>, der einen <span class='reading kunyomi' data-hiragana='もの'>Mono</span>log <span class='hiragana'>(もの)</span> mit sich selbst führt, weil er sich <span class='reading onyomi' data-hiragana='しゅ'>schu</span>ldig <span class='hiragana'>(しゅ)</span> fühlt.",
+        "mnemonic_reading_de": "Dort drüben ist ein spezieller <span class='meaning' data-kanji='者'>Jemand</span> <span class='meaning_kanji_reading'>(者)</span>, der einen <span class='reading kunyomi' data-hiragana='もの'>Mono</span>log <span class='hiragana'>(もの)</span> mit sich selbst führt, weil er sich <span class='reading onyomi' data-hiragana='しゅ'>schu</span>ldig <span class='hiragana'>(しゅ)</span> fühlt.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 396,
         "reading_dist": [
@@ -31237,7 +31237,7 @@ let kyouiku =
             }
         ],
         "order_wiki_radical_corrected": 408,
-        "grade_corrected": 3
+        "grade_corrected": 5
     },
     {
         "strokes": 11,
@@ -31800,6 +31800,7 @@ let kyouiku =
             "Younger Brother"
         ],
         "meanings_de": [
+            "Aufzählungsnummer",
             "Reihenfolge",
             "Rang",
             "Position"
@@ -31819,10 +31820,10 @@ let kyouiku =
         "kanji": "第",
         "kanji_ord": 31532,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  , <span class='meaning' data-kanji='第'>Reihenfolge</span> <span class='meaning_kanji_meaning'>(第)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='第'>Reihenfolge</span> <span class='meaning_kanji_reading'>(第)</span> , <span class='reading onyomi' data-hiragana='だい'>dai</span> <span class='hiragana'>(だい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit <span class='radical' data-kanji='竹'>Bambus</span>-Plaketten <span class='radical_kanji'>(竹)</span> will mein <span class='radical' data-kanji='弟'>jüngerer Bruder</span> <span class='radical_kanji'>(弟)</span> jedem eine <span class='meaning' data-kanji='第'>Aufzählungsnummer</span> <span class='meaning_kanji_meaning'>(第)</span> zuweisen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Nach richtiger <span class='meaning' data-kanji='第'>Aufzählungsnummer</span> <span class='meaning_kanji_reading'>(第)</span> wird den Gewinnern die Bronze-, Silber- und Goldme<span class='reading onyomi' data-hiragana='だい'>dai</span>llie <span class='hiragana'>(だい)</span> gegeben.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 385,
         "reading_dist": [
             {
@@ -31886,10 +31887,10 @@ let kyouiku =
         "kanji": "筆",
         "kanji_ord": 31558,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>  , <span class='meaning' data-kanji='筆'>Pinsel</span> <span class='meaning_kanji_meaning'>(筆)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='筆'>Pinsel</span> <span class='meaning_kanji_reading'>(筆)</span> , <span class='reading kunyomi' data-hiragana='ふで'>fude</span> <span class='hiragana'>(ふで)</span>  <span class='reading onyomi' data-hiragana='ひつ'>hitsu</span> <span class='hiragana'>(ひつ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit einem kurzen <span class='radical' data-kanji='竹'>Bambus</span>-Stab <span class='radical_kanji'>(竹)</span> und einem <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span> aus Haaren, lässt sich ein <span class='meaning' data-kanji='筆'>Pinsel</span> <span class='meaning_kanji_meaning'>(筆)</span> anfertigen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mit einem <span class='meaning' data-kanji='筆'>Pinsel</span> <span class='meaning_kanji_reading'>(筆)</span> möchte der 5-Sterne Koch den To<span class='reading kunyomi' data-hiragana='ふで'>fu de</span>korieren <span class='hiragana'>(ふで)</span>, doch die <span class='reading onyomi' data-hiragana='ひつ'>Hitze</span> <span class='hiragana'>(ひつ)</span> verbiegt die Pinselspitze.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 386,
         "reading_dist": [
             {
@@ -31949,10 +31950,11 @@ let kyouiku =
             "Temple"
         ],
         "meanings_de": [
+            "Gleich",
             "gleiche Weise",
-            "..-Klasse",
             "gleichwertig",
-            "... und so weiter"
+            "Klasse",
+            "etc"
         ],
         "wk_radicals_new": [
             "Bamboo",
@@ -31970,10 +31972,10 @@ let kyouiku =
         "kanji": "等",
         "kanji_ord": 31561,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span>  , <span class='meaning' data-kanji='等'>gleiche Weise</span> <span class='meaning_kanji_meaning'>(等)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='等'>gleiche Weise</span> <span class='meaning_kanji_reading'>(等)</span> , <span class='reading onyomi' data-hiragana='とう'>tou</span> <span class='hiragana'>(とう)</span>  <span class='reading kunyomi' data-hiragana='など'>nado</span> <span class='hiragana'>(など)</span>  <span class='reading kunyomi' data-hiragana='ひと'>hito</span> <span class='hiragana'>(ひと)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span> sieht in jedem japanischen <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span> <span class='meaning' data-kanji='等'>gleich</span> <span class='meaning_kanji_meaning'>(等)</span> aus.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es ist das <span class='meaning' data-kanji='等'>Gleiche</span> <span class='meaning_kanji_reading'>(等)</span>, wenn ein Tor<span class='reading kunyomi' data-hiragana='など'>nado</span> <span class='hiragana'>(など)</span> <span class='reading onyomi' data-hiragana='とう'>to</span>bt <span class='hiragana'>(とう)</span> und wegen einem Musik <span class='reading kunyomi' data-hiragana='ひと'>Hit to</span>xische <span class='hiragana'>(ひと)</span> Hater alles verwüsten.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 387,
         "reading_dist": [
             {
@@ -32055,10 +32057,10 @@ let kyouiku =
         "kanji": "箱",
         "kanji_ord": 31665,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='目'>Auge</span> <span class='radical_kanji'>(目)</span>  , <span class='meaning' data-kanji='箱'>Schachtel</span> <span class='meaning_kanji_meaning'>(箱)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='箱'>Schachtel</span> <span class='meaning_kanji_reading'>(箱)</span> , <span class='reading kunyomi' data-hiragana='はこ'>hako</span> <span class='hiragana'>(はこ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aus <span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span> und <span class='radical' data-kanji='木'>Baum</span>rinde <span class='radical_kanji'>(木)</span> lässt sich mit geschultem <span class='radical' data-kanji='目'>Auge</span> <span class='radical_kanji'>(目)</span> eine <span class='meaning' data-kanji='箱'>Schachtel</span> <span class='meaning_kanji_meaning'>(箱)</span> herstellen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Biologe nimmt eine <span class='meaning' data-kanji='箱'>Schachtel</span> <span class='meaning_kanji_reading'>(箱)</span>, um als Beweis den Piran<span class='reading kunyomi' data-hiragana='はこ'>hako</span>pf <span class='hiragana'>(はこ)</span> aufzubewahren.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 388,
         "reading_dist": [
             {
@@ -32119,10 +32121,10 @@ let kyouiku =
         "kanji": "級",
         "kanji_ord": 32026,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  , <span class='meaning' data-kanji='級'>Rang</span> <span class='meaning_kanji_meaning'>(級)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='級'>Rang</span> <span class='meaning_kanji_reading'>(級)</span> , <span class='reading onyomi' data-hiragana='きゅう'>kyuu</span> <span class='hiragana'>(きゅう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Im Militär erhält man <span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span> (Streifen) an der Uniform für das <span class='radical' data-kanji='及'>Ausüben</span> <span class='radical_kanji'>(及)</span> und steigt damit einen <span class='meaning' data-kanji='級'>Rang</span> <span class='meaning_kanji_meaning'>(級)</span> auf.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er steigt in einem <span class='meaning' data-kanji='級'>Rang</span> <span class='meaning_kanji_reading'>(級)</span> auf, weil er fleiß<span class='reading onyomi' data-hiragana='きゅう'>ig Ju</span>niorsoldaten <span class='hiragana'>(きゅう)</span> ausbildet.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 389,
         "reading_dist": [
             {
@@ -32188,16 +32190,15 @@ let kyouiku =
         ],
         "wk_radicals_kanji": [
             "糸",
-            "夂",
-            "二"
+            "冬"
         ],
         "kanji": "終",
         "kanji_ord": 32066,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  <span class='radical' data-kanji='二'>Zwei</span> <span class='radical_kanji'>(二)</span>  , <span class='meaning' data-kanji='終'>beenden</span> <span class='meaning_kanji_meaning'>(終)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='終'>beenden</span> <span class='meaning_kanji_reading'>(終)</span> , <span class='reading onyomi' data-hiragana='しゅう'>shuu</span> <span class='hiragana'>(しゅう)</span>  <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der Strick<span class='radical' data-kanji='糸'>faden</span> <span class='radical_kanji'>(糸)</span> wird von der Oma im <span class='radical' data-kanji='冬'>Winter</span> <span class='radical_kanji'>(冬)</span> gestrickt, um den Schal zu <span class='meaning' data-kanji='終'>beenden</span> <span class='meaning_kanji_meaning'>(終)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er <span class='meaning' data-kanji='終'>beendet</span> <span class='meaning_kanji_reading'>(終)</span> die Kühlung des Gefrierschranks, um Kil<span class='reading kunyomi' data-hiragana='おわ'>owa</span>ttstunde <span class='hiragana'>(おわ)</span> zu sparen, wegen hoher Strom<span class='reading onyomi' data-hiragana='しゅう'>schu</span>lden <span class='hiragana'>(しゅう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 390,
         "reading_dist": [
             {
@@ -32272,10 +32273,10 @@ let kyouiku =
         "kanji": "緑",
         "kanji_ord": 32209,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='ヨ'>Wolverine</span> <span class='radical_kanji'>(ヨ)</span>  <span class='radical' data-kanji='水'>Wasser</span> <span class='radical_kanji'>(水)</span>  , <span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_meaning'>(緑)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_reading'>(緑)</span> , <span class='reading kunyomi' data-hiragana='みどり'>midori</span> <span class='hiragana'>(みどり)</span>  <span class='reading onyomi' data-hiragana='りょく'>ryoku</span> <span class='hiragana'>(りょく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='糸'>Faden</span>kreuz <span class='radical_kanji'>(糸)</span> visiert <span class='radical' data-kanji='ヨ'>Wolverine</span> <span class='radical_kanji'>(ヨ)</span> an, doch der springt ins Sumpf<span class='radical' data-kanji='水'>wasser</span> <span class='radical_kanji'>(水)</span>, das <span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_meaning'>(緑)</span> ist.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_reading'>(緑)</span> hinter den Ohren war er als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>kel <span class='hiragana'>(りょく)</span>, jetzt fertigt er als Sch<span class='reading kunyomi' data-hiragana='みどり'>mied ori</span>ginelle <span class='hiragana'>(みどり)</span> grüne Waffen an.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 391,
         "reading_dist": [
             {
@@ -32354,10 +32355,10 @@ let kyouiku =
         "kanji": "練",
         "kanji_ord": 32244,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  , <span class='meaning' data-kanji='練'>trainieren</span> <span class='meaning_kanji_meaning'>(練)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='練'>trainieren</span> <span class='meaning_kanji_reading'>(練)</span> , <span class='reading kunyomi' data-hiragana='ね'>ne</span> <span class='hiragana'>(ね)</span>  <span class='reading onyomi' data-hiragana='れん'>ren</span> <span class='hiragana'>(れん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit dem <span class='radical' data-kanji='糸'>Faden</span>kreuz <span class='radical_kanji'>(糸)</span> sollen wir richtung <span class='radical' data-kanji='東'>Osten</span> <span class='radical_kanji'>(東)</span> zielen, um Schießen zu <span class='meaning' data-kanji='練'>trainieren</span> <span class='meaning_kanji_meaning'>(練)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Im Militär beim <span class='meaning' data-kanji='練'>Trainieren</span> <span class='meaning_kanji_reading'>(練)</span> soll ich so lange <span class='reading onyomi' data-hiragana='れん'>ren</span>nen <span class='hiragana'>(れん)</span>, bis mir mein Muskel<span class='reading kunyomi' data-hiragana='ね'>ne</span>rv <span class='hiragana'>(ね)</span> schmerzt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 392,
         "reading_dist": [
             {
@@ -32430,10 +32431,10 @@ let kyouiku =
         "kanji": "美",
         "kanji_ord": 32654,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span>  <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  <span class='radical' data-kanji='大'>Groß</span> <span class='radical_kanji'>(大)</span>  , <span class='meaning' data-kanji='美'>schön</span> <span class='meaning_kanji_meaning'>(美)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='美'>schön</span> <span class='meaning_kanji_reading'>(美)</span> , <span class='reading onyomi' data-hiragana='び'>bi</span> <span class='hiragana'>(び)</span>  <span class='reading kunyomi' data-hiragana='うつく'>utsuku</span> <span class='hiragana'>(うつく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span> tragende <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span> besucht eine <span class='radical' data-kanji='大'>Groß</span>veranstaltung <span class='radical_kanji'>(大)</span>, um seine <span class='meaning' data-kanji='美'>Schön</span>heit <span class='meaning_kanji_meaning'>(美)</span> zu zeigen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Sie ist <span class='meaning' data-kanji='美'>schön</span> <span class='meaning_kanji_reading'>(美)</span> wegen den <span class='reading onyomi' data-hiragana='び'>Be</span>autyprodukten <span class='hiragana'>(び)</span> damit sie als Fra<span class='reading kunyomi' data-hiragana='うつく'>u Zuku</span>nft <span class='hiragana'>(うつく)</span> noch schön ist.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 394,
         "reading_dist": [
             {
@@ -32506,10 +32507,10 @@ let kyouiku =
         "kanji": "習",
         "kanji_ord": 32722,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='羽'>Federn</span> <span class='radical_kanji'>(羽)</span>  <span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>  , <span class='meaning' data-kanji='習'>lernen</span> <span class='meaning_kanji_meaning'>(習)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='習'>lernen</span> <span class='meaning_kanji_reading'>(習)</span> , <span class='reading onyomi' data-hiragana='しゅう'>shuu</span> <span class='hiragana'>(しゅう)</span>  <span class='reading kunyomi' data-hiragana='なら'>nara</span> <span class='hiragana'>(なら)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Sind die <span class='radical' data-kanji='羽'>Federn</span> <span class='radical_kanji'>(羽)</span> noch <span class='radical' data-kanji='白'>Weiß</span> <span class='radical_kanji'>(白)</span>, muss der Vogel erst noch Fliegen <span class='meaning' data-kanji='習'>lernen</span> <span class='meaning_kanji_meaning'>(習)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich muss <span class='meaning' data-kanji='習'>lernen</span> <span class='meaning_kanji_reading'>(習)</span> in der <span class='reading onyomi' data-hiragana='しゅう'>Schu</span>le <span class='hiragana'>(しゅう)</span> für meine Semi<span class='reading kunyomi' data-hiragana='なら'>nara</span>rbeit <span class='hiragana'>(なら)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 395,
         "reading_dist": [
             {
@@ -32564,6 +32565,7 @@ let kyouiku =
             "Moon"
         ],
         "meanings_de": [
+            "Erziehung",
             "aufwachsen",
             "aufziehen",
             "erziehen"
@@ -32578,15 +32580,16 @@ let kyouiku =
             "Mond"
         ],
         "wk_radicals_kanji": [
+            "𠫓",
             "月"
         ],
         "kanji": "育",
         "kanji_ord": 32946,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span>  , <span class='meaning' data-kanji='育'>aufwachsen</span> <span class='meaning_kanji_meaning'>(育)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='育'>aufwachsen</span> <span class='meaning_kanji_reading'>(育)</span> , <span class='reading kunyomi' data-hiragana='そだ'>soda</span> <span class='hiragana'>(そだ)</span>  <span class='reading onyomi' data-hiragana='いく'>iku</span> <span class='hiragana'>(いく)</span>  <span class='reading kunyomi' data-hiragana='はぐく'>haguku</span> <span class='hiragana'>(はぐく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Räum dein <span class='radical' data-kanji='𠫓'>Müll</span> <span class='radical_kanji'>(𠫓)</span> auf, sonst schieß ich dich auf den <span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span>, lautet meine <span class='meaning' data-kanji='育'>Erziehung</span> <span class='meaning_kanji_meaning'>(育)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Meine <span class='meaning' data-kanji='育'>Erziehung</span> <span class='meaning_kanji_reading'>(育)</span> ist Mult<span class='reading onyomi' data-hiragana='いく'>iku</span>lti <span class='hiragana'>(いく)</span>, <span class='reading kunyomi' data-hiragana='そだ'>soda</span>ss <span class='hiragana'>(そだ)</span> ich meinen Kindern in Ägypten Sarkop<span class='reading kunyomi' data-hiragana='はぐく'>hag guck Ku</span>lisse <span class='hiragana'>(はぐく)</span> zeige.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 397,
         "reading_dist": [
             {
@@ -32649,6 +32652,7 @@ let kyouiku =
             "Old"
         ],
         "meanings_de": [
+            "Leiden",
             "bitter",
             "schmerzhaft"
         ],
@@ -32668,10 +32672,10 @@ let kyouiku =
         "kanji": "苦",
         "kanji_ord": 33510,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span>  <span class='radical' data-kanji='古'>Alt</span> <span class='radical_kanji'>(古)</span>  , <span class='meaning' data-kanji='苦'>bitter</span> <span class='meaning_kanji_meaning'>(苦)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='苦'>bitter</span> <span class='meaning_kanji_reading'>(苦)</span> , <span class='reading onyomi' data-hiragana='く'>ku</span> <span class='hiragana'>(く)</span>  <span class='reading kunyomi' data-hiragana='くる'>kuru</span> <span class='hiragana'>(くる)</span>  <span class='reading kunyomi' data-hiragana='にが'>niga</span> <span class='hiragana'>(にが)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span> die <span class='radical' data-kanji='古'>Alt</span> <span class='radical_kanji'>(古)</span> werden, verwelken und <span class='meaning' data-kanji='苦'>leiden</span> <span class='meaning_kanji_meaning'>(苦)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Man <span class='meaning' data-kanji='苦'>leidet</span> <span class='meaning_kanji_reading'>(苦)</span>, wenn die Verletzung <span class='reading kunyomi' data-hiragana='にが'>nie ga</span>nz <span class='hiragana'>(にが)</span> verheilt ist, und in der <span class='reading kunyomi' data-hiragana='くる'>Kur ru</span>stikal <span class='hiragana'>(くる)</span> behandelt wird.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 398,
         "reading_dist": [
             {
@@ -32735,8 +32739,8 @@ let kyouiku =
             "Lip Ring"
         ],
         "meanings_de": [
-            "Last",
             "Gepäck",
+            "Last",
             "Fracht",
             "Ware",
             "Paket"
@@ -32760,10 +32764,10 @@ let kyouiku =
         "kanji": "荷",
         "kanji_ord": 33655,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span>  <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='可'>Möglich</span> <span class='radical_kanji'>(可)</span>  , <span class='meaning' data-kanji='荷'>Last</span> <span class='meaning_kanji_meaning'>(荷)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='荷'>Last</span> <span class='meaning_kanji_reading'>(荷)</span> , <span class='reading kunyomi' data-hiragana='に'>ni</span> <span class='hiragana'>(に)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span> möchte unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> mitbringen, er fragt sich, ist es <span class='radical' data-kanji='可'>Möglich</span> <span class='radical_kanji'>(可)</span> sie im <span class='meaning' data-kanji='荷'>Gepäck</span> <span class='meaning_kanji_meaning'>(荷)</span> zu transportieren.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Man soll <span class='meaning' data-kanji='荷'>Gepäck</span> <span class='meaning_kanji_reading'>(荷)</span> <span class='reading kunyomi' data-hiragana='に'>ni</span>e <span class='hiragana'>(に)</span> werfen, sonst geht der Inhalt <span class='reading onyomi' data-hiragana='か'>ka</span>putt <span class='hiragana'>(か)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 399,
         "reading_dist": [
             {
@@ -32806,25 +32810,25 @@ let kyouiku =
             "Kiss"
         ],
         "meanings_de": [
-            "jeder"
+            "Jeder"
         ],
         "wk_radicals_new": [
             "Kiss"
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "各"
         ],
         "kanji": "各",
         "kanji_ord": 21508,
-        "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_meaning'>(各)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_reading'>(各)</span> , <span class='reading onyomi' data-hiragana='かく'>kaku</span> <span class='hiragana'>(かく)</span>  <span class='reading kunyomi' data-hiragana='おのおの'>onoono</span> <span class='hiragana'>(おのおの)</span>",
-        "mnemonic_reading_de_done": false,
+        "is_radical": false,
+        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span> nicht so viel den <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span> vollstopfen, denn <span class='meaning' data-kanji='各'>jeder</span> <span class='meaning_kanji_meaning'>(各)</span> Dorfbewohner soll etwas zu essen haben.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='各'>Jeder</span> <span class='meaning_kanji_reading'>(各)</span> einzelne bekommt das H<span class='reading kunyomi' data-hiragana='おの'>ono</span>rar <span class='hiragana'>(おの)</span> für den Lexi<span class='reading onyomi' data-hiragana='かく'>ka Ku</span>rztext <span class='hiragana'>(かく)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 505,
         "reading_dist": [
             {
@@ -32843,7 +32847,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 430,
+        "order_wiki_radical_corrected": 431,
         "grade_corrected": 4
     },
     {
@@ -32894,7 +32898,7 @@ let kyouiku =
         "wk_radicals_de": [
             "Blumen",
             "Tsunami",
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "艹",
@@ -32904,10 +32908,10 @@ let kyouiku =
         "kanji": "落",
         "kanji_ord": 33853,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span>  <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='落'>fallen</span> <span class='meaning_kanji_meaning'>(落)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='落'>fallen</span> <span class='meaning_kanji_reading'>(落)</span> , <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>  <span class='reading onyomi' data-hiragana='らく'>raku</span> <span class='hiragana'>(らく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span> werden von einem <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> aufgewirbelt, <span class='radical' data-kanji='各'>Jeder</span> <span class='radical_kanji'>(各)</span> möchte sie auffangen, als sie <span class='meaning' data-kanji='落'>fallen</span> <span class='meaning_kanji_meaning'>(落)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er <span class='meaning' data-kanji='落'>fällt</span> <span class='meaning_kanji_reading'>(落)</span> in <span class='reading kunyomi' data-hiragana='お'>Oh</span>nmacht <span class='hiragana'>(お)</span>, obwohl er nur ult<span class='reading onyomi' data-hiragana='らく'>raku</span>rz <span class='hiragana'>(らく)</span> das offene Stromkabel berührte.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 400,
         "reading_dist": [
             {
@@ -32926,7 +32930,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 431,
+        "order_wiki_radical_corrected": 432,
         "grade_corrected": 3
     },
     {
@@ -32991,10 +32995,10 @@ let kyouiku =
         "kanji": "葉",
         "kanji_ord": 33865,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span>  <span class='radical' data-kanji='世'>Welt</span> <span class='radical_kanji'>(世)</span>  <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='葉'>Blatt (einer Pflanze)</span> <span class='meaning_kanji_meaning'>(葉)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='葉'>Blatt (einer Pflanze)</span> <span class='meaning_kanji_reading'>(葉)</span> , <span class='reading kunyomi' data-hiragana='は'>ha</span> <span class='hiragana'>(は)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span> existieren auf der <span class='radical' data-kanji='世'>Welt</span> <span class='radical_kanji'>(世)</span>, weil ein <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span> typischerweiße <span class='meaning' data-kanji='葉'>Blätter</span> <span class='meaning_kanji_meaning'>(葉)</span> hat.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ein <span class='meaning' data-kanji='葉'>Blatt (einer Pflanze)</span> <span class='meaning_kanji_reading'>(葉)</span>  Ma<span class='reading onyomi' data-hiragana='よう'>jo</span>ran <span class='hiragana'>(よう)</span> für das Rezept ab<span class='reading kunyomi' data-hiragana='は'>ha</span>cken <span class='hiragana'>(は)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 401,
         "reading_dist": [
             {
@@ -33003,7 +33007,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 432,
+        "order_wiki_radical_corrected": 433,
         "grade_corrected": 3
     },
     {
@@ -33055,15 +33059,16 @@ let kyouiku =
             "Blumen"
         ],
         "wk_radicals_kanji": [
-            "艹"
+            "艹",
+            "楽"
         ],
         "kanji": "薬",
         "kanji_ord": 34220,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='艹'>Blumen</span> <span class='radical_kanji'>(艹)</span>  , <span class='meaning' data-kanji='薬'>Medizin</span> <span class='meaning_kanji_meaning'>(薬)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='薬'>Medizin</span> <span class='meaning_kanji_reading'>(薬)</span> , <span class='reading onyomi' data-hiragana='やく'>yaku</span> <span class='hiragana'>(やく)</span>  <span class='reading kunyomi' data-hiragana='くすり'>kusuri</span> <span class='hiragana'>(くすり)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aufgebrühter <span class='radical' data-kanji='艹'>Blumen</span>tee <span class='radical_kanji'>(艹)</span> und <span class='radical' data-kanji='楽'>Gemütlichkeit</span> <span class='radical_kanji'>(楽)</span> ist die beste <span class='meaning' data-kanji='薬'>Medizin</span> <span class='meaning_kanji_meaning'>(薬)</span> gegen Stress.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Als <span class='meaning' data-kanji='薬'>Medizin</span> <span class='meaning_kanji_reading'>(薬)</span> soll eine Papa<span class='reading onyomi' data-hiragana='やく'>yaku</span>r <span class='hiragana'>(やく)</span> helfen. Ein Tierarzt sagt, als Tier<span class='meaning' data-kanji='薬'>medizin</span> <span class='meaning_kanji_reading'>(薬)</span> soll man der <span class='reading kunyomi' data-hiragana='くすり'>Kuh Suri</span>mi <span class='hiragana'>(くすり)</span> füttern.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 402,
         "reading_dist": [
             {
@@ -33092,7 +33097,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 433,
+        "order_wiki_radical_corrected": 434,
         "grade_corrected": 3
     },
     {
@@ -33139,10 +33144,11 @@ let kyouiku =
         "kanji": "血",
         "kanji_ord": 34880,
         "is_radical": true,
+        "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='血'>Blut</span> <span class='radical_kanji'>(血)</span>  , <span class='meaning' data-kanji='血'>Blut</span> <span class='meaning_kanji_meaning'>(血)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='血'>Blut</span> <span class='meaning_kanji_reading'>(血)</span> , <span class='reading onyomi' data-hiragana='けつ'>ketsu</span> <span class='hiragana'>(けつ)</span>  <span class='reading kunyomi' data-hiragana='ち'>chi</span> <span class='hiragana'>(ち)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='血'>Blut</span> <span class='meaning_kanji_reading'>(血)</span> aus seinem Mund, als ich auf Schur<span class='reading onyomi' data-hiragana='けつ'>ke zu</span>schlag <span class='hiragana'>(けつ)</span> und er wegen ru<span class='reading kunyomi' data-hiragana='ち'>tschi</span>gem <span class='hiragana'>(ち)</span> Boden fällt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 403,
         "reading_dist": [
             {
@@ -33161,7 +33167,76 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 434,
+        "order_wiki_radical_corrected": 435,
+        "grade_corrected": 3
+    },
+    {
+        "strokes": 6,
+        "grade": 4,
+        "freq": 1214,
+        "jlpt_old": 2,
+        "jlpt_new": 2,
+        "meanings": [
+            "Garment",
+            "Clothes",
+            "Dressing"
+        ],
+        "readings_on": [
+            "い",
+            "え"
+        ],
+        "readings_kun": [
+            "ころも",
+            "きぬ",
+            "-ぎ"
+        ],
+        "wk_level": 41,
+        "wk_meanings": [
+            "Clothes"
+        ],
+        "wk_readings_on": [
+            "い",
+            "え"
+        ],
+        "wk_readings_kun": [
+            "!ころも"
+        ],
+        "wk_radicals": [
+            "Clothes"
+        ],
+        "meanings_de": [
+            "Bekleidung"
+        ],
+        "wk_radicals_new": [],
+        "wk_radicals_missing": [
+            "Clothes"
+        ],
+        "wk_radicals_de": [
+            "Bekleidung"
+        ],
+        "wk_radicals_kanji": [],
+        "kanji": "衣",
+        "kanji_ord": 34915,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='衣'>Bekleidung</span> <span class='meaning_kanji_meaning'>(衣)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='衣'>Bekleidung</span> <span class='meaning_kanji_reading'>(衣)</span> für den Menschen ist wie De<span class='reading kunyomi' data-hiragana='ころも'>kor (H)omo</span>sapiens <span class='hiragana'>(ころも)</span>, jeden Tag ziehe <span class='reading onyomi' data-hiragana='い'>I</span>ch <span class='hiragana'>(い)</span> mich an.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 607,
+        "reading_dist": [
+            {
+                "reading": "い",
+                "count": 6,
+                "prop": 0.75
+            },
+            {
+                "reading": "ころも",
+                "count": 2,
+                "prop": 0.25
+            }
+        ],
+        "order_wiki_radical_corrected": 436,
         "grade_corrected": 3
     },
     {
@@ -33202,9 +33277,9 @@ let kyouiku =
             "Kick"
         ],
         "meanings_de": [
-            "zeigen",
-            "sich ausdrücken",
             "Oberfläche",
+            "sich ausdrücken",
+            "zeigen",
             "Übersicht"
         ],
         "wk_radicals_new": [
@@ -33214,19 +33289,19 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Leben",
-            "Kick"
+            "Bekleidung"
         ],
         "wk_radicals_kanji": [
             "生",
-            " "
+            "衣"
         ],
         "kanji": "表",
         "kanji_ord": 34920,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji=' '>Kick</span> <span class='radical_kanji'>( )</span>  , <span class='meaning' data-kanji='表'>zeigen</span> <span class='meaning_kanji_meaning'>(表)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='表'>zeigen</span> <span class='meaning_kanji_reading'>(表)</span> , <span class='reading onyomi' data-hiragana='ひょう'>hyou</span> <span class='hiragana'>(ひょう)</span>  <span class='reading kunyomi' data-hiragana='おもて'>omote</span> <span class='hiragana'>(おもて)</span>  <span class='reading kunyomi' data-hiragana='あらわ'>arawa</span> <span class='hiragana'>(あらわ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "In einem Menschen<span class='radical' data-kanji='生'>leben</span> <span class='radical_kanji'>(生)</span> ist die <span class='radical' data-kanji='衣'>Bekleidung</span> <span class='radical_kanji'>(衣)</span> stets eine <span class='meaning' data-kanji='表'>Oberfläche</span> <span class='meaning_kanji_meaning'>(表)</span> der Haut.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='表'>Oberfläche</span> <span class='meaning_kanji_reading'>(表)</span> eines H<span class='reading kunyomi' data-hiragana='おもて'>omo-Te</span>ppichs <span class='hiragana'>(おもて)</span> kommt aus Ät<span class='reading onyomi' data-hiragana='ひょう'>hio</span>pien <span class='hiragana'>(ひょう)</span> und wurde über eine K<span class='reading kunyomi' data-hiragana='あらわ'>arawa</span>ne <span class='hiragana'>(あらわ)</span> gebracht.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 404,
         "reading_dist": [
             {
@@ -33245,7 +33320,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 435,
+        "order_wiki_radical_corrected": 437,
         "grade_corrected": 3
     },
     {
@@ -33298,10 +33373,10 @@ let kyouiku =
         "kanji": "詩",
         "kanji_ord": 35433,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span>  , <span class='meaning' data-kanji='詩'>Gedicht</span> <span class='meaning_kanji_meaning'>(詩)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='詩'>Gedicht</span> <span class='meaning_kanji_reading'>(詩)</span> , <span class='reading onyomi' data-hiragana='し'>shi</span> <span class='hiragana'>(し)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wenn ein Mönch <span class='radical' data-kanji='言'>redet</span> <span class='radical_kanji'>(言)</span> im <span class='radical' data-kanji='寺'>Tempel</span> <span class='radical_kanji'>(寺)</span>, dann ist es meist ein <span class='meaning' data-kanji='詩'>Gedicht</span> <span class='meaning_kanji_meaning'>(詩)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='詩'>Gedicht</span> <span class='meaning_kanji_reading'>(詩)</span> handelt von einer br<span class='reading kunyomi' data-hiragana='うた'>uta</span>len <span class='hiragana'>(うた)</span> Ge<span class='reading onyomi' data-hiragana='し'>schi</span>chte <span class='hiragana'>(し)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 405,
         "reading_dist": [
             {
@@ -33310,7 +33385,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 436,
+        "order_wiki_radical_corrected": 438,
         "grade_corrected": 3
     },
     {
@@ -33377,10 +33452,10 @@ let kyouiku =
         "kanji": "調",
         "kanji_ord": 35519,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='周'>Umfang</span> <span class='radical_kanji'>(周)</span>  , <span class='meaning' data-kanji='調'>untersuchen</span> <span class='meaning_kanji_meaning'>(調)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='調'>untersuchen</span> <span class='meaning_kanji_reading'>(調)</span> , <span class='reading onyomi' data-hiragana='ちょう'>chou</span> <span class='hiragana'>(ちょう)</span>  <span class='reading kunyomi' data-hiragana='しら'>shira</span> <span class='hiragana'>(しら)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die Polizisten <span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span> darüber, dass der Fall einen großen <span class='radical' data-kanji='周'>Umfang</span> <span class='radical_kanji'>(周)</span> hat, weshalb die <span class='meaning' data-kanji='調'>Untersuchung</span> <span class='meaning_kanji_meaning'>(調)</span> brauchen wird.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Architekt <span class='meaning' data-kanji='調'>untersucht</span> <span class='meaning_kanji_reading'>(調)</span> die <span class='reading kunyomi' data-hiragana='しら'>Skira</span>mpe <span class='hiragana'>(しら)</span> auf Fros<span class='reading onyomi' data-hiragana='ちょう'>tscho</span>ckzustand <span class='hiragana'>(ちょう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 406,
         "reading_dist": [
             {
@@ -33394,7 +33469,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 437,
+        "order_wiki_radical_corrected": 439,
         "grade_corrected": 3
     },
     {
@@ -33424,9 +33499,9 @@ let kyouiku =
             "Fire"
         ],
         "meanings_de": [
+            "Diskussion",
             "Gespräch",
-            "Konversation",
-            "Diskussion"
+            "Konversation"
         ],
         "wk_radicals_new": [
             "Say",
@@ -33444,10 +33519,10 @@ let kyouiku =
         "kanji": "談",
         "kanji_ord": 35527,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span>  <span class='radical' data-kanji='火'>Feuer</span> <span class='radical_kanji'>(火)</span>  , <span class='meaning' data-kanji='談'>Gespräch</span> <span class='meaning_kanji_meaning'>(談)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='談'>Gespräch</span> <span class='meaning_kanji_reading'>(談)</span> , <span class='reading onyomi' data-hiragana='だん'>dan</span> <span class='hiragana'>(だん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wenn beim <span class='radical' data-kanji='言'>Reden</span> <span class='radical_kanji'>(言)</span> das <span class='radical' data-kanji='火'>Feuer</span> <span class='radical_kanji'>(火)</span> entbrennt, ist es eine <span class='meaning' data-kanji='談'>Diskussion</span> <span class='meaning_kanji_meaning'>(談)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es wird keine <span class='meaning' data-kanji='談'>Diskussion</span> <span class='meaning_kanji_reading'>(談)</span> geduldet mit dem Komman<span class='reading onyomi' data-hiragana='だん'>dan</span>t <span class='hiragana'>(だん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 407,
         "reading_dist": [
             {
@@ -33456,7 +33531,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 438,
+        "order_wiki_radical_corrected": 440,
         "grade_corrected": 3
     },
     {
@@ -33500,8 +33575,8 @@ let kyouiku =
         "meanings_de": [
             "verlieren",
             "unterliegen",
-            "e. Last tragen",
-            "jem. etw. schulden",
+            "Last tragen",
+            "schulden",
             "Rabatt geben"
         ],
         "wk_radicals_new": [
@@ -33520,10 +33595,10 @@ let kyouiku =
         "kanji": "負",
         "kanji_ord": 36000,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='勹'>Gefängnis</span> <span class='radical_kanji'>(勹)</span>  <span class='radical' data-kanji='貝'>Muschel</span> <span class='radical_kanji'>(貝)</span>  , <span class='meaning' data-kanji='負'>verlieren</span> <span class='meaning_kanji_meaning'>(負)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='負'>verlieren</span> <span class='meaning_kanji_reading'>(負)</span> , <span class='reading onyomi' data-hiragana='ふ'>fu</span> <span class='hiragana'>(ふ)</span>  <span class='reading kunyomi' data-hiragana='ま'>ma</span> <span class='hiragana'>(ま)</span>  <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Im <span class='radical' data-kanji='勹'>Gefängnis</span> <span class='radical_kanji'>(勹)</span> spielen sie nur mit <span class='radical' data-kanji='貝'>Muschel</span>-Chips <span class='radical_kanji'>(貝)</span>, doch er <span class='meaning' data-kanji='負'>verliert</span> <span class='meaning_kanji_meaning'>(負)</span> jedes Pokerspiel.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wir <span class='meaning' data-kanji='負'>verlieren</span> <span class='meaning_kanji_reading'>(負)</span> im <span class='reading kunyomi' data-hiragana='ま'>Ma</span>ssaker <span class='hiragana'>(ま)</span> aus <span class='reading onyomi' data-hiragana='ふ'>Fu</span>rcht <span class='hiragana'>(ふ)</span> und <span class='reading kunyomi' data-hiragana='お'>Oh</span>nmacht <span class='hiragana'>(お)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 409,
         "reading_dist": [
             {
@@ -33542,7 +33617,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 439,
+        "order_wiki_radical_corrected": 441,
         "grade_corrected": 3
     },
     {
@@ -33601,10 +33676,10 @@ let kyouiku =
         "kanji": "起",
         "kanji_ord": 36215,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='走'>Laufen</span> <span class='radical_kanji'>(走)</span>  <span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  , <span class='meaning' data-kanji='起'>aufwachen</span> <span class='meaning_kanji_meaning'>(起)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='起'>aufwachen</span> <span class='meaning_kanji_reading'>(起)</span> , <span class='reading onyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>  <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die Mutter <span class='radical' data-kanji='走'>läuft</span> <span class='radical_kanji'>(走)</span> zu ihrem Kind, da es <span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span> nicht <span class='meaning' data-kanji='起'>aufwacht</span> <span class='meaning_kanji_meaning'>(起)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='起'>aufwachen</span> <span class='meaning_kanji_reading'>(起)</span> müssen noch die <span class='reading onyomi' data-hiragana='き'>Ki</span>nder <span class='hiragana'>(き)</span> des Phara<span class='reading kunyomi' data-hiragana='お'>oh</span> <span class='hiragana'>(お)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 410,
         "reading_dist": [
             {
@@ -33618,7 +33693,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 440,
+        "order_wiki_radical_corrected": 442,
         "grade_corrected": 3
     },
     {
@@ -33667,7 +33742,7 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Fuß",
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "足",
@@ -33676,8 +33751,8 @@ let kyouiku =
         "kanji": "路",
         "kanji_ord": 36335,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='足'>Fuß</span> <span class='radical_kanji'>(足)</span>  <span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='路'>Weg</span> <span class='meaning_kanji_meaning'>(路)</span>",
-        "mnemonic_meaning_de_done": false,
+        "mnemonic_meaning_de": "Mit strammen <span class='radical' data-kanji='足'>Bein</span>en <span class='radical_kanji'>(足)</span> geht <span class='radical' data-kanji='各'>Jeder</span> <span class='radical_kanji'>(各)</span> diesen <span class='meaning' data-kanji='路'>Weg</span> <span class='meaning_kanji_meaning'>(路)</span> entlang.",
+        "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Die <span class='meaning' data-kanji='路'>Weg</span> <span class='meaning_kanji_reading'>(路)</span> Makierung ist <span class='reading onyomi' data-hiragana='ろ'>Ro</span>t <span class='hiragana'>(ろ)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 411,
@@ -33688,7 +33763,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 441,
+        "order_wiki_radical_corrected": 443,
         "grade_corrected": 3
     },
     {
@@ -33725,6 +33800,7 @@ let kyouiku =
             "Slide"
         ],
         "meanings_de": [
+            "Jemand",
             "Körper"
         ],
         "wk_radicals_new": [
@@ -33743,10 +33819,10 @@ let kyouiku =
         "kanji": "身",
         "kanji_ord": 36523,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='自'>Selbst</span> <span class='radical_kanji'>(自)</span>  <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  , <span class='meaning' data-kanji='身'>Körper</span> <span class='meaning_kanji_meaning'>(身)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='身'>Körper</span> <span class='meaning_kanji_reading'>(身)</span> , <span class='reading kunyomi' data-hiragana='み'>mi</span> <span class='hiragana'>(み)</span>  <span class='reading onyomi' data-hiragana='しん'>shin</span> <span class='hiragana'>(しん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ich will <span class='radical' data-kanji='自'>Selbst</span> <span class='radical_kanji'>(自)</span> zuerst die Not-<span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span> nutzen, als Irgend<span class='meaning' data-kanji='身'>jemand</span> <span class='meaning_kanji_meaning'>(身)</span> (allgemeines).",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Irgend<span class='meaning' data-kanji='身'>jemand</span> <span class='meaning_kanji_reading'>(身)</span> (allgemeines) aus Spanien könnte <span class='reading kunyomi' data-hiragana='み'>mi</span>r <span class='hiragana'>(み)</span> einen <span class='reading onyomi' data-hiragana='しん'>Schin</span>ken <span class='hiragana'>(しん)</span> zuschicken.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 412,
         "reading_dist": [
             {
@@ -33760,7 +33836,7 @@ let kyouiku =
                 "prop": 0.28
             }
         ],
-        "order_wiki_radical_corrected": 442,
+        "order_wiki_radical_corrected": 444,
         "grade_corrected": 3
     },
     {
@@ -33802,6 +33878,7 @@ let kyouiku =
             "Cloud"
         ],
         "meanings_de": [
+            "rotieren",
             "rollen",
             "drehen",
             "wälzen"
@@ -33822,10 +33899,10 @@ let kyouiku =
         "kanji": "転",
         "kanji_ord": 36578,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='車'>Auto</span> <span class='radical_kanji'>(車)</span>  <span class='radical' data-kanji='云'>Wolke</span> <span class='radical_kanji'>(云)</span>  , <span class='meaning' data-kanji='転'>rollen</span> <span class='meaning_kanji_meaning'>(転)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='転'>rollen</span> <span class='meaning_kanji_reading'>(転)</span> , <span class='reading onyomi' data-hiragana='てん'>ten</span> <span class='hiragana'>(てん)</span>  <span class='reading kunyomi' data-hiragana='ころ'>koro</span> <span class='hiragana'>(ころ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Kommt aus dem <span class='radical' data-kanji='車'>Fahrzeug</span> <span class='radical_kanji'>(車)</span> eine Auspuff<span class='radical' data-kanji='云'>wolke</span> <span class='radical_kanji'>(云)</span>, beginnt das Rad zu <span class='meaning' data-kanji='転'>rotieren</span> <span class='meaning_kanji_meaning'>(転)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Reagenzgläser <span class='meaning' data-kanji='転'>rotieren</span> <span class='meaning_kanji_reading'>(転)</span>, um eine <span class='reading onyomi' data-hiragana='てん'>Ten</span>denz <span class='hiragana'>(てん)</span> auf das <span class='reading kunyomi' data-hiragana='ころ'>Koro</span>na-Ergebnis <span class='hiragana'>(ころ)</span> zu zeigen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 413,
         "reading_dist": [
             {
@@ -33839,7 +33916,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 443,
+        "order_wiki_radical_corrected": 445,
         "grade_corrected": 3
     },
     {
@@ -33881,6 +33958,7 @@ let kyouiku =
             "Tombstone"
         ],
         "meanings_de": [
+            "leichtgewichtig",
             "leicht",
             "einfach"
         ],
@@ -33900,10 +33978,10 @@ let kyouiku =
         "kanji": "軽",
         "kanji_ord": 36605,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='車'>Auto</span> <span class='radical_kanji'>(車)</span>  <span class='radical' data-kanji='圣'>Grabstein</span> <span class='radical_kanji'>(圣)</span>  , <span class='meaning' data-kanji='軽'>leicht</span> <span class='meaning_kanji_meaning'>(軽)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='軽'>leicht</span> <span class='meaning_kanji_reading'>(軽)</span> , <span class='reading onyomi' data-hiragana='けい'>kei</span> <span class='hiragana'>(けい)</span>  <span class='reading kunyomi' data-hiragana='かる'>karu</span> <span class='hiragana'>(かる)</span>  <span class='reading kunyomi' data-hiragana='かろ'>karo</span> <span class='hiragana'>(かろ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mein <span class='radical' data-kanji='車'>Fahrzeug</span> <span class='radical_kanji'>(車)</span> kann nur <span class='radical' data-kanji='圣'>Grabstein</span>e <span class='radical_kanji'>(圣)</span> transportieren, die <span class='meaning' data-kanji='軽'>leichtgewichtig</span> <span class='meaning_kanji_meaning'>(軽)</span> sind.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es braucht <span class='meaning' data-kanji='軽'>leichtgewichtig</span>e <span class='meaning_kanji_reading'>(軽)</span> Teile, sagt der dic<span class='reading onyomi' data-hiragana='けい'>ke I</span>ngenieur <span class='hiragana'>(けい)</span>, damit das <span class='reading kunyomi' data-hiragana='かる'>Karu</span>ssell <span class='hiragana'>(かる)</span> sich drehen kann.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 414,
         "reading_dist": [
             {
@@ -33922,7 +34000,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 444,
+        "order_wiki_radical_corrected": 446,
         "grade_corrected": 3
     },
     {
@@ -33971,10 +34049,10 @@ let kyouiku =
         "kanji": "農",
         "kanji_ord": 36786,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='曲'>Musik</span> <span class='radical_kanji'>(曲)</span>  <span class='radical' data-kanji='辰'>Erdrutsch</span> <span class='radical_kanji'>(辰)</span>  , <span class='meaning' data-kanji='農'>Landwirtschaft</span> <span class='meaning_kanji_meaning'>(農)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='農'>Landwirtschaft</span> <span class='meaning_kanji_reading'>(農)</span> , <span class='reading onyomi' data-hiragana='のう'>nou</span> <span class='hiragana'>(のう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Bei <span class='radical' data-kanji='曲'>Musik</span> <span class='radical_kanji'>(曲)</span> arbeitet unser Bauer, vom Sternzeichen <span class='radical' data-kanji='辰'>Drache</span> <span class='radical_kanji'>(辰)</span>, gerne in der <span class='meaning' data-kanji='農'>Landwirtschaft</span> <span class='meaning_kanji_meaning'>(農)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ohne <span class='meaning' data-kanji='農'>Landwirtschaft</span> <span class='meaning_kanji_reading'>(農)</span> würden die Leute ohne Nahrungsmittel <span class='reading onyomi' data-hiragana='のう'>No</span>t <span class='hiragana'>(のう)</span> leiden.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 415,
         "reading_dist": [
             {
@@ -33983,7 +34061,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 445,
+        "order_wiki_radical_corrected": 447,
         "grade_corrected": 3
     },
     {
@@ -34059,7 +34137,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 446,
+        "order_wiki_radical_corrected": 448,
         "grade_corrected": 3
     },
     {
@@ -34133,7 +34211,7 @@ let kyouiku =
                 "prop": 0.48
             }
         ],
-        "order_wiki_radical_corrected": 447,
+        "order_wiki_radical_corrected": 449,
         "grade_corrected": 3
     },
     {
@@ -34206,7 +34284,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 448,
+        "order_wiki_radical_corrected": 450,
         "grade_corrected": 3
     },
     {
@@ -34294,7 +34372,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 449,
+        "order_wiki_radical_corrected": 451,
         "grade_corrected": 3
     },
     {
@@ -34367,7 +34445,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 450,
+        "order_wiki_radical_corrected": 452,
         "grade_corrected": 3
     },
     {
@@ -34448,7 +34526,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 451,
+        "order_wiki_radical_corrected": 453,
         "grade_corrected": 3
     },
     {
@@ -34530,7 +34608,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 452,
+        "order_wiki_radical_corrected": 454,
         "grade_corrected": 3
     },
     {
@@ -34609,7 +34687,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 453,
+        "order_wiki_radical_corrected": 455,
         "grade_corrected": 3
     },
     {
@@ -34688,7 +34766,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 454,
+        "order_wiki_radical_corrected": 456,
         "grade_corrected": 3
     },
     {
@@ -34759,7 +34837,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 455,
+        "order_wiki_radical_corrected": 457,
         "grade_corrected": 3
     },
     {
@@ -34836,7 +34914,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 456,
+        "order_wiki_radical_corrected": 458,
         "grade_corrected": 3
     },
     {
@@ -34910,7 +34988,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 457,
+        "order_wiki_radical_corrected": 459,
         "grade_corrected": 4
     },
     {
@@ -34988,7 +35066,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 458,
+        "order_wiki_radical_corrected": 460,
         "grade_corrected": 4
     },
     {
@@ -35055,7 +35133,7 @@ let kyouiku =
                 "prop": 0.27
             }
         ],
-        "order_wiki_radical_corrected": 459,
+        "order_wiki_radical_corrected": 461,
         "grade_corrected": 3
     },
     {
@@ -35115,7 +35193,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 460,
+        "order_wiki_radical_corrected": 462,
         "grade_corrected": 3
     },
     {
@@ -35197,7 +35275,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 461,
+        "order_wiki_radical_corrected": 463,
         "grade_corrected": 3
     },
     {
@@ -35264,7 +35342,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 462,
+        "order_wiki_radical_corrected": 464,
         "grade_corrected": 3
     },
     {
@@ -35335,7 +35413,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 463,
+        "order_wiki_radical_corrected": 465,
         "grade_corrected": 3
     },
     {
@@ -35404,7 +35482,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 464,
+        "order_wiki_radical_corrected": 466,
         "grade_corrected": 5
     },
     {
@@ -35473,7 +35551,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 465,
+        "order_wiki_radical_corrected": 467,
         "grade_corrected": 3
     },
     {
@@ -35558,7 +35636,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 466,
+        "order_wiki_radical_corrected": 468,
         "grade_corrected": 3
     },
     {
@@ -35638,7 +35716,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 467,
+        "order_wiki_radical_corrected": 469,
         "grade_corrected": 3
     },
     {
@@ -35704,7 +35782,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 468,
+        "order_wiki_radical_corrected": 470,
         "grade_corrected": 3
     },
     {
@@ -35777,7 +35855,7 @@ let kyouiku =
                 "prop": 0.45
             }
         ],
-        "order_wiki_radical_corrected": 469,
+        "order_wiki_radical_corrected": 471,
         "grade_corrected": 3
     },
     {
@@ -35846,7 +35924,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 470,
+        "order_wiki_radical_corrected": 472,
         "grade_corrected": 3
     },
     {
@@ -35904,7 +35982,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 471,
+        "order_wiki_radical_corrected": 473,
         "grade_corrected": 3
     },
     {
@@ -35972,7 +36050,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 472,
+        "order_wiki_radical_corrected": 474,
         "grade_corrected": 3
     },
     {
@@ -36043,7 +36121,7 @@ let kyouiku =
                 "prop": 0.01
             }
         ],
-        "order_wiki_radical_corrected": 473,
+        "order_wiki_radical_corrected": 475,
         "grade_corrected": 4
     },
     {
@@ -36120,7 +36198,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 474,
+        "order_wiki_radical_corrected": 476,
         "grade_corrected": 4
     },
     {
@@ -36207,7 +36285,7 @@ let kyouiku =
                 "prop": 0.37
             }
         ],
-        "order_wiki_radical_corrected": 475,
+        "order_wiki_radical_corrected": 477,
         "grade_corrected": 4
     },
     {
@@ -36287,7 +36365,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 476,
+        "order_wiki_radical_corrected": 478,
         "grade_corrected": 4
     },
     {
@@ -36362,7 +36440,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 477,
+        "order_wiki_radical_corrected": 479,
         "grade_corrected": 4
     },
     {
@@ -36447,7 +36525,7 @@ let kyouiku =
                 "prop": 0.19
             }
         ],
-        "order_wiki_radical_corrected": 478,
+        "order_wiki_radical_corrected": 480,
         "grade_corrected": 4
     },
     {
@@ -36522,7 +36600,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 479,
+        "order_wiki_radical_corrected": 481,
         "grade_corrected": 4
     },
     {
@@ -36598,7 +36676,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 480,
+        "order_wiki_radical_corrected": 482,
         "grade_corrected": 4
     },
     {
@@ -36675,7 +36753,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 481,
+        "order_wiki_radical_corrected": 483,
         "grade_corrected": 4
     },
     {
@@ -36767,7 +36845,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 482,
+        "order_wiki_radical_corrected": 484,
         "grade_corrected": 4
     },
     {
@@ -36831,7 +36909,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 483,
+        "order_wiki_radical_corrected": 485,
         "grade_corrected": 4
     },
     {
@@ -36896,7 +36974,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 484,
+        "order_wiki_radical_corrected": 486,
         "grade_corrected": 4
     },
     {
@@ -36973,7 +37051,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 485,
+        "order_wiki_radical_corrected": 487,
         "grade_corrected": 4
     },
     {
@@ -37057,7 +37135,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 486,
+        "order_wiki_radical_corrected": 488,
         "grade_corrected": 4
     },
     {
@@ -37135,7 +37213,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 487,
+        "order_wiki_radical_corrected": 489,
         "grade_corrected": 4
     },
     {
@@ -37219,7 +37297,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 488,
+        "order_wiki_radical_corrected": 490,
         "grade_corrected": 4
     },
     {
@@ -37288,7 +37366,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 489,
+        "order_wiki_radical_corrected": 491,
         "grade_corrected": 4
     },
     {
@@ -37347,7 +37425,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 490,
+        "order_wiki_radical_corrected": 492,
         "grade_corrected": 4
     },
     {
@@ -37415,7 +37493,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 491,
+        "order_wiki_radical_corrected": 493,
         "grade_corrected": 4
     },
     {
@@ -37489,7 +37567,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 492,
+        "order_wiki_radical_corrected": 494,
         "grade_corrected": 4
     },
     {
@@ -37563,7 +37641,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 493,
+        "order_wiki_radical_corrected": 495,
         "grade_corrected": 4
     },
     {
@@ -37629,7 +37707,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 494,
+        "order_wiki_radical_corrected": 496,
         "grade_corrected": 4
     },
     {
@@ -37719,7 +37797,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 495,
+        "order_wiki_radical_corrected": 497,
         "grade_corrected": 4
     },
     {
@@ -37808,7 +37886,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 496,
+        "order_wiki_radical_corrected": 498,
         "grade_corrected": 4
     },
     {
@@ -37896,7 +37974,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 497,
+        "order_wiki_radical_corrected": 499,
         "grade_corrected": 4
     },
     {
@@ -37972,7 +38050,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 498,
+        "order_wiki_radical_corrected": 500,
         "grade_corrected": 4
     },
     {
@@ -38050,7 +38128,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 499,
+        "order_wiki_radical_corrected": 501,
         "grade_corrected": 4
     },
     {
@@ -38116,7 +38194,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 500,
+        "order_wiki_radical_corrected": 502,
         "grade_corrected": 4
     },
     {
@@ -38185,7 +38263,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 501,
+        "order_wiki_radical_corrected": 503,
         "grade_corrected": 4
     },
     {
@@ -38261,7 +38339,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 502,
+        "order_wiki_radical_corrected": 504,
         "grade_corrected": 4
     },
     {
@@ -38337,7 +38415,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 503,
+        "order_wiki_radical_corrected": 505,
         "grade_corrected": 4
     },
     {
@@ -38415,7 +38493,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 504,
+        "order_wiki_radical_corrected": 506,
         "grade_corrected": 4
     },
     {
@@ -38493,7 +38571,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 505,
+        "order_wiki_radical_corrected": 507,
         "grade_corrected": 4
     },
     {
@@ -38560,7 +38638,7 @@ let kyouiku =
                 "prop": 0.44
             }
         ],
-        "order_wiki_radical_corrected": 506,
+        "order_wiki_radical_corrected": 508,
         "grade_corrected": 4
     },
     {
@@ -38635,7 +38713,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 507,
+        "order_wiki_radical_corrected": 509,
         "grade_corrected": 4
     },
     {
@@ -38696,7 +38774,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 508,
+        "order_wiki_radical_corrected": 510,
         "grade_corrected": 4
     },
     {
@@ -38754,7 +38832,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 509,
+        "order_wiki_radical_corrected": 511,
         "grade_corrected": 4
     },
     {
@@ -38834,7 +38912,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 510,
+        "order_wiki_radical_corrected": 512,
         "grade_corrected": 4
     },
     {
@@ -38914,7 +38992,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 511,
+        "order_wiki_radical_corrected": 513,
         "grade_corrected": 4
     },
     {
@@ -39002,7 +39080,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 512,
+        "order_wiki_radical_corrected": 514,
         "grade_corrected": 4
     },
     {
@@ -39075,7 +39153,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 513,
+        "order_wiki_radical_corrected": 515,
         "grade_corrected": 4
     },
     {
@@ -39145,7 +39223,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 514,
+        "order_wiki_radical_corrected": 516,
         "grade_corrected": 4
     },
     {
@@ -39223,7 +39301,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 515,
+        "order_wiki_radical_corrected": 517,
         "grade_corrected": 4
     },
     {
@@ -39299,7 +39377,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 516,
+        "order_wiki_radical_corrected": 518,
         "grade_corrected": 4
     },
     {
@@ -39380,7 +39458,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 517,
+        "order_wiki_radical_corrected": 519,
         "grade_corrected": 4
     },
     {
@@ -39455,7 +39533,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 518,
+        "order_wiki_radical_corrected": 520,
         "grade_corrected": 4
     },
     {
@@ -39541,7 +39619,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 519,
+        "order_wiki_radical_corrected": 521,
         "grade_corrected": 4
     },
     {
@@ -39601,7 +39679,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 520,
+        "order_wiki_radical_corrected": 522,
         "grade_corrected": 4
     },
     {
@@ -39664,7 +39742,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 521,
+        "order_wiki_radical_corrected": 523,
         "grade_corrected": 4
     },
     {
@@ -39727,7 +39805,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 522,
+        "order_wiki_radical_corrected": 524,
         "grade_corrected": 4
     },
     {
@@ -39787,7 +39865,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 523,
+        "order_wiki_radical_corrected": 525,
         "grade_corrected": 4
     },
     {
@@ -39854,7 +39932,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 524,
+        "order_wiki_radical_corrected": 526,
         "grade_corrected": 4
     },
     {
@@ -39920,7 +39998,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 525,
+        "order_wiki_radical_corrected": 527,
         "grade_corrected": 4
     },
     {
@@ -39984,7 +40062,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 526,
+        "order_wiki_radical_corrected": 528,
         "grade_corrected": 4
     },
     {
@@ -40069,7 +40147,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 527,
+        "order_wiki_radical_corrected": 529,
         "grade_corrected": 4
     },
     {
@@ -40148,7 +40226,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 528,
+        "order_wiki_radical_corrected": 530,
         "grade_corrected": 4
     },
     {
@@ -40218,7 +40296,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 529,
+        "order_wiki_radical_corrected": 531,
         "grade_corrected": 4
     },
     {
@@ -40301,7 +40379,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 530,
+        "order_wiki_radical_corrected": 532,
         "grade_corrected": 4
     },
     {
@@ -40380,7 +40458,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 531,
+        "order_wiki_radical_corrected": 533,
         "grade_corrected": 4
     },
     {
@@ -40443,7 +40521,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 532,
+        "order_wiki_radical_corrected": 534,
         "grade_corrected": 4
     },
     {
@@ -40503,7 +40581,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='康'>Gesundheit</span> <span class='meaning_kanji_reading'>(康)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 528,
-        "order_wiki_radical_corrected": 533,
+        "order_wiki_radical_corrected": 535,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -40587,7 +40665,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 534,
+        "order_wiki_radical_corrected": 536,
         "grade_corrected": 4
     },
     {
@@ -40647,7 +40725,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 530,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 535,
+        "order_wiki_radical_corrected": 537,
         "grade_corrected": 4
     },
     {
@@ -40724,7 +40802,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 536,
+        "order_wiki_radical_corrected": 538,
         "grade_corrected": 4
     },
     {
@@ -40802,7 +40880,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 537,
+        "order_wiki_radical_corrected": 539,
         "grade_corrected": 4
     },
     {
@@ -40870,7 +40948,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 538,
+        "order_wiki_radical_corrected": 540,
         "grade_corrected": 4
     },
     {
@@ -40952,7 +41030,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 539,
+        "order_wiki_radical_corrected": 541,
         "grade_corrected": 4
     },
     {
@@ -41035,7 +41113,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 540,
+        "order_wiki_radical_corrected": 542,
         "grade_corrected": 4
     },
     {
@@ -41109,7 +41187,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 541,
+        "order_wiki_radical_corrected": 543,
         "grade_corrected": 4
     },
     {
@@ -41196,7 +41274,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 542,
+        "order_wiki_radical_corrected": 544,
         "grade_corrected": 4
     },
     {
@@ -41281,7 +41359,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 543,
+        "order_wiki_radical_corrected": 545,
         "grade_corrected": 4
     },
     {
@@ -41358,7 +41436,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 544,
+        "order_wiki_radical_corrected": 546,
         "grade_corrected": 4
     },
     {
@@ -41430,7 +41508,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 545,
+        "order_wiki_radical_corrected": 547,
         "grade_corrected": 4
     },
     {
@@ -41515,7 +41593,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 546,
+        "order_wiki_radical_corrected": 548,
         "grade_corrected": 4
     },
     {
@@ -41578,7 +41656,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 547,
+        "order_wiki_radical_corrected": 549,
         "grade_corrected": 4
     },
     {
@@ -41652,7 +41730,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 548,
+        "order_wiki_radical_corrected": 550,
         "grade_corrected": 4
     },
     {
@@ -41724,7 +41802,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 549,
+        "order_wiki_radical_corrected": 551,
         "grade_corrected": 4
     },
     {
@@ -41790,7 +41868,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 550,
+        "order_wiki_radical_corrected": 552,
         "grade_corrected": 4
     },
     {
@@ -41878,7 +41956,7 @@ let kyouiku =
                 "prop": 0.02
             }
         ],
-        "order_wiki_radical_corrected": 551,
+        "order_wiki_radical_corrected": 553,
         "grade_corrected": 4
     },
     {
@@ -41958,7 +42036,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 552,
+        "order_wiki_radical_corrected": 554,
         "grade_corrected": 6
     },
     {
@@ -42045,7 +42123,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 553,
+        "order_wiki_radical_corrected": 555,
         "grade_corrected": 4
     },
     {
@@ -42121,7 +42199,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 554,
+        "order_wiki_radical_corrected": 556,
         "grade_corrected": 4
     },
     {
@@ -42198,7 +42276,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 555,
+        "order_wiki_radical_corrected": 557,
         "grade_corrected": 4
     },
     {
@@ -42266,7 +42344,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 556,
+        "order_wiki_radical_corrected": 558,
         "grade_corrected": 4
     },
     {
@@ -42331,7 +42409,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 557,
+        "order_wiki_radical_corrected": 559,
         "grade_corrected": 4
     },
     {
@@ -42412,7 +42490,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 558,
+        "order_wiki_radical_corrected": 560,
         "grade_corrected": 4
     },
     {
@@ -42494,7 +42572,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 559,
+        "order_wiki_radical_corrected": 561,
         "grade_corrected": 4
     },
     {
@@ -42566,7 +42644,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 560,
+        "order_wiki_radical_corrected": 562,
         "grade_corrected": 4
     },
     {
@@ -42649,7 +42727,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 561,
+        "order_wiki_radical_corrected": 563,
         "grade_corrected": 4
     },
     {
@@ -42712,7 +42790,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_reading'>(械)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 558,
-        "order_wiki_radical_corrected": 562,
+        "order_wiki_radical_corrected": 564,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -42820,7 +42898,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 563,
+        "order_wiki_radical_corrected": 565,
         "grade_corrected": 4
     },
     {
@@ -42900,7 +42978,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 564,
+        "order_wiki_radical_corrected": 566,
         "grade_corrected": 4
     },
     {
@@ -42981,7 +43059,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 565,
+        "order_wiki_radical_corrected": 567,
         "grade_corrected": 4
     },
     {
@@ -43056,7 +43134,7 @@ let kyouiku =
                 "prop": 0.36
             }
         ],
-        "order_wiki_radical_corrected": 566,
+        "order_wiki_radical_corrected": 568,
         "grade_corrected": 4
     },
     {
@@ -43130,7 +43208,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 567,
+        "order_wiki_radical_corrected": 569,
         "grade_corrected": 4
     },
     {
@@ -43223,7 +43301,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 568,
+        "order_wiki_radical_corrected": 570,
         "grade_corrected": 4
     },
     {
@@ -43294,7 +43372,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 569,
+        "order_wiki_radical_corrected": 571,
         "grade_corrected": 4
     },
     {
@@ -43361,7 +43439,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 570,
+        "order_wiki_radical_corrected": 572,
         "grade_corrected": 4
     },
     {
@@ -43429,7 +43507,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 571,
+        "order_wiki_radical_corrected": 573,
         "grade_corrected": 4
     },
     {
@@ -43504,7 +43582,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 572,
+        "order_wiki_radical_corrected": 574,
         "grade_corrected": 4
     },
     {
@@ -43588,7 +43666,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 573,
+        "order_wiki_radical_corrected": 575,
         "grade_corrected": 4
     },
     {
@@ -43666,7 +43744,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 574,
+        "order_wiki_radical_corrected": 576,
         "grade_corrected": 4
     },
     {
@@ -43742,7 +43820,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 575,
+        "order_wiki_radical_corrected": 577,
         "grade_corrected": 4
     },
     {
@@ -43824,7 +43902,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 576,
+        "order_wiki_radical_corrected": 578,
         "grade_corrected": 4
     },
     {
@@ -43898,7 +43976,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 577,
+        "order_wiki_radical_corrected": 579,
         "grade_corrected": 4
     },
     {
@@ -43984,7 +44062,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 578,
+        "order_wiki_radical_corrected": 580,
         "grade_corrected": 4
     },
     {
@@ -44064,7 +44142,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 579,
+        "order_wiki_radical_corrected": 581,
         "grade_corrected": 4
     },
     {
@@ -44141,7 +44219,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 580,
+        "order_wiki_radical_corrected": 582,
         "grade_corrected": 4
     },
     {
@@ -44222,7 +44300,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 581,
+        "order_wiki_radical_corrected": 583,
         "grade_corrected": 4
     },
     {
@@ -44291,7 +44369,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 582,
+        "order_wiki_radical_corrected": 584,
         "grade_corrected": 4
     },
     {
@@ -44387,7 +44465,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 583,
+        "order_wiki_radical_corrected": 585,
         "grade_corrected": 4
     },
     {
@@ -44466,7 +44544,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 584,
+        "order_wiki_radical_corrected": 586,
         "grade_corrected": 4
     },
     {
@@ -44538,7 +44616,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 585,
+        "order_wiki_radical_corrected": 587,
         "grade_corrected": 4
     },
     {
@@ -44618,7 +44696,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 586,
+        "order_wiki_radical_corrected": 588,
         "grade_corrected": 4
     },
     {
@@ -44694,7 +44772,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 587,
+        "order_wiki_radical_corrected": 589,
         "grade_corrected": 4
     },
     {
@@ -44757,7 +44835,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 588,
+        "order_wiki_radical_corrected": 590,
         "grade_corrected": 4
     },
     {
@@ -44835,7 +44913,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 589,
+        "order_wiki_radical_corrected": 591,
         "grade_corrected": 4
     },
     {
@@ -44928,7 +45006,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 590,
+        "order_wiki_radical_corrected": 592,
         "grade_corrected": 4
     },
     {
@@ -45016,7 +45094,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 591,
+        "order_wiki_radical_corrected": 593,
         "grade_corrected": 4
     },
     {
@@ -45087,7 +45165,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 592,
+        "order_wiki_radical_corrected": 594,
         "grade_corrected": 4
     },
     {
@@ -45160,7 +45238,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 593,
+        "order_wiki_radical_corrected": 595,
         "grade_corrected": 4
     },
     {
@@ -45256,7 +45334,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 594,
+        "order_wiki_radical_corrected": 596,
         "grade_corrected": 4
     },
     {
@@ -45323,7 +45401,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 595,
+        "order_wiki_radical_corrected": 597,
         "grade_corrected": 4
     },
     {
@@ -45413,7 +45491,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 596,
+        "order_wiki_radical_corrected": 598,
         "grade_corrected": 4
     },
     {
@@ -45485,7 +45563,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 597,
+        "order_wiki_radical_corrected": 599,
         "grade_corrected": 4
     },
     {
@@ -45566,7 +45644,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 598,
+        "order_wiki_radical_corrected": 600,
         "grade_corrected": 4
     },
     {
@@ -45643,7 +45721,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 599,
+        "order_wiki_radical_corrected": 601,
         "grade_corrected": 4
     },
     {
@@ -45724,7 +45802,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 600,
+        "order_wiki_radical_corrected": 602,
         "grade_corrected": 4
     },
     {
@@ -45774,7 +45852,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='臣'>Gefolgsmann</span> <span class='meaning_kanji_reading'>(臣)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 600,
-        "order_wiki_radical_corrected": 601,
+        "order_wiki_radical_corrected": 603,
         "grade_corrected": 4,
         "reading_dist": []
     },
@@ -45849,7 +45927,7 @@ let kyouiku =
                 "prop": 0.45
             }
         ],
-        "order_wiki_radical_corrected": 602,
+        "order_wiki_radical_corrected": 604,
         "grade_corrected": 4
     },
     {
@@ -45921,7 +45999,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 603,
+        "order_wiki_radical_corrected": 605,
         "grade_corrected": 4
     },
     {
@@ -45988,7 +46066,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 604,
+        "order_wiki_radical_corrected": 606,
         "grade_corrected": 4
     },
     {
@@ -46061,7 +46139,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 605,
+        "order_wiki_radical_corrected": 607,
         "grade_corrected": 4
     },
     {
@@ -46130,7 +46208,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 606,
+        "order_wiki_radical_corrected": 608,
         "grade_corrected": 4
     },
     {
@@ -46208,73 +46286,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 607,
-        "grade_corrected": 4
-    },
-    {
-        "strokes": 6,
-        "grade": 4,
-        "freq": 1214,
-        "jlpt_old": 2,
-        "jlpt_new": 2,
-        "meanings": [
-            "Garment",
-            "Clothes",
-            "Dressing"
-        ],
-        "readings_on": [
-            "い",
-            "え"
-        ],
-        "readings_kun": [
-            "ころも",
-            "きぬ",
-            "-ぎ"
-        ],
-        "wk_level": 41,
-        "wk_meanings": [
-            "Clothes"
-        ],
-        "wk_readings_on": [
-            "い",
-            "え"
-        ],
-        "wk_readings_kun": [
-            "!ころも"
-        ],
-        "wk_radicals": [
-            "Clothes"
-        ],
-        "meanings_de": [
-            "Bekleidung"
-        ],
-        "wk_radicals_new": [],
-        "wk_radicals_missing": [
-            "Clothes"
-        ],
-        "wk_radicals_de": [],
-        "wk_radicals_kanji": [],
-        "kanji": "衣",
-        "kanji_ord": 34915,
-        "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='衣'>Bekleidung</span> <span class='meaning_kanji_meaning'>(衣)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='衣'>Bekleidung</span> <span class='meaning_kanji_reading'>(衣)</span> , <span class='reading onyomi' data-hiragana='い'>i</span> <span class='hiragana'>(い)</span>  <span class='reading kunyomi' data-hiragana='ころも'>koromo</span> <span class='hiragana'>(ころも)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 607,
-        "reading_dist": [
-            {
-                "reading": "い",
-                "count": 6,
-                "prop": 0.75
-            },
-            {
-                "reading": "ころも",
-                "count": 2,
-                "prop": 0.25
-            }
-        ],
-        "order_wiki_radical_corrected": 608,
+        "order_wiki_radical_corrected": 609,
         "grade_corrected": 4
     },
     {
@@ -46355,7 +46367,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 609,
+        "order_wiki_radical_corrected": 610,
         "grade_corrected": 4
     },
     {
@@ -46443,7 +46455,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 610,
+        "order_wiki_radical_corrected": 611,
         "grade_corrected": 4
     },
     {
@@ -46516,7 +46528,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 611,
+        "order_wiki_radical_corrected": 612,
         "grade_corrected": 4
     },
     {
@@ -46589,7 +46601,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 612,
+        "order_wiki_radical_corrected": 613,
         "grade_corrected": 4
     },
     {
@@ -46676,7 +46688,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 613,
+        "order_wiki_radical_corrected": 614,
         "grade_corrected": 4
     },
     {
@@ -46754,7 +46766,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 614,
+        "order_wiki_radical_corrected": 615,
         "grade_corrected": 4
     },
     {
@@ -46818,7 +46830,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 615,
+        "order_wiki_radical_corrected": 616,
         "grade_corrected": 4
     },
     {
@@ -46882,7 +46894,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 616,
+        "order_wiki_radical_corrected": 617,
         "grade_corrected": 4
     },
     {
@@ -46945,7 +46957,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 617,
+        "order_wiki_radical_corrected": 618,
         "grade_corrected": 4
     },
     {
@@ -47011,7 +47023,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 618,
+        "order_wiki_radical_corrected": 619,
         "grade_corrected": 4
     },
     {
@@ -47088,7 +47100,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 619,
+        "order_wiki_radical_corrected": 620,
         "grade_corrected": 4
     },
     {
@@ -47155,7 +47167,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 620,
+        "order_wiki_radical_corrected": 621,
         "grade_corrected": 4
     },
     {
@@ -47230,7 +47242,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 621,
+        "order_wiki_radical_corrected": 622,
         "grade_corrected": 4
     },
     {
@@ -47305,7 +47317,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 622,
+        "order_wiki_radical_corrected": 623,
         "grade_corrected": 4
     },
     {
@@ -47369,7 +47381,7 @@ let kyouiku =
                 "prop": 0.32
             }
         ],
-        "order_wiki_radical_corrected": 623,
+        "order_wiki_radical_corrected": 624,
         "grade_corrected": 4
     },
     {
@@ -47435,7 +47447,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 624,
+        "order_wiki_radical_corrected": 625,
         "grade_corrected": 4
     },
     {
@@ -47514,7 +47526,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 625,
+        "order_wiki_radical_corrected": 626,
         "grade_corrected": 4
     },
     {
@@ -47579,7 +47591,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 625,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 626,
+        "order_wiki_radical_corrected": 627,
         "grade_corrected": 4
     },
     {
@@ -47638,7 +47650,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 626,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 627,
+        "order_wiki_radical_corrected": 628,
         "grade_corrected": 5
     },
     {
@@ -47722,7 +47734,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 628,
+        "order_wiki_radical_corrected": 629,
         "grade_corrected": 5
     },
     {
@@ -47806,7 +47818,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 629,
+        "order_wiki_radical_corrected": 630,
         "grade_corrected": 4
     },
     {
@@ -47882,7 +47894,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 630,
+        "order_wiki_radical_corrected": 631,
         "grade_corrected": 4
     },
     {
@@ -47958,7 +47970,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 631,
+        "order_wiki_radical_corrected": 632,
         "grade_corrected": 4
     },
     {
@@ -48049,7 +48061,7 @@ let kyouiku =
                 "prop": 0.02
             }
         ],
-        "order_wiki_radical_corrected": 632,
+        "order_wiki_radical_corrected": 633,
         "grade_corrected": 4
     },
     {
@@ -48128,7 +48140,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 633,
+        "order_wiki_radical_corrected": 634,
         "grade_corrected": 4
     },
     {
@@ -48208,7 +48220,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 634,
+        "order_wiki_radical_corrected": 635,
         "grade_corrected": 4
     },
     {
@@ -48273,7 +48285,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 635,
+        "order_wiki_radical_corrected": 636,
         "grade_corrected": 4
     },
     {
@@ -48345,7 +48357,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 636,
+        "order_wiki_radical_corrected": 637,
         "grade_corrected": 4
     },
     {
@@ -48411,7 +48423,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 637,
+        "order_wiki_radical_corrected": 638,
         "grade_corrected": 4
     },
     {
@@ -48482,7 +48494,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 638,
+        "order_wiki_radical_corrected": 639,
         "grade_corrected": 4
     },
     {
@@ -48571,7 +48583,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 639,
+        "order_wiki_radical_corrected": 640,
         "grade_corrected": 4
     },
     {
@@ -48639,7 +48651,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 640,
+        "order_wiki_radical_corrected": 641,
         "grade_corrected": 4
     },
     {
@@ -48708,7 +48720,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 641,
+        "order_wiki_radical_corrected": 642,
         "grade_corrected": 4
     },
     {
@@ -48772,7 +48784,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='徳'>Tugend</span> <span class='meaning_kanji_reading'>(徳)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 641,
-        "order_wiki_radical_corrected": 642,
+        "order_wiki_radical_corrected": 643,
         "grade_corrected": 5,
         "reading_dist": []
     },
@@ -48852,7 +48864,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 643,
+        "order_wiki_radical_corrected": 644,
         "grade_corrected": 5
     },
     {
@@ -48918,7 +48930,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 644,
+        "order_wiki_radical_corrected": 645,
         "grade_corrected": 4
     },
     {
@@ -48989,7 +49001,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 645,
+        "order_wiki_radical_corrected": 646,
         "grade_corrected": 4
     },
     {
@@ -49057,7 +49069,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 646,
+        "order_wiki_radical_corrected": 647,
         "grade_corrected": 4
     },
     {
@@ -49131,7 +49143,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 647,
+        "order_wiki_radical_corrected": 648,
         "grade_corrected": 4
     },
     {
@@ -49204,7 +49216,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 648,
+        "order_wiki_radical_corrected": 649,
         "grade_corrected": 4
     },
     {
@@ -49293,7 +49305,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 649,
+        "order_wiki_radical_corrected": 650,
         "grade_corrected": 4
     },
     {
@@ -49367,7 +49379,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 650,
+        "order_wiki_radical_corrected": 651,
         "grade_corrected": 4
     },
     {
@@ -49442,7 +49454,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 651,
+        "order_wiki_radical_corrected": 652,
         "grade_corrected": 4
     },
     {
@@ -49514,7 +49526,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 652,
+        "order_wiki_radical_corrected": 653,
         "grade_corrected": 4
     },
     {
@@ -49602,7 +49614,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 653,
+        "order_wiki_radical_corrected": 654,
         "grade_corrected": 4
     },
     {
@@ -49665,7 +49677,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 654,
+        "order_wiki_radical_corrected": 655,
         "grade_corrected": 4
     },
     {
@@ -49742,7 +49754,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 655,
+        "order_wiki_radical_corrected": 656,
         "grade_corrected": 4
     },
     {
@@ -49808,7 +49820,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 656,
+        "order_wiki_radical_corrected": 657,
         "grade_corrected": 4
     },
     {
@@ -49876,7 +49888,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 657,
+        "order_wiki_radical_corrected": 658,
         "grade_corrected": 4
     },
     {
@@ -49945,7 +49957,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 658,
+        "order_wiki_radical_corrected": 659,
         "grade_corrected": 4
     },
     {
@@ -50017,7 +50029,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 659,
+        "order_wiki_radical_corrected": 660,
         "grade_corrected": 4
     },
     {
@@ -50090,7 +50102,7 @@ let kyouiku =
                 "prop": 0.15
             }
         ],
-        "order_wiki_radical_corrected": 660,
+        "order_wiki_radical_corrected": 661,
         "grade_corrected": 4
     },
     {
@@ -50166,7 +50178,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 661,
+        "order_wiki_radical_corrected": 662,
         "grade_corrected": 4
     },
     {
@@ -50233,7 +50245,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 662,
+        "order_wiki_radical_corrected": 663,
         "grade_corrected": 4
     },
     {
@@ -50313,7 +50325,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 663,
+        "order_wiki_radical_corrected": 664,
         "grade_corrected": 5
     },
     {
@@ -50394,7 +50406,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 664,
+        "order_wiki_radical_corrected": 665,
         "grade_corrected": 5
     },
     {
@@ -50452,7 +50464,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 665,
+        "order_wiki_radical_corrected": 666,
         "grade_corrected": 5
     },
     {
@@ -50527,7 +50539,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 666,
+        "order_wiki_radical_corrected": 667,
         "grade_corrected": 5
     },
     {
@@ -50604,7 +50616,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 667,
+        "order_wiki_radical_corrected": 668,
         "grade_corrected": 5
     },
     {
@@ -50681,7 +50693,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 668,
+        "order_wiki_radical_corrected": 669,
         "grade_corrected": 5
     },
     {
@@ -50756,7 +50768,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 669,
+        "order_wiki_radical_corrected": 670,
         "grade_corrected": 5
     },
     {
@@ -50831,7 +50843,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 670,
+        "order_wiki_radical_corrected": 671,
         "grade_corrected": 5
     },
     {
@@ -50900,7 +50912,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 671,
+        "order_wiki_radical_corrected": 672,
         "grade_corrected": 5
     },
     {
@@ -50974,7 +50986,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 672,
+        "order_wiki_radical_corrected": 673,
         "grade_corrected": 5
     },
     {
@@ -51052,7 +51064,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 673,
+        "order_wiki_radical_corrected": 674,
         "grade_corrected": 5
     },
     {
@@ -51133,7 +51145,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 674,
+        "order_wiki_radical_corrected": 675,
         "grade_corrected": 5
     },
     {
@@ -51201,7 +51213,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 675,
+        "order_wiki_radical_corrected": 676,
         "grade_corrected": 5
     },
     {
@@ -51284,7 +51296,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 676,
+        "order_wiki_radical_corrected": 677,
         "grade_corrected": 5
     },
     {
@@ -51365,7 +51377,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 677,
+        "order_wiki_radical_corrected": 678,
         "grade_corrected": 5
     },
     {
@@ -51438,7 +51450,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 678,
+        "order_wiki_radical_corrected": 679,
         "grade_corrected": 5
     },
     {
@@ -51511,7 +51523,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 679,
+        "order_wiki_radical_corrected": 680,
         "grade_corrected": 5
     },
     {
@@ -51585,7 +51597,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 680,
+        "order_wiki_radical_corrected": 681,
         "grade_corrected": 5
     },
     {
@@ -51668,7 +51680,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 681,
+        "order_wiki_radical_corrected": 682,
         "grade_corrected": 5
     },
     {
@@ -51751,7 +51763,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 682,
+        "order_wiki_radical_corrected": 683,
         "grade_corrected": 5
     },
     {
@@ -51823,7 +51835,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 683,
+        "order_wiki_radical_corrected": 684,
         "grade_corrected": 5
     },
     {
@@ -51901,7 +51913,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 684,
+        "order_wiki_radical_corrected": 685,
         "grade_corrected": 5
     },
     {
@@ -51969,7 +51981,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 685,
+        "order_wiki_radical_corrected": 686,
         "grade_corrected": 5
     },
     {
@@ -52038,7 +52050,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 686,
+        "order_wiki_radical_corrected": 687,
         "grade_corrected": 6
     },
     {
@@ -52110,7 +52122,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 687,
+        "order_wiki_radical_corrected": 688,
         "grade_corrected": 5
     },
     {
@@ -52189,7 +52201,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 688,
+        "order_wiki_radical_corrected": 689,
         "grade_corrected": 5
     },
     {
@@ -52274,7 +52286,7 @@ let kyouiku =
                 "prop": 0.13
             }
         ],
-        "order_wiki_radical_corrected": 689,
+        "order_wiki_radical_corrected": 690,
         "grade_corrected": 5
     },
     {
@@ -52350,7 +52362,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 690,
+        "order_wiki_radical_corrected": 691,
         "grade_corrected": 5
     },
     {
@@ -52429,7 +52441,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 691,
+        "order_wiki_radical_corrected": 692,
         "grade_corrected": 5
     },
     {
@@ -52512,7 +52524,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 692,
+        "order_wiki_radical_corrected": 693,
         "grade_corrected": 5
     },
     {
@@ -52594,7 +52606,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 693,
+        "order_wiki_radical_corrected": 694,
         "grade_corrected": 5
     },
     {
@@ -52667,7 +52679,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 694,
+        "order_wiki_radical_corrected": 695,
         "grade_corrected": 5
     },
     {
@@ -52761,7 +52773,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 695,
+        "order_wiki_radical_corrected": 696,
         "grade_corrected": 5
     },
     {
@@ -52828,7 +52840,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 696,
+        "order_wiki_radical_corrected": 697,
         "grade_corrected": 5
     },
     {
@@ -52911,7 +52923,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 697,
+        "order_wiki_radical_corrected": 698,
         "grade_corrected": 5
     },
     {
@@ -52988,7 +53000,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 698,
+        "order_wiki_radical_corrected": 699,
         "grade_corrected": 5
     },
     {
@@ -53064,7 +53076,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 699,
+        "order_wiki_radical_corrected": 700,
         "grade_corrected": 5
     },
     {
@@ -53132,7 +53144,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 700,
+        "order_wiki_radical_corrected": 701,
         "grade_corrected": 5
     },
     {
@@ -53195,7 +53207,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 701,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 701,
+        "order_wiki_radical_corrected": 702,
         "grade_corrected": 5
     },
     {
@@ -53271,7 +53283,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 702,
+        "order_wiki_radical_corrected": 703,
         "grade_corrected": 5
     },
     {
@@ -53345,7 +53357,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 703,
+        "order_wiki_radical_corrected": 704,
         "grade_corrected": 5
     },
     {
@@ -53419,7 +53431,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 704,
+        "order_wiki_radical_corrected": 705,
         "grade_corrected": 5
     },
     {
@@ -53495,7 +53507,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 705,
+        "order_wiki_radical_corrected": 706,
         "grade_corrected": 5
     },
     {
@@ -53573,7 +53585,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 706,
+        "order_wiki_radical_corrected": 707,
         "grade_corrected": 5
     },
     {
@@ -53643,7 +53655,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 707,
+        "order_wiki_radical_corrected": 708,
         "grade_corrected": 5
     },
     {
@@ -53717,7 +53729,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 708,
+        "order_wiki_radical_corrected": 709,
         "grade_corrected": 5
     },
     {
@@ -53795,7 +53807,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 709,
+        "order_wiki_radical_corrected": 710,
         "grade_corrected": 5
     },
     {
@@ -53874,7 +53886,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 710,
+        "order_wiki_radical_corrected": 711,
         "grade_corrected": 5
     },
     {
@@ -53946,7 +53958,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 711,
+        "order_wiki_radical_corrected": 712,
         "grade_corrected": 5
     },
     {
@@ -54025,7 +54037,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 712,
+        "order_wiki_radical_corrected": 713,
         "grade_corrected": 5
     },
     {
@@ -54096,7 +54108,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 713,
+        "order_wiki_radical_corrected": 714,
         "grade_corrected": 5
     },
     {
@@ -54184,7 +54196,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 714,
+        "order_wiki_radical_corrected": 715,
         "grade_corrected": 5
     },
     {
@@ -54246,7 +54258,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 716,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 715,
+        "order_wiki_radical_corrected": 716,
         "grade_corrected": 5
     },
     {
@@ -54338,7 +54350,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 716,
+        "order_wiki_radical_corrected": 717,
         "grade_corrected": 5
     },
     {
@@ -54407,7 +54419,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 717,
+        "order_wiki_radical_corrected": 718,
         "grade_corrected": 5
     },
     {
@@ -54496,7 +54508,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 718,
+        "order_wiki_radical_corrected": 719,
         "grade_corrected": 5
     },
     {
@@ -54566,7 +54578,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 719,
+        "order_wiki_radical_corrected": 720,
         "grade_corrected": 5
     },
     {
@@ -54634,7 +54646,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 720,
+        "order_wiki_radical_corrected": 721,
         "grade_corrected": 5
     },
     {
@@ -54696,7 +54708,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 721,
+        "order_wiki_radical_corrected": 722,
         "grade_corrected": 5
     },
     {
@@ -54744,7 +54756,7 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Baum",
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "木",
@@ -54753,7 +54765,7 @@ let kyouiku =
         "kanji": "格",
         "kanji_ord": 26684,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='格'>Rang</span> <span class='meaning_kanji_meaning'>(格)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='各'>Jeder</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='格'>Rang</span> <span class='meaning_kanji_meaning'>(格)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='格'>Rang</span> <span class='meaning_kanji_reading'>(格)</span> , <span class='reading onyomi' data-hiragana='かく'>kaku</span> <span class='hiragana'>(かく)</span>  <span class='reading onyomi' data-hiragana='こう'>kou</span> <span class='hiragana'>(こう)</span>",
         "mnemonic_reading_de_done": false,
@@ -54775,7 +54787,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 722,
+        "order_wiki_radical_corrected": 723,
         "grade_corrected": 5
     },
     {
@@ -54845,7 +54857,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 723,
+        "order_wiki_radical_corrected": 724,
         "grade_corrected": 5
     },
     {
@@ -54910,7 +54922,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 724,
+        "order_wiki_radical_corrected": 725,
         "grade_corrected": 5
     },
     {
@@ -54984,7 +54996,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 725,
+        "order_wiki_radical_corrected": 726,
         "grade_corrected": 5
     },
     {
@@ -55063,7 +55075,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 726,
+        "order_wiki_radical_corrected": 727,
         "grade_corrected": 5
     },
     {
@@ -55131,7 +55143,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 727,
+        "order_wiki_radical_corrected": 728,
         "grade_corrected": 5
     },
     {
@@ -55195,7 +55207,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 728,
+        "order_wiki_radical_corrected": 729,
         "grade_corrected": 5
     },
     {
@@ -55280,7 +55292,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 729,
+        "order_wiki_radical_corrected": 730,
         "grade_corrected": 5
     },
     {
@@ -55355,7 +55367,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 730,
+        "order_wiki_radical_corrected": 731,
         "grade_corrected": 5
     },
     {
@@ -55432,7 +55444,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 731,
+        "order_wiki_radical_corrected": 732,
         "grade_corrected": 5
     },
     {
@@ -55513,7 +55525,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 732,
+        "order_wiki_radical_corrected": 733,
         "grade_corrected": 5
     },
     {
@@ -55592,7 +55604,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 733,
+        "order_wiki_radical_corrected": 734,
         "grade_corrected": 5
     },
     {
@@ -55674,7 +55686,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 734,
+        "order_wiki_radical_corrected": 735,
         "grade_corrected": 5
     },
     {
@@ -55746,7 +55758,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 735,
+        "order_wiki_radical_corrected": 736,
         "grade_corrected": 5
     },
     {
@@ -55817,7 +55829,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 736,
+        "order_wiki_radical_corrected": 737,
         "grade_corrected": 5
     },
     {
@@ -55882,7 +55894,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 737,
+        "order_wiki_radical_corrected": 738,
         "grade_corrected": 5
     },
     {
@@ -55954,7 +55966,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 738,
+        "order_wiki_radical_corrected": 739,
         "grade_corrected": 5
     },
     {
@@ -56020,7 +56032,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 739,
+        "order_wiki_radical_corrected": 740,
         "grade_corrected": 5
     },
     {
@@ -56102,7 +56114,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 740,
+        "order_wiki_radical_corrected": 741,
         "grade_corrected": 5
     },
     {
@@ -56196,7 +56208,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 741,
+        "order_wiki_radical_corrected": 742,
         "grade_corrected": 5
     },
     {
@@ -56273,7 +56285,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 742,
+        "order_wiki_radical_corrected": 743,
         "grade_corrected": 5
     },
     {
@@ -56367,7 +56379,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 743,
+        "order_wiki_radical_corrected": 744,
         "grade_corrected": 5
     },
     {
@@ -56421,7 +56433,7 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Reisfeld",
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "田",
@@ -56430,7 +56442,7 @@ let kyouiku =
         "kanji": "略",
         "kanji_ord": 30053,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='田'>Reisfeld</span> <span class='radical_kanji'>(田)</span>  <span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='略'>Abkürzung</span> <span class='meaning_kanji_meaning'>(略)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='田'>Reisfeld</span> <span class='radical_kanji'>(田)</span>  <span class='radical' data-kanji='各'>Jeder</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='略'>Abkürzung</span> <span class='meaning_kanji_meaning'>(略)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='略'>Abkürzung</span> <span class='meaning_kanji_reading'>(略)</span> , <span class='reading onyomi' data-hiragana='りゃく'>ryaku</span> <span class='hiragana'>(りゃく)</span>  <span class='reading kunyomi' data-hiragana='ほぼ'>hobo</span> <span class='hiragana'>(ほぼ)</span>",
         "mnemonic_reading_de_done": false,
@@ -56447,7 +56459,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 744,
+        "order_wiki_radical_corrected": 745,
         "grade_corrected": 5
     },
     {
@@ -56528,7 +56540,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 745,
+        "order_wiki_radical_corrected": 746,
         "grade_corrected": 5
     },
     {
@@ -56603,7 +56615,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 746,
+        "order_wiki_radical_corrected": 747,
         "grade_corrected": 5
     },
     {
@@ -56679,7 +56691,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 747,
+        "order_wiki_radical_corrected": 748,
         "grade_corrected": 5
     },
     {
@@ -56773,7 +56785,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 748,
+        "order_wiki_radical_corrected": 749,
         "grade_corrected": 5
     },
     {
@@ -56835,7 +56847,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 749,
+        "order_wiki_radical_corrected": 750,
         "grade_corrected": 5
     },
     {
@@ -56898,7 +56910,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 750,
+        "order_wiki_radical_corrected": 751,
         "grade_corrected": 5
     },
     {
@@ -56976,7 +56988,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 751,
+        "order_wiki_radical_corrected": 752,
         "grade_corrected": 5
     },
     {
@@ -57058,7 +57070,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 752,
+        "order_wiki_radical_corrected": 753,
         "grade_corrected": 5
     },
     {
@@ -57118,7 +57130,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 753,
+        "order_wiki_radical_corrected": 754,
         "grade_corrected": 5
     },
     {
@@ -57194,7 +57206,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 754,
+        "order_wiki_radical_corrected": 755,
         "grade_corrected": 5
     },
     {
@@ -57268,7 +57280,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 755,
+        "order_wiki_radical_corrected": 756,
         "grade_corrected": 5
     },
     {
@@ -57347,7 +57359,7 @@ let kyouiku =
                 "prop": 0.09
             }
         ],
-        "order_wiki_radical_corrected": 756,
+        "order_wiki_radical_corrected": 757,
         "grade_corrected": 5
     },
     {
@@ -57442,7 +57454,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 757,
+        "order_wiki_radical_corrected": 758,
         "grade_corrected": 5
     },
     {
@@ -57511,7 +57523,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 758,
+        "order_wiki_radical_corrected": 759,
         "grade_corrected": 5
     },
     {
@@ -57599,7 +57611,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 759,
+        "order_wiki_radical_corrected": 760,
         "grade_corrected": 5
     },
     {
@@ -57666,7 +57678,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 760,
+        "order_wiki_radical_corrected": 761,
         "grade_corrected": 5
     },
     {
@@ -57739,7 +57751,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 761,
+        "order_wiki_radical_corrected": 762,
         "grade_corrected": 5
     },
     {
@@ -57817,7 +57829,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 762,
+        "order_wiki_radical_corrected": 763,
         "grade_corrected": 5
     },
     {
@@ -57871,7 +57883,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='績'>spinnen</span> <span class='meaning_kanji_reading'>(績)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 768,
-        "order_wiki_radical_corrected": 763,
+        "order_wiki_radical_corrected": 764,
         "grade_corrected": 5,
         "reading_dist": []
     },
@@ -57949,7 +57961,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 764,
+        "order_wiki_radical_corrected": 765,
         "grade_corrected": 5
     },
     {
@@ -58018,7 +58030,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 765,
+        "order_wiki_radical_corrected": 766,
         "grade_corrected": 5
     },
     {
@@ -58086,7 +58098,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 766,
+        "order_wiki_radical_corrected": 767,
         "grade_corrected": 5
     },
     {
@@ -58143,7 +58155,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 767,
+        "order_wiki_radical_corrected": 768,
         "grade_corrected": 5
     },
     {
@@ -58208,7 +58220,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 768,
+        "order_wiki_radical_corrected": 769,
         "grade_corrected": 5
     },
     {
@@ -58278,7 +58290,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 769,
+        "order_wiki_radical_corrected": 770,
         "grade_corrected": 5
     },
     {
@@ -58361,7 +58373,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 770,
+        "order_wiki_radical_corrected": 771,
         "grade_corrected": 5
     },
     {
@@ -58432,7 +58444,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 771,
+        "order_wiki_radical_corrected": 772,
         "grade_corrected": 5
     },
     {
@@ -58518,7 +58530,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 772,
+        "order_wiki_radical_corrected": 773,
         "grade_corrected": 5
     },
     {
@@ -58584,7 +58596,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 773,
+        "order_wiki_radical_corrected": 774,
         "grade_corrected": 5
     },
     {
@@ -58644,7 +58656,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 774,
+        "order_wiki_radical_corrected": 775,
         "grade_corrected": 5
     },
     {
@@ -58717,7 +58729,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 775,
+        "order_wiki_radical_corrected": 776,
         "grade_corrected": 5
     },
     {
@@ -58778,7 +58790,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 776,
+        "order_wiki_radical_corrected": 777,
         "grade_corrected": 5
     },
     {
@@ -58833,7 +58845,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 777,
+        "order_wiki_radical_corrected": 778,
         "grade_corrected": 5
     },
     {
@@ -58896,7 +58908,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 778,
+        "order_wiki_radical_corrected": 779,
         "grade_corrected": 5
     },
     {
@@ -58959,7 +58971,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 779,
+        "order_wiki_radical_corrected": 780,
         "grade_corrected": 5
     },
     {
@@ -59063,7 +59075,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 780,
+        "order_wiki_radical_corrected": 781,
         "grade_corrected": 5
     },
     {
@@ -59141,7 +59153,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 781,
+        "order_wiki_radical_corrected": 782,
         "grade_corrected": 5
     },
     {
@@ -59218,7 +59230,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 782,
+        "order_wiki_radical_corrected": 783,
         "grade_corrected": 5
     },
     {
@@ -59289,7 +59301,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 783,
+        "order_wiki_radical_corrected": 784,
         "grade_corrected": 5
     },
     {
@@ -59350,7 +59362,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 784,
+        "order_wiki_radical_corrected": 785,
         "grade_corrected": 5
     },
     {
@@ -59410,7 +59422,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 785,
+        "order_wiki_radical_corrected": 786,
         "grade_corrected": 5
     },
     {
@@ -59485,7 +59497,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 786,
+        "order_wiki_radical_corrected": 787,
         "grade_corrected": 5
     },
     {
@@ -59553,7 +59565,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 787,
+        "order_wiki_radical_corrected": 788,
         "grade_corrected": 5
     },
     {
@@ -59626,7 +59638,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 788,
+        "order_wiki_radical_corrected": 789,
         "grade_corrected": 5
     },
     {
@@ -59701,7 +59713,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 789,
+        "order_wiki_radical_corrected": 790,
         "grade_corrected": 5
     },
     {
@@ -59774,7 +59786,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 790,
+        "order_wiki_radical_corrected": 791,
         "grade_corrected": 5
     },
     {
@@ -59851,7 +59863,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 791,
+        "order_wiki_radical_corrected": 792,
         "grade_corrected": 5
     },
     {
@@ -59924,7 +59936,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 792,
+        "order_wiki_radical_corrected": 793,
         "grade_corrected": 5
     },
     {
@@ -60000,7 +60012,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 793,
+        "order_wiki_radical_corrected": 794,
         "grade_corrected": 5
     },
     {
@@ -60065,7 +60077,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 794,
+        "order_wiki_radical_corrected": 795,
         "grade_corrected": 5
     },
     {
@@ -60128,7 +60140,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 795,
+        "order_wiki_radical_corrected": 796,
         "grade_corrected": 5
     },
     {
@@ -60193,7 +60205,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 796,
+        "order_wiki_radical_corrected": 797,
         "grade_corrected": 5
     },
     {
@@ -60261,7 +60273,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 797,
+        "order_wiki_radical_corrected": 798,
         "grade_corrected": 5
     },
     {
@@ -60343,7 +60355,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 798,
+        "order_wiki_radical_corrected": 799,
         "grade_corrected": 5
     },
     {
@@ -60405,7 +60417,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 799,
+        "order_wiki_radical_corrected": 800,
         "grade_corrected": 5
     },
     {
@@ -60478,7 +60490,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 800,
+        "order_wiki_radical_corrected": 801,
         "grade_corrected": 5
     },
     {
@@ -60560,7 +60572,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 801,
+        "order_wiki_radical_corrected": 802,
         "grade_corrected": 5
     },
     {
@@ -60638,7 +60650,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 802,
+        "order_wiki_radical_corrected": 803,
         "grade_corrected": 5
     },
     {
@@ -60727,7 +60739,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 803,
+        "order_wiki_radical_corrected": 804,
         "grade_corrected": 5
     },
     {
@@ -60796,7 +60808,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 804,
+        "order_wiki_radical_corrected": 805,
         "grade_corrected": 5
     },
     {
@@ -60883,7 +60895,7 @@ let kyouiku =
                 "prop": 0.04
             }
         ],
-        "order_wiki_radical_corrected": 805,
+        "order_wiki_radical_corrected": 806,
         "grade_corrected": 5
     },
     {
@@ -60949,7 +60961,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 806,
+        "order_wiki_radical_corrected": 807,
         "grade_corrected": 5
     },
     {
@@ -61021,7 +61033,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 807,
+        "order_wiki_radical_corrected": 808,
         "grade_corrected": 5
     },
     {
@@ -61085,7 +61097,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 808,
+        "order_wiki_radical_corrected": 809,
         "grade_corrected": 5
     },
     {
@@ -61147,7 +61159,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 809,
+        "order_wiki_radical_corrected": 810,
         "grade_corrected": 5
     },
     {
@@ -61213,7 +61225,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 810,
+        "order_wiki_radical_corrected": 811,
         "grade_corrected": 5
     },
     {
@@ -61289,7 +61301,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 811,
+        "order_wiki_radical_corrected": 812,
         "grade_corrected": 5
     },
     {
@@ -61367,7 +61379,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 812,
+        "order_wiki_radical_corrected": 813,
         "grade_corrected": 5
     },
     {
@@ -61443,7 +61455,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 813,
+        "order_wiki_radical_corrected": 814,
         "grade_corrected": 5
     },
     {
@@ -61521,7 +61533,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 814,
+        "order_wiki_radical_corrected": 815,
         "grade_corrected": 5
     },
     {
@@ -61603,7 +61615,7 @@ let kyouiku =
                 "prop": 0.27
             }
         ],
-        "order_wiki_radical_corrected": 815,
+        "order_wiki_radical_corrected": 816,
         "grade_corrected": 5
     },
     {
@@ -61692,7 +61704,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 816,
+        "order_wiki_radical_corrected": 817,
         "grade_corrected": 5
     },
     {
@@ -61757,7 +61769,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 817,
+        "order_wiki_radical_corrected": 818,
         "grade_corrected": 5
     },
     {
@@ -61831,7 +61843,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 818,
+        "order_wiki_radical_corrected": 819,
         "grade_corrected": 5
     },
     {
@@ -61902,7 +61914,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 819,
+        "order_wiki_radical_corrected": 820,
         "grade_corrected": 5
     },
     {
@@ -61969,7 +61981,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 820,
+        "order_wiki_radical_corrected": 821,
         "grade_corrected": 5
     },
     {
@@ -62051,7 +62063,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 821,
+        "order_wiki_radical_corrected": 822,
         "grade_corrected": 5
     },
     {
@@ -62132,7 +62144,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 822,
+        "order_wiki_radical_corrected": 823,
         "grade_corrected": 5
     },
     {
@@ -62200,7 +62212,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 823,
+        "order_wiki_radical_corrected": 824,
         "grade_corrected": 5
     },
     {
@@ -62278,7 +62290,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 824,
+        "order_wiki_radical_corrected": 825,
         "grade_corrected": 5
     },
     {
@@ -62357,7 +62369,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 825,
+        "order_wiki_radical_corrected": 826,
         "grade_corrected": 5
     },
     {
@@ -62434,7 +62446,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 826,
+        "order_wiki_radical_corrected": 827,
         "grade_corrected": 5
     },
     {
@@ -62501,7 +62513,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 827,
+        "order_wiki_radical_corrected": 828,
         "grade_corrected": 5
     },
     {
@@ -62582,7 +62594,7 @@ let kyouiku =
                 "prop": 0.03
             }
         ],
-        "order_wiki_radical_corrected": 828,
+        "order_wiki_radical_corrected": 829,
         "grade_corrected": 5
     },
     {
@@ -62646,7 +62658,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 829,
+        "order_wiki_radical_corrected": 830,
         "grade_corrected": 6
     },
     {
@@ -62709,7 +62721,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 830,
+        "order_wiki_radical_corrected": 831,
         "grade_corrected": 6
     },
     {
@@ -62783,7 +62795,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 831,
+        "order_wiki_radical_corrected": 832,
         "grade_corrected": 6
     },
     {
@@ -62864,7 +62876,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 832,
+        "order_wiki_radical_corrected": 833,
         "grade_corrected": 6
     },
     {
@@ -62954,7 +62966,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 833,
+        "order_wiki_radical_corrected": 834,
         "grade_corrected": 6
     },
     {
@@ -63026,7 +63038,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 834,
+        "order_wiki_radical_corrected": 835,
         "grade_corrected": 6
     },
     {
@@ -63090,7 +63102,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 835,
+        "order_wiki_radical_corrected": 836,
         "grade_corrected": 6
     },
     {
@@ -63166,7 +63178,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 836,
+        "order_wiki_radical_corrected": 837,
         "grade_corrected": 6
     },
     {
@@ -63248,7 +63260,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 837,
+        "order_wiki_radical_corrected": 838,
         "grade_corrected": 6
     },
     {
@@ -63312,7 +63324,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 838,
+        "order_wiki_radical_corrected": 839,
         "grade_corrected": 6
     },
     {
@@ -63402,7 +63414,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 839,
+        "order_wiki_radical_corrected": 840,
         "grade_corrected": 6
     },
     {
@@ -63478,7 +63490,7 @@ let kyouiku =
                 "prop": 0.18
             }
         ],
-        "order_wiki_radical_corrected": 840,
+        "order_wiki_radical_corrected": 841,
         "grade_corrected": 6
     },
     {
@@ -63548,7 +63560,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 848,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 841,
+        "order_wiki_radical_corrected": 842,
         "grade_corrected": 6
     },
     {
@@ -63624,7 +63636,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 842,
+        "order_wiki_radical_corrected": 843,
         "grade_corrected": 6
     },
     {
@@ -63697,7 +63709,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 843,
+        "order_wiki_radical_corrected": 844,
         "grade_corrected": 6
     },
     {
@@ -63768,7 +63780,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 844,
+        "order_wiki_radical_corrected": 845,
         "grade_corrected": 6
     },
     {
@@ -63850,7 +63862,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 845,
+        "order_wiki_radical_corrected": 846,
         "grade_corrected": 6
     },
     {
@@ -63923,7 +63935,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 846,
+        "order_wiki_radical_corrected": 847,
         "grade_corrected": 6
     },
     {
@@ -63996,7 +64008,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 847,
+        "order_wiki_radical_corrected": 848,
         "grade_corrected": 6
     },
     {
@@ -64093,7 +64105,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 848,
+        "order_wiki_radical_corrected": 849,
         "grade_corrected": 6
     },
     {
@@ -64166,7 +64178,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 849,
+        "order_wiki_radical_corrected": 850,
         "grade_corrected": 6
     },
     {
@@ -64232,7 +64244,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 850,
+        "order_wiki_radical_corrected": 851,
         "grade_corrected": 6
     },
     {
@@ -64308,7 +64320,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 851,
+        "order_wiki_radical_corrected": 852,
         "grade_corrected": 6
     },
     {
@@ -64382,7 +64394,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 852,
+        "order_wiki_radical_corrected": 853,
         "grade_corrected": 6
     },
     {
@@ -64464,7 +64476,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 853,
+        "order_wiki_radical_corrected": 854,
         "grade_corrected": 6
     },
     {
@@ -64534,7 +64546,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 854,
+        "order_wiki_radical_corrected": 855,
         "grade_corrected": 6
     },
     {
@@ -64598,7 +64610,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 855,
+        "order_wiki_radical_corrected": 856,
         "grade_corrected": 6
     },
     {
@@ -64665,7 +64677,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 856,
+        "order_wiki_radical_corrected": 857,
         "grade_corrected": 6
     },
     {
@@ -64730,7 +64742,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 857,
+        "order_wiki_radical_corrected": 858,
         "grade_corrected": 6
     },
     {
@@ -64805,7 +64817,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 858,
+        "order_wiki_radical_corrected": 859,
         "grade_corrected": 6
     },
     {
@@ -64876,7 +64888,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 859,
+        "order_wiki_radical_corrected": 860,
         "grade_corrected": 6
     },
     {
@@ -64959,7 +64971,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 860,
+        "order_wiki_radical_corrected": 861,
         "grade_corrected": 6
     },
     {
@@ -65037,7 +65049,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 861,
+        "order_wiki_radical_corrected": 862,
         "grade_corrected": 6
     },
     {
@@ -65116,7 +65128,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 862,
+        "order_wiki_radical_corrected": 863,
         "grade_corrected": 6
     },
     {
@@ -65183,7 +65195,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 863,
+        "order_wiki_radical_corrected": 864,
         "grade_corrected": 6
     },
     {
@@ -65267,7 +65279,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 864,
+        "order_wiki_radical_corrected": 865,
         "grade_corrected": 6
     },
     {
@@ -65343,7 +65355,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 865,
+        "order_wiki_radical_corrected": 866,
         "grade_corrected": 6
     },
     {
@@ -65418,7 +65430,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 866,
+        "order_wiki_radical_corrected": 867,
         "grade_corrected": 6
     },
     {
@@ -65465,17 +65477,17 @@ let kyouiku =
         "wk_radicals_de": [
             "Fahne",
             "Blackjack",
-            "Kick"
+            "Bekleidung"
         ],
         "wk_radicals_kanji": [
             "尸",
             "±±",
-            " "
+            "衣"
         ],
         "kanji": "展",
         "kanji_ord": 23637,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='尸'>Fahne</span> <span class='radical_kanji'>(尸)</span>  <span class='radical' data-kanji='±±'>Blackjack</span> <span class='radical_kanji'>(±±)</span>  <span class='radical' data-kanji=' '>Kick</span> <span class='radical_kanji'>( )</span>  , <span class='meaning' data-kanji='展'>Ausstellung</span> <span class='meaning_kanji_meaning'>(展)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='尸'>Fahne</span> <span class='radical_kanji'>(尸)</span>  <span class='radical' data-kanji='±±'>Blackjack</span> <span class='radical_kanji'>(±±)</span>  <span class='radical' data-kanji='衣'>Bekleidung</span> <span class='radical_kanji'>(衣)</span>  , <span class='meaning' data-kanji='展'>Ausstellung</span> <span class='meaning_kanji_meaning'>(展)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='展'>Ausstellung</span> <span class='meaning_kanji_reading'>(展)</span> , <span class='reading onyomi' data-hiragana='てん'>ten</span> <span class='hiragana'>(てん)</span>",
         "mnemonic_reading_de_done": false,
@@ -65487,7 +65499,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 867,
+        "order_wiki_radical_corrected": 868,
         "grade_corrected": 6
     },
     {
@@ -65543,7 +65555,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='層'>Klasse</span> <span class='meaning_kanji_reading'>(層)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 878,
-        "order_wiki_radical_corrected": 868,
+        "order_wiki_radical_corrected": 869,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -65630,7 +65642,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 869,
+        "order_wiki_radical_corrected": 870,
         "grade_corrected": 6
     },
     {
@@ -65703,7 +65715,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 870,
+        "order_wiki_radical_corrected": 871,
         "grade_corrected": 6
     },
     {
@@ -65775,7 +65787,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 871,
+        "order_wiki_radical_corrected": 872,
         "grade_corrected": 6
     },
     {
@@ -65839,7 +65851,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 872,
+        "order_wiki_radical_corrected": 873,
         "grade_corrected": 6
     },
     {
@@ -65918,7 +65930,7 @@ let kyouiku =
                 "prop": 0.3
             }
         ],
-        "order_wiki_radical_corrected": 873,
+        "order_wiki_radical_corrected": 874,
         "grade_corrected": 6
     },
     {
@@ -65993,7 +66005,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 874,
+        "order_wiki_radical_corrected": 875,
         "grade_corrected": 6
     },
     {
@@ -66053,7 +66065,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='律'>Gesetz</span> <span class='meaning_kanji_reading'>(律)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 887,
-        "order_wiki_radical_corrected": 875,
+        "order_wiki_radical_corrected": 876,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -66146,7 +66158,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 876,
+        "order_wiki_radical_corrected": 877,
         "grade_corrected": 6
     },
     {
@@ -66214,7 +66226,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 877,
+        "order_wiki_radical_corrected": 878,
         "grade_corrected": 6
     },
     {
@@ -66276,7 +66288,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 878,
+        "order_wiki_radical_corrected": 879,
         "grade_corrected": 6
     },
     {
@@ -66345,7 +66357,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 879,
+        "order_wiki_radical_corrected": 880,
         "grade_corrected": 6
     },
     {
@@ -66423,7 +66435,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 880,
+        "order_wiki_radical_corrected": 881,
         "grade_corrected": 6
     },
     {
@@ -66483,7 +66495,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 881,
+        "order_wiki_radical_corrected": 882,
         "grade_corrected": 6
     },
     {
@@ -66562,7 +66574,7 @@ let kyouiku =
                 "prop": 0.22
             }
         ],
-        "order_wiki_radical_corrected": 882,
+        "order_wiki_radical_corrected": 883,
         "grade_corrected": 6
     },
     {
@@ -66635,7 +66647,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 883,
+        "order_wiki_radical_corrected": 884,
         "grade_corrected": 6
     },
     {
@@ -66706,7 +66718,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 884,
+        "order_wiki_radical_corrected": 885,
         "grade_corrected": 6
     },
     {
@@ -66775,7 +66787,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 885,
+        "order_wiki_radical_corrected": 886,
         "grade_corrected": 6
     },
     {
@@ -66858,7 +66870,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 886,
+        "order_wiki_radical_corrected": 887,
         "grade_corrected": 6
     },
     {
@@ -66934,7 +66946,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 887,
+        "order_wiki_radical_corrected": 888,
         "grade_corrected": 6
     },
     {
@@ -66999,7 +67011,7 @@ let kyouiku =
         "mnemonic_reading_de": "<span class='meaning' data-kanji='揮'>schwingen</span> <span class='meaning_kanji_reading'>(揮)</span> , ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 900,
-        "order_wiki_radical_corrected": 888,
+        "order_wiki_radical_corrected": 889,
         "grade_corrected": 6,
         "reading_dist": []
     },
@@ -67087,7 +67099,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 889,
+        "order_wiki_radical_corrected": 890,
         "grade_corrected": 6
     },
     {
@@ -67161,7 +67173,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 890,
+        "order_wiki_radical_corrected": 891,
         "grade_corrected": 6
     },
     {
@@ -67243,7 +67255,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 891,
+        "order_wiki_radical_corrected": 892,
         "grade_corrected": 6
     },
     {
@@ -67303,7 +67315,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 892,
+        "order_wiki_radical_corrected": 893,
         "grade_corrected": 6
     },
     {
@@ -67379,7 +67391,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 893,
+        "order_wiki_radical_corrected": 894,
         "grade_corrected": 6
     },
     {
@@ -67450,7 +67462,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 894,
+        "order_wiki_radical_corrected": 895,
         "grade_corrected": 6
     },
     {
@@ -67524,7 +67536,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 895,
+        "order_wiki_radical_corrected": 896,
         "grade_corrected": 6
     },
     {
@@ -67593,7 +67605,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 896,
+        "order_wiki_radical_corrected": 897,
         "grade_corrected": 6
     },
     {
@@ -67657,7 +67669,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 897,
+        "order_wiki_radical_corrected": 898,
         "grade_corrected": 6
     },
     {
@@ -67750,7 +67762,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 898,
+        "order_wiki_radical_corrected": 899,
         "grade_corrected": 6
     },
     {
@@ -67823,7 +67835,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 899,
+        "order_wiki_radical_corrected": 900,
         "grade_corrected": 6
     },
     {
@@ -67895,7 +67907,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 900,
+        "order_wiki_radical_corrected": 901,
         "grade_corrected": 6
     },
     {
@@ -67959,7 +67971,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 901,
+        "order_wiki_radical_corrected": 902,
         "grade_corrected": 6
     },
     {
@@ -68032,7 +68044,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 902,
+        "order_wiki_radical_corrected": 903,
         "grade_corrected": 6
     },
     {
@@ -68103,7 +68115,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 903,
+        "order_wiki_radical_corrected": 904,
         "grade_corrected": 6
     },
     {
@@ -68188,7 +68200,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 904,
+        "order_wiki_radical_corrected": 905,
         "grade_corrected": 6
     },
     {
@@ -68251,7 +68263,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 905,
+        "order_wiki_radical_corrected": 906,
         "grade_corrected": 6
     },
     {
@@ -68333,7 +68345,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 906,
+        "order_wiki_radical_corrected": 907,
         "grade_corrected": 6
     },
     {
@@ -68399,7 +68411,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 907,
+        "order_wiki_radical_corrected": 908,
         "grade_corrected": 6
     },
     {
@@ -68468,7 +68480,7 @@ let kyouiku =
                 "prop": 0.21
             }
         ],
-        "order_wiki_radical_corrected": 908,
+        "order_wiki_radical_corrected": 909,
         "grade_corrected": 6
     },
     {
@@ -68539,7 +68551,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 909,
+        "order_wiki_radical_corrected": 910,
         "grade_corrected": 6
     },
     {
@@ -68618,7 +68630,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 910,
+        "order_wiki_radical_corrected": 911,
         "grade_corrected": 6
     },
     {
@@ -68688,7 +68700,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 911,
+        "order_wiki_radical_corrected": 912,
         "grade_corrected": 6
     },
     {
@@ -68764,7 +68776,7 @@ let kyouiku =
                 "prop": 0.5
             }
         ],
-        "order_wiki_radical_corrected": 912,
+        "order_wiki_radical_corrected": 913,
         "grade_corrected": 6
     },
     {
@@ -68849,7 +68861,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 913,
+        "order_wiki_radical_corrected": 914,
         "grade_corrected": 6
     },
     {
@@ -68915,7 +68927,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 914,
+        "order_wiki_radical_corrected": 915,
         "grade_corrected": 6
     },
     {
@@ -68993,7 +69005,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 915,
+        "order_wiki_radical_corrected": 916,
         "grade_corrected": 6
     },
     {
@@ -69054,7 +69066,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 916,
+        "order_wiki_radical_corrected": 917,
         "grade_corrected": 6
     },
     {
@@ -69117,7 +69129,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 917,
+        "order_wiki_radical_corrected": 918,
         "grade_corrected": 6
     },
     {
@@ -69197,7 +69209,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 918,
+        "order_wiki_radical_corrected": 919,
         "grade_corrected": 6
     },
     {
@@ -69279,7 +69291,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 919,
+        "order_wiki_radical_corrected": 920,
         "grade_corrected": 6
     },
     {
@@ -69358,7 +69370,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 920,
+        "order_wiki_radical_corrected": 921,
         "grade_corrected": 6
     },
     {
@@ -69419,7 +69431,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 921,
+        "order_wiki_radical_corrected": 922,
         "grade_corrected": 6
     },
     {
@@ -69503,7 +69515,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 922,
+        "order_wiki_radical_corrected": 923,
         "grade_corrected": 6
     },
     {
@@ -69564,7 +69576,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 923,
+        "order_wiki_radical_corrected": 924,
         "grade_corrected": 6
     },
     {
@@ -69632,7 +69644,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 924,
+        "order_wiki_radical_corrected": 925,
         "grade_corrected": 6
     },
     {
@@ -69705,7 +69717,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 925,
+        "order_wiki_radical_corrected": 926,
         "grade_corrected": 6
     },
     {
@@ -69774,7 +69786,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 926,
+        "order_wiki_radical_corrected": 927,
         "grade_corrected": 6
     },
     {
@@ -69847,7 +69859,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 927,
+        "order_wiki_radical_corrected": 928,
         "grade_corrected": 6
     },
     {
@@ -69914,7 +69926,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 928,
+        "order_wiki_radical_corrected": 929,
         "grade_corrected": 6
     },
     {
@@ -69983,7 +69995,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 929,
+        "order_wiki_radical_corrected": 930,
         "grade_corrected": 6
     },
     {
@@ -70054,7 +70066,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 930,
+        "order_wiki_radical_corrected": 931,
         "grade_corrected": 6
     },
     {
@@ -70138,7 +70150,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 931,
+        "order_wiki_radical_corrected": 932,
         "grade_corrected": 6
     },
     {
@@ -70208,7 +70220,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 932,
+        "order_wiki_radical_corrected": 933,
         "grade_corrected": 6
     },
     {
@@ -70272,7 +70284,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 933,
+        "order_wiki_radical_corrected": 934,
         "grade_corrected": 6
     },
     {
@@ -70339,7 +70351,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 934,
+        "order_wiki_radical_corrected": 935,
         "grade_corrected": 6
     },
     {
@@ -70393,7 +70405,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 935,
+        "order_wiki_radical_corrected": 936,
         "grade_corrected": 6
     },
     {
@@ -70468,7 +70480,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 936,
+        "order_wiki_radical_corrected": 937,
         "grade_corrected": 6
     },
     {
@@ -70551,7 +70563,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 937,
+        "order_wiki_radical_corrected": 938,
         "grade_corrected": 6
     },
     {
@@ -70613,7 +70625,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 938,
+        "order_wiki_radical_corrected": 939,
         "grade_corrected": 6
     },
     {
@@ -70680,7 +70692,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 939,
+        "order_wiki_radical_corrected": 940,
         "grade_corrected": 6
     },
     {
@@ -70762,7 +70774,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 940,
+        "order_wiki_radical_corrected": 941,
         "grade_corrected": 6
     },
     {
@@ -70848,7 +70860,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 941,
+        "order_wiki_radical_corrected": 942,
         "grade_corrected": 6
     },
     {
@@ -70911,7 +70923,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 942,
+        "order_wiki_radical_corrected": 943,
         "grade_corrected": 6
     },
     {
@@ -70974,7 +70986,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 943,
+        "order_wiki_radical_corrected": 944,
         "grade_corrected": 6
     },
     {
@@ -71045,7 +71057,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 944,
+        "order_wiki_radical_corrected": 945,
         "grade_corrected": 6
     },
     {
@@ -71104,7 +71116,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 945,
+        "order_wiki_radical_corrected": 946,
         "grade_corrected": 6
     },
     {
@@ -71190,7 +71202,7 @@ let kyouiku =
                 "prop": 0.08
             }
         ],
-        "order_wiki_radical_corrected": 946,
+        "order_wiki_radical_corrected": 947,
         "grade_corrected": 6
     },
     {
@@ -71270,7 +71282,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 947,
+        "order_wiki_radical_corrected": 948,
         "grade_corrected": 6
     },
     {
@@ -71335,7 +71347,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 948,
+        "order_wiki_radical_corrected": 949,
         "grade_corrected": 6
     },
     {
@@ -71409,7 +71421,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 949,
+        "order_wiki_radical_corrected": 950,
         "grade_corrected": 6
     },
     {
@@ -71472,7 +71484,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 950,
+        "order_wiki_radical_corrected": 951,
         "grade_corrected": 6
     },
     {
@@ -71548,7 +71560,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 951,
+        "order_wiki_radical_corrected": 952,
         "grade_corrected": 6
     },
     {
@@ -71615,7 +71627,7 @@ let kyouiku =
                 "prop": 0.43
             }
         ],
-        "order_wiki_radical_corrected": 952,
+        "order_wiki_radical_corrected": 953,
         "grade_corrected": 6
     },
     {
@@ -71707,7 +71719,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 953,
+        "order_wiki_radical_corrected": 954,
         "grade_corrected": 6
     },
     {
@@ -71795,7 +71807,7 @@ let kyouiku =
                 "prop": 0.12
             }
         ],
-        "order_wiki_radical_corrected": 954,
+        "order_wiki_radical_corrected": 955,
         "grade_corrected": 6
     },
     {
@@ -71880,7 +71892,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 955,
+        "order_wiki_radical_corrected": 956,
         "grade_corrected": 6
     },
     {
@@ -71949,7 +71961,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 956,
+        "order_wiki_radical_corrected": 957,
         "grade_corrected": 6
     },
     {
@@ -72019,7 +72031,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 957,
+        "order_wiki_radical_corrected": 958,
         "grade_corrected": 6
     },
     {
@@ -72100,7 +72112,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 958,
+        "order_wiki_radical_corrected": 959,
         "grade_corrected": 6
     },
     {
@@ -72179,7 +72191,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 959,
+        "order_wiki_radical_corrected": 960,
         "grade_corrected": 6
     },
     {
@@ -72239,17 +72251,17 @@ let kyouiku =
         "wk_radicals_de": [
             "Deckel",
             "Dorf",
-            "Kick"
+            "Bekleidung"
         ],
         "wk_radicals_kanji": [
             "亠",
             "里",
-            " "
+            "衣"
         ],
         "kanji": "裏",
         "kanji_ord": 35023,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='里'>Ortschaft</span> <span class='radical_kanji'>(里)</span>  <span class='radical' data-kanji=' '>Kick</span> <span class='radical_kanji'>( )</span>  , <span class='meaning' data-kanji='裏'>Rückseite</span> <span class='meaning_kanji_meaning'>(裏)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='亠'>Deckel</span> <span class='radical_kanji'>(亠)</span>  <span class='radical' data-kanji='里'>Ortschaft</span> <span class='radical_kanji'>(里)</span>  <span class='radical' data-kanji='衣'>Bekleidung</span> <span class='radical_kanji'>(衣)</span>  , <span class='meaning' data-kanji='裏'>Rückseite</span> <span class='meaning_kanji_meaning'>(裏)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='裏'>Rückseite</span> <span class='meaning_kanji_reading'>(裏)</span> , <span class='reading kunyomi' data-hiragana='うら'>ura</span> <span class='hiragana'>(うら)</span>  <span class='reading onyomi' data-hiragana='り'>ri</span> <span class='hiragana'>(り)</span>",
         "mnemonic_reading_de_done": false,
@@ -72266,7 +72278,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 960,
+        "order_wiki_radical_corrected": 961,
         "grade_corrected": 6
     },
     {
@@ -72342,7 +72354,7 @@ let kyouiku =
                 "prop": 0.07
             }
         ],
-        "order_wiki_radical_corrected": 961,
+        "order_wiki_radical_corrected": 962,
         "grade_corrected": 6
     },
     {
@@ -72408,7 +72420,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 962,
+        "order_wiki_radical_corrected": 963,
         "grade_corrected": 6
     },
     {
@@ -72473,7 +72485,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 977,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 963,
+        "order_wiki_radical_corrected": 964,
         "grade_corrected": 6
     },
     {
@@ -72545,7 +72557,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 964,
+        "order_wiki_radical_corrected": 965,
         "grade_corrected": 6
     },
     {
@@ -72625,7 +72637,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 965,
+        "order_wiki_radical_corrected": 966,
         "grade_corrected": 6
     },
     {
@@ -72698,7 +72710,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 966,
+        "order_wiki_radical_corrected": 967,
         "grade_corrected": 6
     },
     {
@@ -72758,7 +72770,7 @@ let kyouiku =
         "mnemonic_reading_de_done": false,
         "order_wiki": 981,
         "reading_dist": [],
-        "order_wiki_radical_corrected": 967,
+        "order_wiki_radical_corrected": 968,
         "grade_corrected": 6
     },
     {
@@ -72824,7 +72836,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 968,
+        "order_wiki_radical_corrected": 969,
         "grade_corrected": 6
     },
     {
@@ -72903,7 +72915,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 969,
+        "order_wiki_radical_corrected": 970,
         "grade_corrected": 6
     },
     {
@@ -72970,7 +72982,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 970,
+        "order_wiki_radical_corrected": 971,
         "grade_corrected": 6
     },
     {
@@ -73045,7 +73057,7 @@ let kyouiku =
                 "prop": 0.4
             }
         ],
-        "order_wiki_radical_corrected": 971,
+        "order_wiki_radical_corrected": 972,
         "grade_corrected": 6
     },
     {
@@ -73118,7 +73130,7 @@ let kyouiku =
                 "prop": 0.38
             }
         ],
-        "order_wiki_radical_corrected": 972,
+        "order_wiki_radical_corrected": 973,
         "grade_corrected": 6
     },
     {
@@ -73188,7 +73200,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 973,
+        "order_wiki_radical_corrected": 974,
         "grade_corrected": 6
     },
     {
@@ -73255,7 +73267,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 974,
+        "order_wiki_radical_corrected": 975,
         "grade_corrected": 6
     },
     {
@@ -73324,7 +73336,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 975,
+        "order_wiki_radical_corrected": 976,
         "grade_corrected": 6
     },
     {
@@ -73405,7 +73417,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 976,
+        "order_wiki_radical_corrected": 977,
         "grade_corrected": 6
     },
     {
@@ -73475,7 +73487,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 977,
+        "order_wiki_radical_corrected": 978,
         "grade_corrected": 6
     },
     {
@@ -73548,7 +73560,7 @@ let kyouiku =
                 "prop": 0.05
             }
         ],
-        "order_wiki_radical_corrected": 978,
+        "order_wiki_radical_corrected": 979,
         "grade_corrected": 6
     },
     {
@@ -73609,7 +73621,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 979,
+        "order_wiki_radical_corrected": 980,
         "grade_corrected": 6
     },
     {
@@ -73675,7 +73687,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 980,
+        "order_wiki_radical_corrected": 981,
         "grade_corrected": 6
     },
     {
@@ -73743,7 +73755,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 981,
+        "order_wiki_radical_corrected": 982,
         "grade_corrected": 6
     },
     {
@@ -73810,7 +73822,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 982,
+        "order_wiki_radical_corrected": 983,
         "grade_corrected": 6
     },
     {
@@ -73892,7 +73904,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 983,
+        "order_wiki_radical_corrected": 984,
         "grade_corrected": 6
     },
     {
@@ -73934,7 +73946,7 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Tor",
-            "Kuss"
+            "Jeder"
         ],
         "wk_radicals_kanji": [
             "門",
@@ -73943,7 +73955,7 @@ let kyouiku =
         "kanji": "閣",
         "kanji_ord": 38307,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span>  <span class='radical' data-kanji='各'>Kuss</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='閣'>(Regierungs-)Kabinett</span> <span class='meaning_kanji_meaning'>(閣)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='門'>Tor</span> <span class='radical_kanji'>(門)</span>  <span class='radical' data-kanji='各'>Jeder</span> <span class='radical_kanji'>(各)</span>  , <span class='meaning' data-kanji='閣'>(Regierungs-)Kabinett</span> <span class='meaning_kanji_meaning'>(閣)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='閣'>(Regierungs-)Kabinett</span> <span class='meaning_kanji_reading'>(閣)</span> , <span class='reading onyomi' data-hiragana='かく'>kaku</span> <span class='hiragana'>(かく)</span>",
         "mnemonic_reading_de_done": false,
@@ -73955,7 +73967,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 984,
+        "order_wiki_radical_corrected": 985,
         "grade_corrected": 6
     },
     {
@@ -74044,7 +74056,7 @@ let kyouiku =
                 "prop": 0.1
             }
         ],
-        "order_wiki_radical_corrected": 985,
+        "order_wiki_radical_corrected": 986,
         "grade_corrected": 6
     },
     {
@@ -74109,7 +74121,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 986,
+        "order_wiki_radical_corrected": 987,
         "grade_corrected": 6
     },
     {
@@ -74189,7 +74201,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 987,
+        "order_wiki_radical_corrected": 988,
         "grade_corrected": 6
     },
     {
@@ -74260,7 +74272,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 988,
+        "order_wiki_radical_corrected": 989,
         "grade_corrected": 6
     },
     {
@@ -74347,7 +74359,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 989,
+        "order_wiki_radical_corrected": 990,
         "grade_corrected": 6
     },
     {
@@ -74412,7 +74424,7 @@ let kyouiku =
                 "prop": 0.33
             }
         ],
-        "order_wiki_radical_corrected": 990,
+        "order_wiki_radical_corrected": 991,
         "grade_corrected": 6
     },
     {
@@ -74495,7 +74507,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 991,
+        "order_wiki_radical_corrected": 992,
         "grade_corrected": 6
     },
     {
@@ -74577,7 +74589,7 @@ let kyouiku =
                 "prop": 0.14
             }
         ],
-        "order_wiki_radical_corrected": 992,
+        "order_wiki_radical_corrected": 993,
         "grade_corrected": 6
     },
     {
@@ -74639,7 +74651,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 993,
+        "order_wiki_radical_corrected": 994,
         "grade_corrected": 4
     },
     {
@@ -74707,7 +74719,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 994,
+        "order_wiki_radical_corrected": 995,
         "grade_corrected": 4
     },
     {
@@ -74768,7 +74780,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 995,
+        "order_wiki_radical_corrected": 996,
         "grade_corrected": 5
     },
     {
@@ -74849,7 +74861,7 @@ let kyouiku =
                 "prop": 0.25
             }
         ],
-        "order_wiki_radical_corrected": 996,
+        "order_wiki_radical_corrected": 997,
         "grade_corrected": 5
     },
     {
@@ -74917,7 +74929,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 997,
+        "order_wiki_radical_corrected": 998,
         "grade_corrected": 5
     },
     {
@@ -75006,7 +75018,7 @@ let kyouiku =
                 "prop": 0.06
             }
         ],
-        "order_wiki_radical_corrected": 998,
+        "order_wiki_radical_corrected": 999,
         "grade_corrected": 5
     },
     {
@@ -75080,7 +75092,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 999,
+        "order_wiki_radical_corrected": 1000,
         "grade_corrected": 5
     },
     {
@@ -75129,17 +75141,17 @@ let kyouiku =
         "wk_radicals_de": [
             "Anführer",
             "Leben",
-            "Kick"
+            "Bekleidung"
         ],
         "wk_radicals_kanji": [
             "ｲ",
             "生",
-            " "
+            "衣"
         ],
         "kanji": "俵",
         "kanji_ord": 20469,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji=' '>Kick</span> <span class='radical_kanji'>( )</span>  , <span class='meaning' data-kanji='俵'>Sack</span> <span class='meaning_kanji_meaning'>(俵)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span>  <span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji='衣'>Bekleidung</span> <span class='radical_kanji'>(衣)</span>  , <span class='meaning' data-kanji='俵'>Sack</span> <span class='meaning_kanji_meaning'>(俵)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='俵'>Sack</span> <span class='meaning_kanji_reading'>(俵)</span> , <span class='reading kunyomi' data-hiragana='たわら'>tawara</span> <span class='hiragana'>(たわら)</span>",
         "mnemonic_reading_de_done": false,
@@ -75151,7 +75163,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1000,
+        "order_wiki_radical_corrected": 1001,
         "grade_corrected": 5
     },
     {
@@ -75229,7 +75241,7 @@ let kyouiku =
                 "prop": 0.11
             }
         ],
-        "order_wiki_radical_corrected": 1001,
+        "order_wiki_radical_corrected": 1002,
         "grade_corrected": 5
     },
     {
@@ -75301,7 +75313,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1002,
+        "order_wiki_radical_corrected": 1003,
         "grade_corrected": 5
     },
     {
@@ -75395,7 +75407,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 1003,
+        "order_wiki_radical_corrected": 1004,
         "grade_corrected": 6
     },
     {
@@ -75474,7 +75486,7 @@ let kyouiku =
                 "prop": 0.23
             }
         ],
-        "order_wiki_radical_corrected": 1004,
+        "order_wiki_radical_corrected": 1005,
         "grade_corrected": 6
     },
     {
@@ -75554,7 +75566,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 1005,
+        "order_wiki_radical_corrected": 1006,
         "grade_corrected": 6
     },
     {
@@ -75623,7 +75635,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1006,
+        "order_wiki_radical_corrected": 1007,
         "grade_corrected": 6
     },
     {
@@ -75717,7 +75729,7 @@ let kyouiku =
                 "prop": 0.17
             }
         ],
-        "order_wiki_radical_corrected": 1007,
+        "order_wiki_radical_corrected": 1008,
         "grade_corrected": 6
     },
     {
@@ -75778,7 +75790,7 @@ let kyouiku =
                 "prop": 1.0
             }
         ],
-        "order_wiki_radical_corrected": 1008,
+        "order_wiki_radical_corrected": 1009,
         "grade_corrected": 6
     },
     {
@@ -75852,7 +75864,7 @@ let kyouiku =
                 "prop": 0.2
             }
         ],
-        "order_wiki_radical_corrected": 1009,
+        "order_wiki_radical_corrected": 1010,
         "grade_corrected": 6
     },
     {
@@ -75939,7 +75951,7 @@ let kyouiku =
                 "prop": 0.29
             }
         ],
-        "order_wiki_radical_corrected": 1010,
+        "order_wiki_radical_corrected": 1011,
         "grade_corrected": 6
     }
 ]
