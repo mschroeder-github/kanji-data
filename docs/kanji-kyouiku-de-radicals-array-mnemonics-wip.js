@@ -34100,7 +34100,7 @@ let kyouiku =
             "Anti"
         ],
         "meanings_de": [
-            "zurück-...",
+            "zurück",
             "zurückgeben",
             "zurückkehren"
         ],
@@ -34120,10 +34120,10 @@ let kyouiku =
         "kanji": "返",
         "kanji_ord": 36820,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span>  <span class='radical' data-kanji='反'>Anti</span> <span class='radical_kanji'>(反)</span>  , <span class='meaning' data-kanji='返'>zurück-...</span> <span class='meaning_kanji_meaning'>(返)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='返'>zurück-...</span> <span class='meaning_kanji_reading'>(返)</span> , <span class='reading onyomi' data-hiragana='へん'>hen</span> <span class='hiragana'>(へん)</span>  <span class='reading kunyomi' data-hiragana='かえ'>kae</span> <span class='hiragana'>(かえ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Beim <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> mit dem <span class='radical' data-kanji='反'>Anti</span>blockiersystem <span class='radical_kanji'>(反)</span> (ABS) erhält der Fahrer schnell die Kontrolle <span class='meaning' data-kanji='返'>zurück</span> <span class='meaning_kanji_meaning'>(返)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Sie meldet sich <span class='meaning' data-kanji='返'>zurück</span> <span class='meaning_kanji_reading'>(返)</span> wegen dem Prakti<span class='reading kunyomi' data-hiragana='かえ'>ka e</span>lektronisch <span class='hiragana'>(かえ)</span>, damit sie ihre Kompetenz se<span class='reading onyomi' data-hiragana='へん'>hen</span> <span class='hiragana'>(へん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 416,
         "reading_dist": [
             {
@@ -34194,10 +34194,10 @@ let kyouiku =
         "kanji": "追",
         "kanji_ord": 36861,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span>  , <span class='meaning' data-kanji='追'>verfolgen</span> <span class='meaning_kanji_meaning'>(追)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='追'>verfolgen</span> <span class='meaning_kanji_reading'>(追)</span> , <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>  <span class='reading onyomi' data-hiragana='つい'>tsui</span> <span class='hiragana'>(つい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit dem <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> und dem <span class='radical' data-kanji='㠯'>Bär</span> <span class='radical_kanji'>(㠯)</span> im Visier, braucht es für den Jäger nur ein <span class='radical' data-kanji='丶'>Tropfen</span> <span class='radical_kanji'>(丶)</span> Blut, um das Tier zu <span class='meaning' data-kanji='追'>verfolgen</span> <span class='meaning_kanji_meaning'>(追)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Polizist <span class='meaning' data-kanji='追'>verfolgt</span> <span class='meaning_kanji_reading'>(追)</span> den  Entfl<span class='reading kunyomi' data-hiragana='お'>o</span>henen <span class='hiragana'>(お)</span>, der gerade<span class='reading onyomi' data-hiragana='つい'>zu I</span>rre <span class='hiragana'>(つい)</span> mit dem Auto davon rast.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 417,
         "reading_dist": [
             {
@@ -34267,10 +34267,10 @@ let kyouiku =
         "kanji": "送",
         "kanji_ord": 36865,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span>  <span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span>  <span class='radical' data-kanji='天'>Himmel</span> <span class='radical_kanji'>(天)</span>  , <span class='meaning' data-kanji='送'>senden</span> <span class='meaning_kanji_meaning'>(送)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='送'>senden</span> <span class='meaning_kanji_reading'>(送)</span> , <span class='reading onyomi' data-hiragana='そう'>sou</span> <span class='hiragana'>(そう)</span>  <span class='reading kunyomi' data-hiragana='おく'>oku</span> <span class='hiragana'>(おく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit einem heiligen <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> sollen die <span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span> des Teufels von den Engeln zum <span class='radical' data-kanji='天'>Himmel</span> <span class='radical_kanji'>(天)</span> <span class='meaning' data-kanji='送'>gesendet</span> <span class='meaning_kanji_meaning'>(送)</span> werden.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Sekretärin <span class='meaning' data-kanji='送'>sendet</span> <span class='meaning_kanji_reading'>(送)</span> die geheimen D<span class='reading kunyomi' data-hiragana='おく'>oku</span>mente <span class='hiragana'>(おく)</span>, genau<span class='reading onyomi' data-hiragana='そう'>so</span> <span class='hiragana'>(そう)</span> wie sie es gesagt bekommen hat.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 418,
         "reading_dist": [
             {
@@ -34340,10 +34340,10 @@ let kyouiku =
         "kanji": "速",
         "kanji_ord": 36895,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span>  <span class='radical' data-kanji='束'>Bündel</span> <span class='radical_kanji'>(束)</span>  , <span class='meaning' data-kanji='速'>schnell</span> <span class='meaning_kanji_meaning'>(速)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='速'>schnell</span> <span class='meaning_kanji_reading'>(速)</span> , <span class='reading onyomi' data-hiragana='そく'>soku</span> <span class='hiragana'>(そく)</span>  <span class='reading kunyomi' data-hiragana='はや'>haya</span> <span class='hiragana'>(はや)</span>  <span class='reading kunyomi' data-hiragana='すみ'>sumi</span> <span class='hiragana'>(すみ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> fährt mit einem <span class='radical' data-kanji='束'>Bündel</span> <span class='radical_kanji'>(束)</span> gezündete Raketen noch <span class='meaning' data-kanji='速'>schnell</span>er <span class='meaning_kanji_meaning'>(速)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='速'>schnell</span> <span class='meaning_kanji_reading'>(速)</span> ist das Alp<span class='reading kunyomi' data-hiragana='はや'>haya</span>k <span class='hiragana'>(はや)</span> der Herde, weil es Espres<span class='reading onyomi' data-hiragana='そく'>soku</span>fe <span class='hiragana'>(そく)</span> hat.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 419,
         "reading_dist": [
             {
@@ -34409,8 +34409,8 @@ let kyouiku =
             "Turkey"
         ],
         "meanings_de": [
-            "vorwärts gehen",
-            "Fortschritt"
+            "Fortschritt",
+            "vorwärts gehen"
         ],
         "wk_radicals_new": [
             "Scooter",
@@ -34428,10 +34428,10 @@ let kyouiku =
         "kanji": "進",
         "kanji_ord": 36914,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span>  <span class='radical' data-kanji='隹'>Truthahn</span> <span class='radical_kanji'>(隹)</span>  , <span class='meaning' data-kanji='進'>vorwärts gehen</span> <span class='meaning_kanji_meaning'>(進)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='進'>vorwärts gehen</span> <span class='meaning_kanji_reading'>(進)</span> , <span class='reading onyomi' data-hiragana='しん'>shin</span> <span class='hiragana'>(しん)</span>  <span class='reading kunyomi' data-hiragana='すす'>susu</span> <span class='hiragana'>(すす)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit dem <span class='radical' data-kanji='ì_'>Scooter</span> <span class='radical_kanji'>(ì_)</span> den <span class='radical' data-kanji='隹'>Truthahn</span> <span class='radical_kanji'>(隹)</span> transportieren können ist für die Züchter ein <span class='meaning' data-kanji='進'>Fortschritt</span> <span class='meaning_kanji_meaning'>(進)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='進'>Fortschritt</span> <span class='meaning_kanji_reading'>(進)</span> ist eine Ma<span class='reading onyomi' data-hiragana='しん'>schin</span>e <span class='hiragana'>(しん)</span>, die Tirami<span class='reading kunyomi' data-hiragana='すす'>su su</span>per <span class='hiragana'>(すす)</span> herstellen kann.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 420,
         "reading_dist": [
             {

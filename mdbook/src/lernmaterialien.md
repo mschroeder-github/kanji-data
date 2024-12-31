@@ -1,6 +1,6 @@
 # Lernmaterialien
 
-Stand: 30.12.2024
+Stand: 31.12.2024
 
 ## Anki Decks
 
