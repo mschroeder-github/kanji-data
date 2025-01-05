@@ -35600,6 +35600,7 @@ let kyouiku =
             "Tree"
         ],
         "meanings_de": [
+            "sammeln",
             "ansammeln"
         ],
         "wk_radicals_new": [
@@ -35618,10 +35619,10 @@ let kyouiku =
         "kanji": "集",
         "kanji_ord": 38598,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='隹'>Truthahn</span> <span class='radical_kanji'>(隹)</span>  <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='集'>ansammeln</span> <span class='meaning_kanji_meaning'>(集)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='集'>ansammeln</span> <span class='meaning_kanji_reading'>(集)</span> , <span class='reading onyomi' data-hiragana='しゅう'>shuu</span> <span class='hiragana'>(しゅう)</span>  <span class='reading kunyomi' data-hiragana='あつ'>atsu</span> <span class='hiragana'>(あつ)</span>  <span class='reading kunyomi' data-hiragana='つど'>tsudo</span> <span class='hiragana'>(つど)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aufgescheuchte <span class='radical' data-kanji='隹'>Truthähne</span> <span class='radical_kanji'>(隹)</span> möchten sich gerne unter <span class='radical' data-kanji='木'>Bäumen</span> <span class='radical_kanji'>(木)</span> <span class='meaning' data-kanji='集'>sammeln</span> <span class='meaning_kanji_meaning'>(集)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='集'>Sammeln</span> <span class='meaning_kanji_reading'>(集)</span> von <span class='reading onyomi' data-hiragana='しゅう'>Schuh</span>en <span class='hiragana'>(しゅう)</span> ist ein Hobby unserer <span class='reading kunyomi' data-hiragana='あつ'>Azu</span>bine <span class='hiragana'>(あつ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 434,
         "reading_dist": [
             {
@@ -35685,7 +35686,7 @@ let kyouiku =
             "Face"
         ],
         "meanings_de": [
-            "Gesicht",
+            "Gesichtsoberfläche",
             "Maske",
             "Oberfläche"
         ],
@@ -35693,15 +35694,18 @@ let kyouiku =
         "wk_radicals_missing": [
             "Face"
         ],
-        "wk_radicals_de": [],
+        "wk_radicals_de": [
+            "Gesicht"
+        ],
         "wk_radicals_kanji": [],
         "kanji": "面",
         "kanji_ord": 38754,
-        "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='面'>Gesicht</span> <span class='meaning_kanji_meaning'>(面)</span>",
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='面'>Gesichtsoberfläche</span> <span class='meaning_kanji_meaning'>(面)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='面'>Gesicht</span> <span class='meaning_kanji_reading'>(面)</span> , <span class='reading onyomi' data-hiragana='めん'>men</span> <span class='hiragana'>(めん)</span>  <span class='reading kunyomi' data-hiragana='おも'>omo</span> <span class='hiragana'>(おも)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Ein <span class='meaning' data-kanji='面'>Gesichtsoberfläche</span> <span class='meaning_kanji_reading'>(面)</span> hat ein <span class='reading onyomi' data-hiragana='めん'>Men</span>sch <span class='hiragana'>(めん)</span>, auch H<span class='reading kunyomi' data-hiragana='おも'>omo</span>sapiens <span class='hiragana'>(おも)</span> genannt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 435,
         "reading_dist": [
             {
@@ -35779,10 +35783,10 @@ let kyouiku =
         "kanji": "題",
         "kanji_ord": 38988,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='正'>Richtig</span> <span class='radical_kanji'>(正)</span>  <span class='radical' data-kanji='頁'>Elefantenrüsselmuschel</span> <span class='radical_kanji'>(頁)</span>  , <span class='meaning' data-kanji='題'>Thema</span> <span class='meaning_kanji_meaning'>(題)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='題'>Thema</span> <span class='meaning_kanji_reading'>(題)</span> , <span class='reading onyomi' data-hiragana='だい'>dai</span> <span class='hiragana'>(だい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie die <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span> die <span class='radical' data-kanji='正'>Richtig</span>e <span class='radical_kanji'>(正)</span> Wärme für die <span class='radical' data-kanji='頁'>Elefantenrüsselmuschel</span> <span class='radical_kanji'>(頁)</span> liefert, ist ein Präsentations<span class='meaning' data-kanji='題'>thema</span> <span class='meaning_kanji_meaning'>(題)</span> von ihr.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Stell dir vor, als Präsentations<span class='meaning' data-kanji='題'>thema</span> <span class='meaning_kanji_reading'>(題)</span> hat er Me<span class='reading onyomi' data-hiragana='だい'>dai</span>llen <span class='hiragana'>(だい)</span> aus der Nazi-Zeit.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 436,
         "reading_dist": [
             {
@@ -35847,10 +35851,10 @@ let kyouiku =
         "kanji": "飲",
         "kanji_ord": 39154,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='食'>Essen</span> <span class='radical_kanji'>(食)</span>  <span class='radical' data-kanji='欠'>Mangel</span> <span class='radical_kanji'>(欠)</span>  , <span class='meaning' data-kanji='飲'>trinken</span> <span class='meaning_kanji_meaning'>(飲)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='飲'>trinken</span> <span class='meaning_kanji_reading'>(飲)</span> , <span class='reading onyomi' data-hiragana='いん'>in</span> <span class='hiragana'>(いん)</span>  <span class='reading kunyomi' data-hiragana='の'>no</span> <span class='hiragana'>(の)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wenn es an <span class='radical' data-kanji='食'>Essen</span> <span class='radical_kanji'>(食)</span>  <span class='radical' data-kanji='欠'>mangel</span>t <span class='radical_kanji'>(欠)</span>, dann viel <span class='meaning' data-kanji='飲'>trinken</span> <span class='meaning_kanji_meaning'>(飲)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='飲'>Trinken</span> <span class='meaning_kanji_reading'>(飲)</span> ist <span class='reading kunyomi' data-hiragana='の'>no</span>twendig <span class='hiragana'>(の)</span> auf einer einsamen <span class='reading onyomi' data-hiragana='いん'>In</span>sel <span class='hiragana'>(いん)</span> zum Überleben.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 437,
         "reading_dist": [
             {
@@ -35900,6 +35904,7 @@ let kyouiku =
             "Bear"
         ],
         "meanings_de": [
+            "öffentliche Gebäude",
             "großes Gebäude",
             "Halle"
         ],
@@ -35916,15 +35921,16 @@ let kyouiku =
         ],
         "wk_radicals_kanji": [
             "食",
-            "宀"
+            "宀",
+            "㠯"
         ],
         "kanji": "館",
         "kanji_ord": 39208,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='食'>Essen</span> <span class='radical_kanji'>(食)</span>  <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  , <span class='meaning' data-kanji='館'>großes Gebäude</span> <span class='meaning_kanji_meaning'>(館)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='館'>großes Gebäude</span> <span class='meaning_kanji_reading'>(館)</span> , <span class='reading onyomi' data-hiragana='かん'>kan</span> <span class='hiragana'>(かん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Pommes <span class='radical' data-kanji='食'>essen</span> <span class='radical_kanji'>(食)</span> im Schwimmbad, großes <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span> auf der Stadthalle, <span class='radical' data-kanji='㠯'>Bär</span> <span class='radical_kanji'>(㠯)</span> im Zoo: Alles <span class='meaning' data-kanji='館'>öffentliche Gebäude</span> <span class='meaning_kanji_meaning'>(館)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='館'>Öffentliche Gebäude</span> <span class='meaning_kanji_reading'>(館)</span> ist mir be<span class='reading onyomi' data-hiragana='かん'>kan</span>nt <span class='hiragana'>(かん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 438,
         "reading_dist": [
             {
