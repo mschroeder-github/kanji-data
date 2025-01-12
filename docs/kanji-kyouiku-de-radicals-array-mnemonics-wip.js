@@ -31363,7 +31363,8 @@ let kyouiku =
             "Seele"
         ],
         "wk_radicals_kanji": [
-            "ネ"
+            "ネ",
+            "畐"
         ],
         "kanji": "福",
         "kanji_ord": 31119,
@@ -37355,7 +37356,7 @@ let kyouiku =
             "Power"
         ],
         "meanings_de": [
-            "arbeiten"
+            "Arbeit"
         ],
         "wk_radicals_new": [
             "Leader",
@@ -37376,7 +37377,7 @@ let kyouiku =
         "kanji": "働",
         "kanji_ord": 20685,
         "is_radical": false,
-        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> trägt <span class='radical' data-kanji='重'>schwer</span>e <span class='radical_kanji'>(重)</span> Säcke mit aller <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>: harte <span class='meaning' data-kanji='働'>arbeiten</span> <span class='meaning_kanji_meaning'>(働)</span>.",
+        "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> trägt <span class='radical' data-kanji='重'>schwer</span>e <span class='radical_kanji'>(重)</span> Säcke mit aller <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>: immerhin bezahlte <span class='meaning' data-kanji='働'>Arbeit</span> <span class='meaning_kanji_meaning'>(働)</span>.",
         "mnemonic_meaning_de_done": true,
         "mnemonic_reading_de": "Für die Jäger war es viel <span class='meaning' data-kanji='働'>Arbeit</span> <span class='meaning_kanji_reading'>(働)</span> die Alp<span class='reading kunyomi' data-hiragana='はたら'>hatara</span>ntel <span class='hiragana'>(はたら)</span> zu erlegen, wegen ihrer <span class='reading onyomi' data-hiragana='どう'>Do</span>minanz <span class='hiragana'>(どう)</span>.",
         "mnemonic_reading_de_done": true,
@@ -37485,23 +37486,26 @@ let kyouiku =
             "Omen"
         ],
         "meanings_de": [
-            "Billion",
+            "Omen",
             "Vorzeichen",
-            "Omen"
+            "Billion"
         ],
         "wk_radicals_new": [],
         "wk_radicals_missing": [
             "Omen"
         ],
-        "wk_radicals_de": [],
+        "wk_radicals_de": [
+            "Omen"
+        ],
         "wk_radicals_kanji": [],
         "kanji": "兆",
         "kanji_ord": 20806,
-        "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='兆'>Billion</span> <span class='meaning_kanji_meaning'>(兆)</span>",
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='兆'>Omen</span> <span class='meaning_kanji_meaning'>(兆)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='兆'>Billion</span> <span class='meaning_kanji_reading'>(兆)</span> , <span class='reading onyomi' data-hiragana='ちょう'>chou</span> <span class='hiragana'>(ちょう)</span>  <span class='reading kunyomi' data-hiragana='きざ'>kiza</span> <span class='hiragana'>(きざ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Es ist ein schlechtes <span class='meaning' data-kanji='兆'>Omen</span> <span class='meaning_kanji_reading'>(兆)</span> für den Griechen, wenn der Zazi<span class='reading kunyomi' data-hiragana='きざ'>ki za</span>ghaft <span class='hiragana'>(きざ)</span> nach Knoblauch schmeckt und der Koch ein Ma<span class='reading onyomi' data-hiragana='ちょう'>cho</span> <span class='hiragana'>(ちょう)</span> ist.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 480,
         "reading_dist": [
             {
@@ -37577,10 +37581,10 @@ let kyouiku =
         "kanji": "児",
         "kanji_ord": 20816,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span>  <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='儿'>Beine</span> <span class='radical_kanji'>(儿)</span>  , <span class='meaning' data-kanji='児'>Kind</span> <span class='meaning_kanji_meaning'>(児)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='児'>Kind</span> <span class='meaning_kanji_reading'>(児)</span> , <span class='reading onyomi' data-hiragana='じ'>ji</span> <span class='hiragana'>(じ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit einem <span class='radical' data-kanji='|'>Stock</span> <span class='radical_kanji'>(|)</span> in der <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span> rennt mit den <span class='radical' data-kanji='儿'>Beine</span>n <span class='radical_kanji'>(儿)</span> das <span class='meaning' data-kanji='児'>Kind</span> <span class='meaning_kanji_meaning'>(児)</span> über die Wiese.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='児'>Kind</span> <span class='meaning_kanji_reading'>(児)</span> sehen sie über eine Babycam auf dem Bil<span class='reading onyomi' data-hiragana='じ'>dschi</span>rm <span class='hiragana'>(じ)</span>, damit die Eltern direkt <span class='reading kunyomi' data-hiragana='こ'>ko</span>mmen <span class='hiragana'>(こ)</span>, wenn es schreit.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 481,
         "reading_dist": [
             {
@@ -37651,10 +37655,10 @@ let kyouiku =
         "kanji": "兵",
         "kanji_ord": 20853,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='斤'>Axt</span> <span class='radical_kanji'>(斤)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span>  , <span class='meaning' data-kanji='兵'>Soldat</span> <span class='meaning_kanji_meaning'>(兵)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='兵'>Soldat</span> <span class='meaning_kanji_reading'>(兵)</span> , <span class='reading onyomi' data-hiragana='へい'>hei</span> <span class='hiragana'>(へい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Mit einer <span class='radical' data-kanji='斤'>Axt</span> <span class='radical_kanji'>(斤)</span> bewaffnet, am <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span> kriechend und mit <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span> getarnt, liegt der <span class='meaning' data-kanji='兵'>Soldat</span> <span class='meaning_kanji_meaning'>(兵)</span> auf der Lauer.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ein <span class='meaning' data-kanji='兵'>Soldat</span> <span class='meaning_kanji_reading'>(兵)</span> meint, dass er es vorzie<span class='reading onyomi' data-hiragana='へい'>he, I</span>nlandseinsätze <span class='hiragana'>(へい)</span> zu machen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 483,
         "reading_dist": [
             {
@@ -37717,10 +37721,10 @@ let kyouiku =
         "kanji": "典",
         "kanji_ord": 20856,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='曲'>Musik</span> <span class='radical_kanji'>(曲)</span>  <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span>  , <span class='meaning' data-kanji='典'>Gesetzbuch</span> <span class='meaning_kanji_meaning'>(典)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='典'>Gesetzbuch</span> <span class='meaning_kanji_reading'>(典)</span> , <span class='reading onyomi' data-hiragana='てん'>ten</span> <span class='hiragana'>(てん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Bei <span class='radical' data-kanji='曲'>Musik</span> <span class='radical_kanji'>(曲)</span> und Fisch-<span class='radical' data-kanji='ハ'>Flossen</span>-Suppe <span class='radical_kanji'>(ハ)</span> tauschen sich die Juristen über das <span class='meaning' data-kanji='典'>Gesetzbuch</span> <span class='meaning_kanji_meaning'>(典)</span> aus.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Jurist legt das <span class='meaning' data-kanji='典'>Gesetzbuch</span> <span class='meaning_kanji_reading'>(典)</span> mit all seinen Regeln zu seinen Ak<span class='reading onyomi' data-hiragana='てん'>ten</span> <span class='hiragana'>(てん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 484,
         "reading_dist": [
             {
@@ -37792,10 +37796,10 @@ let kyouiku =
         "kanji": "冷",
         "kanji_ord": 20919,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='冫'>Eis</span> <span class='radical_kanji'>(冫)</span>  , <span class='meaning' data-kanji='冷'>kühlen</span> <span class='meaning_kanji_meaning'>(冷)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='冷'>kühlen</span> <span class='meaning_kanji_reading'>(冷)</span> , <span class='reading onyomi' data-hiragana='れい'>rei</span> <span class='hiragana'>(れい)</span>  <span class='reading kunyomi' data-hiragana='ひ'>hi</span> <span class='hiragana'>(ひ)</span>  <span class='reading kunyomi' data-hiragana='さ'>sa</span> <span class='hiragana'>(さ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "\"Nimm mehr <span class='radical' data-kanji='冫'>Eis</span> <span class='radical_kanji'>(冫)</span>\", ist der <span class='radical' data-kanji='令'>Befehl</span> <span class='radical_kanji'>(令)</span> des Sanitäters, um die Verletzung zu <span class='meaning' data-kanji='冷'>kühlen</span> <span class='meaning_kanji_meaning'>(冷)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='冷'>Kühlen</span> <span class='meaning_kanji_reading'>(冷)</span> ist wichtig für frische<span class='reading onyomi' data-hiragana='れい'>re I</span>mbisskost <span class='hiragana'>(れい)</span>, damit der <span class='reading kunyomi' data-hiragana='さ'>Sa</span>lat <span class='hiragana'>(さ)</span> vor <span class='reading kunyomi' data-hiragana='ひ'>Hi</span>tze <span class='hiragana'>(ひ)</span> geschützt ist.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 485,
         "reading_dist": [
             {
@@ -37881,10 +37885,10 @@ let kyouiku =
         "kanji": "初",
         "kanji_ord": 21021,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='ネ'>Seele</span> <span class='radical_kanji'>(ネ)</span>  <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span>  , <span class='meaning' data-kanji='初'>erster</span> <span class='meaning_kanji_meaning'>(初)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='初'>erster</span> <span class='meaning_kanji_reading'>(初)</span> , <span class='reading onyomi' data-hiragana='しょ'>sho</span> <span class='hiragana'>(しょ)</span>  <span class='reading kunyomi' data-hiragana='はつ'>hatsu</span> <span class='hiragana'>(はつ)</span>  <span class='reading kunyomi' data-hiragana='はじ'>haji</span> <span class='hiragana'>(はじ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Seine <span class='radical' data-kanji='ネ'>Seele</span> <span class='radical_kanji'>(ネ)</span> war zufrieden, weil er mit dem <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span> als <span class='meaning' data-kanji='初'>erster</span> <span class='meaning_kanji_meaning'>(初)</span> die Kampfkunst perfektionierte.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Als <span class='meaning' data-kanji='初'>erster</span> <span class='meaning_kanji_reading'>(初)</span> muss ich niesen <span class='reading kunyomi' data-hiragana='はじ'>\"Hatschi\"</span> <span class='hiragana'>(はじ)</span>, daher packe ich die Gelegenheit beim <span class='reading onyomi' data-hiragana='しょ'>Scho</span>pf <span class='hiragana'>(しょ)</span> und will als erster in der Apotheke sein, aber <span class='reading kunyomi' data-hiragana='はつ'>hat zu</span> <span class='hiragana'>(はつ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 487,
         "reading_dist": [
             {
@@ -37949,7 +37953,7 @@ let kyouiku =
             "Knife"
         ],
         "meanings_de": [
-            "sich trennen",
+            "trennen",
             "Unterschied",
             "anders",
             "besonders",
@@ -37974,10 +37978,10 @@ let kyouiku =
         "kanji": "別",
         "kanji_ord": 21029,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span>  <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span>  , <span class='meaning' data-kanji='別'>sich trennen</span> <span class='meaning_kanji_meaning'>(別)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='別'>sich trennen</span> <span class='meaning_kanji_reading'>(別)</span> , <span class='reading onyomi' data-hiragana='べつ'>betsu</span> <span class='hiragana'>(べつ)</span>  <span class='reading kunyomi' data-hiragana='わか'>waka</span> <span class='hiragana'>(わか)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Den Fisch<span class='radical' data-kanji='口'>mund</span> <span class='radical_kanji'>(口)</span> kann man mit dem <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span> oder dem <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span> <span class='meaning' data-kanji='別'>trennen</span> <span class='meaning_kanji_meaning'>(別)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er will sich <span class='meaning' data-kanji='別'>trennen</span> <span class='meaning_kanji_reading'>(別)</span>, seit et<span class='reading kunyomi' data-hiragana='わか'>wa ka</span>um <span class='hiragana'>(わか)</span> einem Monat, weil er kein <span class='reading onyomi' data-hiragana='べつ'>Bezu</span>g <span class='hiragana'>(べつ)</span> mehr hat.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 488,
         "reading_dist": [
             {
@@ -38055,10 +38059,10 @@ let kyouiku =
         "kanji": "利",
         "kanji_ord": 21033,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span>  <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span>  , <span class='meaning' data-kanji='利'>Gewinn</span> <span class='meaning_kanji_meaning'>(利)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='利'>Gewinn</span> <span class='meaning_kanji_reading'>(利)</span> , <span class='reading onyomi' data-hiragana='り'>ri</span> <span class='hiragana'>(り)</span>  <span class='reading kunyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span> mit dem <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span> schälen, erhöht den <span class='meaning' data-kanji='利'>Gewinn</span> <span class='meaning_kanji_meaning'>(利)</span> an Mehl.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ein hoher <span class='meaning' data-kanji='利'>Gewinn</span> <span class='meaning_kanji_reading'>(利)</span> fordert oft hohe <span class='reading onyomi' data-hiragana='り'>Ri</span>siken <span class='hiragana'>(り)</span>, aber sollte man ris<span class='reading kunyomi' data-hiragana='き'>ki</span>ren <span class='hiragana'>(き)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 489,
         "reading_dist": [
             {
@@ -38133,10 +38137,10 @@ let kyouiku =
         "kanji": "刷",
         "kanji_ord": 21047,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='尸'>Fahne</span> <span class='radical_kanji'>(尸)</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span>  , <span class='meaning' data-kanji='刷'>drucken</span> <span class='meaning_kanji_meaning'>(刷)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='刷'>drucken</span> <span class='meaning_kanji_reading'>(刷)</span> , <span class='reading kunyomi' data-hiragana='す'>su</span> <span class='hiragana'>(す)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Auf einer <span class='radical' data-kanji='尸'>Fahne</span> <span class='radical_kanji'>(尸)</span> ihrem <span class='radical' data-kanji='巾'>Tuch</span> <span class='radical_kanji'>(巾)</span> kann man mit einem <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span> und Tinte per Hand etwas <span class='meaning' data-kanji='刷'>drucken</span> <span class='meaning_kanji_meaning'>(刷)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Für das <span class='meaning' data-kanji='刷'>Drucken</span> <span class='meaning_kanji_reading'>(刷)</span> des Mädchenmagazins muss sie ro<span class='reading onyomi' data-hiragana='さつ'>sa zu</span>mischen <span class='hiragana'>(さつ)</span>, damit die Seiten <span class='reading kunyomi' data-hiragana='す'>su</span>per <span class='hiragana'>(す)</span> aussehen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 490,
         "reading_dist": [
             {
@@ -38199,15 +38203,16 @@ let kyouiku =
             "Messer"
         ],
         "wk_radicals_kanji": [
+            "畐",
             "刂"
         ],
         "kanji": "副",
         "kanji_ord": 21103,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span>  , <span class='meaning' data-kanji='副'>stellvertretend</span> <span class='meaning_kanji_meaning'>(副)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='畐'>füllen</span> <span class='radical_kanji'>(畐)</span>  <span class='radical' data-kanji='刂'>Messer</span> <span class='radical_kanji'>(刂)</span>  , <span class='meaning' data-kanji='副'>stellvertretend</span> <span class='meaning_kanji_meaning'>(副)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='副'>stellvertretend</span> <span class='meaning_kanji_reading'>(副)</span> , <span class='reading onyomi' data-hiragana='ふく'>fuku</span> <span class='hiragana'>(ふく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Er agiert <span class='meaning' data-kanji='副'>stellvertretend</span> <span class='meaning_kanji_reading'>(副)</span> für den Kung-<span class='reading onyomi' data-hiragana='ふく'>fu Ku</span>lturträger <span class='hiragana'>(ふく)</span> in Deutschland.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 491,
         "reading_dist": [
             {
@@ -38253,6 +38258,7 @@ let kyouiku =
             "Power"
         ],
         "meanings_de": [
+            "Erfolg",
             "große Leistung",
             "Verdienst",
             "vollendete Arbeit"
@@ -38273,10 +38279,10 @@ let kyouiku =
         "kanji": "功",
         "kanji_ord": 21151,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='工'>Konstruktion</span> <span class='radical_kanji'>(工)</span>  <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  , <span class='meaning' data-kanji='功'>große Leistung</span> <span class='meaning_kanji_meaning'>(功)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='功'>große Leistung</span> <span class='meaning_kanji_reading'>(功)</span> , <span class='reading onyomi' data-hiragana='こう'>kou</span> <span class='hiragana'>(こう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die <span class='radical' data-kanji='工'>Konstruktion</span> <span class='radical_kanji'>(工)</span> mit eigener <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span> erbaut, war sein <span class='meaning' data-kanji='功'>Erfolg</span> <span class='meaning_kanji_meaning'>(功)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Sein größter <span class='meaning' data-kanji='功'>Erfolg</span> <span class='meaning_kanji_reading'>(功)</span> ist es vom Al<span class='reading onyomi' data-hiragana='こう'>koh</span>ol <span class='hiragana'>(こう)</span> weggekommen zu sein.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 492,
         "reading_dist": [
             {
@@ -38346,8 +38352,8 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  , <span class='meaning' data-kanji='加'>hinzufügen</span> <span class='meaning_kanji_meaning'>(加)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='加'>hinzufügen</span> <span class='meaning_kanji_reading'>(加)</span> , <span class='reading onyomi' data-hiragana='か'>ka</span> <span class='hiragana'>(か)</span>  <span class='reading kunyomi' data-hiragana='くわ'>kuwa</span> <span class='hiragana'>(くわ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Der Tierarzt <span class='meaning' data-kanji='加'>fügt</span> <span class='meaning_kanji_reading'>(加)</span> das Rind auf die <span class='reading kunyomi' data-hiragana='くわ'>Kuh-Wa</span>rteliste <span class='hiragana'>(くわ)</span> hinzu, weil es bald ein <span class='reading onyomi' data-hiragana='か'>Ka</span>lb <span class='hiragana'>(か)</span> erwartet.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 493,
         "reading_dist": [
             {
@@ -38397,6 +38403,7 @@ let kyouiku =
             "Power"
         ],
         "meanings_de": [
+            "Bemühung",
             "sich anstrengen",
             "sich bemühen",
             "versuchen"
@@ -38420,10 +38427,10 @@ let kyouiku =
         "kanji": "努",
         "kanji_ord": 21162,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span>  <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span>  <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  , <span class='meaning' data-kanji='努'>sich anstrengen</span> <span class='meaning_kanji_meaning'>(努)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='努'>sich anstrengen</span> <span class='meaning_kanji_reading'>(努)</span> , <span class='reading kunyomi' data-hiragana='つと'>tsuto</span> <span class='hiragana'>(つと)</span>  <span class='reading onyomi' data-hiragana='ど'>do</span> <span class='hiragana'>(ど)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Weil die schwache <span class='radical' data-kanji='女'>Frau</span> <span class='radical_kanji'>(女)</span> den schweren <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span> mit eigener <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  bewegte, lobten viele ihre <span class='meaning' data-kanji='努'>Bemühung</span> <span class='meaning_kanji_meaning'>(努)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er zeigt große <span class='meaning' data-kanji='努'>Bemühung</span> <span class='meaning_kanji_reading'>(努)</span>, weil er immer<span class='reading kunyomi' data-hiragana='つと'>zu To</span>rwart <span class='hiragana'>(つと)</span> Training absolviert, wie sein I<span class='reading onyomi' data-hiragana='ど'>do</span>l <span class='hiragana'>(ど)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 494,
         "reading_dist": [
             {
@@ -38479,6 +38486,7 @@ let kyouiku =
             "Power"
         ],
         "meanings_de": [
+            "Abmühen",
             "Arbeit",
             "Mühe"
         ],
@@ -38498,10 +38506,10 @@ let kyouiku =
         "kanji": "労",
         "kanji_ord": 21172,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Wikinger</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span>  , <span class='meaning' data-kanji='労'>Arbeit</span> <span class='meaning_kanji_meaning'>(労)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='労'>Arbeit</span> <span class='meaning_kanji_reading'>(労)</span> , <span class='reading onyomi' data-hiragana='ろう'>rou</span> <span class='hiragana'>(ろう)</span>  <span class='reading kunyomi' data-hiragana='いたわ'>itawa</span> <span class='hiragana'>(いたわ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Obwohl der <span class='radical' data-kanji=' '>Wikinger</span> <span class='radical_kanji'>( )</span> seine <span class='radical' data-kanji='力'>Kraft</span> <span class='radical_kanji'>(力)</span> hatte, musste er sich regelrecht <span class='meaning' data-kanji='労'>Abmühen</span> <span class='meaning_kanji_meaning'>(労)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die Erzieherin muss sich <span class='meaning' data-kanji='労'>Abmühen</span> <span class='meaning_kanji_reading'>(労)</span>, weil sie die einzige in der K<span class='reading kunyomi' data-hiragana='いたわ'>ita wa</span>r <span class='hiragana'>(いたわ)</span>, das macht sie nicht f<span class='reading onyomi' data-hiragana='ろう'>roh</span> <span class='hiragana'>(ろう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 495,
         "reading_dist": [
             {
@@ -38576,10 +38584,10 @@ let kyouiku =
         "kanji": "勇",
         "kanji_ord": 21191,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='マ'>Mama</span> <span class='radical_kanji'>(マ)</span>  <span class='radical' data-kanji='男'>Mann</span> <span class='radical_kanji'>(男)</span>  , <span class='meaning' data-kanji='勇'>Mut</span> <span class='meaning_kanji_meaning'>(勇)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='勇'>Mut</span> <span class='meaning_kanji_reading'>(勇)</span> , <span class='reading onyomi' data-hiragana='ゆう'>yuu</span> <span class='hiragana'>(ゆう)</span>  <span class='reading kunyomi' data-hiragana='いさ'>isa</span> <span class='hiragana'>(いさ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die <span class='radical' data-kanji='マ'>Mama</span> <span class='radical_kanji'>(マ)</span> gibt ihrem Sohne<span class='radical' data-kanji='男'>mann</span> <span class='radical_kanji'>(男)</span> viel <span class='meaning' data-kanji='勇'>Mut</span> <span class='meaning_kanji_meaning'>(勇)</span> auf dem Weg.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er bewahrt <span class='meaning' data-kanji='勇'>Mut</span> <span class='meaning_kanji_reading'>(勇)</span>, obwohl das D<span class='reading kunyomi' data-hiragana='いさ'>isa</span>ster <span class='hiragana'>(いさ)</span> die <span class='reading onyomi' data-hiragana='ゆう'>Ju</span>gendlichen <span class='hiragana'>(ゆう)</span> hart getroffen hat.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 496,
         "reading_dist": [
             {
