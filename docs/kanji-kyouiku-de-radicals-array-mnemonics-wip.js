@@ -39786,10 +39786,10 @@ let kyouiku =
         "kanji": "季",
         "kanji_ord": 23395,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span>  <span class='radical' data-kanji='子'>Kind</span> <span class='radical_kanji'>(子)</span>  , <span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_meaning'>(季)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_reading'>(季)</span> , <span class='reading onyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie viel <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span> wächst und wie viel <span class='radical' data-kanji='子'>Kind</span>er <span class='radical_kanji'>(子)</span> auf die Welt kommen, ist <span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_meaning'>(季)</span> abhängig.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "In der kalten <span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_reading'>(季)</span> nehme ich immer mehr <span class='reading onyomi' data-hiragana='き'>Ki</span>los <span class='hiragana'>(き)</span> zu.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 515,
         "reading_dist": [
             {
@@ -39841,18 +39841,22 @@ let kyouiku =
             "Lineage"
         ],
         "wk_radicals_de": [
-            "Kind"
+            "Kind",
+            "Boden",
+            "Faden"
         ],
         "wk_radicals_kanji": [
-            "子"
+            "子",
+            "一",
+            "糸"
         ],
         "kanji": "孫",
         "kanji_ord": 23403,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='子'>Kind</span> <span class='radical_kanji'>(子)</span>  , <span class='meaning' data-kanji='孫'>Enkelkind</span> <span class='meaning_kanji_meaning'>(孫)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='孫'>Enkelkind</span> <span class='meaning_kanji_reading'>(孫)</span> , <span class='reading kunyomi' data-hiragana='まご'>mago</span> <span class='hiragana'>(まご)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='子'>Kind</span> <span class='radical_kanji'>(子)</span>, das am <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span> mit einem <span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span> spielt, ist ihr <span class='meaning' data-kanji='孫'>Enkelkind</span> <span class='meaning_kanji_meaning'>(孫)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='孫'>Enkelkind</span> <span class='meaning_kanji_reading'>(孫)</span> hat am <span class='reading onyomi' data-hiragana='そん'>Son</span>ntag <span class='hiragana'>(そん)</span> von der O<span class='reading kunyomi' data-hiragana='まご'>ma Go</span>ldschmuck <span class='hiragana'>(まご)</span> geschenkt bekommen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 516,
         "reading_dist": [
             {
@@ -39892,8 +39896,8 @@ let kyouiku =
             "Origin"
         ],
         "meanings_de": [
-            "vollständig",
             "perfekt",
+            "vollständig",
             "beendet"
         ],
         "wk_radicals_new": [
@@ -39912,10 +39916,10 @@ let kyouiku =
         "kanji": "完",
         "kanji_ord": 23436,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  <span class='radical' data-kanji='元'>Ursprung</span> <span class='radical_kanji'>(元)</span>  , <span class='meaning' data-kanji='完'>vollständig</span> <span class='meaning_kanji_meaning'>(完)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='完'>vollständig</span> <span class='meaning_kanji_reading'>(完)</span> , <span class='reading onyomi' data-hiragana='かん'>kan</span> <span class='hiragana'>(かん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unter dem <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span> ist der <span class='radical' data-kanji='元'>Ursprung</span> <span class='radical_kanji'>(元)</span> einer Blume zu erkennen, die <span class='meaning' data-kanji='完'>Perfekt</span> <span class='meaning_kanji_meaning'>(完)</span> nach oben wächst.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er ist der <span class='meaning' data-kanji='完'>perfekt</span>e <span class='meaning_kanji_reading'>(完)</span> <span class='reading onyomi' data-hiragana='かん'>Kan</span>didat <span class='hiragana'>(かん)</span> für die Filmrolle.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 517,
         "reading_dist": [
             {
@@ -39972,10 +39976,10 @@ let kyouiku =
         "kanji": "官",
         "kanji_ord": 23448,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  , <span class='meaning' data-kanji='官'>Regierung</span> <span class='meaning_kanji_meaning'>(官)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='官'>Regierung</span> <span class='meaning_kanji_reading'>(官)</span> , <span class='reading onyomi' data-hiragana='かん'>kan</span> <span class='hiragana'>(かん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unterm <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span> beim Berliner <span class='radical' data-kanji='㠯'>Bär</span> <span class='radical_kanji'>(㠯)</span> tagt unsere <span class='meaning' data-kanji='官'>Regierung</span> <span class='meaning_kanji_meaning'>(官)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die deutsche <span class='meaning' data-kanji='官'>Regierung</span> <span class='meaning_kanji_reading'>(官)</span> <span class='reading onyomi' data-hiragana='かん'>kan</span>n <span class='hiragana'>(かん)</span> aber auch gar nichts!",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 518,
         "reading_dist": [
             {
@@ -40017,8 +40021,9 @@ let kyouiku =
             "Mouth"
         ],
         "meanings_de": [
+            "Schaden",
             "Beschädigung",
-            "Schaden"
+            "Verletzung"
         ],
         "wk_radicals_new": [
             "Roof",
@@ -40039,10 +40044,10 @@ let kyouiku =
         "kanji": "害",
         "kanji_ord": 23475,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  <span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  , <span class='meaning' data-kanji='害'>Beschädigung</span> <span class='meaning_kanji_meaning'>(害)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='害'>Beschädigung</span> <span class='meaning_kanji_reading'>(害)</span> , <span class='reading onyomi' data-hiragana='がい'>gai</span> <span class='hiragana'>(がい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Das <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span> stürzt auf die <span class='radical' data-kanji='生'>Leben</span>den <span class='radical_kanji'>(生)</span> und viele Leute erzählen über <span class='radical' data-kanji='口'>Mund</span>propaganda <span class='radical_kanji'>(口)</span>  von dem <span class='meaning' data-kanji='害'>Schaden</span> <span class='meaning_kanji_meaning'>(害)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Wesen, die man nicht <span class='meaning' data-kanji='害'>schaden</span> <span class='meaning_kanji_reading'>(害)</span> kann, sind z.B. <span class='reading onyomi' data-hiragana='がい'>Gei</span>ster <span class='hiragana'>(がい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 519,
         "reading_dist": [
             {
