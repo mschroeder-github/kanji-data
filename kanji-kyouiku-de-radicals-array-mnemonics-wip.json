@@ -40090,9 +40090,10 @@
             "Festival"
         ],
         "meanings_de": [
-            "untersuchen",
-            "urteilen",
-            "realisieren"
+            "Vermutung",
+            "annehmen",
+            "beurteilen",
+            "verstehen"
         ],
         "wk_radicals_new": [
             "Roof"
@@ -40104,15 +40105,16 @@
             "Dach"
         ],
         "wk_radicals_kanji": [
-            "宀"
+            "宀",
+            "祭"
         ],
         "kanji": "察",
         "kanji_ord": 23519,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  , <span class='meaning' data-kanji='察'>untersuchen</span> <span class='meaning_kanji_meaning'>(察)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='察'>untersuchen</span> <span class='meaning_kanji_reading'>(察)</span> , ",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ein aufgebautes Zelt<span class='radical' data-kanji='宀'>dach</span> <span class='radical_kanji'>(宀)</span> lässt eine <span class='radical' data-kanji='祭'>Feier</span> <span class='radical_kanji'>(祭)</span> <span class='meaning' data-kanji='察'>vermuten</span> <span class='meaning_kanji_meaning'>(察)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Seine <span class='meaning' data-kanji='察'>Vermutung</span> <span class='meaning_kanji_reading'>(察)</span> war richtig, als er vorher<span class='reading onyomi' data-hiragana='さつ'>sah: Zu</span>g <span class='hiragana'>(さつ)</span> kommt später.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 520,
         "reading_dist": [
             {
@@ -40122,6 +40124,90 @@
             }
         ],
         "order_wiki_radical_corrected": 527,
+        "grade_corrected": 4
+    },
+    {
+        "strokes": 8,
+        "grade": 4,
+        "freq": 258,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Fruit",
+            "Reward",
+            "Carry Out",
+            "Achieve",
+            "Complete",
+            "End",
+            "Finish",
+            "Succeed"
+        ],
+        "readings_on": [
+            "か"
+        ],
+        "readings_kun": [
+            "は.たす",
+            "はた.す",
+            "-は.たす",
+            "は.てる",
+            "-は.てる",
+            "は.て"
+        ],
+        "wk_level": 17,
+        "wk_meanings": [
+            "Fruit"
+        ],
+        "wk_readings_on": [
+            "か"
+        ],
+        "wk_readings_kun": [
+            "!くだ",
+            "!は"
+        ],
+        "wk_radicals": [
+            "Fruit"
+        ],
+        "meanings_de": [
+            "Frucht",
+            "Ende",
+            "vollenden",
+            "Ergebnis"
+        ],
+        "wk_radicals_new": [],
+        "wk_radicals_missing": [
+            "Fruit"
+        ],
+        "wk_radicals_de": [
+            "Frucht"
+        ],
+        "wk_radicals_kanji": [],
+        "kanji": "果",
+        "kanji_ord": 26524,
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='果'>Frucht</span> <span class='meaning_kanji_meaning'>(果)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='果'>Früchte</span> <span class='meaning_kanji_reading'>(果)</span> wie <span class='reading onyomi' data-hiragana='か'>Ka</span>ktusfeige <span class='hiragana'>(か)</span> und <span class='reading kunyomi' data-hiragana='は'>Ha</span>gebutte <span class='hiragana'>(は)</span> bleiben dank Kälteak<span class='reading kunyomi' data-hiragana='くだ'>ku da</span>uerhaft <span class='hiragana'>(くだ)</span> frisch.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 554,
+        "reading_dist": [
+            {
+                "reading": "か",
+                "count": 4,
+                "prop": 0.44
+            },
+            {
+                "reading": "は",
+                "count": 4,
+                "prop": 0.44
+            },
+            {
+                "reading": "くだもの",
+                "count": 1,
+                "prop": 0.11
+            }
+        ],
+        "order_wiki_radical_corrected": 560,
         "grade_corrected": 4
     },
     {
@@ -40168,15 +40254,21 @@
             "Grass",
             "Fruit"
         ],
-        "wk_radicals_de": [],
-        "wk_radicals_kanji": [],
+        "wk_radicals_de": [
+            "Gras",
+            "Frucht"
+        ],
+        "wk_radicals_kanji": [
+            "'''",
+            "果"
+        ],
         "kanji": "巣",
         "kanji_ord": 24035,
         "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='巣'>Nest</span> <span class='meaning_kanji_meaning'>(巣)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='巣'>Nest</span> <span class='meaning_kanji_reading'>(巣)</span> , <span class='reading kunyomi' data-hiragana='す'>su</span> <span class='hiragana'>(す)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aus <span class='radical' data-kanji=\"'''\">Gras</span> <span class='radical_kanji'>(''')</span> im <span class='radical' data-kanji='果'>Frucht</span>baum <span class='radical_kanji'>(果)</span> legt der Vogel sein <span class='meaning' data-kanji='巣'>Nest</span> <span class='meaning_kanji_meaning'>(巣)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Im <span class='meaning' data-kanji='巣'>Nest</span> <span class='meaning_kanji_reading'>(巣)</span> nach Eiern <span class='reading kunyomi' data-hiragana='す'>su</span>chen <span class='hiragana'>(す)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 521,
         "reading_dist": [
             {
@@ -40226,10 +40318,10 @@
             "Construction"
         ],
         "meanings_de": [
-            "Unterschied",
+            "Unterscheidung",
             "Verschiedenheit",
-            "auf etwas zeigen",
-            "hineinstecken"
+            "Variation",
+            "Diskrepanz"
         ],
         "wk_radicals_new": [
             "Horns",
@@ -40253,10 +40345,10 @@
         "kanji": "差",
         "kanji_ord": 24046,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span>  <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  <span class='radical' data-kanji='工'>Konstruktion</span> <span class='radical_kanji'>(工)</span>  , <span class='meaning' data-kanji='差'>Unterschied</span> <span class='meaning_kanji_meaning'>(差)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='差'>Unterschied</span> <span class='meaning_kanji_reading'>(差)</span> , <span class='reading onyomi' data-hiragana='さ'>sa</span> <span class='hiragana'>(さ)</span>  <span class='reading kunyomi' data-hiragana='さし'>sashi</span> <span class='hiragana'>(さし)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='` ´'>Hörner</span> <span class='radical_kanji'>(` ´)</span> tragende <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span> macht an seinen Wasser<span class='radical' data-kanji='丿'>rutsche</span>n <span class='radical_kanji'>(丿)</span> anhand der Bau<span class='radical' data-kanji='工'>konstruktion</span> <span class='radical_kanji'>(工)</span> die <span class='meaning' data-kanji='差'>Unterscheidung</span> <span class='meaning_kanji_meaning'>(差)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Zur <span class='meaning' data-kanji='差'>Unterscheidung</span> <span class='meaning_kanji_reading'>(差)</span> des Inhalts steht der Name auf dem <span class='reading onyomi' data-hiragana='さ'>Sa</span>ck <span class='hiragana'>(さ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 522,
         "reading_dist": [
             {
@@ -40315,8 +40407,8 @@
         ],
         "meanings_de": [
             "selten",
-            "knapp",
-            "ungewöhnlich"
+            "Wunsch",
+            "knapp"
         ],
         "wk_radicals_new": [
             "Treasure",
@@ -40337,10 +40429,10 @@
         "kanji": "希",
         "kanji_ord": 24076,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='メ'>Schatz</span> <span class='radical_kanji'>(メ)</span>  <span class='radical' data-kanji='ナ'>Narwal</span> <span class='radical_kanji'>(ナ)</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  , <span class='meaning' data-kanji='希'>selten</span> <span class='meaning_kanji_meaning'>(希)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='希'>selten</span> <span class='meaning_kanji_reading'>(希)</span> , <span class='reading onyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Als der <span class='radical' data-kanji='メ'>Schatz</span> <span class='radical_kanji'>(メ)</span> von einem <span class='radical' data-kanji='ナ'>Narwal</span> <span class='radical_kanji'>(ナ)</span> geöffnet wird, findet er ein <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>, was  <span class='meaning' data-kanji='希'>selten</span> <span class='meaning_kanji_meaning'>(希)</span> vorkommt; er hatte einen anderen <span class='meaning' data-kanji='希'>Wunsch</span> <span class='meaning_kanji_meaning'>(希)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='希'>Selten</span> <span class='meaning_kanji_reading'>(希)</span> sind ato<span class='reading kunyomi' data-hiragana='き'>mare</span> <span class='hiragana'>(まれ)</span> <span class='reading onyomi' data-hiragana='き'>Ki</span>pppunkte <span class='hiragana'>(き)</span> vorhersehbar, doch Physiker haben diesen <span class='meaning' data-kanji='希'>Wunsch</span> <span class='meaning_kanji_reading'>(希)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 523,
         "reading_dist": [
             {
@@ -42533,87 +42625,6 @@
             }
         ],
         "order_wiki_radical_corrected": 559,
-        "grade_corrected": 4
-    },
-    {
-        "strokes": 8,
-        "grade": 4,
-        "freq": 258,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Fruit",
-            "Reward",
-            "Carry Out",
-            "Achieve",
-            "Complete",
-            "End",
-            "Finish",
-            "Succeed"
-        ],
-        "readings_on": [
-            "か"
-        ],
-        "readings_kun": [
-            "は.たす",
-            "はた.す",
-            "-は.たす",
-            "は.てる",
-            "-は.てる",
-            "は.て"
-        ],
-        "wk_level": 17,
-        "wk_meanings": [
-            "Fruit"
-        ],
-        "wk_readings_on": [
-            "か"
-        ],
-        "wk_readings_kun": [
-            "!くだ",
-            "!は"
-        ],
-        "wk_radicals": [
-            "Fruit"
-        ],
-        "meanings_de": [
-            "Frucht",
-            "Ende",
-            "vollenden",
-            "Ergebnis"
-        ],
-        "wk_radicals_new": [],
-        "wk_radicals_missing": [
-            "Fruit"
-        ],
-        "wk_radicals_de": [],
-        "wk_radicals_kanji": [],
-        "kanji": "果",
-        "kanji_ord": 26524,
-        "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='果'>Frucht</span> <span class='meaning_kanji_meaning'>(果)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='果'>Frucht</span> <span class='meaning_kanji_reading'>(果)</span> , <span class='reading onyomi' data-hiragana='か'>ka</span> <span class='hiragana'>(か)</span>  <span class='reading kunyomi' data-hiragana='は'>ha</span> <span class='hiragana'>(は)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 554,
-        "reading_dist": [
-            {
-                "reading": "か",
-                "count": 4,
-                "prop": 0.44
-            },
-            {
-                "reading": "は",
-                "count": 4,
-                "prop": 0.44
-            },
-            {
-                "reading": "くだもの",
-                "count": 1,
-                "prop": 0.11
-            }
-        ],
-        "order_wiki_radical_corrected": 560,
         "grade_corrected": 4
     },
     {
