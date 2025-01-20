@@ -1,6 +1,6 @@
 # Lernmaterialien
 
-Stand: 19.01.2025
+Stand: 20.01.2025
 
 ## Anki Decks
 

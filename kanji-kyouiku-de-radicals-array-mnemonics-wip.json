@@ -40475,7 +40475,7 @@
             "Towel"
         ],
         "meanings_de": [
-            "Sitz",
+            "Sitzplatz",
             "Platz"
         ],
         "wk_radicals_new": [
@@ -40484,20 +40484,22 @@
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Rundzelt",
+            "Vordach",
+            "Süßigkeit",
             "Handtuch"
         ],
         "wk_radicals_kanji": [
-            " ",
+            "广",
+            "甘",
             "巾"
         ],
         "kanji": "席",
         "kanji_ord": 24109,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Rundzelt</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  , <span class='meaning' data-kanji='席'>Sitz</span> <span class='meaning_kanji_meaning'>(席)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='席'>Sitz</span> <span class='meaning_kanji_reading'>(席)</span> , <span class='reading onyomi' data-hiragana='せき'>seki</span> <span class='hiragana'>(せき)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unter dem <span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span> schmilzt die halbe <span class='radical' data-kanji='甘'>Süßigkeit</span> <span class='radical_kanji'>(甘)</span>, weil sie unter dem <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span> auf einem <span class='meaning' data-kanji='席'>Sitzplatz</span> <span class='meaning_kanji_meaning'>(席)</span> liegt.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ein <span class='meaning' data-kanji='席'>Sitzplatz</span> <span class='meaning_kanji_reading'>(席)</span> für Paare haben diver<span class='reading onyomi' data-hiragana='せき'>se Ki</span>nos <span class='hiragana'>(せき)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 524,
         "reading_dist": [
             {
@@ -40552,7 +40554,7 @@
         ],
         "meanings_de": [
             "Gürtel",
-            "Obi (vom Kimono) Schärpe",
+            "Schärpe",
             "Bereich"
         ],
         "wk_radicals_new": [
@@ -40577,10 +40579,10 @@
         "kanji": "帯",
         "kanji_ord": 24111,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='山'>Berg</span> <span class='radical_kanji'>(山)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>  <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  , <span class='meaning' data-kanji='帯'>Gürtel</span> <span class='meaning_kanji_meaning'>(帯)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='帯'>Gürtel</span> <span class='meaning_kanji_reading'>(帯)</span> , <span class='reading kunyomi' data-hiragana='おび'>obi</span> <span class='hiragana'>(おび)</span>  <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Seine Hose rutscht, als er vom <span class='radical' data-kanji='山'>Berg</span> <span class='radical_kanji'>(山)</span> zum <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span> wandert, weshalb er <span class='radical' data-kanji='冖'>Stirn</span>band <span class='radical_kanji'>(冖)</span> und <span class='radical' data-kanji='巾'>Handtuch</span> <span class='radical_kanji'>(巾)</span>  zu einem <span class='meaning' data-kanji='帯'>Gürtel</span> <span class='meaning_kanji_meaning'>(帯)</span> zusammenbindet.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ob der <span class='meaning' data-kanji='帯'>Gürtel</span> <span class='meaning_kanji_reading'>(帯)</span> um die <span class='reading onyomi' data-hiragana='たい'>Tai</span>lle <span class='hiragana'>(たい)</span> passt, muss ich erst anpr<span class='reading kunyomi' data-hiragana='おび'>obi</span>eren <span class='hiragana'>(おび)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 525,
         "reading_dist": [
             {
@@ -40656,10 +40658,10 @@
         "kanji": "底",
         "kanji_ord": 24213,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span>  <span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  , <span class='meaning' data-kanji='底'>Boden</span> <span class='meaning_kanji_meaning'>(底)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='底'>Boden</span> <span class='meaning_kanji_reading'>(底)</span> , <span class='reading kunyomi' data-hiragana='そこ'>soko</span> <span class='hiragana'>(そこ)</span>  <span class='reading onyomi' data-hiragana='てい'>tei</span> <span class='hiragana'>(てい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unter einem <span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span> präpariert ein Mafia-<span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span> die <span class='radical' data-kanji='一'>Boden</span>decke <span class='radical_kanji'>(一)</span> eines Behälters, um in seinem <span class='meaning' data-kanji='底'>Boden</span> <span class='meaning_kanji_meaning'>(底)</span> Drogen schmuggeln zu können.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Auf dem <span class='meaning' data-kanji='底'>Boden</span> <span class='meaning_kanji_reading'>(底)</span> von Fässern findet die Sonderkommission (<span class='reading kunyomi' data-hiragana='そこ'>Soko</span>) <span class='hiragana'>(そこ)</span> das ers<span class='reading onyomi' data-hiragana='てい'>te I</span>ndiz <span class='hiragana'>(てい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 526,
         "reading_dist": [
             {
@@ -40706,8 +40708,9 @@
             "Attach"
         ],
         "meanings_de": [
-            "Präfektur",
-            "Regierungsbezirk"
+            "Regierungsbezirk",
+            "Stadtbezirk",
+            "Lagerhaus"
         ],
         "wk_radicals_new": [
             "Canopy"
@@ -40716,18 +40719,20 @@
             "Attach"
         ],
         "wk_radicals_de": [
-            "Vordach"
+            "Vordach",
+            "anheften"
         ],
         "wk_radicals_kanji": [
-            "广"
+            "广",
+            "付"
         ],
         "kanji": "府",
         "kanji_ord": 24220,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span>  , <span class='meaning' data-kanji='府'>Präfektur</span> <span class='meaning_kanji_meaning'>(府)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='府'>Präfektur</span> <span class='meaning_kanji_reading'>(府)</span> , <span class='reading onyomi' data-hiragana='ふ'>fu</span> <span class='hiragana'>(ふ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "An <span class='radical' data-kanji='广'>Vordächer</span> <span class='radical_kanji'>(广)</span> wollen sie Landesfahnen <span class='meaning' data-kanji='付'>anheften</span> <span class='meaning_kanji_meaning'>(付)</span>, um den <span class='meaning' data-kanji='府'>Regierungsbezirk</span> <span class='meaning_kanji_meaning'>(府)</span> klar zu machen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='府'>Regierungsbezirk</span> <span class='meaning_kanji_reading'>(府)</span> hat die <span class='reading onyomi' data-hiragana='ふ'>Fu</span>nktion <span class='hiragana'>(ふ)</span> der regionalen Verwaltung und Koordination staatlicher Aufgaben.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 527,
         "reading_dist": [
             {
@@ -40768,9 +40773,8 @@
             "Water"
         ],
         "meanings_de": [
-            "Gesundheit",
-            "Friede",
-            "Ruhe"
+            "Ruhe",
+            "Friede"
         ],
         "wk_radicals_new": [
             "Canopy",
@@ -40791,10 +40795,10 @@
         "kanji": "康",
         "kanji_ord": 24247,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span>  <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>  <span class='radical' data-kanji='水'>Wasser</span> <span class='radical_kanji'>(水)</span>  , <span class='meaning' data-kanji='康'>Gesundheit</span> <span class='meaning_kanji_meaning'>(康)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='康'>Gesundheit</span> <span class='meaning_kanji_reading'>(康)</span> , ",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Unter einem <span class='radical' data-kanji='广'>Vordach</span> <span class='radical_kanji'>(广)</span> hinter einem <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span> plätschert das <span class='radical' data-kanji='水'>Wasser</span> <span class='radical_kanji'>(水)</span>: Was für eine <span class='meaning' data-kanji='康'>Ruhe</span> <span class='meaning_kanji_meaning'>(康)</span> und Friede.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich spüre <span class='meaning' data-kanji='康'>Ruhe</span> <span class='meaning_kanji_reading'>(康)</span> und Friede, wenn ich auf meinem Bal<span class='reading onyomi' data-hiragana='こう'>ko</span>n <span class='hiragana'>(こう)</span> mich sonne.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 528,
         "order_wiki_radical_corrected": 535,
         "grade_corrected": 4,
