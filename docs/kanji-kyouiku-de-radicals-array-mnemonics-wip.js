@@ -40858,10 +40858,10 @@ let kyouiku =
         "kanji": "建",
         "kanji_ord": 24314,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span>  , <span class='meaning' data-kanji='建'>bauen</span> <span class='meaning_kanji_meaning'>(建)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='建'>bauen</span> <span class='meaning_kanji_reading'>(建)</span> , <span class='reading onyomi' data-hiragana='けん'>ken</span> <span class='hiragana'>(けん)</span>  <span class='reading kunyomi' data-hiragana='たて'>tate</span> <span class='hiragana'>(たて)</span>  <span class='reading kunyomi' data-hiragana='た'>ta</span> <span class='hiragana'>(た)</span>  <span class='reading onyomi' data-hiragana='こん'>kon</span> <span class='hiragana'>(こん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='廴'>Yoga</span>-Guru <span class='radical_kanji'>(廴)</span> möchte nur aus <span class='radical' data-kanji='聿'>Gestrüpp</span> <span class='radical_kanji'>(聿)</span> sein Meditationsraum <span class='meaning' data-kanji='建'>erbauen</span> <span class='meaning_kanji_meaning'>(建)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Beim <span class='meaning' data-kanji='建'>Bauen</span> <span class='meaning_kanji_reading'>(建)</span> mit Holzbal<span class='reading onyomi' data-hiragana='けん'>ken</span> <span class='hiragana'>(けん)</span> erzielt man die besten Resul<span class='reading kunyomi' data-hiragana='たて'>tate</span> <span class='hiragana'>(たて)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 529,
         "reading_dist": [
             {
@@ -40939,10 +40939,10 @@ let kyouiku =
         "kanji": "径",
         "kanji_ord": 24452,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='彳'>Herumtreiber</span> <span class='radical_kanji'>(彳)</span>  <span class='radical' data-kanji='圣'>Grabstein</span> <span class='radical_kanji'>(圣)</span>  , <span class='meaning' data-kanji='径'>Durchmesser</span> <span class='meaning_kanji_meaning'>(径)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='径'>Durchmesser</span> <span class='meaning_kanji_reading'>(径)</span> , ",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Als der <span class='radical' data-kanji='彳'>Herumtreiber</span> <span class='radical_kanji'>(彳)</span> den <span class='radical' data-kanji='圣'>Grabstein</span> <span class='radical_kanji'>(圣)</span> umgeworfen hat, war im Boden der Abdruck eines großen <span class='meaning' data-kanji='径'>Durchmessers</span> <span class='meaning_kanji_meaning'>(径)</span> zu sehen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='径'>Durchmesser</span> <span class='meaning_kanji_reading'>(径)</span> der Dec<span class='reading onyomi' data-hiragana='けい'>ke i</span>nnen <span class='hiragana'>(けい)</span> ist viel zu dünn.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 530,
         "reading_dist": [],
         "order_wiki_radical_corrected": 537,
@@ -40988,6 +40988,7 @@ let kyouiku =
             "Run"
         ],
         "meanings_de": [
+            "Junior",
             "zu Fuß",
             "Begleiter",
             "vergeblich",
@@ -41010,10 +41011,10 @@ let kyouiku =
         "kanji": "徒",
         "kanji_ord": 24466,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='彳'>Herumtreiber</span> <span class='radical_kanji'>(彳)</span>  <span class='radical' data-kanji='走'>Laufen</span> <span class='radical_kanji'>(走)</span>  , <span class='meaning' data-kanji='徒'>zu Fuß</span> <span class='meaning_kanji_meaning'>(徒)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='徒'>zu Fuß</span> <span class='meaning_kanji_reading'>(徒)</span> , <span class='reading onyomi' data-hiragana='と'>to</span> <span class='hiragana'>(と)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Hinter dem <span class='radical' data-kanji='彳'>Herumtreiber</span> <span class='radical_kanji'>(彳)</span> <span class='radical' data-kanji='走'>läuft</span> <span class='radical_kanji'>(走)</span> ein Kind, es ist sein <span class='meaning' data-kanji='徒'>Junior</span> <span class='meaning_kanji_meaning'>(徒)</span>, der ihn zu Fuß begleitet, aber vergeblich Schritt halten kann.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Sein <span class='meaning' data-kanji='徒'>Junior</span> <span class='meaning_kanji_reading'>(徒)</span> möchte ihn zu Fuß begleiten, um eine <span class='reading onyomi' data-hiragana='と'>To</span>mate <span class='hiragana'>(と)</span> zu pfücken, doch es war auf Grund seiner Körpergröße vergeblich.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 531,
         "reading_dist": [
             {
@@ -41057,10 +41058,10 @@ let kyouiku =
             "Slide"
         ],
         "meanings_de": [
-            "ohne Zweifel",
             "bestimmt",
             "gewiss",
-            "unausweichlich"
+            "unausweichlich",
+            "ohne Zweifel"
         ],
         "wk_radicals_new": [
             "Heart",
@@ -41078,10 +41079,10 @@ let kyouiku =
         "kanji": "必",
         "kanji_ord": 24517,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span>  <span class='radical' data-kanji='丿'>Rutsche</span> <span class='radical_kanji'>(丿)</span>  , <span class='meaning' data-kanji='必'>ohne Zweifel</span> <span class='meaning_kanji_meaning'>(必)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='必'>ohne Zweifel</span> <span class='meaning_kanji_reading'>(必)</span> , <span class='reading onyomi' data-hiragana='ひつ'>hitsu</span> <span class='hiragana'>(ひつ)</span>  <span class='reading kunyomi' data-hiragana='かなら'>kanara</span> <span class='hiragana'>(かなら)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Fass dir ein <span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span> und rutsche die Wasser<span class='radical' data-kanji='丿'>rutsche</span> <span class='radical_kanji'>(丿)</span>, du kommst <span class='meaning' data-kanji='必'>bestimmt</span> <span class='meaning_kanji_meaning'>(必)</span> unten an.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='必'>Bestimmt</span> <span class='meaning_kanji_reading'>(必)</span> ist auf den <span class='reading kunyomi' data-hiragana='かなら'>Kanara</span>ischen <span class='hiragana'>(かなら)</span> Inseln eine angenehme <span class='reading onyomi' data-hiragana='ひつ'>Hitze</span> <span class='hiragana'>(ひつ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 532,
         "reading_dist": [
             {
@@ -41156,10 +41157,10 @@ let kyouiku =
         "kanji": "念",
         "kanji_ord": 24565,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='今'>Jetzt</span> <span class='radical_kanji'>(今)</span>  <span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span>  , <span class='meaning' data-kanji='念'>Gedanke</span> <span class='meaning_kanji_meaning'>(念)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='念'>Gedanke</span> <span class='meaning_kanji_reading'>(念)</span> , <span class='reading onyomi' data-hiragana='ねん'>nen</span> <span class='hiragana'>(ねん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wenn du <span class='radical' data-kanji='今'>Jetzt</span> <span class='radical_kanji'>(今)</span> dein <span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span> ausschüttest, hast du freiere <span class='meaning' data-kanji='念'>Gedanken</span> <span class='meaning_kanji_meaning'>(念)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Ich mache mir <span class='meaning' data-kanji='念'>Gedanken</span> <span class='meaning_kanji_reading'>(念)</span>, wie ich das Wochenende pla<span class='reading onyomi' data-hiragana='ねん'>nen</span> <span class='hiragana'>(ねん)</span> möchte.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 533,
         "reading_dist": [
             {
