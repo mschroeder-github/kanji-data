@@ -12018,7 +12018,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Wenn ich mit den <span class='radical' data-kanji='扌'>Finger</span> <span class='radical_kanji'>(扌)</span> den magnetischen <span class='radical' data-kanji='匕'>Löffel</span> <span class='radical_kanji'>(匕)</span> dreh, zeigt er immer nach <span class='meaning' data-kanji='北'>Norden</span> <span class='meaning_kanji_meaning'>(北)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "Im <span class='meaning' data-kanji='北'>Norden</span> <span class='meaning_kanji_reading'>(北)</span> sind bei Nacht die Nordlichter wie <span class='reading onyomi' data-hiragana='ほく'>Hoku</span>s-Pokus <span class='hiragana'>(ほく)</span>, wird aber ein perfekter S<span class='reading kunyomi' data-hiragana='きた'>ki-Ta</span>g <span class='hiragana'>(きた)</span>.",
+        "mnemonic_reading_de": "Im <span class='meaning' data-kanji='北'>Norden</span> <span class='meaning_kanji_reading'>(北)</span> sind die Nordlichter wie <span class='reading onyomi' data-hiragana='ほく'>Hoku</span>s-Pokus <span class='hiragana'>(ほく)</span> für die Kinder, die aus dem Fenster der <span class='reading kunyomi' data-hiragana='きた'>Kita</span> <span class='hiragana'>(きた)</span> schauen.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 135,
         "reading_dist": [
@@ -20608,7 +20608,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Unser <span class='radical' data-kanji='ｲ'>Anführer</span> <span class='radical_kanji'>(ｲ)</span> plant eine spezielle Hochzeits<span class='radical' data-kanji='弋'>zeremonie</span> <span class='radical_kanji'>(弋)</span>, um seine Ehefrau zu <span class='meaning' data-kanji='代'>ersetzen</span> <span class='meaning_kanji_meaning'>(代)</span>.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "Ich brauche eine <span class='meaning' data-kanji='代'>Ersetzung</span> <span class='meaning_kanji_reading'>(代)</span> für die <span class='reading kunyomi' data-hiragana='か'>ka</span>putte <span class='hiragana'>(か)</span> Me<span class='reading onyomi' data-hiragana='だい'>dai</span>lle <span class='hiragana'>(だい)</span>.",
+        "mnemonic_reading_de": "Sportler fordern die <span class='meaning' data-kanji='代'>Ersetzung</span> <span class='meaning_kanji_reading'>(代)</span> von <span class='reading kunyomi' data-hiragana='か'>ka</span>putten <span class='hiragana'>(か)</span> Me<span class='reading onyomi' data-hiragana='だい'>dai</span>llen <span class='hiragana'>(だい)</span>, da sie in dieser <span class='meaning' data-kanji='代'>Epoche</span> <span class='meaning_kanji_reading'>(代)</span> schon Rost ansetzen.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 250,
         "reading_dist": [
@@ -30497,7 +30497,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Im <span class='radical' data-kanji='癶'>Zelt</span> <span class='radical_kanji'>(癶)</span> wachsen die <span class='radical' data-kanji='豆'>Bohnen</span> <span class='radical_kanji'>(豆)</span> am besten, weil sie ungehindert <span class='meaning' data-kanji='登'>hinaufsteigen</span> <span class='meaning_kanji_meaning'>(登)</span> können.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='登'>Hinaufsteigen</span> <span class='meaning_kanji_reading'>(登)</span> möchten die Bo<span class='reading kunyomi' data-hiragana='のぼ'>nobo</span>s <span class='hiragana'>(のぼ)</span> (Zwergschimpansen), weil oben in den Bäumen die Bananen einen frischeren Gelb<span class='reading onyomi' data-hiragana='とう'>to</span>n <span class='hiragana'>(とう)</span> haben.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='登'>Hinaufsteigen</span> <span class='meaning_kanji_reading'>(登)</span> möchten die Bo<span class='reading kunyomi' data-hiragana='のぼ'>nobo</span>s <span class='hiragana'>(のぼ)</span> (Zwergschimpansen), weil oben in den Bäumen die Bananen einen helleren Gelb<span class='reading onyomi' data-hiragana='とう'>to</span>n <span class='hiragana'>(とう)</span> haben.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 367,
         "reading_dist": [
@@ -30578,7 +30578,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Kundschafter nutzen den <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>, um mit spähendem <span class='radical' data-kanji='目'>Auge</span> <span class='radical_kanji'>(目)</span> sich <span class='meaning' data-kanji='相'>gegenseitig</span> <span class='meaning_kanji_meaning'>(相)</span> auszuspionieren.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='相'>Gegenseitig</span> <span class='meaning_kanji_reading'>(相)</span> sind H<span class='reading kunyomi' data-hiragana='あい'>ai</span>e <span class='hiragana'>(あい)</span> durch ein Unfall mit einem Las<span class='reading onyomi' data-hiragana='そう'>so</span> <span class='hiragana'>(そう)</span> verbunden.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='相'>Gegenseitig</span> <span class='meaning_kanji_reading'>(相)</span> versuchen sich zwei M<span class='reading kunyomi' data-hiragana='あい'>ai</span>d <span class='hiragana'>(あい)</span> (junge, unverheiratete Frauen) den <span class='reading onyomi' data-hiragana='そう'>Soh</span>n <span class='hiragana'>(そう)</span> des Kaufmanns auszuspannen.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 370,
         "reading_dist": [
@@ -41226,7 +41226,7 @@ let kyouiku =
             "Winter"
         ],
         "wk_radicals_kanji": [
-            " ",
+            ",,,",
             "冖",
             "心",
             "夂"
@@ -41234,10 +41234,10 @@ let kyouiku =
         "kanji": "愛",
         "kanji_ord": 24859,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=',,,'>Stollen</span> <span class='radical_kanji'>(,,,)</span>  <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span>  <span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  , <span class='meaning' data-kanji='愛'>Liebe</span> <span class='meaning_kanji_meaning'>(愛)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='愛'>Liebe</span> <span class='meaning_kanji_reading'>(愛)</span> , <span class='reading onyomi' data-hiragana='あい'>ai</span> <span class='hiragana'>(あい)</span>  <span class='reading kunyomi' data-hiragana='いと'>ito</span> <span class='hiragana'>(いと)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wie ein <span class='radical' data-kanji=',,,'>Stollen</span> <span class='radical_kanji'>(,,,)</span> gegen die <span class='radical' data-kanji='冖'>Stirn</span> <span class='radical_kanji'>(冖)</span> trifft es ihn, als sie ihr <span class='radical' data-kanji='心'>Herz</span> <span class='radical_kanji'>(心)</span> ausschüttet, weil sie im <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span> ihm ihre <span class='meaning' data-kanji='愛'>Liebe</span> <span class='meaning_kanji_meaning'>(愛)</span> gesteht.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Ritter empfindet <span class='meaning' data-kanji='愛'>Liebe</span> <span class='meaning_kanji_reading'>(愛)</span> für die M<span class='reading onyomi' data-hiragana='あい'>ai</span>d <span class='hiragana'>(あい)</span> (junge, unverheiratete Frau) und sie d<span class='reading kunyomi' data-hiragana='いと'>ito</span> <span class='hiragana'>(いと)</span> (ebenso).",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 534,
         "reading_dist": [
             {
@@ -41292,8 +41292,8 @@ let kyouiku =
             "Sword"
         ],
         "meanings_de": [
-            "etwas erreichen",
             "werden",
+            "etwas erreichen",
             "vollbringen",
             "bilden"
         ],
@@ -41304,18 +41304,20 @@ let kyouiku =
             "Drunkard"
         ],
         "wk_radicals_de": [
-            "Schwert"
+            "Schwert",
+            "Hellebarde"
         ],
         "wk_radicals_kanji": [
-            "刀"
+            "刀",
+            "戈"
         ],
         "kanji": "成",
         "kanji_ord": 25104,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span>  , <span class='meaning' data-kanji='成'>etwas erreichen</span> <span class='meaning_kanji_meaning'>(成)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='成'>etwas erreichen</span> <span class='meaning_kanji_reading'>(成)</span> , <span class='reading onyomi' data-hiragana='せい'>sei</span> <span class='hiragana'>(せい)</span>  <span class='reading kunyomi' data-hiragana='な'>na</span> <span class='hiragana'>(な)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ist man geschickt mit <span class='radical' data-kanji='刀'>Schwert</span> <span class='radical_kanji'>(刀)</span> und <span class='radical' data-kanji='戈'>Hellebarde</span> <span class='radical_kanji'>(戈)</span> (Hieb- und Stichwaffe), sollte man Krieger <span class='meaning' data-kanji='成'>werden</span> <span class='meaning_kanji_meaning'>(成)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='成'>Werden</span> <span class='meaning_kanji_reading'>(成)</span> möchte er mal <span class='reading kunyomi' data-hiragana='な'>Na</span>geldesigner <span class='hiragana'>(な)</span>, was für eine kurio<span class='reading onyomi' data-hiragana='せい'>se I</span>dee <span class='hiragana'>(せい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 535,
         "reading_dist": [
             {
@@ -41381,15 +41383,21 @@ let kyouiku =
             "Simple",
             "Drunkard"
         ],
-        "wk_radicals_de": [],
-        "wk_radicals_kanji": [],
+        "wk_radicals_de": [
+            "simpel",
+            "Hellebarde"
+        ],
+        "wk_radicals_kanji": [
+            "単",
+            "戈"
+        ],
         "kanji": "戦",
         "kanji_ord": 25126,
         "is_radical": false,
-        "mnemonic_meaning_de": ", <span class='meaning' data-kanji='戦'>Krieg</span> <span class='meaning_kanji_meaning'>(戦)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='戦'>Krieg</span> <span class='meaning_kanji_reading'>(戦)</span> , <span class='reading onyomi' data-hiragana='せん'>sen</span> <span class='hiragana'>(せん)</span>  <span class='reading kunyomi' data-hiragana='たたか'>tataka</span> <span class='hiragana'>(たたか)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Es ist <span class='radical' data-kanji='単'>simpel</span> <span class='radical_kanji'>(単)</span> mit der <span class='radical' data-kanji='戈'>Hellebarde</span> <span class='radical_kanji'>(戈)</span> (Hieb- und Stichwaffe) in den <span class='meaning' data-kanji='戦'>Krieg</span> <span class='meaning_kanji_meaning'>(戦)</span> zu ziehen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Als die Kinder <span class='meaning' data-kanji='戦'>Krieg</span> <span class='meaning_kanji_reading'>(戦)</span> spielen mit Be<span class='reading onyomi' data-hiragana='せん'>sen</span> <span class='hiragana'>(せん)</span> als Waffen, sind sie die Tatü<span class='reading kunyomi' data-hiragana='たたか'>tata-Ka</span>vallerie <span class='hiragana'>(たたか)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 536,
         "reading_dist": [
             {
@@ -41452,10 +41460,9 @@ let kyouiku =
             "Axe"
         ],
         "meanings_de": [
+            "falten",
             "brechen",
-            "knicken",
-            "abbrechen",
-            "Gelegenheit"
+            "biegen"
         ],
         "wk_radicals_new": [
             "Fingers",
@@ -41473,10 +41480,10 @@ let kyouiku =
         "kanji": "折",
         "kanji_ord": 25240,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='扌'>Finger</span> <span class='radical_kanji'>(扌)</span>  <span class='radical' data-kanji='斤'>Axt</span> <span class='radical_kanji'>(斤)</span>  , <span class='meaning' data-kanji='折'>brechen</span> <span class='meaning_kanji_meaning'>(折)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='折'>brechen</span> <span class='meaning_kanji_reading'>(折)</span> , <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>  <span class='reading kunyomi' data-hiragana='おり'>ori</span> <span class='hiragana'>(おり)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die <span class='radical' data-kanji='扌'>Finger</span> <span class='radical_kanji'>(扌)</span> umschließende <span class='radical' data-kanji='斤'>Axt</span> <span class='radical_kanji'>(斤)</span> schlägt auf den Baum, um die Holzstücke und -rinden zu <span class='meaning' data-kanji='折'>falten</span> <span class='meaning_kanji_meaning'>(折)</span>, zu brechen und zu biegen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der Koch <span class='meaning' data-kanji='折'>faltet</span> <span class='meaning_kanji_reading'>(折)</span> auf <span class='reading kunyomi' data-hiragana='おり'>ori</span>ginelle <span class='hiragana'>(おり)</span> Weise den Kä<span class='reading onyomi' data-hiragana='せつ'>se zu</span>sammen <span class='hiragana'>(せつ)</span> für das Cordon Bleu.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 537,
         "reading_dist": [
             {
@@ -41537,10 +41544,10 @@ let kyouiku =
         ],
         "meanings_de": [
             "hochheben",
+            "planen",
+            "Verhalten",
             "alle zusammen",
-            "festnehmen",
-            "aufzählen",
-            "einmütig"
+            "Handlungen"
         ],
         "wk_radicals_new": [
             "Ground",
@@ -41556,6 +41563,7 @@ let kyouiku =
             "Hand"
         ],
         "wk_radicals_kanji": [
+            "'''",
             "一",
             "ハ",
             "手"
@@ -41563,10 +41571,10 @@ let kyouiku =
         "kanji": "挙",
         "kanji_ord": 25369,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span>  <span class='radical' data-kanji='手'>Hand</span> <span class='radical_kanji'>(手)</span>  , <span class='meaning' data-kanji='挙'>hochheben</span> <span class='meaning_kanji_meaning'>(挙)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji=''>TODO</span> <span class='radical_kanji'>()</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  <span class='radical' data-kanji='ハ'>Flossen</span> <span class='radical_kanji'>(ハ)</span>  <span class='radical' data-kanji='手'>Hand</span> <span class='radical_kanji'>(手)</span>  , <span class='meaning' data-kanji='挙'>hochheben</span> <span class='meaning_kanji_meaning'>(挙)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='挙'>hochheben</span> <span class='meaning_kanji_reading'>(挙)</span> , <span class='reading onyomi' data-hiragana='きょ'>kyo</span> <span class='hiragana'>(きょ)</span>  <span class='reading kunyomi' data-hiragana='あげ'>age</span> <span class='hiragana'>(あげ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Sie <span class='meaning' data-kanji='挙'>heben</span> <span class='meaning_kanji_reading'>(挙)</span> die Samurai-Rüstung hoch in das L<span class='reading kunyomi' data-hiragana='あげ'>age</span>rregal <span class='hiragana'>(あげ)</span> im Museum von <span class='reading onyomi' data-hiragana='きょ'>Kio</span>to <span class='hiragana'>(きょ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 538,
         "reading_dist": [
             {
@@ -41640,10 +41648,10 @@ let kyouiku =
         "kanji": "改",
         "kanji_ord": 25913,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  , <span class='meaning' data-kanji='改'>erneuern</span> <span class='meaning_kanji_meaning'>(改)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='改'>erneuern</span> <span class='meaning_kanji_reading'>(改)</span> , <span class='reading onyomi' data-hiragana='かい'>kai</span> <span class='hiragana'>(かい)</span>  <span class='reading kunyomi' data-hiragana='あらた'>arata</span> <span class='hiragana'>(あらた)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der Hausherr muss <span class='radical' data-kanji='己'>Selber</span> <span class='radical_kanji'>(己)</span> nach einem <span class='radical' data-kanji='夂'>Winter</span>sturm <span class='radical_kanji'>(夂)</span> die Heizung <span class='meaning' data-kanji='改'>erneuern</span> <span class='meaning_kanji_meaning'>(改)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='改'>Erneuern</span> <span class='meaning_kanji_reading'>(改)</span> muss der Papst seine Ti<span class='reading kunyomi' data-hiragana='あらた'>ara ta</span>tsächlich <span class='hiragana'>(あらた)</span>, da ein <span class='reading onyomi' data-hiragana='かい'>kai</span>serliches <span class='hiragana'>(かい)</span> Juwel abgebrochen ist.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 539,
         "reading_dist": [
             {
@@ -41693,8 +41701,9 @@ let kyouiku =
             "Winter"
         ],
         "meanings_de": [
-            "besiegen",
-            "Niederlage"
+            "Misserfolg",
+            "Niederlage",
+            "Versagen",
         ],
         "wk_radicals_new": [
             "Shellfish",
@@ -41712,10 +41721,10 @@ let kyouiku =
         "kanji": "敗",
         "kanji_ord": 25943,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='貝'>Muschel</span> <span class='radical_kanji'>(貝)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  , <span class='meaning' data-kanji='敗'>besiegen</span> <span class='meaning_kanji_meaning'>(敗)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='貝'>Muschel</span> <span class='radical_kanji'>(貝)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  , <span class='meaning' data-kanji='敗'>Misserfolg</span> <span class='meaning_kanji_meaning'>(敗)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='敗'>besiegen</span> <span class='meaning_kanji_reading'>(敗)</span> , <span class='reading onyomi' data-hiragana='はい'>hai</span> <span class='hiragana'>(はい)</span>  <span class='reading kunyomi' data-hiragana='やぶ'>yabu</span> <span class='hiragana'>(やぶ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Wegen <span class='meaning' data-kanji='敗'>Misserfolg</span> <span class='meaning_kanji_reading'>(敗)</span> beim Spielen, kann er den Kredit<span class='reading onyomi' data-hiragana='はい'>hai</span> <span class='hiragana'>(はい)</span> nicht bezahlen, also verlangt der ein <span class='reading kunyomi' data-hiragana='やぶ'>Jah(r) Bu</span>ßgeld <span class='hiragana'>(やぶ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 540,
         "reading_dist": [
             {
@@ -41774,8 +41783,8 @@ let kyouiku =
         ],
         "meanings_de": [
             "zerstreuen",
-            "Durcheinander",
-            "fallen"
+            "verstreuen",
+            "Durcheinander"
         ],
         "wk_radicals_new": [
             "Moon",
@@ -41797,10 +41806,10 @@ let kyouiku =
         "kanji": "散",
         "kanji_ord": 25955,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='±±'>Blackjack</span> <span class='radical_kanji'>(±±)</span>  <span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span>  <span class='radical' data-kanji='夂'>Winter</span> <span class='radical_kanji'>(夂)</span>  , <span class='meaning' data-kanji='散'>zerstreuen</span> <span class='meaning_kanji_meaning'>(散)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='散'>zerstreuen</span> <span class='meaning_kanji_reading'>(散)</span> , <span class='reading onyomi' data-hiragana='さん'>san</span> <span class='hiragana'>(さん)</span>  <span class='reading kunyomi' data-hiragana='ち'>chi</span> <span class='hiragana'>(ち)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Beim Camping spielen sie <span class='radical' data-kanji='±±'>Blackjack</span> <span class='radical_kanji'>(±±)</span> im <span class='radical' data-kanji='月'>Mond</span>licht <span class='radical_kanji'>(月)</span>, doch der <span class='radical' data-kanji='夂'>Winter</span>sturm <span class='radical_kanji'>(夂)</span> <span class='meaning' data-kanji='散'>zerstreut</span> <span class='meaning_kanji_meaning'>(散)</span> ihre Karten.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er <span class='meaning' data-kanji='散'>streut</span> <span class='meaning_kanji_reading'>(散)</span> <span class='reading onyomi' data-hiragana='さん'>San</span>d <span class='hiragana'>(さん)</span> wegen dem ru<span class='reading kunyomi' data-hiragana='ち'>tschi</span>gen <span class='hiragana'>(ち)</span> Boden.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 541,
         "reading_dist": [
             {
@@ -41865,10 +41874,10 @@ let kyouiku =
         "kanji": "料",
         "kanji_ord": 26009,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='米'>Reis</span> <span class='radical_kanji'>(米)</span>  <span class='radical' data-kanji='斗'>Schöpfkelle</span> <span class='radical_kanji'>(斗)</span>  , <span class='meaning' data-kanji='料'>Gebühren</span> <span class='meaning_kanji_meaning'>(料)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='料'>Gebühren</span> <span class='meaning_kanji_reading'>(料)</span> , <span class='reading onyomi' data-hiragana='りょう'>ryou</span> <span class='hiragana'>(りょう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Will man eine Portion <span class='radical' data-kanji='米'>Reis</span> <span class='radical_kanji'>(米)</span> mit der großen <span class='radical' data-kanji='斗'>Schöpfkelle</span> <span class='radical_kanji'>(斗)</span>, kostet es extra <span class='meaning' data-kanji='料'>Gebühren</span> <span class='meaning_kanji_meaning'>(料)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es sind höhere <span class='meaning' data-kanji='料'>Gebühren</span> <span class='meaning_kanji_reading'>(料)</span> bei der Versicherung von einem Cab<span class='reading onyomi' data-hiragana='りょう'>rio</span> <span class='hiragana'>(りょう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 542,
         "reading_dist": [
             {
@@ -41934,10 +41943,10 @@ let kyouiku =
         "kanji": "旗",
         "kanji_ord": 26071,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='方'>Richtung</span> <span class='radical_kanji'>(方)</span>  <span class='radical' data-kanji='⌙'>Pistole</span> <span class='radical_kanji'>(⌙)</span>  , <span class='meaning' data-kanji='旗'>Fahne</span> <span class='meaning_kanji_meaning'>(旗)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='旗'>Fahne</span> <span class='meaning_kanji_reading'>(旗)</span> , <span class='reading kunyomi' data-hiragana='はた'>hata</span> <span class='hiragana'>(はた)</span>  <span class='reading onyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Er soll in die <span class='radical' data-kanji='方'>Richtung</span> <span class='radical_kanji'>(方)</span> mit seiner <span class='radical' data-kanji='⌙'>Pistole</span> <span class='radical_kanji'>(⌙)</span> schießen, sieht aber nur <span class='radical' data-kanji='其'>Das</span> <span class='radical_kanji'>(其)</span>: eine <span class='meaning' data-kanji='旗'>Fahne</span> <span class='meaning_kanji_meaning'>(旗)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='旗'>Fahne</span> <span class='meaning_kanji_reading'>(旗)</span>, die er am <span class='reading onyomi' data-hiragana='き'>Ki</span>rchturm <span class='hiragana'>(き)</span> aufgehangen <span class='reading kunyomi' data-hiragana='はた'>hat, ta</span>nzt <span class='hiragana'>(はた)</span> im Wind.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 543,
         "reading_dist": [
             {
@@ -41982,8 +41991,8 @@ let kyouiku =
             "Key"
         ],
         "meanings_de": [
-            "gestern",
-            "vergangen"
+            "vergangen",
+            "gestern"
         ],
         "wk_radicals_new": [
             "Sun",
@@ -42001,10 +42010,10 @@ let kyouiku =
         "kanji": "昨",
         "kanji_ord": 26152,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='乍'>Schlüssel</span> <span class='radical_kanji'>(乍)</span>  , <span class='meaning' data-kanji='昨'>gestern</span> <span class='meaning_kanji_meaning'>(昨)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='乍'>Schlüssel</span> <span class='radical_kanji'>(乍)</span>  , <span class='meaning' data-kanji='昨'>vergangen</span> <span class='meaning_kanji_meaning'>(昨)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='昨'>gestern</span> <span class='meaning_kanji_reading'>(昨)</span> , <span class='reading onyomi' data-hiragana='さく'>saku</span> <span class='hiragana'>(さく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "In den <span class='meaning' data-kanji='昨'>vergangen</span> <span class='meaning_kanji_reading'>(昨)</span> Tagen wurde die Men<span class='reading onyomi' data-hiragana='さく'>sa ku</span>rzzeitig <span class='hiragana'>(さく)</span> renoviert.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 544,
         "reading_dist": [
             {
@@ -42053,9 +42062,10 @@ let kyouiku =
             "Capital"
         ],
         "meanings_de": [
-            "Panorama",
+            "Szenerie",
             "Aussicht",
-            "Szene"
+            "Szene",
+            "Panorama"
         ],
         "wk_radicals_new": [
             "Sun"
@@ -42064,18 +42074,20 @@ let kyouiku =
             "Capital"
         ],
         "wk_radicals_de": [
-            "Sonne"
+            "Sonne",
+            "Hauptstadt"
         ],
         "wk_radicals_kanji": [
-            "日"
+            "日",
+            "京"
         ],
         "kanji": "景",
         "kanji_ord": 26223,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  , <span class='meaning' data-kanji='景'>Panorama</span> <span class='meaning_kanji_meaning'>(景)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='景'>Panorama</span> <span class='meaning_kanji_reading'>(景)</span> , <span class='reading onyomi' data-hiragana='けい'>kei</span> <span class='hiragana'>(けい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Fällt die <span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span> auf die <span class='radical' data-kanji='京'>Hauptstadt</span> <span class='radical_kanji'>(京)</span>, ist es eine schöne <span class='meaning' data-kanji='景'>Szenerie</span> <span class='meaning_kanji_meaning'>(景)</span>",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='景'>Szenerie</span> <span class='meaning_kanji_reading'>(景)</span> der Landschaft ist mit dem Fluss und der Brüc<span class='reading onyomi' data-hiragana='けい'>ke i</span>dyllisch <span class='hiragana'>(けい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 545,
         "reading_dist": [
             {
@@ -42127,8 +42139,8 @@ let kyouiku =
             "Stool"
         ],
         "meanings_de": [
-            "äußerst",
             "meist",
+            "äußerst",
             "höchst"
         ],
         "wk_radicals_new": [
@@ -42150,10 +42162,10 @@ let kyouiku =
         "kanji": "最",
         "kanji_ord": 26368,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='耳'>Ohr</span> <span class='radical_kanji'>(耳)</span>  <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span>  , <span class='meaning' data-kanji='最'>äußerst</span> <span class='meaning_kanji_meaning'>(最)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='日'>Sonne</span> <span class='radical_kanji'>(日)</span>  <span class='radical' data-kanji='耳'>Ohr</span> <span class='radical_kanji'>(耳)</span>  <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span>  , <span class='meaning' data-kanji='最'>meist</span> <span class='meaning_kanji_meaning'>(最)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='最'>äußerst</span> <span class='meaning_kanji_reading'>(最)</span> , <span class='reading onyomi' data-hiragana='さい'>sai</span> <span class='hiragana'>(さい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='最'>meist</span> <span class='meaning_kanji_reading'>(最)</span> gekaufte Baum ist der Bon<span class='reading onyomi' data-hiragana='さい'>sai</span> <span class='hiragana'>(さい)</span> nach dem <span class='reading kunyomi' data-hiragana='もっと'>Motto</span> <span class='hiragana'>(もっと)</span>: Weniger ist mehr.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 546,
         "reading_dist": [
             {
@@ -42218,6 +42230,7 @@ let kyouiku =
             "Death"
         ],
         "meanings_de": [
+            "Tod",
             "sterben",
             "zugrunde gehen",
             "vergehen"
@@ -42235,10 +42248,11 @@ let kyouiku =
         "kanji": "亡",
         "kanji_ord": 20129,
         "is_radical": true,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span>  , <span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_meaning'>(亡)</span>",
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span>  , <span class='meaning' data-kanji='亡'>Tod</span> <span class='meaning_kanji_meaning'>(亡)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='亡'>sterben</span> <span class='meaning_kanji_reading'>(亡)</span> , <span class='reading kunyomi' data-hiragana='な'>na</span> <span class='hiragana'>(な)</span>  <span class='reading onyomi' data-hiragana='ぼう'>bou</span> <span class='hiragana'>(ぼう)</span>  <span class='reading kunyomi' data-hiragana='なき'>naki</span> <span class='hiragana'>(なき)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='亡'>Tod</span> <span class='meaning_kanji_reading'>(亡)</span> bringt den Held mit seinem <span class='reading onyomi' data-hiragana='ぼう'>Boo</span>t <span class='hiragana'>(ぼう)</span> ins Nirva<span class='reading kunyomi' data-hiragana='な'>na</span> <span class='hiragana'>(な)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 1021,
         "reading_dist": [
             {
@@ -42298,10 +42312,9 @@ let kyouiku =
             "King"
         ],
         "meanings_de": [
-            "Wunsch",
             "Hoffnung",
             "Sehnsucht",
-            "wünschen"
+            "Wunsch"
         ],
         "wk_radicals_new": [
             "Death",
@@ -42322,10 +42335,10 @@ let kyouiku =
         "kanji": "望",
         "kanji_ord": 26395,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span>  <span class='radical' data-kanji='月'>Mond</span> <span class='radical_kanji'>(月)</span>  <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span>  , <span class='meaning' data-kanji='望'>Wunsch</span> <span class='meaning_kanji_meaning'>(望)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='望'>Wunsch</span> <span class='meaning_kanji_reading'>(望)</span> , <span class='reading kunyomi' data-hiragana='のぞ'>nozo</span> <span class='hiragana'>(のぞ)</span>  <span class='reading onyomi' data-hiragana='ぼう'>bou</span> <span class='hiragana'>(ぼう)</span>  <span class='reading kunyomi' data-hiragana='もち'>mochi</span> <span class='hiragana'>(もち)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Obwohl der <span class='radical' data-kanji='亡'>Tod</span> <span class='radical_kanji'>(亡)</span> in einer <span class='radical' data-kanji='月'>Mond</span>nacht <span class='radical_kanji'>(月)</span> zum <span class='radical' data-kanji='王'>König</span> <span class='radical_kanji'>(王)</span> kommt, hat er die <span class='meaning' data-kanji='望'>Hoffnung</span> <span class='meaning_kanji_meaning'>(望)</span> noch weiterzuleben.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Er hat <span class='meaning' data-kanji='望'>Hoffnung</span> <span class='meaning_kanji_reading'>(望)</span> als er im Casi<span class='reading kunyomi' data-hiragana='のぞ'>no zo</span>ckt <span class='hiragana'>(のぞ)</span>, um den Jum<span class='reading onyomi' data-hiragana='ぼう'>bo</span>-Preis <span class='hiragana'>(ぼう)</span> zu gewinnen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 547,
         "reading_dist": [
             {
@@ -42390,18 +42403,19 @@ let kyouiku =
         ],
         "wk_radicals_missing": [],
         "wk_radicals_de": [
-            "Jet"
+            "Ende"
         ],
         "wk_radicals_kanji": [
             "未"
         ],
         "kanji": "末",
         "kanji_ord": 26411,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='未'>Jet</span> <span class='radical_kanji'>(未)</span>  , <span class='meaning' data-kanji='末'>Ende</span> <span class='meaning_kanji_meaning'>(末)</span>",
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='末'>Ende</span> <span class='radical_kanji'>(末)</span>  , <span class='meaning' data-kanji='末'>Ende</span> <span class='meaning_kanji_meaning'>(末)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='末'>Ende</span> <span class='meaning_kanji_reading'>(末)</span> , <span class='reading kunyomi' data-hiragana='すえ'>sue</span> <span class='hiragana'>(すえ)</span>  <span class='reading onyomi' data-hiragana='まつ'>matsu</span> <span class='hiragana'>(まつ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Am <span class='meaning' data-kanji='末'>Ende</span> <span class='meaning_kanji_reading'>(末)</span> war das Tirami<span class='reading kunyomi' data-hiragana='すえ'>su e</span>rfolgreich <span class='hiragana'>(すえ)</span>, weil die italienische O<span class='reading onyomi' data-hiragana='まつ'>ma Zu</span>bereitung <span class='hiragana'>(まつ)</span> gemacht hat.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 549,
         "reading_dist": [
             {
@@ -42462,7 +42476,7 @@ let kyouiku =
         "meanings_de": [
             "Zettel",
             "Marke",
-            "Tafel"
+            "Notiz"
         ],
         "wk_radicals_new": [
             "Tree",
@@ -42482,8 +42496,8 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='乚'>Regenschirm</span> <span class='radical_kanji'>(乚)</span>  , <span class='meaning' data-kanji='札'>Zettel</span> <span class='meaning_kanji_meaning'>(札)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='札'>Zettel</span> <span class='meaning_kanji_reading'>(札)</span> , <span class='reading onyomi' data-hiragana='さつ'>satsu</span> <span class='hiragana'>(さつ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Auf dem <span class='meaning' data-kanji='札'>Zettel</span> <span class='meaning_kanji_reading'>(札)</span>, eine ro<span class='reading onyomi' data-hiragana='さつ'>sa Zu</span>stellung <span class='hiragana'>(さつ)</span>, stehen alle To<span class='reading kunyomi' data-hiragana='ふだ'>fuda</span>ten <span class='hiragana'>(ふだ)</span>, vielleicht eine besondere Rechnung oder Notiz.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 550,
         "reading_dist": [
             {
@@ -42534,7 +42548,6 @@ let kyouiku =
             "Genius"
         ],
         "meanings_de": [
-            "Talent",
             "Bauholz",
             "Material"
         ],
@@ -42545,18 +42558,20 @@ let kyouiku =
             "Genius"
         ],
         "wk_radicals_de": [
-            "Baum"
+            "Baum",
+            "Talent"
         ],
         "wk_radicals_kanji": [
-            "木"
+            "木",
+            "才"
         ],
         "kanji": "材",
         "kanji_ord": 26448,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='材'>Talent</span> <span class='meaning_kanji_meaning'>(材)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='材'>Talent</span> <span class='meaning_kanji_reading'>(材)</span> , <span class='reading onyomi' data-hiragana='ざい'>zai</span> <span class='hiragana'>(ざい)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Aus einem <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span> kann der Holzfäller mit etwas <span class='radical' data-kanji='才'>Talent</span> <span class='radical_kanji'>(才)</span> <span class='meaning' data-kanji='材'>Bauholz</span> <span class='meaning_kanji_meaning'>(材)</span> herstellen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mit <span class='meaning' data-kanji='材'>Bauholz</span> <span class='meaning_kanji_reading'>(材)</span> verringert sich die Bau<span class='reading onyomi' data-hiragana='ざい'>zei</span>t <span class='hiragana'>(ざい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 551,
         "reading_dist": [
             {
@@ -42599,8 +42614,7 @@ let kyouiku =
             "Public"
         ],
         "meanings_de": [
-            "Kiefer",
-            "Fichte",
+            "Kieferbaum",
             "Pinie"
         ],
         "wk_radicals_new": [
@@ -42618,10 +42632,10 @@ let kyouiku =
         "kanji": "松",
         "kanji_ord": 26494,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='松'>Kiefer</span> <span class='meaning_kanji_meaning'>(松)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='松'>Kiefer</span> <span class='meaning_kanji_reading'>(松)</span> , <span class='reading kunyomi' data-hiragana='まつ'>matsu</span> <span class='hiragana'>(まつ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Ein <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>, der in der <span class='radical' data-kanji='公'>Öffentlichkeit</span> <span class='radical_kanji'>(公)</span> steht, ist meist ein <span class='meaning' data-kanji='松'>Kieferbaum</span> <span class='meaning_kanji_meaning'>(松)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='松'>Kieferbaum</span> <span class='meaning_kanji_reading'>(松)</span> erfährt durch das Kli<span class='reading kunyomi' data-hiragana='まつ'>ma Zu</span>wachs <span class='hiragana'>(まつ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 553,
         "reading_dist": [
             {
@@ -42673,11 +42687,11 @@ let kyouiku =
             "Tree"
         ],
         "meanings_de": [
+            "gedeihen",
+            "florieren",
             "glänzen",
-            "leuchten",
             "attraktiv aussehen",
-            "Ehre",
-            "gedeihen"
+            "Ehre"
         ],
         "wk_radicals_new": [
             "Viking",
@@ -42695,10 +42709,10 @@ let kyouiku =
         "kanji": "栄",
         "kanji_ord": 26628,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji=' '>Wikinger</span> <span class='radical_kanji'>( )</span>  <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='栄'>glänzen</span> <span class='meaning_kanji_meaning'>(栄)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='栄'>glänzen</span> <span class='meaning_kanji_reading'>(栄)</span> , <span class='reading onyomi' data-hiragana='えい'>ei</span> <span class='hiragana'>(えい)</span>  <span class='reading kunyomi' data-hiragana='さか'>saka</span> <span class='hiragana'>(さか)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Die <span class='radical' data-kanji=' '>Wikinger</span> <span class='radical_kanji'>( )</span> haben viele <span class='radical' data-kanji='木'>Bäume</span> <span class='radical_kanji'>(木)</span> gepflanzt, damit sie <span class='meaning' data-kanji='栄'>gedeihen</span> <span class='meaning_kanji_meaning'>(栄)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Es <span class='meaning' data-kanji='栄'>gedeihen</span> <span class='meaning_kanji_reading'>(栄)</span> die ro<span class='reading kunyomi' data-hiragana='さか'>sa Ka</span>ktusblüten <span class='hiragana'>(さか)</span>, weil die Magie einer <span class='meaning' data-kanji='栄'>attraktiven</span> <span class='meaning_kanji_reading'>(栄)</span> Naturfe<span class='reading onyomi' data-hiragana='えい'>e i</span>dyllisch <span class='hiragana'>(えい)</span> Flora zaubert.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 555,
         "reading_dist": [
             {
@@ -42764,18 +42778,20 @@ let kyouiku =
             "Cheap"
         ],
         "wk_radicals_de": [
+            "Entspannung",
             "Baum"
         ],
         "wk_radicals_kanji": [
+            "安",
             "木"
         ],
         "kanji": "案",
         "kanji_ord": 26696,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  , <span class='meaning' data-kanji='案'>Plan</span> <span class='meaning_kanji_meaning'>(案)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='案'>Plan</span> <span class='meaning_kanji_reading'>(案)</span> , <span class='reading onyomi' data-hiragana='あん'>an</span> <span class='hiragana'>(あん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='安'>Entspannt</span> <span class='radical_kanji'>(安)</span> hängen die Affen an einem <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>, um ihren nächsten <span class='meaning' data-kanji='案'>Plan</span> <span class='meaning_kanji_meaning'>(案)</span> in Ruhe auszutüfteln.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "In <span class='meaning' data-kanji='案'>Plan</span> <span class='meaning_kanji_reading'>(案)</span> steckt pl<span class='reading onyomi' data-hiragana='あん'>an</span> <span class='hiragana'>(あん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 556,
         "reading_dist": [
             {
@@ -42829,21 +42845,19 @@ let kyouiku =
         "wk_radicals_missing": [],
         "wk_radicals_de": [
             "Baum",
-            "Pistole",
-            "Fenster"
+            "jeder"
         ],
         "wk_radicals_kanji": [
             "木",
-            "⌙",
-            "毋"
+            "毎"
         ],
         "kanji": "梅",
         "kanji_ord": 26757,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='⌙'>Pistole</span> <span class='radical_kanji'>(⌙)</span>  <span class='radical' data-kanji='毋'>Fenster</span> <span class='radical_kanji'>(毋)</span>  , <span class='meaning' data-kanji='梅'>Pflaume</span> <span class='meaning_kanji_meaning'>(梅)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='梅'>Pflaume</span> <span class='meaning_kanji_reading'>(梅)</span> , <span class='reading kunyomi' data-hiragana='うめ'>ume</span> <span class='hiragana'>(うめ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Von <span class='radical' data-kanji='木'>Bäumen</span> <span class='radical_kanji'>(木)</span> möchte <span class='radical' data-kanji='毎'>jeder</span> <span class='radical_kanji'>(毎)</span> die <span class='meaning' data-kanji='梅'>Pflaumen</span> <span class='meaning_kanji_meaning'>(梅)</span> pflücken.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "In <span class='meaning' data-kanji='梅'>Pflaume</span> <span class='meaning_kanji_reading'>(梅)</span> steckt Pfla<span class='reading kunyomi' data-hiragana='うめ'>ume</span> <span class='hiragana'>(うめ)</span>, sie passt gut bei Käse als <span class='reading onyomi' data-hiragana='ばい'>Bei</span>lage <span class='hiragana'>(ばい)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 557,
         "reading_dist": [
             {
@@ -42920,15 +42934,16 @@ let kyouiku =
         ],
         "wk_radicals_kanji": [
             "木",
-            "廾"
+            "廾",
+            "戈"
         ],
         "kanji": "械",
         "kanji_ord": 26800,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='廾'>Zwanzig</span> <span class='radical_kanji'>(廾)</span>  , <span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_meaning'>(械)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_reading'>(械)</span> , ",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "An einem <span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span> sind <span class='radical' data-kanji='廾'>Zwanzig</span> <span class='radical_kanji'>(廾)</span> <span class='radical' data-kanji='戈'>Hellebarde</span> <span class='radical_kanji'>(戈)</span> (Hieb- und Stichwaffen) montiert: eine militärische <span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_meaning'>(械)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Die <span class='meaning' data-kanji='械'>Vorrichtung</span> <span class='meaning_kanji_reading'>(械)</span> dient dazu am <span class='reading onyomi' data-hiragana='かい'>Kai</span> <span class='hiragana'>(かい)</span> (Uferbauwerk) die Schiffe mit <span class='reading kunyomi' data-hiragana='かせ'>Kasse</span>tten <span class='hiragana'>(かせ)</span> zu beladen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 558,
         "order_wiki_radical_corrected": 564,
         "grade_corrected": 4,
@@ -43018,8 +43033,8 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='5'>Bettler</span> <span class='radical_kanji'>(5)</span>  <span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='又'>Hocker</span> <span class='radical_kanji'>(又)</span>  <span class='radical' data-kanji='一'>Boden</span> <span class='radical_kanji'>(一)</span>  , <span class='meaning' data-kanji='極'>extrem</span> <span class='meaning_kanji_meaning'>(極)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='極'>extrem</span> <span class='meaning_kanji_reading'>(極)</span> , <span class='reading onyomi' data-hiragana='きょく'>kyoku</span> <span class='hiragana'>(きょく)</span>  <span class='reading onyomi' data-hiragana='ごく'>goku</span> <span class='hiragana'>(ごく)</span>  <span class='reading kunyomi' data-hiragana='きわ'>kiwa</span> <span class='hiragana'>(きわ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='極'>Extrem</span> <span class='meaning_kanji_reading'>(極)</span> ist die japanische Kunst, vor allem in der To<span class='reading onyomi' data-hiragana='きょく'>kio Ku</span>nstausstellung <span class='hiragana'>(きょく)</span>, in der die Flamin<span class='reading onyomi' data-hiragana='ごく'>go Ku</span>nstwerke <span class='hiragana'>(ごく)</span> ausgestellt werden,  weil der Maler ein extremer Jun<span class='reading kunyomi' data-hiragana='きわ'>kie wa</span>r <span class='hiragana'>(きわ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 559,
         "reading_dist": [
             {
@@ -43083,8 +43098,8 @@ let kyouiku =
             "Jackhammer"
         ],
         "meanings_de": [
+            "Wegweiser",
             "Zeichen",
-            "Markierungspfosten",
             "Merkmal",
             "Kennzeichen"
         ],
@@ -43097,19 +43112,21 @@ let kyouiku =
         ],
         "wk_radicals_de": [
             "Baum",
-            "Hubschrauber"
+            "Hubschrauber",
+            "Hindeuten"
         ],
         "wk_radicals_kanji": [
             "木",
-            "覀"
+            "覀",
+            "示"
         ],
         "kanji": "標",
         "kanji_ord": 27161,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='覀'>Hubschrauber</span> <span class='radical_kanji'>(覀)</span>  , <span class='meaning' data-kanji='標'>Zeichen</span> <span class='meaning_kanji_meaning'>(標)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='覀'>Hubschrauber</span> <span class='radical_kanji'>(覀)</span>  <span class='radical' data-kanji='示'>Hindeuten</span> <span class='radical_kanji'>(示)</span>  ,  <span class='meaning' data-kanji='標'>Wegweiser</span> <span class='meaning_kanji_meaning'>(標)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='標'>Zeichen</span> <span class='meaning_kanji_reading'>(標)</span> , <span class='reading onyomi' data-hiragana='ひょう'>hyou</span> <span class='hiragana'>(ひょう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='標'>Wegweiser</span> <span class='meaning_kanji_reading'>(標)</span> verkündet uns die <span class='reading onyomi' data-hiragana='ひょう'>Hio</span>bsbotschaft <span class='hiragana'>(ひょう)</span>: wir laufen in die falsche Richtung.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 560,
         "reading_dist": [
             {
@@ -43160,8 +43177,8 @@ let kyouiku =
             "Person"
         ],
         "meanings_de": [
-            "Webstuhl",
             "Maschine",
+            "Webstuhl",
             "Vorrichtung",
             "Funktion",
             "Gelegenheit"
@@ -43175,22 +43192,19 @@ let kyouiku =
             "Drunkard"
         ],
         "wk_radicals_de": [
-            "Baum",
-            "Franse",
-            "Person"
+            "Maschine"
         ],
         "wk_radicals_kanji": [
-            "木",
-            "幺",
-            "人"
+
         ],
         "kanji": "機",
         "kanji_ord": 27231,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='幺'>Franse</span> <span class='radical_kanji'>(幺)</span>  <span class='radical' data-kanji='人'>Person</span> <span class='radical_kanji'>(人)</span>  , <span class='meaning' data-kanji='機'>Webstuhl</span> <span class='meaning_kanji_meaning'>(機)</span>",
+        "is_radical": true,
+        "has_radical_img": true,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='木'>Baum</span> <span class='radical_kanji'>(木)</span>  <span class='radical' data-kanji='幺'>Franse</span> <span class='radical_kanji'>(幺)</span>  <span class='radical' data-kanji='人'>Person</span> <span class='radical_kanji'>(人)</span>  , <span class='meaning' data-kanji='機'>Maschine</span> <span class='meaning_kanji_meaning'>(機)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='機'>Webstuhl</span> <span class='meaning_kanji_reading'>(機)</span> , <span class='reading onyomi' data-hiragana='き'>ki</span> <span class='hiragana'>(き)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Bei einer <span class='meaning' data-kanji='機'>Maschine</span> <span class='meaning_kanji_reading'>(機)</span>, wie dem Webstuhl, ist es wichtig, die <span class='reading onyomi' data-hiragana='き'>Ki</span>netik <span class='hiragana'>(き)</span> (Bewegungslehre) zu kennen.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 561,
         "reading_dist": [
             {
@@ -43238,8 +43252,8 @@ let kyouiku =
             "Bar"
         ],
         "meanings_de": [
-            "übrig sein",
             "Rest",
+            "übrig sein",
             "Überbleibsel"
         ],
         "wk_radicals_new": [
@@ -43252,15 +43266,17 @@ let kyouiku =
             "Yakuza"
         ],
         "wk_radicals_kanji": [
-            "歹"
+            "歹",
+            "三",
+            "㦮"
         ],
         "kanji": "残",
         "kanji_ord": 27531,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='歹'>Yakuza</span> <span class='radical_kanji'>(歹)</span>  , <span class='meaning' data-kanji='残'>übrig sein</span> <span class='meaning_kanji_meaning'>(残)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='残'>übrig sein</span> <span class='meaning_kanji_reading'>(残)</span> , <span class='reading onyomi' data-hiragana='ざん'>zan</span> <span class='hiragana'>(ざん)</span>  <span class='reading kunyomi' data-hiragana='のこ'>noko</span> <span class='hiragana'>(のこ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Der <span class='radical' data-kanji='歹'>Yakuza</span> <span class='radical_kanji'>(歹)</span> erledigt mit der <span class='radical' data-kanji='三'>Drei</span>zack <span class='radical_kanji'>(三)</span>  <span class='radical' data-kanji='戈'>Hellebarde</span> <span class='radical_kanji'>(戈)</span> (Hieb- und Stichwaffe) den <span class='meaning' data-kanji='残'>Rest</span> <span class='meaning_kanji_meaning'>(残)</span> der Eindringlinge.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Der <span class='meaning' data-kanji='残'>Rest</span> <span class='meaning_kanji_reading'>(残)</span> vom <span class='reading onyomi' data-hiragana='ざん'>Zan</span>der <span class='hiragana'>(ざん)</span> (Fisch) werde ich mit Orega<span class='reading kunyomi' data-hiragana='のこ'>no ko</span>chen <span class='hiragana'>(のこ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 563,
         "reading_dist": [
             {
@@ -43333,8 +43349,8 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='口'>Mund</span> <span class='radical_kanji'>(口)</span>  <span class='radical' data-kanji='氏'>Clan</span> <span class='radical_kanji'>(氏)</span>  , <span class='meaning' data-kanji='民'>Volk</span> <span class='meaning_kanji_meaning'>(民)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='民'>Volk</span> <span class='meaning_kanji_reading'>(民)</span> , <span class='reading onyomi' data-hiragana='みん'>min</span> <span class='hiragana'>(みん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Die Deutsche Gesellschaft für Ernährung gibt dem deutschen <span class='meaning' data-kanji='民'>Volk</span> <span class='meaning_kanji_reading'>(民)</span> Referenzwerte zu Vi<span class='reading kunyomi' data-hiragana='たみ'>tami</span>ne <span class='hiragana'>(たみ)</span> und <span class='reading onyomi' data-hiragana='みん'>Min</span>eralien <span class='hiragana'>(みん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 565,
         "reading_dist": [
             {
@@ -43398,10 +43414,10 @@ let kyouiku =
             "Machine"
         ],
         "meanings_de": [
-            "regieren",
             "heilen",
-            "verwalten",
-            "managen"
+            "behandeln",
+            "regieren",
+            "herrschen"
         ],
         "wk_radicals_new": [
             "Tsunami",
@@ -43419,10 +43435,10 @@ let kyouiku =
         "kanji": "治",
         "kanji_ord": 27835,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='台'>Maschine</span> <span class='radical_kanji'>(台)</span>  , <span class='meaning' data-kanji='治'>regieren</span> <span class='meaning_kanji_meaning'>(治)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  <span class='radical' data-kanji='台'>Maschine</span> <span class='radical_kanji'>(台)</span>  , <span class='meaning' data-kanji='治'>heilen</span> <span class='meaning_kanji_meaning'>(治)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='治'>regieren</span> <span class='meaning_kanji_reading'>(治)</span> , <span class='reading onyomi' data-hiragana='ち'>chi</span> <span class='hiragana'>(ち)</span>  <span class='reading kunyomi' data-hiragana='なお'>nao</span> <span class='hiragana'>(なお)</span>  <span class='reading kunyomi' data-hiragana='おさ'>osa</span> <span class='hiragana'>(おさ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Um mich zu <span class='meaning' data-kanji='治'>heilen</span> <span class='meaning_kanji_reading'>(治)</span> en<span class='reading onyomi' data-hiragana='ち'>tschi</span>eden <span class='hiragana'>(ち)</span> ich in die Sau<span class='reading kunyomi' data-hiragana='なお'>na o</span>ft <span class='hiragana'>(なお)</span> zu gehen. Damals <span class='meaning' data-kanji='治'>regierten</span> <span class='meaning_kanji_reading'>(治)</span> die   Din<span class='reading kunyomi' data-hiragana='おさ'>osa</span>uriers <span class='hiragana'>(おさ)</span> die Welt.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 567,
         "reading_dist": [
             {
@@ -43481,9 +43497,9 @@ let kyouiku =
             "Past"
         ],
         "meanings_de": [
+            "Methode",
             "Gesetz",
-            "Recht",
-            "Methode"
+            "Recht"
         ],
         "wk_radicals_new": [
             "Tsunami"
@@ -43492,18 +43508,20 @@ let kyouiku =
             "Past"
         ],
         "wk_radicals_de": [
-            "Tsunami"
+            "Tsunami",
+            "vorbei"
         ],
         "wk_radicals_kanji": [
-            "氵"
+            "氵",
+            "去"
         ],
         "kanji": "法",
         "kanji_ord": 27861,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span>  , <span class='meaning' data-kanji='法'>Gesetz</span> <span class='meaning_kanji_meaning'>(法)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='法'>Gesetz</span> <span class='meaning_kanji_reading'>(法)</span> , <span class='reading onyomi' data-hiragana='ほう'>hou</span> <span class='hiragana'>(ほう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wann der <span class='radical' data-kanji='氵'>Tsunami</span> <span class='radical_kanji'>(氵)</span> <span class='radical' data-kanji='去'>vorbei</span> <span class='radical_kanji'>(去)</span> gezogen ist, lässt sich mit einer <span class='meaning' data-kanji='法'>Methode</span> <span class='meaning_kanji_meaning'>(法)</span> (Gesetzmäßigkeit) bestimmen.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Mit einer gewissen <span class='meaning' data-kanji='法'>Methode</span> <span class='meaning_kanji_reading'>(法)</span> und Gesetzmäßigkeit sammeln die Bienen den <span class='reading onyomi' data-hiragana='ほう'>Ho</span>nig <span class='hiragana'>(ほう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 568,
         "reading_dist": [
             {
