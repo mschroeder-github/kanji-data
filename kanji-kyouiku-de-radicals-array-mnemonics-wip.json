@@ -39766,7 +39766,7 @@
             "Child"
         ],
         "meanings_de": [
-            "Jahreszeit",
+            "Jahreszeiten",
             "jung"
         ],
         "wk_radicals_new": [
@@ -39785,9 +39785,9 @@
         "kanji": "季",
         "kanji_ord": 23395,
         "is_radical": false,
-        "mnemonic_meaning_de": "Wie viel <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span> wächst und wie viel <span class='radical' data-kanji='子'>Kind</span>er <span class='radical_kanji'>(子)</span> auf die Welt kommen, ist <span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_meaning'>(季)</span> abhängig.",
+        "mnemonic_meaning_de": "Wie viel <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span> wächst und wie viel <span class='radical' data-kanji='子'>Kind</span>er <span class='radical_kanji'>(子)</span> auf die Welt kommen, ist <span class='meaning' data-kanji='季'>Jahreszeiten</span> <span class='meaning_kanji_meaning'>(季)</span> abhängig.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "In der kalten <span class='meaning' data-kanji='季'>Jahreszeit</span> <span class='meaning_kanji_reading'>(季)</span> nehme ich immer mehr <span class='reading onyomi' data-hiragana='き'>Ki</span>los <span class='hiragana'>(き)</span> zu.",
+        "mnemonic_reading_de": "In den kalten <span class='meaning' data-kanji='季'>Jahreszeiten</span> <span class='meaning_kanji_reading'>(季)</span> nehme ich immer mehr <span class='reading onyomi' data-hiragana='き'>Ki</span>los <span class='hiragana'>(き)</span> zu.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 515,
         "reading_dist": [
@@ -45092,6 +45092,81 @@
         "order_wiki_radical_corrected": 591,
         "grade_corrected": 4
     },
+
+    {
+        "strokes": 11,
+        "grade": 5,
+        "freq": 598,
+        "jlpt_old": 2,
+        "jlpt_new": 3,
+        "meanings": [
+            "Blame",
+            "Condemn",
+            "Censure"
+        ],
+        "readings_on": [
+            "せき"
+        ],
+        "readings_kun": [
+            "せ.める"
+        ],
+        "wk_level": 21,
+        "wk_meanings": [
+            "Blame"
+        ],
+        "wk_readings_on": [
+            "せき"
+        ],
+        "wk_readings_kun": [
+            "!せ"
+        ],
+        "wk_radicals": [
+            "Life",
+            "Shellfish"
+        ],
+        "meanings_de": [
+            "Beschuldigen",
+            "zur Rechenschaft ziehen",
+            "Verantwortung",
+            "drängen",
+            "auffordern"
+        ],
+        "wk_radicals_new": [
+            "Life",
+            "Shellfish"
+        ],
+        "wk_radicals_missing": [],
+        "wk_radicals_de": [
+            "Leben",
+            "Muschel"
+        ],
+        "wk_radicals_kanji": [
+            "生",
+            "貝"
+        ],
+        "kanji": "責",
+        "kanji_ord": 36012,
+        "is_radical": false,
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji='貝'>Muschel</span> <span class='radical_kanji'>(貝)</span>  , <span class='meaning' data-kanji='責'>Beschuldigen</span> <span class='meaning_kanji_meaning'>(責)</span>",
+        "mnemonic_meaning_de_done": false,
+        "mnemonic_reading_de": "Ich werde <span class='meaning' data-kanji='責'>beschuldigt</span> <span class='meaning_kanji_reading'>(責)</span>, ich würde Gras von der Wie<span class='reading onyomi' data-hiragana='せき'>se ki</span>ffen <span class='hiragana'>(せき)</span>.",
+        "mnemonic_reading_de_done": true,
+        "order_wiki": 797,
+        "reading_dist": [
+            {
+                "reading": "せき",
+                "count": 5,
+                "prop": 0.83
+            },
+            {
+                "reading": "せ",
+                "count": 1,
+                "prop": 0.17
+            }
+        ],
+        "order_wiki_radical_corrected": 793,
+        "grade_corrected": 5
+    },
     {
         "strokes": 16,
         "grade": 4,
@@ -45145,15 +45220,16 @@
             "Getreide"
         ],
         "wk_radicals_kanji": [
-            "禾"
+            "禾",
+            "責"
         ],
         "kanji": "積",
         "kanji_ord": 31309,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span>  , <span class='meaning' data-kanji='積'>anhäufen</span> <span class='meaning_kanji_meaning'>(積)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='積'>anhäufen</span> <span class='meaning_kanji_reading'>(積)</span> , <span class='reading kunyomi' data-hiragana='つ'>tsu</span> <span class='hiragana'>(つ)</span>  <span class='reading onyomi' data-hiragana='せき'>seki</span> <span class='hiragana'>(せき)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Es fehlt <span class='radical' data-kanji='禾'>Getreide</span> <span class='radical_kanji'>(禾)</span>: Der Adel wird <span class='radical' data-kanji='責'>beschuldigt</span> <span class='radical_kanji'>(責)</span>, es für sich <span class='meaning' data-kanji='積'>anzuhäufen</span> <span class='meaning_kanji_meaning'>(積)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='積'>Anhäufen</span> <span class='meaning_kanji_reading'>(積)</span> tut sich der Kä<span class='reading onyomi' data-hiragana='せき'>se ki</span>loweise <span class='hiragana'>(せき)</span> im Kühlschrank, weil ich <span class='reading kunyomi' data-hiragana='つ'>zu</span>viel <span class='hiragana'>(つ)</span> gekauft habe.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 589,
         "reading_dist": [
             {
@@ -45235,18 +45311,20 @@
             "Older Brother"
         ],
         "wk_radicals_de": [
-            "Stand"
+            "Stand",
+            "älterer Bruder"
         ],
         "wk_radicals_kanji": [
-            "立"
+            "立",
+            "兄"
         ],
         "kanji": "競",
         "kanji_ord": 31478,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span>  , <span class='meaning' data-kanji='競'>Wettstreit</span> <span class='meaning_kanji_meaning'>(競)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='競'>Wettstreit</span> <span class='meaning_kanji_reading'>(競)</span> , <span class='reading onyomi' data-hiragana='きょう'>kyou</span> <span class='hiragana'>(きょう)</span>  <span class='reading onyomi' data-hiragana='けい'>kei</span> <span class='hiragana'>(けい)</span>  <span class='reading kunyomi' data-hiragana='せ'>se</span> <span class='hiragana'>(せ)</span>  <span class='reading kunyomi' data-hiragana='きそ'>kiso</span> <span class='hiragana'>(きそ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_meaning_de": "Wer den höheren <span class='radical' data-kanji='立'>Stand</span> <span class='radical_kanji'>(立)</span> hat, entscheidet zwischen zwei <span class='radical' data-kanji='兄'>älteren Brüdern</span> <span class='radical_kanji'>(兄)</span> ein <span class='meaning' data-kanji='競'>Wettstreit</span> <span class='meaning_kanji_meaning'>(競)</span>.",
+        "mnemonic_meaning_de_done": true,
+        "mnemonic_reading_de": "Um den <span class='meaning' data-kanji='競'>Wettstreit</span> <span class='meaning_kanji_reading'>(競)</span> zu gewinnen, erhält der japanische Sportjun<span class='reading kunyomi' data-hiragana='きそ'>kie So</span>ndertraining <span class='hiragana'>(きそ)</span> in To<span class='reading onyomi' data-hiragana='きょう'>kio</span> <span class='hiragana'>(きょう)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 590,
         "reading_dist": [
             {
@@ -45326,8 +45404,8 @@
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='天'>Himmel</span> <span class='radical_kanji'>(天)</span>  , <span class='meaning' data-kanji='笑'>lachen</span> <span class='meaning_kanji_meaning'>(笑)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='笑'>lachen</span> <span class='meaning_kanji_reading'>(笑)</span> , <span class='reading kunyomi' data-hiragana='わら'>wara</span> <span class='hiragana'>(わら)</span>  <span class='reading kunyomi' data-hiragana='え'>e</span> <span class='hiragana'>(え)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Alle <span class='meaning' data-kanji='笑'>lachen</span> <span class='meaning_kanji_reading'>(笑)</span>, weil der Komiker <span class='reading onyomi' data-hiragana='しょう'>scho</span>nungslos <span class='hiragana'>(しょう)</span> die Leute ver<span class='reading kunyomi' data-hiragana='え'>ä</span>ppelt <span class='hiragana'>(え)</span>, wie et<span class='reading kunyomi' data-hiragana='わら'>wa Ra</span>ssisten <span class='hiragana'>(わら)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 591,
         "reading_dist": [
             {
@@ -45393,19 +45471,21 @@
         ],
         "wk_radicals_de": [
             "Bambus",
-            "Dach"
+            "Dach",
+            "Bär"
         ],
         "wk_radicals_kanji": [
             "竹",
-            "宀"
+            "宀",
+            "㠯"
         ],
         "kanji": "管",
         "kanji_ord": 31649,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  , <span class='meaning' data-kanji='管'>Rohr</span> <span class='meaning_kanji_meaning'>(管)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='宀'>Dach</span> <span class='radical_kanji'>(宀)</span>  <span class='radical' data-kanji='㠯'>Bär</span> <span class='radical_kanji'>(㠯)</span>  , <span class='meaning' data-kanji='管'>Rohr</span> <span class='meaning_kanji_meaning'>(管)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='管'>Rohr</span> <span class='meaning_kanji_reading'>(管)</span> , <span class='reading onyomi' data-hiragana='かん'>kan</span> <span class='hiragana'>(かん)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Über ein <span class='meaning' data-kanji='管'>Rohr</span> <span class='meaning_kanji_reading'>(管)</span> erhält die <span class='reading kunyomi' data-hiragana='くだ'>Kuh da</span>nkbar <span class='hiragana'>(くだ)</span> ihr Fressen, ähnlich wie in einer <span class='reading onyomi' data-hiragana='かん'>Kan</span>tine <span class='hiragana'>(かん)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 592,
         "reading_dist": [
             {
@@ -45464,9 +45544,9 @@
             "Stamp"
         ],
         "meanings_de": [
+            "Saison",
             "Gelegenheit",
             "Unterabteilung",
-            "Jahreszeit",
             "Astknoten",
             "Gelenk"
         ],
@@ -45483,14 +45563,15 @@
         ],
         "wk_radicals_kanji": [
             "竹",
+            "艮",
             "卩"
         ],
         "kanji": "節",
         "kanji_ord": 31680,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical' data-kanji='卩'>Stempel</span> <span class='radical_kanji'>(卩)</span>  , <span class='meaning' data-kanji='節'>Gelegenheit</span> <span class='meaning_kanji_meaning'>(節)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='竹'>Bambus</span> <span class='radical_kanji'>(竹)</span>  <span class='radical_kanji'>(木)</span> mit einer <span class='radical' data-kanji='艮'>Stammwurzel</span> <span class='radical_kanji'>(艮)</span>  <span class='radical' data-kanji='卩'>Stempel</span> <span class='radical_kanji'>(卩)</span>  , <span class='meaning' data-kanji='節'>Saison</span> <span class='meaning_kanji_meaning'>(節)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='節'>Gelegenheit</span> <span class='meaning_kanji_reading'>(節)</span> , <span class='reading onyomi' data-hiragana='せつ'>setsu</span> <span class='hiragana'>(せつ)</span>  <span class='reading kunyomi' data-hiragana='ふし'>fushi</span> <span class='hiragana'>(ふし)</span>",
+        "mnemonic_reading_de": "In dieser <span class='meaning' data-kanji='節'>Saison</span> <span class='meaning_kanji_reading'>(節)</span> ist es warm und kalt, jeder ist kon<span class='reading kunyomi' data-hiragana='ふし'>fus: Ski</span>-saison <span class='hiragana'>(ふし)</span> hat begonnen? <span class='reading onyomi' data-hiragana='せつ'>setsu</span> <span class='hiragana'>(せつ)</span> ",
         "mnemonic_reading_de_done": false,
         "order_wiki": 593,
         "reading_dist": [
@@ -45545,10 +45626,10 @@
             "Pool"
         ],
         "meanings_de": [
+            "Versprechen",
             "etwa",
             "circa",
-            "ungefähr",
-            "Versprechen"
+            "ungefähr"
         ],
         "wk_radicals_new": [
             "Thread"
@@ -45557,18 +45638,20 @@
             "Pool"
         ],
         "wk_radicals_de": [
-            "Faden"
+            "Faden",
+            "Pool"
         ],
         "wk_radicals_kanji": [
-            "糸"
+            "糸",
+            "勺"
         ],
         "kanji": "約",
         "kanji_ord": 32004,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  , <span class='meaning' data-kanji='約'>etwa</span> <span class='meaning_kanji_meaning'>(約)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='勺'>Pool</span> <span class='radical_kanji'>(勺)</span> , <span class='meaning' data-kanji='約'>Versprechen</span> <span class='meaning_kanji_meaning'>(約)</span> ungefähr",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='約'>etwa</span> <span class='meaning_kanji_reading'>(約)</span> , <span class='reading onyomi' data-hiragana='やく'>yaku</span> <span class='hiragana'>(やく)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Ich habe <span class='meaning' data-kanji='約'>versprochen</span> <span class='meaning_kanji_reading'>(約)</span> einen Papa<span class='reading onyomi' data-hiragana='やく'>yaku</span>chen <span class='hiragana'>(やく)</span> zu backen: die Menge an Zucker mache ich so <span class='meaning' data-kanji='約'>ungefähr</span> <span class='meaning_kanji_reading'>(約)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 594,
         "reading_dist": [
             {
@@ -45635,12 +45718,13 @@
             "Faden"
         ],
         "wk_radicals_kanji": [
-            "糸"
+            "糸",
+            "吉"
         ],
         "kanji": "結",
         "kanji_ord": 32080,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  , <span class='meaning' data-kanji='結'>binden</span> <span class='meaning_kanji_meaning'>(結)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='吉'>Viel Glück</span> <span class='radical_kanji'>(吉)</span>  , <span class='meaning' data-kanji='結'>binden</span> <span class='meaning_kanji_meaning'>(結)</span>",
         "mnemonic_meaning_de_done": false,
         "mnemonic_reading_de": "<span class='meaning' data-kanji='結'>binden</span> <span class='meaning_kanji_reading'>(結)</span> , <span class='reading kunyomi' data-hiragana='むす'>musu</span> <span class='hiragana'>(むす)</span>  <span class='reading onyomi' data-hiragana='けつ'>ketsu</span> <span class='hiragana'>(けつ)</span>  <span class='reading kunyomi' data-hiragana='ゆ'>yu</span> <span class='hiragana'>(ゆ)</span>",
         "mnemonic_reading_de_done": false,
@@ -45707,9 +45791,9 @@
             "Suit"
         ],
         "meanings_de": [
+            "Gehalt",
             "versorgen",
-            "geben",
-            "Gehalt"
+            "geben"
         ],
         "wk_radicals_new": [
             "Thread",
@@ -45727,10 +45811,10 @@
         "kanji": "給",
         "kanji_ord": 32102,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='合'>Anzug</span> <span class='radical_kanji'>(合)</span>  , <span class='meaning' data-kanji='給'>versorgen</span> <span class='meaning_kanji_meaning'>(給)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='合'>Anzug</span> <span class='radical_kanji'>(合)</span>  , <span class='meaning' data-kanji='給'>Gehalt</span> <span class='meaning_kanji_meaning'>(給)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='給'>versorgen</span> <span class='meaning_kanji_reading'>(給)</span> , <span class='reading onyomi' data-hiragana='きゅう'>kyuu</span> <span class='hiragana'>(きゅう)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='給'>Gehalt</span> <span class='meaning_kanji_reading'>(給)</span>, das man für das Bedienen der Baris<span class='reading kunyomi' data-hiragana='たま'>tama</span>schine <span class='hiragana'>(たま)</span> erhält, ist zu wenig, weil man sie ständ<span class='reading onyomi' data-hiragana='きゅう'>ig ju</span>stieren <span class='hiragana'>(きゅう)</span> muss.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 596,
         "reading_dist": [
             {
@@ -45800,8 +45884,8 @@
         "is_radical": false,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='糸'>Faden</span> <span class='radical_kanji'>(糸)</span>  <span class='radical' data-kanji='売'>Verkaufen</span> <span class='radical_kanji'>(売)</span>  , <span class='meaning' data-kanji='続'>fortsetzen</span> <span class='meaning_kanji_meaning'>(続)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='続'>fortsetzen</span> <span class='meaning_kanji_reading'>(続)</span> , <span class='reading onyomi' data-hiragana='ぞく'>zoku</span> <span class='hiragana'>(ぞく)</span>  <span class='reading kunyomi' data-hiragana='つづ'>tsuzu</span> <span class='hiragana'>(つづ)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Wir wollten unsere Stadtrundfahrt <span class='meaning' data-kanji='続'>fortsetzen</span> <span class='meaning_kanji_reading'>(続)</span>, nachdem wir im <span class='reading onyomi' data-hiragana='ぞく'>Zoo ku</span>rzfristig <span class='hiragana'>(ぞく)</span> eine Pause gemacht haben, um beir der Fütterung <span class='reading kunyomi' data-hiragana='つづ'>zuzu</span>schauen <span class='hiragana'>(つづ)</span>.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 597,
         "reading_dist": [
             {
@@ -45861,8 +45945,8 @@
             "Fix"
         ],
         "meanings_de": [
-            "stellen",
             "legen",
+            "stellen",
             "setzen"
         ],
         "wk_radicals_new": [
@@ -45872,18 +45956,20 @@
             "Fix"
         ],
         "wk_radicals_de": [
-            "Netz"
+            "Netz",
+            "reparieren"
         ],
         "wk_radicals_kanji": [
-            "罒"
+            "罒",
+            "直"
         ],
         "kanji": "置",
         "kanji_ord": 32622,
         "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='罒'>Netz</span> <span class='radical_kanji'>(罒)</span>  , <span class='meaning' data-kanji='置'>stellen</span> <span class='meaning_kanji_meaning'>(置)</span>",
+        "mnemonic_meaning_de": "<span class='radical' data-kanji='罒'>Netz</span> <span class='radical_kanji'>(罒)</span>  <span class='radical' data-kanji='直'>reparieren</span> <span class='radical_kanji'>(直)</span> , <span class='meaning' data-kanji='置'>legen</span> <span class='meaning_kanji_meaning'>(置)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='置'>stellen</span> <span class='meaning_kanji_reading'>(置)</span> , <span class='reading kunyomi' data-hiragana='お'>o</span> <span class='hiragana'>(お)</span>  <span class='reading kunyomi' data-hiragana='おき'>oki</span> <span class='hiragana'>(おき)</span>",
-        "mnemonic_reading_de_done": false,
+        "mnemonic_reading_de": "Die Brille ins Etui zu <span class='meaning' data-kanji='置'>legen</span> <span class='meaning_kanji_reading'>(置)</span>, en<span class='reading onyomi' data-hiragana='ち'>tschie</span>d <span class='hiragana'>(ち)</span> die <span class='reading kunyomi' data-hiragana='お'>O</span>ma <span class='hiragana'>(お)</span> selbst.",
+        "mnemonic_reading_de_done": true,
         "order_wiki": 598,
         "reading_dist": [
             {
@@ -60040,79 +60126,6 @@
             }
         ],
         "order_wiki_radical_corrected": 792,
-        "grade_corrected": 5
-    },
-    {
-        "strokes": 11,
-        "grade": 5,
-        "freq": 598,
-        "jlpt_old": 2,
-        "jlpt_new": 3,
-        "meanings": [
-            "Blame",
-            "Condemn",
-            "Censure"
-        ],
-        "readings_on": [
-            "せき"
-        ],
-        "readings_kun": [
-            "せ.める"
-        ],
-        "wk_level": 21,
-        "wk_meanings": [
-            "Blame"
-        ],
-        "wk_readings_on": [
-            "せき"
-        ],
-        "wk_readings_kun": [
-            "!せ"
-        ],
-        "wk_radicals": [
-            "Life",
-            "Shellfish"
-        ],
-        "meanings_de": [
-            "zur Rechenschaft ziehen",
-            "Verantwortung",
-            "drängen",
-            "auffordern"
-        ],
-        "wk_radicals_new": [
-            "Life",
-            "Shellfish"
-        ],
-        "wk_radicals_missing": [],
-        "wk_radicals_de": [
-            "Leben",
-            "Muschel"
-        ],
-        "wk_radicals_kanji": [
-            "生",
-            "貝"
-        ],
-        "kanji": "責",
-        "kanji_ord": 36012,
-        "is_radical": false,
-        "mnemonic_meaning_de": "<span class='radical' data-kanji='生'>Leben</span> <span class='radical_kanji'>(生)</span>  <span class='radical' data-kanji='貝'>Muschel</span> <span class='radical_kanji'>(貝)</span>  , <span class='meaning' data-kanji='責'>zur Rechenschaft ziehen</span> <span class='meaning_kanji_meaning'>(責)</span>",
-        "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='責'>zur Rechenschaft ziehen</span> <span class='meaning_kanji_reading'>(責)</span> , <span class='reading onyomi' data-hiragana='せき'>seki</span> <span class='hiragana'>(せき)</span>  <span class='reading onyomi' data-hiragana='せ'>se</span> <span class='hiragana'>(せ)</span>",
-        "mnemonic_reading_de_done": false,
-        "order_wiki": 797,
-        "reading_dist": [
-            {
-                "reading": "せき",
-                "count": 5,
-                "prop": 0.83
-            },
-            {
-                "reading": "せ",
-                "count": 1,
-                "prop": 0.17
-            }
-        ],
-        "order_wiki_radical_corrected": 793,
         "grade_corrected": 5
     },
     {

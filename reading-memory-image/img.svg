@@ -1,0 +1,13 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <image href="img.jpg" width="1000" height="1000"/>
+  <text x="20" y="40" fill="white" stroke="black" stroke-width="2" style="font-size:100px;-inkscape-font-specification:'FreeSans Semi-Bold';font-family:FreeSans;font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal">
+  A
+  </text>
+  <text x="940" y="40" fill="white" stroke="black" stroke-width="2" style="font-size:100px;-inkscape-font-specification:'FreeSans Semi-Bold';font-family:FreeSans;font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal">
+  B
+  </text>
+  <text x="20" y="980" fill="white" stroke="black" stroke-width="2" style="font-size:100px;-inkscape-font-specification:'FreeSans Semi-Bold';font-family:FreeSans;font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal">
+  C
+  </text>
+
+</svg>

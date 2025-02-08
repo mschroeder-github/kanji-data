@@ -1,19 +1,33 @@
 import csv
+import datetime
 import gzip
 import json
 import os
 import pickle
 import sys
 from collections import defaultdict
+import random
+from string import Template
 
 import genanki
+import numpy as np
+from openai import OpenAI
 from tqdm import tqdm
 
 from frequency import frequency_crawler
 from helper import get_reading_strs, remove_brackets
 from hiragana import hiragana_to_romaji
 from jisho_processing import jisho_collect_common_words
+from settings import BASE_URL, API_KEY, MODEL
 from wadoku_processing import wadoku_load
+
+import re
+
+client = OpenAI(
+    base_url=BASE_URL,
+    api_key=API_KEY
+)
+codeBlockPattern = re.compile(r'(```(\w+)?\s(.*?)\s*?```)', re.DOTALL)
 
 
 def common_words_vocab_scanner():
@@ -411,10 +425,7 @@ def common_words_make_anki_lvls(max=50, debug_new_words=False):
 
             last_common_words = common_words
 
-
-
-
-def common_words_make_prompts(num_learned_kanjis=150, reading_mode="Umschrift", separator=" "):
+def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift", separator=" "):
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
 
@@ -484,6 +495,9 @@ def common_words_make_prompts(num_learned_kanjis=150, reading_mode="Umschrift", 
 
     common_words = [word for word in common_words if word_freq[word['word']] <= 1]
 
+
+    word_list = []
+
     count = 0
     wadoku_not_found_count = 0
     for word in common_words:
@@ -522,6 +536,8 @@ def common_words_make_prompts(num_learned_kanjis=150, reading_mode="Umschrift", 
                 print(f'[WARN] {word['word']} {word['word_parts']}, kanji detected in reading: {part[1]}')
             hiragana += part[1]
         romaji = hiragana_to_romaji(hiragana)
+
+        word['hiragana'] = hiragana
 
         # translate
         meanings_de = []
@@ -578,8 +594,93 @@ def common_words_make_prompts(num_learned_kanjis=150, reading_mode="Umschrift", 
             l.append(f"{m[0]}={';'.join(m[1])}")
         kanji_meanings_de_txt = ', '.join(l)
 
-        print('*', word['word'], hiragana, vocab_de)
+        word_list.append(word)
 
+    with open(f'../sentences/words-{num_learned_kanjis:04}.json', 'wt', encoding='utf-8') as file:
+        json.dump(word_list, file, indent=4, ensure_ascii=False)
 
     return common_words
 
+def common_words_make_word_lists_lvls(max=50):
+    for lvl in range(50, max+1, 50):
+        common_words_make_word_lists(num_learned_kanjis=lvl)
+
+
+def common_words_make_prompts(lvl=50, sample_count=100, sample_word_count=10, temperature=0.2):
+    folder = f'../sentences/{lvl:04}'
+    os.makedirs(folder, exist_ok=True)
+
+    with open(f'../sentences/words-{lvl:04}.json', 'rt', encoding='utf-8') as file:
+        common_words = json.load(file)
+
+    with open("prompt_sentence_generation.txt", "r") as file:
+        template = Template(file.read())
+
+    weights = np.array([1 / (i + 1) for i in range(len(common_words))])
+    weights /= weights.sum()
+
+    for i in range(sample_count):
+        print(f'{i+1}/{sample_count}')
+
+        sample = np.random.choice(common_words, size=sample_word_count, replace=False, p=weights)
+
+        str_list = ''
+        for item in sample:
+            str_list += f'* {item['word']} {item['hiragana']} {item['vocab_de']}\n'
+
+        filled_prompt = template.substitute(str_list=str_list.strip())
+
+        print('waiting for LLM...')
+        try:
+            completion = client.chat.completions.create(
+                model=MODEL,
+                messages=[{"role": "user", "content": filled_prompt}],
+                temperature=temperature
+            )
+        except KeyboardInterrupt:
+            print('keyboard interrupt')
+            return
+
+        answer_raw = completion.choices[0].message.content
+
+        code_blocks = extract_code_blocks(answer_raw)
+
+        if len(code_blocks) == 0:
+            print('no code blocks found')
+            continue
+
+        code_block_str = code_blocks[0]
+
+        entry = {}
+
+        postfix = ''
+        try:
+            answer = json.loads(code_block_str)
+            entry['generation'] = answer
+        except Exception as e:
+            entry['error'] = str(e)
+            entry['answer_raw'] = answer_raw
+            postfix = '_error'
+
+
+        # meta data
+        entry.update({
+            'prompt': filled_prompt,
+            'sample': list(sample),
+            'config': {
+                'sample_word_count': sample_word_count,
+                'model': MODEL,
+                'temperature': temperature,
+                'datetime': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+        })
+
+        with open(f'{folder}/{entry['config']['datetime']}{postfix}.json', 'wt', encoding='utf-8') as file:
+            json.dump(entry, file, indent=4, ensure_ascii=False)
+
+        print('written')
+
+def extract_code_blocks(text):
+    matches = codeBlockPattern.findall(text)
+    code_blocks = [match[2] for match in matches]
+    return code_blocks
