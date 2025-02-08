@@ -1,0 +1,24 @@
+Erzeuge einen japanischen Satz.
+Der Satz sollte eine passende Auswahl folgender Wörter enthalten:
+$str_list
+
+Der Satz muss folgende Eigenschaften haben:
+* Der Satz muss sehr kurz sein.
+* Der Satz muss für Anfänger verständlich sein.
+* Der Satz muss grammatikalisch korrekt sein.
+
+Die Ausgabe muss folgendes JSON format haben:
+```json
+{
+"jp": "", # der japanische Satz
+"de": "", # die deutsche Übersetzung
+"used_vocabular": [ # alle Wörter, die im Satz benutzt wurden
+  {
+    "jp": "", # das Wort im japanischen Satz
+    "hiragana": "",
+    "de": "" # die deutsche Übersetzung
+  },
+  ...
+]
+}
+```
