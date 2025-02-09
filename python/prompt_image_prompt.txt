@@ -1,0 +1,6 @@
+"$de_sent"
+
+Given the German sentence, create an English prompt for image generation which visualizes the scene.
+The image generation prompt should include all objects and persons mentioned in the sentence, but no direct speech.
+The context of the scene should always be in modern Japan.
+Only output the image generation prompt.

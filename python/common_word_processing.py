@@ -5,6 +5,7 @@ import json
 import os
 import pickle
 import sys
+import time
 from collections import defaultdict
 import random
 from string import Template
@@ -14,11 +15,14 @@ import numpy as np
 from openai import OpenAI
 from tqdm import tqdm
 
+from deepl_api import translate_ja_de, translate_de_ja
 from frequency import frequency_crawler
 from helper import get_reading_strs, remove_brackets
 from hiragana import hiragana_to_romaji
+from img_gen import generate_image
 from jisho_processing import jisho_collect_common_words
 from settings import BASE_URL, API_KEY, MODEL
+from tts import text_to_speech
 from wadoku_processing import wadoku_load
 
 import re
@@ -684,3 +688,138 @@ def extract_code_blocks(text):
     matches = codeBlockPattern.findall(text)
     code_blocks = [match[2] for match in matches]
     return code_blocks
+
+
+# TODO
+# translate jp_de de_jp with deepl
+# check coverage of the sentence
+# annotate sentence with spans
+# generate image: LLM for image prompt,
+def post_process_sentences(lvl=50, api_wait_time=2):
+    folder = f'../sentences/{lvl:04}'
+    os.makedirs(folder, exist_ok=True)
+
+    with open(f'../sentences/words-{lvl:04}.json', 'rt', encoding='utf-8') as file:
+        common_words = json.load(file)
+
+        common_words_dict = {}
+        for common_word in common_words:
+            common_words_dict[common_word['word']] = common_word
+
+    for filename in sorted(os.listdir(folder)):
+        if not filename.endswith('json'):
+            continue
+
+        name, ext = os.path.splitext(filename)
+
+        mp3_filename = name + '.mp3'
+        mp3_file_path = os.path.join(folder, mp3_filename)
+
+        jpg_filename = name + '.jpg'
+        jpg_file_path = os.path.join(folder, jpg_filename)
+
+        file_path = os.path.join(folder, filename)
+        with open(file_path, 'rt', encoding='utf-8') as file:
+            ctx = json.load(file)
+
+        print(file_path)
+        print(mp3_file_path)
+        print(jpg_file_path)
+
+        jp_sent = ctx['generation']['jp']
+        de_sent = ctx['generation']['de']
+
+        # text to speech
+        if not os.path.exists(mp3_file_path):
+            time.sleep(api_wait_time)
+            text_to_speech(jp_sent, mp3_file_path, 'ja')
+
+        # image generation
+        if not os.path.exists(jpg_file_path):
+            image_prompt = get_image_prompt(de_sent)
+            ctx['generation']['image_prompt'] = image_prompt
+            time.sleep(api_wait_time)
+            generate_image(jpg_file_path, image_prompt)
+
+        # html table with vocabs
+        if 'html_table' not in ctx['generation']:
+            substrings = []
+            for used_vocabular in ctx['generation']['used_vocabular']:
+                common_word = common_words_dict.get(used_vocabular['jp'])
+                # if not found in dictionary
+                if common_word is None:
+                    # fallback
+                    common_word = {
+                        'hiragana': used_vocabular['hiragana'],
+                        'vocab_de': used_vocabular['de'],
+                        'not_found': True
+                    }
+                substrings.append((used_vocabular['jp'], common_word))
+
+            html_output = generate_highlighted_html(jp_sent, substrings, de_sent)
+
+            ctx['generation']['html_table'] = html_output
+
+        # translation check
+        if not 'ja_de_deepl' in ctx['generation']:
+            ctx['generation']['ja_de_deepl'] = translate_ja_de(jp_sent)
+            # ctx['generation']['de_ja_deepl'] = translate_de_ja(ctx['generation']['ja_de_deepl'])
+
+        with open(file_path, 'wt', encoding='utf-8') as file:
+            json.dump(ctx, file, indent=4, ensure_ascii=False)
+
+        # return
+
+
+def generate_highlighted_html(sentence, substrings, de_sent):
+    substrings = sorted(substrings, key=len, reverse=True)
+
+    found_substrings = []
+    for substring in substrings:
+        pos = sentence.find(substring[0])
+        if pos != -1:
+            found_substrings.append((pos, pos + len(substring[0]), substring))
+
+    found_substrings.sort()
+
+    first_row = []
+    second_row = []
+    last_pos = 0
+
+    for start, end, substring in found_substrings:
+        # miss
+        if start > last_pos:
+            first_row.append(f"  <td>{sentence[last_pos:start]}</td>\n")
+            second_row.append(f"  <td></td>\n")
+
+        # match
+        first_row.append(f"  <td>{sentence[start:end]}</td>\n")
+        not_found_style = ' style="color: gray;"' if 'not_found' in substring[1] else ''
+        second_row.append(f"  <td{not_found_style}>{substring[1]['hiragana']}<br/>{substring[1]['vocab_de']}<br/></td>\n")
+
+        last_pos = end
+
+    # Add remaining miss
+    if last_pos < len(sentence):
+        first_row.append(f"  <td>{sentence[last_pos:]}</td>\n")
+        second_row.append(f"  <td></td>\n")
+
+    html_table = f"<table>\n<tr>\n{''.join(first_row)}</tr>\n<tr>\n{''.join(second_row)}</tr>\n<tr>\n  <td colspan=\"{len(first_row)}\">{de_sent}</td>\n</tr>\n</table>"
+
+    return html_table
+
+
+def get_image_prompt(de_sent, temperature=0.7):
+    with open("prompt_image_prompt.txt", "r") as file:
+        template = Template(file.read())
+
+    filled_prompt = template.substitute(de_sent=de_sent)
+
+    completion = client.chat.completions.create(
+        model=MODEL,
+        messages=[{"role": "user", "content": filled_prompt}],
+        temperature=temperature
+    )
+
+    answer_raw = completion.choices[0].message.content
+    return answer_raw
