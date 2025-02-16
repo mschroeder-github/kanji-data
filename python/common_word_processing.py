@@ -12,18 +12,21 @@ from string import Template
 
 import genanki
 import numpy as np
+from charset_normalizer.utils import is_hiragana, is_katakana
 from openai import OpenAI
 from tqdm import tqdm
 
 from deepl_api import translate_ja_de, translate_de_ja
 from frequency import frequency_crawler
 from helper import get_reading_strs, remove_brackets
-from hiragana import hiragana_to_romaji
+from hiragana import hiragana_to_romaji, KYOUIKU_STR, JOYO_STR
 from img_gen import generate_image
 from jisho_processing import jisho_collect_common_words
 from settings import BASE_URL, API_KEY, MODEL
 from tts import text_to_speech
 from wadoku_processing import wadoku_load
+
+import statistics
 
 import re
 
@@ -610,7 +613,7 @@ def common_words_make_word_lists_lvls(max=50):
         common_words_make_word_lists(num_learned_kanjis=lvl)
 
 
-def common_words_make_prompts(lvl=50, sample_count=100, sample_word_count=10, temperature=0.2):
+def common_words_make_prompts(lvl=50, block_size=100, sample_count=10, sample_word_count=20, temperature=0.2):
     folder = f'../sentences/{lvl:04}'
     os.makedirs(folder, exist_ok=True)
 
@@ -620,85 +623,101 @@ def common_words_make_prompts(lvl=50, sample_count=100, sample_word_count=10, te
     with open("prompt_sentence_generation.txt", "r") as file:
         template = Template(file.read())
 
-    weights = np.array([1 / (i + 1) for i in range(len(common_words))])
-    weights /= weights.sum()
+    common_words_blocks = chunk_list(common_words, block_size)
 
-    for i in range(sample_count):
-        print(f'{i+1}/{sample_count}')
+    for block_index, block in enumerate(common_words_blocks):
 
-        sample = np.random.choice(common_words, size=sample_word_count, replace=False, p=weights)
+        #weights = np.array([1 / (i + 1) for i in range(len(block))])
+        #weights /= weights.sum()
 
-        str_list = ''
-        for item in sample:
-            str_list += f'* {item['word']} {item['hiragana']} {item['vocab_de']}\n'
+        for sample_index in range(sample_count):
+            print(f'block {block_index+1}/{len(common_words_blocks)}, sample {sample_index+1}/{sample_count}')
 
-        filled_prompt = template.substitute(str_list=str_list.strip())
+            sample = np.random.choice(block, size=sample_word_count, replace=False) #, p=weights)
 
-        print('waiting for LLM...')
-        try:
-            completion = client.chat.completions.create(
-                model=MODEL,
-                messages=[{"role": "user", "content": filled_prompt}],
-                temperature=temperature
-            )
-        except KeyboardInterrupt:
-            print('keyboard interrupt')
-            return
+            str_list = ''
+            for item in sample:
+                str_list += f'* {item['word']} {item['hiragana']} {item['vocab_de']}\n'
 
-        answer_raw = completion.choices[0].message.content
+            filled_prompt = template.substitute(str_list=str_list.strip())
 
-        code_blocks = extract_code_blocks(answer_raw)
+            print('waiting for LLM...')
+            try:
+                completion = client.chat.completions.create(
+                    model=MODEL,
+                    messages=[{"role": "user", "content": filled_prompt}],
+                    temperature=temperature
+                )
+            except KeyboardInterrupt:
+                print('keyboard interrupt')
+                return
 
-        if len(code_blocks) == 0:
-            print('no code blocks found')
-            continue
+            answer_raw = completion.choices[0].message.content
 
-        code_block_str = code_blocks[0]
+            code_blocks = extract_code_blocks(answer_raw)
 
-        entry = {}
+            if len(code_blocks) == 0:
+                print('no code blocks found')
+                continue
 
-        postfix = ''
-        try:
-            answer = json.loads(code_block_str)
-            entry['generation'] = answer
-        except Exception as e:
-            entry['error'] = str(e)
-            entry['answer_raw'] = answer_raw
-            postfix = '_error'
+            code_block_str = code_blocks[0]
+
+            entry = {}
+
+            postfix = ''
+            try:
+                answer = json.loads(code_block_str)
+                entry['generation'] = answer
+            except Exception as e:
+                entry['error'] = str(e)
+                entry['answer_raw'] = answer_raw
+                postfix = '_error'
 
 
-        # meta data
-        entry.update({
-            'prompt': filled_prompt,
-            'sample': list(sample),
-            'config': {
-                'sample_word_count': sample_word_count,
-                'model': MODEL,
-                'temperature': temperature,
-                'datetime': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            }
-        })
+            # meta data
+            entry.update({
+                'prompt': filled_prompt,
+                'sample': list(sample),
+                'config': {
+                    'sample_word_count': sample_word_count,
+                    'block_size': block_size,
+                    'block_index': block_index,
+                    'sample_index': sample_index,
+                    'model': MODEL,
+                    'temperature': temperature,
+                    'datetime': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                }
+            })
 
-        with open(f'{folder}/{entry['config']['datetime']}{postfix}.json', 'wt', encoding='utf-8') as file:
-            json.dump(entry, file, indent=4, ensure_ascii=False)
+            with open(f'{folder}/{entry['config']['datetime']}{postfix}_{block_index}_{sample_index}.json', 'wt', encoding='utf-8') as file:
+                json.dump(entry, file, indent=4, ensure_ascii=False)
 
-        print('written')
+            print('written')
 
 def extract_code_blocks(text):
     matches = codeBlockPattern.findall(text)
     code_blocks = [match[2] for match in matches]
     return code_blocks
 
+def chunk_list(lst, block_size):
+    return [lst[i:i + block_size] for i in range(0, len(lst), block_size)]
 
-# TODO
-# translate jp_de de_jp with deepl
-# check coverage of the sentence
-# annotate sentence with spans
-# generate image: LLM for image prompt,
-def post_process_sentences(lvl=50, api_wait_time=2):
+def common_words_make_multimedia(lvl=50, multimedia=True, high_values=[], low_values=[]):
     folder = f'../sentences/{lvl:04}'
     os.makedirs(folder, exist_ok=True)
 
+    # without api calls postprocess and save in file
+    post_process_sentences_table_stats(lvl, folder)
+
+    # sort
+    list = sort_sentences(lvl, high_values=high_values, low_values=low_values)
+
+    # multimedia but based on sort above
+    if multimedia:
+        post_process_sentences_multimedia(list, folder)
+
+
+def post_process_sentences_table_stats(lvl, folder):
     with open(f'../sentences/words-{lvl:04}.json', 'rt', encoding='utf-8') as file:
         common_words = json.load(file)
 
@@ -706,40 +725,24 @@ def post_process_sentences(lvl=50, api_wait_time=2):
         for common_word in common_words:
             common_words_dict[common_word['word']] = common_word
 
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+
+        all_kanjis = [entry['kanji'] for entry in kanji_kyouiku]
+
     for filename in sorted(os.listdir(folder)):
         if not filename.endswith('json'):
             continue
 
-        name, ext = os.path.splitext(filename)
-
-        mp3_filename = name + '.mp3'
-        mp3_file_path = os.path.join(folder, mp3_filename)
-
-        jpg_filename = name + '.jpg'
-        jpg_file_path = os.path.join(folder, jpg_filename)
-
+        # filenames
         file_path = os.path.join(folder, filename)
         with open(file_path, 'rt', encoding='utf-8') as file:
             ctx = json.load(file)
 
-        print(file_path)
-        print(mp3_file_path)
-        print(jpg_file_path)
+        # print(file_path)
 
         jp_sent = ctx['generation']['jp']
         de_sent = ctx['generation']['de']
-
-        # text to speech
-        if not os.path.exists(mp3_file_path):
-            time.sleep(api_wait_time)
-            text_to_speech(jp_sent, mp3_file_path, 'ja')
-
-        # image generation
-        if not os.path.exists(jpg_file_path):
-            image_prompt = get_image_prompt(de_sent)
-            ctx['generation']['image_prompt'] = image_prompt
-            time.sleep(api_wait_time)
-            generate_image(jpg_file_path, image_prompt)
 
         # html table with vocabs
         if 'html_table' not in ctx['generation']:
@@ -760,15 +763,199 @@ def post_process_sentences(lvl=50, api_wait_time=2):
 
             ctx['generation']['html_table'] = html_output
 
+        if 'stats' not in ctx:
+            ctx['stats'] = stats(ctx, common_words_dict, all_kanjis, lvl)
+
+        ctx['filename'] = filename
+
+        with open(file_path, 'wt', encoding='utf-8') as file:
+            json.dump(ctx, file, indent=4, ensure_ascii=False)
+
+
+def post_process_sentences_multimedia(list, folder, api_wait_time=2):
+    for entry in list:
+        filename = entry['filename']
+
+        # filenames
+        name, ext = os.path.splitext(filename)
+
+        mp3_filename = name + '.mp3'
+        mp3_file_path = os.path.join(folder, mp3_filename)
+
+        jpg_filename = name + '.jpg'
+        jpg_file_path = os.path.join(folder, jpg_filename)
+
+        file_path = os.path.join(folder, filename)
+        with open(file_path, 'rt', encoding='utf-8') as file:
+            ctx = json.load(file)
+
+        print(file_path)
+
+        jp_sent = ctx['generation']['jp']
+        de_sent = ctx['generation']['de']
+
+        api_call_used = False
+
+        # text to speech
+        if not os.path.exists(mp3_file_path):
+            print(mp3_file_path)
+            #time.sleep(api_wait_time)
+            text_to_speech(jp_sent, mp3_file_path, 'ja')
+            api_call_used = True
+
+        # image generation
+        if not os.path.exists(jpg_file_path):
+            print(jpg_file_path)
+            image_prompt = get_image_prompt(de_sent)
+            ctx['generation']['image_prompt'] = image_prompt
+            #time.sleep(api_wait_time)
+            generate_image(jpg_file_path, image_prompt)
+            api_call_used = True
+
         # translation check
-        if not 'ja_de_deepl' in ctx['generation']:
+        if 'ja_de_deepl' not in ctx['generation']:
+            print('deepl ...')
             ctx['generation']['ja_de_deepl'] = translate_ja_de(jp_sent)
             # ctx['generation']['de_ja_deepl'] = translate_de_ja(ctx['generation']['ja_de_deepl'])
 
         with open(file_path, 'wt', encoding='utf-8') as file:
             json.dump(ctx, file, indent=4, ensure_ascii=False)
 
-        # return
+        print('done')
+        if api_call_used:
+            time.sleep(api_wait_time)
+
+
+def sort_sentences(lvl=50, high_values=[], low_values=[]):
+    folder = f'../sentences/{lvl:04}'
+    list = []
+
+    for filename in sorted(os.listdir(folder)):
+        if not filename.endswith('json'):
+            continue
+
+        file_path = os.path.join(folder, filename)
+        with open(file_path, 'rt', encoding='utf-8') as file:
+            ctx = json.load(file)
+
+        list.append(ctx)
+
+    keys = high_values + low_values
+
+    # min max values
+    min_max = {k: (min(obj['stats'][k] for obj in list), max(obj['stats'][k] for obj in list)) for k in keys}
+
+    # normalized
+    for obj in list:
+        stats_norm = {}
+        for k in keys:
+            if min_max[k][1] > min_max[k][0]:
+                norm_value = (obj['stats'][k] - min_max[k][0]) / (min_max[k][1] - min_max[k][0])
+                stats_norm[k] = norm_value if k in high_values else (1 - norm_value if k in low_values else norm_value)
+            else:
+                stats_norm[k] = 0
+
+        obj['score'] = sum(stats_norm.values())
+
+    # sort
+    list.sort(key=lambda x: x['score'], reverse=True)
+
+    #for ctx in list:
+    #    print(ctx['score'], ctx['generation']['jp'], ctx['generation']['de'])
+
+    return list
+
+
+def stats(ctx, common_words_dict, all_kanjis, lvl):
+    jp_sent = ctx['generation']['jp']
+    de_sent = ctx['generation']['de']
+
+    lvl_kanjis = all_kanjis[:lvl]
+
+    data = {
+        'lvl': lvl,
+        'jp_sent_len': len(jp_sent),
+        'de_sent_len': len(de_sent),
+        'de_sent_word_count': len(de_sent.split(' '))
+    }
+
+    #print(jp_sent)
+    #print(de_sent)
+
+    vocab_in_sent_match = 0
+    vocab_in_sent_miss = 0
+
+    vocab_in_dict_match = 0
+    vocab_in_dict_miss = 0
+
+    data['vocab_jp_lens'] = []
+    data['vocab_hira_lens'] = []
+    data['vocab_de_lens'] = []
+
+    data['vocab_dict_lvls'] = []
+    data['vocab_dict_indices'] = []
+
+    for vocab in ctx['generation']['used_vocabular']:
+        if vocab['jp'] in jp_sent:
+            vocab_in_sent_match += 1
+        else:
+            vocab_in_sent_miss += 1
+
+        if vocab['jp'] in common_words_dict:
+            vocab_in_dict_match += 1
+            entry = common_words_dict[vocab['jp']]
+            index = list(common_words_dict.values()).index(entry)
+            data['vocab_dict_indices'].append(index)
+            data['vocab_dict_lvls'].append(entry['num_learned_kanjis'])
+        else:
+            vocab_in_dict_miss += 1
+
+        data['vocab_jp_lens'].append(len(vocab['jp']))
+        data['vocab_hira_lens'].append(len(vocab['hiragana']))
+        data['vocab_de_lens'].append(len(vocab['de']))
+
+    data['vocab_jp_lens_mean'] = statistics.mean(data['vocab_jp_lens'])
+    data['vocab_hira_lens_mean'] = statistics.mean(data['vocab_hira_lens'])
+    data['vocab_de_lens_mean'] = statistics.mean(data['vocab_de_lens'])
+    data['vocab_dict_lvls_mean'] = statistics.mean(data['vocab_dict_lvls'])
+    data['vocab_dict_indices_mean'] = statistics.mean(data['vocab_dict_indices'])
+
+    data['vocab_in_sent_match'] = vocab_in_sent_match
+    data['vocab_in_sent_miss'] = vocab_in_sent_miss
+    data['vocab_in_dict_match'] = vocab_in_dict_match
+    data['vocab_in_dict_miss'] = vocab_in_dict_miss
+    data['vocab_len'] = len(ctx['generation']['used_vocabular'])
+
+    jp_sent_copy : str = jp_sent
+    for vocab in ctx['generation']['used_vocabular']:
+        jp_sent_copy = jp_sent_copy.replace(vocab['jp'], '')
+
+    data['jp_sent_miss_len'] = len(jp_sent_copy)
+    data['jp_sent_miss_ratio'] = data['jp_sent_miss_len'] / data['jp_sent_len']
+    data['jp_sent_miss'] = jp_sent_copy
+
+    data['jp_sent_miss_hiragana'] = 0
+    data['jp_sent_miss_katakana'] = 0
+    data['jp_sent_miss_lvl_kanji'] = 0
+    data['jp_sent_miss_kyouiku_kanji'] = 0
+    data['jp_sent_miss_joyo_kanji'] = 0
+    data['jp_sent_miss_remaining'] = []
+    for c in data['jp_sent_miss']:
+        if is_hiragana(c):
+            data['jp_sent_miss_hiragana'] += 1
+        elif is_katakana(c):
+            data['jp_sent_miss_katakana'] += 1
+        elif c in lvl_kanjis:
+            data['jp_sent_miss_lvl_kanji'] += 1
+        elif c in KYOUIKU_STR:
+            data['jp_sent_miss_kyouiku_kanji'] += 1
+        elif c in JOYO_STR:
+            data['jp_sent_miss_joyo_kanji'] += 1
+        else:
+            data['jp_sent_miss_remaining'].append(c)
+
+
+    return data
 
 
 def generate_highlighted_html(sentence, substrings, de_sent):

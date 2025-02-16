@@ -6091,7 +6091,7 @@ let kyouiku =
         "has_radical_img": true,
         "mnemonic_meaning_de": "<span class='radical' data-kanji='火'>Feuer</span> <span class='radical_kanji'>(火)</span>  , <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_meaning'>(火)</span>",
         "mnemonic_meaning_de_done": false,
-        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_reading'>(火)</span> brennt im <span class='reading onyomi' data-hiragana='か'>Ka</span>min <span class='hiragana'>(か)</span> <span class='reading kunyomi' data-hiragana='か'>hi</span>nten <span class='hiragana'>(ひ)</span>.",
+        "mnemonic_reading_de": "Das <span class='meaning' data-kanji='火'>Feuer</span> <span class='meaning_kanji_reading'>(火)</span> brennt im <span class='reading onyomi' data-hiragana='か'>Ka</span>min <span class='hiragana'>(か)</span>, aber ganz <span class='reading kunyomi' data-hiragana='ひ'>hi</span>nten <span class='hiragana'>(ひ)</span>.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 68,
         "reading_dist": [
@@ -32276,7 +32276,7 @@ let kyouiku =
         "is_radical": false,
         "mnemonic_meaning_de": "Das <span class='radical' data-kanji='糸'>Faden</span>kreuz <span class='radical_kanji'>(糸)</span> visiert <span class='radical' data-kanji='ヨ'>Wolverine</span> <span class='radical_kanji'>(ヨ)</span> an, doch der springt ins Sumpf<span class='radical' data-kanji='水'>wasser</span> <span class='radical_kanji'>(水)</span>, das <span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_meaning'>(緑)</span> ist.",
         "mnemonic_meaning_de_done": true,
-        "mnemonic_reading_de": "<span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_reading'>(緑)</span> hinter den Ohren war er als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>kel <span class='hiragana'>(りょく)</span>, jetzt fertigt er als Sch<span class='reading kunyomi' data-hiragana='みどり'>mied ori</span>ginelle <span class='hiragana'>(みどり)</span> grüne Waffen an.",
+        "mnemonic_reading_de": "<span class='meaning' data-kanji='緑'>grün</span> <span class='meaning_kanji_reading'>(緑)</span> hinter den Ohren war er als Emb<span class='reading onyomi' data-hiragana='りょく'>ryoku</span>gel <span class='hiragana'>(りょく)</span>, jetzt fertigt er als Sch<span class='reading kunyomi' data-hiragana='みどり'>mied ori</span>ginelle <span class='hiragana'>(みどり)</span> grüne Waffen an.",
         "mnemonic_reading_de_done": true,
         "order_wiki": 391,
         "reading_dist": [
