@@ -432,7 +432,7 @@ def common_words_make_anki_lvls(max=50, debug_new_words=False):
 
             last_common_words = common_words
 
-def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift", separator=" "):
+def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift", separator=" ", include_word_is_kanji=False, simple_word_freq_fix=True):
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
 
@@ -484,7 +484,8 @@ def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift
     # common_words = [word for word in common_words if word['rwl_prop'] >= 0.5]
 
     # 4. word is not just the kanji
-    common_words = [word for word in common_words if not word['word_is_kanji']]
+    if not include_word_is_kanji:
+        common_words = [word for word in common_words if not word['word_is_kanji']]
 
     # sort by rank
     # this came from jp wikipedia
@@ -500,8 +501,32 @@ def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift
     for word in common_words:
         word_freq[word['word']] += 1
 
-    common_words = [word for word in common_words if word_freq[word['word']] <= 1]
+    word_dict = defaultdict(list)
+    for word in common_words:
+        word_dict[word['word']].append(word)
 
+    # freq of the word
+    if simple_word_freq_fix:
+        common_words = [word for word in common_words if word_freq[word['word']] <= 1]
+    else:
+        # we merge multi entries into one so that word exits exactly once
+        ls = []
+        for k, v in word_dict.items():
+            if len(v) > 1:
+                repr = v[0]
+                for i, other in enumerate(v[1:]):
+                    repr['meanings'].extend(other['meanings'])
+
+                    if 'meanings_de' in repr:
+                        repr['meanings_de'].extend(other['meanings_de'])
+
+                    repr[f'word_parts_{i}']= other['word_parts']
+
+                repr['is_merged'] = True
+                ls.append(repr)
+            else:
+                ls.append(v[0])
+        common_words = ls
 
     word_list = []
 
@@ -606,11 +631,137 @@ def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift
     with open(f'../sentences/words-{num_learned_kanjis:04}.json', 'wt', encoding='utf-8') as file:
         json.dump(word_list, file, indent=4, ensure_ascii=False)
 
+    print(f'{len(word_list)} words written')
+
     return common_words
 
 def common_words_make_word_lists_lvls(max=50):
     for lvl in range(50, max+1, 50):
         common_words_make_word_lists(num_learned_kanjis=lvl)
+
+
+def sentence_make_anki(lvl=50, reading_mode="Umschrift", high_values=[], low_values=[]):
+    folder = f'../sentences/{lvl:04}'
+
+    # sort
+    list = sort_sentences(lvl, high_values=high_values, low_values=low_values)
+
+    with open('card.css', 'rt') as file:
+        css = file.read().strip()
+
+    qfmt = '''
+    <span class="sentence">{{Satz}}</span>
+    '''
+
+    afmt = '''
+    <span class="sentence">{{Satz}}</span>
+    <br/>
+    <br/>
+    <div style="text-align: start;">
+        {{Tabelle}}<br/>
+        {{Ton}}<br/>
+        {{Bild}}<br/>
+        <br/>
+        {{Alt. Übersetzung}}<br/>
+        {{Vokabeln}}
+    </div>
+    '''
+
+    deck = genanki.Deck(
+        1878758244 + lvl,
+        f'Unterrichtsschriftzeichen - Sätze - Level {lvl}'
+    )
+
+    model = genanki.Model(
+        1518892602,
+        'Satz',
+        fields=[
+            {'name': 'Satz'},
+            {'name': 'Übersetzung'},
+            {'name': 'Tabelle'},
+            {'name': 'Alt. Übersetzung'},
+            {'name': 'Bild'},
+            {'name': 'Ton'},
+            {'name': 'Vokabeln'},
+        ],
+        templates=[
+            {
+                'name': 'Satz Karte',
+                'qfmt': qfmt,
+                'afmt': afmt
+            }
+        ],
+        css=css,
+        sort_field_index=0
+    )
+
+    media_files = []
+
+    count = 0
+    for entry in list:
+
+        name, ext = os.path.splitext(entry['filename'])
+        mp3_filename = name + '.mp3'
+        mp3_file_path = os.path.join(folder, mp3_filename)
+
+        jpg_filename = name + '.jpg'
+        jpg_file_path = os.path.join(folder, jpg_filename)
+
+        if not os.path.exists(mp3_file_path) or not os.path.exists(jpg_file_path):
+            # print(f'missing media for {entry['filename']}')
+            continue
+
+        media_files.append(mp3_file_path)
+        media_files.append(jpg_file_path)
+
+        ul = '<ul>'
+        for vocab in entry['generation']['used_vocabular']:
+            found = next((sample for sample in entry['sample'] if sample['word'] == vocab['jp']), None)
+            if not found:
+                continue
+
+            kanji_info = []
+            for e in found['kanji_meanings_de']:
+                kanji_info.append(f'{e[0]}={e[1][0]}')
+
+            ul += '<li>'
+            ul += f'{vocab['jp']} | {vocab['hiragana']} | {';'.join(kanji_info)}'
+            ul += '<ul>'
+            for meanings in found['meanings_de']:
+                for meaning in meanings:
+                    ul += f'<li>{meaning}</li>'
+            ul += '</ul>'
+            ul += '</li>'
+        ul += '</ul>'
+
+        guid = genanki.guid_for(entry['generation']['de'])
+
+        note = genanki.Note(
+            model=model,
+            guid=guid,
+            fields=[
+                entry['generation']['jp'],
+                entry['generation']['de'],
+                entry['generation']['html_table'],
+                entry['generation']['ja_de_deepl'],
+                f'<img class="" src="{jpg_filename}">',
+                # f'<audio controls><source src="{mp3_filename}" type="audio/mpeg"></audio>',
+                f'[sound:{mp3_filename}]',
+                ul
+            ]
+        )
+
+        deck.add_note(note)
+
+        count += 1
+
+    package = genanki.Package([deck])
+    package.media_files = media_files
+    output_file = f'../anki/Unterrichtsschriftzeichen_Sätze-Level_{lvl:04}-{reading_mode}_Abfrage.apkg'
+    package.write_to_file(output_file)
+
+    print(f'{count} written')
+
 
 
 def common_words_make_prompts(lvl=50, block_size=100, sample_count=10, sample_word_count=20, temperature=0.2):
@@ -712,6 +863,9 @@ def common_words_make_multimedia(lvl=50, multimedia=True, high_values=[], low_va
     # sort
     list = sort_sentences(lvl, high_values=high_values, low_values=low_values)
 
+    # filter
+    list = [entry for entry in list if 'error' not in entry['filename']]
+
     # multimedia but based on sort above
     if multimedia:
         post_process_sentences_multimedia(list, folder)
@@ -731,7 +885,7 @@ def post_process_sentences_table_stats(lvl, folder):
         all_kanjis = [entry['kanji'] for entry in kanji_kyouiku]
 
     for filename in sorted(os.listdir(folder)):
-        if not filename.endswith('json'):
+        if not filename.endswith('json') or 'error' in filename:
             continue
 
         # filenames
@@ -772,7 +926,7 @@ def post_process_sentences_table_stats(lvl, folder):
             json.dump(ctx, file, indent=4, ensure_ascii=False)
 
 
-def post_process_sentences_multimedia(list, folder, api_wait_time=2):
+def post_process_sentences_multimedia(list, folder, api_wait_time=5):
     for entry in list:
         filename = entry['filename']
 
@@ -800,7 +954,10 @@ def post_process_sentences_multimedia(list, folder, api_wait_time=2):
         if not os.path.exists(mp3_file_path):
             print(mp3_file_path)
             #time.sleep(api_wait_time)
-            text_to_speech(jp_sent, mp3_file_path, 'ja')
+            try:
+                text_to_speech(jp_sent, mp3_file_path, 'ja')
+            except:
+                print('error')
             api_call_used = True
 
         # image generation
@@ -809,7 +966,10 @@ def post_process_sentences_multimedia(list, folder, api_wait_time=2):
             image_prompt = get_image_prompt(de_sent)
             ctx['generation']['image_prompt'] = image_prompt
             #time.sleep(api_wait_time)
-            generate_image(jpg_file_path, image_prompt)
+            try:
+                generate_image(jpg_file_path, image_prompt)
+            except:
+                print('error')
             api_call_used = True
 
         # translation check
@@ -831,7 +991,7 @@ def sort_sentences(lvl=50, high_values=[], low_values=[]):
     list = []
 
     for filename in sorted(os.listdir(folder)):
-        if not filename.endswith('json'):
+        if not filename.endswith('json') or 'error' in filename:
             continue
 
         file_path = os.path.join(folder, filename)
