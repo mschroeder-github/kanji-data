@@ -84,9 +84,27 @@ td {
   padding: 0;
   margin: 0;
   text-align: left;
+  vertical-align: top;
   white-space: nowrap;
 }
 
 .sentence {
   font-size: 200%
+}
+
+.td_miss {
+  background-color: #efefef;
+}
+
+.td_match {
+  background-color: white;
+}
+
+.text_match {
+  white-space: nowrap;
+  background-color: white;
+}
+
+.text_miss {
+  background-color: #efefef;
 }

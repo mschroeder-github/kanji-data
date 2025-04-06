@@ -1,17 +1,25 @@
 import csv
 import gzip
 import json
+import os
 import random
 import re
+import time
 from datetime import datetime
 
+import genanki
 from tqdm import tqdm
 
 import hiragana
+from common_word_processing import get_image_prompt
+from deepl_api import translate_ja_de
+from img_gen import generate_image
+from tts import text_to_speech
+
 
 # first we run through sentences and decompose them based on the vocabulary we would like to learn
-# a lot of meta data is in the json
-def collect_sentences(lvl=1050, details=True, output_file_path="../sentences/sentences.jsonl.gz"):
+# a lot of meta data is in the json if details is set, but we should add it later
+def collect_sentences(lvl=1050, details=False, output_file_path="../sentences/sentences.jsonl.gz"):
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
 
@@ -39,9 +47,9 @@ def collect_sentences(lvl=1050, details=True, output_file_path="../sentences/sen
 
     with gzip.open(output_file_path, "wt", encoding="utf-8") as jsonl:
 
-        # ja de  57.635
         # ja en 275.928
-        # tatoeba('../sentences-resource/Sentence pairs in Japanese-English - 2025-02-19.tsv', pattern, common_words_dict, kanji_kyouiku_dict, details, jsonl)
+        # ja de  57.635
+        tatoeba('../sentences-resource/Sentence pairs in Japanese-English - 2025-02-19.tsv', pattern, common_words_dict, kanji_kyouiku_dict, details, jsonl)
         tatoeba('../sentences-resource/Sentence pairs in Japanese-German - 2025-02-19.tsv', pattern, common_words_dict, kanji_kyouiku_dict, details, jsonl, tl_key='de')
 
         # 25.740.835
@@ -211,6 +219,7 @@ def longest_match_regex(pattern, text):
 
     return result
 
+
 def avg(numbers, default=0):
     return sum(numbers) / len(numbers) if numbers else default
 
@@ -319,6 +328,9 @@ def write_sentences(lvl=50, common_words_max=500, word_threshold_start=5, senten
     gain = len(will_be_learned) / len(learned_sentences)
     coverage = len(will_be_learned) / len(all_words)
 
+    # sentences with frequent words first
+    learned_sentences.sort(key=lambda x: x['words_positions_avg'])
+
     if output_file_path:
         data = {
             'lvl': lvl,
@@ -354,9 +366,6 @@ def write_sentences(lvl=50, common_words_max=500, word_threshold_start=5, senten
     print(f'{coverage:.03} coverage')
 
 
-
-
-
 def sort_sentences(sentences, high_values=[], low_values=[], reverse=False):
     if len(sentences) == 0:
         return sentences
@@ -381,3 +390,328 @@ def sort_sentences(sentences, high_values=[], low_values=[], reverse=False):
     sentences.sort(key=lambda x: x['score'], reverse=(not reverse))
 
     return sentences
+
+# use this after write_sentences
+def multimedia_sentences(input_file_path, cache_folder, include_tts=True, include_img=True, include_transl=True, api_wait_time=5, transl_text_len=4):
+    os.makedirs(cache_folder, exist_ok=True)
+
+    # sentences ctx file
+    with open(input_file_path, 'rt', encoding='utf-8') as file:
+        sentences_ctx = json.load(file)
+
+    print(len(sentences_ctx['learned_sentences']), 'sentences')
+
+    for sent in sentences_ctx['learned_sentences']:
+        ja = sent['ja']
+        transl = sent['en'] if 'en' in sent else sent['de']
+
+        id = sent['id']
+        mp3_file_path = os.path.join(cache_folder, f'{id}.mp3')
+        jpg_file_path = os.path.join(cache_folder, f'{id}.jpg')
+
+        print(id)
+
+        api_call_used = False
+
+        if include_tts and not os.path.exists(mp3_file_path):
+            print(mp3_file_path)
+            try:
+                text_to_speech(ja, mp3_file_path, 'ja')
+            except:
+                print('error')
+            api_call_used = True
+
+        if include_img and not os.path.exists(jpg_file_path):
+            print(jpg_file_path)
+            image_prompt = get_image_prompt(transl)
+            sent['image_prompt'] = image_prompt
+            try:
+                generate_image(jpg_file_path, image_prompt)
+            except:
+                print('error')
+            api_call_used = True
+
+        # translation check
+        if include_transl and 'ja_de_deepl' not in sent:
+            print('ja_de_deepl sent')
+            sent['ja_de_deepl'] = translate_ja_de(ja)
+
+        for part in sent['parts']:
+            if not part['match'] and len(part['text']) >= transl_text_len and 'ja_de_deepl' not in part:
+                print('ja_de_deepl part')
+                part['ja_de_deepl'] = translate_ja_de(part['text'])
+
+        with open(input_file_path, 'wt', encoding='utf-8') as file:
+            json.dump(sentences_ctx, file, indent=2, ensure_ascii=False)
+
+        if api_call_used:
+            print('done, wait...')
+            time.sleep(api_wait_time)
+
+
+def make_anki_sentences(input_file_path, cache_folder):
+
+    # sentences ctx file
+    with open(input_file_path, 'rt', encoding='utf-8') as file:
+        sentences_ctx = json.load(file)
+        lvl = sentences_ctx['lvl']
+
+    # aux data
+    with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
+        kanji_kyouiku = json.load(file)
+        kanji_kyouiku_dict = {}
+        for l, entry in enumerate(kanji_kyouiku):
+            entry['lvl'] = l
+            kanji_kyouiku_dict[entry['kanji']] = entry
+
+    # aux data
+    with open(f'../sentences/words-{lvl:04}.json', 'rt', encoding='utf-8') as file:
+        common_words = json.load(file)
+        common_words_dict = {}
+        for i, common_word in enumerate(common_words):
+            if common_word['word'] in common_words_dict:
+                raise Exception(f'{common_word['word']} duplicate: {common_words_dict[common_word['word']]}')
+            common_word['position'] = i
+            common_words_dict[common_word['word']] = common_word
+
+    # aux data
+    with open('card.css', 'rt') as file:
+        css = file.read().strip()
+
+    # anki settings
+    qfmt = '''
+        <span class="sentence">{{Satz}}</span>
+        '''
+
+    afmt = '''
+        <span class="sentence">{{Satz}}</span>
+        <br/>
+        <br/>
+        <div style="text-align: start;">
+            {{Tabelle}}<br/>
+            {{Übersetzung}}<br/>
+            {{Alt. Übersetzung}}<br/>
+            {{Ton}}<br/>
+            {{Bild}}<br/>
+            <br/>
+            {{Vokabeln}}<br/>
+            {{Kanjis}}
+        </div>
+        '''
+
+    deck = genanki.Deck(
+        2050612111,
+        f'Unterrichtsschriftzeichen - Sätze'
+    )
+
+    model = genanki.Model(
+        1613000730,
+        'Satz',
+        fields=[
+            {'name': 'Satz Position'},
+            {'name': 'Satz'},
+            {'name': 'Übersetzung'},
+            {'name': 'Tabelle'},
+            {'name': 'Alt. Übersetzung'},
+            {'name': 'Bild'},
+            {'name': 'Ton'},
+            {'name': 'Vokabeln'},
+            {'name': 'Kanjis'},
+        ],
+        templates=[
+            {
+                'name': 'Satz Karte',
+                'qfmt': qfmt,
+                'afmt': afmt
+            }
+        ],
+        css=css,
+        sort_field_index=0 # = int(words_positions_avg)
+    )
+
+    media_files = []
+
+    # sentences ctx file
+    with open(input_file_path, 'rt', encoding='utf-8') as file:
+        sentences_ctx = json.load(file)
+
+    print(len(sentences_ctx['learned_sentences']), 'sentences')
+
+    count = 0
+    for sent in sentences_ctx['learned_sentences']:
+
+        warn_not_found = False
+        # update missing vocab data
+        for part in sent['parts']:
+            if part['match']:
+                part['vocab'] = common_words_dict.get(part['text'])
+                if part['vocab'] == None:
+                    print('[WARN]', part['text'], 'not found')
+                    warn_not_found = True
+                    break
+
+        if warn_not_found:
+            continue
+
+        # update missing kanji data
+        sent['kanji_details'] = []
+        # sort by occurances
+        sent['kanjis_kyouiku'].sort(key=lambda x: sent['ja'].index(x))
+        for kanji in sent['kanjis_kyouiku']:
+            sent['kanji_details'].append(kanji_kyouiku_dict[kanji])
+
+        transl = sent['de'] if 'de' in sent else sent['ja_de_deepl']
+
+        id = sent['id']
+        mp3_filename = f'{id}.mp3'
+        jpg_filename = f'{id}.jpg'
+        mp3_file_path = os.path.join(cache_folder, mp3_filename)
+        jpg_file_path = os.path.join(cache_folder, jpg_filename)
+
+        if not os.path.exists(mp3_file_path) or not os.path.exists(jpg_file_path):
+            continue
+
+        media_files.append(mp3_file_path)
+        media_files.append(jpg_file_path)
+
+        print(id)
+
+        guid = genanki.guid_for(id)
+
+        note = genanki.Note(
+            model=model,
+            guid=guid,
+            fields=[
+                str(int(sent['words_positions_avg'])),
+                get_vocab_text(sent['parts']), # sent['ja'],
+                transl,
+                get_html_table(sent['parts']),
+                sent['en'] if 'en' in sent else '',
+                f'<img class="" src="{jpg_filename}">',
+                # f'<audio controls><source src="{mp3_filename}" type="audio/mpeg"></audio>',
+                f'[sound:{mp3_filename}]',
+                get_vocab_ul(sent['parts']),
+                get_kanji_ul(sent['kanji_details'])
+            ]
+        )
+
+        deck.add_note(note)
+
+        count += 1
+
+    package = genanki.Package([deck])
+    package.media_files = media_files
+    output_file = f'../anki/Unterrichtsschriftzeichen_Sätze-Level_{lvl:04}.apkg'
+    package.write_to_file(output_file)
+
+    print(f'{count} written')
+
+
+def get_html_table(parts):
+    html_table = ""
+    html_table += "<table>"
+
+    html_table += "<tr>"
+    for part in parts:
+        html_table += f"<td class=\"{ 'td_match' if part['match'] else 'td_miss' }\">"
+
+        html_table += f"{part['text']}"
+        html_table += "<br/>"
+
+        if part['match']:
+            vocab = part['vocab']
+
+            # all hiragana possibilities
+            hira = [vocab['hiragana']]
+            for i in range(0, 10):
+                key = f'word_parts_{i}'
+                if key in vocab:
+                    h = ""
+                    for wp in vocab[key]:
+                        h += wp[1]  # hiragana
+                    hira.append(h)
+
+            html_table += ', '.join(hira)
+
+        html_table += "<br/>"
+
+        if part['match']:
+            html_table += f"{part['vocab']['vocab_de']}"
+        elif 'ja_de_deepl' in part:
+            html_table += f"{part['ja_de_deepl']}"
+
+        html_table += "</td>"
+    html_table += "</tr>"
+
+    # html_table += f"<tr><td colspan=\"{len(parts)}\">{transl}</td></tr>"
+
+    html_table += "</table>"
+    return html_table
+
+def get_vocab_text(parts):
+    text = ''
+    for part in parts:
+        cl = ''
+        if 'vocab' not in part:
+            cl = 'text_miss'
+        else:
+            cl = 'text_match'
+
+        text += f'<span class="{cl}">'
+        text += part['text']
+        text += '</span>'
+
+    return text
+
+def get_vocab_ul(parts):
+    ul = '<ul>'
+    for part in parts:
+        if 'vocab' not in part:
+            continue
+
+        vocab = part['vocab']
+
+        kanji_info = []
+        for e in vocab['kanji_meanings_de']:
+            kanji_info.append(f'{e[0]}={e[1][0]}')
+
+        hira = [vocab['hiragana']]
+        for i in range(0,10):
+            key = f'word_parts_{i}'
+            if key in vocab:
+                h = ""
+                for wp in vocab[key]:
+                    h += wp[1] # hiragana
+                hira.append(h)
+
+        ul += '<li>'
+        ul += f'{vocab['word']} | {', '.join(hira)} | {' '.join(kanji_info)}'
+        ul += '<ul>'
+        for meanings in vocab['meanings_de']:
+            for meaning in meanings:
+                ul += f'<li>{meaning}</li>'
+        ul += '</ul>'
+        ul += '</li>'
+    ul += '</ul>'
+
+    return ul
+
+
+def get_kanji_ul(kanji_details):
+    ul = '<ul>'
+    for entry in kanji_details:
+        ul += '<li>'
+        ul += f'{entry['kanji']}'
+
+        meanings_str = ', '.join(m for m in entry['meanings_de'])
+
+        ul += '<ul>'
+        ul += f'<li>{meanings_str}</li>'
+        ul += f'<li>{entry['mnemonic_reading_de']}</li>'
+        ul += f'<li>{entry['mnemonic_meaning_de']}</li>'
+        ul += '</ul>'
+
+        ul += '</li>'
+    ul += '</ul>'
+
+    return ul

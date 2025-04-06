@@ -6,7 +6,7 @@
    id="svg3"
    sodipodi:docname="img.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   inkscape:export-filename="img.png"
+   inkscape:export-filename="img-txt.jpg"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,11 +27,11 @@
      inkscape:zoom="0.55634105"
      inkscape:cx="393.64343"
      inkscape:cy="610.23719"
-     inkscape:window-width="1920"
+     inkscape:window-width="1216"
      inkscape:window-height="1028"
      inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg3" />
   <image
      href="img.jpg"
@@ -63,13 +63,8 @@
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:49.5031px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold'"
      id="text3"><tspan
        sodipodi:role="line"
-       id="tspan3"
-       x="589.49139"
-       y="52.590405"
-       style="stroke-width:0.990061">jugendlicher ゆう</tspan><tspan
-       sodipodi:role="line"
        id="tspan4"
        x="589.49139"
-       y="114.46928"
-       style="stroke-width:0.990061">Leichtsinn</tspan></text>
+       y="52.590405"
+       style="stroke-width:0.990061">Jungen ゆ</tspan></text>
 </svg>

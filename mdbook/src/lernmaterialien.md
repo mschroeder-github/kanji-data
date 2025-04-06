@@ -1,6 +1,6 @@
 # Lernmaterialien
 
-Stand: 02.02.2025
+Stand: 06.04.2025
 
 ## Anki Decks
 
@@ -18,6 +18,9 @@ Stand: 02.02.2025
 * [Level 250](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0250-Umschrift_Abfrage.apkg)
 * [Level 300](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0300-Umschrift_Abfrage.apkg)
 * [Level 350](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0350-Umschrift_Abfrage.apkg)
+* [Level 400](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0400-Umschrift_Abfrage.apkg)
+* [Level 450](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0450-Umschrift_Abfrage.apkg)
+* [Level 500](anki/Unterrichtsschriftzeichen_Gebraeuchliche_Woerter-Level_0500-Umschrift_Abfrage.apkg)
 
 #### Höheres Level in Anki integrieren
 
@@ -38,3 +41,7 @@ Stand: 02.02.2025
 * [Level 150](anki/Unterrichtsschriftzeichen_Verben-Level_0150-Umschrift_Abfrage.apkg)
 * [Level 200](anki/Unterrichtsschriftzeichen_Verben-Level_0200-Umschrift_Abfrage.apkg)
 * [Level 250](anki/Unterrichtsschriftzeichen_Verben-Level_0250-Umschrift_Abfrage.apkg)
+
+### Sätze
+
+* [Level 500](anki/Unterrichtsschriftzeichen_Sätze-Level_0500.apkg)

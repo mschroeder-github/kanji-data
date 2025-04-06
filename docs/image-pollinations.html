@@ -21,10 +21,11 @@
     <br>
     <button onclick="generateImage()">Generate Image</button>
     <br>
+    <span id="status"></span><br/>
     <img id="result" style="margin-top:10px; max-width:100%;">
 
     <script>
-        function generateImage() {
+        function generateImageV1() {
             let width = document.getElementById('width').value;
             let height = document.getElementById('height').value;
             let seed = document.getElementById('seed').value;
@@ -34,6 +35,33 @@
 
             document.getElementById('result').src = imageUrl;
         }
+
+        function generateImage() {
+            let width = document.getElementById('width').value;
+            let height = document.getElementById('height').value;
+            let seed = document.getElementById('seed').value;
+            let prompt = encodeURIComponent(document.getElementById('prompt').value);
+            let imageUrl = `https://image.pollinations.ai/prompt/${prompt}?seed=${seed}&width=${width}&height=${height}&nologo=true`;
+
+            let resultImg = document.getElementById('result');
+            let statusText = document.getElementById('status');
+
+            statusText.innerText = "Generating image... Please wait."; // Show waiting text
+            let startTime = Date.now(); // Start timing
+
+            let tempImg = new Image();
+            tempImg.onload = function () {
+                let elapsedTime = ((Date.now() - startTime) / 1000).toFixed(2); // Calculate elapsed time
+                resultImg.src = imageUrl;
+                statusText.innerText = `Image loaded in ${elapsedTime} seconds.`;
+            };
+            tempImg.onerror = function () {
+                statusText.innerText = "Failed to load image. Please try again.";
+            };
+
+            tempImg.src = imageUrl; // Start loading the image
+        }
+
     </script>
 </body>
 </html>

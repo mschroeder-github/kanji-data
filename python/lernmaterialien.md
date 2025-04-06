@@ -28,3 +28,7 @@ ${words}
 ### Verben
 
 ${verbs}
+
+### Sätze
+
+* [Level 500](anki/Unterrichtsschriftzeichen_Sätze-Level_0500.apkg)

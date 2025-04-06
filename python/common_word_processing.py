@@ -433,6 +433,10 @@ def common_words_make_anki_lvls(max=50, debug_new_words=False):
             last_common_words = common_words
 
 def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift", separator=" ", include_word_is_kanji=False, simple_word_freq_fix=True):
+    output_file_path = f'../sentences/words-{num_learned_kanjis:04}.json'
+    if os.path.exists(output_file_path):
+        return
+
     with open('../kanji-kyouiku-de-radicals-array-mnemonics-wip.json', 'rt', encoding='utf-8') as file:
         kanji_kyouiku = json.load(file)
 
@@ -507,6 +511,7 @@ def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift
 
     # freq of the word
     if simple_word_freq_fix:
+        # we remove words that occur multiple times
         common_words = [word for word in common_words if word_freq[word['word']] <= 1]
     else:
         # we merge multi entries into one so that word exits exactly once
@@ -628,7 +633,7 @@ def common_words_make_word_lists(num_learned_kanjis=150, reading_mode="Umschrift
 
         word_list.append(word)
 
-    with open(f'../sentences/words-{num_learned_kanjis:04}.json', 'wt', encoding='utf-8') as file:
+    with open(output_file_path, 'wt', encoding='utf-8') as file:
         json.dump(word_list, file, indent=4, ensure_ascii=False)
 
     print(f'{len(word_list)} words written')
@@ -1156,11 +1161,11 @@ def generate_highlighted_html(sentence, substrings, de_sent):
     return html_table
 
 
-def get_image_prompt(de_sent, temperature=0.7):
+def get_image_prompt(sent, temperature=0.7, split_at=None):
     with open("prompt_image_prompt.txt", "r") as file:
         template = Template(file.read())
 
-    filled_prompt = template.substitute(de_sent=de_sent)
+    filled_prompt = template.substitute(sent=sent)
 
     completion = client.chat.completions.create(
         model=MODEL,
@@ -1169,4 +1174,9 @@ def get_image_prompt(de_sent, temperature=0.7):
     )
 
     answer_raw = completion.choices[0].message.content
+
+    if split_at:
+        index = answer_raw.rindex(split_at)
+        answer_raw = answer_raw[index+len(split_at):].strip()
+
     return answer_raw
